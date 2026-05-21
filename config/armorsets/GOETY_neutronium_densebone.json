@@ -34,6 +34,16 @@
     },
     {
       "type": "attribute",
+      "name": "minecraft:generic.knockback_resistance",
+      "value": 1.0,
+      "modifierUUID": "d41c49c8-edaa-477b-a299-69a1ebced862",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
       "name": "obscure_api:critical_damage",
       "value": 0.1,
       "modifierUUID": "f9aa05f4-4698-469c-8b03-2c26d3f9b8a8",
