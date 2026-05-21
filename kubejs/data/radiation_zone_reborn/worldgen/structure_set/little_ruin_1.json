@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "radiation_zone_reborn:little_ruin_1",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 20,
+    "separation": 8,
+    "salt": 622575441
+  }
+}

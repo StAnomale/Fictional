@@ -1,0 +1,97 @@
+{
+
+  "info.tally_master.tally.milestone": "%s 狩猎了 %s次 %s!",
+
+  "info.tally_master.tally.looting": "%s's 的抢夺 %s 的等级提高到了 %s",
+
+  "info.tally_master.tally.lootingMax": "%s 对 %s 的抢夺等级到达最高",
+
+
+
+  "advancements.tally_master.root.title": "狩猎旗帜",
+
+  "advancements.tally_master.root.description": "杀敌里程碑，可以增加对相应生物伤害和减少来自该生物的伤害.",
+
+  "advancements.tally_master.arch_illager.title": "掠夺者领袖",
+
+  "advancements.tally_master.arch_illager.description": "击杀100次村民.",
+
+  "advancements.tally_master.blazed_out.title": "烈焰灭尽",
+
+  "advancements.tally_master.blazed_out.description": "击杀25次烈焰人.",
+
+  "advancements.tally_master.bone_breaker.title": "挫骨扬灰",
+
+  "advancements.tally_master.bone_breaker.description": "击杀25次骷髅.",
+
+  "advancements.tally_master.creeper_crusher.title": "苦力怕粉碎机",
+
+  "advancements.tally_master.creeper_crusher.description": "击杀25次苦力怕.",
+
+  "advancements.tally_master.dragon_slayer.title": "屠龙之人",
+
+  "advancements.tally_master.dragon_slayer.description": "击杀25次末影龙.",
+
+  "advancements.tally_master.fish_market.title": "鱼鲜市场",
+
+  "advancements.tally_master.fish_market.description": "击杀25次热带鱼、鳕鱼和鲑鱼.",
+
+  "advancements.tally_master.ghastbuster.title": "恶魂克星",
+
+  "advancements.tally_master.ghastbuster.description": "击杀25次恶魂",
+
+  "advancements.tally_master.glue_factory.title": "胶水制造厂",
+
+  "advancements.tally_master.glue_factory.description": "击杀25匹马",
+
+  "advancements.tally_master.making_bacon.title": "制作培根",
+
+  "advancements.tally_master.making_bacon.description": "击杀25次疣猪兽",
+
+  "advancements.tally_master.mass_exorcism.title": "大型驱魔仪式",
+
+  "advancements.tally_master.mass_exorcism.description": "击杀25次凋灵.",
+
+  "advancements.tally_master.my_name_is_nobody.title": "无名者",
+
+  "advancements.tally_master.my_name_is_nobody.description": "击杀25次守卫者.",
+
+  "advancements.tally_master.pest_controller.title": "害虫防治专家",
+
+  "advancements.tally_master.pest_controller.description": "击杀25次蜘蛛，洞穴蜘蛛，蠹虫和末影螨.",
+
+  "advancements.tally_master.pest_controller.description2": "本整合包由 绘名青棺(Silentmo) 制作，联系QQ群：693928637",
+
+  "advancements.tally_master.phantom_pain.title": "幻影之殇",
+
+  "advancements.tally_master.phantom_pain.description": "击杀25次幻翼.",
+
+  "advancements.tally_master.rabbit_season.title": "兔子季!",
+
+  "advancements.tally_master.rabbit_season.description": "击杀25次兔子.",
+
+  "advancements.tally_master.retirement_home.title": "悠远的家园",
+
+  "advancements.tally_master.retirement_home.description": "击杀25次远古守卫者.",
+
+  "advancements.tally_master.shulker_shucker.title": "咔嗒，咔嗒",
+
+  "advancements.tally_master.shulker_shucker.description": "击杀25次潜影贝.",
+
+  "advancements.tally_master.slaughterhouse.title": "屠宰场",
+
+  "advancements.tally_master.slaughterhouse.description": "屠宰100头牲畜.",
+
+  "advancements.tally_master.slimy_squisher.title": "黏液碾压者",
+
+  "advancements.tally_master.slimy_squisher.description": "击杀100次史莱姆.",
+
+  "advancements.tally_master.village_protector.title": "村庄守卫者",
+
+  "advancements.tally_master.village_protector.description": "击杀100次掠夺者.",
+
+  "advancements.tally_master.witch_hunter.title": "女巫猎人",
+
+  "advancements.tally_master.witch_hunter.description": "击杀25次女巫."
+
+}

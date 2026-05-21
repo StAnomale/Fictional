@@ -1,0 +1,55 @@
+{
+
+    "entity.variantsandventures.gelid": "冻尸",
+
+    "entity.variantsandventures.murk": "阴骼",
+
+    "entity.variantsandventures.thicket": "丛僵",
+
+    "entity.variantsandventures.verdant": "茏骴",
+
+    "item_group.variantsandventures.main_tab": "易变与艰险",
+
+    "item.variantsandventures.gelid_spawn_egg": "冻尸刷怪蛋",
+
+    "item.variantsandventures.murk_spawn_egg": "阴骼刷怪蛋",
+
+    "item.variantsandventures.thicket_spawn_egg": "丛僵刷怪蛋",
+
+    "item.variantsandventures.verdant_spawn_egg": "茏骴刷怪蛋",
+
+    "subtitles.entity.variantsandventures.gelid.ambient": "冻尸：低吼",
+
+    "subtitles.entity.variantsandventures.gelid.attack": "门：晃动",
+
+    "subtitles.entity.variantsandventures.gelid.death": "冻尸：死亡",
+
+    "subtitles.entity.variantsandventures.gelid.hurt": "冻尸：受伤",
+
+    "subtitles.entity.variantsandventures.murk.ambient": "阴骼：咯咯声",
+
+    "subtitles.entity.variantsandventures.murk.attack": "阴骼：射击",
+
+    "subtitles.entity.variantsandventures.murk.death": "阴骼：死亡",
+
+    "subtitles.entity.variantsandventures.murk.hurt": "阴骼：受伤",
+
+    "subtitles.entity.variantsandventures.snowball.impact": "雪球：撞击",
+
+    "subtitles.entity.variantsandventures.thicket.ambient": "丛僵：低吼",
+
+    "subtitles.entity.variantsandventures.thicket.attack": "门：晃动",
+
+    "subtitles.entity.variantsandventures.thicket.death": "丛僵：死亡",
+
+    "subtitles.entity.variantsandventures.thicket.hurt": "丛僵：受伤",
+
+    "subtitles.entity.variantsandventures.verdant.ambient": "茏骴：咯咯声",
+
+    "subtitles.entity.variantsandventures.verdant.attack": "茏骴：射击",
+
+    "subtitles.entity.variantsandventures.verdant.death": "茏骴：死亡",
+
+    "subtitles.entity.variantsandventures.verdant.hurt": "茏骴：受伤"
+
+}

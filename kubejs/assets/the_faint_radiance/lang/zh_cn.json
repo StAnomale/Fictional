@@ -1,0 +1,22 @@
+{
+  "entity.the_faint_radiance.holy": "圣辉之刃",
+  "effect.the_faint_radiance.penitence": "忏悔",
+  "advancements.blasphemy.title": "亵渎之路",
+  "death.attack.gleam.item": "%1$s 被 %2$s 以 %3$s 超度",
+  "entity.the_faint_radiance.lychnus": "终焉的暮光",
+  "entity.the_faint_radiance.the_photon": "",
+  "item.the_faint_radiance.shapeofsin": "罪之形",
+  "death.attack.absolute_radiance.player": "%1$s 升入天国",
+  "death.attack.gleam": "%1$s 安然长眠",
+  "item.the_faint_radiance.lychnus_spawn_egg": "终焉的暮光刷怪蛋",
+  "item.the_faint_radiance.shapeofsin.description_0": "……",
+  "subtitles.choir": "",
+  "entity.the_faint_radiance.radiance": "？",
+  "death.attack.absolute_radiance.item": "%1$s 升入天国",
+  "subtitles.spread": "",
+  "entity.the_faint_radiance.quake": "地震",
+  "death.attack.absolute_radiance": "%1$s 升入天国",
+  "death.attack.gleam.player": "%1$s 升入天国",
+  "advancements.blasphemy.descr": "汝能否抵达终末之境？",
+  "biome.the_faint_radiance.bright": "明光之地"
+}

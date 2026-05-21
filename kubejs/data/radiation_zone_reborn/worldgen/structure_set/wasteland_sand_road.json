@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "radiation_zone_reborn:wasteland_sand_road",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 24,
+    "separation": 12,
+    "salt": 251799709
+  }
+}

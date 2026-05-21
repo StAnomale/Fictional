@@ -1,0 +1,19 @@
+{
+  "structures": [
+    {
+      "structure": "goety:crypt",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 1876543456,
+    "spacing": 40,
+    "separation": 25,
+    "super_exclusion_zone": {
+      "chunk_count": 8,
+      "other_set": "#goety:crypt_avoid"
+    },
+    "spread_type": "triangular",
+    "type": "goety:random_spread"
+  }
+}

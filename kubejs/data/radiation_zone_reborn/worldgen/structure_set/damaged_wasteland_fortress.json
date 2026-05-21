@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "radiation_zone_reborn:damaged_wasteland_fortress",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 25,
+    "separation": 15,
+    "salt": 572337659
+  }
+}

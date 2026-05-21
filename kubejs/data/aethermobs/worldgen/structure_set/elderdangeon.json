@@ -1,0 +1,15 @@
+{
+  "structures": [
+    {
+      "structure": "aethermobs:elderdangeon",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 47,
+    "separation": 28,
+    "min_distance_from_world_origin": 500,
+    "salt": 1331428560
+  }
+}

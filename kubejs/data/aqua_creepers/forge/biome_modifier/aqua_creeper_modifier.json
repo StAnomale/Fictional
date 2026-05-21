@@ -1,0 +1,23 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "jungle",
+    "swamp",
+    "ocean",
+    "cold_ocean",
+    "deep_cold_ocean",
+    "deep_frozen_ocean",
+	  "deep_lukewarm_ocean",
+	  "deep_ocean",
+	  "frozen_ocean",
+	  "lukewarm_ocean",
+	  "mangrove_swamp",
+	  "warm_ocean"
+  ],
+  "spawners": {
+    "type": "aqua_creepers:aqua_creeper",
+    "maxCount": 1,
+    "minCount": 1,
+    "weight": 1
+  }
+}

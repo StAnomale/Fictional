@@ -1,0 +1,34 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "goety:empty_focus"
+  },
+  "craftType": "sky",
+  "soulCost": 10,
+  "duration": 10,
+  "ingredients": [
+    {
+      "item": "obscure_api:astral_dust"
+    },
+    {
+      "tag": "forge:feathers"
+    },
+    {
+      "tag": "forge:dusts/glowstone"
+    },
+    {
+      "item": "minecraft:note_block"
+    },
+    {
+      "item": "minecraft:sugar_cane"
+    },
+    {
+      "item": "minecraft:grass"
+    }
+  ],
+  "result": {
+    "item": "goety:wind_core",
+    "count": 2
+  }
+}

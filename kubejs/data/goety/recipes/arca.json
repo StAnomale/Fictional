@@ -1,0 +1,39 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "goety:cursed_cage"
+  },
+  "craftType": "forge",
+  "soulCost": 100,
+  "duration": 20,
+  "ingredients": [
+    {
+      "item": "minecraft:recovery_compass"
+    },
+    {
+      "item": "goety:totem_of_souls"
+    },
+    {
+      "item": "minecraft:respawn_anchor"
+    },
+    {
+      "item": "bosses_of_mass_destruction:soul_star"
+    },
+    {
+      "item": "goety:dark_ingot"
+    },
+    {
+      "item": "minecraft:lodestone"
+    },
+    {
+      "tag": "forge:obsidian"
+    },
+    {
+      "tag": "forge:obsidian"
+    }
+  ],
+  "result": {
+    "item": "goety:arca"
+  }
+}

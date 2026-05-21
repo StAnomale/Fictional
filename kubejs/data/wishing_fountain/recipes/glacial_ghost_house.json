@@ -1,0 +1,19 @@
+{
+  "type": "wishing_fountain:wishing_fountain_recipe",
+  "wish_type": "structure",
+  "target": "goetyawaken:glacial_ghost_house",
+  "ingredients": [
+    {
+      "item": "goetyawaken:wraith_lantern"
+    },
+    {
+      "item": "royalvariations:royal_ender_pearl"
+    },
+    {
+      "item": "waystones:warp_scroll"
+    },
+    {
+      "item": "obscure_api:astral_dust"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "exclusion_zone": {
+      "chunk_count": 3,
+      "other_set": "aether:silver_and_gold_dungeons"
+    },
+    "frequency": 0.2,
+    "frequency_reduction_method": "legacy_type_1",
+    "salt": 317231207,
+    "separation": 4,
+    "spacing": 10
+  },
+  "structures": [
+	{
+      "structure": "explore_ruins_aether:moa_nest",
+      "weight": 1
+    },
+	{
+      "structure": "explore_ruins_aether:sky_lake",
+      "weight": 1
+    },
+	{
+      "structure": "explore_ruins_aether:holystone_circle",
+      "weight": 1
+    },
+	{
+      "structure": "explore_ruins_aether:holy_shrine",
+      "weight": 1
+    },
+	{
+      "structure": "explore_ruins_aether:valkyrie_ship",
+      "weight": 1
+    },
+	{
+      "structure": "explore_ruins_aether:valkyrie_library",
+      "weight": 1
+    },
+	{
+      "structure": "explore_ruins_aether:small_hellfire_dungeon",
+      "weight": 1
+    }
+  ]
+}

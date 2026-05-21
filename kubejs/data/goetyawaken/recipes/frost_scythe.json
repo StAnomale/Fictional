@@ -1,0 +1,39 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "goety:dark_metal_scythe"
+  },
+  "craftType": "frost",
+  "soulCost": 50,
+  "duration": 30,
+  "ingredients": [
+    {
+      "item": "goety:mystic_core"
+    },
+    {
+      "item": "mutantmore:mutant_frozen_zombie_spikes"
+    },
+    {
+      "item": "goety:ice_storm_focus"
+    },
+    {
+      "item": "goety:frozen_blade"
+    },
+    {
+      "item": "minecraft:blue_ice"
+    },
+    {
+      "item": "goety:chill_fabric"
+    },
+    {
+      "item": "goety:frost_staff"
+    },
+    {
+      "item": "goetyawaken:glacial_wraith_essence"
+    }
+  ],
+  "result": {
+    "item": "goetyawaken:frost_scythe"
+  }
+}

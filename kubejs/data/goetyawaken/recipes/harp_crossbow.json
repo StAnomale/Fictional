@@ -1,0 +1,45 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "aether_redux:subzero_crossbow"
+  },
+  "craftType": "forge",
+  "soulCost": 200,
+  "duration": 20,
+  "ingredients": [
+    {
+      "item": "goetyawaken:mucilage"
+    },
+    {
+      "item": "goetyawaken:mucilage"
+    },
+    {
+      "item": "advancednetherite:netherite_gold_ingot"
+    },
+    {
+      "item": "advancednetherite:netherite_gold_ingot"
+    },
+    {
+      "item": "advancednetherite:netherite_gold_ingot"
+    },
+    {
+      "item": "goety:dark_ingot"
+    },
+    {
+      "item": "goety:dark_ingot"
+    },
+    {
+      "item": "goetyawaken:glacial_wraith_essence"
+    },
+    {
+      "item": "goety:withered_manuscript"
+    },
+    {
+      "item": "bosses_of_mass_destruction:void_thorn"
+    }
+  ],
+  "result": {
+    "item": "goetyawaken:harp_crossbow"
+  }
+}

@@ -1,0 +1,53 @@
+{
+	"item.gunswithoutrosesadditions.utherium_bullet": "御腐弹",
+	"item.gunswithoutrosesadditions.utherium_bullet.desc": "对腐化生物造成 +%1$d%% 伤害",
+	"item.gunswithoutrosesadditions.froststeel_bullet": "霜钢弹",
+	
+	"item.gunswithoutrosesadditions.honey_crystal_bullet": "蜜蜂结晶弹",
+	
+	"item.gunswithoutrosesadditions.manasteel_gun": "魔钢枪",
+	"item.gunswithoutrosesadditions.manasteel_gun.desc": "消耗魔力自行修复",
+	"item.gunswithoutrosesadditions.elementium_gun": "源金枪",
+	"item.gunswithoutrosesadditions.terra_shotgun": "大地爆裂者",
+	"item.gunswithoutrosesadditions.terra_shotgun.desc": "同时发射魔力爆裂，造成 %1$d 伤害",
+	"item.gunswithoutrosesadditions.manasteel_bullet": "魔钢弹",
+	"item.gunswithoutrosesadditions.elementium_bullet": "源金弹",
+	"item.gunswithoutrosesadditions.elementium_bullet.desc": "受精灵祝福增益效果影响",
+	
+	"item.gunswithoutrosesadditions.balloon_bullet": "气球弹",
+	"item.gunswithoutrosesadditions.balloon_bullet.desc": "为目标系上气球",
+
+	"item.gunswithoutrosesadditions.zanite_gun": "紫晶枪",
+	"item.gunswithoutrosesadditions.zanite_gun.desc": "耐久度越低，伤害越高",
+	"item.gunswithoutrosesadditions.zanite_gun.cap": "上限：%s",
+	"item.gunswithoutrosesadditions.gravitite_shotgun": "重力晶霰弹枪",
+	"item.gunswithoutrosesadditions.gravitite_shotgun.desc": "击退附近实体",
+	"item.gunswithoutrosesadditions.zanite_bullet": "紫晶弹",
+	"tooltip.gunswithoutrosesadditions.bullet.aether": "对天境生物有效",
+	"lore.item.gunswithoutrosesadditions.zanite_gun": "紫晶武器需经受磨损方能展现真正力量。终有一日，这把手枪将蕴藏惊人火力。",
+	"lore.item.gunswithoutrosesadditions.gravitite_shotgun": "厚重设计将重力晶的力量凝聚为短距冲击波。",
+	"lore.item.gunswithoutrosesadditions.zanite_bullet": "子弹难以长久留存以发挥紫晶独特之力，但仍不失为有效投射体。",
+	"entity.gunswithoutrosesadditions.aether_bullet": "天境弹",
+
+	"item.gunswithoutrosesadditions.skyjade_gun": "穹玉枪",
+	"item.gunswithoutrosesadditions.skyjade_gun.desc": "耐久度越低，伤害越低",
+	"item.gunswithoutrosesadditions.skyjade_gun.cap": "下限：%s",
+	"lore.item.gunswithoutrosesadditions.skyjade_gun": "穹玉的翠绿光泽昭示其力量，亦显其脆弱。在它随风消散前，值得珍视。",
+
+	"item.gunswithoutrosesadditions.veridium_revolver": "辉蓝晶左轮",
+	"item.gunswithoutrosesadditions.veridium_revolver_infused": "灌注辉蓝晶左轮",
+	"lore.item.gunswithoutrosesadditions.veridium_revolver": "设计流畅，但辉蓝晶的重量令其难以驾驭。注入神能晶片应能解决此问题。",
+	"lore.item.gunswithoutrosesadditions.veridium_revolver_infused": "注入魔力的辉蓝晶使这把左轮轻若无物，旋转起来得心应手。",
+
+	"item.gunswithoutrosesadditions.arkenium_gun": "阿肯钢枪",
+	"item.gunswithoutrosesadditions.arkenium_bullet": "阿肯钢弹",
+	"tooltip.gunswithoutrosesadditions.bullet.base": "视为铁弹",
+	"lore.item.gunswithoutrosesadditions.arkenium_gun": "加工阿肯钢时有种奇特的熟悉感。若闭上双眼，几乎难以分辨它与铁制枪械的区别。",
+	"lore.item.gunswithoutrosesadditions.arkenium_bullet": "阿尔肯金属与铁的手感惊人相似。这些子弹完全可冒充铁弹。",
+
+	"item.gunswithoutrosesadditions.knightmetal_shotgun": "骑士金属爆裂者",
+	"item.gunswithoutrosesadditions.knightmetal_shotgun.desc": "每 %1$d 点护甲值增加 1 个弹丸",
+	"item.gunswithoutrosesadditions.knightmetal_shotgun.cap": "上限：%1$s",
+	"item.gunswithoutrosesadditions.knightmetal_bullet": "骑士金属弹",
+	"item.gunswithoutrosesadditions.knightmetal_bullet.desc": "若目标拥有护甲值，伤害 +%1$d%%"
+}

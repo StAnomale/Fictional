@@ -1,0 +1,65 @@
+{
+
+  "block.umbral_skies.hollow_golden_oak_log_climbable": "空心金橡木原木（可攀爬）",
+
+  "block.umbral_skies.hollow_golden_oak_log_horizontal": "空心金橡木原木（水平）",
+
+  "block.umbral_skies.hollow_golden_oak_log_vertical": "空心金橡木原木（垂直）",
+
+  "block.umbral_skies.hollow_skyroot_log_climbable": "空心天根原木（可攀爬）",
+
+  "block.umbral_skies.hollow_skyroot_log_horizontal": "空心天根原木（水平）",
+
+  "block.umbral_skies.hollow_skyroot_log_vertical": "空心天根原木（垂直）",
+
+  "block.umbral_skies.skyroot_banister": "天根木栏杆",
+
+  "block.umbral_skies.slider_trophy": "滑行魔石奖杯",
+
+  "block.umbral_skies.sun_spirit_trophy": "烈阳巨灵奖杯",
+
+  "block.umbral_skies.valkyrie_queen_trophy": "武神女王奖杯",
+
+  "item.umbral_skies.arctic_gloves": "极地护手",
+
+  "item.umbral_skies.fiery_gloves": "炽铁护手",
+
+  "item.umbral_skies.ironwood_gloves": "铁木护手",
+
+  "item.umbral_skies.knightmetal_gloves": "骑士金属护手",
+
+  "item.umbral_skies.naga_gloves": "娜迦护手",
+
+  "item.umbral_skies.phantom_gloves": "幻影护手",
+
+  "item.umbral_skies.steeleaf_gloves": "钢叶护手",
+
+  "item.umbral_skies.yeti_gloves": "雪怪护手",
+
+  "itemGroup.umbral_skies": "暮空奇境",
+
+  "lore.block.umbral_skies.skyroot_banister": "一种栏杆，如同在暮色森林中所见，不过是用天根木制成的。",
+
+  "lore.block.umbral_skies.slider_trophy": "滑行魔石的奖杯，它沉睡在青铜地牢之中。",
+
+  "lore.block.umbral_skies.sun_spirit_trophy": "烈阳巨灵的奖杯，它盘踞在黄金地牢深处。",
+
+  "lore.block.umbral_skies.valkyrie_queen_trophy": "武神女王的奖杯，她统治着白银地牢。",
+
+  "lore.item.umbral_skies.arctic_gloves": "极地护甲套装的饰品配件。",
+
+  "lore.item.umbral_skies.fiery_gloves": "炽铁护甲套装的饰品配件。",
+
+  "lore.item.umbral_skies.ironwood_gloves": "铁木护甲套装的饰品配件。",
+
+  "lore.item.umbral_skies.knightmetal_gloves": "骑士金属护甲套装的饰品配件。",
+
+  "lore.item.umbral_skies.naga_gloves": "娜迦护甲套装的饰品配件。",
+
+  "lore.item.umbral_skies.phantom_gloves": "幻影护甲套装的饰品配件。",
+
+  "lore.item.umbral_skies.steeleaf_gloves": "钢叶护甲套装的饰品配件。",
+
+  "lore.item.umbral_skies.yeti_gloves": "雪怪护甲套装的饰品配件。"
+
+}

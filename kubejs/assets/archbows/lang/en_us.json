@@ -1,0 +1,40 @@
+{
+  "itemGroup.archbowstab": "Arch Bows",
+  "item.archbows.longbow": "Long Bow",
+  "item.archbows.recurve": "Recurve Bow",
+  "item.archbows.shortbow": "Short Bow",
+  "item.archbows.flatbow": "Flat Bow",
+  "item.archbows.arbalest": "Arbalest",
+  "item.archbows.pistol_crossbow": "Pistol Crossbow",
+  "item.archbows.heavy_crossbow": "Heavy Crossbow",
+
+  "item.archbows.flax_string": "Flax String",
+  "item.archbows.linen_string": "Linen String",
+  "item.archbows.flax_seeds": "Blue Flax Seeds",
+
+
+  "item.archbows.flax": "Blue Flax",
+  "item.archbows.wild_flax": "Blue Flax",
+  "item.archbows.wild_flax2": "Blue Flax",
+  "item.archbows.potted_flax": "Potted Blue Flax",
+  "item.archbows.potted_flax2": "Potted Blue Flax",
+
+  "block.archbows.flax": "Blue Flax",
+  "block.archbows.wild_flax": "Blue Flax",
+  "block.archbows.wild_flax2": "Blue Flax",
+  "block.archbows.potted_flax": "Potted Blue Flax",
+  "block.archbows.potted_flax2": "Potted Blue Flax",
+
+
+
+  "tooltip.archbows.modifiers.bow.draw_length": "%s Draw Time",
+  "tooltip.archbows.modifiers.bow.draw_length.value": "%.2f",
+  "tooltip.archbows.modifiers.speed_multiplier": "%s Projectile Speed",
+  "tooltip.archbows.modifiers.speed_multiplier.value": "%.2f",
+  "tooltip.archbows.modifiers.crossbow.load_time": "%s Load Time",
+  "tooltip.archbows.modifiers.crossbow.load_time.value": "%.2f",
+  "tooltip.archbows.modifiers.crossbow.aim_time": "%s Aim Time",
+  "tooltip.archbows.modifiers.crossbow.aim_time.value": "%.2f"
+
+
+}

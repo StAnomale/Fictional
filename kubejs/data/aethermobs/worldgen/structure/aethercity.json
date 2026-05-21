@@ -1,0 +1,45 @@
+{
+  "type": "minecraft:jigsaw",
+  "start_pool": "aethermobs:aethercity",
+  "size": 1,
+  "max_distance_from_center": 128,
+  "spawn_overrides": {},
+  "step": "surface_structures",
+  "terrain_adaptation": "none",
+  "start_height": {
+    "type": "minecraft:uniform",
+    "min_inclusive": {
+      "absolute": 30
+    },
+    "max_inclusive": {
+      "absolute": 128
+    }
+  },
+  "biomes": [
+    "deep_aether:yagroot_swamp",
+    "deep_aether:aerglow_forest",
+    "deep_aether:blue_aerglow_forest",
+
+    "deep_aether:mystic_aerglow_forest",
+    "deep_aether:aerlavender_fields",
+    "deep_aether:luminescent_forest",
+    "deep_aether:golden_heights",
+    "deep_aether:golden_grove",
+    "deep_aether:cloud",
+    "aether_redux:cloudcaps",
+    "aether_redux:frosted_forests",
+    "aether_redux:glacial_tundra",
+
+    "aether_redux:gilded_groves",
+    "aether_redux:gilded_grasslands",
+    "aether_redux:the_blight",
+    "aether_redux:skyfields",
+    "aether_redux:skyroot_shrublands",
+
+   	"aether:skyroot_woodland",
+    "aether:skyroot_meadow",
+    "aether:skyroot_forest",
+    "aether:skyroot_grove"
+  ],
+  "use_expansion_hack": false
+}

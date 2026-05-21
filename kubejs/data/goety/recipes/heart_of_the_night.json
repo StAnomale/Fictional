@@ -1,0 +1,40 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "goety:soul_emerald"
+  },
+  "craftType": "necroturgy",
+  "research": "forbidden",
+  "soulCost": 100,
+  "duration": 10,
+  "ingredients": [
+    {
+      "item": "minecraft:phantom_membrane"
+    },
+    {
+      "item": "goety:ectoplasm"
+    },
+    {
+      "item": "goety:grave_dust"
+    },
+    {
+      "tag": "forge:slimeballs"
+    },
+    {
+      "tag": "forge:ender_pearls"
+    },
+    {
+      "item": "minecraft:clock"
+    },
+    {
+      "item": "goety:forbidden_fragment"
+    },
+    {
+      "item": "goety:forbidden_fragment"
+    }
+  ],
+  "result": {
+    "item": "goety:heart_of_the_night"
+  }
+}

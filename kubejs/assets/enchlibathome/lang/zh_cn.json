@@ -1,0 +1,16 @@
+{
+  "itemGroup.enchlibathome": "神化图书馆",
+  "block.enchlibathome.library": "附魔图书馆",
+  "block.enchlibathome.ender_library": "亚历山大图书馆",
+  "enchlibathome.ench.library": "附魔图书馆",
+  "tooltip.enchlib.capacity": "等级容量：%s",
+  "tooltip.enchlib.max_lvl": "可使用最高等级：%s",
+  "tooltip.enchlib.points": "已存储点数：%s/%s",
+  "tooltip.enchlib.unavailable": "下一等级不可用",
+  "tooltip.enchlib.extracting": "正在提取等级 %s",
+  "tooltip.enchlib.cost": "消耗点数：%s",
+  "tooltip.enchlib.item": "已存储 %d 个附魔。",
+  "info.enchlibathome.library": "附魔图书馆是用于存储附魔的方块。放入附魔书即可存入附魔。左键点击已存储的附魔可提取1级，Shift+点击可提取最高可用等级。",
+  "enchantment.level.16": "XVI",
+  "enchantment.level.31": "XXXI"
+}
