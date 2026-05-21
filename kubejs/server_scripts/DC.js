@@ -22,19 +22,10 @@ netheriteWeapons.forEach(weapon => {
     if (!player.potionEffects.isActive('kubejs:netherite')) return;
     if (player.cooldowns.isOnCooldown(weapon.itemId)) return;
 
-    const viewVector = player.getViewVector(1.0);
-    const length = Math.sqrt(viewVector.x() * viewVector.x() + viewVector.y() * viewVector.y() + viewVector.z() * viewVector.z());
-    const normalizedVector = {
-      x: viewVector.x() / length,
-      y: viewVector.y() / length,
-      z: viewVector.z() / length
-    };
-
-    const projectile = level.createEntity('cataclysm:blazing_bone');
-    projectile.setPosition(player.x + normalizedVector.x * 0.8, player.y + 1.1 + normalizedVector.y * 0.8, player.z + normalizedVector.z * 0.8);
-    projectile.setMotion(normalizedVector.x * 3.0, normalizedVector.y * 3.0, normalizedVector.z * 3.0);
-    projectile.setOwner(player);
-
+    /**
+     * @type {Internal.Projectile}
+     */
+    const projectile = global.shootProjectile('cataclysm:blazing_bone', player);
     const damage = player.getAttributeTotalValue('minecraft:generic.attack_damage');
     const adddamage = player.getAttributeTotalValue(weapon.addAttr);
     const setCOOLDOWNS = player.getAttributeTotalValue('minecraft:generic.attack_speed');
