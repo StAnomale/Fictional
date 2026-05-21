@@ -1,0 +1,39 @@
+{
+  "armorSetName": "helium_flamingo",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "artifacts:helium_flamingo",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "forge:swim_speed",
+      "value": 0.5,
+      "modifierUUID": "c81baef7-3487-4154-9570-28e97efacbfa",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "conditions": [
+        {
+          "type": "inDimension",
+          "inverted": true,
+          "extra": "minecraft:overworld"
+        }
+      ],
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor_toughness",
+      "value": 0.2,
+      "modifierUUID": "5b8e049e-28ba-44a6-825e-813cedc2a288",
+      "attributeOperation": 1,
+      "interactionType": "self"
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

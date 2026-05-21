@@ -1,0 +1,37 @@
+{
+  "armorSetName": "sun_core",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "deep_aether:sun_core",
+      "mustBeEmpty": false
+    },
+    {
+      "itemKey": "aether:obsidian_gloves",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:healing_power",
+      "value": 0.05,
+      "modifierUUID": "ea3adef1-7d2d-40ef-ab38-7997d4de8538",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "obscure_api:critical_damage",
+      "value": 0.05,
+      "modifierUUID": "2467c067-6dbb-4ccd-8c1a-fc00ca4bfdd1",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

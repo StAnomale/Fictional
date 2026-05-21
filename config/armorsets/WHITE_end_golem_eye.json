@@ -1,0 +1,40 @@
+{
+  "armorSetName": "end_golem_eye",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "ba_bt:end_golem_eye",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.max_health",
+      "value": 4.0,
+      "modifierUUID": "ae706dc1-18b1-4c73-a4b2-4a13259c4faf",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "obscure_api:penetration",
+      "value": 0.2,
+      "modifierUUID": "35eeb50b-b54c-48f2-b594-4410051e42f2",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "conditions": [
+        {
+          "type": "inDimension",
+          "extra": "minecraft:the_end"
+        }
+      ],
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

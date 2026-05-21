@@ -1,0 +1,34 @@
+{
+  "armorSetName": "skyjade_ring",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "deep_aether:skyjade_ring",
+      "mustBeEmpty": false
+    }
+  ],
+  "mainHand": {
+    "itemKey": "deep_aether:skyjade_sword",
+    "mixAndMatch": [
+      "gunswithoutrosesadditions:skyjade_gun",
+      "deep_aether:skyjade_axe",
+      "deep_aether:skyjade_pickaxe",
+      "deep_aether:skyjade_hoe",
+      "deep_aether:skyjade_shovel"
+      ],
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:critical_damage",
+      "value": 0.2,
+      "modifierUUID": "7c2ede32-241c-40ea-80fa-47c87332357a",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

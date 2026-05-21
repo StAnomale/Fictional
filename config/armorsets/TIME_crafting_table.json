@@ -1,0 +1,31 @@
+{
+  "armorSetName": "crafting_table",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "minecraft:crafting_table",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "functionalarmortrim:experience_boost",
+      "value": 0.1,
+      "modifierUUID": "3f0d568e-b379-4607-b467-5780f78168bf",
+      "attributeOperation": 1,
+      "interactionType": "self"
+    },
+    {
+      "type": "attribute",
+      "name": "forge:block_reach",
+      "value": 1.0,
+      "modifierUUID": "66026f32-0806-4558-95d3-a193923d13ec",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

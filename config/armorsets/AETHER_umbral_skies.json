@@ -1,0 +1,46 @@
+{
+  "armorSetName": "umbral_skies",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "umbral_skies:fiery_gloves",
+      "mixAndMatch": [
+      "umbral_skies:phantom_gloves",
+      "umbral_skies:yeti_gloves",
+      "umbral_skies:naga_gloves"
+      ],
+      "mustBeEmpty": false
+    }
+  ],
+  "mainHand": {
+    "itemKey": "twilightforest:knightmetal_sword",
+    "mixAndMatch": [
+      "twilightdelight:teardrop_sword",
+      "gunswithoutrosesadditions:knightmetal_shotgun",
+      "twilightforest:block_and_chain",
+      "twilightforest:knightmetal_pickaxe",
+      "twilightforest:knightmetal_axe",
+
+      "twilightforest:gold_minotaur_axe",
+      "twilightforest:diamond_minotaur_axe",
+      "better_minoshroomtaur:better_minotaur_axe",
+
+      "twilightforest:fiery_sword",
+      "twilightforest:fiery_pickaxe"
+      ],
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:magic_damage",
+      "value": 1.5,
+      "modifierUUID": "4442c51c-5940-475f-9cf5-fb06fcc13f18",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

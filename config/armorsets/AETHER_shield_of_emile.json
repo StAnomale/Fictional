@@ -1,0 +1,21 @@
+{
+  "armorSetName": "shield_of_emile",
+  "performanceMode": true,
+  "offHand": {
+    "itemKey": "lost_aether_content:shield_of_emile",
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:penetration",
+      "value": 0.2,
+      "modifierUUID": "dab5c0f4-8fee-4a02-b7a6-3edf668e6ccf",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

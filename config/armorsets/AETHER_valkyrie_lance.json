@@ -1,0 +1,27 @@
+{
+  "armorSetName": "valkyrie_lance",
+  "performanceMode": true,
+  "mainHand": {
+    "itemKey": "aether:valkyrie_lance",
+    "mixAndMatch": [
+      "aether:valkyrie_axe",
+      "aether:valkyrie_pickaxe",
+      "aether:valkyrie_hoe",
+      "aether:valkyrie_shovel"
+    ],
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "forge:entity_reach",
+      "value": 2.5,
+      "modifierUUID": "609dbf71-1890-446b-88e8-3d3933b9e261",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

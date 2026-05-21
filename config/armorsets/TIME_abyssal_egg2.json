@@ -1,0 +1,29 @@
+{
+  "armorSetName": "abyssal_egg",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "cataclysm:abyssal_egg",
+      "mustBeEmpty": false
+    },
+    {
+      "itemKey": "goety:abyss_crown",
+      "mixAndMatch": [
+      ],
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "goety:storm_potency",
+      "value": 1.0,
+      "modifierUUID": "31f1dc00-a707-4da7-ad8b-2b2b17a339dc",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

@@ -1,0 +1,96 @@
+
+["Boss Settings"]
+	#The maximum health of The Ultimate Time Manager
+	#Range: 1.0 ~ 1.7976931348623157E308
+	bossMaxHealth = 1000.0
+	#The base attack damage of The Ultimate Time Manager
+	#Range: 0.0 ~ 1.7976931348623157E308
+	bossAttackDamage = 20.0
+	#The movement speed of The Ultimate Time Manager
+	#Range: 0.0 ~ 2.0
+	bossMovementSpeed = 0.4
+	#The flying speed of The Ultimate Time Manager
+	#Range: 0.0 ~ 2.0
+	bossFlyingSpeed = 0.6
+	#The follow range of The Ultimate Time Manager
+	#Range: 1.0 ~ 512.0
+	bossFollowRange = 128.0
+	#The cooldown for the boss's time stop ability (in ticks)
+	#Range: 0 ~ 72000
+	bossTimeStopCooldown = 600
+	#The cooldown for the boss's divine wave ability in Phase 1 (in ticks)
+	#Range: 0 ~ 72000
+	bossDivineWaveCooldownPhase1 = 600
+	#The cooldown for the boss's divine wave ability in Phase 2 (in ticks)
+	#Range: 0 ~ 72000
+	bossDivineWaveCooldownPhase2 = 400
+
+["Chronos Gear Settings"]
+	#The damage dealt by Chronos Gear
+	#Range: 0.0 ~ 1.7976931348623157E308
+	chronosGearDamage = 10.0
+	#The maximum number of times Chronos Gear can bounce
+	#Range: 0 ~ 100
+	chronosGearMaxBounces = 3
+	#The number of ticks Chronos Gear waits before launching
+	#Range: 0 ~ 1200
+	chronosGearWaitTicks = 40
+	#The number of ticks Chronos Gear stays in the bounce state
+	#Range: 0 ~ 1200
+	chronosGearBounceTicks = 20
+	#The maximum number of ticks Chronos Gear can fly
+	#Range: 1 ~ 1200
+	chronosGearMaxFlyTicks = 60
+	#The flight speed of Chronos Gear
+	#Range: 0.1 ~ 10.0
+	chronosGearSpeed = 1.0
+
+["Divine Wave Settings"]
+	#The maximum radius of the Divine Wave
+	#Range: 1 ~ 256
+	divineWaveMaxRadius = 60
+	#The number of ticks it takes for the Divine Wave to expand
+	#Range: 1 ~ 600
+	divineWaveExpandTicks = 60
+	#The number of ticks the Divine Wave takes to fade out
+	#Range: 0 ~ 600
+	divineWaveFadeTicks = 10
+	#Minimum duration for effects applied by Divine Wave (in ticks)
+	#Range: 0 ~ 12000
+	divineWaveEffectDurationMin = 200
+	#Maximum duration for effects applied by Divine Wave (in ticks)
+	#Range: 0 ~ 12000
+	divineWaveEffectDurationMax = 340
+
+["Temporal Laser Settings"]
+	#The damage dealt by Temporal Laser
+	#Range: 0.0 ~ 1.7976931348623157E308
+	temporalLaserDamage = 10.0
+	#The charge time of the Temporal Laser (in ticks)
+	#Range: 1 ~ 600
+	temporalLaserChargeTime = 18
+	#The total duration of the Temporal Laser (in ticks)
+	#Range: 1 ~ 1200
+	temporalLaserDuration = 38
+	#The maximum range of the Temporal Laser
+	#Range: 1.0 ~ 512.0
+	temporalLaserRange = 64.0
+
+["Skill Cost Settings"]
+	#Base cost for Time Acceleration
+	#Range: 0.0 ~ 1000.0
+	costAcceleration = 5.0
+	#Cost for Time Stop
+	#Range: 0.0 ~ 1000.0
+	costTimeStop = 100.0
+	#Cost for Rewinding Time
+	#Range: 0.0 ~ 1000.0
+	costRewind = 150.0
+
+["Halo Ability Settings"]
+	#Cooldown on Death Nullification(seconds)
+	#Range: > 0
+	cooldowntimer = 200
+	#Whether multiple players can have the Time Halo simultaneously
+	allowMultipleHalos = false
+

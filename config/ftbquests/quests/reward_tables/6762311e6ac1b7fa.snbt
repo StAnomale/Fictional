@@ -1,0 +1,47 @@
+{
+	icon: "minecraft:writable_book"
+	id: "6762311E6AC1B7FA"
+	loot_size: 1
+	order_index: 6
+	rewards: [
+		{
+			auto: "no_toast"
+			command: "/curios replace chronicle 0 @p with kubejs:contrary_chronicle_easy"
+			elevate_perms: true
+			icon: "kubejs:contrary_chronicle_easy"
+			silent: true
+			team_reward: false
+			title: "简单模式"
+			type: "command"
+		}
+		{
+			auto: "no_toast"
+			command: "/curios replace chronicle 0 @p with kubejs:contrary_chronicle_normal"
+			elevate_perms: true
+			icon: "kubejs:contrary_chronicle_normal"
+			silent: true
+			team_reward: false
+			title: "普通模式"
+			type: "command"
+		}
+		{
+			auto: "no_toast"
+			command: "/curios replace chronicle 0 @p with kubejs:contrary_chronicle_hard"
+			elevate_perms: true
+			icon: "minecraft:writable_book"
+			silent: true
+			title: "困难模式"
+			type: "command"
+		}
+		{
+			auto: "no_toast"
+			command: "/curios replace chronicle 0 @p with kubejs:contrary_chronicle_hostility"
+			elevate_perms: true
+			icon: "minecraft:writable_book"
+			silent: true
+			title: "恶意模式"
+			type: "command"
+		}
+	]
+	title: "选择难度"
+}

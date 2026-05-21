@@ -1,0 +1,90 @@
+
+[Attributes]
+
+	[Attributes."Summoned Mobs"]
+
+		[Attributes."Summoned Mobs"."Ragno Servant"]
+			#How much Max Health Ragno Servants have, Default: 180.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			ragnoServantHealth = 900.0
+			#How much damage Ragno Servants deals, Default: 5.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			ragnoServantDamage = 10.0
+			#How much natural armor points Ragno Servants have, Default: 10.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			ragnoServantArmor = 20.0
+
+		[Attributes."Summoned Mobs"."Bound Freakager"]
+			#How much Max Health Bound Freakagers have, Default: 160.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			boundFreakagerHealth = 900.0
+			#How much damage Bound Freakagers deals, Default: 5.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			boundFreakagerDamage = 10.0
+			#How much damage Bound Freakagers' Scythe deals, Default: 5.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			boundFreakagerScytheDamage = 10.0
+			#How much natural armor points Bound Freakagers have, Default: 0.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			boundFreakagerArmor = 20.0
+			#How much damage Bound Freakagers' Axes deals, Default: 8.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			boundFreakagerAxeDamage = 16.0
+
+		[Attributes."Summoned Mobs"."Igniter Servant"]
+			#How much Max Health Igniter Servants have, Default: 24.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			igniterServantHealth = 24.0
+			#How much natural armor points Igniter Servants have, Default: 0.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			igniterServantArmor = 0.0
+
+		[Attributes."Summoned Mobs"."Engineer Servant"]
+			#How much Max Health Engineer Servants have, Default: 30.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			engineerServantHealth = 30.0
+			#How much natural armor points Engineer Servants have, Default: 0.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			engineerServantArmor = 0.0
+
+		[Attributes."Summoned Mobs"."Crocofang Servant"]
+			#How much natural armor points Crocofang Servants have, Default: 3.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			crocofangServantArmor = 6.0
+			#How much damage Crocofang Servants deals, Default: 8.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			crocofangServantDamage = 16.0
+			#How much Max Health Crocofang Servants have, Default: 40.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			crocofangServantHealth = 80.0
+
+		[Attributes."Summoned Mobs"."Preserver Servant"]
+			#How much Max Health Preserver Servants have, Default: 20.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			preserverServantHealth = 20.0
+			#How much natural armor points Preserver Servants have, Default: 0.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			preserverServantArmor = 0.0
+
+		[Attributes."Summoned Mobs"."Zombie Absorber"]
+			#How much natural armor points Zombie Absorbers have, Default: 0.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			zombieAbsorberArmor = 0.0
+			#How much Max Health Zombie Absorbers have, Default: 100.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			zombieAbsorberHealth = 100.0
+			#How much damage Zombie Absorbers deals, Default: 15.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			zombieAbsorberDamage = 15.0
+
+		[Attributes."Summoned Mobs"."Bound Engineer"]
+			#How much natural armor points Bound Engineers have, Default: 0.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			boundEngineerArmor = 0.0
+			#How much damage Bound Engineers deals, Default: 5.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			boundEngineerDamage = 5.0
+			#How much Max Health Bound Engineers have, Default: 30.0
+			#Range: 1.0 ~ 1.7976931348623157E308
+			boundEngineerHealth = 30.0
+

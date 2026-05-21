@@ -1,0 +1,27 @@
+{
+  "armorSetName": "DC_strange_key",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "cataclysm:strange_key",
+      "mustBeEmpty": false
+    }
+  ],
+  "mainHand": {
+    "itemKey": "cataclysm:soul_render",
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_speed",
+      "value": 0.3,
+      "modifierUUID": "f266abab-2b17-470b-8cda-323bd018601a",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

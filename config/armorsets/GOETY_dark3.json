@@ -1,0 +1,26 @@
+{
+  "armorSetName": "crown",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "goety:dark_robe",
+      "mixAndMatch": [
+        "goety:dark_robe_fancy"
+      ],
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "goety:void_potency",
+      "value": 0.5,
+      "modifierUUID": "b5c6057d-fe0d-4583-b132-51c9dc7ee946",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

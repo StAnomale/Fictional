@@ -1,0 +1,33 @@
+{
+  "armorSetName": "valkyrie_cape",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "aether:valkyrie_cape",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:critical_damage",
+      "value": 0.25,
+      "modifierUUID": "e5916218-42a8-47b8-b52b-6e3dffdc203b",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "functionalarmortrim:experience_boost",
+      "value": 0.25,
+      "modifierUUID": "f02b8806-06b9-4331-8b12-2aacc2d322d7",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

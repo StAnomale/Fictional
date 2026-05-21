@@ -1,0 +1,67 @@
+{
+  "armorSetName": "DC_essence_of_the_bees",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "the_bumblezone:essence_of_the_bees",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "the_bumblezone:wrath_of_the_hive",
+      "value": 0.0,
+      "attributeOperation": 1,
+      "interactionDuration": 300,
+      "interactionType": "attack",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:poison",
+      "interactionType": "immunity",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "effect",
+      "name": "the_bumblezone:wrath_of_the_hive",
+      "interactionType": "immunity",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "obscure_api:accuracy",
+      "value": 0.1,
+      "modifierUUID": "38f1e0a5-df81-45c4-b75e-ba56985b5316",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "obscure_api:healing_power",
+      "value": 0.4,
+      "modifierUUID": "259aaa71-0848-451e-a00e-3c5fac06a8c4",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "functionalarmortrim:experience_boost",
+      "value": 0.4,
+      "modifierUUID": "b5ee2f83-b0fe-45b2-bcd3-14736460bc4d",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

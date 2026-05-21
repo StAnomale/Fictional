@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:breakable",
+    "better_minoshroomtaur:better_minotaur_axe"
+  ],
+  "incompatible": [
+    "minecraft:mending",
+    "majruszsenchantments:incompatibility_curse"
+  ]
+}

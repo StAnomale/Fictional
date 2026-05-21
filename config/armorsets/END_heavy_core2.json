@@ -1,0 +1,41 @@
+{
+  "armorSetName": "END_heavy_core",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "trials:heavy_core",
+      "mixAndMatch": [
+      ],
+      "mustBeEmpty": false
+    }
+  ],
+  "mainHand": {
+    "itemKey": "trials:mace",
+    "mixAndMatch": [
+      "goety:philosophers_mace",
+      "cataclysm:brontes",
+      "radiation_zone_reborn:dustorm_hammer",
+
+      "goetyawaken:sun_grace",
+      "goetyawaken:mooshroom_mace",
+      "goety:stormlander",
+      "goety:great_hammer",
+      "goetyawaken:mace",
+      "goety:bonehead_hammer"
+      ],
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:critical_damage",
+      "value": 0.4,
+      "modifierUUID": "5519783d-aaff-44bf-bac5-d1c7df350f90",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

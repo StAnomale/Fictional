@@ -1,0 +1,66 @@
+{
+  "armorSetName": "ambrosium",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "aether:gravitite_helmet",
+    "mixAndMatch": [
+      "deep_aether:stratus_helmet",
+      "aether:zanite_helmet",
+      "deep_aether:skyjade_helmet"
+    ],
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "aether:gravitite_chestplate",
+    "mixAndMatch": [
+      "deep_aether:stratus_chestplate",
+      "aether:zanite_chestplate",
+      "deep_aether:skyjade_chestplate"
+    ],
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "aether:gravitite_leggings",
+    "mixAndMatch": [
+      "deep_aether:stratus_leggings",
+      "aether:zanite_leggings",
+      "deep_aether:skyjade_leggings"
+    ],
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "aether:gravitite_boots",
+    "mixAndMatch": [
+      "deep_aether:stratus_boots",
+      "aether:zanite_boots",
+      "deep_aether:skyjade_boots"
+    ],
+    "mustBeEmpty": false
+  },
+  "partialBonusRequiredAmount": 2,
+  "partialSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.movement_speed",
+      "value": 0.15,
+      "modifierUUID": "6e143162-60d3-44e1-8904-44f576f0ed8b",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor",
+      "value": 0.2,
+      "modifierUUID": "8073743d-2cdc-4232-a8ad-babb0d4f5417",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

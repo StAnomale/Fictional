@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:blaze"
+  ],
+  "incompatible": [
+    "minecraft:fire_aspect",
+    "majruszsenchantments:incompatibility_curse"
+  ]
+}

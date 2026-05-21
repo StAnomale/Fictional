@@ -1,0 +1,31 @@
+{
+  "armorSetName": "subzero_crossbow",
+  "performanceMode": true,
+  "mainHand": {
+    "itemKey": "aether_redux:subzero_crossbow",
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:critical_damage",
+      "value": 0.4,
+      "modifierUUID": "cec548a9-5b81-46ec-ba7e-cb6f2cfab417",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "obscure_api:magic_damage",
+      "value": 0.4,
+      "modifierUUID": "0b353b85-3512-44f9-bd06-9bb576681059",
+      "attributeOperation": 2,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

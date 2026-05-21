@@ -1,0 +1,41 @@
+{
+  "armorSetName": "flippers",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "artifacts:flippers",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "ba_bt:depth_dropper_effect",
+      "interactionType": "immunity",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor_toughness",
+      "value": 0.3,
+      "modifierUUID": "b1db95c7-41ef-44ef-a979-f0c804693ced",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "conditions": [
+        {
+          "type": "inWater"
+        }
+      ]
+    },
+    {
+      "type": "attribute",
+      "name": "forge:swim_speed",
+      "value": 0.25,
+      "modifierUUID": "46aaf661-860e-47e4-b5c9-d91ab7923c79",
+      "attributeOperation": 1,
+      "interactionType": "self"
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

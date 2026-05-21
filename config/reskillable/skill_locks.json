@@ -1,0 +1,55 @@
+{
+  "skillLocks": {
+    "minecraft:netherite_sword": ["attack:12"],
+    "minecraft:netherite_shovel": ["gathering:12"],
+    "minecraft:netherite_pickaxe": ["mining:12"],
+    "minecraft:netherite_axe": ["gathering:12"],
+    "minecraft:netherite_hoe": ["farming:12"],
+    "minecraft:netherite_helmet": ["defense:12"],
+    "minecraft:netherite_chestplate": ["defense:12"],
+    "minecraft:netherite_leggings": ["defense:12"],
+    "minecraft:netherite_boots": ["defense:12"],
+    "minecraft:diamond_ore": ["mining:8"],
+    "minecraft:deepslate_diamond_ore": ["mining:8"],
+    "aether:gravitite_ore": ["mining:8"],
+    "enderitemod:enderite_ore": ["mining:20"],
+    "enderitemod:cracked_enderite_ore": ["mining:20"],
+    "minecraft:ancient_debris": ["mining:12"],
+
+    "goety:cryptic_eye": ["magic:16"],
+    "goety:blazing_horn": ["magic:16"],
+    "goety:dark_scroll": ["magic:20"],
+    "goety:void_eye": ["magic:24"],
+
+    "goety:arca": ["magic:20"],
+    "goety:necro_brazier": ["magic:20"],
+    "goety:witch_cauldron": ["magic:12"],
+
+    "bosses_of_mass_destruction:soul_star": ["magic:16"],
+    "bosses_of_mass_destruction:void_lily": ["farming:24"],
+    "bosses_of_mass_destruction:brimstone_nectar": ["magic:24"],
+
+    "radiation_zone_reborn:tyrant_eye": ["magic:24"],
+
+    "minecraft:glowstone": ["gathering:8"],
+    "better_minoshroomtaur:mushroom_trial_spawner": ["building:16"],
+    "better_minoshroomtaur:mushroom_key": ["building:16"],
+    "better_minoshroomtaur:maze_mushroom": ["building:20"],
+    "the_bumblezone:crystalline_flower": ["magic:12", "farming:12"],
+    "minecraft:wither_skeleton_skull": ["building:12"],
+    "eeeabsmobs:bloody_altar_eye": ["magic:20"],
+    "eeeabsmobs:guling_eye": ["magic:24"],
+    "minecraft:ender_eye": ["magic:16"],
+    "minecraft:end_crystal": ["magic:24"],
+    "meetyourfight:fossil_bait": ["magic:8"],
+    "meetyourfight:haunted_bell": ["magic:16"],
+    "meetyourfight:devils_ante": ["magic:16"],
+    "meetyourfight:dusk_key": ["magic:24"],
+    "minecraft:netherite_upgrade_smithing_template": ["building:16"],
+    "enderitemod:enderite_upgrade_smithing_template": ["building:24"],
+    "twilightforest:seeker_bow": ["agility:20"],
+    "twilightforest:ice_bow": ["agility:12"],
+    "twilightforest:ender_bow": ["agility:12"],
+    "twilightforest:triple_bow": ["agility:20"]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "armorSetName": "tarot_deck",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "tarotcards:tarot_deck",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "functionalarmortrim:experience_boost",
+      "value": 0.2,
+      "modifierUUID": "1d114145-ae1b-4b84-a368-d203edf46582",
+      "attributeOperation": 1,
+      "interactionType": "self"
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

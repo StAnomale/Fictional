@@ -1,0 +1,37 @@
+{
+  "armorSetName": "respawn_anchor",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "minecraft:respawn_anchor",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor",
+      "value": 0.2,
+      "modifierUUID": "99182444-db52-4a11-a7ce-d72feec8f8a7",
+      "attributeOperation": 1,
+      "interactionType": "self"
+    },
+    {
+      "type": "attribute",
+      "name": "obscure_api:magic_damage",
+      "value": -0.2,
+      "modifierUUID": "67ddb5e0-dabc-496b-b9b7-93f9ea668f63",
+      "attributeOperation": 2,
+      "interactionType": "self"
+    },
+    {
+      "type": "attribute",
+      "name": "functionalarmortrim:experience_boost",
+      "value": 0.2,
+      "modifierUUID": "02eef3eb-4cb1-4723-8122-13e3fcca3868",
+      "attributeOperation": 1,
+      "interactionType": "self"
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

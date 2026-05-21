@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:armor_feet"
+  ],
+  "incompatible": [
+    "fancyenchantments:air_attack",
+    "fancyenchantments:downwind",
+    "majruszsenchantments:incompatibility_curse",
+    "fancyenchantments:feather_fall",
+    "fancyenchantments:recoil",
+    "fancyenchantments:lightness",
+    "fancyenchantments:dexterity",
+    "fancyenchantments:wind_blade",
+    "fancyenchantments:reflecting",
+    "fancyenchantments:floating",
+    "fancyenchantments:blessed_wind",
+    "fancyenchantments:streamline",
+    "fancyenchantments:afterimage"
+  ]
+}

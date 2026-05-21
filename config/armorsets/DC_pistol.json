@@ -1,0 +1,37 @@
+{
+  "armorSetName": "DC_pistol",
+  "performanceMode": true,
+  "mainHand": {
+    "itemKey": "gunswithoutroses:gold_gun",
+    "mixAndMatch": [
+      "gunswithoutrosesadditions:zanite_gun",
+	    "gunswithoutrosesadditions:skyjade_gun",
+	    "gunswithoutrosesadditions:veridium_revolver",
+      "meetyourfight:dredged_cannonade",
+      "gwrexpansions:hellforge_revolver",
+      "gwrexpansions:tidal_pistol",
+      "gunswithoutroses:blaze_gun",
+      "the_bumblezone:crystal_cannon"
+      ],
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:magic_damage",
+      "value": 0.4,
+      "modifierUUID": "53c176d2-a754-4e0c-bd93-2f48b4750bc7",
+      "attributeOperation": 2,
+      "interactionType": "self"
+    },
+    {
+      "type": "attribute",
+      "name": "obscure_api:critical_damage",
+      "value": 0.4,
+      "modifierUUID": "1d9f3d07-6725-442f-aa7a-a9fb8bbf6fe3",
+      "attributeOperation": 0,
+      "interactionType": "self"
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

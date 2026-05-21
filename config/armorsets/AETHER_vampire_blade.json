@@ -1,0 +1,43 @@
+{
+  "armorSetName": "vampire_blade",
+  "performanceMode": true,
+  "mainHand": {
+    "itemKey": "aether:vampire_blade",
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:healing_power",
+      "value": -0.1,
+      "modifierUUID": "415ada54-d9e9-49bf-a150-ad3f35887129",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "conditions": [
+        {
+          "type": "timeRange",
+          "extra": "0,12500"
+        }
+      ],
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "obscure_api:healing_power",
+      "value": 0.1,
+      "attributeOperation": 1,
+      "modifierUUID": "7a9f65a5-b13a-49d8-b5c9-a79d3e6b96f7",
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false,
+      "conditions": [
+        {
+          "type": "timeRange",
+          "extra": "12500,23000"
+        }
+      ]
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

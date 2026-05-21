@@ -1,0 +1,42 @@
+{
+  "armorSetName": "meat_shredder",
+  "performanceMode": true,
+  "offHand": {
+    "itemKey": "cataclysm:meat_shredder",
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_damage",
+      "value": 2.0,
+      "modifierUUID": "e01d6aa9-1294-41b2-add8-62d787ca0534",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_damage",
+      "value": -0.25,
+      "modifierUUID": "d4e38927-5d90-44f8-b3ef-be82097ccc4f",
+      "attributeOperation": 2,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "obscure_api:magic_damage",
+      "value": -0.25,
+      "modifierUUID": "2f59a617-ee6c-4cb5-a002-03f1a82ab994",
+      "attributeOperation": 2,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

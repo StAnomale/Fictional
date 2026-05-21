@@ -1,0 +1,27 @@
+{
+  "armorSetName": "END_spiritual_crown5",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "royalvariations:spiritual_crown",
+      "mustBeEmpty": false
+    }
+  ],
+  "legs": {
+    "itemKey": "royalvariations:royal_knight_leggings",
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor",
+      "modifierUUID": "9df17fe6-7ac7-4090-b107-122368df65ee",
+      "value": 0.1,
+      "interactionType": "self",
+      "attributeOperation": 1,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

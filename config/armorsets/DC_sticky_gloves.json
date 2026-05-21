@@ -1,0 +1,23 @@
+{
+  "armorSetName": "DC_sticky_gloves",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "cataclysm:sticky_gloves",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor_toughness",
+      "value": 2.0,
+      "modifierUUID": "1259def1-e973-4e21-98b1-e3d764f17a0e",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    } 
+  ],
+  "hideGeneratedTooltip": true
+}

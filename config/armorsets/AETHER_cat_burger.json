@@ -1,0 +1,33 @@
+{
+  "armorSetName": "cat_burger",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "catburger:cat_burger",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.luck",
+      "value": 2.0,
+      "modifierUUID": "d7ef6610-d9b7-40c9-b772-cd91b34abdb0",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "functionalarmortrim:experience_boost",
+      "value": 0.4,
+      "modifierUUID": "0f6cf75a-85a3-4fae-9f9e-3e7dd9ddd4e2",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

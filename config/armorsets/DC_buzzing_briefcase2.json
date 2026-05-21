@@ -1,0 +1,27 @@
+{
+  "armorSetName": "DC_buzzing_briefcase2",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "the_bumblezone:buzzing_briefcase",
+      "mustBeEmpty": false
+    }
+  ],
+  "mainHand": {
+    "itemKey": "the_bumblezone:crystal_cannon",
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:magic_damage",
+      "value": 2.0,
+      "modifierUUID": "74501f0b-01be-4eec-928a-c1f3bf526356",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

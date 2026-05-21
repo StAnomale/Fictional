@@ -1,0 +1,27 @@
+{
+  "armorSetName": "DC_monstrous_horn",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "cataclysm:monstrous_horn",
+      "mustBeEmpty": false
+    }
+  ],
+  "head": {
+    "itemKey": "cataclysm:monstrous_helm",
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor",
+      "value": 0.3,
+      "modifierUUID": "0710ac21-3de6-4dce-b567-ed60b87e3d91",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

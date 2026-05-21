@@ -1,0 +1,32 @@
+{
+  "armorSetName": "DC_void_core",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "cataclysm:void_core",
+      "mustBeEmpty": false
+    }
+  ],
+  "mainHand": {
+    "itemKey": "cataclysm:void_core",
+    "mixAndMatch": [
+      "cataclysm:gauntlet_of_guard",
+      "cataclysm:void_forge",
+      "cataclysm:void_assault_shoulder_weapon"
+      ],
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:penetration",
+      "value": 0.25,
+      "modifierUUID": "9b827dac-959f-43c6-9817-02fc8f816071",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

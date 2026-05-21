@@ -1,0 +1,23 @@
+{
+  "armorSetName": "agility_cape",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "aether:agility_cape",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.movement_speed",
+      "value": 0.25,
+      "modifierUUID": "e1b5e0a3-8f51-43de-a9e0-f132dfb35dc6",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

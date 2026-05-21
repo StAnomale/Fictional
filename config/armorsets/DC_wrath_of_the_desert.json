@@ -1,0 +1,22 @@
+{
+  "armorSetName": "DC_wrath_of_the_desert",
+  "performanceMode": true,
+  "mainHand": {
+    "itemKey": "cataclysm:wrath_of_the_desert",
+    "mixAndMatch": [
+      "cataclysm:cursed_bow"
+      ],
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:magic_damage",
+      "value": 0.4,
+      "modifierUUID": "f0d14281-9bc4-40b6-850f-0372a80b6410",
+      "attributeOperation": 2,
+      "interactionType": "self"
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

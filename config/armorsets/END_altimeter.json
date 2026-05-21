@@ -1,0 +1,31 @@
+{
+  "armorSetName": "END_altimeter",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "supplementaries:altimeter",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "functionalarmortrim:experience_boost",
+      "value": 0.15,
+      "modifierUUID": "2d0a3e3d-02b9-4667-942d-e7700ec8c633",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_damage",
+      "value": 1.0,
+      "modifierUUID": "161b9cf9-993f-43a1-b58f-42214baa60ed",
+      "attributeOperation": 0,
+      "interactionType": "self"
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

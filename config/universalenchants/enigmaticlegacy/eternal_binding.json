@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:wearable",
+    "enigmaticaddons:evil_dagger"
+  ],
+  "incompatible": [
+    "majruszsenchantments:incompatibility_curse",
+    "minecraft:binding_curse",
+    "enigmaticaddons:redemption_curse",
+    "minecraft:vanishing_curse"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "armorSetName": "dark_sword",
+  "performanceMode": true,
+  "mainHand": {
+    "itemKey": "goety:dark_sword",
+    "mixAndMatch": [
+      "goety:hunters_bow",
+      "goety:dark_axe",
+      "goety:fell_blade",
+      "goety:rampaging_axe"
+      ],
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "goety:void_potency",
+      "value": 1.0,
+      "modifierUUID": "31bf65ac-f4c7-46eb-af2a-1ebd8204e137",
+      "attributeOperation": 0,
+      "interactionType": "self"
+    },
+    {
+      "type": "attribute",
+      "name": "obscure_api:penetration",
+      "value": 0.2,
+      "modifierUUID": "6bd48327-8c8f-4c37-8057-b73fa91f6326",
+      "attributeOperation": 0,
+      "interactionType": "self"
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

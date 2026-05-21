@@ -1,0 +1,27 @@
+{
+  "armorSetName": "knightmetal_shotgun",
+  "performanceMode": true,
+  "mainHand": {
+    "itemKey": "gunswithoutrosesadditions:knightmetal_shotgun",
+    "mixAndMatch": [
+      ],
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "twilightforest:phantom_chestplate",
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "gunswithoutroses:gwr.shotgun_projectiles",
+      "value": 1.0,
+      "modifierUUID": "cceb11ba-62a8-41e3-92a8-f9972ca98247",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

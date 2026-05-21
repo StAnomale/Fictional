@@ -1,0 +1,6041 @@
+{
+	autofocus_id: "45F31B918B36F1F2"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "7C77FFB04C9EE460"
+	group: "398A6045F9A23D02"
+	icon: {
+		Count: 1
+		id: "patchouli:guide_book"
+		tag: {
+			"patchouli:book": "goety:black_book"
+		}
+	}
+	id: "7C77FFB04C9EE460"
+	order_index: 1
+	quest_links: [
+		{
+			id: "7945C3A333F9A944"
+			linked_quest: "0272AEDB3D7D2439"
+			shape: "square"
+			x: 41.5d
+			y: -10.0d
+		}
+		{
+			id: "163F59DFB49D97AE"
+			linked_quest: "3C283BBE5671901B"
+			shape: "square"
+			x: 17.5d
+			y: -10.0d
+		}
+		{
+			id: "15369295F3860059"
+			linked_quest: "6BF1A1E585436F58"
+			shape: "square"
+			size: 2.0d
+			x: 36.0d
+			y: 6.0d
+		}
+		{
+			id: "3A0946EE14A03FD3"
+			linked_quest: "6C422B04702F4A22"
+			shape: "square"
+			size: 2.0d
+			x: 36.0d
+			y: -6.0d
+		}
+		{
+			id: "5F822826BBC704EF"
+			linked_quest: "777DD17382416015"
+			shape: "square"
+			size: 2.0d
+			x: 26.0d
+			y: -6.0d
+		}
+		{
+			disable_toast: true
+			id: "54C477631BC38C20"
+			linked_quest: "4D9A7DA2A09F2199"
+			shape: "square"
+			x: 41.5d
+			y: -0.5d
+		}
+		{
+			disable_toast: true
+			id: "502A197AD5D2EDE7"
+			linked_quest: "4D3AE1EFE728BCF6"
+			shape: "square"
+			x: 41.5d
+			y: 0.5d
+		}
+		{
+			disable_toast: true
+			id: "65F6D1DA97974C6B"
+			linked_quest: "03EDB627F638E2F4"
+			shape: "square"
+			x: 27.5d
+			y: -9.0d
+		}
+		{
+			disable_toast: true
+			id: "3CE075AAC65E5F14"
+			linked_quest: "1536CA438DC96913"
+			shape: "square"
+			x: 28.5d
+			y: -10.0d
+		}
+		{
+			disable_toast: true
+			id: "4EABF3B9BFCB4F86"
+			linked_quest: "03178C1EE692A002"
+			shape: "square"
+			x: 28.5d
+			y: -9.0d
+		}
+		{
+			disable_toast: true
+			id: "77BE142290549369"
+			linked_quest: "48611ECE71B75105"
+			shape: "square"
+			x: 27.5d
+			y: -10.0d
+		}
+		{
+			id: "73D0209AA6792831"
+			linked_quest: "11C0EB60CC5BCEBE"
+			shape: "square"
+			size: 2.0d
+			x: 34.0d
+			y: -6.0d
+		}
+		{
+			id: "124BC6EAABB62072"
+			linked_quest: "356D9C298B852A11"
+			shape: "square"
+			size: 2.0d
+			x: 34.0d
+			y: 6.0d
+		}
+		{
+			disable_toast: true
+			id: "441BE5DA6726840D"
+			linked_quest: "315E8817476349D4"
+			shape: "square"
+			x: 42.5d
+			y: 1.0d
+		}
+		{
+			disable_toast: true
+			id: "5A2FEC61FFF77D29"
+			linked_quest: "4D20B0C52890BB76"
+			shape: "square"
+			x: 42.5d
+			y: -1.0d
+		}
+		{
+			id: "05791CDC902E3E38"
+			linked_quest: "4258B0828A624C43"
+			shape: "square"
+			x: 31.5d
+			y: -0.5d
+		}
+		{
+			disable_toast: true
+			id: "4036711061BEE7CC"
+			linked_quest: "79B1B57BB534B92E"
+			shape: "square"
+			x: 42.5d
+			y: 0.0d
+		}
+		{
+			disable_toast: true
+			id: "7A0E166C02EA16D2"
+			linked_quest: "459EC40DDA46819A"
+			shape: "square"
+			x: 31.5d
+			y: -10.0d
+		}
+		{
+			disable_toast: true
+			id: "60E4BCA3A2E689DC"
+			linked_quest: "58B4ACAF6342F6FD"
+			shape: "square"
+			x: 31.5d
+			y: -9.0d
+		}
+		{
+			disable_toast: true
+			id: "2E7EB62772FD5758"
+			linked_quest: "1C47AD4E27390806"
+			shape: "square"
+			x: 32.5d
+			y: -9.0d
+		}
+		{
+			disable_toast: true
+			id: "1C27C559656E76FF"
+			linked_quest: "1AA1189505AABD93"
+			shape: "square"
+			x: 32.5d
+			y: -10.0d
+		}
+		{
+			id: "475086AAA623CBF9"
+			linked_quest: "36480ABD8FAD11DA"
+			shape: "square"
+			x: 37.5d
+			y: -3.5d
+		}
+		{
+			id: "00EDFBFABCB01DFA"
+			linked_quest: "392AC7D0D498CDF9"
+			shape: "square"
+			x: 37.5d
+			y: -2.5d
+		}
+		{
+			id: "4019A17BF44E1E10"
+			linked_quest: "331446ABED02B278"
+			shape: "square"
+			x: 37.5d
+			y: 2.5d
+		}
+		{
+			id: "12DF5580B9D07C2A"
+			linked_quest: "0A7B444DF8FEA2D5"
+			shape: "square"
+			x: 37.5d
+			y: 3.5d
+		}
+		{
+			disable_toast: true
+			id: "274ADC7D13B418AA"
+			linked_quest: "4F6011112FC73CB5"
+			shape: "square"
+			x: 17.5d
+			y: 10.5d
+		}
+		{
+			disable_toast: true
+			id: "0C0AF7ADA8A1A8A9"
+			linked_quest: "102248F60AA08F53"
+			shape: "square"
+			x: 18.5d
+			y: 10.5d
+		}
+		{
+			id: "3F6762DE0F020B6E"
+			linked_quest: "71905B93E1DEF842"
+			shape: "square"
+			x: 17.5d
+			y: 0.5d
+		}
+		{
+			id: "41141319D7860FB0"
+			linked_quest: "64EE2E6CAF62C904"
+			shape: "square"
+			x: 14.5d
+			y: 6.5d
+		}
+		{
+			id: "6669C119207FDB4D"
+			linked_quest: "76A83F0EB10596BF"
+			shape: "square"
+			x: 31.5d
+			y: 0.5d
+		}
+		{
+			disable_toast: true
+			id: "5ACB4F32D3E0C6E8"
+			linked_quest: "7D75E18E5EB75DDA"
+			shape: "square"
+			x: 35.5d
+			y: -9.0d
+		}
+		{
+			disable_toast: true
+			id: "6721BD18D71E0DBF"
+			linked_quest: "7C9D2AF8B66AB9EC"
+			shape: "square"
+			x: 35.5d
+			y: -10.0d
+		}
+		{
+			disable_toast: true
+			id: "3AAA823FC9CA45C7"
+			linked_quest: "746543B55FE82A46"
+			shape: "square"
+			x: 31.5d
+			y: 5.5d
+		}
+		{
+			id: "3F1CDD1F9F8CE221"
+			linked_quest: "01E3FC96EDA16565"
+			shape: "square"
+			x: 31.5d
+			y: -6.5d
+		}
+		{
+			disable_toast: true
+			id: "7B7EACD8AEA05D97"
+			linked_quest: "6AC84D3ADB33763E"
+			shape: "square"
+			x: 31.5d
+			y: 6.5d
+		}
+		{
+			id: "74D958B55694C01E"
+			linked_quest: "2E4498E31020B610"
+			shape: "square"
+			x: 31.5d
+			y: -5.5d
+		}
+		{
+			disable_toast: true
+			id: "78B2DEF1C776B415"
+			linked_quest: "7DE8450448857DAB"
+			shape: "square"
+			x: 50.5d
+			y: 5.5d
+		}
+		{
+			disable_toast: true
+			id: "3E1054CA7DDE815D"
+			linked_quest: "46602DFA43AF8467"
+			shape: "square"
+			size: 2.0d
+			x: 57.0d
+			y: 0.0d
+		}
+		{
+			disable_toast: true
+			id: "3E14107556ABE876"
+			linked_quest: "56C260CCED0E43CD"
+			shape: "square"
+			x: 63.5d
+			y: -2.5d
+		}
+		{
+			disable_toast: true
+			id: "3D84FCDCADCB4B7D"
+			linked_quest: "06097773E9744423"
+			shape: "square"
+			x: 63.5d
+			y: 2.5d
+		}
+		{
+			disable_toast: true
+			id: "1C35083B8C455167"
+			linked_quest: "2F94708190D87058"
+			shape: "square"
+			x: 63.5d
+			y: -3.5d
+		}
+		{
+			disable_toast: true
+			id: "414D650FF7F0DE60"
+			linked_quest: "2D5F23F45CDA57F8"
+			shape: "square"
+			x: 62.5d
+			y: -3.5d
+		}
+		{
+			disable_toast: true
+			id: "1AFFC4C8044D3C8E"
+			linked_quest: "278398E3C717FD8C"
+			shape: "square"
+			x: 62.5d
+			y: -2.5d
+		}
+		{
+			disable_toast: true
+			id: "239515282189D8A6"
+			linked_quest: "2849501BEE152AF7"
+			shape: "square"
+			x: 62.5d
+			y: 2.5d
+		}
+		{
+			disable_toast: true
+			id: "050EED6839C0460A"
+			linked_quest: "4BEA57D2B568A07E"
+			shape: "square"
+			x: 62.5d
+			y: 3.5d
+		}
+		{
+			disable_toast: true
+			id: "1648A0478AF8DFA7"
+			linked_quest: "01C6B45A5F054AE5"
+			shape: "square"
+			x: 50.5d
+			y: -3.5d
+		}
+		{
+			disable_toast: true
+			id: "57955C575D3F9DE4"
+			linked_quest: "486D7A8D2C3B95E4"
+			shape: "square"
+			x: 63.5d
+			y: 3.5d
+		}
+		{
+			disable_toast: true
+			id: "155D91C911F30D3E"
+			linked_quest: "7B7381CE58289BC2"
+			shape: "square"
+			x: 62.5d
+			y: -0.5d
+		}
+		{
+			disable_toast: true
+			id: "4290066C4025416D"
+			linked_quest: "4906C85509B87C8D"
+			shape: "square"
+			x: 63.5d
+			y: 0.5d
+		}
+		{
+			disable_toast: true
+			id: "636448349844AEA6"
+			linked_quest: "1C8E31BA50EFCA28"
+			shape: "square"
+			x: 62.5d
+			y: 0.5d
+		}
+		{
+			disable_toast: true
+			id: "45C8AE7DC8ACB597"
+			linked_quest: "11A7E2D8E3D90BEC"
+			shape: "square"
+			x: 58.5d
+			y: -0.5d
+		}
+		{
+			disable_toast: true
+			id: "483C16260B2C4F24"
+			linked_quest: "0F4FC2B00F7490B7"
+			shape: "square"
+			x: 58.5d
+			y: 0.5d
+		}
+		{
+			disable_toast: true
+			id: "702C2644488C1C63"
+			linked_quest: "4CFD55B15EC543B2"
+			shape: "square"
+			x: 50.5d
+			y: -2.5d
+		}
+		{
+			disable_toast: true
+			id: "1B0F79692F543DCB"
+			linked_quest: "655CB79909B9B312"
+			shape: "square"
+			x: 50.5d
+			y: 3.5d
+		}
+		{
+			disable_toast: true
+			id: "6811746DDA4672EC"
+			linked_quest: "1DB8BEC4E3490AEF"
+			shape: "square"
+			x: 50.5d
+			y: -5.5d
+		}
+		{
+			disable_toast: true
+			id: "178FEEDB556B5EA8"
+			linked_quest: "489D3C047F14CFF5"
+			shape: "square"
+			x: 50.5d
+			y: -6.5d
+		}
+		{
+			disable_toast: true
+			id: "02990B25310DC5AD"
+			linked_quest: "3CB0AEDA035919A6"
+			shape: "square"
+			x: 50.5d
+			y: 2.5d
+		}
+		{
+			disable_toast: true
+			id: "3F760ADFBCC83EBF"
+			linked_quest: "0EAB78EACBEEDF6B"
+			shape: "square"
+			x: 50.5d
+			y: -0.5d
+		}
+		{
+			disable_toast: true
+			id: "6F33F1890CE40BDA"
+			linked_quest: "1B2E96A7F156A628"
+			shape: "square"
+			x: 27.5d
+			y: -2.5d
+		}
+		{
+			disable_toast: true
+			id: "2F65B5899C9DBA96"
+			linked_quest: "5EAEA11315018858"
+			shape: "square"
+			x: 27.5d
+			y: 2.5d
+		}
+		{
+			disable_toast: true
+			id: "562773DA2F331371"
+			linked_quest: "17A9E9FBC71F3D32"
+			shape: "square"
+			x: 27.5d
+			y: 3.5d
+		}
+		{
+			disable_toast: true
+			id: "12C34577EED5814E"
+			linked_quest: "048091AD4B4AF7FE"
+			shape: "square"
+			x: 75.5d
+			y: 0.0d
+		}
+		{
+			disable_toast: true
+			id: "3338B6231992A98C"
+			linked_quest: "38847AF1FCA6203E"
+			shape: "square"
+			x: 74.5d
+			y: -0.5d
+		}
+		{
+			disable_toast: true
+			id: "449CB600FBBF629F"
+			linked_quest: "35A0D510EE153CA7"
+			shape: "square"
+			x: 74.5d
+			y: 0.5d
+		}
+		{
+			disable_toast: true
+			id: "5C8E00B79B3901AF"
+			linked_quest: "2BE065083726A2FC"
+			shape: "square"
+			x: 55.5d
+			y: 0.5d
+		}
+		{
+			disable_toast: true
+			id: "2877BC9D1E49E228"
+			linked_quest: "4FBFACBCA33BEA94"
+			shape: "square"
+			x: 55.5d
+			y: -0.5d
+		}
+		{
+			disable_toast: true
+			id: "624F3BE2B904E010"
+			linked_quest: "51E6B1485A4A31E5"
+			shape: "square"
+			size: 3.0d
+			x: 67.5d
+			y: 0.0d
+		}
+		{
+			disable_toast: true
+			id: "39AD5266D4CF458F"
+			linked_quest: "22ED48E9F18B57E7"
+			shape: "square"
+			size: 3.0d
+			x: 72.5d
+			y: 0.0d
+		}
+		{
+			disable_toast: true
+			id: "75ECE90DDA418A26"
+			linked_quest: "429698329752A4DA"
+			shape: "square"
+			x: 50.5d
+			y: 6.5d
+		}
+		{
+			disable_toast: true
+			id: "3CC0DEC687E3093C"
+			linked_quest: "56A77EFDA0D69B81"
+			shape: "square"
+			x: 16.5d
+			y: 6.5d
+		}
+		{
+			disable_toast: true
+			id: "75D1E8652B31BD6C"
+			linked_quest: "69E25B3B0DCC4588"
+			shape: "square"
+			x: 18.5d
+			y: 0.5d
+		}
+		{
+			disable_toast: true
+			id: "6EAA37C7F1E984C8"
+			linked_quest: "7BC754D25290798A"
+			shape: "square"
+			x: 18.5d
+			y: -0.5d
+		}
+		{
+			disable_toast: true
+			id: "125E375F7C6FB163"
+			linked_quest: "1D9C4DF1FF0DA8D3"
+			shape: "square"
+			x: 18.5d
+			y: 6.5d
+		}
+		{
+			disable_toast: true
+			id: "4B4B318E2816208D"
+			linked_quest: "7C80A37736AC536B"
+			shape: "square"
+			x: 17.5d
+			y: 5.5d
+		}
+		{
+			disable_toast: true
+			id: "02B72F496915A0CB"
+			linked_quest: "776273CF92B7675A"
+			shape: "square"
+			x: 16.5d
+			y: 5.5d
+		}
+		{
+			disable_toast: true
+			id: "08FF3C7A2E303FF2"
+			linked_quest: "70263256E414F589"
+			shape: "square"
+			x: 18.5d
+			y: 5.5d
+		}
+		{
+			disable_toast: true
+			id: "76EF21D19118086C"
+			linked_quest: "0D47ADC996A6D68B"
+			shape: "square"
+			x: 15.5d
+			y: 5.5d
+		}
+		{
+			disable_toast: true
+			id: "20C61F364E4FDAA4"
+			linked_quest: "2BDE99C13DE095BF"
+			shape: "square"
+			x: 14.5d
+			y: 5.5d
+		}
+		{
+			disable_toast: true
+			id: "58646CB9F109DA54"
+			linked_quest: "171251432250494F"
+			shape: "square"
+			x: 11.5d
+			y: 15.5d
+		}
+		{
+			disable_toast: true
+			id: "4E2CD301A1AD7634"
+			linked_quest: "7FBFC69DA835A322"
+			shape: "square"
+			x: 11.5d
+			y: 16.5d
+		}
+		{
+			disable_toast: true
+			id: "49BEBA6D85A983C9"
+			linked_quest: "4FBFACBCA33BEA94"
+			shape: "square"
+			x: 14.5d
+			y: 15.5d
+		}
+		{
+			disable_toast: true
+			id: "51CD4A915D56AB5A"
+			linked_quest: "2BE065083726A2FC"
+			shape: "square"
+			x: 14.5d
+			y: 16.5d
+		}
+		{
+			disable_toast: true
+			id: "0B81D609EB03AEDA"
+			linked_quest: "386E72F2489A5529"
+			shape: "square"
+			x: 23.5d
+			y: 15.5d
+		}
+		{
+			disable_toast: true
+			id: "2271FBACD4B1567C"
+			linked_quest: "18D2A02237367421"
+			shape: "square"
+			x: 23.5d
+			y: 16.5d
+		}
+		{
+			disable_toast: true
+			id: "040ECB3679DF4546"
+			linked_quest: "331446ABED02B278"
+			shape: "square"
+			x: 19.0d
+			y: 15.5d
+		}
+		{
+			disable_toast: true
+			id: "0276E827103A8C8C"
+			linked_quest: "0A7B444DF8FEA2D5"
+			shape: "square"
+			x: 19.0d
+			y: 16.5d
+		}
+		{
+			disable_toast: true
+			id: "5FCBE4DBA974BE79"
+			linked_quest: "2849501BEE152AF7"
+			shape: "square"
+			x: 16.0d
+			y: 15.5d
+		}
+		{
+			disable_toast: true
+			id: "122FB2A5FA252134"
+			linked_quest: "4BEA57D2B568A07E"
+			shape: "square"
+			x: 16.0d
+			y: 16.5d
+		}
+		{
+			disable_toast: true
+			id: "31E1ED68CD289F61"
+			linked_quest: "4E9B8EC9A444D426"
+			shape: "square"
+			x: 28.0d
+			y: 15.5d
+		}
+		{
+			disable_toast: true
+			id: "73D415334D103EB3"
+			linked_quest: "19D0E5863DE0C296"
+			shape: "square"
+			x: 28.0d
+			y: 16.5d
+		}
+		{
+			disable_toast: true
+			id: "0620A723CC2D5AFE"
+			linked_quest: "1429557E7EC1E83D"
+			shape: "square"
+			x: 32.5d
+			y: 15.5d
+		}
+		{
+			disable_toast: true
+			id: "5ECF973101AB14CD"
+			linked_quest: "2B437F27BF2D133B"
+			shape: "square"
+			x: 32.5d
+			y: 16.5d
+		}
+		{
+			disable_toast: true
+			id: "5DF188BC23A0512C"
+			linked_quest: "2C7547D006F65756"
+			shape: "square"
+			x: 37.0d
+			y: 16.5d
+		}
+		{
+			disable_toast: true
+			id: "35E37A57648E8399"
+			linked_quest: "2D299C2845A6F061"
+			shape: "square"
+			x: 41.5d
+			y: 16.5d
+		}
+		{
+			disable_toast: true
+			id: "76A5E8E23387F2E7"
+			linked_quest: "25062FEC894C08B7"
+			shape: "square"
+			x: 46.0d
+			y: 15.5d
+		}
+		{
+			disable_toast: true
+			id: "7633AEE536278A7D"
+			linked_quest: "2C92181E6D5AD505"
+			shape: "square"
+			x: 46.0d
+			y: 16.5d
+		}
+		{
+			disable_toast: true
+			id: "2562D29343828B75"
+			linked_quest: "69E25B3B0DCC4588"
+			shape: "square"
+			x: 51.0d
+			y: 15.5d
+		}
+		{
+			disable_toast: true
+			id: "20FF7F8BBE0ACB75"
+			linked_quest: "14478DA97FD1D729"
+			shape: "square"
+			x: 51.0d
+			y: 16.5d
+		}
+		{
+			disable_toast: true
+			id: "21A6E7FD67F854BC"
+			linked_quest: "747CB4C2A39CDBE8"
+			shape: "square"
+			x: 37.0d
+			y: 15.5d
+		}
+		{
+			disable_toast: true
+			id: "6706206F54D4D798"
+			linked_quest: "1794FAF9E0CD045A"
+			shape: "square"
+			x: 41.5d
+			y: 15.5d
+		}
+		{
+			disable_toast: true
+			id: "5C25F57ACD626274"
+			linked_quest: "6A5557961EBE7C4F"
+			shape: "square"
+			x: 17.5d
+			y: -0.5d
+		}
+		{
+			disable_toast: true
+			id: "6805AC374BACEDB5"
+			linked_quest: "6542429A4A47D7E9"
+			shape: "square"
+			x: 16.5d
+			y: -3.5d
+		}
+		{
+			disable_toast: true
+			id: "0D4E979045805B37"
+			linked_quest: "704F0D3569AC4F0C"
+			shape: "square"
+			x: 16.5d
+			y: -2.5d
+		}
+		{
+			disable_toast: true
+			id: "57A46B4678ADED82"
+			linked_quest: "306EF83EA11CF92A"
+			shape: "square"
+			x: 19.5d
+			y: 5.5d
+		}
+		{
+			disable_toast: true
+			id: "1E7604E3B785A5BB"
+			linked_quest: "035EA35EA8FE65E8"
+			shape: "square"
+			x: 17.5d
+			y: 6.5d
+		}
+		{
+			disable_toast: true
+			id: "720F866A51D1B834"
+			linked_quest: "47203CC7E47E8ADD"
+			shape: "square"
+			x: 15.5d
+			y: 6.5d
+		}
+		{
+			disable_toast: true
+			id: "63462C563EB0569F"
+			linked_quest: "5186CE8F5AC8E5F1"
+			shape: "square"
+			x: 50.5d
+			y: 0.5d
+		}
+		{
+			disable_toast: true
+			id: "4F7020AE122FA464"
+			linked_quest: "47C8DE844402293C"
+			shape: "square"
+			x: 27.5d
+			y: -3.5d
+		}
+		{
+			disable_toast: true
+			id: "7F3F4853A664EE22"
+			linked_quest: "11855E349C2DCB58"
+			shape: "square"
+			x: 49.5d
+			y: 0.5d
+		}
+		{
+			disable_toast: true
+			id: "13D04F641F41BE05"
+			linked_quest: "06C626FB0D27973D"
+			shape: "square"
+			x: 49.5d
+			y: -0.5d
+		}
+		{
+			disable_toast: true
+			id: "6E2A175F437479FD"
+			linked_quest: "4F74653B24466323"
+			shape: "square"
+			x: 19.5d
+			y: 6.5d
+		}
+		{
+			disable_toast: true
+			id: "71E21FC9136D606A"
+			linked_quest: "1E278A418BF40789"
+			shape: "square"
+			x: 17.0d
+			y: 3.0d
+		}
+		{
+			disable_toast: true
+			id: "3427B1004243C162"
+			linked_quest: "1FB6A8B4EED2BD39"
+			shape: "square"
+			x: 18.0d
+			y: 3.0d
+		}
+	]
+	quests: [
+		{
+			dependencies: ["686340B83FEF4DFD"]
+			description: [
+				"黑暗秘典本模组提供的指导书，里面&n详细介绍&r了诡厄巫法模组的玩法，请多多查阅以了解相关内容。"
+				""
+				"然而，这个世界的生灵天然&c不具有使用魔法的资质&r，只能通过“魔法代价”换取施法能力。"
+				""
+				"任何人只要拥有法术强效，就会触发“&d&n魔能渴望&r”:"
+				"&c■ 若你的法术强效大于0点，你造成的伤害下降50%"
+				"■ 若你的法术强效达到4点，你造成的伤害提升10%"
+				"&8法术强效每超过1点，提升10%造成伤害(至多240%)"
+			]
+			icon: {
+				Count: 1
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "goety:black_book"
+				}
+			}
+			icon_scale: 2.0d
+			id: "45F31B918B36F1F2"
+			rewards: [{
+				id: "642C4075BB985E32"
+				item: "goety:treasure_pouch"
+				type: "item"
+			}]
+			shape: "square"
+			size: 2.0d
+			subtitle: "多看书，多看书"
+			tasks: [{
+				id: "5C3397AB92D9DD58"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "goety:black_book"
+					}
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["03556395F584F50B"]
+			description: [
+				"蜘蛛巢穴的入口会在地表生成，是一个被掏空的缠魂大树，树干内有一个垂直向下的道路。这里是敌对 &d育母蜘蛛&r 唯一会生成的区域。"
+				""
+				"可以通过 &b许愿泉&r 获取对应结构的位置。这需要向许愿泉献出 &e&n发酵蛛眼&r 、皇家末影珍珠、传送卷轴、星界粉尘 。"
+			]
+			hide_dependency_lines: true
+			icon: "goety:spider_sac"
+			id: "1C1D13CBD1465DA8"
+			rewards: [
+				{
+					id: "6F527DB52C8A20C4"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "450974934210DB34"
+					table_id: 2184327557013803857L
+					type: "random"
+				}
+			]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				advancement: "goety:goety/find_spider_den"
+				criterion: ""
+				id: "62EFFE4BE495E944"
+				type: "advancement"
+			}]
+			title: "蜘蛛巢穴"
+			x: 26.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1C1D13CBD1465DA8"]
+			description: [
+				"深入蜘蛛巢穴，穿过被栅栏封起的房间，破坏&n蜘蛛之母巢穴&r方块，即可召唤敌对的 &d育母蜘蛛&r ；是等同2星的BOSS单位，击败可获得&e尖牙匕首&r和宝藏袋。"
+				""
+				"育母蜘蛛的攻击会造成&a中毒&r效果，能够喷吐蜘蛛网造成束缚效果，战斗时会召唤大量蜘蛛协同作战。"
+				""
+				"可以通过 &b许愿泉&r 获取对应结构的位置。这需要向许愿泉献出 &e&n发酵蛛眼&r 、皇家末影珍珠、传送卷轴、星界粉尘 。"
+			]
+			icon: "minecraft:cobweb"
+			id: "7BF80A0BB1325156"
+			rewards: [
+				{
+					id: "59A2AF02916FC2A3"
+					type: "xp"
+					xp: 500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "154B684547521A7C"
+					table_id: 2184327557013803857L
+					type: "random"
+				}
+			]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				advancement: "goety:goety/kill_a_brood_mother"
+				criterion: ""
+				id: "46F51275DFA7A9D2"
+				type: "advancement"
+			}]
+			title: "育母蜘蛛"
+			x: 30.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2498ABB734AECCBD"]
+			description: [
+				"使用黑暗铁砧时，所需的经验值更少，并且只会消耗对应的&n经验值&r，而不是经验等级。"
+				""
+				"当它被放在诅咒之笼上方时，黑暗铁砧可以消耗 &n500&r 点灵魂能量修复自己，使受损程度减少1级。"
+			]
+			icon: "goety:dark_anvil"
+			id: "3CE970202610FCAA"
+			rewards: [{
+				id: "7F4D4CAC59F94B7E"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "2650FEB06DBE1F36"
+				item: "goety:dark_anvil"
+				type: "item"
+			}]
+			x: 21.0d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"50F50E37AC6A6CC4"
+				"142719882E3B20BC"
+			]
+			dependency_requirement: "one_completed"
+			description: ["只能在 &n下界要塞&r 使用，可召唤&d凋灵死灵法师&r。可使用 &b灵魂珠&r 获取下界要塞位置，或在许愿泉中获取对应地图。"]
+			icon: "goety:blazing_horn"
+			id: "35289304CDBC61A6"
+			rewards: [
+				{
+					id: "0DE08B7D5DD6F659"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "48450C1D7B4D4190"
+					table_id: 2184327557013803857L
+					type: "random"
+				}
+			]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "4B8D0D2BA9C34DC7"
+				item: "goety:blazing_horn"
+				type: "item"
+			}]
+			x: 30.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["35289304CDBC61A6"]
+			description: [
+				"在 &n下界要塞&r 使用凋零号角召唤凋灵死灵法师；是等同2星的BOSS单位，击败可获得&d凋零手稿&r和下界合金碎片。"
+				""
+				"凋灵死灵法师的攻击可造成&d凋零&r与&c燃烧&r效果，可召唤至多 &n7&r 只凋零骷髅仆从作战，战斗时会召唤&c燃烧龙卷风&r。"
+				""
+				"&8击败凋灵死灵法师后，敌对野火将有概率自然生成。&r"
+			]
+			icon: "goety:withered_manuscript"
+			id: "24978CA3911B83C5"
+			rewards: [
+				{
+					id: "0FD3A685E1380791"
+					type: "xp"
+					xp: 500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5CF52B6F96CB5700"
+					table_id: 2184327557013803857L
+					type: "random"
+				}
+			]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "2A898FEA4F29E346"
+				item: "goety:withered_manuscript"
+				type: "item"
+			}]
+			title: "凋灵死灵法师"
+			x: 34.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["03556395F584F50B"]
+			description: [
+				"可使用 &a共振晶体&r 召唤，或者当你的灵魂能量达到 &n9000&r 点后， &d孤魂尸鬼&r 将有可能在周围生成；尖啸方尖碑不能阻止孤魂尸鬼的生成；其是至少2星的精英单位，击败可获得&e暗影精髓&r。"
+				""
+				"孤魂尸鬼仅会在玩家过于靠近自身 / 自身先被攻击时才会开始攻击目标；其能够瞬移、召唤腐尸蛆虫和孤魂分身，战斗时会对目标施加 &d黑暗&r 效果。"
+			]
+			icon: "goety:shadow_essence"
+			id: "6B39C70CE54BEEE2"
+			rewards: [
+				{
+					id: "784C0ADDF2ABC9A2"
+					type: "xp"
+					xp: 500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1547516AB34ECF2C"
+					table_id: 2184327557013803857L
+					type: "random"
+				}
+			]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "28EBC180A30F0604"
+				item: "goety:shadow_essence"
+				type: "item"
+			}]
+			title: "孤魂尸鬼"
+			x: 26.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["45F31B918B36F1F2"]
+			description: ["灵魂图腾是根之图腾的升级版，能够自动回复 &b&n灵魂能量&r ，并储存至多 &n5000&r 点灵魂能量。"]
+			icon: {
+				Count: 1
+				id: "goety:totem_of_souls"
+				tag: {
+					"Max Souls": 10000
+					Souls: 0
+				}
+			}
+			id: "03556395F584F50B"
+			rewards: [{
+				id: "48EC81DBEE1AAD33"
+				item: "goety:treasure_pouch"
+				type: "item"
+			}]
+			shape: "square"
+			size: 2.0d
+			subtitle: "自动回复灵魂能量"
+			tasks: [{
+				id: "385F069A7DA06F21"
+				item: {
+					Count: 1
+					id: "goety:totem_of_souls"
+					tag: {
+						"Max Souls": 5000
+						Souls: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 21.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6B39C70CE54BEEE2"]
+			description: [
+				"墓穴之眼可以用于定位主世界的 &d墓穴&r ，类似末影之眼，不同的是，墓穴之眼可重复使用16次，但在墓穴之眼被掷出后必然会破碎。可以附魔耐久与经验修补。"
+				""
+				"墓穴的入口会在地表生成，流躅死灵法师、缠魂甲胄、边境幽灵，以及 &d骷髅领主&r 将在墓穴内生成。"
+				""
+				"可以通过 &b许愿泉&r 获取对应结构的位置。这需要向许愿泉献出 &e&n墓穴之眼&r 、皇家末影珍珠、传送卷轴、星界粉尘 。"
+				""
+				"&8在墓穴内手持 &n重生锚&r&8 右击陶瓷坛，会使陶瓷坛重新回到锁定状态，使你可以重复挑战骷髅领主。"
+			]
+			icon: {
+				Count: 1
+				id: "goety:cryptic_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3F54C76FD9EB7B31"
+			rewards: [
+				{
+					id: "55EA569297096659"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7DD44ABBB6A10097"
+					table_id: 2184327557013803857L
+					type: "random"
+				}
+			]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "69E8346363337EA1"
+				item: {
+					Count: 1
+					id: "goety:cryptic_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "墓穴"
+			x: 30.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3F54C76FD9EB7B31"]
+			description: [
+				"墓穴的主墓室结构中存在 &n陶瓷坛&r ，右键后召唤&d骷髅领主&r；是等同2星的BOSS单位，击败可获得禁书片段。有概率从陶瓷坛中获得&d作祟卷轴&r、霜冻之刃、诅咒圣骑士金属盔甲。"
+				""
+				"骷髅领主免疫爆炸伤害，攻击将造成&d魔法伤害&r，战斗中会召唤至多 &n8&r 只仆从协助作战。"
+				""
+				"骨头领主将伴随着骷髅领主生成，骨头领主的护甲值较高，必须&e击败骨头领主&r才能攻击骷髅领主。"
+				""
+				"&8对骨头领主使用 &n除你铠甲&r&8 药剂后，可以获得骷髅领主身上穿戴的诅咒圣骑士金属盔甲。"
+				""
+				"&8在墓穴内手持 &n重生锚&r&8 右击陶瓷坛，会使陶瓷坛重新回到锁定状态，使你可以重复挑战骷髅领主。"
+			]
+			icon: "minecraft:skeleton_skull"
+			id: "72EF31D8493424E8"
+			rewards: [
+				{
+					id: "5E33741319019545"
+					type: "xp"
+					xp: 500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2B25136EB0034275"
+					table_id: 2184327557013803857L
+					type: "random"
+				}
+			]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				advancement: "goety:goety/kill_a_skull_lord"
+				criterion: ""
+				id: "2D98DDFB4554BC3E"
+				type: "advancement"
+			}]
+			title: "骷髅领主"
+			x: 34.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["777DD17382416015"]
+			description: [
+				"在主世界或暮色森林找到朽坏木屋，右键水晶球即可召唤 &d巫婆&r ；是等同2星的精英单位，有 &n85%&r 魔法抗性。击败可获得&e巫婆帽&r和宝藏袋。"
+				""
+				"当巫婆受到非魔法或爆炸伤害时，巫婆会对攻击者造成&a荆棘&r伤害。战斗过程中会对目标施加大量负面效果。"
+				""
+				"可以通过 &b许愿泉&r 获取对应结构的位置。这需要向许愿泉献出 &e&n女巫帽&r 、皇家末影珍珠、传送卷轴、星界粉尘 。"
+				""
+				"&8就像女巫类生物一样，巫婆对穿着女巫长袍并佩戴女巫帽/巫婆帽的玩家、穿着术士长袍的玩家和佩戴不洁圣冠/不洁长袍的玩家是中立的，能用绿宝石跟她&n&8交易&r&8。巫婆提供的物品比女巫更多，还有小概率得到禁书碎片。"
+			]
+			icon: "goety:crone_hat"
+			id: "6D7282761809A327"
+			rewards: [
+				{
+					id: "53818E59C4CD50A1"
+					type: "xp"
+					xp: 500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "074060C8D44B822F"
+					table_id: 2184327557013803857L
+					type: "random"
+				}
+			]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "325DF75CD6BB771A"
+				item: "goety:crone_hat"
+				type: "item"
+			}]
+			title: "巫婆"
+			x: 30.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["03556395F584F50B"]
+			description: [
+				"你必须尽快变强，不止提升 &d&n法术强效&r ，也要提升 &e&n护甲穿透/命中率/暴击率/暴击伤害/附加伤害&r 属性。"
+				""
+				"当你的灵魂能量达到 &n1250&r 点后，&d灾厄猎杀&r事件将有概率触发，一支精英灾厄村民小队会专门来消灭那些偷取灾厄村民魔法的异教徒。"
+				""
+				"你拥有的灵魂能量越多，灾厄猎杀队的队伍将越庞大。建造 &n尖啸方尖碑&r 可阻止灾厄猎杀事件的发生。"
+			]
+			icon: "goety:alarming_charm"
+			id: "59766994C8EF8283"
+			rewards: [
+				{
+					id: "7800CAD565803FED"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5F4ADFFB81AF3E63"
+					table_id: 2184327557013803857L
+					type: "random"
+				}
+			]
+			shape: "square"
+			size: 2.0d
+			subtitle: "是的，大部分法术都是物理伤害"
+			tasks: [{
+				id: "0AE8463808805324"
+				item: "goety:alarming_charm"
+				type: "item"
+			}]
+			title: "灾厄猎杀"
+			x: 24.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["59766994C8EF8283"]
+			description: [
+				"当你的灵魂能量达到 &n6250&r 点后， &d灾厄教父&r 将在灾厄猎杀事件中出现，或者在袭击的最终波次出现；是至少2星的BOSS单位。击败时，若其手中的不祥魔杖没有被摧毁，将掉落&d不祥核心&r。"
+				""
+				"灾厄教父会使用不祥魔杖格挡大多数攻击的伤害。不祥魔杖在吸收64点伤害后，下一次攻击将摧毁魔杖。若不祥魔杖被摧毁，灾厄教父将仅掉落不祥碎片。"
+			]
+			icon: "goety:ominous_orb"
+			id: "1DAB184BE9CA78ED"
+			rewards: [
+				{
+					id: "1CDEA11FEF54B71C"
+					type: "xp"
+					xp: 500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1E286C8650640735"
+					table_id: 2184327557013803857L
+					type: "random"
+				}
+			]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				advancement: "goety:goety/kill_a_minister"
+				criterion: ""
+				id: "66A2A218577D7BCC"
+				type: "advancement"
+			}]
+			title: "灾厄教父"
+			x: 30.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["58759A03C13959F3"]
+			description: [
+				"你必须先阅读战争卷轴才能阅读终结卷轴。阅读卷轴后。解锁制作强化红石块，召唤红石巨兽的方式。"
+				""
+				"&n被隐匿的蓝图&r需要击败 &d末影守望者&r 获取。"
+			]
+			icon: "goety:terminus_scroll"
+			id: "16A4E2C2C20A34CE"
+			rewards: [
+				{
+					id: "580C997F7BD708BE"
+					type: "xp"
+					xp: 500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0C951A7C54FF634F"
+					table_id: 2184327557013803857L
+					type: "random"
+				}
+			]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "7A142E4BE84D3DA5"
+				item: "goety:terminus_scroll"
+				type: "item"
+			}]
+			x: 57.0d
+			y: -6.0d
+		}
+		{
+			description: ["右键单击可阅读卷轴。阅读后将会解锁大师死灵仪式，也会解锁&n埋葬卷轴&r的研究进度，并且学会制作无名魔杖、无名王冠、无名长袍、暗夜之心。"]
+			icon: "goety:forbidden_scroll"
+			id: "4253922D02FAE0C1"
+			rewards: [
+				{
+					id: "4D999CB618046D29"
+					type: "xp"
+					xp: 500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4BFE9651A1B94289"
+					table_id: 2184327557013803857L
+					type: "random"
+				}
+			]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "030610B4EA0D0425"
+				item: "goety:forbidden_scroll"
+				type: "item"
+			}]
+			x: 53.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1DAB184BE9CA78ED"]
+			description: [
+				"只能在林地府邸中使用，可以召唤灾厄宰相/维齐尔。"
+				""
+				"可以通过 &b许愿泉&r 获取对应结构的位置。这需要向许愿泉献出 &e&n不死图腾&r 、绿宝石、深色橡木原木 。"
+			]
+			icon: "goety:dark_scroll"
+			id: "3C4B03D7A3618A98"
+			rewards: [
+				{
+					id: "5186A3751DAB3D7B"
+					type: "xp"
+					xp: 500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7CE7943CF28020C7"
+					table_id: 2184327557013803857L
+					type: "random"
+				}
+			]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "1CBCA11EB86F2451"
+				item: "goety:dark_scroll"
+				type: "item"
+			}]
+			x: 34.0d
+			y: 0.0d
+		}
+		{
+			description: ["可在&n要塞图书馆&r或&n远古城市&r获取。右键单击可阅读卷轴，解锁红石傀儡的制作方式。"]
+			icon: "goety:warred_scroll"
+			id: "58759A03C13959F3"
+			rewards: [
+				{
+					id: "3834C29BF81E09DD"
+					type: "xp"
+					xp: 500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2F5B16CD7BED8C7F"
+					table_id: 2184327557013803857L
+					type: "random"
+				}
+			]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "652330AB5F5634C0"
+				item: "goety:warred_scroll"
+				type: "item"
+			}]
+			x: 53.0d
+			y: -6.0d
+		}
+		{
+			description: [
+				"使用专家下界仪式对&n凋零手稿&r解密获取。右键单击可阅读卷轴，解锁相关研究进度。"
+				""
+				"允许玩家制造下界魔杖、燃烧之笼、不洁长袍、下界王冠、下界长袍、燃烧聚晶、召唤凋灵骷髅仆从，解锁烈焰人仆从与野火的制作。"
+			]
+			icon: "goety:bygone_scroll"
+			id: "1DA8555874FDEE50"
+			rewards: [
+				{
+					id: "0FF11C30449437CF"
+					type: "xp"
+					xp: 500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "19F10A05BB952074"
+					table_id: 2184327557013803857L
+					type: "random"
+				}
+			]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "0DD1ECAF4E80C331"
+				item: "goety:bygone_scroll"
+				type: "item"
+			}]
+			x: 36.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"使用 &d凋零手稿&r 可召唤使徒，或者使用&n安息仪式&r进行召唤。在下界召唤的使徒将获得额外增强。"
+				""
+				"使徒具有 &n200&r 点伤害限制，在下界时改为 &n100&r 点伤害限制，是等同4星的BOSS单位，击败将获得&c不洁之血&r，在下界击败将获得&c至纯之血&r和&d暗夜信标&r。"
+				""
+				"使徒属于亡灵生物，对火焰和魔法伤害具有抗性，免疫大部分负面效果。当使徒的生命值下降到 &n50%&r 以下时，使徒将回复全部生命值，进入第二阶段。"
+			]
+			icon: "goety:unholy_blood"
+			id: "0932901A953FDD92"
+			rewards: [
+				{
+					id: "2D2E9946C114513F"
+					type: "xp"
+					xp: 500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "743CCE3ED2B0FF12"
+					table_id: 2184327557013803857L
+					type: "random"
+				}
+			]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "407D7C8B2245D877"
+				item: "goety:unholy_blood"
+				type: "item"
+			}]
+			title: "使徒"
+			x: 61.0d
+			y: 6.0d
+		}
+		{
+			description: [
+				"使用玻璃瓶在末地的虚空中装填成为&n液态虚空瓶&r，制作并使用 &d虚空之眼&r ，在&n末地外岛&r前往 &d终末永狱&r 结构，通过完成试炼获取虚空钥匙。"
+				""
+				"对着虚空屏障使用 &e虚空钥匙&r 充能，随后生成一个附魔的末影遣使。击败末影谴使将获得1枚虚空碎片。虚空屏障的挑战有2分钟冷却时间。"
+				""
+				"可以通过 &b许愿泉&r 获取对应结构的位置。这需要向许愿泉献出 &e&n虚空之眼&r 、皇家末影珍珠、传送卷轴、星界粉尘 。"
+			]
+			icon: "goety:void_shard"
+			id: "6BFE354A276B6237"
+			rewards: [
+				{
+					id: "56AEC9F423FCCC42"
+					type: "xp"
+					xp: 500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3B8256EDF72D7E06"
+					table_id: 2184327557013803857L
+					type: "random"
+				}
+			]
+			shape: "square"
+			size: 2.0d
+			tasks: [
+				{
+					id: "79C86BD06DB494B0"
+					item: {
+						Count: 1
+						id: "goety:void_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "0F9BDCE9430F0087"
+					item: { Count: 4, id: "goety:void_shard" }
+					type: "item"
+				}
+			]
+			title: "末影谴使"
+			x: 61.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6BFE354A276B6237"]
+			description: [
+				"在&n末地外岛&r前往 &d终末永狱&r 结构顶层，对着虚空神龛使用4枚 &e虚空碎片&r 充能，随后生成末影守望者。"
+				""
+				"末影守望者具有 &n200&r 点伤害限制，是等同4星的BOSS单位，击败将获得&d虚空回响&r和&e被隐匿的蓝图&r。"
+				""
+				"末影守望者在受到伤害时，会为自己施加 &n20&r 刻的&e特殊无敌帧&r。攻击会给予被击实体&d虚空之蚀&r效果。"
+			]
+			icon: "goety:void_echo"
+			id: "6EC24F55C4F534CC"
+			rewards: [
+				{
+					id: "2E5128AD043B5B9D"
+					type: "xp"
+					xp: 500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "204101EF08DEC474"
+					table_id: 2184327557013803857L
+					type: "random"
+				}
+			]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "6B9F06228135F1BB"
+				item: "goety:void_echo"
+				type: "item"
+			}]
+			title: "末影守望者"
+			x: 61.0d
+			y: -3.0d
+		}
+		{
+			description: [
+				"可作为饰品佩戴。击败巡逻的掠夺者队长获取，喝下后使身上的&d不祥之兆&r提升1级，进入村庄将触发&c袭击&r事件（每级不祥之兆额外提升1波袭击）。当玩家持有不祥之兆靠近试炼刷怪笼后，会将其转换为不祥试炼刷怪笼。"
+				""
+				"袭击的总波数由&d世界难度&r决定，简单难度下为3波，普通为5波，困难为7波，若不祥之兆大于1级，每超过1级，则在最后额外生成1波袭击。请将&c世界难度调整到困难&r，否则将无法在袭击中出现魔法师或假面愚者。"
+			]
+			hide_dependency_lines: true
+			id: "7202F5FFD86E71C0"
+			rewards: [
+				{
+					id: "6156364ED46639AB"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "524510B6FC6BF404"
+					table_id: 2184327557013803857L
+					type: "random"
+				}
+			]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "6B7F8BB3E6C9561E"
+				item: "trials:ominous_bottle"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -9.5d
+		}
+		{
+			description: ["唤魔者、幻术师和冰术士会在许多结构以及袭击中出现。它们是至少1星的精英敌人，击败它们将有概率掉落奇异饰品，击败唤魔者会获得&d不死图腾&r，击败幻术师会获得&e幻象图腾&r，击败冰术士会获得&b寒冰图腾&r。"]
+			icon: "minecraft:evoker_spawn_egg"
+			id: "17560182E8F56B37"
+			rewards: [{
+				id: "49AFC13CD9784584"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [
+				{
+					id: "48CA029593A71BAF"
+					item: "minecraft:totem_of_undying"
+					type: "item"
+				}
+				{
+					id: "73D549E9A31D2C01"
+					item: "friendsandfoes:totem_of_illusion"
+					type: "item"
+				}
+				{
+					id: "417CF2608270A75B"
+					item: "friendsandfoes:totem_of_freezing"
+					type: "item"
+				}
+			]
+			title: "唤魔者、幻术师和冰术士"
+			x: 16.5d
+			y: -10.0d
+		}
+		{
+			description: ["在试炼密室打开&d不祥试炼&r宝库有概率获取，也可使用不祥试炼钥匙和下界合金锭制作。可用于制作重锤。"]
+			id: "76D0C6548C8C00EB"
+			rewards: [{
+				id: "663C2F8987143DFC"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "51C852606E34ACCC"
+				item: "trials:heavy_core"
+				type: "item"
+			}]
+			x: 17.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["7202F5FFD86E71C0"]
+			description: [
+				"可作为饰品佩戴，是不祥饰品的核心组件。召集之钟可使所有参与袭击的生物&e发光&r，还可将半径 &n128&r 格内所有参与袭击的生物&d瞬移&r到自身所在的位置。"
+				""
+				"破坏后不会掉落它自身。需要破坏其下方的方块，或者通过爆炸，获取其掉落物。"
+			]
+			id: "6B15F720E7737C04"
+			rewards: [
+				{
+					id: "4B3871FAA8B30BD1"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "017F13A81581D23F"
+					table_id: 2184327557013803857L
+					type: "random"
+				}
+			]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "1DD19512495B73FF"
+				item: "goety:hook_bell"
+				type: "item"
+			}]
+			x: 21.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["6B15F720E7737C04"]
+			description: [
+				"在袭击第4波概率出现，是至少2星的BOSS单位，怪人会骑乘腐败蜘蛛作战。杀死掉落&e可怖之袋&r。特别的，怪人和腐败蜘蛛分别拥有 &n30%&r 和 &n40%&r 护甲穿透。"
+				""
+				"在怪人死亡之前，腐败蜘蛛免疫所有伤害，怪人死亡之后，腐败蜘蛛会进入狂暴状态。腐败蜘蛛会&e格挡&r来自正面的攻击，在使用部分技能前后不会进行格挡。在使用4次技能后会进入&7虚弱状态&r，自身的免伤降低且不会进行移动和攻击。"
+				""
+				"参与袭击期间会处于&c临战状态&r，被白色外框标记，在除自己以外所有袭击成员未被击杀时，其不会进行攻击且无法受到伤害。"
+				""
+				"袭击的总波数由&d世界难度&r决定，简单难度下为3波，普通为5波，困难为7波，若不祥之兆大于1级，每超过1级，则在最后额外生成1波袭击。请将&c世界难度调整到困难&r，否则将无法在袭击中出现魔法师或假面愚者。"
+			]
+			icon: "illageandspillage:bag_of_horrors"
+			id: "756318B2C633B6ED"
+			rewards: [
+				{
+					id: "5644034E6AAE748D"
+					type: "xp"
+					xp: 500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "309A2F78231DF43E"
+					table_id: 2184327557013803857L
+					type: "random"
+				}
+				{
+					id: "16CD8FFA22D2261B"
+					item: "goety:treasure_pouch"
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				advancement: "illageandspillage:kill_freaky"
+				criterion: ""
+				id: "250B3D87F4B0BE0E"
+				type: "advancement"
+			}]
+			title: "怪人和腐败蜘蛛"
+			x: 26.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["6B15F720E7737C04"]
+			description: [
+				"在袭击第4波概率出现，是至少2星的BOSS单位，能够飞行，具有 &n50%&r 弹射物伤害抗性。杀死掉落&e咒缚书&r。"
+				""
+				"灵魂感应师会召唤&b生之灵&r，在&n击杀生之灵&r前，灵魂感应师不会进行攻击且&c无法受到伤害&r。"
+				""
+				"参与袭击期间会处于&c临战状态&r，被白色外框标记，在除自己以外所有袭击成员未被击杀时，其不会进行攻击且无法受到伤害。"
+				""
+				"袭击的总波数由&d世界难度&r决定，简单难度下为3波，普通为5波，困难为7波，若不祥之兆大于1级，每超过1级，则在最后额外生成1波袭击。请将&c世界难度调整到困难&r，否则将无法在袭击中出现魔法师或假面愚者。"
+			]
+			icon: {
+				Count: 1
+				id: "illageandspillage:spellbound_book"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "583C695F856897F6"
+			rewards: [
+				{
+					id: "21340D336958535D"
+					type: "xp"
+					xp: 500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7D7A6C106D6519A5"
+					table_id: 2184327557013803857L
+					type: "random"
+				}
+				{
+					id: "746DAA07A35685F9"
+					item: "goety:treasure_pouch"
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "1CE689326DA4B3D1"
+				item: {
+					Count: 1
+					id: "illageandspillage:spellbound_book"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "灵魂感应师"
+			x: 30.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["6B15F720E7737C04"]
+			description: [
+				"在袭击第8波（最后一波）出现，是至少3星的BOSS单位，能够飞行，具有 &n20&r 点伤害限制，难度较高。杀死掉落&e放逐图腾&r。"
+				""
+				"参与袭击期间会处于&c临战状态&r，被白色外框标记，在除自己以外所有袭击成员未被击杀时，其不会进行攻击且无法受到伤害。特别的，魔法师额外拥有 &n30%&r 闪避率。"
+				""
+				"袭击的总波数由&d世界难度&r决定，简单难度下为3波，普通为5波，困难为7波，若不祥之兆大于1级，每超过1级，则在最后额外生成1波袭击。请将&c世界难度调整到困难&r，否则将无法在袭击中出现魔法师或假面愚者。"
+			]
+			icon: "illageandspillage:totem_of_banishment"
+			id: "5C7D8C7423F18EE1"
+			rewards: [
+				{
+					id: "4770714916790DEC"
+					type: "xp"
+					xp: 500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "53F340C6484BD857"
+					table_id: 2184327557013803857L
+					type: "random"
+				}
+				{
+					id: "6289FCA4D32C4C41"
+					item: "goety:treasure_pouch"
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				advancement: "illageandspillage:kill_magi"
+				criterion: ""
+				id: "0D9ECA900A8431BC"
+				type: "advancement"
+			}]
+			title: "魔法师"
+			x: 34.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["5C7D8C7423F18EE1"]
+			description: [
+				"在袭击第8波（最后一波）出现，或者通过 &c神秘的红色信封&r 前往 &n化装舞会&r 结构。它是至少3星的BOSS单位，具有 &n20&r 点伤害限制。杀死掉落&e空白假面&r。特别的，假面愚者的护甲值较高，拥有 &n40%&r 护甲穿透。"
+				""
+				"参与&n袭击/舞会&r期间会处于&c临战状态&r，被白色外框标记，在其他成员未被击杀时，其不会攻击且无法受到伤害。"
+				""
+				"袭击的总波数由&d世界难度&r决定，简单难度下为3波，普通为5波，困难为7波，若不祥之兆大于1级，每超过1级，则在最后额外生成1波袭击。请将&c世界难度调整到困难&r，否则将无法在袭击中出现魔法师或假面愚者。"
+			]
+			icon: {
+				Count: 1
+				id: "masquerader_mod:blank_mask"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2E8C22FE03739502"
+			rewards: [
+				{
+					id: "5F882C44802475DF"
+					type: "xp"
+					xp: 500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "771B020BAE234EF4"
+					table_id: 2184327557013803857L
+					type: "random"
+				}
+				{
+					id: "049E2984B8DB5428"
+					item: "goety:treasure_pouch"
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				advancement: "masquerader_mod:kill_masquerader"
+				criterion: ""
+				id: "7EA20842F11BCAB1"
+				type: "advancement"
+			}]
+			title: "假面愚者"
+			x: 40.0d
+			y: -9.5d
+		}
+		{
+			description: ["可在掠夺者相关结构中获得，右键会变为一份指向&n假面舞会&r的地图，&d假面愚者&r就在舞会的上方，静候嘉宾。"]
+			icon: "masquerader_mod:invitation"
+			id: "376EA90668746BBF"
+			rewards: [{
+				id: "6E06ED9F6C01F64D"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "1B8757E4624F1D42"
+				item: "masquerader_mod:invitation"
+				type: "item"
+			}]
+			x: 41.5d
+			y: -9.0d
+		}
+		{
+			description: [
+				"试炼密室位于主世界的 &n地下&r 区域。当持有&d不祥之兆&r靠近试炼刷怪笼后，会将其转换为不祥试炼刷怪笼。完成试炼即可获得 &e不祥试炼钥匙&r 。"
+				""
+				"可通过许愿泉获取位置，这需要向许愿泉献出 &e&n铜块&r 、皇家末影珍珠、传送卷轴、星界粉尘 。"
+			]
+			id: "3EF92AB9C0B08093"
+			rewards: [{
+				id: "33330BA0A64886BC"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "4D2EFA6FE40D3429"
+				item: "trials:trial_key_ominous"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -9.0d
+		}
+		{
+			dependencies: [
+				"3C4B03D7A3618A98"
+				"72EF31D8493424E8"
+				"24978CA3911B83C5"
+				"2E8C22FE03739502"
+			]
+			description: [
+				"在&n林地府邸&r使用黑暗卷轴，可召唤灾厄宰相/维齐尔，是等同3星的BOSS单位，击败可获得&c灵魂红宝石&r。"
+				""
+				"灾厄宰相具有 &n200&r 点伤害限制。当锁定仇恨目标后，灾厄宰相每受到1次伤害，就会立即生成1个&c怒鬼&r。使用高频伤害攻击灾厄宰相将面对海量的怒鬼。"
+				""
+				"可以通过 &b许愿泉&r 获取对应结构的位置。这需要向许愿泉献出 &e&n不死图腾&r 、绿宝石、深色橡木原木 。"
+			]
+			icon: "goety:soul_ruby"
+			id: "19703B60757CA2A0"
+			rewards: [
+				{
+					id: "5B13E5567FF2C602"
+					type: "xp"
+					xp: 500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "370852427AF44DFC"
+					table_id: 2184327557013803857L
+					type: "random"
+				}
+			]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "533A3E56061564DE"
+				item: "goety:soul_ruby"
+				type: "item"
+			}]
+			title: "灾厄宰相"
+			x: 40.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["45F31B918B36F1F2"]
+			description: ["通过合成获得，需要放在任意生物的 &d刷怪笼&r 上方以激活使用。能够以更简单的方式制作特定材料。"]
+			icon: "goety:cursed_infuser"
+			id: "57B444943EA7BC3F"
+			rewards: [
+				{
+					id: "696EC67EDBF39AA3"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1D59376E69F3796F"
+					table_id: 2184327557013803857L
+					type: "random"
+				}
+			]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "4C21E6AAEF7C69D4"
+				item: "goety:cursed_infuser"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["03556395F584F50B"]
+			description: [
+				"灵魂方舟需要在 &n锻造仪式&r 中制作，能够为施法和仪式提供能量，至多可以储存 &n100000&r 点灵魂能量。"
+				""
+				"如果要使用灵魂方舟中储存的能量用以魔法仪式等，必须制作 &b连接宝石&r 将其绑定到玩家的灵魂方舟。然后将其作为灵魂图腾的替代品，放置在&n诅咒之笼&r中供能。"
+				""
+				"绑定到灵魂方舟的玩家可以在空手时，按 &ashift+右键&r 破坏自己的灵魂方舟，并获得其掉落物。灵魂能量仍然被储存其中，但玩家此时将获得 &c灵魂饥饿&r 的效果。"
+			]
+			icon: "goety:arca"
+			id: "32F9DFD8E8DA47FA"
+			rewards: [
+				{
+					id: "73DA152C27D51522"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6E6EEE8322A51A52"
+					table_id: 2184327557013803857L
+					type: "random"
+				}
+			]
+			shape: "square"
+			size: 2.0d
+			tasks: [
+				{
+					id: "15279A88A864314C"
+					item: "goety:arca"
+					type: "item"
+				}
+				{
+					id: "380175C606D830DE"
+					item: "goety:soul_transfer"
+					type: "item"
+				}
+			]
+			x: 21.0d
+			y: 3.0d
+		}
+		{
+			description: ["黑暗魔法的基础材料。"]
+			icon: "goety:magic_emerald"
+			id: "59A2424C5EDD60C4"
+			rewards: [{
+				id: "197AD02B76637340"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "4B85FCCFBBC4EB3E"
+				item: "goety:magic_emerald"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 3.5d
+		}
+		{
+			description: ["黑暗魔法的基础材料。"]
+			icon: "goety:cursed_ingot"
+			id: "422307917BFDC504"
+			rewards: [{
+				id: "06A8BB4B083C5132"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "7A88ED7D5557EADF"
+				item: "goety:cursed_ingot"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["57B444943EA7BC3F"]
+			description: [
+				"通过合成获得。可以将 &n根之图腾/灵魂图腾&r 放入诅咒之笼，或将已绑定 &d灵魂方舟&r 的 &n连接宝石&r 放入诅咒之笼，令其使用其中储存的灵魂能量。"
+				""
+				"使用 &n捕捉笼&r 可以将刷怪笼中的生物捕捉。捕捉到生物之后，手持捕捉笼右击诅咒之笼，可将其转换为 &d刷怪笼&r 。"
+			]
+			icon: "goety:cursed_cage"
+			id: "5C0572030597CCBB"
+			rewards: [
+				{
+					id: "6E47591F395C2947"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7CF380A9B343D1A7"
+					table_id: 2184327557013803857L
+					type: "random"
+				}
+			]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "11D02F57E34CFD07"
+				item: "goety:cursed_cage"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5C0572030597CCBB"]
+			description: [
+				"要使用黑暗祭坛，首先需要在黑暗祭坛下方放置一个 &d诅咒之笼&r ，并在诅咒之笼内放置一个能提供灵魂能量的道具（根之图腾/灵魂图腾/连接宝石）；这样，黑暗祭坛会亮起绿灯并发出黑暗粒子，表明激活成功。"
+				""
+				"黑暗祭坛被激活后，其半径 &n8&r 格方块内会形成有效区域，用于检测祭坛基座和魔法仪式的需求方块和实体。当黑暗祭坛的有效区域内拥有祭坛基座和对应魔法仪式需求的所有方块之后，就可以组成一个魔法仪式。"
+			]
+			icon: "goety:dark_altar"
+			id: "1EF9DF574337A22C"
+			rewards: [
+				{
+					id: "1392861E3A0B5C59"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7CB0712324F39783"
+					table_id: 2184327557013803857L
+					type: "random"
+				}
+			]
+			shape: "square"
+			size: 2.0d
+			tasks: [
+				{
+					id: "1F6D759BBCF41142"
+					item: "goety:dark_altar"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "1D4D48AACF93BC16"
+					item: { Count: 8, id: "goety:pedestal" }
+					type: "item"
+				}
+			]
+			title: "黑暗仪式"
+			x: 12.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["5472D645697AC64C"]
+			description: [
+				"亡灵火炉需要在 &n锻造仪式&r 中制作，且必须放置于 &n深暗之域&r 群系才能使用。可用于制作黑暗金属锭。"
+				""
+				"要启动亡灵火炉，需在其周围摆放 &d诅咒之笼&r ，将 &n根之图腾/灵魂图腾&r 放入诅咒之笼，或将已绑定灵魂方舟的 &n连接宝石&r 放入诅咒之笼，令其使用其中储存的灵魂能量。"
+				""
+				"之后，你需要在诅咒之笼上摆放 &d灵魂蜡烛&r ，亡灵火炉可从周围16x16x16内的多个灵魂蜡烛上吸取灵魂能量。"
+			]
+			icon: "goety:necro_brazier"
+			id: "4E7C9AFD68420B5B"
+			rewards: [{
+				id: "0DDB3FE8BCF0F053"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [
+				{
+					id: "7CDDF2AE7370FA17"
+					item: "goety:necro_brazier"
+					type: "item"
+				}
+				{
+					id: "28FDFA1BB1380F32"
+					item: "goety:soul_candlestick"
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["1EF9DF574337A22C"]
+			description: [
+				"尖啸方尖碑可以阻止 &n灾厄猎杀&r 和 &n袭击&r 在特定范围内生成。只有按照正确方式放置/激活的尖啸方尖碑才能产生实际效果。&c无法阻止孤魂尸鬼的生成。&r"
+				""
+				"尖啸方尖碑下方需要放置 &d诅咒之笼&r （需放入灵魂图腾 / 绑定灵魂方舟的连接宝石）；在激活的尖啸方尖碑下方放置至少 1 个高头骨；放置的高头骨数量越多，尖啸方尖碑覆盖的效果范围也会越大。"
+				""
+				"尖啸方尖碑需要在 &n锻造仪式&r 中制作，高头骨可通过击杀 &n村民&r 或任意 &n灾厄村民&r 获取。"
+			]
+			icon: "goety:shriek_obelisk"
+			id: "2DB2DD5212C2A7A2"
+			rewards: [{
+				id: "3C3EEDEA943D2F8D"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "31F75B72224CAB97"
+				item: "goety:shriek_obelisk"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["4E7C9AFD68420B5B"]
+			description: ["通过亡灵火炉制作，是相对高级的金属材料。"]
+			icon: "goety:dark_ingot"
+			id: "2498ABB734AECCBD"
+			rewards: [{
+				id: "58A6FDDEB457E192"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "788CE1F0F199F596"
+				item: "goety:dark_ingot"
+				type: "item"
+			}]
+			x: 21.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["1EF9DF574337A22C"]
+			description: [
+				"灵魂修补器需要在 &n锻造仪式&r 中制作，每秒将消耗10点灵魂能量为工具修复 &n10&r 点耐久。"
+				""
+				"灵魂修补器下方需要放置 &d诅咒之笼&r （需放入灵魂图腾 / 绑定灵魂方舟的连接宝石）提供灵魂能量。"
+			]
+			icon: "goety:soul_mender"
+			id: "605A4D0CE37A96EE"
+			rewards: [{
+				id: "5C3E35117C2F31AC"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "58864F5D288E7C42"
+				item: "goety:soul_mender"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["0932901A953FDD92"]
+			description: [
+				"在 &n下界&r 召唤的 &d下界使徒 &r将获得额外增强，击败后可获得暗夜信标。暗夜信标放置后将给世界带来永恒夜晚。可以用于在魔法仪式中合成 &d腐化聚晶&r 。"
+				""
+				"将暗夜信标放在主世界激活的下界传送门上方以激活，此时暗夜信标会向天空发射暗夜光束，信标将使主世界的时间锁定于第40天的午夜（月相会锁定为满月）。"
+			]
+			icon: "goety:night_beacon"
+			id: "2A2C2F2483C64C99"
+			rewards: [
+				{
+					id: "4825D49B2F184B8D"
+					type: "xp"
+					xp: 500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "71831E3410BAEF15"
+					table_id: 2184327557013803857L
+					type: "random"
+				}
+			]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "2C335EFE1727429F"
+				item: "goety:night_beacon"
+				type: "item"
+			}]
+			title: "下界使徒"
+			x: 61.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["45F31B918B36F1F2"]
+			description: ["药酿是一种基于巫术酿酒系统的改装版。它需要一个 &n女巫坩埚&r 来进行酿造。可查阅教程书了解详细内容。"]
+			icon: {
+				Count: 1
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "goety:witches_brew"
+				}
+			}
+			id: "25791924D1F5BACB"
+			rewards: [{
+				id: "10236E5208FD4395"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "2A1883053288CCED"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "goety:witches_brew"
+					}
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["25791924D1F5BACB"]
+			description: [
+				"药酿是一种基于巫术酿酒系统的改装版。它需要一个 &n女巫坩埚&r 来进行酿造。可查阅教程书了解详细内容。"
+				""
+				"女巫坩埚的下方需要放置营火/灵魂营火/岩浆块作为热源，可从周围的灵魂蜡烛吸收灵魂能量。上方的开口用于接收药酿的材料（将药酿的材料扔进这个开口）。"
+				""
+				"记住，玩家首先必须要将女巫坩埚装满水，且坩埚下方有热源，之后将下界疣扔入开口才能开始药酿。"
+			]
+			icon: "goety:witch_cauldron"
+			id: "7206E8AC7A812366"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "12BF3A05FAB32CEA"
+				table_id: 2184327557013803857L
+				type: "random"
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "31E73C6D0F8E438F"
+				item: "goety:witch_cauldron"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -3.0d
+		}
+		{
+			description: ["黑暗魔法的基础材料。"]
+			icon: "goety:shade_stone"
+			id: "7F6A7F223E23BD52"
+			rewards: [{
+				id: "02EB1E6322CE9A45"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "115A5E40808908CE"
+				item: "goety:shade_stone"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 2.5d
+		}
+		{
+			description: ["黑暗魔法的基础材料。"]
+			icon: "goety:haunted_sapling"
+			id: "0D8C491E2CCE0F46"
+			rewards: [{
+				id: "73B1ACB7CE03ECAD"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "59EDE86B3C126FC0"
+				item: "goety:haunted_sapling"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4253922D02FAE0C1"]
+			description: ["需要阅读 &n禁书卷轴&r 后解锁。若满足成为巫妖的条件，则会使玩家转化为 &d巫妖&r 。这是一个不可逆的过程。"]
+			icon: "goety:undeath_potion"
+			id: "38E7F4B4146B9814"
+			rewards: [
+				{
+					id: "475874A3374D1691"
+					type: "xp"
+					xp: 500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1D08D59C12A3F6CD"
+					table_id: 2184327557013803857L
+					type: "random"
+				}
+			]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "3E6708DDD9E6CD79"
+				item: "goety:undeath_potion"
+				type: "item"
+			}]
+			x: 57.0d
+			y: 6.0d
+		}
+		{
+			description: ["仅此一次的机会，能够&c自选&r获得聚晶，其中包括一些需要击败强大敌人才能获取的聚晶。"]
+			icon: "kubejs:compressed_amethyst"
+			id: "4AB7DC341DA7047E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1DD54A7BA9FEC15F"
+				table_id: 2184327557013803857L
+				type: "choice"
+			}]
+			shape: "square"
+			size: 2.0d
+			subtitle: "定向获取一个聚晶"
+			tasks: [{
+				consume_items: true
+				count: 40L
+				id: "6F73DE0DF9AC1F14"
+				item: "kubejs:compressed_amethyst"
+				type: "item"
+			}]
+			title: "伊甸银行的馈赠"
+			x: 23.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["57B444943EA7BC3F"]
+			description: ["巫师们的通用着装。除了这种通用着装外，不同的法术流派各自拥有头饰和法袍提供 &e&n流派专属&r 增强。"]
+			icon: "goety:dark_hat"
+			id: "3AD163E16A52F814"
+			rewards: [
+				{
+					id: "36556892647E6C9E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0A7183AF9EC6AEDD"
+					table_id: 2184327557013803857L
+					type: "random"
+				}
+			]
+			shape: "square"
+			size: 2.0d
+			tasks: [
+				{
+					id: "29DE2B5682A2AD6C"
+					item: "goety:dark_hat"
+					type: "item"
+				}
+				{
+					id: "0075FE689D2B84A7"
+					item: "goety:dark_robe"
+					type: "item"
+				}
+			]
+			title: "巫师的着装"
+			x: 15.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["19703B60757CA2A0"]
+			description: ["在命运的间章，你偶然窥得真理的踪迹。"]
+			icon: {
+				Count: 1
+				id: "goety:arca_compass"
+				tag: { }
+			}
+			icon_scale: 2.0d
+			id: "05DB30BA2768EDF7"
+			rewards: [{
+				auto: "enabled"
+				command: "/curios add curio @p"
+				elevate_perms: true
+				icon: "minecraft:bundle"
+				id: "279B08BBD9AB5C31"
+				title: "获得额外的通用饰品栏位"
+				type: "command"
+			}]
+			shape: "square"
+			size: 3.0d
+			tasks: [{
+				id: "51C03CBF6469D971"
+				title: "谒见真理"
+				type: "checkmark"
+			}]
+			title: "谒见真理"
+			x: 45.0d
+			y: 0.0d
+		}
+		{
+			description: ["可在&n林地府邸&r获取。阅读卷轴后，解锁蹂躏者仪式，允许你制造劫掠兽，以及制作异变药水。"]
+			icon: "goety:ravaging_scroll"
+			id: "3E29E5C7D675AA96"
+			rewards: [
+				{
+					id: "007BA568CB87C489"
+					type: "xp"
+					xp: 500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "02A312015C0ABD0E"
+					table_id: 2184327557013803857L
+					type: "random"
+				}
+			]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "1FD42A1C5DE95967"
+				item: "goety:ravaging_scroll"
+				type: "item"
+			}]
+			x: 36.0d
+			y: 0.0d
+		}
+		{
+			description: ["可在&n沙漠神殿&r获取。阅读卷轴后，允许你将骷髅或骷髅仆从转化为&n死灵法师&r仆从。阅读 &d禁书卷轴&r 后也将同步解锁此卷轴的相关进度。"]
+			icon: "goety:buried_scroll"
+			id: "768400D9CFBB57F8"
+			rewards: [
+				{
+					id: "6C311C0AC5570AA5"
+					type: "xp"
+					xp: 500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7C5F3E9AC32B120F"
+					table_id: 2184327557013803857L
+					type: "random"
+				}
+			]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "3C13453A9FC8EDF1"
+				item: "goety:buried_scroll"
+				type: "item"
+			}]
+			x: 45.0d
+			y: 6.0d
+		}
+		{
+			description: ["可在&n墓穴&r获取。阅读卷轴后，解锁缠魂盔甲架，阴咒注入器的合成配方以及制作缠魂仆胄，暗兽的方式。如果阅读了战争卷轴，会解锁制作墓灵巨像的方式。"]
+			icon: "goety:haunting_scroll"
+			id: "47F71EC0EC7CCE90"
+			rewards: [
+				{
+					id: "4111E7CD21303777"
+					type: "xp"
+					xp: 500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "07E01E684D0BF623"
+					table_id: 2184327557013803857L
+					type: "random"
+				}
+			]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "008B7BD5E155F6FE"
+				item: "goety:haunting_scroll"
+				type: "item"
+			}]
+			x: 36.0d
+			y: -3.0d
+		}
+		{
+			description: ["可在&n沙漠神殿&r或猪灵的&n堡垒遗迹&r获取。阅读卷轴后，解锁先锋聚晶/暗卫聚晶的合成配方。同时也解锁先锋仆从/暗卫仆从的直接召唤仪式。"]
+			icon: "goety:front_scroll"
+			id: "2CDDD9D24E5D14FF"
+			rewards: [
+				{
+					id: "040B623BBDF14199"
+					type: "xp"
+					xp: 500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6B2FDABE55F1A6F4"
+					table_id: 2184327557013803857L
+					type: "random"
+				}
+			]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "35C39E1A434B687A"
+				item: "goety:front_scroll"
+				type: "item"
+			}]
+			x: 49.0d
+			y: 6.0d
+		}
+		{
+			description: [
+				"可在&n烈风神祠&r获取。阅读卷轴后，允许玩家制造自己的呼啸傀儡及共振晶体。"
+				""
+				"可以通过 &b许愿泉&r 获取对应结构的位置。这需要向许愿泉献出 &e&n玉&r 、皇家末影珍珠、传送卷轴、星界粉尘 。"
+			]
+			icon: "goety:mistral_scroll"
+			id: "4A6D4F61DE3607A7"
+			rewards: [
+				{
+					id: "07D079178D01FB41"
+					type: "xp"
+					xp: 500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "621487E1B8D8CF5C"
+					table_id: 2184327557013803857L
+					type: "random"
+				}
+			]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "735D5AACD5A6C9FC"
+				item: "goety:mistral_scroll"
+				type: "item"
+			}]
+			x: 45.0d
+			y: -6.0d
+		}
+		{
+			description: ["可在&n丛林神庙&r获取。阅读卷轴后，解锁制作唤藤聚晶和藤叶聚晶的配方，以及召唤腾跃之叶的方式。"]
+			icon: "goety:floral_scroll"
+			id: "02BA831EFA3B96D0"
+			rewards: [
+				{
+					id: "196BC2944AD1A8C3"
+					type: "xp"
+					xp: 500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2A653B5484D67DDE"
+					table_id: 2184327557013803857L
+					type: "random"
+				}
+			]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "6DC8258E3E39D89C"
+				item: "goety:floral_scroll"
+				type: "item"
+			}]
+			x: 49.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["03556395F584F50B"]
+			dependency_requirement: "one_completed"
+			description: [
+				"野火是至少2星的精英单位，位于 &n下界岩浆湖&r 上的圆形城堡结构中，也有较低概率在下界自然生成，击败会掉落&d野火王冠碎片&r和下界合金碎片。"
+				""
+				"玩家需要先&e破坏它的盾牌&r才能对其造成伤害。野火会自己恢复生命值和修复盾牌。能够发射&c火球&r攻击玩家，在近战时会大幅击退玩家，也会召唤烈焰人进行作战。"
+				""
+				"可以通过 &b许愿泉&r 获取对应结构的位置。这需要向许愿泉献出 &e&n烈焰棒&r 、皇家末影珍珠、传送卷轴、星界粉尘 。"
+			]
+			disable_toast: true
+			icon: "friendsandfoes:wildfire_crown_fragment"
+			id: "50F50E37AC6A6CC4"
+			rewards: [
+				{
+					id: "66A5DFAF96154BD5"
+					type: "xp"
+					xp: 500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7D6C374F9B04B75F"
+					table_id: 2184327557013803857L
+					type: "random"
+				}
+				{
+					id: "635203DFC329E3F0"
+					item: "goety:treasure_pouch"
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "1D0C82F551D6F960"
+				item: "friendsandfoes:wildfire_crown_fragment"
+				type: "item"
+			}]
+			title: "野火"
+			x: 26.0d
+			y: 3.0d
+		}
+		{
+			description: ["属于&2&n死灵&r流派的魔杖。"]
+			disable_toast: true
+			id: "7E478A35AA20AEC8"
+			shape: "square"
+			size: 2.0d
+			tasks: [
+				{
+					disable_toast: true
+					id: "02175A5DD0953F85"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								Items: [ ]
+								Size: 1
+							}
+						}
+						id: "goety:necro_staff"
+					}
+					type: "item"
+				}
+				{
+					id: "714D37167C20BC08"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								Items: [ ]
+								Size: 1
+							}
+						}
+						id: "goety:nameless_staff"
+					}
+					type: "item"
+				}
+			]
+			x: 13.0d
+			y: 16.0d
+		}
+		{
+			description: ["属于&b&n烈风&r流派的魔杖。"]
+			disable_toast: true
+			id: "68AD4C0F8277430F"
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				disable_toast: true
+				id: "3EA892F3BEBE55D2"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 1
+						}
+					}
+					id: "goety:wind_staff"
+				}
+				type: "item"
+			}]
+			x: 26.5d
+			y: 16.0d
+		}
+		{
+			description: ["属于&6&n风暴&r流派的魔杖。"]
+			disable_toast: true
+			id: "1B240FB4A6F6F1B3"
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				disable_toast: true
+				id: "08F096A07DE2D24F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 1
+						}
+					}
+					id: "goety:storm_staff"
+				}
+				type: "item"
+			}]
+			x: 31.0d
+			y: 16.0d
+		}
+		{
+			description: ["属于&9&n霜冻&r流派的魔杖。"]
+			disable_toast: true
+			id: "2CF692B136689B72"
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				disable_toast: true
+				id: "610AED3C62E96F12"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 1
+						}
+					}
+					id: "goety:frost_staff"
+				}
+				type: "item"
+			}]
+			x: 44.5d
+			y: 16.0d
+		}
+		{
+			description: ["属于&a&n荒野&r流派的魔杖。"]
+			disable_toast: true
+			id: "088352478A75E007"
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				disable_toast: true
+				id: "4B696D8E235DD142"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 1
+						}
+					}
+					id: "goety:wild_staff"
+				}
+				type: "item"
+			}]
+			x: 40.0d
+			y: 16.0d
+		}
+		{
+			description: ["属于&4&n下界&r流派的魔杖。"]
+			disable_toast: true
+			id: "783E6D4BF2D6D15C"
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				disable_toast: true
+				id: "2EA060593B71CB0A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 1
+						}
+					}
+					id: "goety:nether_staff"
+				}
+				type: "item"
+			}]
+			x: 17.5d
+			y: 16.0d
+		}
+		{
+			description: ["属于&1&n深渊&r流派的魔杖。"]
+			disable_toast: true
+			id: "70FCE9CFF51B9DC8"
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				disable_toast: true
+				id: "44125453E461780E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 1
+						}
+					}
+					id: "goety:abyss_staff"
+				}
+				type: "item"
+			}]
+			x: 35.5d
+			y: 16.0d
+		}
+		{
+			description: ["属于&7&n地卜&r流派的魔杖。"]
+			disable_toast: true
+			id: "3D5B709A5921C3EC"
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				disable_toast: true
+				id: "3B259A9F6C6B58D2"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 1
+						}
+					}
+					id: "goety:geo_staff"
+				}
+				type: "item"
+			}]
+			x: 49.5d
+			y: 16.0d
+		}
+		{
+			description: ["属于&d&n虚空&r流派的魔杖。"]
+			disable_toast: true
+			id: "1A30356DDFDEC6EF"
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				disable_toast: true
+				id: "6EB9D0C1517B5349"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 1
+						}
+					}
+					id: "goety:void_staff"
+				}
+				type: "item"
+			}]
+			x: 22.0d
+			y: 16.0d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "0794B76F7C0E5254"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "6A4C6DBEA60289EB"
+				item: "goety:soul_bolt_focus"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 17.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "7D75E18E5EB75DDA"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "3D25B7E8BCE19A1A"
+				item: "goety:magic_bolt_focus"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 19.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "2C666932FB8A3111"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "3B9D91713D8CC252"
+				item: "goety:shockwave_focus"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 18.5d
+		}
+		{
+			description: ["高塔的守卫免疫大部分法术以及仆从造成的伤害，只有 &n死亡射线&r 、&n卫射&r、&n音爆&r、&n地动&r 和 &n紫晶簇&r 聚晶能够正常对其造成伤害。"]
+			disable_toast: true
+			id: "4258B0828A624C43"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "5FC93DB5B0AD2AD9"
+				item: "goety:sonic_boom_focus"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 18.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "7ED29CDFBAD6DF0B"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "04362188E0AC7D70"
+				item: "goety:soul_light_focus"
+				type: "item"
+			}]
+			x: 53.5d
+			y: 18.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "6E1499B04D842119"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "099D2C8DE03DFE90"
+				item: "goety:fire_breath_focus"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 17.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "13E6C6E0C145F0FE"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "694BF799AC06083F"
+				item: "goety:arrow_rain_focus"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 18.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "56446A7C38102385"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "4BBF96105494F32B"
+				item: "goety:corruption_focus"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 19.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "2E4498E31020B610"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "15065D8BFD169C6D"
+				item: "goety:weakening_focus"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 19.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "01E3FC96EDA16565"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "0807D3C16A5D5AAD"
+				item: "goety:soul_heal_focus"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 20.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "4B0D32740ED27B57"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "69B8655FAF870811"
+				item: "goety:iron_hide_focus"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 20.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "65F6314BBF912ECA"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "1BCA1F885837E9AA"
+				item: "goety:bulwark_focus"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 20.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "6AE5C22121C75735"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "49523BEC08E80E98"
+				item: "goety:command_focus"
+				type: "item"
+			}]
+			x: 53.5d
+			y: 19.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "50B6134A39E71994"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "16BA43CDFEFB0A33"
+				item: "goety:order_focus"
+				type: "item"
+			}]
+			x: 54.5d
+			y: 19.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "3633E8EF138786D7"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "13E70F221664FCF5"
+				item: "goety:telekinesis_focus"
+				type: "item"
+			}]
+			x: 55.5d
+			y: 17.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "5D53E3FC9F76BF1F"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "2B8052114B37FBAC"
+				item: "goety:ignite_focus"
+				type: "item"
+			}]
+			x: 55.5d
+			y: 19.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "0C330DE0A3D0FBB6"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "76A45C87FD370CBF"
+				item: "goety:glow_light_focus"
+				type: "item"
+			}]
+			x: 54.5d
+			y: 18.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "7CFAC4EC54757445"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "5E8C02D37BFEA88F"
+				item: "goety:illuminate_focus"
+				type: "item"
+			}]
+			x: 55.5d
+			y: 18.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "3AEF5E8933BAE6E9"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "12D866219125BE81"
+				item: "goety:crafting_focus"
+				type: "item"
+			}]
+			x: 53.5d
+			y: 17.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "65E7F4FE88F856D3"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "2887AB566A84B264"
+				item: "goety:vexing_focus"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 22.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "7902AED498FF5E73"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "439CE67C1E026311"
+				item: "goety:biting_focus"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 23.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "79B1B57BB534B92E"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "4DC4E2D5405FACCE"
+				item: "goety:feast_focus"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 23.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "221ED50C27CC2B8C"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "2E7717AC8AF704FD"
+				item: "goety:teeth_focus"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 23.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "0E53CFFF9452A015"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "32EC280E500BAC59"
+				item: "goety:shredding_focus"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 24.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "4D20B0C52890BB76"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "1733973F4FA76274"
+				item: "goety:sword_focus"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 24.5d
+		}
+		{
+			description: ["可能导致服务器崩溃。"]
+			disable_toast: true
+			id: "2043384D704C9E83"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "1E13C5A83B236DA8"
+				item: "goety:illusion_focus"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 21.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "2D5F23F45CDA57F8"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "1D240B013B834992"
+				item: "goety:stellar_focus"
+				type: "item"
+			}]
+			x: 21.0d
+			y: 19.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "278398E3C717FD8C"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "55F0155768823C10"
+				item: "goety:void_flash_focus"
+				type: "item"
+			}]
+			x: 22.0d
+			y: 19.5d
+		}
+		{
+			description: ["不要在天境使用，吸入大量&n冰结球&r时可能导致卡死。"]
+			disable_toast: true
+			id: "49F8113585F9E0EB"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "2CBF2BA6504C9224"
+				item: "goety:rupture_focus"
+				type: "item"
+			}]
+			x: 23.0d
+			y: 19.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "12AE7D8E7175878F"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "6D7D52FDF81A577A"
+				item: "goety:watching_focus"
+				type: "item"
+			}]
+			x: 21.0d
+			y: 18.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "4E7A0326A9827FAD"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "7E033025463F7800"
+				item: "goety:blasting_focus"
+				type: "item"
+			}]
+			x: 23.0d
+			y: 18.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "2FFD2829A0C96C79"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "03B78009D9884BDC"
+				item: "goety:snaring_focus"
+				type: "item"
+			}]
+			x: 22.0d
+			y: 18.5d
+		}
+		{
+			description: ["在性能上存在问题，使用可能导致卡顿。"]
+			disable_toast: true
+			id: "228C86C52FC57E28"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "5E66B9B6296A0CF3"
+				item: "goety:blink_focus"
+				type: "item"
+			}]
+			x: 23.0d
+			y: 20.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "7F9ED389F9415F66"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "3F4C7F396DD3581F"
+				item: "goety:recall_focus"
+				type: "item"
+			}]
+			x: 55.5d
+			y: 22.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "4273566D50C0F400"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "325B6C40F507D420"
+				item: "goety:end_walk_focus"
+				type: "item"
+			}]
+			x: 21.0d
+			y: 20.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "0394A4C1D31C856F"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "071C4B081DDEF135"
+				item: "goety:call_focus"
+				type: "item"
+			}]
+			x: 54.5d
+			y: 23.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "5F7F3A86C9937BD9"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "3B412A7567A69AC7"
+				item: "goety:troop_focus"
+				type: "item"
+			}]
+			x: 55.5d
+			y: 23.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "7043ACC7F617005F"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "01FA5CCA860EC247"
+				item: "goety:tunnel_focus"
+				type: "item"
+			}]
+			x: 54.5d
+			y: 22.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "185963C18F6AFA5B"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "11196F8F09F89585"
+				item: "goety:banish_focus"
+				type: "item"
+			}]
+			x: 53.5d
+			y: 23.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "0735023AD9BB5D63"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "5A24952F2E82789D"
+				item: "goety:ender_chest_focus"
+				type: "item"
+			}]
+			x: 54.5d
+			y: 17.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "6EB8911A0C4218A4"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "161F13F6A4B54FA4"
+				item: "goety:rotting_focus"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 17.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "215DCFED73B37BF3"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "3B8B8346B06796DF"
+				item: "goety:osseous_focus"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 17.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "32E400D05FAE94D9"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "7EC0EB127254A002"
+				item: "goety:spooky_focus"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 19.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "5B1069AB4E201D1E"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "36939DFB978FA11B"
+				item: "goety:skull_focus"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 18.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "0EBC2D2D976A461A"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "3CD97DDDA9451118"
+				item: "goety:ghost_fire_focus"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 18.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "436AC87319759345"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "1015B1FBB2D5448C"
+				item: "goety:leeching_focus"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 18.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "7DE8450448857DAB"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "289F0B89048D2129"
+				item: "goety:vanguard_focus"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 19.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "315E8817476349D4"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "43A154C014251555"
+				item: "goety:blackguard_focus"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 19.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "522833039123543D"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "057165F65492BE10"
+				item: "goety:killing_focus"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 22.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "7BAD4AD0181A49E3"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "246919FA01E428B0"
+				item: "goety:phantasm_focus"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 20.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "4D1CB8927ED91196"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "55B05C0E595FF671"
+				item: "goety:reaping_focus"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 20.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "4950527313216D28"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "09F3E6F405033176"
+				item: "goety:launch_focus"
+				type: "item"
+			}]
+			x: 25.5d
+			y: 18.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "40F7038C1D732D9B"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "67BF2B62C5386DC8"
+				item: "goety:flying_focus"
+				type: "item"
+			}]
+			x: 26.5d
+			y: 18.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "6BF199D50766A3EA"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "336FB1F041314092"
+				item: "goety:wind_blast_focus"
+				type: "item"
+			}]
+			x: 27.5d
+			y: 18.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "40F8F30CCFAA2173"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "066ABAF4237B6B7A"
+				item: "goety:updraft_focus"
+				type: "item"
+			}]
+			x: 25.5d
+			y: 17.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "0D4FDEEE4EBE462D"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "4BDA964D84BD70CA"
+				item: "goety:razor_wind_focus"
+				type: "item"
+			}]
+			x: 26.5d
+			y: 17.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "0E3C33A30604A45C"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "0359E3F5A69DCF3E"
+				item: "goety:cyclone_focus"
+				type: "item"
+			}]
+			x: 27.5d
+			y: 17.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "14230E2A00229341"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "65D3CD34D1BD2C57"
+				item: "goety:whirlwind_focus"
+				type: "item"
+			}]
+			x: 54.5d
+			y: 20.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "71E4127F4959308B"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "38842D5618137820"
+				item: "goety:trembling_focus"
+				type: "item"
+			}]
+			x: 55.5d
+			y: 20.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "52E0A421AA5B3BF6"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "694D55C15173086B"
+				item: "goety:cushion_focus"
+				type: "item"
+			}]
+			x: 53.5d
+			y: 20.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "74AC0035BC74727E"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "5B11D8B88B2BB38E"
+				item: "goety:charge_focus"
+				type: "item"
+			}]
+			x: 30.0d
+			y: 20.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "1413D1C8AB3D7609"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "06541183D52D50FB"
+				item: "goety:discharge_focus"
+				type: "item"
+			}]
+			x: 32.0d
+			y: 19.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "005A722B8434AD8D"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "2849390E935B1532"
+				item: "goety:shocking_focus"
+				type: "item"
+			}]
+			x: 30.0d
+			y: 17.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "6702C9000A8368BD"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "77F9DC0B93677F26"
+				item: "goety:thunderbolt_focus"
+				type: "item"
+			}]
+			x: 31.0d
+			y: 17.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "3784BA47A058BB47"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "1A45D23B8D0B490A"
+				item: "goety:monsoon_focus"
+				type: "item"
+			}]
+			x: 32.0d
+			y: 17.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "41E52A4708C0AD20"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "4D60D931D61249E3"
+				item: "goety:thunderstorm_focus"
+				type: "item"
+			}]
+			x: 30.0d
+			y: 19.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "013639C5313EA8EC"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "64732DC8D7A058B3"
+				item: "goety:lightning_focus"
+				type: "item"
+			}]
+			x: 32.0d
+			y: 18.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "508DBD1FB866F9CE"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "5D2DAE5D5D878E5B"
+				item: "goety:electrocute_focus"
+				type: "item"
+			}]
+			x: 30.0d
+			y: 18.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "27862ADD80ADFB59"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "2EECD839B92DDE83"
+				item: "goety:surging_focus"
+				type: "item"
+			}]
+			x: 31.0d
+			y: 18.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "7C26D6E19FEE9112"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "4A919346749F8498"
+				item: "goety:bolting_focus"
+				type: "item"
+			}]
+			x: 31.0d
+			y: 19.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "38211A92A06CC87B"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "0771E08B594774C5"
+				item: "goety:frost_breath_focus"
+				type: "item"
+			}]
+			x: 44.5d
+			y: 17.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "547FFC26B067FACC"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "6F4E8E290541989C"
+				item: "goety:ice_spike_focus"
+				type: "item"
+			}]
+			x: 43.5d
+			y: 17.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "40CB5221523CF55C"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "4F9F577C1A3B8C81"
+				item: "goety:blizzard_focus"
+				type: "item"
+			}]
+			x: 45.5d
+			y: 17.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "66BC3CD04C2F8961"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "739634A5D75C2976"
+				item: "goety:ice_storm_focus"
+				type: "item"
+			}]
+			x: 45.5d
+			y: 18.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "15D642D9AC7E29DE"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "1230B98C7BF2FEAE"
+				item: "goety:iceology_focus"
+				type: "item"
+			}]
+			x: 43.5d
+			y: 18.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "33EBA43F915639BA"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "6AB491C76BD93EE0"
+				item: "goety:hail_focus"
+				type: "item"
+			}]
+			x: 44.5d
+			y: 18.5d
+		}
+		{
+			description: ["目前版本存在恶性问题，已禁用。"]
+			disable_toast: true
+			id: "78BECD3607EA821E"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "5EE63AD760BCAF82"
+				item: "goety:frost_nova_focus"
+				type: "item"
+			}]
+			x: 43.5d
+			y: 19.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "4198291C3E66F8E3"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "662041BE08FA8750"
+				item: "goety:frostborn_focus"
+				type: "item"
+			}]
+			x: 44.5d
+			y: 19.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "2DD8B587AD6D1FEA"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "41B1EF8943FECF27"
+				item: "goety:chilling_focus"
+				type: "item"
+			}]
+			x: 45.5d
+			y: 19.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "5B2166D09DD97116"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "2F77FE99F25C88D7"
+				item: "goety:swarm_focus"
+				type: "item"
+			}]
+			x: 39.0d
+			y: 17.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "55D2E8671E70A373"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "5BD1E524D1D1B746"
+				item: "goety:poison_dart_focus"
+				type: "item"
+			}]
+			x: 40.0d
+			y: 17.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "770EBD0E4F9AA1AD"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "731C889F218AFC7A"
+				item: "goety:blossoming_focus"
+				type: "item"
+			}]
+			x: 41.0d
+			y: 17.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "7D97E493E7A73CBF"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "6E9219B299C06E26"
+				item: "goety:overgrowth_focus"
+				type: "item"
+			}]
+			x: 39.0d
+			y: 18.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "1DB8BEC4E3490AEF"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "11DF8EF3BF7ABE3B"
+				item: "goety:whispering_focus"
+				type: "item"
+			}]
+			x: 40.0d
+			y: 18.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "489D3C047F14CFF5"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "1CD5CA719B6BE519"
+				item: "goety:leaping_focus"
+				type: "item"
+			}]
+			x: 41.0d
+			y: 18.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "23D2FE2F7748F514"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "2BB80B75603D190B"
+				item: "goety:entangling_focus"
+				type: "item"
+			}]
+			x: 39.0d
+			y: 19.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "1EAADC1512AB2E35"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "2A3D86344F798CFC"
+				item: "goety:carrion_focus"
+				type: "item"
+			}]
+			x: 40.0d
+			y: 19.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "24D4CEBB250E0538"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "532E4621EA2E4799"
+				item: "goety:slimy_focus"
+				type: "item"
+			}]
+			x: 41.0d
+			y: 19.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "74CA99AF5E5B9D9B"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "40EB013941D98D53"
+				item: "goety:hunting_focus"
+				type: "item"
+			}]
+			x: 39.0d
+			y: 20.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "268799B93C0C9C54"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "45C3349574503906"
+				item: "goety:mauling_focus"
+				type: "item"
+			}]
+			x: 40.0d
+			y: 20.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "0D287C5EC85D106F"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "2AE8C88D0EFEDF96"
+				item: "goety:grapple_focus"
+				type: "item"
+			}]
+			x: 41.0d
+			y: 20.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "612C483898F94ED5"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "58F283A2BFE2D27B"
+				item: "goety:fireball_focus"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 17.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "7ADAD011AA3B6205"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "7B649C8EED0ADCDA"
+				item: "goety:bombardment_focus"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 17.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "6844DA6053AC4750"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "5388567F081DEF21"
+				item: "goety:fire_blast_focus"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 17.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "2EF9D9CAD4E80C8B"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "4F62C0D4CFFDA103"
+				item: "goety:wither_skull_focus"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 18.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "6191B11941101B09"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "2E48706AFB32CE1F"
+				item: "goety:meteor_shower_focus"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 19.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "6143C83B3C04CEFA"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "1296B401898A4133"
+				item: "goety:flame_strike_focus"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 18.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "5C798BC6CE8391D5"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "177267F4FE8315F5"
+				item: "goety:magma_bomb_focus"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 18.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "79879862939780A0"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "53E1CC7A17D019D6"
+				item: "goety:ghastly_focus"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 20.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "4BF4E625E47A6977"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "5A87D3284E1DDD5C"
+				item: "goety:lavaball_focus"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 19.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "17A9E9FBC71F3D32"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "2CD1E140BF33B2D5"
+				item: "goety:blazing_focus"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 19.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "0C5906AE1465AEA1"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "51F8088E5EF18C01"
+				item: "goety:bouncy_bubble_focus"
+				type: "item"
+			}]
+			x: 35.5d
+			y: 18.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "2E515D549B2E70F8"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "7CEA71F87AFE8681"
+				item: "goety:water_whip_focus"
+				type: "item"
+			}]
+			x: 34.5d
+			y: 17.5d
+		}
+		{
+			description: ["高塔的守卫免疫大部分法术以及仆从造成的伤害，只有 &n死亡射线&r 、&n卫射&r、&n音爆&r、&n地动&r 和 &n紫晶簇&r 聚晶能够正常对其造成伤害。"]
+			disable_toast: true
+			id: "77B9A9F65C090237"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "7D8AAA1969F3AD03"
+				item: "goety:prisma_beam_focus"
+				type: "item"
+			}]
+			x: 35.5d
+			y: 17.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "65498B3120B2A09D"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "7E9E9E5B2A2A6318"
+				item: "goety:tidal_focus"
+				type: "item"
+			}]
+			x: 36.5d
+			y: 17.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "4753796C29C64F9B"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "1029F133F91975EB"
+				item: "goety:steaming_focus"
+				type: "item"
+			}]
+			x: 36.5d
+			y: 18.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "0A9EEC75765AFD09"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "7E3D723EC15883BA"
+				item: "goety:biomine_focus"
+				type: "item"
+			}]
+			x: 36.5d
+			y: 19.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "488120F5A31A348D"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "21FB13CE6677A6C8"
+				item: "goety:trident_storm_focus"
+				type: "item"
+			}]
+			x: 34.5d
+			y: 19.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "6284F8B916B34B91"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "270DB9621E3CD360"
+				item: "goety:guardian_focus"
+				type: "item"
+			}]
+			x: 35.5d
+			y: 19.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "066AA5646CD2961A"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "48CDDBEC592B1203"
+				item: "goety:water_jet_focus"
+				type: "item"
+			}]
+			x: 34.5d
+			y: 18.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "4EB192FAA2DB6D16"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "7C45488EAE02A1AE"
+				item: "goety:earth_punch_focus"
+				type: "item"
+			}]
+			x: 49.5d
+			y: 17.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "4824118D0E8857C4"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "605E13E8B5A78A81"
+				item: "goety:quaking_focus"
+				type: "item"
+			}]
+			x: 50.5d
+			y: 17.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "2ED397A2AC3228E8"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "3FE286AD31B9127F"
+				item: "goety:eruption_focus"
+				type: "item"
+			}]
+			x: 49.5d
+			y: 18.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "6CD146BB69425E53"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "6D600866C0614643"
+				item: "goety:barricade_focus"
+				type: "item"
+			}]
+			x: 48.5d
+			y: 18.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "76D964FB0A331A56"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "1C3DB9207838EA6C"
+				item: "goety:scatter_focus"
+				type: "item"
+			}]
+			x: 50.5d
+			y: 18.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "34726CF1EA1AAD6C"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "495876923F65F92A"
+				item: "goety:pulverize_focus"
+				type: "item"
+			}]
+			x: 55.5d
+			y: 21.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "37BA730A3A45F095"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "4413BF7981665694"
+				item: "goety:rotation_focus"
+				type: "item"
+			}]
+			x: 53.5d
+			y: 21.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "04392870D0F91188"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "3A519ABA39A639E1"
+				item: "goety:burrowing_focus"
+				type: "item"
+			}]
+			x: 54.5d
+			y: 21.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "12B60586752A7B5D"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "644C8F2CED58AE28"
+				item: "goety:sensing_focus"
+				type: "item"
+			}]
+			x: 53.5d
+			y: 22.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "6F94BC75621DD50F"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "21F4A84D0D49D548"
+				item: "goety_cataclysm:sandstorm_focus"
+				type: "item"
+			}]
+			x: 25.5d
+			y: 19.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "47CE5C7824C607DC"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "71EA8C134AC620ED"
+				item: "goety_cataclysm:void_vortex_focus"
+				type: "item"
+			}]
+			x: 22.0d
+			y: 20.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "72B67F78F76D4E7E"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "79996B20E29ED6DA"
+				item: "goety_cataclysm:void_rune_focus"
+				type: "item"
+			}]
+			x: 22.0d
+			y: 17.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "5EAEA11315018858"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "285C70E5CCC6B5BD"
+				item: "goety_cataclysm:ashen_breath_focus"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 20.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "2A58EBD1625F2CAE"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "67DFE15A7C8A788A"
+				item: "goety_cataclysm:flare_bomb_focus"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 20.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "1B36780196C66D08"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "4BF3C7C91D889906"
+				item: "goety_cataclysm:extinct_flame_focus"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 21.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "60105FDA7990BBB6"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "1E7225C2128AE51E"
+				item: "goety_cataclysm:water_spear_focus"
+				type: "item"
+			}]
+			x: 34.5d
+			y: 20.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "3C3C96739F100032"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "457E0D42A33044B7"
+				item: "goety_cataclysm:kakourgos_focus"
+				type: "item"
+			}]
+			x: 35.5d
+			y: 20.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "02B93F865FBEDFE6"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "3BF9EC3C294D01DC"
+				item: "goety_cataclysm:polemistis_focus"
+				type: "item"
+			}]
+			x: 36.5d
+			y: 20.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "3098DCB44C51A0B4"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "2DA23BD365A54064"
+				item: "goety_cataclysm:abyssal_orb_focus"
+				type: "item"
+			}]
+			x: 34.5d
+			y: 21.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "1F556BFCAA224365"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "2D15519180162994"
+				item: "goety_cataclysm:abyssal_mine_focus"
+				type: "item"
+			}]
+			x: 35.5d
+			y: 21.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "78FBD2B207FBE5BE"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "41AC589CBA78C5D7"
+				item: "goety_cataclysm:abyssal_beam_focus"
+				type: "item"
+			}]
+			x: 36.5d
+			y: 21.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "5750D5EDC3ADF68B"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "26E1CA4E195FDA95"
+				item: "goety_cataclysm:sunken_swell_focus"
+				type: "item"
+			}]
+			x: 34.5d
+			y: 22.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "0762CA8F8AE37765"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "3CBDA6EFE330C153"
+				item: "goety_cataclysm:sunken_current_focus"
+				type: "item"
+			}]
+			x: 35.5d
+			y: 22.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "1380344875DAB10D"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "2809FC2EBA512357"
+				item: "goety_cataclysm:sunken_tribune_focus"
+				type: "item"
+			}]
+			x: 36.5d
+			y: 22.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "49719714E2759B12"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "3D99D037DF05C106"
+				item: "goety_cataclysm:kyria_focus"
+				type: "item"
+			}]
+			x: 34.5d
+			y: 23.5d
+		}
+		{
+			description: ["高塔的守卫免疫大部分法术以及仆从造成的伤害，只有 &n死亡射线&r 、&n卫射&r、&n音爆&r、&n地动&r 和 &n紫晶簇&r 聚晶能够正常对其造成伤害。"]
+			disable_toast: true
+			id: "049B3E9C27605AF4"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "70AF234212F4035C"
+				item: "goety_cataclysm:earth_shake_focus"
+				type: "item"
+			}]
+			x: 48.5d
+			y: 19.5d
+		}
+		{
+			description: ["高塔的守卫免疫大部分法术以及仆从造成的伤害，只有 &n死亡射线&r 、&n卫射&r、&n音爆&r、&n地动&r 和 &n紫晶簇&r 聚晶能够正常对其造成伤害。"]
+			disable_toast: true
+			id: "12702F35CA166509"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "3E6B0B7D0EE4C68B"
+				item: "goety_cataclysm:amethyst_cluster_focus"
+				type: "item"
+			}]
+			x: 49.5d
+			y: 19.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "1614D5F4867348C5"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "093EC3BAF252CC72"
+				item: "goety_cataclysm:desert_crush_focus"
+				type: "item"
+			}]
+			x: 50.5d
+			y: 19.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "030A09281F8E3183"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "70EC4B1DBDB63798"
+				item: "goety_cataclysm:desert_raid_focus"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 20.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "25D5280B4BBD22BF"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "244FC2A20CB5D634"
+				item: "goety_cataclysm:cursed_tomb_focus"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 21.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "5D62C1189578D0D4"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "53B4AAD7B2A71C71"
+				item: "goety_cataclysm:cursed_grave_focus"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 21.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "3C6BCE0E5046F4AA"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "2A7A1094FAC8BC32"
+				item: "goety_cataclysm:cursed_cairn_focus"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 21.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "6F663D4D2EBE465B"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "687AE6D550A3C321"
+				item: "goety_cataclysm:battlefield_focus"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 22.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "4E5EE6FB2F18040E"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "457865230FE7F9F8"
+				item: "goety_cataclysm:lightning_spear_focus"
+				type: "item"
+			}]
+			x: 31.0d
+			y: 20.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "19E2A38E3C898403"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "155DB9614F8C92A1"
+				item: "goety_cataclysm:thunder_rage_focus"
+				type: "item"
+			}]
+			x: 32.0d
+			y: 20.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "409A9F277D46D329"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "701EDA9EE42708DB"
+				item: "goety_cataclysm:storm_serpent_focus"
+				type: "item"
+			}]
+			x: 30.0d
+			y: 21.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "4A6361BEE435934E"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "0DF12E9F133581F3"
+				item: "goety_cataclysm:death_laser_focus"
+				type: "item"
+			}]
+			x: 31.0d
+			y: 21.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "459EC40DDA46819A"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "609304D043B24AB3"
+				item: "goety_spillage:impish_focus"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 21.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "58B4ACAF6342F6FD"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "62DA58A874519B3B"
+				item: "goety_spillage:spirit_hand_focus"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 21.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "1C47AD4E27390806"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "22632EFDE317BF18"
+				item: "goety_spillage:soul_beam_focus"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 22.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "1AA1189505AABD93"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "177B6392F5151A57"
+				item: "goety_spillage:requiem_focus"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 22.5d
+		}
+		{
+			description: ["击败强大敌人后的战利品，能够获取大量&n聚晶&r。"]
+			icon: "goety:treasure_pouch"
+			id: "28B9987031E9A3CD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3903A28CD53BFC6D"
+				table_id: 2184327557013803857L
+				type: "random"
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "71A196C618DCDFC9"
+				item: "goety:treasure_pouch"
+				type: "item"
+			}]
+			x: 21.0d
+			y: -3.0d
+		}
+		{
+			description: ["高塔的守卫免疫大部分法术以及仆从造成的伤害，只有 &n死亡射线&r 、&n卫射&r、&n音爆&r、&n地动&r 和 &n紫晶簇&r 聚晶能够正常对其造成伤害。"]
+			disable_toast: true
+			id: "37BF15D81E2141C1"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "4757627F8B175B23"
+				item: "goetyawaken:death_ray_focus"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 17.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "69A0233689D674F1"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "544B41AD8962A838"
+				item: "goetyawaken:shulker_missile_focus"
+				type: "item"
+			}]
+			x: 21.0d
+			y: 17.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "7868BE54D1A70251"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "3C28B6E4DA623011"
+				item: "goetyawaken:stare_focus"
+				type: "item"
+			}]
+			x: 23.0d
+			y: 17.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "019FD6C7C7AF81E4"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "75D8632963C61A72"
+				item: "goetyawaken:killer_focus"
+				type: "item"
+			}]
+			x: 40.0d
+			y: 21.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "77ABA17504E750F3"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "7479CD70E399CF91"
+				item: "goetyawaken:creeper_focus"
+				type: "item"
+			}]
+			x: 39.0d
+			y: 21.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "2D0E368C60C71480"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "2E97E2C7FC1B69D2"
+				item: "goetyawaken:infestation_focus"
+				type: "item"
+			}]
+			x: 48.5d
+			y: 17.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "5128CA1CCE55BF33"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "6D2A5E964629BC1B"
+				item: "goetyawaken:torment_focus"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 24.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "74E19B42396268E5"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "5CBBA6D5518E10B5"
+				item: "goetyawaken:agony_focus"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 21.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "6D199AD04DB24115"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "00E84FDE98F5DA6A"
+				item: "goetyawaken:blood_rain_focus"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 21.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "6D9EF8640C7AB424"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "15518E35349B3BB9"
+				item: "goetyawaken:desert_plagues_focus"
+				type: "item"
+			}]
+			x: 26.5d
+			y: 19.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "38847AF1FCA6203E"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "7DFC00444FCF9369"
+				item: "goetyawaken:heaven_rift_focus"
+				type: "item"
+			}]
+			x: 27.5d
+			y: 19.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "1C8E31BA50EFCA28"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "0E7519EFCC1D81FF"
+				item: "goetyawaken:mushroom_missile_focus"
+				type: "item"
+			}]
+			x: 41.0d
+			y: 21.5d
+		}
+		{
+			description: ["需要成为 &d巫妖&r 才能发挥其效果。"]
+			disable_toast: true
+			id: "35A0D510EE153CA7"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "55F3226E4E4C0BDE"
+				item: "goetyawaken:champion_focus"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 22.5d
+		}
+		{
+			dependencies: ["1EF9DF574337A22C"]
+			description: [
+				"如果不想搭建繁琐的仪式祭坛，可寻找 &e&n复合仪式&r 结构。此结构中将包含绝大多数的完整仪式，能够直接使用。"
+				""
+				"可通过 &b许愿泉&r 获取对应结构的位置。这需要向许愿泉献出 &e&n灵魂束聚晶&r 、皇家末影珍珠、传送卷轴、星界粉尘 。"
+			]
+			icon: "goety:dark_altar_marble"
+			id: "2C8B223EB67B8A1E"
+			rewards: [{
+				id: "1D1A09CB4DCF106E"
+				item: {
+					Count: 1
+					id: "wishing_fountain:wf_structure_map"
+					tag: {
+						target: "celestial_mooncake:ritual_overworld"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			size: 2.0d
+			subtitle: "预制的全类型仪式"
+			tasks: [{
+				id: "6ED849A6F0A010B7"
+				title: "复合仪式"
+				type: "checkmark"
+			}]
+			title: "复合仪式"
+			x: 12.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["1EF9DF574337A22C"]
+			description: [
+				"如果不想搭建繁琐的下界仪式，可寻找 &e&n下界复合仪式&r 结构。此结构中包含下界的完整仪式，能够直接使用。"
+				""
+				"可通过 &b许愿泉&r 获取对应结构的位置。这需要向许愿泉献出 &e&n火球聚晶&r 、皇家末影珍珠、传送卷轴、星界粉尘 。"
+			]
+			icon: "goety:dark_altar_nether_brick"
+			id: "591C4D5C1FDB5076"
+			rewards: [{
+				id: "040B47E557F092FC"
+				item: {
+					Count: 1
+					id: "wishing_fountain:wf_structure_map"
+					tag: {
+						target: "celestial_mooncake:ritual_nether"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			size: 2.0d
+			subtitle: "预制的下界类型仪式"
+			tasks: [{
+				id: "66EC00BD9246E875"
+				title: "下界复合仪式"
+				type: "checkmark"
+			}]
+			title: "下界复合仪式"
+			x: 15.0d
+			y: 9.0d
+		}
+		{
+			description: [
+				"只能在 &n冰川幽灵小屋&r 使用，可召唤&d幽灵死灵法师&r。"
+				""
+				"可以通过 &b许愿泉&r 获取对应结构的位置。这需要向许愿泉献出 &e&n幽魂提灯&r 、皇家末影珍珠、传送卷轴、星界粉尘 。"
+			]
+			icon: "goetyawaken:wraith_lantern"
+			id: "3EFEF926E0773776"
+			rewards: [{
+				id: "1A0BAC06A628D143"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "596D0BD534C71FE1"
+				item: "goetyawaken:wraith_lantern"
+				type: "item"
+			}]
+			x: 45.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3EFEF926E0773776"]
+			description: ["在 &n冰川小屋&r 使用幽魂提灯，可召唤幽灵死灵法师；是等同3星的BOSS单位，攻击可造成&d虚弱&r与&c侵蚀&r效果，可召唤幽灵仆从作战。击败可获得&b冰封幽魂质&r。"]
+			icon: "goetyawaken:glacial_wraith_essence"
+			id: "1FF549793509450A"
+			rewards: [
+				{
+					id: "18A938B4C015414F"
+					type: "xp"
+					xp: 500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1F582E11FACDD12C"
+					table_id: 2184327557013803857L
+					type: "random"
+				}
+			]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "529D51141AC15C9F"
+				item: "goetyawaken:glacial_wraith_essence"
+				type: "item"
+			}]
+			title: "幽灵死灵法师"
+			x: 49.0d
+			y: -3.0d
+		}
+		{
+			description: ["只能在 &n沙漠&r 类群系使用，可召唤&d焦骸死灵法师&r。可通过自然指南针寻找特定群系的位置。"]
+			icon: "goetyawaken:ancient_gong"
+			id: "7E0BBC3D643B3095"
+			rewards: [{
+				id: "1E2C16AA292D101D"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "26680619810C3AC9"
+				item: "goetyawaken:ancient_gong"
+				type: "item"
+			}]
+			x: 45.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7E0BBC3D643B3095"]
+			description: ["在 &n沙漠&r 类群系使用古代铜锣，可召唤焦骸死灵法师；是等同3星的BOSS单位，攻击可造成&d虚弱&r与&c侵蚀&r效果，可召唤焦骸仆从作战。击败可获得&b禁咒碎片&r。"]
+			icon: "goetyawaken:taboo_fragment"
+			id: "2F59B35C8D250A9B"
+			rewards: [
+				{
+					id: "5C7CFEB7050270D4"
+					type: "xp"
+					xp: 500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7EBD37072EBEA5AD"
+					table_id: 2184327557013803857L
+					type: "random"
+				}
+			]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "2130024075704339"
+				item: "goetyawaken:taboo_fragment"
+				type: "item"
+			}]
+			title: "焦骸死灵法师"
+			x: 49.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"1FF549793509450A"
+				"2F59B35C8D250A9B"
+				"05DB30BA2768EDF7"
+			]
+			description: [
+				"使用 &d混沌之眼&r ，在主世界的&n蘑菇岛&r群系找到 &d混沌监牢&r 结构，哞菇巨兽就在混沌监牢的底层。"
+				""
+				"可通过 &b许愿泉&r 获取对应结构位置。这需要献出 &e&n迷宫蘑菇/混沌之眼&r 、皇家末影珍珠、传送卷轴、星界粉尘 。"
+			]
+			icon: "goetyawaken:prison_eye"
+			id: "60A3CF9F8858692B"
+			rewards: [{
+				id: "1365722A46C69EC5"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "0F07914682C0A82E"
+				item: "goetyawaken:prison_eye"
+				type: "item"
+			}]
+			x: 53.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"60A3CF9F8858692B"
+				"2A2C2F2483C64C99"
+				"6EC24F55C4F534CC"
+			]
+			description: [
+				"使用 &d混沌之眼&r ，在主世界的&n蘑菇岛&r群系找到 &d混沌监牢&r 结构，哞菇巨兽就在混沌监牢的底层。"
+				""
+				"哞菇巨兽具有 &n5%&r 最大生命的伤害限制，是等同4星的BOSS单位，击败将获得&b超聚合菌丝回路&r。"
+				""
+				"哞菇巨兽的周围存在&n毒蘑菇&r时，会为哞菇巨兽提供额外的&a生命回复&r。哞菇巨兽的周围存在&n蘑菇类方块&r(包括菌丝)时，会为哞菇巨兽提供额外的&e伤害减免&r。"
+				""
+				"哞菇巨兽血量低于一半时，会获得额外减伤，随血量降低而提高，在剩余25%生命值时达到最大值(50％)。"
+			]
+			icon: "goetyawaken:superaggregated_mycelial_circuit"
+			id: "464BB507A0230EF7"
+			rewards: [
+				{
+					id: "488BD16F3C1F2DD3"
+					type: "xp"
+					xp: 500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7B74CEC2DDA2C153"
+					table_id: 2184327557013803857L
+					type: "random"
+				}
+			]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "1D6A126ABEFA40EA"
+				item: "goetyawaken:superaggregated_mycelial_circuit"
+				type: "item"
+			}]
+			title: "哞菇巨兽"
+			x: 61.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"使用 &d不祥之眼&r ，在主世界找到 &d灾厄堡垒&r 结构。"
+				""
+				"可以通过 &b许愿泉&r 获取对应结构的位置。这需要向许愿泉献出 &e&n不祥之眼&r 、皇家末影珍珠、传送卷轴、星界粉尘 。"
+			]
+			icon: "goetyawaken:ominous_eye"
+			id: "59354099585F01CA"
+			rewards: [{
+				id: "0BDF8CDCE23A16B8"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "53D2DEE97ED42DEF"
+				item: "goetyawaken:ominous_eye"
+				type: "item"
+			}]
+			x: 53.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["59354099585F01CA"]
+			description: [
+				"使用 &d不祥之眼&r ，在主世界找到 &d灾厄堡垒&r 结构。灾厄堡垒中固定生成一个存放 &n正品的任命书&r 的祭坛基座。"
+				""
+				"阅读&n支配卷轴&r后，使用魔法仪式中的魔法仪式可以使用原有的任命书和其他材料伪造一份新的任命书。"
+				""
+				"手持伪造的任命书右键一名属于你的 &n恶妒者&r 仆从，在该名恶妒者仆从击杀一名灾厄宰相后，他会晋升为一名所属于你的 &d灾厄宰相&r 仆从。"
+			]
+			icon: "goetyawaken:fake_appointment"
+			id: "43ABD99E2972049E"
+			rewards: [
+				{
+					id: "7E9AC2E519F6028F"
+					type: "xp"
+					xp: 500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3AECEDEF143D0859"
+					table_id: 2184327557013803857L
+					type: "random"
+				}
+			]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "240F16E5F257EF3F"
+				item: "goetyawaken:fake_appointment"
+				type: "item"
+			}]
+			x: 57.0d
+			y: -3.0d
+		}
+		{
+			description: [
+				"使用 &d迷乱之眼&r ，在主世界的 &n恶地&r 群系找到 &d荒漠迷城&r 结构。有较高概率获取 &e支配卷轴&r 等物品。"
+				""
+				"可以通过 &b许愿泉&r 获取对应结构的位置。这需要向许愿泉献出 &e&n迷乱之眼&r 、皇家末影珍珠、传送卷轴、星界粉尘 。"
+			]
+			icon: "goetyawaken:mirage_eye"
+			id: "24D13926FFF3EA47"
+			rewards: [{
+				id: "12F96261C2B99C7E"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "39CBB1AA913AFC48"
+				item: "goetyawaken:mirage_eye"
+				type: "item"
+			}]
+			x: 53.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["24D13926FFF3EA47"]
+			description: [
+				"在 &d荒漠迷城、灾厄堡垒、混沌监狱&r 结构，有概率获取 &e支配卷轴&r 等物品。在&n荒漠迷城&r额外有较高概率获取。"
+				""
+				"阅读此卷轴后可以解锁皇室相关仆从召唤，以及灾厄皇室物品的制作，包括&n灵魂蓝宝石&r和&n伪造的任命书&r等。"
+			]
+			icon: "goetyawaken:royal_scroll"
+			id: "79406E1A52CE5C44"
+			rewards: [
+				{
+					id: "05DB0B9D4CC24197"
+					type: "xp"
+					xp: 500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "480390765CF08440"
+					table_id: 2184327557013803857L
+					type: "random"
+				}
+			]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "2C68890BF077ACBB"
+				item: "goetyawaken:royal_scroll"
+				type: "item"
+			}]
+			x: 57.0d
+			y: 3.0d
+		}
+		{
+			description: ["属于&d&n黑暗&r流派的魔杖，包含 &e魔法&r 和 &6灾厄&r 两类法术。只有此类法术会受到 &d灵魂消耗&r 属性的影响。"]
+			disable_toast: true
+			id: "76A83F0EB10596BF"
+			shape: "square"
+			size: 2.0d
+			tasks: [
+				{
+					disable_toast: true
+					id: "6280FA892E4ED6FC"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								Items: [ ]
+								Size: 1
+							}
+						}
+						id: "goety:dark_wand"
+					}
+					type: "item"
+				}
+				{
+					id: "300A80D2B6317E01"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								Items: [ ]
+								Size: 1
+							}
+						}
+						id: "goety:ominous_staff"
+					}
+					type: "item"
+				}
+			]
+			title: "不祥魔杖"
+			x: 8.5d
+			y: 16.0d
+		}
+		{
+			description: ["提供&n特定功能&r用途的聚晶。"]
+			disable_toast: true
+			icon: "goety:crafting_focus"
+			id: "56F68A78A8B99CFB"
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "39086AF034A8764A"
+				title: "功能聚晶"
+				type: "checkmark"
+			}]
+			x: 54.5d
+			y: 16.0d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "18F894E4D724072C"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "59EEBF4211A93BC4"
+				item: "goetyawaken:wololo_focus"
+				type: "item"
+			}]
+			x: 53.5d
+			y: 24.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "573819D7646BF86E"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "545C82F250899BCA"
+				item: "goetyawaken:fairy_focus"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 17.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "05DFA8F125E239A0"
+			shape: "square"
+			tasks: [{
+				disable_toast: true
+				id: "573610DD404150DD"
+				item: "goetyawaken:death_cap_mushroom"
+				type: "item"
+			}]
+			x: 63.5d
+			y: -0.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "4D3EF7274F3C9F98"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "79BF40CC723A92FD"
+				item: "goetyawaken:access_focus"
+				type: "item"
+			}]
+			x: 54.5d
+			y: 24.5d
+		}
+		{
+			dependencies: ["1EF9DF574337A22C"]
+			description: [
+				"&n远古城市&r生成在主世界地下的 &d深暗之域&r 群系，这里不会自然生成生物。在此发出震动会被&n幽匿尖啸体&r感知，提高警戒等级，达到一定等级后 &d监守者&r 将会从地下爬出。"
+				""
+				"可以通过 &b许愿泉&r 获取对应结构的位置。这需要向许愿泉献出 灵魂灯笼 、深板岩砖、绿宝石、钻石 。"
+			]
+			icon: "minecraft:sculk_shrieker"
+			id: "5472D645697AC64C"
+			rewards: [{
+				id: "46C556BAE7C5FE75"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "250DC8C9AD3301D1"
+				title: "远古城市"
+				type: "checkmark"
+			}]
+			title: "远古城市"
+			x: 18.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["03556395F584F50B"]
+			description: ["提升 &e&n无光盟约&r 能够提供大量的&d法术强效&r属性，部分饰品道具也会伴随无光盟约的提升，获得更强的效果。"]
+			icon: "kubejs:covenant_matt2"
+			id: "42D82A06A9B90C97"
+			rewards: [{
+				id: "64120858D2AD4ED4"
+				item: "goety:treasure_pouch"
+				type: "item"
+			}]
+			shape: "square"
+			size: 2.0d
+			subtitle: "升级你的盟约"
+			tasks: [{
+				id: "39E8AA94E8FECFE9"
+				item: "kubejs:covenant_matt2"
+				type: "item"
+			}]
+			x: 26.0d
+			y: 0.0d
+		}
+		{
+			description: ["前期最重要的材料。使用后可以回复 &b&n灵魂能量&r 。灵质现在可以通过 &n下界疣&r 和 &n玉&r 来大批量复制。"]
+			icon: "goety:ectoplasm"
+			id: "112DCA40BAE200B4"
+			rewards: [{
+				id: "2E19751DA00C1B09"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 1.0d
+			subtitle: "使用后可回复灵魂能量"
+			tasks: [{
+				id: "0DE85B7B79A867C2"
+				item: "goety:ectoplasm"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -0.5d
+		}
+		{
+			description: ["在命运的间章，你偶然窥得魔法的踪迹。"]
+			icon: "supplementaries:hourglass"
+			id: "686340B83FEF4DFD"
+			shape: "square"
+			size: 3.0d
+			tasks: [{
+				id: "5645CAEAD03561EA"
+				title: "魔法的注脚"
+				type: "checkmark"
+			}]
+			title: "魔法的注脚"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			description: ["在工作台中使用 &a&n禁书片段&r 可直接赋予聚晶&n强效&r附魔。需注意，聚晶会根据附魔种类&c提升灵魂能量消耗&r，在拥有更高效的灵魂能量回复手段之前，不推荐为聚晶附魔。"]
+			icon: "goety:forbidden_fragment"
+			id: "6F0645AD683A18DE"
+			rewards: [{
+				id: "35F304874AD61F08"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 1.0d
+			subtitle: "能为聚晶施加强效附魔"
+			tasks: [{
+				id: "777B4FE0A3D028A6"
+				item: "goety:forbidden_fragment"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 0.5d
+		}
+	]
+	title: "魔法的注脚"
+}

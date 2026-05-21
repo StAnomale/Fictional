@@ -1,0 +1,41 @@
+{
+  "armorSetName": "DC_peacock_feather_fan",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "twilightforest:peacock_feather_fan",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:magic_damage",
+      "value": 2.0,
+      "modifierUUID": "c43fb026-413b-4f3b-b7e8-3d0c8b946c5b",
+      "attributeOperation": 0,
+      "interactionType": "self"
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.movement_speed",
+      "value": 0.10,
+      "modifierUUID": "45de73a9-aa7a-4ce9-9f3f-a68826161643",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.max_health",
+      "value": -0.1,
+      "modifierUUID": "50652fca-be5e-4361-ab71-186177da470f",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

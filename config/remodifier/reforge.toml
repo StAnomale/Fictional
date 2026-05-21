@@ -1,0 +1,8 @@
+
+[Remodifier]
+	#Universal reforge item
+	universalReforgeItem = ["minecraft:gold_ingot", "minecraft:diamond"]
+	#Universal reforge item rarity
+	universalReforgeItemRarity = ["0", "0"]
+	DisableRepairingReforging = false
+

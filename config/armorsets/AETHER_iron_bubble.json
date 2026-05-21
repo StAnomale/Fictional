@@ -1,0 +1,60 @@
+{
+  "armorSetName": "iron_bubble",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "aether:iron_bubble",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "forge:swim_speed",
+      "value": 0.4,
+      "modifierUUID": "de7d41d7-ee0e-4c2a-84b1-dcef72499301",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "conditions": [
+        {
+          "type": "inWater"
+        }
+      ]
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor",
+      "value": 0.2,
+      "modifierUUID": "74757b80-e73b-4461-9e33-9e70d8e3179c",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "conditions": [
+        {
+          "type": "inWater"
+        }
+      ]
+    },
+    {
+      "type": "attribute",
+      "name": "obscure_api:penetration",
+      "value": 0.2,
+      "modifierUUID": "5029fc3b-eba9-42dd-a6e1-59b933f65258",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "conditions": [
+        {
+          "type": "inWater"
+        }
+      ]
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor",
+      "value": 4.0,
+      "modifierUUID": "c2f3e347-0ce5-4f41-93be-9300c6bbb4a9",
+      "attributeOperation": 0,
+      "interactionType": "self"
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

@@ -1,0 +1,109 @@
+{
+  "armorSetName": "emp",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "cataclysm:emp",
+      "mustBeEmpty": false
+    },
+    {
+      "itemKey": "cataclysm:emp",
+      "mustBeEmpty": false
+    },
+    {
+      "itemKey": "immersive_aircraft:steel_boiler",
+      "mustBeEmpty": false
+    },
+    {
+      "itemKey": "cataclysm:monstrous_horn",
+      "mustBeEmpty": false
+    },
+    {
+      "itemKey": "immersive_aircraft:enhanced_propeller",
+      "mustBeEmpty": false
+    },
+    {
+      "itemKey": "immersive_aircraft:industrial_gears",
+      "mustBeEmpty": false
+    },
+    {
+      "itemKey": "immersive_aircraft:sturdy_pipes",
+      "mustBeEmpty": false
+    },
+    {
+      "itemKey": "immersive_aircraft:improved_landing_gear",
+      "mustBeEmpty": false
+    },
+    {
+      "itemKey": "immersive_aircraft:hull_reinforcement",
+      "mustBeEmpty": false
+    },
+    {
+      "itemKey": "immersive_aircraft:gyroscope_dials",
+      "mustBeEmpty": false
+    },
+    {
+      "itemKey": "immersive_aircraft:gyroscope_hud",
+      "mustBeEmpty": false
+    },
+    {
+      "itemKey": "immersive_aircraft:engine",
+      "mustBeEmpty": false
+    },
+    {
+      "itemKey": "immersive_aircraft:eco_engine",
+      "mustBeEmpty": false
+    },
+    {
+      "itemKey": "immersive_aircraft:nether_engine",
+      "mustBeEmpty": false
+    },
+    {
+      "itemKey": "minecraft:respawn_anchor",
+      "mustBeEmpty": false
+    },
+    {
+      "itemKey": "enderitemod:enderite_respawn_anchor",
+      "mustBeEmpty": false
+    },
+    {
+      "itemKey": "eeeabsmobs:ancient_drive_crystal",
+      "mustBeEmpty": false
+    },
+    {
+      "itemKey": "eeeabsmobs:guardian_core",
+      "mustBeEmpty": false
+    },
+    {
+      "itemKey": "artifacts:pocket_piston",
+      "mustBeEmpty": false
+    },
+    {
+      "itemKey": "artifacts:pickaxe_heater",
+      "mustBeEmpty": false
+    }
+  ],
+  "partialBonusRequiredAmount": 3,
+  "partialSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor",
+      "value": 0.15,
+      "modifierUUID": "d5bcba15-f7c4-4ec9-a9a8-fa9c195f0ff2",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "minecraft:hunger",
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

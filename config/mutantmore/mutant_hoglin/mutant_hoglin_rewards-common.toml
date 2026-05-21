@@ -1,0 +1,31 @@
+
+["HOG HELM"]
+	"Durability Multiplier (end result is 11 * this)" = 100
+	"Armour Value (default: 3)" = 4
+	"Armour Toughness Value (default: 3)" = 3.0
+	"Enchantment Value (default: 15)" = 15
+	"Knockback Resistance (default: 0.1)" = 0.1
+	"Enraged Effect Maximum Level (default: 4)" = 3
+	"Initial Enraged Effect Duration Increase (in ticks, default: 40)" = 80
+	"Enraged Effect Duration Increase (in ticks, default: 30)" = 40
+	"Enraged Effect Maximum Duration (in ticks, default: 200)" = 400
+	"Enraged Damage Multiplier (end result is 1 + Enraged effect level * this, default: 0.2)" = 0.2
+
+[HOGLANCE]
+	"Charge Damage (default: 12)" = 48.0
+	"Charge Durability Consumption (default: 5)" = 1
+	"Charge Cooldown (in ticks, default: 100)" = 60
+	"Durability (default: 400)" = 1600
+	"Attack Speed (default: -2.5)" = -2.5
+	"Attack Damage (default: 7)" = 14.0
+	"Attack Range Increase (default: 0.5)" = 1.0
+
+["HOGFIST GAUNTLET"]
+	"Stomp Damage (default: 8)" = 40.0
+	"Stomp Durability Consumption (default: 5)" = 1
+	"Stomp Cooldown (default: 150)" = 60
+	"Stomp Range (in blocks, default: 10)" = 12.0
+	"Durability (default: 600)" = 1800
+	"Attack Speed (default: -1)" = -1.0
+	"Attack Damage (default: 5)" = 6.0
+

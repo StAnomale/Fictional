@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:focus"
+  ],
+  "incompatible": [
+    "majruszsenchantments:incompatibility_curse",
+    "goety:potency"
+  ]
+}

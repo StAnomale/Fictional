@@ -1,0 +1,27 @@
+{
+  "armorSetName": "END_spiritual_crown4",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "royalvariations:spiritual_crown",
+      "mustBeEmpty": false
+    }
+  ],
+  "chest": {
+    "itemKey": "royalvariations:royal_knight_cuirass",
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor",
+      "modifierUUID": "890428de-dcb8-4d4a-8fa3-b420e376c578",
+      "value": 0.1,
+      "interactionType": "self",
+      "attributeOperation": 1,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

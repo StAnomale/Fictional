@@ -1,0 +1,55 @@
+{
+  "armorSetName": "floaty_scarf",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "deep_aether:floaty_scarf",
+      "mustBeEmpty": false
+    },
+    {
+      "itemKey": "deep_aether:aercloud_necklace",
+      "mustBeEmpty": false
+    },
+    {
+      "itemKey": "deep_aether:cloud_cape",
+      "mustBeEmpty": false
+    },
+    {
+      "itemKey": "deep_aether:wind_shield",
+      "mustBeEmpty": false
+    },
+    {
+      "itemKey": "lost_aether_content:invincibility_gem",
+      "mustBeEmpty": false
+    },
+    {
+      "itemKey": "deep_aether:stormforged_gloves",
+      "mustBeEmpty": false
+    },
+    {
+      "itemKey": "deep_aether:aerwhale_saddle",
+      "mustBeEmpty": false
+    }
+  ],
+  "partialBonusRequiredAmount": 2,
+  "partialSetBonuses": [
+    {
+      "type": "effect",
+      "name": "kubejs:ice",
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "kubejs:ice",
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  
+  "hideGeneratedTooltip": true
+}

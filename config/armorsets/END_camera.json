@@ -1,0 +1,33 @@
+{
+  "armorSetName": "END_camera",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "exposure:camera",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:magic_damage",
+      "value": 0.5,
+      "modifierUUID": "530fc7a7-ca9d-4e9d-960f-e81d7d81e676",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "obscure_api:penetration",
+      "value": 0.1,
+      "modifierUUID": "2d260dee-ac51-48fa-8276-e6cb6cf55332",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

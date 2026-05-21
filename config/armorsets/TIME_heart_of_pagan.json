@@ -1,0 +1,171 @@
+{
+  "armorSetName": "heart_of_pagan",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "eeeabsmobs:heart_of_pagan",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "minecraft:regeneration",
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.max_health",
+      "value": 4,
+      "modifierUUID": "f53b6d05-c772-4c60-8350-869ac0590e04",
+      "attributeOperation": 0,
+      "interactionType": "self"
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor_toughness",
+      "value": -0.15,
+      "modifierUUID": "4964885d-2a1a-423e-8951-6205961f73a2",
+      "attributeOperation": 1,
+      "interactionType": "self"
+    },
+    {
+      "type": "effect",
+      "name": "eeeabsmobs:frenzy_effect",
+      "value": 1.0,
+      "interactionType": "self",
+      "interactionDuration": 800,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false,
+      "conditions": [
+        {
+          "type": "timeRange",
+          "extra": "0,20"
+        }
+      ]
+    },
+    {
+      "type": "effect",
+      "name": "eeeabsmobs:frenzy_effect",
+      "value": 1.0,
+      "interactionType": "self",
+      "interactionDuration": 800,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false,
+      "conditions": [
+        {
+          "type": "timeRange",
+          "extra": "2400,2420"
+        }
+      ]
+    },
+    {
+      "type": "effect",
+      "name": "eeeabsmobs:frenzy_effect",
+      "value": 1.0,
+      "interactionType": "self",
+      "interactionDuration": 800,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false,
+      "conditions": [
+        {
+          "type": "timeRange",
+          "extra": "4800,4820"
+        }
+      ]
+    },
+    {
+      "type": "effect",
+      "name": "eeeabsmobs:frenzy_effect",
+      "value": 1.0,
+      "interactionType": "self",
+      "interactionDuration": 800,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false,
+      "conditions": [
+        {
+          "type": "timeRange",
+          "extra": "7200,7220"
+        }
+      ]
+    },
+    {
+      "type": "effect",
+      "name": "eeeabsmobs:frenzy_effect",
+      "value": 1.0,
+      "interactionType": "self",
+      "interactionDuration": 800,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false,
+      "conditions": [
+        {
+          "type": "timeRange",
+          "extra": "9600,9620"
+        }
+      ]
+    },
+    {
+      "type": "effect",
+      "name": "eeeabsmobs:frenzy_effect",
+      "value": 2.0,
+      "interactionType": "self",
+      "interactionDuration": 800,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false,
+      "conditions": [
+        {
+          "type": "timeRange",
+          "extra": "12000,12020"
+        }
+      ]
+    },
+    {
+      "type": "effect",
+      "name": "eeeabsmobs:frenzy_effect",
+      "value": 2.0,
+      "interactionType": "self",
+      "interactionDuration": 800,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false,
+      "conditions": [
+        {
+          "type": "timeRange",
+          "extra": "14400,14420"
+        }
+      ]
+    },
+    {
+      "type": "effect",
+      "name": "eeeabsmobs:frenzy_effect",
+      "value": 2.0,
+      "interactionType": "self",
+      "interactionDuration": 800,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false,
+      "conditions": [
+        {
+          "type": "timeRange",
+          "extra": "16800,16820"
+        }
+      ]
+    },
+    {
+      "type": "effect",
+      "name": "eeeabsmobs:frenzy_effect",
+      "value": 2.0,
+      "interactionType": "self",
+      "interactionDuration": 800,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false,
+      "conditions": [
+        {
+          "type": "timeRange",
+          "extra": "19200,19220"
+        }
+      ]
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

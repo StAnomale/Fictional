@@ -1,0 +1,29 @@
+{
+  "armorSetName": "necklace",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "goety:pendant_of_hunger",
+      "mixAndMatch": [
+      "goety:amethyst_necklace",
+      "goety:sea_amulet",
+      "goety:feline_amulet",
+      "goety:star_amulet"
+      ],
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "goety:void_potency",
+      "value": 1.0,
+      "modifierUUID": "1de0bb64-c298-4b53-a525-3600b080a297",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

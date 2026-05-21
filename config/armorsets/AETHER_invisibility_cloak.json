@@ -1,0 +1,23 @@
+{
+  "armorSetName": "invisibility_cloak",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "aether:invisibility_cloak",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor_toughness",
+      "value": 0.25,
+      "modifierUUID": "e686d7aa-0090-477c-8815-99ed09bfa2a0",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

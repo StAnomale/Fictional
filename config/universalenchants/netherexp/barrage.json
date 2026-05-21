@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:shotgun"
+  ],
+  "incompatible": [
+    "minecraft:quick_charge",
+    "majruszsenchantments:incompatibility_curse"
+  ]
+}

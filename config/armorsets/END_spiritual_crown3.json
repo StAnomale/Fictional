@@ -1,0 +1,27 @@
+{
+  "armorSetName": "END_spiritual_crown3",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "royalvariations:spiritual_crown",
+      "mustBeEmpty": false
+    }
+  ],
+  "head": {
+    "itemKey": "royalvariations:royal_knight_helmet",
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor",
+      "modifierUUID": "475d9f59-eec0-45c6-86aa-162bbbd9ff8b",
+      "value": 0.1,
+      "interactionType": "self",
+      "attributeOperation": 1,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

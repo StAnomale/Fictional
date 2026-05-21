@@ -1,0 +1,33 @@
+{
+  "armorSetName": "lucky",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "artifacts:lucky_scarf",
+      "mustBeEmpty": false
+    },
+    {
+      "itemKey": "artifacts:superstitious_hat",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_speed",
+      "value": 0.25,
+      "modifierUUID": "8c054031-6e05-4ac3-8f61-91f698e9b002",
+      "attributeOperation": 1,
+      "interactionType": "self"
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.luck",
+      "value": 1.0,
+      "modifierUUID": "bd4bc734-ad42-4592-8122-131580e77630",
+      "attributeOperation": 0,
+      "interactionType": "self"
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

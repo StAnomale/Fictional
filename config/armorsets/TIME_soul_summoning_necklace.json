@@ -1,0 +1,21 @@
+{
+  "armorSetName": "soul_summoning_necklace",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "eeeabsmobs:soul_summoning_necklace",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_damage",
+      "value": 0.15,
+      "modifierUUID": "1e6e1955-737c-4e96-9afe-14e06961e50e",
+      "attributeOperation": 1,
+      "interactionType": "self"
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

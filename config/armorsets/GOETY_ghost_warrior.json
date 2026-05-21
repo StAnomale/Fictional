@@ -1,0 +1,54 @@
+{
+  "armorSetName": "ghost_warrior",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "eeeabsmobs:ghost_warrior_helmet",
+    "mixAndMatch": [
+    ],
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "eeeabsmobs:ghost_warrior_chestplate",
+    "mixAndMatch": [
+    ],
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "eeeabsmobs:ghost_warrior_leggings",
+    "mixAndMatch": [
+    ],
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "eeeabsmobs:ghost_warrior_boots",
+    "mixAndMatch": [
+    ],
+    "mustBeEmpty": false
+  },
+  "partialBonusRequiredAmount": 2,
+  "partialSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.max_health",
+      "value": 0.4,
+      "modifierUUID": "aae014a6-0185-4980-baff-d700bace0675",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_damage",
+      "value": 0.4,
+      "modifierUUID": "72f4694f-87a7-45d3-baa7-8c8f3f7fb144",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

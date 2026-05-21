@@ -1,0 +1,31 @@
+{
+  "armorSetName": "bone_raker2",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "meetyourfight:bone_raker",
+      "mustBeEmpty": false
+    }
+  ],
+  "offHand": {
+    "itemKey": "meetyourfight:dredged_cannonade",
+    "mixAndMatch": [
+      "gwrexpansions:mirecaller_shotgun"
+      ],
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "gunswithoutroses:gwr.damage_total",
+      "value": 0.25,
+      "modifierUUID": "c0192d35-fbae-47d3-8ac4-e1626ab3e41a",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

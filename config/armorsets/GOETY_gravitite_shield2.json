@@ -1,0 +1,33 @@
+{
+  "armorSetName": "shield",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "aether:gravitite_gloves",
+      "mixAndMatch": [
+      "deep_aether:skyjade_gloves",
+      "aether:zanite_gloves"
+      ],
+      "mustBeEmpty": false
+    }
+  ],
+  "offHand": {
+    "itemKey": "lost_aether_content:gravitite_shield",
+    "mixAndMatch": [
+      "deep_aether:skyjade_shield",
+      "lost_aether_content:zanite_shield"
+      ],
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_damage",
+      "value": 0.2,
+      "modifierUUID": "12a35874-a228-4eba-84db-d696411eba8f",
+      "attributeOperation": 1,
+      "interactionType": "self"
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

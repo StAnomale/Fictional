@@ -1,0 +1,21 @@
+{
+  "armorSetName": "dustorm_hammer",
+  "performanceMode": true,
+  "mainHand": {
+    "itemKey": "radiation_zone_reborn:dustorm_hammer",
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "forge:entity_reach",
+      "value": 2.0,
+      "modifierUUID": "cace12a6-0458-4699-a1bf-bda1001ca020",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

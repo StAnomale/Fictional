@@ -1,0 +1,27 @@
+{
+  "armorSetName": "finalkey",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "aethermobs:finalkey",
+      "mustBeEmpty": false
+    },
+    {
+      "itemKey": "aethermobs:pyrespear",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_damage",
+      "value": 0.2,
+      "modifierUUID": "15e931a1-ca02-4537-8123-faa288b2355f",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

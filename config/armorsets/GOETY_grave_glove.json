@@ -1,0 +1,23 @@
+{
+  "armorSetName": "grave_glove",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "goety:grave_glove",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:accuracy",
+      "value": 0.05,
+      "modifierUUID": "901ce999-78a4-4799-a795-18d967b90feb",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

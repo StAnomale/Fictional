@@ -1,0 +1,21 @@
+{
+  "armorSetName": "xp_tome",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "xpbook:xp_tome",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "functionalarmortrim:experience_boost",
+      "value": 0.2,
+      "modifierUUID": "86364f5e-abfb-42fa-af76-afc98eea9514",
+      "attributeOperation": 1,
+      "interactionType": "self"
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

@@ -1,0 +1,31 @@
+{
+  "armorSetName": "dungeondagger",
+  "performanceMode": true,
+  "mainHand": {
+    "itemKey": "aethermobs:dungeondagger",
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.movement_speed",
+      "value": 0.15,
+      "modifierUUID": "bc5bbd83-b01d-486a-a458-1fb37405f386",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "obscure_api:magic_damage",
+      "value": 0.15,
+      "modifierUUID": "e350a957-cb15-4619-b6aa-4dba8e0f6cce",
+      "attributeOperation": 2,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

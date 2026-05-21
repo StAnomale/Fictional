@@ -1,0 +1,41 @@
+{
+  "armorSetName": "gravitite_ring",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "deep_aether:gravitite_ring",
+      "mustBeEmpty": false
+    }
+  ],
+  "mainHand": {
+    "itemKey": "aether:gravitite_sword",
+    "mixAndMatch": [
+      "gwrexpansions:super_shotgun",
+      "gunswithoutrosesadditions:gravitite_shotgun",
+      "aether:gravitite_axe",
+      "aether:gravitite_pickaxe",
+      "aether:gravitite_hoe",
+      "aether:gravitite_shovel",
+
+      "deep_aether:stratus_sword",
+      "deep_aether:stratus_axe",
+      "deep_aether:stratus_pickaxe",
+      "deep_aether:stratus_hoe",
+      "deep_aether:stratus_shovel"
+      ],
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:critical_hit",
+      "value": 0.1,
+      "modifierUUID": "f5561ea1-6d49-4ebf-bf75-05ed2d4b616c",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:armor_feet"
+  ],
+  "incompatible": [
+    "fancyenchantments:icy_burst",
+    "fancyenchantments:stacking_waves",
+    "fancyenchantments:ocean_current",
+    "majruszsenchantments:incompatibility_curse",
+    "fancyenchantments:overflow",
+    "fancyenchantments:drowning",
+    "fancyenchantments:abyssal_maelstrom",
+    "fancyenchantments:frozen_heart",
+    "fancyenchantments:bubble_shield",
+    "fancyenchantments:calmer"
+  ]
+}

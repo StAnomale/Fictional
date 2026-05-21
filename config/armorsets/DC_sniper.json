@@ -1,0 +1,39 @@
+{
+  "armorSetName": "DC_sniper",
+  "performanceMode": true,
+  "mainHand": {
+    "itemKey": "gunswithoutroses:diamond_sniper",
+    "mixAndMatch": [
+      "gwrexpansions:duskfall_eclipse_blaster",
+      "gwrexpansions:destiny_seven",
+      "gwrexpansions:voidspike",
+      "gwrexpansions:obsidian_launcher",
+
+      "meetyourfight:phantasmal_rifle",
+      "gwrexpansions:netherite_sniper",
+      "gwrexpansions:cursium_sniper"
+      ],
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:magic_damage",
+      "value": 0.4,
+      "modifierUUID": "2c8fcd63-9364-4e05-b01b-3c92d1d0c81e",
+      "attributeOperation": 2,
+      "interactionType": "self"
+    },
+    {
+      "type": "attribute",
+      "name": "obscure_api:penetration",
+      "value": 0.2,
+      "modifierUUID": "2580aa1d-311e-4943-b14e-7fe7547be602",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

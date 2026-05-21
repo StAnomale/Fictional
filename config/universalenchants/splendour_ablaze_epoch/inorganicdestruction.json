@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:splendour_ablaze_epoch_inorganicdestruction"
+  ],
+  "incompatible": [
+    "minecraft:bane_of_arthropods",
+    "minecraft:smite",
+    "majruszsenchantments:incompatibility_curse"
+  ]
+}

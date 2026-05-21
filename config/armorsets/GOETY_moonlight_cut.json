@@ -1,0 +1,43 @@
+{
+  "armorSetName": "stormlander",
+  "performanceMode": true,
+  "mainHand": {
+    "itemKey": "goetyawaken:moonlight_cut",
+    "mixAndMatch": [
+      ],
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:penetration",
+      "value": 0.2,
+      "modifierUUID": "c6156173-8c0c-41f9-bb90-02ca57f1ec45",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "forge:entity_reach",
+      "value": 0.2,
+      "modifierUUID": "f5f66b1e-25b5-42e2-be6d-fe8ade2b6dd3",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "goety:void_potency",
+      "value": 2.0,
+      "modifierUUID": "d11e6741-4798-41b8-b8aa-bd4d0e3bee95",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

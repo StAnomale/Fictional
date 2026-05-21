@@ -1,0 +1,7 @@
+[
+    {
+        "when": "onjoin",
+        "mob": "aether:whirlwind",
+        "result": "deny"
+    }
+]

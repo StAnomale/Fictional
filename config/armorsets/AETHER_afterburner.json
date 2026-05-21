@@ -1,0 +1,31 @@
+{
+  "armorSetName": "afterburner",
+  "performanceMode": true,
+  "mainHand": {
+    "itemKey": "deep_aether:afterburner",
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_speed",
+      "value": -0.25,
+      "modifierUUID": "0960d941-fc36-464d-99d4-6d1f59a18131",
+      "attributeOperation": 2,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "obscure_api:magic_damage",
+      "value": 0.25,
+      "modifierUUID": "dfb81521-d4e8-4633-a560-1f05da8da9aa",
+      "attributeOperation": 2,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

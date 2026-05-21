@@ -1,0 +1,25 @@
+{
+  "armorSetName": "crown",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "goety:dark_hat",
+      "mixAndMatch": [
+      ],
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "goety:void_potency",
+      "value": 0.5,
+      "modifierUUID": "34fd1af5-c1d7-4287-8cf4-5c5b4036b580",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

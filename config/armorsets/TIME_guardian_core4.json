@@ -1,0 +1,27 @@
+{
+  "armorSetName": "guardian_core4",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "eeeabsmobs:guardian_core",
+      "mustBeEmpty": false
+    }
+  ],
+  "mainHand": {
+    "itemKey": "eeeabsmobs:guardian_axe",
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_damage",
+      "modifierUUID": "34d91875-1bc0-47ba-86c1-3d6379c13f29",
+      "value": 0.25,
+      "interactionType": "self",
+      "attributeOperation": 1,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

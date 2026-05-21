@@ -1,0 +1,48 @@
+{
+  "armorSetName": "aqua_dashers",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "artifacts:aqua_dashers",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.movement_speed",
+      "value": 0.25,
+      "modifierUUID": "df4dcb33-5b5d-4dc6-badd-97a683a906b8",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "conditions": [
+        {
+          "type": "onBlock",
+          "extra": "minecraft:water"
+        }
+      ]
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.movement_speed",
+      "value": 0.25,
+      "modifierUUID": "a1250184-e14c-4f3d-8922-7b294306632a",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "conditions": [
+        {
+          "type": "inWater"
+        }
+      ]
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor",
+      "value": 0.15,
+      "modifierUUID": "a7ece593-b781-4eb9-ba49-f22105e69d5f",
+      "attributeOperation": 1,
+      "interactionType": "self"
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

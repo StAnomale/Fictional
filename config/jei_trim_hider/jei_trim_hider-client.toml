@@ -1,0 +1,27 @@
+
+[general]
+	#Hide Smithing Trim items in JEI Item Panel?
+	#是否在 JEI 物品面板中隐藏锻造纹饰物品？
+	#Default: true / 默认值: true
+	hideTemplateItems = true
+	#Hide Smithing Trim recipes in JEI Usage View?
+	#是否在 JEI 用途界面中隐藏锻造纹饰配方？
+	#Default: true / 默认值: true
+	hideTrimRecipes = true
+
+[overrides]
+	#=== Whitelist (Force Show) / 白名单 (强制显示) ===
+	#Items in this list will NEVER be hidden by this mod, even if they are trim templates.
+	#Why? Some mods use non-standard items for trimming (e.g., special dyes), and players might need to see their exact recipes.
+	#此列表中的物品将【永远不会】被本模组隐藏，即使它们是标准的纹饰模板。
+	#为什么需要白名单？由于某些模组可能使用非常规物品（例如特殊的染料）进行纹饰锻造，如果被误隐藏，玩家将无法知道具体需要什么材料。
+	#Format: ["modid:item_name"] / 填写格式: ["modid:物品名"]
+	whitelist = []
+	#=== Blacklist (Force Hide) / 黑名单 (强制隐藏) ===
+	#Items in this list will ALWAYS be treated as trim templates and hidden (if settings above are true).
+	#Why? Useful for modpack makers to clean up JEI if a specific mod's template bypassed the auto-detection.
+	#此列表中的物品将被【强制判定为纹饰模板】并执行隐藏逻辑（如果上方的隐藏开关已开启）。
+	#为什么需要黑名单？专为整合包作者准备，用于清理那些漏网之鱼（比如某个模组完全没有遵守原版规范编写代码）。
+	#Format: ["modid:item_name"] / 填写格式: ["modid:物品名"]
+	blacklist = []
+

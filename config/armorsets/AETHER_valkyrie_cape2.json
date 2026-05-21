@@ -1,0 +1,41 @@
+{
+  "armorSetName": "valkyrie_cape",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "aether:valkyrie_cape",
+      "mustBeEmpty": false
+    }
+  ],
+  "mainHand": {
+    "itemKey": "aether:valkyrie_lance",
+    "mixAndMatch": [
+      "aether:valkyrie_axe",
+      "aether:valkyrie_pickaxe",
+      "aether:valkyrie_hoe",
+      "aether:valkyrie_shovel",
+
+      "aether:hammer_of_kingbdogz",
+      "aether:holy_sword",
+      "aether:lightning_sword",
+
+      "aether:vampire_blade",
+      "aether:pig_slayer",
+      "aether:lightning_knife"
+      ],
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:critical_damage",
+      "value": 0.25,
+      "modifierUUID": "11e36c23-8065-40e1-ba70-ca7a6a96766b",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

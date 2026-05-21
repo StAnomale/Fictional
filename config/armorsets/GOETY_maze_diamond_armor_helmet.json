@@ -1,0 +1,35 @@
+{
+  "armorSetName": "maze_diamond",
+  "performanceMode": true,
+  "mainHand": {
+    "itemKey": "better_minoshroomtaur:better_minotaur_axe",
+    "mixAndMatch": [
+      "twilightforest:gold_minotaur_axe",
+      "twilightforest:diamond_minotaur_axe"
+      ],
+    "mustBeEmpty": false
+  },
+  "head": {
+    "itemKey": "better_minoshroomtaur:maze_diamond_armor_helmet",
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:magic_damage",
+      "value": 0.1,
+      "modifierUUID": "fba0cf84-3b1d-457c-a9a7-d33c5a5799a6",
+      "attributeOperation": 2,
+      "interactionType": "self"
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_damage",
+      "value": 0.1,
+      "modifierUUID": "7fc7be0c-15e2-4920-9700-2b43f737a56d",
+      "attributeOperation": 1,
+      "interactionType": "self"
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

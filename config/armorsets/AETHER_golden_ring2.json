@@ -1,0 +1,27 @@
+{
+  "armorSetName": "golden_ring",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "aether:golden_ring",
+      "mustBeEmpty": false
+    }
+  ],
+  "mainHand": {
+    "itemKey": "minecraft:golden_sword",
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_damage",
+      "value": 0.2,
+      "modifierUUID": "50f78a53-b489-4e21-a724-82f02e8271f0",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

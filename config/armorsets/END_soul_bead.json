@@ -1,0 +1,33 @@
+{
+  "armorSetName": "END_soul_bead",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "quark:soul_bead",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_damage",
+      "value": 3.0,
+      "modifierUUID": "df0c6b58-db02-4280-bcd5-0b7fc47cdcca",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.max_health",
+      "value": -0.2,
+      "modifierUUID": "3d50997c-de9f-4cb0-8fe3-19c793cb738e",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

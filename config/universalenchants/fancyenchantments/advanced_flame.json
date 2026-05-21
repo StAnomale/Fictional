@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:bow",
+    "cataclysm:cursed_bow",
+    "cataclysm:wrath_of_the_desert"
+  ],
+  "incompatible": [
+    "fancyenchantments:icy_burst",
+    "fancyenchantments:stacking_waves",
+    "fancyenchantments:ocean_current",
+    "majruszsenchantments:incompatibility_curse",
+    "fancyenchantments:overflow",
+    "fancyenchantments:drowning",
+    "minecraft:flame",
+    "fancyenchantments:abyssal_maelstrom",
+    "fancyenchantments:frozen_heart",
+    "fancyenchantments:bubble_shield",
+    "fancyenchantments:calmer"
+  ]
+}

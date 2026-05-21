@@ -1,0 +1,21 @@
+{
+  "armorSetName": "TF_naga",
+  "performanceMode": true,
+  "chest": {
+    "itemKey": "twilightforest:naga_chestplate",
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "twilightforest:naga_leggings"
+  },
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "minecraft:strength",
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

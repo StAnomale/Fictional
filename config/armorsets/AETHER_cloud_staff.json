@@ -1,0 +1,31 @@
+{
+  "armorSetName": "cloud_staff",
+  "performanceMode": true,
+  "mainHand": {
+    "itemKey": "aether:cloud_staff",
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:magic_damage",
+      "value": 0.25,
+      "modifierUUID": "3669c03e-bfea-4d43-9d8d-ffda328360d9",
+      "attributeOperation": 2,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_speed",
+      "value": -0.25,
+      "modifierUUID": "ba05dd3c-ddbd-409a-ab6b-831283d4a733",
+      "attributeOperation": 2,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

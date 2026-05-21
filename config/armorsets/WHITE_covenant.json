@@ -1,0 +1,241 @@
+{
+  "armorSetName": "covenant",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "kubejs:covenant_matt1",
+      "mustBeEmpty": false
+    },
+    {
+      "itemKey": "kubejs:covenant_matt2",
+      "mustBeEmpty": false
+    },
+    {
+      "itemKey": "kubejs:covenant_matt3",
+      "mustBeEmpty": false
+    },
+    {
+      "itemKey": "kubejs:covenant_matt4",
+      "mustBeEmpty": false
+    },
+    {
+      "itemKey": "kubejs:covenant_matt5",
+      "mustBeEmpty": false
+    },
+    {
+      "itemKey": "kubejs:covenant_sharpblade1",
+      "mustBeEmpty": false
+    },
+    {
+      "itemKey": "kubejs:covenant_sharpblade2",
+      "mustBeEmpty": false
+    },
+    {
+      "itemKey": "kubejs:covenant_sharpblade3",
+      "mustBeEmpty": false
+    },
+    {
+      "itemKey": "kubejs:covenant_sharpblade4",
+      "mustBeEmpty": false
+    },
+    {
+      "itemKey": "kubejs:covenant_sharpblade5",
+      "mustBeEmpty": false
+    },
+    {
+      "itemKey": "kubejs:covenant_gunpowder1",
+      "mustBeEmpty": false
+    },
+    {
+      "itemKey": "kubejs:covenant_gunpowder2",
+      "mustBeEmpty": false
+    },
+    {
+      "itemKey": "kubejs:covenant_gunpowder3",
+      "mustBeEmpty": false
+    },
+    {
+      "itemKey": "kubejs:covenant_gunpowder4",
+      "mustBeEmpty": false
+    },
+    {
+      "itemKey": "kubejs:covenant_gunpowder5",
+      "mustBeEmpty": false
+    },
+    {
+      "itemKey": "kubejs:covenant_longbow1",
+      "mustBeEmpty": false
+    },
+    {
+      "itemKey": "kubejs:covenant_longbow2",
+      "mustBeEmpty": false
+    },
+    {
+      "itemKey": "kubejs:covenant_longbow3",
+      "mustBeEmpty": false
+    },
+    {
+      "itemKey": "kubejs:covenant_longbow4",
+      "mustBeEmpty": false
+    },
+    {
+      "itemKey": "kubejs:covenant_longbow5",
+      "mustBeEmpty": false
+    }
+  ],
+  "partialBonusRequiredAmount": 2,
+  "partialSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:penetration",
+      "value": -1.0,
+      "modifierUUID": "531cab36-05e9-4cfd-9dd7-59758ca4756c",
+      "attributeOperation": 2,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "obscure_api:magic_resistance",
+      "value": -1.0,
+      "modifierUUID": "2f036b59-40c8-4938-9983-0f7e1f5c7429",
+      "attributeOperation": 2,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "obscure_api:dodge",
+      "value": -1.0,
+      "modifierUUID": "24f9be1e-48f8-49da-b735-950274fba392",
+      "attributeOperation": 2,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "obscure_api:magic_damage",
+      "value": -1,
+      "modifierUUID": "a8c314b3-52a6-45c7-a6e9-74333320aa3c",
+      "attributeOperation": 2,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "goety:void_potency",
+      "value": -0.95,
+      "modifierUUID": "34acf3c3-8c58-43bd-81f3-06d520779bf2",
+      "attributeOperation": 2,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.luck",
+      "value": -1,
+      "modifierUUID": "b845e573-b5c1-49e6-872b-7a3e05a2e453",
+      "attributeOperation": 2,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "obscure_api:critical_hit",
+      "value": -1,
+      "modifierUUID": "5d576ba5-ae2e-4bf9-91e0-43c677c3fba0",
+      "attributeOperation": 2,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "gunswithoutroses:gwr.damage_total",
+      "value": -1,
+      "modifierUUID": "5d576ba5-ae2e-4bf9-91e0-43c677c3fba0",
+      "attributeOperation": 2,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_damage",
+      "value": -1,
+      "modifierUUID": "5d576ba5-ae2e-4bf9-91e0-43c677c3fba0",
+      "attributeOperation": 2,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:nausea",
+      "value": 4,
+      "interactionDuration": 100,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:magic_damage",
+      "value": -1,
+      "modifierUUID": "a8c314b3-52a6-45c7-a6e9-74333320aa3c",
+      "attributeOperation": 2,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.luck",
+      "value": -1,
+      "modifierUUID": "b845e573-b5c1-49e6-872b-7a3e05a2e453",
+      "attributeOperation": 2,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "obscure_api:critical_hit",
+      "value": -1,
+      "modifierUUID": "5d576ba5-ae2e-4bf9-91e0-43c677c3fba0",
+      "attributeOperation": 2,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "gunswithoutroses:gwr.damage_total",
+      "value": -1,
+      "modifierUUID": "5d576ba5-ae2e-4bf9-91e0-43c677c3fba0",
+      "attributeOperation": 2,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_damage",
+      "value": -1,
+      "modifierUUID": "5d576ba5-ae2e-4bf9-91e0-43c677c3fba0",
+      "attributeOperation": 2,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

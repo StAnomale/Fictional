@@ -1,0 +1,21 @@
+{
+  "armorSetName": "totem_of_freezing",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "friendsandfoes:totem_of_freezing",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "functionalarmortrim:experience_boost",
+      "value": 0.4,
+      "modifierUUID": "47459fb2-a2a3-4af0-868e-4bec59c8e3e0",
+      "attributeOperation": 1,
+      "interactionType": "self"
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:trident",
+    "cataclysm:coral_spear",
+    "cataclysm:coral_bardiche",
+    "goety_revelation:gungnir"
+  ],
+  "incompatible": [
+    "minecraft:bane_of_arthropods",
+    "majruszsenchantments:incompatibility_curse",
+    "minecraft:sharpness",
+    "minecraft:impaling",
+    "enigmaticlegacy:torrent",
+    "minecraft:smite"
+  ]
+}

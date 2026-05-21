@@ -1,0 +1,27 @@
+{
+  "armorSetName": "tortoise_shell_shield",
+  "performanceMode": true,
+  "offHand": {
+    "itemKey": "radiation_zone_reborn:tortoise_shell_shield",
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:accuracy",
+      "value": 0.05,
+      "modifierUUID": "25f988e6-f2ce-4191-93c4-eeb3288d00bd",
+      "attributeOperation": 0,
+      "interactionType": "self"
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor_toughness",
+      "value": 2.0,
+      "modifierUUID": "dfad10e2-d2c9-4b92-83ea-f5a9e19c1923",
+      "attributeOperation": 0,
+      "interactionType": "self"
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

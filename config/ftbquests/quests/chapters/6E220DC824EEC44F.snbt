@@ -1,0 +1,836 @@
+{
+	autofocus_id: "504AD308D8199384"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	disable_toast: true
+	filename: "6E220DC824EEC44F"
+	group: "398A6045F9A23D02"
+	icon: "quark:white_framed_glass_pane"
+	id: "6E220DC824EEC44F"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"很久以前，月亮上诞生了一位神，名为“阿维卡”，她是月亮的至宝，是月亮上唯一的生灵。阿维卡一个人在月亮上生活了很久，最后，将目光投向了我们的星球——泰拉。"
+				""
+				"泰拉上有一个国家，以“月”作为信仰。每一个能看见明月的夜晚，便有一名少女长跪一夜，她是月的祭司，要向月神祈求和平与丰收。"
+				""
+				"有一天，祭司的祈祷词发生了一点变化，她在一长串华丽的赞美词的最后，又低声说了一句话：“希望您能保佑我的孩子幸福。”原来，少女已经成为了母亲。此时，阿维卡的目光恰好落在这个国家，听见了祭司的祈祷。于是月光悄然洒下，为祭司尚在肚中的孩子带来月神的祝福。孩子出生后，人们发现，她拥有一头银白色的头发。"
+				""
+				"可是，这个国家的人皆是黑发。人们议论纷纷，各种猜忌不胫而走，最终使得国王大怒，赐死了祭司，并命人将女孩投入河中。仆人怜惜这个漂亮的女孩，将她装入花篮之中，令她顺河而下。"
+			]
+			icon: "minecraft:writable_book"
+			id: "504AD308D8199384"
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "1ABA0A9DDBD87F31"
+				title: "下一页"
+				type: "checkmark"
+			}]
+			title: "童话的开场白·其一"
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["504AD308D8199384"]
+			description: [
+				"月光伴随着女孩的啼哭流向更远的远方，流进了时间的长河。阿维卡将女孩抱起，陷入深深的自责当中，决定抚养女孩。"
+				""
+				"阿维卡为女孩创造了一个只属于她的世界，让女孩可以在这个世界里随心所欲的奔跑、玩耍，最后听着阿维卡讲述的故事入睡。女孩想要什么，阿维卡便从时间长河中抓给她什么。女孩就这样幸福的生活了十五年。"
+				""
+				"而有一天，女孩对阿维卡说：“我想去人间看看。”她从小就听着人间的英雄故事，从小就在时间长河边观察人间，她对故事中的世界憧憬不已。"
+				""
+				"阿维卡说：“你正是被人类所抛弃才来到这里，如果你能够让人类接受承认你，我就同意你的要求。如果不能，你就回到我的身边。”"
+				""
+				"为了保护女孩不受到人类的伤害，阿维卡用她的魔力织成一件羽衣。女孩披着这件羽衣，出发前往人间。"
+			]
+			hide_until_deps_complete: true
+			icon: "minecraft:writable_book"
+			id: "6CE035BD62DADD50"
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "7ABA68BEF987B1D2"
+				title: "下一页"
+				type: "checkmark"
+			}]
+			title: "童话的开场白·其二"
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6CE035BD62DADD50"]
+			description: [
+				"她首先遇见了一只受伤的小鸟，她问：“你愿意承认我吗？”小鸟此时正因为受伤无法飞回天空，焦急地抖动翅膀，它强烈的意愿传达给了女孩：“只要能够继续飞翔，我愿意承认您！”"
+				""
+				"魔力回应了小鸟的期盼，奇迹的力量落在它身上，将它变作一只巨大的穹鹰，它身上的伤完全痊愈，并获得了强大的力量。"
+				""
+				"“飞翔吧！你是象征自由的穹鹰！快去飞翔吧！”女孩衷心为它祝福着，从此，它成为了自由之风的象征，无论何时，始终自由地在这片天地飞翔。"
+			]
+			hide_until_deps_complete: true
+			icon: "minecraft:writable_book"
+			id: "69C9BB9973AFA38C"
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "3DA5F30ECF11FE12"
+				title: "下一页"
+				type: "checkmark"
+			}]
+			title: "童话的开场白·其三"
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["69C9BB9973AFA38C"]
+			description: [
+				"与穹鹰告别后，女孩再次踏上旅程。很快，她遇见了两只蜥蜴。她问：“你们愿意承认我吗？”"
+				""
+				"两只蜥蜴此时饿极了，它们眼巴巴地望着女孩，意思只有一个：“我们想要吃饱！只要能够吃饱肚子，我们愿意承认您！”"
+				""
+				"魔力实现了它们的愿望，它们的身躯迅速膨胀，转而高如山峦，一对巨翼从它们的背后生长出来，俨然成为了故事中的生物——龙。两条龙之中，公龙能够借助火焰恢复体力，母龙则可凭借月光恢复体力。"
+				""
+				"女孩说：“你们是强大的旅龙，你们拥有无穷的体力和巨大的双翼，你们的旅途永不停止！”于是，两条旅龙振翅飞上天空，盘旋几圈后向着远方飞去。它们的行迹将踏尽这片土地。"
+			]
+			hide_until_deps_complete: true
+			icon: "minecraft:writable_book"
+			id: "7431625237777307"
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "303CA9B3C76D0247"
+				title: "下一页"
+				type: "checkmark"
+			}]
+			title: "童话的开场白·其四"
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7431625237777307"]
+			description: [
+				"女孩注视着旅龙远去，然后继续前进。不久，她来到一间茅草屋前，这是附近唯一的房子，是什么人离开城镇，独自一人生活在这间茅草屋中呢？女孩想知道。她明白这附近经常爆发战争，阿维卡的故事中提到过，战争遍布这个世界的很多地方，人们总是为了抢夺粮食和资源互相开启战争。这里的国家也是其中之一。"
+				""
+				"女孩走进茅草屋中，看见了一个憔悴的女人。女人站在后院之中，院中是一片荒凉的“农田”，她的嘴中喃喃有词，看起来紧张兮兮。"
+				""
+				"女孩问：“你愿意承认我吗？”这个女人闻言转过身看向女孩，她的眼神扫过女孩雪白的皮肤和头发，最后定格在那件缥缈神秘的羽衣，心中想到：“她是女神吗？可是神不是应该有无穷无尽的麦子吗？衣裳得是用花和枝条编成的。皮肤得这么白。耳朵，耳朵要再尖一些才好。”"
+				""
+				"女人这样思索着，突然觉得意识变得无比清醒，她脑中所幻想的渐渐变为现实——她的皮肤变得雪白，耳朵变得尖长，身上的麻布变成了花和枝条编织的华袍。她的手中出现了一根法杖，这是能唤来丰收的自然之杖。女人发现身上的变化后，立即向着女孩跪下来，急忙说到：“我愿意，我愿意承认您！”"
+				""
+				"女孩高兴的点头，她说：“你是受到自然眷顾的精灵！你能够为人们带来丰收！”于是，热爱自然与和平的精灵，将永远奔波在这片土地上，为苦难的人们带来丰收与和平。女孩目送着精灵的离去，为自己得到一个人类的承认而开心。"
+			]
+			hide_until_deps_complete: true
+			icon: "minecraft:writable_book"
+			id: "1D4EA49E597E127C"
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "0C2E010C5A8BC7B2"
+				title: "下一页"
+				type: "checkmark"
+			}]
+			title: "童话的开场白·其五"
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1D4EA49E597E127C"]
+			description: [
+				"在她看不到的地方，有一个脏兮兮的老婆子，正目光炯炯地注视着这一切。老婆子的名字叫“娄希”，是这附近的捡尸人。娄希清楚地看到，赐予那个精灵力量的并不是女孩，而是女孩身上那件缥缈神秘的羽衣。"
+				""
+				"娄希从未如此清醒的明白，只要能够得到那件羽衣，她也可以掌握如此强大的力量，她也可以......成为神。"
+				""
+				"“到那个时候......我就能给他.......”娄希这样想着，眼睛却逐渐沉入贪婪之中，她猛地向女孩扑过去，同时高声呼着：“我愿意！！我愿意承认您！！！”"
+				""
+				"女孩听到娄希的话，惊喜地转过身来，却不料被娄希扑倒在地。娄希发狂地撕扯着女孩身上的那件羽衣，没过多久，羽衣竟然就这样被娄希撕成了碎片。"
+				""
+				"这件由阿维卡魔力织就的羽衣化作星光洒向世界各地，从此以后，这片土地上的生灵拥有了魔力。而娄希取得了其中最大的一块碎片，得到了最为强大的魔力，自称为“魔神”，是魔法学的开创者。"
+			]
+			hide_until_deps_complete: true
+			icon: "minecraft:writable_book"
+			id: "3A7CFFFFDCCFE351"
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "0A77E6926DD50A0D"
+				title: "下一页"
+				type: "checkmark"
+			}]
+			title: "童话的开场白·其六"
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3A7CFFFFDCCFE351"]
+			description: [
+				"娄希并不满足于现在的力量，她深知自己的力量只是阿维卡的一部分，她必须得到阿维卡剩下的魔力，如此才能成为真神。"
+				""
+				"阿维卡对娄希的行为十分生气，她想要将魔力从这片土地上夺回。然而，所有得到魔力馈赠的生灵都激烈地反抗，娄希带领着这些生灵共同反抗阿维卡。"
+				""
+				"穹鹰毅然站在了女孩的身边，它是自由之风的象征，这片土地上没有哪处是它无法前往的，它能轻易找到娄希的据点。"
+				""
+				"旅龙是女孩最为强大的盟友，但它们深知娄希的难缠，决定通过繁衍后代增强战斗力，母龙因此产下了十颗龙蛋，每一颗都将在不久后成长为如此强大的旅龙。"
+				""
+				"精灵不善于战斗，但她拥有精湛的锻造技巧，因此铸就了许多强大的装备。"
+			]
+			hide_until_deps_complete: true
+			icon: "minecraft:writable_book"
+			id: "6A3ADF635AAA1E54"
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "66A8D0717CF5238F"
+				title: "下一页"
+				type: "checkmark"
+			}]
+			title: "童话的开场白·其七"
+			x: 11.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6A3ADF635AAA1E54"]
+			description: [
+				"战争打响了。起初，娄希完全无法抵抗阿维卡的攻势。在巨大的差距面前，娄希和她的学徒们完全无法进行有效反抗，只得拼尽一切逃跑。"
+				""
+				"为了扭转巨大的劣势，娄希将目光锁定了女孩，通过与魔鬼的交易，娄希创造了“魔法代价”。所有人都能够通过支付一定的代价，来获取使用魔力的天赋，而这份天赋正是来自女孩。"
+				""
+				"为了保护女孩，阿维卡不得不将大部分精力放在她身上，抵御魔法代价的抽取。在这个过程中，阿维卡的力量一点一点的被削弱。胜利的天平终于发生变化。"
+				""
+				"终于，娄希找到了机会。她杀死了旅龙的一位孩子，并伪装成阿维卡用以补充魔力的行迹，因为母龙是受到月光滋养的生物。"
+				""
+				"“再施以一点小法术。”暴怒的母龙用尽自己的生命袭向阿维卡，在一片惨白之后，月光暗淡下去。"
+				""
+				"这条母龙拥有了自己的名字，人们称呼她为“猎月之龙”。她的血液化作最深沉的罪孽的黑水，顺着时间长河流去，并最终在它的下游汇成一片漆黑的海洋，这便是“铅海”，洗刷灵魂罪孽的地方。"
+			]
+			hide_until_deps_complete: true
+			icon: "minecraft:writable_book"
+			id: "55902ACD3D8F3F75"
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "07264F4614CC0DBA"
+				title: "下一页"
+				type: "checkmark"
+			}]
+			title: "童话的开场白·其八"
+			x: 13.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["55902ACD3D8F3F75"]
+			description: [
+				"在无瑕的纯白中，旅行者的故事书静静地翻开，书页已经很久没有动了。在故事书的前方，听故事的孩子不知不觉已经蜷缩成一团。"
+				""
+				"时光静静地流淌，温暖的月光透过时间的缝隙，轻轻地抚过睡着的少女，她的眉头渐渐舒展，嘴角也挂上了幸福的微笑。故事就这样画上了童话的尾巴，悄悄潜入她的梦中。"
+			]
+			hide_until_deps_complete: true
+			icon: "minecraft:writable_book"
+			id: "6AD6B3D632BB2E0C"
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "68336F85D1D5E824"
+				title: "尾页"
+				type: "checkmark"
+			}]
+			title: "童话的开场白·其九"
+			x: 15.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"给出门的笨蛋："
+				""
+				"收到我寄给你的书了吗？是我写的哦，回信请附上一万字的感想（笑）。今天是你出门的第二天，我试着烤了一些面包送给你们。不过等你们收到面包，又是在哪一天呢？希望那时候面包还没有坏掉。"
+				""
+				"我打算给后院的田动动土，有魔法的帮助，这对我来说也不算特别幸苦。我想试着自己种一些菜，这样就不需要大老远跑到市集上买了，还可以试着做一些没尝试过的糕点，做好会给你们都寄一份，给我好好期待吧。"
+				""
+				"如果有遇到的话，请为我带一些种子。顺便一提，我已经有在种小麦了，所以最好是其他作物，比如，土豆，土豆，和马铃薯。"
+				""
+				"                                                                          ——沐沐"
+			]
+			icon: "minecraft:writable_book"
+			id: "39E9E20CEF160DB6"
+			invisible: true
+			rewards: [
+				{
+					id: "496C8B3C9E72101F"
+					item: {
+						Count: 1
+						id: "minecraft:bundle"
+						tag: {
+							Items: [{
+								Count: 8b
+								id: "minecraft:bread"
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6C0D3B84B2907F7F"
+					table_id: 6997903212867593696L
+					type: "random"
+				}
+			]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				days: 1
+				icon: "minecraft:clock"
+				id: "22A75ED553AEF428"
+				title: "第二天"
+				type: "questsadditions:days"
+			}]
+			title: "第二日的来信"
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["39E9E20CEF160DB6"]
+			description: ["给沐沐寄一些作物种子，特别是马铃薯。"]
+			hide_until_deps_complete: true
+			icon: "minecraft:writable_book"
+			id: "358B2F75B0FB7198"
+			rewards: [{
+				id: "1B25E819551507BF"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				consume_items: true
+				count: 8L
+				id: "17B72EF75461E4C8"
+				item: "minecraft:potato"
+				type: "item"
+			}]
+			title: "第二日的回信"
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"6856EEA7F1D56A22"
+				"358B2F75B0FB7198"
+			]
+			description: [
+				"给出门的笨蛋："
+				""
+				"收到你寄来的土豆啦，我把它种得满满得哦！然后烤了一些寄给你。有了土豆以后，我们就能吃烤土豆、炖土豆、蒸土豆、炒土豆、土豆泥、土豆芝士球、土豆丝、土豆片、薯条、薯片......土豆是世界上最完美的作物！"
+				""
+				"前段时间的治疗有约安妮丝小姐陪着，你不用担心。不过约安妮丝小姐明明看起来是个挺聪明的姑娘，但除了乐器，其他方面可以说是一窍不通呢！她打坏了你房间的那只表。不像全能的我！我为约安妮丝小姐修好了她的管风琴，顺便也给你做了一把拇指琴。"
+				""
+				"那只表不知道为什么修不好，明明结构没有任何问题。"
+				""
+				"                                                                          ——沐沐"
+			]
+			icon: "minecraft:writable_book"
+			id: "637374D463F87B32"
+			invisible: true
+			rewards: [
+				{
+					id: "780751B2AD39A283"
+					item: {
+						Count: 1
+						id: "minecraft:bundle"
+						tag: {
+							Items: [
+								{
+									Count: 3b
+									id: "minecraft:potion"
+									tag: {
+										Potion: "minecraft:strong_regeneration"
+									}
+								}
+								{
+									Count: 1b
+									id: "xercamusic:sansula"
+								}
+								{
+									Count: 8b
+									id: "minecraft:baked_potato"
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "670310A5964FE22D"
+					table_id: 6997903212867593696L
+					type: "random"
+				}
+			]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				disable_toast: true
+				elapsedTime: 2400L
+				id: "44674015D2AB13DA"
+				title: "等待一定时间"
+				type: "questsadditions:time"
+			}]
+			title: "夏日的来信"
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["39E9E20CEF160DB6"]
+			description: [
+				"给出门的笨蛋："
+				""
+				"把浆果和猪肉混合，打成肉丸，这种做法是我原创的哦，给你们尝尝。前段时间工会推广了这种发动机，他们说经过反复测试，已经完全足够作为飞行器的动力源使用。我也检查过了，是很基础的款式，但用起来应该没问题。你可以试试，具体做法不用我再教你吧？"
+				""
+				"前天我看到一只小兔子，昨天是小鹿，今天早上起来却没看到你们。你有带相机对吗？拍些照片给我吧，就放在这本相册里，要拍至少一百张！然后寄回来给我，这是任务。......相机是需要塞胶卷的，你应该知道吧。"
+				""
+				"                                                                          ——沐沐"
+			]
+			hide_until_deps_complete: true
+			icon: "minecraft:writable_book"
+			id: "165F3D9CDE55E5FF"
+			invisible: true
+			rewards: [
+				{
+					id: "190C470120CEDB5C"
+					item: {
+						Count: 1
+						id: "minecraft:bundle"
+						tag: {
+							Items: [
+								{
+									Count: 8b
+									id: "berry_good:sweet_berry_meatballs"
+								}
+								{
+									Count: 1b
+									id: "immersive_aircraft:engine"
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2C255EA48B5BF42C"
+					item: {
+						Count: 1
+						id: "exposure:album"
+						tag: {
+							Pages: [
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5D72A00F72943F42"
+					table_id: 6997903212867593696L
+					type: "random"
+				}
+			]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				disable_toast: true
+				elapsedTime: 1200L
+				id: "316441E635B25947"
+				title: "等待一定时间"
+				type: "questsadditions:time"
+			}]
+			title: "浆果味的来信"
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"165F3D9CDE55E5FF"
+				"637374D463F87B32"
+			]
+			description: [
+				"给出门的笨蛋："
+				""
+				"这是今日份的午餐，就算你不会做饭，也要好好吃饭哦！（此信件由自动书记人偶·薇尔莉特代笔）"
+				""
+				"                                                                          ——沐沐"
+			]
+			hide_until_deps_complete: true
+			icon: "minecraft:writable_book"
+			id: "21BBACF34DB3FDA8"
+			invisible: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1457627A035349B8"
+					table_id: 6997903212867593696L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7F1F64CA5053BAA5"
+					table_id: 2368394927309931206L
+					type: "random"
+				}
+			]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				disable_toast: true
+				elapsedTime: 1200L
+				id: "7C194AC140A29FDF"
+				title: "等待一定时间"
+				type: "questsadditions:time"
+			}]
+			title: "每日份的午餐"
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"165F3D9CDE55E5FF"
+				"1F8AD0B187BECE0B"
+			]
+			description: ["&4&o......不要回来，不要找我，求求你。&r"]
+			icon: "minecraft:writable_book"
+			id: "12C52C2A5A23CEA2"
+			invisible: true
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				disable_toast: true
+				elapsedTime: 4800L
+				id: "1CF2BD1010A541DC"
+				title: "等待一定时间"
+				type: "questsadditions:time"
+			}]
+			title: "不要回来"
+			x: 15.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["39E9E20CEF160DB6"]
+			description: [
+				"给出门的笨蛋："
+				""
+				"已经到第五十天了，你还在路上吗？"
+				""
+				"                                                                          ——沐沐"
+			]
+			hide_until_deps_complete: true
+			icon: "minecraft:writable_book"
+			id: "6FDE7105E20611CE"
+			invisible: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "213275CE90AA6534"
+					table_id: 6997903212867593696L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "21C3A565C8905B6F"
+					table_id: 2368394927309931206L
+					type: "random"
+				}
+			]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				days: 50
+				id: "49307D538EBC6997"
+				title: "第五十天"
+				type: "questsadditions:days"
+			}]
+			title: "五十日的来信"
+			x: -1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["6FDE7105E20611CE"]
+			description: [
+				"给出门的笨蛋："
+				""
+				"已经到第一百天了，你还在路上对吗。"
+				""
+				"                                                                          ——沐沐"
+			]
+			hide_until_deps_complete: true
+			icon: "minecraft:writable_book"
+			id: "089189B298B94D4A"
+			invisible: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "276C80987122E090"
+					table_id: 6997903212867593696L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "04E02E3C28D78B0D"
+					table_id: 2368394927309931206L
+					type: "random"
+				}
+			]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				days: 100
+				id: "1774ED3EA6F3B746"
+				title: "第一百天"
+				type: "questsadditions:days"
+			}]
+			title: "一百日的来信"
+			x: 1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["089189B298B94D4A"]
+			description: [
+				"给出门的笨蛋："
+				""
+				"已经到第一百五十天了。"
+				""
+				"                                                                          ——沐沐"
+			]
+			hide_until_deps_complete: true
+			icon: "minecraft:writable_book"
+			id: "65FFEB2296804BD3"
+			invisible: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0A58025B3C87D5BF"
+					table_id: 6997903212867593696L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6E95F072A171FA0F"
+					table_id: 2368394927309931206L
+					type: "random"
+				}
+			]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				days: 150
+				id: "5322D242AF4382DA"
+				title: "第一百五十天"
+				type: "questsadditions:days"
+			}]
+			title: "一百五十日的来信"
+			x: 3.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["65FFEB2296804BD3"]
+			description: [
+				"给出门的笨蛋："
+				""
+				"已经到第两百天了.......我想见你。"
+				""
+				"                                                                          ——沐沐"
+			]
+			hide_until_deps_complete: true
+			icon: "minecraft:writable_book"
+			id: "2B4B32BA3DB73C28"
+			invisible: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7653324A6F3C9C45"
+					table_id: 6997903212867593696L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "686619CD2694E451"
+					table_id: 2368394927309931206L
+					type: "random"
+				}
+			]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				days: 200
+				id: "734BCA0C36BC1739"
+				title: "第两百天"
+				type: "questsadditions:days"
+			}]
+			title: "两百日的来信"
+			x: 5.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["2B4B32BA3DB73C28"]
+			description: [
+				"给出门的笨蛋："
+				""
+				"第两百五十天。"
+				""
+				"                                                                          ——沐沐"
+			]
+			hide_until_deps_complete: true
+			icon: "minecraft:writable_book"
+			id: "5BB4D809F590EBE1"
+			invisible: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1DD4435A321C7780"
+					table_id: 6997903212867593696L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0B646C474599574C"
+					table_id: 2368394927309931206L
+					type: "random"
+				}
+			]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				days: 250
+				id: "09FA1FA63809C972"
+				title: "第两百五十天"
+				type: "questsadditions:days"
+			}]
+			title: "两百五十日的来信"
+			x: 7.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["5BB4D809F590EBE1"]
+			description: [
+				"给出门的笨蛋："
+				""
+				"......第■■■天。"
+				""
+				"                                                                          ——沐沐"
+			]
+			hide_until_deps_complete: true
+			icon: "minecraft:writable_book"
+			id: "4D9394E4FC01C7C9"
+			invisible: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "032B40C423488602"
+					table_id: 6997903212867593696L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "58ED643ADBA80FE9"
+					table_id: 2368394927309931206L
+					type: "random"
+				}
+			]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				elapsedTime: 120000L
+				id: "607DC5FD44CC8633"
+				title: "无尽百日"
+				type: "questsadditions:time"
+			}]
+			title: "无尽百日的来信"
+			x: 15.0d
+			y: 7.0d
+		}
+		{
+			description: [
+				"&o&7           “ 欢迎来到这片浩瀚的梦田，"
+				"&o&7                          愿你也能儿在做上一段悠远的梦。”&r"
+				""
+				"“&7&l虚&b&l饰&7&l作品 &f- &c&lFic&e&ltional&r”整合包旨在以原版理念扩展玩家的冒险生存，整合包会采取各种措施来充实玩家的冒险体验，它的另一个备选名字是“我的世界+”，意思是在原版的基础上进行一些合理的改动，以此达到更好的游戏体验。"
+				""
+				"作为一个侧重冒险的整合包，这里 &n没有&r 夸张到百万的敌人血量，也 &n没有&r 对玩家前期的大量削弱折磨。"
+				""
+				"整合包中不会添加太多模组，所做的更多是对已有的内容进行改进，它不是一个大型的、颠覆性的整合包，而是对原有内容的“优化”。例如为 &e奇异饰品&r、&e暮色森林&r 、&e灾变&r 等模组的道具拓展用途，将这些模组添加的物品制作成 &b饰品&r 。"
+				""
+				"按 &aJ键&r 即可快速打开 [任务界面]。"
+				"按 &aB键&r 即可快速打开 [百科搜索] 。"
+				""
+				""
+				"制作者： &e绘名青棺&r(Silentmo) "
+				"联系群： &b693928637&r(主群)"
+			]
+			hide_details_until_startable: true
+			hide_lock_icon: true
+			hide_text_until_complete: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "minecraft:writable_book"
+			icon_scale: 2.0d
+			id: "3EFA965A5172639C"
+			invisible: true
+			rewards: [{
+				description: "本整合包由 绘名青棺(Silentmo) 制作，联系QQ群：693928637"
+				id: "15013C6F6582307B"
+				type: "toast"
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				days: 10000000
+				disable_toast: true
+				id: "466AC1BDADAA3210"
+				type: "questsadditions:days"
+			}]
+			title: "引导的一页"
+			x: 91.5d
+			y: 60.0d
+		}
+		{
+			description: [
+				"本整合包始终是免费发布。在Bilibili搜索“绘名青棺”即可找到官方账号，整合包的主要更新都会发视频。"
+				""
+				"除此之外，也可在MC百科、BBSMC、XyeBBS等网站上找到本整合包。可加群(&n693928637&r)反馈问题。"
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "kubejs:cucumber2"
+			id: "34EEE6053B1E3464"
+			invisible: true
+			shape: "square"
+			size: 1.0d
+			subtitle: "如果你惹恼了我，那我会变得毛绒绒的"
+			tasks: [{
+				id: "0C3475F833AC18B1"
+				item: "kubejs:cucumber2"
+				type: "item"
+			}]
+			title: "制作者：绘名青棺"
+			x: 4.5d
+			y: -59.0d
+		}
+	]
+	title: "沐沐的来信(WIP)"
+}

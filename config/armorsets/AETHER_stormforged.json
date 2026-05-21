@@ -1,0 +1,45 @@
+{
+  "armorSetName": "stormforged",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "deep_aether:stormforged_gloves",
+      "mustBeEmpty": false
+    }
+  ],
+  "head": {
+    "itemKey": "deep_aether:stormforged_helmet",
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "deep_aether:stormforged_chestplate",
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "deep_aether:stormforged_leggings",
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "deep_aether:stormforged_boots",
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "minecraft:speed",
+      "value": 1.0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:jump_boost",
+      "value": 1.0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

@@ -1,0 +1,30 @@
+{
+  "armorSetName": "gravitite_shotgun",
+  "performanceMode": true,
+  "mainHand": {
+    "itemKey": "gunswithoutrosesadditions:gravitite_shotgun",
+    "mixAndMatch": [
+      "gwrexpansions:super_shotgun"
+      ],
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "aether:gravitite_boots",
+    "mixAndMatch": [
+      "deep_aether:stratus_boots"
+    ]
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "gunswithoutroses:gwr.damage_total",
+      "value": 0.1,
+      "modifierUUID": "e4b67bbb-5c47-4320-9ddb-400441f07d6c",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

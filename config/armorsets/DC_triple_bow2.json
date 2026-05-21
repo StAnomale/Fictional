@@ -1,0 +1,19 @@
+{
+  "armorSetName": "DC_triple_bow",
+  "performanceMode": true,
+  "offHand": {
+    "itemKey": "twilightforest:triple_bow",
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:magic_damage",
+      "value": -0.25,
+      "modifierUUID": "46c78d47-34c8-4750-99a9-80ef0738fc81",
+      "attributeOperation": 2,
+      "interactionType": "self"
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

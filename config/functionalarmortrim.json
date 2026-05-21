@@ -1,0 +1,375 @@
+{
+    "minecraft:iron_ingot": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "operation": "addition",
+            "amount": 1.5
+        }
+    ],
+    "minecraft:gold_ingot": [
+        {
+            "attribute": "minecraft:generic.armor_toughness",
+            "operation": "addition",
+            "amount": 1.0
+        }
+    ],
+    "minecraft:diamond": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "operation": "addition",
+            "amount": 1.0
+        },
+        {
+            "attribute": "minecraft:generic.armor_toughness",
+            "operation": "addition",
+            "amount": 1.0
+        }
+    ],
+    "minecraft:amethyst_shard": [
+        {
+            "attribute": "obscure_api:critical_hit",
+            "operation": "addition",
+            "amount":0.05
+        },
+        {
+            "attribute": "minecraft:generic.armor_toughness",
+            "operation": "multiply_base",
+            "amount":0.05
+        }
+    ],
+    "minecraft:netherite_ingot": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "operation": "multiply_base",
+            "amount": 0.1
+        },
+        {
+            "attribute": "minecraft:generic.armor_toughness",
+            "operation": "multiply_base",
+            "amount":0.1
+        },
+        {
+            "attribute": "functionalarmortrim:fire_resistance",
+            "operation": "addition",
+            "amount": 0.5
+        }
+    ],
+    "enderitemod:enderite_ingot": [
+        {
+            "attribute": "minecraft:generic.attack_damage",
+            "operation": "multiply_base",
+            "amount":0.1
+        },
+        {
+            "attribute": "obscure_api:healing_power",
+            "operation": "multiply_base",
+            "amount": 0.1
+        }
+    ],
+
+    "twilightforest:ironwood_ingot": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "operation": "multiply_base",
+            "amount":0.05
+        },
+        {
+            "attribute": "minecraft:generic.attack_speed",
+            "operation": "multiply_base",
+            "amount":0.05
+        }
+    ],
+    "twilightforest:steeleaf_ingot": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "operation": "multiply_base",
+            "amount":0.05
+        },
+        {
+            "attribute": "functionalarmortrim:experience_boost",
+            "operation": "multiply_base",
+            "amount": 0.05
+        }
+    ],
+    "twilightforest:naga_scale": [
+        {
+            "attribute": "minecraft:generic.attack_damage",
+            "operation": "addition",
+            "amount":1.0
+        },
+        {
+            "attribute": "functionalarmortrim:fire_resistance",
+            "operation": "addition",
+            "amount": 0.25
+        }
+    ],
+    "twilightforest:knightmetal_ingot": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "operation": "multiply_base",
+            "amount":0.15
+        }
+    ],
+    "twilightforest:fiery_ingot": [
+        {
+            "attribute": "minecraft:generic.attack_damage",
+            "operation": "multiply_base",
+            "amount": 0.1
+        },
+        {
+            "attribute": "functionalarmortrim:fire_resistance",
+            "operation": "addition",
+            "amount": 0.25
+        }
+    ],
+    "twilightforest:carminite": [
+        {
+            "attribute": "functionalarmortrim:experience_boost",
+            "operation": "multiply_base",
+            "amount": 0.05
+        },
+        {
+            "attribute": "obscure_api:critical_hit",
+            "operation": "addition",
+            "amount": 0.05
+        },
+        {
+            "attribute": "minecraft:generic.movement_speed",
+            "operation": "multiply_base",
+            "amount": 0.05
+        }
+    ],
+
+    "cataclysm:ancient_metal_ingot": [
+        {
+            "attribute": "obscure_api:penetration",
+            "operation": "addition",
+            "amount": 0.1
+        },
+        {
+            "attribute": "functionalarmortrim:experience_boost",
+            "operation": "multiply_base",
+            "amount": 0.1
+        }
+    ],
+    "cataclysm:witherite_ingot": [
+        {
+            "attribute": "obscure_api:critical_hit",
+            "operation": "addition",
+            "amount": 0.05
+        },
+        
+        {
+            "attribute": "minecraft:generic.armor",
+            "operation": "multiply_base",
+            "amount": 0.05
+        },
+        {
+            "attribute": "minecraft:generic.attack_damage",
+            "operation": "multiply_base",
+            "amount": 0.05
+        }
+    ],
+    "cataclysm:cursium_ingot": [
+        {
+            "attribute": "obscure_api:magic_damage",
+            "operation": "addition",
+            "amount": 0.5
+        },
+        {
+            "attribute": "minecraft:generic.armor_toughness",
+            "operation": "multiply_base",
+            "amount": 0.1
+        }
+    ],
+    "cataclysm:ignitium_ingot": [
+        {
+            "attribute": "minecraft:generic.attack_damage",
+            "operation": "multiply_base",
+            "amount": 0.1
+        },
+        {
+            "attribute": "obscure_api:penetration",
+            "operation": "addition",
+            "amount": 0.1
+        }
+    ],
+
+    "aether_treasure_reforging:neptune_mesh": [
+        {
+            "attribute": "minecraft:generic.armor_toughness",
+            "operation": "multiply_base",
+            "amount": 0.15
+        }
+    ],
+    "deep_aether:squall_plate": [
+        {
+            "attribute": "obscure_api:magic_damage",
+            "operation": "multiply_total",
+            "amount": 0.075
+        },
+        {
+            "attribute": "functionalarmortrim:experience_boost",
+            "operation": "multiply_base",
+            "amount": 0.075
+        }
+    ],
+    "aether_treasure_reforging:valkyrum_ingot": [
+        {
+            "attribute": "minecraft:generic.attack_damage",
+            "operation": "multiply_base",
+            "amount": 0.15
+        },
+        {
+            "attribute": "functionalarmortrim:experience_boost",
+            "operation": "multiply_base",
+            "amount": 0.1
+        }
+    ],
+    "aether_treasure_reforging:pyral_ingot": [
+        {
+            "attribute": "obscure_api:critical_hit",
+            "operation": "addition",
+            "amount": 0.1
+        },
+        {
+            "attribute": "functionalarmortrim:fire_resistance",
+            "operation": "addition",
+            "amount": 0.5
+        }
+    ],
+    "deep_aether:stratus_ingot": [
+        {
+            "attribute": "obscure_api:critical_damage",
+            "operation": "addition",
+            "amount": 0.1
+        },
+        
+        {
+            "attribute": "minecraft:generic.max_health",
+            "operation": "multiply_base",
+            "amount": 0.1
+        }
+    ],
+
+    "goety:cursed_ingot": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "operation": "multiply_base",
+            "amount": 0.05
+        },
+        {
+            "attribute": "goety:void_potency",
+            "operation": "multiply_base",
+            "amount": 0.05
+        }
+    ],
+    "goety:dark_ingot": [
+        {
+            "attribute": "goety:void_potency",
+            "operation": "multiply_base",
+            "amount": 0.05
+        },
+        {
+            "attribute": "goety:cooldown_discount",
+            "operation": "addition",
+            "amount": 0.05
+        }
+    ],
+
+    "aether:zanite_gemstone": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "operation": "addition",
+            "amount": 1.0
+        },
+        {
+            "attribute": "minecraft:generic.movement_speed",
+            "operation": "multiply_base",
+            "amount": 0.05
+        }
+    ],
+    "deep_aether:skyjade": [
+        {
+            "attribute": "minecraft:generic.armor_toughness",
+            "operation": "addition",
+            "amount": 1.0
+        },
+        {
+            "attribute": "minecraft:generic.movement_speed",
+            "operation": "multiply_base",
+            "amount": 0.05
+        }
+    ],
+    "aether:golden_amber": [
+        {
+            "attribute": "obscure_api:magic_damage",
+            "operation": "addition",
+            "amount": 0.5
+        },
+        {
+            "attribute": "minecraft:generic.movement_speed",
+            "operation": "multiply_base",
+            "amount": 0.05
+        }
+    ],
+    "aether_redux:gravitite_ingot": [
+        {
+            "attribute": "gunswithoutroses:gwr.damage_total",
+            "operation": "multiply_base",
+            "amount": 0.05
+        },
+        {
+            "attribute": "obscure_api:penetration",
+            "operation": "addition",
+            "amount": 0.05
+        }
+    ],
+
+
+    "minecraft:redstone": [
+        {
+            "attribute": "minecraft:generic.movement_speed",
+            "operation": "multiply_base",
+            "amount": 0.1
+        },
+        {
+            "attribute": "forge:step_height_addition",
+            "operation": "addition",
+            "amount": 1.0
+        }
+    ],
+    "minecraft:copper_ingot": [
+        {
+            "attribute": "forge:swim_speed",
+            "operation": "multiply_base",
+            "amount": 0.2
+        }
+    ],
+    "minecraft:lapis_lazuli": [
+        {
+            "attribute": "functionalarmortrim:experience_boost",
+            "operation": "multiply_base",
+            "amount": 0.15
+        }
+    ],
+    "minecraft:quartz": [
+        {
+            "attribute": "functionalarmortrim:thorns",
+            "operation": "addition",
+            "amount": 2.0
+        },
+        {
+            "attribute": "functionalarmortrim:fire_resistance",
+            "operation": "addition",
+            "amount": 0.25
+        }
+    ],
+    "minecraft:emerald": [
+        {
+            "attribute": "functionalarmortrim:gossip_boost",
+            "operation": "multiply_base",
+            "amount": 0.2
+        }
+    ]
+}

@@ -1,0 +1,68 @@
+{
+  "armorSetName": "floaty_scarf",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "deep_aether:floaty_scarf",
+      "mustBeEmpty": false
+    },
+    {
+      "itemKey": "deep_aether:aercloud_necklace",
+      "mustBeEmpty": false
+    },
+    {
+      "itemKey": "deep_aether:cloud_cape",
+      "mustBeEmpty": false
+    },
+    {
+      "itemKey": "deep_aether:wind_shield",
+      "mustBeEmpty": false
+    },
+    {
+      "itemKey": "lost_aether_content:invincibility_gem",
+      "mustBeEmpty": false
+    },
+    {
+      "itemKey": "deep_aether:stormforged_gloves",
+      "mustBeEmpty": false
+    },
+    {
+      "itemKey": "deep_aether:aerwhale_saddle",
+      "mustBeEmpty": false
+    }
+  ],
+  "partialBonusRequiredAmount": 3,
+  "partialSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:critical_damage",
+      "value": 0.25,
+      "modifierUUID": "057785be-2b07-4680-96cd-79d426a1c3da",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_speed",
+      "value": -0.25,
+      "modifierUUID": "680f78fb-5c9f-4c81-a5dd-76dc6326e09d",
+      "attributeOperation": 2,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "kubejs:ice",
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  
+  "hideGeneratedTooltip": true
+}

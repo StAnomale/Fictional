@@ -1,0 +1,21 @@
+{
+  "armorSetName": "totem_of_illusion",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "friendsandfoes:totem_of_illusion",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "functionalarmortrim:experience_boost",
+      "value": 0.4,
+      "modifierUUID": "24b54376-2432-49a5-ab9a-492dbb3c0105",
+      "attributeOperation": 1,
+      "interactionType": "self"
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

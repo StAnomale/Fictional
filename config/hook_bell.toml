@@ -1,0 +1,5 @@
+
+[Blocks]
+	#Add mobs that Hook Bells don't work on. To do so, enter the namespace ID of the mob, like 'minecraft:zombie, minecraft:skeleton'
+	hookBellBlackList = []
+

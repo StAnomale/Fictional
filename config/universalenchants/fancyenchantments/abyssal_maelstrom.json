@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:bow",
+    "cataclysm:cursed_bow",
+    "cataclysm:wrath_of_the_desert"
+  ],
+  "incompatible": [
+    "fancyenchantments:rocket_jump",
+    "majruszsenchantments:incompatibility_curse",
+    "fancyenchantments:fire_disaster",
+    "fancyenchantments:gift_of_fire",
+    "fancyenchantments:melter",
+    "fancyenchantments:nirvana",
+    "fancyenchantments:self_immolation",
+    "fancyenchantments:advanced_fire_aspect",
+    "fancyenchantments:advanced_flame",
+    "fancyenchantments:pyromaniac",
+    "fancyenchantments:sighs_of_ashes"
+  ]
+}

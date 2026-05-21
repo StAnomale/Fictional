@@ -1,0 +1,25 @@
+{
+  "armorSetName": "subzero_crossbow",
+  "performanceMode": true,
+  "mainHand": {
+    "itemKey": "aether:poison_dart_shooter",
+    "mixAndMatch": [
+      "aether:enchanted_dart_shooter",
+      "aether_redux:infused_veridium_dart_shooter"
+      ],
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:magic_damage",
+      "value": 0.4,
+      "modifierUUID": "b9d46c02-53ee-4910-9f29-8cc645cdcf0b",
+      "attributeOperation": 2,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

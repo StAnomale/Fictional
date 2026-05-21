@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:armor"
+  ],
+  "incompatible": [
+    "twilightforest:fire_react",
+    "minecraft:thorns",
+    "majruszsenchantments:incompatibility_curse"
+  ]
+}

@@ -1,0 +1,13 @@
+
+["Better Time"]
+	#Time format setting
+	"The hour addition" = 0
+	"The minute addition" = 0
+	#If true, a date hud will show on your hud
+	"Show Date Hud" = true
+	"Date Hud X" = 4
+	"Date Hud Y" = 4
+	"Date Hud Color" = -1
+	#If true, a day title will show on your screen next days
+	"Show day title" = true
+

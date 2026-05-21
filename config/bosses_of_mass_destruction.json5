@@ -1,0 +1,73 @@
+{
+	"lichConfig": {
+		"eternalNighttime": true,
+		"experienceDrop": 6000,
+		"idleHealingPerTick": 1.0,
+		"health": 1000.0,
+		"missile": {
+			"mobEffectId": "minecraft:slowness",
+			"mobEffectDuration": 100,
+			"mobEffectAmplifier": 2,
+			"damage": 24.0
+		},
+		"comet": {
+			"explosionStrength": 6.0
+		},
+		"summonMechanic": {
+			"isEnabled": true,
+			"entitiesThatCountToSummonCounter": [
+				"minecraft:skeleton",
+				"minecraft:giant",
+				"minecraft:phantom",
+				"minecraft:zoglin",
+				"royalvariations:royal_zombie",
+				"royalvariations:royal_skeleton",
+				"minecraft:zombified_piglin",
+				"twilightforest:skeleton_druid",
+				"goety:necromancer",
+				"minecraft:wither_skeleton",
+				"minecraft:husk",
+				"minecraft:skeleton_horse",
+				"radiation_zone_reborn:radiant_skeleton",
+				"twilightforest:wraith",
+				"goety:wraith",
+				"minecraft:stray",
+				"minecraft:zombie_horse",
+				"minecraft:zombie",
+				"minecraft:drowned",
+				"minecraft:wither",
+				"minecraft:zombie_villager"
+			],
+			"numEntitiesKilledToDropSoulStar": 40
+		}
+	},
+	"obsidilithConfig": {
+		"health": 3600.0,
+		"armor": 40.0,
+		"attack": 40.0,
+		"idleHealingPerTick": 1.0,
+		"experienceDrop": 8000,
+		"spawnPillarOnDeath": true,
+		"anvilAttackExplosionStrength": 10.0
+	},
+	"gauntletConfig": {
+		"health": 800.0,
+		"armor": 24.0,
+		"attack": 32.0,
+		"idleHealingPerTick": 1.0,
+		"experienceDrop": 6000,
+		"spawnAncientDebrisOnDeath": true,
+		"energizedPunchExplosionSize": 7.5,
+		"normalPunchExplosionMultiplier": 4.0
+	},
+	"voidBlossomConfig": {
+		"health": 4800.0,
+		"armor": 20.0,
+		"attack": 40.0,
+		"idleHealingPerTick": 1.0,
+		"experienceDrop": 10000
+	},
+	"generalConfig": {
+		"tableOfElevationRadius": 3
+	}
+}

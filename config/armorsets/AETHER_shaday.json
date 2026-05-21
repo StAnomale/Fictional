@@ -1,0 +1,42 @@
+{
+  "armorSetName": "shaday",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "aethermobs:shaday_helmet",
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "aethermobs:shaday_chestplate",
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "aethermobs:shaday_leggings",
+    "mustBeEmpty": false
+  },
+  "partialBonusRequiredAmount": 2,
+  "partialSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:magic_damage",
+      "value": 0.2,
+      "modifierUUID": "dd6954ee-73d5-4b30-96bd-c6196470a276",
+      "attributeOperation": 2,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "gunswithoutroses:gwr.damage_total",
+      "value": 0.2,
+      "modifierUUID": "207e6aee-5d08-48c4-9a73-5969a538dc29",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

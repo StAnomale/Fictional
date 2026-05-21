@@ -1,0 +1,27 @@
+{
+  "armorSetName": "cocktail_shotgun",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "meetyourfight:slicers_dice",
+      "mustBeEmpty": false
+    }
+  ],
+  "mainHand": {
+    "itemKey": "meetyourfight:cocktail_shotgun",
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "gunswithoutroses:gwr.damage_total",
+      "value": 0.25,
+      "modifierUUID": "51bf7014-06fe-4f29-8f04-d27a94379be6",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

@@ -1,0 +1,41 @@
+{
+  "armorSetName": "nether_star2",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "minecraft:nether_star",
+      "mustBeEmpty": false
+    }
+  ],
+  "mainHand": {
+    "itemKey": "minecraft:netherite_sword",
+    "mixAndMatch": [
+      "advancednetherite:netherite_iron_sword",
+	    "advancednetherite:netherite_iron_axe",
+	    "advancednetherite:netherite_gold_sword",
+	    "advancednetherite:netherite_gold_axe",
+	    "advancednetherite:netherite_emerald_sword",
+	    "advancednetherite:netherite_emerald_axe",
+	    "advancednetherite:netherite_diamond_sword",
+	    "advancednetherite:netherite_diamond_axe",
+      "minecraft:netherite_axe",
+      "minecraft:netherite_pickaxe",
+      "minecraft:netherite_hoe",
+      "minecraft:netherite_shovel"
+      ],
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_damage",
+      "modifierUUID": "79f5276e-ba2a-4f54-97e7-e329e416e220",
+      "value": 0.25,
+      "interactionType": "self",
+      "attributeOperation": 1,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

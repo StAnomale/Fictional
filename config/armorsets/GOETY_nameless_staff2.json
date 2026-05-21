@@ -1,0 +1,23 @@
+{
+  "armorSetName": "nameless_staff",
+  "performanceMode": true,
+  "offHand": {
+    "itemKey": "goety:nameless_staff",
+    "mixAndMatch": [
+      ],
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "goety:void_potency",
+      "value": 2.0,
+      "modifierUUID": "7a95812f-4ced-4abb-bb54-379a51afb621",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

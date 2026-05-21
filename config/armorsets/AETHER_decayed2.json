@@ -1,0 +1,96 @@
+{
+  "armorSetName": "decayed",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "radiation_zone_reborn:tyrant_skin_armor_helmet",
+    "mixAndMatch": [
+      "radiation_zone_reborn:giantrock_armor_helmet",
+      "radiation_zone_reborn:sedisilver_armor_helmet",
+      "radiation_zone_reborn:protective_helmet",
+      "radiation_zone_reborn:wastefur_armor_helmet",
+      "radiation_zone_reborn:sedisilver_protective_helmet",
+      "radiation_zone_reborn:giantrock_protective_helmet"
+    ],
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "radiation_zone_reborn:tyrant_skin_armor_chestplate",
+    "mixAndMatch": [
+      "radiation_zone_reborn:giantrock_armor_chestplate",
+      "radiation_zone_reborn:sedisilver_armor_chestplate",
+      "radiation_zone_reborn:protective_chestplate",
+      "radiation_zone_reborn:wastefur_armor_chestplate",
+      "radiation_zone_reborn:dustorm_chestplate_chestplate"
+    ],
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "radiation_zone_reborn:tyrant_skin_armor_leggings",
+    "mixAndMatch": [
+      "radiation_zone_reborn:giantrock_armor_leggings",
+      "radiation_zone_reborn:sedisilver_armor_leggings",
+      "radiation_zone_reborn:protective_leggings",
+      "radiation_zone_reborn:wastefur_armor_leggings"
+    ],
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "radiation_zone_reborn:tyrant_skin_armor_boots",
+    "mixAndMatch": [
+      "radiation_zone_reborn:giantrock_armor_boots",
+      "radiation_zone_reborn:sedisilver_armor_boots",
+      "radiation_zone_reborn:protective_boots",
+      "radiation_zone_reborn:wastefur_armor_boots"
+    ],
+    "mustBeEmpty": false
+  },
+  "mainHand": {
+    "itemKey": "radiation_zone_reborn:rat_tooth_dagger",
+    "mixAndMatch": [
+      "bosses_of_mass_destruction:earthdive_spear",
+      "radiation_zone_reborn:radien_jawbone",
+      "radiation_zone_reborn:dust_hammer",
+      "radiation_zone_reborn:dustorm_hammer",
+      "radiation_zone_reborn:dustorm_sword",
+      "radiation_zone_reborn:dustorm_greatsword",
+
+      "radiation_zone_reborn:sedisilver_hammer",
+      "radiation_zone_reborn:sedisilver_dagger",
+      "radiation_zone_reborn:sedisilver_sword",
+      "radiation_zone_reborn:sedisilver_axe",
+      "radiation_zone_reborn:sedisilver_pickaxe",
+      "radiation_zone_reborn:sedisilver_hoe",
+      "radiation_zone_reborn:sedisilver_shovel",
+
+      "radiation_zone_reborn:giantrock_hammer",
+      "radiation_zone_reborn:giantrock_dagger",
+      "radiation_zone_reborn:giantrock_sword",
+      "radiation_zone_reborn:giantrock_axe",
+      "radiation_zone_reborn:giantrock_pickaxe",
+      "radiation_zone_reborn:giantrock_hoe",
+      "radiation_zone_reborn:giantrock_shovel",
+
+      "radiation_zone_reborn:decayed_stone_hammer",
+      "radiation_zone_reborn:decayed_stone_dagger",
+      "radiation_zone_reborn:decayed_stone_sword",
+      "radiation_zone_reborn:decayed_stone_axe",
+      "radiation_zone_reborn:decayed_stone_pickaxe",
+      "radiation_zone_reborn:decayed_stone_hoe",
+      "radiation_zone_reborn:decayed_stone_shovel"
+      ],
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_damage",
+      "value": 0.2,
+      "modifierUUID": "5e7292df-9480-41bf-9ec0-c7b65f507465",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

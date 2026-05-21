@@ -1,0 +1,33 @@
+{
+  "armorSetName": "dark_netherite_bow",
+  "performanceMode": true,
+  "mainHand": {
+    "itemKey": "goetyawaken:dark_netherite_bow",
+    "mixAndMatch": [
+      ],
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "goety:void_potency",
+      "value": 2.0,
+      "modifierUUID": "c2aab8bf-d18b-4e17-983a-958ef11952cc",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "obscure_api:penetration",
+      "value": 0.2,
+      "modifierUUID": "78f765bf-8289-48f0-b9ee-191f81ee71f5",
+      "attributeOperation": 2,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

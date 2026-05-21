@@ -1,0 +1,9 @@
+{
+  "id" : "b800d1e524a443fbb1466f449f1efb01",
+  "name" : "HedwigOwls",
+  "properties" : [ {
+    "name" : "textures",
+    "value" : "ewogICJ0aW1lc3RhbXAiIDogMTc3ODU2OTcyNjYxOSwKICAicHJvZmlsZUlkIiA6ICJiODAwZDFlNTI0YTQ0M2ZiYjE0NjZmNDQ5ZjFlZmIwMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJIZWR3aWdPd2xzIiwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzRkZWU4MzMwN2Y2ZDNiYmM1NmMzMTdhZDg1OGM1OWU5MzlhMDk5ZWNmZTliNzQ4YWVkZWExNzY4OTA2ZTYwMzMiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+  } ],
+  "profileActions" : [ ]
+}

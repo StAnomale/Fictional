@@ -1,0 +1,27 @@
+{
+  "armorSetName": "END_dragon_scale6",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "quark:dragon_scale",
+      "mustBeEmpty": false
+    }
+  ],
+  "head": {
+    "itemKey": "enderitemod:enderite_boots",
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor_toughness",
+      "modifierUUID": "0ad09996-d0d0-4ff4-b8f4-1b7702f57a6f",
+      "value": 0.05,
+      "interactionType": "self",
+      "attributeOperation": 1,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

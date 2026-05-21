@@ -1,0 +1,25 @@
+{
+  "armorSetName": "crown",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "goety:grand_robe",
+      "mixAndMatch": [
+      ],
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "goety:void_potency",
+      "value": 1.5,
+      "modifierUUID": "e5b94d58-879a-453f-9410-d0e5a1527b38",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

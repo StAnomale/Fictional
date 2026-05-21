@@ -1,0 +1,36 @@
+{
+  "armorSetName": "crown",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "goety_spillage:freaky_hat",
+      "mixAndMatch": [
+      "goety:frost_crown",
+      "goety:storm_crown",
+      "goety:wind_crown",
+      "goety:wild_crown",
+      "goety:nether_crown",
+      "goety:witch_hat_hedge",
+      "goety:witch_hat",
+      "goety:necro_crown",
+      "goety:void_crown",
+      "goety:targeting_monocle",
+      "goety:abyss_crown"
+      ],
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "goety:void_potency",
+      "value": 1.0,
+      "modifierUUID": "a1cac59f-da22-4d86-9533-7018e05aca3d",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

@@ -1,0 +1,92 @@
+#Whether to enable the death penalty mechanism
+#是否启用死亡惩罚机制
+enableMod = true
+#Death penalty countdown duration in seconds
+#死亡惩罚倒计时持续时间（秒）
+#Range: 1 ~ 300
+deathPenaltyDuration = 3
+#Whether to show death cause in the UI
+#是否在 UI 中显示死亡原因
+showDeathCause = false
+#Whether to apply death penalty when dying in void
+#掉入虚空死亡时是否应用死亡惩罚
+allowRespawnInVoid = false
+
+#Respawn Health Settings
+#复活生命值设置
+[respawnHealth]
+	#Health value when respawning. Can be a fixed number (e.g. 10) or percentage (e.g. 50%)
+	#复活时的生命值。可以是固定数值（如 10）或百分比（如 50%）
+	respawnHealth = "50%"
+	#Whether to enable custom respawn health. If false, player respawns with full health.
+	#是否启用自定义复活生命值。如果为 false，玩家将满血复活。
+	enableRespawnHealth = true
+	#Whether to enable custom respawn hunger/saturation. If false, player respawns with full hunger.
+	#是否启用自定义复活饱食度。如果为 false，玩家将满饱食度复活。
+	enableRespawnHunger = true
+	#Hunger level when respawning (0-20).
+	#复活时的饱食度（0-20）。
+	#Range: 0 ~ 20
+	respawnHungerLevel = 10
+	#Saturation level when respawning (0.0-20.0).
+	#复活时的饱和度（0.0-20.0）。
+	#Range: 0.0 ~ 20.0
+	respawnSaturationLevel = 5.0
+
+#UI Display Settings
+#UI 显示设置
+[ui]
+	#UI scale factor
+	#UI 缩放比例
+	#Range: 0.5 ~ 2.0
+	uiScale = 1.0
+	#Text color in hexadecimal format
+	#文本颜色（十六进制格式）
+	textColor = "#FFFFFF"
+	#Title text color in hexadecimal format
+	#标题文本颜色（十六进制格式）
+	titleColor = "#FF0000"
+	#Text label for remaining time. Supports format specifier for decimal value (e.g. 'Time remaining: ')
+	#剩余时间文本标签。支持显示秒数的格式（例如 'Time remaining: '）
+	timeRemainingLabel = "复活时间: "
+
+#Debug and Development Settings
+#调试与开发设置
+[debug]
+	#Enable debug logging
+	#启用调试日志
+	debugMode = false
+	#Show debug information in UI
+	#在 UI 中显示调试信息
+	showDebugInfo = false
+
+#Custom Death Message Settings
+#自定义死亡信息设置
+[deathMessages]
+	#Display names for damage types. Used as replacement for %cause% placeholder.
+	#Format: 'damageType=DisplayName'
+	#Example: "fall=&bFalling"
+	#Available types: fall, lava, fire, drowning, mob, player, explosion, magic, wither, starve, cactus, void
+	#伤害类型的显示名称。用作 %cause% 占位符的替换文本。
+	#格式: '伤害类型=显示名称'
+	#示例: "fall=&b高处坠落"
+	#可用类型: fall(摔落), lava(岩浆), fire(火焰), drowning(溺水), mob(怪物), player(玩家), explosion(爆炸), magic(魔法), wither(凋零), starve(饥饿), cactus(仙人掌), void(虚空)
+	damageTypeNames = ["fall=Fall Damage", "lava=Lava", "fire=Fire", "drowning=Drowning", "mob=Monster Attack", "player=Player Attack", "explosion=Explosion", "magic=Magic", "wither=Wither Effect", "starve=Starvation", "cactus=Cactus", "void=The Void"]
+	#List of death message templates. One will be chosen randomly.
+	#Placeholders:
+	#  %cause% - The display name of the damage type (from damageTypeNames)
+	#  %player% - The killer's name (if applicable)
+	#Examples:
+	#  "You died due to %cause%"
+	#  "Hesitation is defeat"
+	#  "%cause% was too much for you"
+	#死亡信息模板列表。系统将随机选择一条显示。
+	#占位符:
+	#  %cause% - 伤害类型的显示名称 (来自 damageTypeNames 设置)
+	#  %player% - 凶手的名字 (如果适用)
+	#示例:
+	#  "你死于 %cause%"
+	#  "犹豫就会败北"
+	#  "%cause% 对你来说太强大了"
+	deathMessageTemplates = ["Cause of death: %cause%"]
+

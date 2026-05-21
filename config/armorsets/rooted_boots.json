@@ -1,0 +1,35 @@
+{
+  "armorSetName": "rooted_boots",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "artifacts:rooted_boots",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor_toughness",
+      "value": 0.3,
+      "modifierUUID": "ca97740e-330a-4f0c-89d1-2d2b78629505",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "conditions": [
+        {
+          "type": "onBlock",
+          "extra": "minecraft:grass_block"
+        }
+      ]
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor",
+      "value": 0.1,
+      "modifierUUID": "1db67a6c-dfb5-4266-9b05-44a5a42efbf2",
+      "attributeOperation": 1,
+      "interactionType": "self"
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

@@ -1,0 +1,27 @@
+{
+  "armorSetName": "DC_bulwark_of_the_flame",
+  "performanceMode": true,
+  "offHand": {
+    "itemKey": "cataclysm:bulwark_of_the_flame",
+    "mustBeEmpty": false
+  },
+  "mainHand": {
+    "itemKey": "cataclysm:the_incinerator",
+    "mixAndMatch": [
+      "cataclysm:the_immolator",
+      "cataclysm:gauntlet_of_bulwark"
+      ],
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor",
+      "value": 0.2,
+      "modifierUUID": "1bd1403f-ee86-4f32-8cfa-a7913f53b793",
+      "attributeOperation": 1,
+      "interactionType": "self"
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

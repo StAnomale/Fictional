@@ -1,0 +1,29 @@
+{
+  "armorSetName": "ring",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "goety:ring_of_want",
+      "mixAndMatch": [
+      "goety:ring_of_thirst",
+      "goety:ring_of_force",
+      "goety:ring_of_the_forge",
+      "goety:ring_of_the_dragon"
+      ],
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "goety:void_potency",
+      "value": 1.0,
+      "modifierUUID": "08e3ebdc-9099-49e7-89eb-5f6841a3b4d9",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

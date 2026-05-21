@@ -1,0 +1,63 @@
+#Restock
+Restock = true
+#Use fixed items
+UseFixedItems = false
+#Minable
+Minable = false
+#Add structure to Villages
+Villages = true
+#Fixed items; item or item,amount,pay_item,cost,uses
+FixedItems = ["minecraft:air", "minecraft:air", "minecraft:air", "minecraft:air", "minecraft:air", "minecraft:air", "minecraft:air"]
+#Include Mods
+IncludeMods = ["waystones", "artifacts", "darkfeather"]
+#Exclude Mods
+ExcludeMods = ["draconicevolution", "avaritia", "botania", "dreadsteel", "create", "cataclysm", "witherstormmod"]
+#Include Items
+IncludeItems = ["*"]
+#Exclude Items
+ExcludeItems = ["majruszsaccessories:soul_of_minecraft", "youkaishomecoming:komeiji_koishi_spawn_egg", "youkaishomecoming:kochiya_sanae_spawn_egg", "youkaishomecoming:yukari_spawn_egg", "youkaishomecoming:fairy_spawn_egg", "youkaishomecoming:youkai_spawn_egg", "youkaishomecoming:cirno_spawn_egg", "youkaishomecoming:shrine_maiden_spawn_egg", "youkaishomecoming:rumia_spawn_egg", "youkaishomecoming:spell_reimu", "youkaishomecoming:reimu_hairband", "youkaishomecoming:rumia_hairband", "youkaishomecoming:koishi_hat", "youkaishomecoming:suwako_hat", "artifacts:mimic_spawn_egg", "alexsmobs:shattered_dimensional_carver", "alexsmobs:dimensional_carver", "alexsmobs:void_worm_eye", "alexsmobs:transmutation_table", "create:handheld_worldshaper", "create:creative_blaze_cake", "create:creative_fluid_tank", "create:creative_crate", "iceandfire:creative_dragon_meal", "create:creative_motor", "vm:vending_machine"]
+#Add Items
+AddItems = ["lifefruit:life_fruit", "lifefruit:ender_dragon_fruit", "queen_bee:stinger", "queen_bee:antenna"]
+#Include Creative Tab Groups
+IncludeGroups = ["*"]
+#Exclude Creative Tab Groups
+ExcludeGroups = ["!", "op"]
+#Change item rarity value for pricing
+ItemRarity = ["lifefruit:life_fruit=1", "lifefruit:ender_dragon_fruit=2", "minecraft:emerald_block=1", "minecraft:diamond_block=1", "minecraft:armorset*diamond=1", "minecraft:toolset*diamond=1", "minecraft:anvil=2", "minecraft:trident=3", "minecraft:bell=2", "minecraft:conduit=3", "minecraft:nautilus_shell=1", "eggset*peaceful=1", "eggset*monster=2", "minecraft:evoker_spawn_egg=3", "minecraft:warden_spawn_egg=3", "minecraft:netherite_scrap=2", "minecraft:ancient_debris=2", "minecraft:axolotl_bucket=1", "minecraft:echo_shard=3", "minecraft:lodestone=3", "minecraft:respawn_anchor=1", "minecraft:coast_armor_trim_smithing_template=3", "#minecraft:decorated_pot_sherds=1", "minecraft:arms_up_pottery_sherd=0"]
+#Custom item pricing
+ItemCost = [""]
+
+[RarityData]
+	#Common Item
+	CommonItem = "minecraft:amethyst_shard"
+	#Uncommon Item
+	UncommonItem = "minecraft:amethyst_shard"
+	#Rare Item
+	RareItem = "minecraft:amethyst_shard"
+	#Epic Item
+	EpicItem = "minecraft:amethyst_shard"
+	#Common Cost
+	#Range: 0 ~ 128
+	CommonCost = 16
+	#Uncommon Cost
+	#Range: 0 ~ 128
+	UncommonCost = 32
+	#Rare Cost
+	#Range: 0 ~ 128
+	RareCost = 64
+	#Epic Cost
+	#Range: 0 ~ 128
+	EpicCost = 128
+	#Common Uses
+	#Range: 0 ~ 32
+	CommonUses = 8
+	#Uncommon Uses
+	#Range: 0 ~ 32
+	UncommonUses = 4
+	#Rare Uses
+	#Range: 0 ~ 32
+	RareUses = 2
+	#Epic Uses
+	#Range: 0 ~ 32
+	EpicUses = 1
+

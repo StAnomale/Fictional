@@ -1,0 +1,70 @@
+{
+  "armorSetName": "aethergod",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "aether:valkyrie_gloves",
+      "mixAndMatch": [
+      "deep_aether:stratus_gloves",
+      "deep_aether:stormforged_gloves",
+      "aether:neptune_gloves",
+      "aether:phoenix_gloves",
+      "aether:obsidian_gloves"
+      ],
+      "mustBeEmpty": false
+    }
+  ],
+  "mainHand": {
+    "itemKey": "aether:valkyrie_lance",
+    "mixAndMatch": [
+      "deep_aether:stratus_sword",
+      "deep_aether:stratus_axe",
+      "deep_aether:stratus_pickaxe",
+      "deep_aether:stratus_hoe",
+      "deep_aether:stratus_shovel",
+
+      "aether:valkyrie_axe",
+      "aether:valkyrie_pickaxe",
+      "aether:valkyrie_hoe",
+      "aether:valkyrie_shovel",
+      
+      "deep_aether:afterburner",
+
+      "lost_aether_content:phoenix_sword",
+      "lost_aether_content:phoenix_axe",
+      "lost_aether_content:phoenix_pickaxe",
+      "lost_aether_content:phoenix_hoe",
+      "lost_aether_content:phoenix_shovel",
+
+      "aether:hammer_of_kingbdogz",
+      "deep_aether:blade_of_luck",
+      "aether:flaming_sword",
+      "aether:holy_sword",
+      "aether:lightning_sword",
+
+      "deep_aether:storm_sword",
+      "aether:vampire_blade",
+      "aether:pig_slayer",
+
+      "aether:phoenix_bow",
+      "aether:lightning_knife",
+      "aether_redux:subzero_crossbow",
+      "deep_aether:storm_bow",
+      "aether:cloud_staff"
+      ],
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_damage",
+      "value": 0.2,
+      "modifierUUID": "e39fbc23-42ef-4ffc-90f6-a9319bf083c5",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

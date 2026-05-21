@@ -1,0 +1,45 @@
+{
+  "armorSetName": "obsidian",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "aether:obsidian_gloves",
+      "mustBeEmpty": false
+    }
+  ],
+  "head": {
+    "itemKey": "aether:obsidian_helmet",
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "aether:obsidian_chestplate",
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "aether:obsidian_leggings",
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "aether:obsidian_boots",
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "minecraft:resistance",
+      "value": 1.0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:slowness",
+      "value": 1.0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

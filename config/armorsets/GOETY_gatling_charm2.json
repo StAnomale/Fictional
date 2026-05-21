@@ -1,0 +1,33 @@
+{
+  "armorSetName": "gatling_charm",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "goetyawaken:gatling_charm",
+      "mustBeEmpty": false
+    }
+  ],
+  "mainHand": {
+    "itemKey": "gunswithoutroses:diamond_gatling",
+    "mixAndMatch": [
+      "gwrexpansions:skullcrusher_pulverizer",
+      "cataclysm:laser_gatling",
+      "gwrexpansions:netherite_gatling",
+      "gwrexpansions:ignitium_gatling"
+      ],
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "gunswithoutroses:gwr.damage_total",
+      "value": 0.2,
+      "modifierUUID": "b7b41934-f542-4bb3-859d-3110ae138718",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

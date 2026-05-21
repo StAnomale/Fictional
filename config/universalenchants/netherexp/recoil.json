@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:shotgun"
+  ],
+  "incompatible": [
+    "netherexp:artemis",
+    "majruszsenchantments:incompatibility_curse"
+  ]
+}

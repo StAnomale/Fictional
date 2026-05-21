@@ -1,0 +1,28 @@
+{
+  "armorSetName": "hog_helm",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "mutantmore:hog_helm",
+    "mustBeEmpty": false
+  },
+  "mainHand": {
+    "itemKey": "mutantmore:hogfist_gauntlet",
+    "mixAndMatch": [
+      "mutantmore:hoglance"
+      ],
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:critical_hit",
+      "value": 0.2,
+      "modifierUUID": "71a8bde1-0c9b-4db1-a2f0-719727a2b1d8",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

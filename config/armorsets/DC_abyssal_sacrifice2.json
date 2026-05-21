@@ -1,0 +1,37 @@
+{
+  "armorSetName": "abyssal_sacrifice2",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "cataclysm:abyssal_sacrifice",
+      "mustBeEmpty": false
+    }
+  ],
+  "chest": {
+    "itemKey": "cataclysm:bloom_stone_pauldrons",
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.max_health",
+      "value": 0.15,
+      "modifierUUID": "79478e3c-5558-4e21-8be6-42b3869da5e1",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "effect",
+      "name": "cataclysm:blessing_of_amethyst",
+      "value": 0.0,
+      "attributeOperation": 1,
+      "interactionDuration": 300,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

@@ -1,0 +1,30 @@
+{
+  "armorSetName": "END_spiritual_crown",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "royalvariations:spiritual_crown",
+      "mustBeEmpty": false
+    },
+    {
+      "itemKey": "royalvariations:royal_bomb",
+      "mixAndMatch": [
+      "minecraft:enchanted_golden_apple",
+      "royalvariations:spectral_gauntlet",
+      "royalvariations:royal_telelocator"
+      ],
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor_toughness",
+      "value": 4.0,
+      "modifierUUID": "9e0dd12a-9498-4eae-92f0-58f205c5a0e4",
+      "attributeOperation": 0,
+      "interactionType": "self"
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

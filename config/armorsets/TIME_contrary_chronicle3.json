@@ -1,0 +1,47 @@
+{
+  "armorSetName": "TIME_contrary_chronicle0",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "kubejs:contrary_chronicle_normal",
+      "mixAndMatch": [
+      "kubejs:contrary_chronicle_hostility",
+      "kubejs:contrary_chronicle_hard"
+      ],
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "goety:void_potency",
+      "value": -0.5,
+      "modifierUUID": "917ec15c-d2dd-4fd4-9bc0-6356ab54b19b",
+      "attributeOperation": 2,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "goety:soul_discount",
+      "value": -1.0,
+      "modifierUUID": "e6b5f027-7bf7-440a-a468-ab76a1cc6199",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "goety:cooldown_discount",
+      "value": -1.0,
+      "modifierUUID": "d3c1b145-6486-4eca-b439-5d6eeb56775c",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

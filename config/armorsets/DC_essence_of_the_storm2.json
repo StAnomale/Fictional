@@ -1,0 +1,27 @@
+{
+  "armorSetName": "DC_essence_of_the_storm",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "cataclysm:essence_of_the_storm",
+      "mustBeEmpty": false
+    }
+  ],
+  "mainHand": {
+    "itemKey": "cataclysm:astrape",
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_speed",
+      "value": 0.4,
+      "modifierUUID": "489510f9-5ec1-4bd1-84db-b41b4b8ec49f",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

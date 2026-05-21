@@ -1,0 +1,19 @@
+{
+  "armorSetName": "stratus_shield",
+  "performanceMode": true,
+  "offHand": {
+    "itemKey": "deep_aether:stratus_shield",
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:healing_power",
+      "value": 0.1,
+      "modifierUUID": "2dd599e2-57b1-4ac6-80df-551e799a6aec",
+      "attributeOperation": 1,
+      "interactionType": "self"
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

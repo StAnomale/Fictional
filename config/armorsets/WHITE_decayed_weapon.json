@@ -1,0 +1,66 @@
+{
+  "armorSetName": "decayed_weapon",
+  "performanceMode": true,
+  "mainHand": {
+    "itemKey": "radiation_zone_reborn:rat_tooth_dagger",
+    "mixAndMatch": [
+      "radiation_zone_reborn:radien_jawbone",
+      "radiation_zone_reborn:dust_hammer",
+      "radiation_zone_reborn:dustorm_hammer",
+      "radiation_zone_reborn:dustorm_sword",
+      "radiation_zone_reborn:dustorm_greatsword",
+
+      "radiation_zone_reborn:sedisilver_hammer",
+      "radiation_zone_reborn:sedisilver_dagger",
+      "radiation_zone_reborn:sedisilver_sword",
+      "radiation_zone_reborn:sedisilver_axe",
+      "radiation_zone_reborn:sedisilver_pickaxe",
+      "radiation_zone_reborn:sedisilver_hoe",
+      "radiation_zone_reborn:sedisilver_shovel",
+
+      "radiation_zone_reborn:giantrock_hammer",
+      "radiation_zone_reborn:giantrock_dagger",
+      "radiation_zone_reborn:giantrock_sword",
+      "radiation_zone_reborn:giantrock_axe",
+      "radiation_zone_reborn:giantrock_pickaxe",
+      "radiation_zone_reborn:giantrock_hoe",
+      "radiation_zone_reborn:giantrock_shovel",
+
+      "radiation_zone_reborn:decayed_stone_hammer",
+      "radiation_zone_reborn:decayed_stone_dagger",
+      "radiation_zone_reborn:decayed_stone_sword",
+      "radiation_zone_reborn:decayed_stone_axe",
+      "radiation_zone_reborn:decayed_stone_pickaxe",
+      "radiation_zone_reborn:decayed_stone_hoe",
+      "radiation_zone_reborn:decayed_stone_shovel"
+      ],
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:magic_damage",
+      "value": 2.0,
+      "modifierUUID": "d470a292-40f9-4d33-a76a-ca8f5fea5913",
+      "attributeOperation": 0,
+      "interactionType": "self"
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor",
+      "value": -0.2,
+      "modifierUUID": "2d4ec9ac-1476-44d8-94cd-4315df286ed3",
+      "attributeOperation": 1,
+      "interactionType": "self"
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.luck",
+      "value": -0.2,
+      "modifierUUID": "b7dff458-0f96-4399-8eed-3fd6d8a04e92",
+      "attributeOperation": 1,
+      "interactionType": "self"
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

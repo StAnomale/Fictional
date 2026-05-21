@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:weapon",
+    "mutantmonsters:endersoul_hand",
+    "better_minoshroomtaur:better_minotaur_axe",
+    "aether_redux:spear_of_the_blight",
+    "cataclysm:gauntlet_of_guard",
+    "cataclysm:gauntlet_of_bulwark",
+    "cataclysm:gauntlet_of_maelstrom",
+    "cataclysm:the_incinerator",
+    "cataclysm:soul_render",
+    "cataclysm:the_annihilator",
+    "cataclysm:astrape",
+    "cataclysm:ceraunus",
+    "cataclysm:the_immolator",
+    "cataclysm:meat_shredder",
+    "cataclysm:void_forge",
+    "cataclysm:tidal_claws",
+    "cataclysm:infernal_forge",
+    "cataclysm:ancient_spear"
+  ],
+  "incompatible": [
+    "fancyenchantments:bullying",
+    "fancyenchantments:hungry",
+    "majruszsenchantments:incompatibility_curse",
+    "fancyenchantments:bloodthirsty",
+    "fancyenchantments:greed_supreme_looting",
+    "fancyenchantments:nightmare",
+    "fancyenchantments:blood_sacrifice",
+    "fancyenchantments:cursed_gaze",
+    "fancyenchantments:eater_of_souls",
+    "fancyenchantments:the_fallen"
+  ]
+}

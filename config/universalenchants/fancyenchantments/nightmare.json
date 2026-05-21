@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:armor_head",
+    "mutantmonsters:mutant_skeleton_skull",
+    "lost_aether_content:swetty_mask"
+  ],
+  "incompatible": [
+    "fancyenchantments:eucharist",
+    "majruszsenchantments:incompatibility_curse",
+    "fancyenchantments:cracked_crown",
+    "fancyenchantments:dedication",
+    "fancyenchantments:purifying",
+    "fancyenchantments:ailment_devourer",
+    "fancyenchantments:sacred_supreme_sharpness",
+    "fancyenchantments:fearless_challenger",
+    "fancyenchantments:purification_slash",
+    "fancyenchantments:over_healing",
+    "fancyenchantments:paladins_shield",
+    "fancyenchantments:pure_fate",
+    "fancyenchantments:unyielding_spirit"
+  ]
+}

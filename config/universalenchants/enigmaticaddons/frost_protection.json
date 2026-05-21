@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:armor",
+    "mutantmonsters:mutant_skeleton_skull",
+    "lost_aether_content:swetty_mask"
+  ],
+  "incompatible": [
+    "minecraft:protection",
+    "minecraft:fire_protection",
+    "majruszsenchantments:incompatibility_curse",
+    "minecraft:projectile_protection",
+    "minecraft:blast_protection"
+  ]
+}

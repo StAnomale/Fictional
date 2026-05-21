@@ -1,0 +1,31 @@
+{
+  "armorSetName": "storm_bow",
+  "performanceMode": true,
+  "mainHand": {
+    "itemKey": "deep_aether:storm_bow",
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.luck",
+      "value": 0.25,
+      "modifierUUID": "d976e8f0-0f39-4ccc-8ec0-f957d41523ad",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "obscure_api:magic_damage",
+      "value": 0.25,
+      "modifierUUID": "887b5b6d-af8f-48d5-a4ee-aee736a75e5d",
+      "attributeOperation": 2,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

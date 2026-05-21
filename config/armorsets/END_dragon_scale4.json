@@ -1,0 +1,31 @@
+{
+  "armorSetName": "END_dragon_scale4",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "quark:dragon_scale",
+      "mustBeEmpty": false
+    }
+  ],
+  "chest": {
+    "itemKey": "enderitemod:enderite_chestplate",
+    "mixAndMatch": [
+      "enderitemod:enderite_elytra",
+      "enderitemod:enderite_elytra_seperated"
+      ],
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor_toughness",
+      "modifierUUID": "f1a35603-83d4-4abb-98fd-d0a51b6b9fb8",
+      "value": 0.05,
+      "interactionType": "self",
+      "attributeOperation": 1,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

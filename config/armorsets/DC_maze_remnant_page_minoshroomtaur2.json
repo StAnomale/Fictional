@@ -1,0 +1,27 @@
+{
+  "armorSetName": "END_maze_remnant_page_minoshroomtaur",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "better_minoshroomtaur:maze_remnant_page_minoshroomtaur",
+      "mustBeEmpty": false
+    }
+  ],
+  "head": {
+    "itemKey": "better_minoshroomtaur:maze_diamond_armor_helmet",
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor",
+      "modifierUUID": "626a1ab2-dd8e-4358-aefd-71087b64f3ea",
+      "value": 0.1,
+      "interactionType": "self",
+      "attributeOperation": 1,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

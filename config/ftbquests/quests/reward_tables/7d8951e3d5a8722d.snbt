@@ -1,0 +1,54 @@
+{
+	icon: "artifacts:villager_hat"
+	id: "7D8951E3D5A8722D"
+	loot_size: 1
+	order_index: 11
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "wishing_fountain:wf_structure_map"
+				tag: {
+					target: "trek:overworld/very_rare/coves"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "wishing_fountain:wf_structure_map"
+				tag: {
+					target: "trek:overworld/very_rare/farm_island"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "wishing_fountain:wf_structure_map"
+				tag: {
+					target: "trek:overworld/very_rare/floating_farm_large"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "wishing_fountain:wf_structure_map"
+				tag: {
+					target: "dungeons_arise:greenwood_pub"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "wishing_fountain:wf_structure_map"
+				tag: {
+					target: "dungeons_arise:monastery"
+				}
+			}
+		}
+	]
+	title: "大型聚落"
+}

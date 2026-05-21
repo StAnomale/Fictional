@@ -1,0 +1,5 @@
+
+[general]
+	#Always display item quality (true = always show, false = default behavior).
+	alwaysDisplayQuality = true
+

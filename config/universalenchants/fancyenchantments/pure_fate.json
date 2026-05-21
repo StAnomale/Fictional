@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:armor_chest"
+  ],
+  "incompatible": [
+    "fancyenchantments:bullying",
+    "fancyenchantments:hungry",
+    "majruszsenchantments:incompatibility_curse",
+    "fancyenchantments:bloodthirsty",
+    "fancyenchantments:greed_supreme_looting",
+    "fancyenchantments:nightmare",
+    "fancyenchantments:blood_sacrifice",
+    "fancyenchantments:cursed_gaze",
+    "fancyenchantments:eater_of_souls",
+    "fancyenchantments:the_fallen"
+  ]
+}

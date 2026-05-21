@@ -1,0 +1,31 @@
+{
+  "armorSetName": "dustorm_eye",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "bosses_of_mass_destruction:blazing_eye",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor_toughness",
+      "value": -0.4,
+      "modifierUUID": "710f371a-fc81-44f4-8e15-527929952b67",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "obscure_api:penetration",
+      "value": 0.4,
+      "modifierUUID": "d7bfcfa4-736c-44dd-8a85-dfd6c4c9e2df",
+      "attributeOperation": 0,
+      "interactionType": "self"
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

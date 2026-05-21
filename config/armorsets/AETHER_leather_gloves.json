@@ -1,0 +1,40 @@
+{
+  "armorSetName": "aethergod",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "aether:leather_gloves",
+      "mixAndMatch": [
+      "aether:chainmail_gloves",
+      "aether:iron_gloves",
+      "aether:golden_gloves",
+      "aether:diamond_gloves",
+      "aether:netherite_gloves"
+      ],
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:penetration",
+      "value": 0.05,
+      "modifierUUID": "4090e00c-1556-432c-a35b-b5aae7290701",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "obscure_api:accuracy",
+      "value": 0.05,
+      "modifierUUID": "3db8f8cf-e96e-480f-a1fa-788835fceddf",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

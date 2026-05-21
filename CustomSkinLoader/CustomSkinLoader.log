@@ -1,0 +1,269 @@
+[2026-05-21 17:41:42] [Render thread/INFO] [CustomSkinLoader Core]: CustomSkinLoader 14.26.1
+[2026-05-21 17:41:42] [Render thread/INFO] [CustomSkinLoader Core]: DataDir: E:\Gaming\mc\.minecraft\versions\虚饰作品 v1.2.1\CustomSkinLoader
+[2026-05-21 17:41:42] [Render thread/INFO] [CustomSkinLoader Core]: Operating System: Windows 10 (amd64) version 10.0
+[2026-05-21 17:41:42] [Render thread/INFO] [CustomSkinLoader Core]: Java Version: 21.0.2, Azul Systems, Inc.
+[2026-05-21 17:41:42] [Render thread/INFO] [CustomSkinLoader Core]: Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Azul Systems, Inc.
+[2026-05-21 17:41:43] [Render thread/INFO] [CustomSkinLoader Core]: Minecraft: 1.20.1
+[2026-05-21 17:41:43] [Render thread/INFO] [CustomSkinLoader Core]: Config File: E:\Gaming\mc\.minecraft\versions\虚饰作品 v1.2.1\CustomSkinLoader\CustomSkinLoader.json
+[2026-05-21 17:41:43] [Render thread/INFO] [CustomSkinLoader Core]: Try to load config.
+[2026-05-21 17:41:43] [Render thread/INFO] [CustomSkinLoader Core]: Successfully load config.
+[2026-05-21 17:41:43] [Render thread/INFO] [CustomSkinLoader Core]: Add a profile loader: GameProfile
+[2026-05-21 17:41:43] [Render thread/INFO] [CustomSkinLoader Core]: Add a profile loader: MojangAPI
+[2026-05-21 17:41:43] [Render thread/INFO] [CustomSkinLoader Core]: Add a profile loader: Legacy
+[2026-05-21 17:41:43] [Render thread/INFO] [CustomSkinLoader Core]: Add a profile loader: CustomSkinAPI
+[2026-05-21 17:41:43] [Render thread/INFO] [CustomSkinLoader Core]: Add a profile loader: CustomSKinAPIPlus
+[2026-05-21 17:41:43] [Render thread/INFO] [CustomSkinLoader Core]: Add a profile loader: UniSkinAPI
+[2026-05-21 17:41:43] [Render thread/INFO] [CustomSkinLoader Core]: Add a profile loader: ElyByAPI
+[2026-05-21 17:41:43] [Render thread/INFO] [CustomSkinLoader Core]: Add a profile loader: GlitchlessAPI
+[2026-05-21 17:41:43] [Render thread/INFO] [CustomSkinLoader Core]: Add a profile loader: MinecraftCapesAPI
+[2026-05-21 17:41:43] [Render thread/INFO] [CustomSkinLoader Core]: Add a profile loader: WynntilsAPI
+[2026-05-21 17:41:43] [Render thread/INFO] [CustomSkinLoader Core]: Successfully update config.
+[2026-05-21 17:41:43] [Render thread/INFO] [CustomSkinLoader Core]: version : 14.27
+[2026-05-21 17:41:43] [Render thread/INFO] [CustomSkinLoader Core]: buildNumber : 37
+[2026-05-21 17:41:43] [Render thread/INFO] [CustomSkinLoader Core]: loadlist : [{ "name": "Mojang", "type": "MojangAPI", "apiRoot": "https://api.mojang.com/", "sessionRoot": "https://sessionserver.mojang.com/" }, { "name": "LittleSkin", "type": "CustomSkinAPI", "root": "https://littleskin.cn/csl/" }, { "name": "BlessingSkin", "type": "CustomSkinAPI", "root": "https://skin.prinzeugen.net/" }, { "name": "ElyBy", "type": "ElyByAPI", "root": "http://skinsystem.ely.by/textures/" }, { "name": "SkinMe", "type": "UniSkinAPI", "root": "http://www.skinme.cc/uniskin/" }, { "name": "TLauncher", "type": "ElyByAPI", "root": "https://auth.tlauncher.org/skin/profile/texture/login/" }, { "name": "GlitchlessGames", "type": "GlitchlessAPI", "root": "https://games.glitchless.ru/api/minecraft/users/profiles/textures/?nickname=" }, { "name": "LocalSkin", "type": "Legacy", "checkPNG": "false", "skin": "LocalSkin/skins/{USERNAME}.png", "model": "auto", "cape": "LocalSkin/capes/{USERNAME}.png", "elytra": "LocalSkin/elytras/{USERNAME}.png" }, { "name": "MinecraftCapes", "type": "MinecraftCapesAPI", "root": "https://api.minecraftcapes.net/profile/" }, { "name": "OptiFine", "type": "Legacy", "checkPNG": "false", "model": "auto", "cape": "https://optifine.net/capes/{USERNAME}.png" }, { "name": "Wynntils", "type": "WynntilsAPI", "root": "https://athena.wynntils.com/user/getInfo" }, { "name": "CloakPlus", "type": "Legacy", "checkPNG": "false", "model": "auto", "cape": "http://161.35.130.99/capes/{USERNAME}.png" }, { "name": "LabyMod", "type": "Legacy", "checkPNG": "false", "model": "auto", "cape": "https://dl.labymod.net/capes/{STANDARD_UUID}" }, { "name": "Cosmetica", "type": "Legacy", "checkPNG": "false", "model": "auto", "cape": "https://api.cosmetica.cc/get/cloak?username={USERNAME}&uuid={STANDARD_UUID}&nothirdparty" }]
+[2026-05-21 17:41:43] [Render thread/INFO] [CustomSkinLoader Core]: enableDynamicSkull : true
+[2026-05-21 17:41:43] [Render thread/INFO] [CustomSkinLoader Core]: enableTransparentSkin : true
+[2026-05-21 17:41:43] [Render thread/INFO] [CustomSkinLoader Core]: forceLoadAllTextures : true
+[2026-05-21 17:41:43] [Render thread/INFO] [CustomSkinLoader Core]: enableCape : true
+[2026-05-21 17:41:43] [Render thread/INFO] [CustomSkinLoader Core]: threadPoolSize : 8
+[2026-05-21 17:41:43] [Render thread/INFO] [CustomSkinLoader Core]: enableLogStdOut : false
+[2026-05-21 17:41:43] [Render thread/INFO] [CustomSkinLoader Core]: cacheExpiry : 30
+[2026-05-21 17:41:43] [Render thread/INFO] [CustomSkinLoader Core]: forceUpdateSkull : false
+[2026-05-21 17:41:43] [Render thread/INFO] [CustomSkinLoader Core]: enableLocalProfileCache : false
+[2026-05-21 17:41:43] [Render thread/INFO] [CustomSkinLoader Core]: enableCacheAutoClean : false
+[2026-05-21 17:41:43] [Render thread/INFO] [CustomSkinLoader Core]: forceDisableCache : false
+[2026-05-21 17:41:43] [Zershyan/INFO] [CustomSkinLoader Core]: Loading Zershyan's profile.
+[2026-05-21 17:41:43] [Zershyan/INFO] [CustomSkinLoader Core]: 1/14 Try to load profile from 'Mojang'.
+[2026-05-21 17:41:43] [Zershyan/DEBUG] [CustomSkinLoader Core]: Try to request 'https://api.mojang.com/profiles/minecraft'.
+[2026-05-21 17:41:43] [Zershyan/INFO] [CustomSkinLoader Core]: Payload: ["Zershyan"]
+[2026-05-21 17:41:43] [Zershyan/DEBUG] [CustomSkinLoader Core]: Successfully request (Response Code: 200 , Content Length: 74)
+[2026-05-21 17:41:43] [Zershyan/DEBUG] [CustomSkinLoader Core]: Content: [ {
+  "id" : "57822d93efb5479ea300aa5393f5af58",
+  "name" : "Zershyan"
+} ]
+[2026-05-21 17:41:43] [Zershyan/DEBUG] [CustomSkinLoader Core]: Try to request 'https://sessionserver.mojang.com/session/minecraft/profile/57822d93efb5479ea300aa5393f5af58'.
+[2026-05-21 17:41:50] [Zershyan/DEBUG] [CustomSkinLoader Core]: Successfully request (Response Code: 200 , Content Length: 610)
+[2026-05-21 17:41:50] [Zershyan/DEBUG] [CustomSkinLoader Core]: Saved to cache (Length: 610 , Path: 'E:\Gaming\mc\.minecraft\versions\虚饰作品 v1.2.1\CustomSkinLoader\caches\e2e4cf1626c4f24b080cd82d94fcd6188c809ade' , Expire: 1779356530)
+[2026-05-21 17:41:50] [Zershyan/DEBUG] [CustomSkinLoader Core]: Content: {
+  "id" : "57822d93efb5479ea300aa5393f5af58",
+  "name" : "Zershyan",
+  "properties" : [ {
+    "name" : "textures",
+    "value" : "ewogICJ0aW1lc3RhbXAiIDogMTc3OTM1NjUxMTA0OCwKICAicHJvZmlsZUlkIiA6ICI1NzgyMmQ5M2VmYjU0NzllYTMwMGFhNTM5M2Y1YWY1OCIsCiAgInByb2ZpbGVOYW1lIiA6ICJaZXJzaHlhbiIsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82ZmQ4MDM1OTc3ZTllMGI5MmJlMzc4OWEyNGFlYTZhM2Y4ZTY0Nzg3ZWFhNWQzZGMyYzgwODAxMTYzNzMwNjEwIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0="
+  } ],
+  "profileActions" : [ ]
+}
+[2026-05-21 17:41:50] [Zershyan/INFO] [CustomSkinLoader Core]: 2/14 Try to load profile from 'LittleSkin'.
+[2026-05-21 17:41:50] [Zershyan/DEBUG] [CustomSkinLoader Core]: Try to request 'https://littleskin.cn/csl/Zershyan.json'.
+[2026-05-21 17:41:50] [Zershyan/DEBUG] [CustomSkinLoader Core]: Successfully request (Response Code: 200 , Content Length: 2)
+[2026-05-21 17:41:50] [Zershyan/DEBUG] [CustomSkinLoader Core]: Saved to cache (Length: 2 , Path: 'E:\Gaming\mc\.minecraft\versions\虚饰作品 v1.2.1\CustomSkinLoader\caches\61a0b680abf824b41391f1bd9bb99b443f941e70' , Expire: 1779356601)
+[2026-05-21 17:41:50] [Zershyan/DEBUG] [CustomSkinLoader Core]: Content: {}
+[2026-05-21 17:41:50] [Zershyan/INFO] [CustomSkinLoader Core]: Both skin and cape not found.
+[2026-05-21 17:41:50] [Zershyan/INFO] [CustomSkinLoader Core]: 3/14 Try to load profile from 'BlessingSkin'.
+[2026-05-21 17:41:50] [Zershyan/DEBUG] [CustomSkinLoader Core]: Try to request 'https://skin.prinzeugen.net/Zershyan.json'.
+[2026-05-21 17:41:51] [Zershyan/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 404)
+[2026-05-21 17:41:51] [Zershyan/INFO] [CustomSkinLoader Core]: Profile not found.
+[2026-05-21 17:41:51] [Zershyan/INFO] [CustomSkinLoader Core]: 4/14 Try to load profile from 'ElyBy'.
+[2026-05-21 17:41:51] [Zershyan/DEBUG] [CustomSkinLoader Core]: Try to request 'http://skinsystem.ely.by/textures/Zershyan'.
+[2026-05-21 17:41:51] [Zershyan/DEBUG] [CustomSkinLoader Core]: Cache file found (Length: 0 , Path: 'E:\Gaming\mc\.minecraft\versions\虚饰作品 v1.2.1\CustomSkinLoader\caches\34406572693064327edde3dfa3475d65b4632224' , Expire: 1779359373)
+[2026-05-21 17:41:51] [Zershyan/INFO] [CustomSkinLoader Core]: Try to load from cache 'E:\Gaming\mc\.minecraft\versions\虚饰作品 v1.2.1\CustomSkinLoader\caches\34406572693064327edde3dfa3475d65b4632224'.
+[2026-05-21 17:41:51] [Zershyan/DEBUG] [CustomSkinLoader Core]: Successfully load from cache
+[2026-05-21 17:41:51] [Zershyan/DEBUG] [CustomSkinLoader Core]: Content: 
+[2026-05-21 17:41:51] [Zershyan/INFO] [CustomSkinLoader Core]: Profile not found.
+[2026-05-21 17:41:51] [Zershyan/INFO] [CustomSkinLoader Core]: 5/14 Try to load profile from 'SkinMe'.
+[2026-05-21 17:41:51] [Zershyan/DEBUG] [CustomSkinLoader Core]: Try to request 'http://www.skinme.cc/uniskin/Zershyan.json'.
+[2026-05-21 17:41:51] [Zershyan/DEBUG] [CustomSkinLoader Core]: Failed to request http://www.skinme.cc/uniskin/Zershyan.json (Exception: java.net.UnknownHostException: www.skinme.cc)
+[2026-05-21 17:41:51] [Zershyan/INFO] [CustomSkinLoader Core]: Profile not found.
+[2026-05-21 17:41:51] [Zershyan/INFO] [CustomSkinLoader Core]: 6/14 Try to load profile from 'TLauncher'.
+[2026-05-21 17:41:51] [Zershyan/DEBUG] [CustomSkinLoader Core]: Try to request 'https://auth.tlauncher.org/skin/profile/texture/login/Zershyan'.
+[2026-05-21 17:41:52] [Zershyan/DEBUG] [CustomSkinLoader Core]: Successfully request (Response Code: 200 , Content Length: -1)
+[2026-05-21 17:41:52] [Zershyan/DEBUG] [CustomSkinLoader Core]: Saved to cache (Length: 149 , Path: 'E:\Gaming\mc\.minecraft\versions\虚饰作品 v1.2.1\CustomSkinLoader\caches\ed85075d3e060345310e50eb348dd12797cfa3a3' , Expire: 1779356606)
+[2026-05-21 17:41:52] [Zershyan/DEBUG] [CustomSkinLoader Core]: Content: {"SKIN":{"url":"http://textures.minecraft.net/texture/6fd8035977e9e0b92be3789a24aea6a3f8e64787eaa5d3dc2c80801163730610","metadata":{"model":"slim"}}}
+[2026-05-21 17:41:52] [Zershyan/INFO] [CustomSkinLoader Core]: 7/14 Try to load profile from 'GlitchlessGames'.
+[2026-05-21 17:41:52] [Zershyan/DEBUG] [CustomSkinLoader Core]: Try to request 'https://games.glitchless.ru/api/minecraft/users/profiles/textures/?nickname=Zershyan'.
+[2026-05-21 17:41:54] [Zershyan/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 404)
+[2026-05-21 17:41:54] [Zershyan/INFO] [CustomSkinLoader Core]: Profile not found.
+[2026-05-21 17:41:54] [Zershyan/INFO] [CustomSkinLoader Core]: 8/14 Try to load profile from 'LocalSkin'.
+[2026-05-21 17:41:54] [Zershyan/INFO] [CustomSkinLoader Core]: No texture could be found.
+[2026-05-21 17:41:54] [Zershyan/INFO] [CustomSkinLoader Core]: 9/14 Try to load profile from 'MinecraftCapes'.
+[2026-05-21 17:41:54] [Zershyan/DEBUG] [CustomSkinLoader Core]: Try to request 'https://api.minecraftcapes.net/profile/57822d93efb5479ea300aa5393f5af58'.
+[2026-05-21 17:41:54] [Zershyan/DEBUG] [CustomSkinLoader Core]: Cache file found (Length: 241 , Path: 'E:\Gaming\mc\.minecraft\versions\虚饰作品 v1.2.1\CustomSkinLoader\caches\01b657f74e2436032d6a45f03ece33ddc6414eb2' , Expire: 1779359376)
+[2026-05-21 17:41:54] [Zershyan/INFO] [CustomSkinLoader Core]: Try to load from cache 'E:\Gaming\mc\.minecraft\versions\虚饰作品 v1.2.1\CustomSkinLoader\caches\01b657f74e2436032d6a45f03ece33ddc6414eb2'.
+[2026-05-21 17:41:54] [Zershyan/DEBUG] [CustomSkinLoader Core]: Successfully load from cache
+[2026-05-21 17:41:54] [Zershyan/DEBUG] [CustomSkinLoader Core]: Content: {"animatedCape":false,"capeGlint":false,"upsideDown":false,"animated_cape_url":null,"cape_url":null,"ear_url":null,"textures":{"_IMPORTANT":"We are removing base64 textures, please use the above parameters instead.","cape":null,"ears":null}}
+[2026-05-21 17:41:54] [Zershyan/INFO] [CustomSkinLoader Core]: Both skin and cape not found.
+[2026-05-21 17:41:54] [Zershyan/INFO] [CustomSkinLoader Core]: 10/14 Try to load profile from 'OptiFine'.
+[2026-05-21 17:41:54] [Zershyan/DEBUG] [CustomSkinLoader Core]: Try to request 'https://optifine.net/capes/Zershyan.png'.
+[2026-05-21 17:41:55] [Zershyan/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 404)
+[2026-05-21 17:41:55] [Zershyan/INFO] [CustomSkinLoader Core]: No texture could be found.
+[2026-05-21 17:41:55] [Zershyan/INFO] [CustomSkinLoader Core]: 11/14 Try to load profile from 'Wynntils'.
+[2026-05-21 17:41:55] [Zershyan/DEBUG] [CustomSkinLoader Core]: Try to request 'https://athena.wynntils.com/user/getInfo'.
+[2026-05-21 17:41:55] [Zershyan/INFO] [CustomSkinLoader Core]: Payload: {"uuid":"57822d93-efb5-479e-a300-aa5393f5af58"}
+[2026-05-21 17:41:55] [Zershyan/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 403)
+[2026-05-21 17:41:55] [Zershyan/INFO] [CustomSkinLoader Core]: Profile not found.
+[2026-05-21 17:41:55] [Zershyan/INFO] [CustomSkinLoader Core]: 12/14 Try to load profile from 'CloakPlus'.
+[2026-05-21 17:41:55] [Zershyan/DEBUG] [CustomSkinLoader Core]: Try to request 'http://161.35.130.99/capes/Zershyan.png'.
+[2026-05-21 17:41:57] [Zershyan/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 404)
+[2026-05-21 17:41:57] [Zershyan/INFO] [CustomSkinLoader Core]: No texture could be found.
+[2026-05-21 17:41:57] [Zershyan/INFO] [CustomSkinLoader Core]: 13/14 Try to load profile from 'LabyMod'.
+[2026-05-21 17:41:57] [Zershyan/DEBUG] [CustomSkinLoader Core]: Try to request 'https://dl.labymod.net/capes/57822d93-efb5-479e-a300-aa5393f5af58'.
+[2026-05-21 17:41:59] [Zershyan/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 404)
+[2026-05-21 17:41:59] [Zershyan/INFO] [CustomSkinLoader Core]: No texture could be found.
+[2026-05-21 17:41:59] [Zershyan/INFO] [CustomSkinLoader Core]: 14/14 Try to load profile from 'Cosmetica'.
+[2026-05-21 17:41:59] [Zershyan/DEBUG] [CustomSkinLoader Core]: Try to request 'https://api.cosmetica.cc/get/cloak?username=Zershyan&uuid=57822d93-efb5-479e-a300-aa5393f5af58&nothirdparty'.
+[2026-05-21 17:42:00] [Zershyan/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 403)
+[2026-05-21 17:42:00] [Zershyan/INFO] [CustomSkinLoader Core]: No texture could be found.
+[2026-05-21 17:42:00] [Zershyan/INFO] [CustomSkinLoader Core]: Zershyan's profile loaded.
+[2026-05-21 17:42:00] [Zershyan/INFO] [CustomSkinLoader Core]: (SkinUrl: http://textures.minecraft.net/texture/6fd8035977e9e0b92be3789a24aea6a3f8e64787eaa5d3dc2c80801163730610 , Model: slim , CapeUrl: null  , Expiry: 1779356550)
+[2026-05-21 17:59:53] [Zershyan/INFO] [CustomSkinLoader Core]: Loading Zershyan's profile.
+[2026-05-21 17:59:53] [Zershyan/INFO] [CustomSkinLoader Core]: 1/14 Try to load profile from 'Mojang'.
+[2026-05-21 17:59:53] [Zershyan/DEBUG] [CustomSkinLoader Core]: Try to request 'https://sessionserver.mojang.com/session/minecraft/profile/57822d93efb5479ea300aa5393f5af58'.
+[2026-05-21 18:00:01] [Zershyan/DEBUG] [CustomSkinLoader Core]: Successfully request (Response Code: 200 , Content Length: 610)
+[2026-05-21 18:00:01] [Zershyan/DEBUG] [CustomSkinLoader Core]: Saved to cache (Length: 610 , Path: 'E:\Gaming\mc\.minecraft\versions\虚饰作品 v1.2.1\CustomSkinLoader\caches\e2e4cf1626c4f24b080cd82d94fcd6188c809ade' , Expire: 1779357621)
+[2026-05-21 18:00:01] [Zershyan/DEBUG] [CustomSkinLoader Core]: Content: {
+  "id" : "57822d93efb5479ea300aa5393f5af58",
+  "name" : "Zershyan",
+  "properties" : [ {
+    "name" : "textures",
+    "value" : "ewogICJ0aW1lc3RhbXAiIDogMTc3OTM1NzYwMjU0MSwKICAicHJvZmlsZUlkIiA6ICI1NzgyMmQ5M2VmYjU0NzllYTMwMGFhNTM5M2Y1YWY1OCIsCiAgInByb2ZpbGVOYW1lIiA6ICJaZXJzaHlhbiIsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82ZmQ4MDM1OTc3ZTllMGI5MmJlMzc4OWEyNGFlYTZhM2Y4ZTY0Nzg3ZWFhNWQzZGMyYzgwODAxMTYzNzMwNjEwIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0="
+  } ],
+  "profileActions" : [ ]
+}
+[2026-05-21 18:00:01] [Zershyan/INFO] [CustomSkinLoader Core]: 2/14 Try to load profile from 'LittleSkin'.
+[2026-05-21 18:00:01] [Zershyan/DEBUG] [CustomSkinLoader Core]: Try to request 'https://littleskin.cn/csl/Zershyan.json'.
+[2026-05-21 18:00:02] [Zershyan/DEBUG] [CustomSkinLoader Core]: Successfully request (Response Code: 200 , Content Length: 2)
+[2026-05-21 18:00:02] [Zershyan/DEBUG] [CustomSkinLoader Core]: Saved to cache (Length: 2 , Path: 'E:\Gaming\mc\.minecraft\versions\虚饰作品 v1.2.1\CustomSkinLoader\caches\61a0b680abf824b41391f1bd9bb99b443f941e70' , Expire: 1779357696)
+[2026-05-21 18:00:02] [Zershyan/DEBUG] [CustomSkinLoader Core]: Content: {}
+[2026-05-21 18:00:02] [Zershyan/INFO] [CustomSkinLoader Core]: Both skin and cape not found.
+[2026-05-21 18:00:02] [Zershyan/INFO] [CustomSkinLoader Core]: 3/14 Try to load profile from 'BlessingSkin'.
+[2026-05-21 18:00:02] [Zershyan/DEBUG] [CustomSkinLoader Core]: Try to request 'https://skin.prinzeugen.net/Zershyan.json'.
+[2026-05-21 18:00:03] [Zershyan/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 404)
+[2026-05-21 18:00:03] [Zershyan/INFO] [CustomSkinLoader Core]: Profile not found.
+[2026-05-21 18:00:03] [Zershyan/INFO] [CustomSkinLoader Core]: 4/14 Try to load profile from 'ElyBy'.
+[2026-05-21 18:00:03] [Zershyan/DEBUG] [CustomSkinLoader Core]: Try to request 'http://skinsystem.ely.by/textures/Zershyan'.
+[2026-05-21 18:00:03] [Zershyan/DEBUG] [CustomSkinLoader Core]: Cache file found (Length: 0 , Path: 'E:\Gaming\mc\.minecraft\versions\虚饰作品 v1.2.1\CustomSkinLoader\caches\34406572693064327edde3dfa3475d65b4632224' , Expire: 1779359373)
+[2026-05-21 18:00:03] [Zershyan/INFO] [CustomSkinLoader Core]: Try to load from cache 'E:\Gaming\mc\.minecraft\versions\虚饰作品 v1.2.1\CustomSkinLoader\caches\34406572693064327edde3dfa3475d65b4632224'.
+[2026-05-21 18:00:03] [Zershyan/DEBUG] [CustomSkinLoader Core]: Successfully load from cache
+[2026-05-21 18:00:03] [Zershyan/DEBUG] [CustomSkinLoader Core]: Content: 
+[2026-05-21 18:00:03] [Zershyan/INFO] [CustomSkinLoader Core]: Profile not found.
+[2026-05-21 18:00:03] [Zershyan/INFO] [CustomSkinLoader Core]: 5/14 Try to load profile from 'SkinMe'.
+[2026-05-21 18:00:03] [Zershyan/DEBUG] [CustomSkinLoader Core]: Try to request 'http://www.skinme.cc/uniskin/Zershyan.json'.
+[2026-05-21 18:00:03] [Zershyan/DEBUG] [CustomSkinLoader Core]: Failed to request http://www.skinme.cc/uniskin/Zershyan.json (Exception: java.net.UnknownHostException: www.skinme.cc)
+[2026-05-21 18:00:03] [Zershyan/INFO] [CustomSkinLoader Core]: Profile not found.
+[2026-05-21 18:00:03] [Zershyan/INFO] [CustomSkinLoader Core]: 6/14 Try to load profile from 'TLauncher'.
+[2026-05-21 18:00:03] [Zershyan/DEBUG] [CustomSkinLoader Core]: Try to request 'https://auth.tlauncher.org/skin/profile/texture/login/Zershyan'.
+[2026-05-21 18:00:04] [Zershyan/DEBUG] [CustomSkinLoader Core]: Successfully request (Response Code: 200 , Content Length: -1)
+[2026-05-21 18:00:04] [Zershyan/DEBUG] [CustomSkinLoader Core]: Saved to cache (Length: 149 , Path: 'E:\Gaming\mc\.minecraft\versions\虚饰作品 v1.2.1\CustomSkinLoader\caches\ed85075d3e060345310e50eb348dd12797cfa3a3' , Expire: 1779357694)
+[2026-05-21 18:00:04] [Zershyan/DEBUG] [CustomSkinLoader Core]: Content: {"SKIN":{"url":"http://textures.minecraft.net/texture/6fd8035977e9e0b92be3789a24aea6a3f8e64787eaa5d3dc2c80801163730610","metadata":{"model":"slim"}}}
+[2026-05-21 18:00:04] [Zershyan/INFO] [CustomSkinLoader Core]: 7/14 Try to load profile from 'GlitchlessGames'.
+[2026-05-21 18:00:04] [Zershyan/DEBUG] [CustomSkinLoader Core]: Try to request 'https://games.glitchless.ru/api/minecraft/users/profiles/textures/?nickname=Zershyan'.
+[2026-05-21 18:00:05] [Zershyan/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 404)
+[2026-05-21 18:00:05] [Zershyan/INFO] [CustomSkinLoader Core]: Profile not found.
+[2026-05-21 18:00:05] [Zershyan/INFO] [CustomSkinLoader Core]: 8/14 Try to load profile from 'LocalSkin'.
+[2026-05-21 18:00:05] [Zershyan/INFO] [CustomSkinLoader Core]: No texture could be found.
+[2026-05-21 18:00:05] [Zershyan/INFO] [CustomSkinLoader Core]: 9/14 Try to load profile from 'MinecraftCapes'.
+[2026-05-21 18:00:05] [Zershyan/DEBUG] [CustomSkinLoader Core]: Try to request 'https://api.minecraftcapes.net/profile/57822d93efb5479ea300aa5393f5af58'.
+[2026-05-21 18:00:05] [Zershyan/DEBUG] [CustomSkinLoader Core]: Cache file found (Length: 241 , Path: 'E:\Gaming\mc\.minecraft\versions\虚饰作品 v1.2.1\CustomSkinLoader\caches\01b657f74e2436032d6a45f03ece33ddc6414eb2' , Expire: 1779359376)
+[2026-05-21 18:00:05] [Zershyan/INFO] [CustomSkinLoader Core]: Try to load from cache 'E:\Gaming\mc\.minecraft\versions\虚饰作品 v1.2.1\CustomSkinLoader\caches\01b657f74e2436032d6a45f03ece33ddc6414eb2'.
+[2026-05-21 18:00:05] [Zershyan/DEBUG] [CustomSkinLoader Core]: Successfully load from cache
+[2026-05-21 18:00:05] [Zershyan/DEBUG] [CustomSkinLoader Core]: Content: {"animatedCape":false,"capeGlint":false,"upsideDown":false,"animated_cape_url":null,"cape_url":null,"ear_url":null,"textures":{"_IMPORTANT":"We are removing base64 textures, please use the above parameters instead.","cape":null,"ears":null}}
+[2026-05-21 18:00:05] [Zershyan/INFO] [CustomSkinLoader Core]: Both skin and cape not found.
+[2026-05-21 18:00:05] [Zershyan/INFO] [CustomSkinLoader Core]: 10/14 Try to load profile from 'OptiFine'.
+[2026-05-21 18:00:05] [Zershyan/DEBUG] [CustomSkinLoader Core]: Try to request 'https://optifine.net/capes/Zershyan.png'.
+[2026-05-21 18:00:06] [Zershyan/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 404)
+[2026-05-21 18:00:06] [Zershyan/INFO] [CustomSkinLoader Core]: No texture could be found.
+[2026-05-21 18:00:06] [Zershyan/INFO] [CustomSkinLoader Core]: 11/14 Try to load profile from 'Wynntils'.
+[2026-05-21 18:00:06] [Zershyan/DEBUG] [CustomSkinLoader Core]: Try to request 'https://athena.wynntils.com/user/getInfo'.
+[2026-05-21 18:00:06] [Zershyan/INFO] [CustomSkinLoader Core]: Payload: {"uuid":"57822d93-efb5-479e-a300-aa5393f5af58"}
+[2026-05-21 18:00:08] [Zershyan/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 403)
+[2026-05-21 18:00:08] [Zershyan/INFO] [CustomSkinLoader Core]: Profile not found.
+[2026-05-21 18:00:08] [Zershyan/INFO] [CustomSkinLoader Core]: 12/14 Try to load profile from 'CloakPlus'.
+[2026-05-21 18:00:08] [Zershyan/DEBUG] [CustomSkinLoader Core]: Try to request 'http://161.35.130.99/capes/Zershyan.png'.
+[2026-05-21 18:00:09] [Zershyan/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 404)
+[2026-05-21 18:00:09] [Zershyan/INFO] [CustomSkinLoader Core]: No texture could be found.
+[2026-05-21 18:00:09] [Zershyan/INFO] [CustomSkinLoader Core]: 13/14 Try to load profile from 'LabyMod'.
+[2026-05-21 18:00:09] [Zershyan/DEBUG] [CustomSkinLoader Core]: Try to request 'https://dl.labymod.net/capes/57822d93-efb5-479e-a300-aa5393f5af58'.
+[2026-05-21 18:00:22] [Zershyan/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 404)
+[2026-05-21 18:00:22] [Zershyan/INFO] [CustomSkinLoader Core]: No texture could be found.
+[2026-05-21 18:00:22] [Zershyan/INFO] [CustomSkinLoader Core]: 14/14 Try to load profile from 'Cosmetica'.
+[2026-05-21 18:00:22] [Zershyan/DEBUG] [CustomSkinLoader Core]: Try to request 'https://api.cosmetica.cc/get/cloak?username=Zershyan&uuid=57822d93-efb5-479e-a300-aa5393f5af58&nothirdparty'.
+[2026-05-21 18:00:23] [Zershyan/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 403)
+[2026-05-21 18:00:23] [Zershyan/INFO] [CustomSkinLoader Core]: No texture could be found.
+[2026-05-21 18:00:23] [Zershyan/INFO] [CustomSkinLoader Core]: Zershyan's profile loaded.
+[2026-05-21 18:00:23] [Zershyan/INFO] [CustomSkinLoader Core]: (SkinUrl: http://textures.minecraft.net/texture/6fd8035977e9e0b92be3789a24aea6a3f8e64787eaa5d3dc2c80801163730610 , Model: slim , CapeUrl: null  , Expiry: 1779357653)
+[2026-05-21 18:11:03] [Zershyan/INFO] [CustomSkinLoader Core]: Loading Zershyan's profile.
+[2026-05-21 18:11:03] [Zershyan/INFO] [CustomSkinLoader Core]: 1/14 Try to load profile from 'Mojang'.
+[2026-05-21 18:11:03] [Zershyan/DEBUG] [CustomSkinLoader Core]: Try to request 'https://sessionserver.mojang.com/session/minecraft/profile/57822d93efb5479ea300aa5393f5af58'.
+[2026-05-21 18:11:12] [Zershyan/DEBUG] [CustomSkinLoader Core]: Successfully request (Response Code: 200 , Content Length: 610)
+[2026-05-21 18:11:12] [Zershyan/DEBUG] [CustomSkinLoader Core]: Saved to cache (Length: 610 , Path: 'E:\Gaming\mc\.minecraft\versions\虚饰作品 v1.2.1\CustomSkinLoader\caches\e2e4cf1626c4f24b080cd82d94fcd6188c809ade' , Expire: 1779358292)
+[2026-05-21 18:11:12] [Zershyan/DEBUG] [CustomSkinLoader Core]: Content: {
+  "id" : "57822d93efb5479ea300aa5393f5af58",
+  "name" : "Zershyan",
+  "properties" : [ {
+    "name" : "textures",
+    "value" : "ewogICJ0aW1lc3RhbXAiIDogMTc3OTM1ODI3MzA2OCwKICAicHJvZmlsZUlkIiA6ICI1NzgyMmQ5M2VmYjU0NzllYTMwMGFhNTM5M2Y1YWY1OCIsCiAgInByb2ZpbGVOYW1lIiA6ICJaZXJzaHlhbiIsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82ZmQ4MDM1OTc3ZTllMGI5MmJlMzc4OWEyNGFlYTZhM2Y4ZTY0Nzg3ZWFhNWQzZGMyYzgwODAxMTYzNzMwNjEwIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0="
+  } ],
+  "profileActions" : [ ]
+}
+[2026-05-21 18:11:12] [Zershyan/INFO] [CustomSkinLoader Core]: 2/14 Try to load profile from 'LittleSkin'.
+[2026-05-21 18:11:12] [Zershyan/DEBUG] [CustomSkinLoader Core]: Try to request 'https://littleskin.cn/csl/Zershyan.json'.
+[2026-05-21 18:11:12] [Zershyan/DEBUG] [CustomSkinLoader Core]: Successfully request (Response Code: 200 , Content Length: 2)
+[2026-05-21 18:11:12] [Zershyan/DEBUG] [CustomSkinLoader Core]: Saved to cache (Length: 2 , Path: 'E:\Gaming\mc\.minecraft\versions\虚饰作品 v1.2.1\CustomSkinLoader\caches\61a0b680abf824b41391f1bd9bb99b443f941e70' , Expire: 1779358363)
+[2026-05-21 18:11:12] [Zershyan/DEBUG] [CustomSkinLoader Core]: Content: {}
+[2026-05-21 18:11:12] [Zershyan/INFO] [CustomSkinLoader Core]: Both skin and cape not found.
+[2026-05-21 18:11:12] [Zershyan/INFO] [CustomSkinLoader Core]: 3/14 Try to load profile from 'BlessingSkin'.
+[2026-05-21 18:11:12] [Zershyan/DEBUG] [CustomSkinLoader Core]: Try to request 'https://skin.prinzeugen.net/Zershyan.json'.
+[2026-05-21 18:11:13] [Zershyan/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 404)
+[2026-05-21 18:11:13] [Zershyan/INFO] [CustomSkinLoader Core]: Profile not found.
+[2026-05-21 18:11:13] [Zershyan/INFO] [CustomSkinLoader Core]: 4/14 Try to load profile from 'ElyBy'.
+[2026-05-21 18:11:13] [Zershyan/DEBUG] [CustomSkinLoader Core]: Try to request 'http://skinsystem.ely.by/textures/Zershyan'.
+[2026-05-21 18:11:13] [Zershyan/DEBUG] [CustomSkinLoader Core]: Cache file found (Length: 0 , Path: 'E:\Gaming\mc\.minecraft\versions\虚饰作品 v1.2.1\CustomSkinLoader\caches\34406572693064327edde3dfa3475d65b4632224' , Expire: 1779359373)
+[2026-05-21 18:11:13] [Zershyan/INFO] [CustomSkinLoader Core]: Try to load from cache 'E:\Gaming\mc\.minecraft\versions\虚饰作品 v1.2.1\CustomSkinLoader\caches\34406572693064327edde3dfa3475d65b4632224'.
+[2026-05-21 18:11:13] [Zershyan/DEBUG] [CustomSkinLoader Core]: Successfully load from cache
+[2026-05-21 18:11:13] [Zershyan/DEBUG] [CustomSkinLoader Core]: Content: 
+[2026-05-21 18:11:13] [Zershyan/INFO] [CustomSkinLoader Core]: Profile not found.
+[2026-05-21 18:11:13] [Zershyan/INFO] [CustomSkinLoader Core]: 5/14 Try to load profile from 'SkinMe'.
+[2026-05-21 18:11:13] [Zershyan/DEBUG] [CustomSkinLoader Core]: Try to request 'http://www.skinme.cc/uniskin/Zershyan.json'.
+[2026-05-21 18:11:13] [Zershyan/DEBUG] [CustomSkinLoader Core]: Failed to request http://www.skinme.cc/uniskin/Zershyan.json (Exception: java.net.UnknownHostException: www.skinme.cc)
+[2026-05-21 18:11:13] [Zershyan/INFO] [CustomSkinLoader Core]: Profile not found.
+[2026-05-21 18:11:13] [Zershyan/INFO] [CustomSkinLoader Core]: 6/14 Try to load profile from 'TLauncher'.
+[2026-05-21 18:11:13] [Zershyan/DEBUG] [CustomSkinLoader Core]: Try to request 'https://auth.tlauncher.org/skin/profile/texture/login/Zershyan'.
+[2026-05-21 18:11:14] [Zershyan/DEBUG] [CustomSkinLoader Core]: Successfully request (Response Code: 200 , Content Length: -1)
+[2026-05-21 18:11:14] [Zershyan/DEBUG] [CustomSkinLoader Core]: Saved to cache (Length: 149 , Path: 'E:\Gaming\mc\.minecraft\versions\虚饰作品 v1.2.1\CustomSkinLoader\caches\ed85075d3e060345310e50eb348dd12797cfa3a3' , Expire: 1779358367)
+[2026-05-21 18:11:14] [Zershyan/DEBUG] [CustomSkinLoader Core]: Content: {"SKIN":{"url":"http://textures.minecraft.net/texture/6fd8035977e9e0b92be3789a24aea6a3f8e64787eaa5d3dc2c80801163730610","metadata":{"model":"slim"}}}
+[2026-05-21 18:11:14] [Zershyan/INFO] [CustomSkinLoader Core]: 7/14 Try to load profile from 'GlitchlessGames'.
+[2026-05-21 18:11:14] [Zershyan/DEBUG] [CustomSkinLoader Core]: Try to request 'https://games.glitchless.ru/api/minecraft/users/profiles/textures/?nickname=Zershyan'.
+[2026-05-21 18:11:15] [Zershyan/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 404)
+[2026-05-21 18:11:15] [Zershyan/INFO] [CustomSkinLoader Core]: Profile not found.
+[2026-05-21 18:11:15] [Zershyan/INFO] [CustomSkinLoader Core]: 8/14 Try to load profile from 'LocalSkin'.
+[2026-05-21 18:11:15] [Zershyan/INFO] [CustomSkinLoader Core]: No texture could be found.
+[2026-05-21 18:11:15] [Zershyan/INFO] [CustomSkinLoader Core]: 9/14 Try to load profile from 'MinecraftCapes'.
+[2026-05-21 18:11:15] [Zershyan/DEBUG] [CustomSkinLoader Core]: Try to request 'https://api.minecraftcapes.net/profile/57822d93efb5479ea300aa5393f5af58'.
+[2026-05-21 18:11:15] [Zershyan/DEBUG] [CustomSkinLoader Core]: Cache file found (Length: 241 , Path: 'E:\Gaming\mc\.minecraft\versions\虚饰作品 v1.2.1\CustomSkinLoader\caches\01b657f74e2436032d6a45f03ece33ddc6414eb2' , Expire: 1779359376)
+[2026-05-21 18:11:15] [Zershyan/INFO] [CustomSkinLoader Core]: Try to load from cache 'E:\Gaming\mc\.minecraft\versions\虚饰作品 v1.2.1\CustomSkinLoader\caches\01b657f74e2436032d6a45f03ece33ddc6414eb2'.
+[2026-05-21 18:11:15] [Zershyan/DEBUG] [CustomSkinLoader Core]: Successfully load from cache
+[2026-05-21 18:11:15] [Zershyan/DEBUG] [CustomSkinLoader Core]: Content: {"animatedCape":false,"capeGlint":false,"upsideDown":false,"animated_cape_url":null,"cape_url":null,"ear_url":null,"textures":{"_IMPORTANT":"We are removing base64 textures, please use the above parameters instead.","cape":null,"ears":null}}
+[2026-05-21 18:11:15] [Zershyan/INFO] [CustomSkinLoader Core]: Both skin and cape not found.
+[2026-05-21 18:11:15] [Zershyan/INFO] [CustomSkinLoader Core]: 10/14 Try to load profile from 'OptiFine'.
+[2026-05-21 18:11:15] [Zershyan/DEBUG] [CustomSkinLoader Core]: Try to request 'https://optifine.net/capes/Zershyan.png'.
+[2026-05-21 18:11:16] [Zershyan/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 404)
+[2026-05-21 18:11:16] [Zershyan/INFO] [CustomSkinLoader Core]: No texture could be found.
+[2026-05-21 18:11:16] [Zershyan/INFO] [CustomSkinLoader Core]: 11/14 Try to load profile from 'Wynntils'.
+[2026-05-21 18:11:16] [Zershyan/DEBUG] [CustomSkinLoader Core]: Try to request 'https://athena.wynntils.com/user/getInfo'.
+[2026-05-21 18:11:16] [Zershyan/INFO] [CustomSkinLoader Core]: Payload: {"uuid":"57822d93-efb5-479e-a300-aa5393f5af58"}
+[2026-05-21 18:11:17] [Zershyan/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 403)
+[2026-05-21 18:11:17] [Zershyan/INFO] [CustomSkinLoader Core]: Profile not found.
+[2026-05-21 18:11:17] [Zershyan/INFO] [CustomSkinLoader Core]: 12/14 Try to load profile from 'CloakPlus'.
+[2026-05-21 18:11:17] [Zershyan/DEBUG] [CustomSkinLoader Core]: Try to request 'http://161.35.130.99/capes/Zershyan.png'.
+[2026-05-21 18:11:18] [Zershyan/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 404)
+[2026-05-21 18:11:18] [Zershyan/INFO] [CustomSkinLoader Core]: No texture could be found.
+[2026-05-21 18:11:18] [Zershyan/INFO] [CustomSkinLoader Core]: 13/14 Try to load profile from 'LabyMod'.
+[2026-05-21 18:11:18] [Zershyan/DEBUG] [CustomSkinLoader Core]: Try to request 'https://dl.labymod.net/capes/57822d93-efb5-479e-a300-aa5393f5af58'.
+[2026-05-21 18:11:31] [Zershyan/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 404)
+[2026-05-21 18:11:31] [Zershyan/INFO] [CustomSkinLoader Core]: No texture could be found.
+[2026-05-21 18:11:31] [Zershyan/INFO] [CustomSkinLoader Core]: 14/14 Try to load profile from 'Cosmetica'.
+[2026-05-21 18:11:31] [Zershyan/DEBUG] [CustomSkinLoader Core]: Try to request 'https://api.cosmetica.cc/get/cloak?username=Zershyan&uuid=57822d93-efb5-479e-a300-aa5393f5af58&nothirdparty'.
+[2026-05-21 18:11:35] [Zershyan/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 403)
+[2026-05-21 18:11:35] [Zershyan/INFO] [CustomSkinLoader Core]: No texture could be found.
+[2026-05-21 18:11:35] [Zershyan/INFO] [CustomSkinLoader Core]: Zershyan's profile loaded.
+[2026-05-21 18:11:35] [Zershyan/INFO] [CustomSkinLoader Core]: (SkinUrl: http://textures.minecraft.net/texture/6fd8035977e9e0b92be3789a24aea6a3f8e64787eaa5d3dc2c80801163730610 , Model: slim , CapeUrl: null  , Expiry: 1779358325)

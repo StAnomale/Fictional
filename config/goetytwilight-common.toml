@@ -1,0 +1,250 @@
+
+["Servant Limits"]
+	#Number of Yeti Servants that an individual player can have in total, Default: 32
+	#Range: > 1
+	yetiServantLimit = 32
+	#Number of Death Tome Servants that an individual player can have in total, Default: 32
+	#Range: > 1
+	deathTomeServantLimit = 32
+	#Number of Minotaur Servants that an individual player can have in total, Default: 16
+	#Range: > 1
+	minotaurServantLimit = 16
+	#Number of Alpha Yeti Servants that an individual player can have in total, Default: 2
+	#Range: > 1
+	alphaYetiServantLimit = 2
+	#Number of Carminite Golem Servants that an individual player can have in total, Default: 16
+	#Range: > 1
+	carminiteGolemServantLimit = 16
+	#Number of Cave Troll Servants that an individual player can have in total, Default: 16
+	#Range: > 1
+	caveTrollServantLimit = 16
+	#Number of Ice Crystal Servants that an individual player can have in total, Default: 32
+	#Range: > 1
+	iceCrystalServantLimit = 32
+	#Number of Knight Phantom Servants that an individual player can have in total, Default: 12
+	#Range: > 1
+	knightPhantomServantLimit = 12
+	#Number of Kobold Servants that an individual player can have in total, Default: 32
+	#Range: > 1
+	koboldServantLimit = 32
+	#Number of Minoshroom Servants that an individual player can have in total, Default: 2
+	#Range: > 1
+	minoshroomServantLimit = 2
+	#Number of Snow Guardian Servants that an individual player can have in total, Default: 16
+	#Range: > 1
+	snowGuardianServantLimit = 16
+	#Number of Snow Queen Servants that an individual player can have in total, Default: 2
+	#Range: > 1
+	snowQueenServantLimit = 2
+	#Number of Stable Ice Core Servants that an individual player can have in total, Default: 16
+	#Range: > 1
+	stableIceCoreServantLimit = 16
+	#Number of Towerwood Borer Servants that an individual player can have in total, Default: 32
+	#Range: > 1
+	towerwoodBorerServantLimit = 32
+	#Number of Skeleton Druid Servants that an individual player can have in total, Default: 32
+	#Range: > 1
+	skeletonDruidServantLimit = 32
+	#Number of Mosquito Swarm Servants that an individual player can have in total, Default: 16
+	#Range: > 1
+	mosquitoSwarmServantLimit = 16
+	#Number of Lich Servants that an individual player can have in total, Default: 1
+	#Range: > 1
+	lichServantLimit = 1
+	#Number of Beetle Servants (Slime, Fire, and Pinch Beetles combined) that an individual player can have in total, Default: 16
+	#Range: > 1
+	beetleServantLimit = 16
+	#Number of Wolf Servants (Winter Wolf and Mist Wolf combined) that an individual player can have in total, Default: 16
+	#Range: > 1
+	wolfServantLimit = 16
+	#Number of Goblin Servants (Upper Goblin Knight, Lower Goblin Knight, and Block & Chain Goblin combined) that an individual player can have in total, Default: 32
+	#Range: > 1
+	goblinServantLimit = 32
+	#Number of Giant Servants (Armored Giant and Giant Miner combined) that an individual player can have in total, Default: 8
+	#Range: > 1
+	giantServantLimit = 8
+
+["Spell Soul Costs"]
+	#Acid Rain Spell Soul Cost, Default: 100
+	#Range: > 0
+	acidRainSoulCost = 100
+	#Alpha Wolf Spell Soul Cost, Default: 32
+	#Range: > 0
+	alphaWolfSoulCost = 32
+	#Annihilation Cube Spell Soul Cost, Default: 32
+	#Range: > 0
+	annihilationCubeSoulCost = 32
+	#Arsenopyrite Spell Soul Cost, Default: 100
+	#Range: > 0
+	arsenopyriteSoulCost = 100
+	#Blast Bomb Spell Soul Cost, Default: 32
+	#Range: > 0
+	blastBombSoulCost = 32
+	#Carminite Golem Spell Soul Cost, Default: 32
+	#Range: > 0
+	carminiteGolemSoulCost = 32
+	#Cave Troll Spell Soul Cost, Default: 32
+	#Range: > 0
+	caveTrollSoulCost = 32
+	#Destruction Spell Soul Cost, Default: 16
+	#Range: > 0
+	destructionSoulCost = 16
+	#Frost Bomb Spell Soul Cost, Default: 16
+	#Range: > 0
+	frostBombSoulCost = 16
+	#Giant Spell Soul Cost, Default: 64
+	#Range: > 0
+	giantSoulCost = 64
+	#Goblin Spell Soul Cost, Default: 16
+	#Range: > 0
+	goblinSoulCost = 16
+	#Ice Crystal Spell Soul Cost, Default: 8
+	#Range: > 0
+	iceCrystalSoulCost = 8
+	#Knight Order Spell Soul Cost, Default: 64
+	#Range: > 0
+	knightOrderSoulCost = 64
+	#Kobold Spell Soul Cost, Default: 16
+	#Range: > 0
+	koboldSoulCost = 16
+	#Minotaur Spell Soul Cost, Default: 32
+	#Range: > 0
+	minotaurSoulCost = 32
+	#Mosquito Swarm Spell Soul Cost, Default: 16
+	#Range: > 0
+	mosquitoSwarmSoulCost = 16
+	#Nature Bolt Spell Soul Cost, Default: 4
+	#Range: > 0
+	natureBoltSoulCost = 4
+	#Paper Knife Spell Soul Cost, Default: 4
+	#Range: > 0
+	paperKnifeSoulCost = 4
+	#Phantom Axe Spell Soul Cost, Default: 16
+	#Range: > 0
+	phantomAxeSoulCost = 16
+	#Seal Spell Soul Cost, Default: 200
+	#Range: > 0
+	sealSoulCost = 200
+	#Skeleton Druid Spell Soul Cost, Default: 16
+	#Range: > 0
+	skeletonDruidSoulCost = 16
+	#Slime Bomb Spell Soul Cost, Default: 4
+	#Range: > 0
+	slimeBombSoulCost = 4
+	#Snow Guardian Spell Soul Cost, Default: 64
+	#Range: > 0
+	snowGuardianSoulCost = 64
+	#Sorrow Spell Soul Cost, Default: 16
+	#Range: > 0
+	sorrowSoulCost = 16
+	#Stable Ice Core Spell Soul Cost, Default: 32
+	#Range: > 0
+	stableIceCoreSoulCost = 32
+	#Thorn Spell Soul Cost, Default: 32
+	#Range: > 0
+	thornSoulCost = 32
+	#Time Bomb Spell Soul Cost, Default: 50
+	#Range: > 0
+	timeBombSoulCost = 50
+	#Tome Spell Soul Cost, Default: 10
+	#Range: > 0
+	tomeSoulCost = 10
+	#Twilight Spell Soul Cost, Default: 16
+	#Range: > 0
+	twilightSoulCost = 16
+	#Ward Spell Soul Cost, Default: 100
+	#Range: > 0
+	wardSoulCost = 100
+
+["Spell Cooldowns"]
+	#Acid Rain Spell Cooldown, Default: 400
+	#Range: > 0
+	acidRainCooldown = 400
+	#Alpha Wolf Spell Cooldown, Default: 600
+	#Range: > 0
+	alphaWolfCooldown = 600
+	#Annihilation Cube Spell Cooldown, Default: 100
+	#Range: > 0
+	annihilationCubeCooldown = 100
+	#Arsenopyrite Spell Cooldown, Default: 1200
+	#Range: > 0
+	arsenopyriteCooldown = 1200
+	#Blast Bomb Spell Cooldown, Default: 200
+	#Range: > 0
+	blastBombCooldown = 200
+	#Carminite Golem Spell Cooldown, Default: 960
+	#Range: > 0
+	carminiteGolemCooldown = 960
+	#Cave Troll Spell Cooldown, Default: 320
+	#Range: > 0
+	caveTrollCooldown = 320
+	#Destruction Spell Cooldown, Default: 100
+	#Range: > 0
+	destructionCooldown = 100
+	#Frost Bomb Spell Cooldown, Default: 60
+	#Range: > 0
+	frostBombCooldown = 60
+	#Giant Spell Cooldown, Default: 1200
+	#Range: > 0
+	giantCooldown = 1200
+	#Goblin Spell Cooldown, Default: 240
+	#Range: > 0
+	goblinCooldown = 240
+	#Ice Crystal Spell Cooldown, Default: 80
+	#Range: > 0
+	iceCrystalCooldown = 80
+	#Knight Order Spell Cooldown, Default: 600
+	#Range: > 0
+	knightOrderCooldown = 600
+	#Kobold Spell Cooldown, Default: 240
+	#Range: > 0
+	koboldCooldown = 240
+	#Minotaur Spell Cooldown, Default: 320
+	#Range: > 0
+	minotaurCooldown = 320
+	#Mosquito Swarm Spell Cooldown, Default: 240
+	#Range: > 0
+	mosquitoSwarmCooldown = 240
+	#Nature Bolt Spell Cooldown, Default: 20
+	#Range: > 0
+	natureBoltCooldown = 20
+	#Paper Knife Spell Cooldown, Default: 60
+	#Range: > 0
+	paperKnifeCooldown = 60
+	#Phantom Axe Spell Cooldown, Default: 40
+	#Range: > 0
+	phantomAxeCooldown = 40
+	#Seal Spell Cooldown, Default: 600
+	#Range: > 0
+	sealCooldown = 600
+	#Skeleton Druid Spell Cooldown, Default: 100
+	#Range: > 0
+	skeletonDruidCooldown = 100
+	#Slime Bomb Spell Cooldown, Default: 20
+	#Range: > 0
+	slimeBombCooldown = 20
+	#Snow Guardian Spell Cooldown, Default: 200
+	#Range: > 0
+	snowGuardianCooldown = 200
+	#Sorrow Spell Cooldown, Default: 200
+	#Range: > 0
+	sorrowCooldown = 200
+	#Stable Ice Core Spell Cooldown, Default: 320
+	#Range: > 0
+	stableIceCoreCooldown = 320
+	#Thorn Spell Cooldown, Default: 360
+	#Range: > 0
+	thornCooldown = 360
+	#Time Bomb Spell Cooldown, Default: 400
+	#Range: > 0
+	timeBombCooldown = 400
+	#Tome Spell Cooldown, Default: 200
+	#Range: > 0
+	tomeCooldown = 200
+	#Twilight Spell Cooldown, Default: 40
+	#Range: > 0
+	twilightCooldown = 40
+	#Ward Spell Cooldown, Default: 400
+	#Range: > 0
+	wardCooldown = 400
+

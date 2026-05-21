@@ -1,0 +1,27 @@
+{
+  "armorSetName": "DC_ceraunus",
+  "performanceMode": true,
+  "mainHand": {
+    "itemKey": "cataclysm:ceraunus",
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:magic_damage",
+      "value": 0.4,
+      "modifierUUID": "77c9de49-4886-48da-b6b9-29c03d7adfc7",
+      "attributeOperation": 2,
+      "interactionType": "self"
+    },
+    {
+      "type": "attribute",
+      "name": "obscure_api:critical_damage",
+      "value": 0.8,
+      "modifierUUID": "7df76d9d-22dc-41bd-9fd7-a864560c506b",
+      "attributeOperation": 0,
+      "interactionType": "self"
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

@@ -1,0 +1,18 @@
+#重铸和融合时消耗的经验等级
+#Range: 0 ~ 200
+levelCost = 100
+#重铸词条所需的材料ID (例如 minecraft:nether_star)，也就是下界之星喵
+rerollItem = "ba_bt:end_monolith_key"
+#白名单列表
+whitelist = []
+#是否翻转白名单，false: 名单内饰品禁止获得词条; true: 仅限名单内饰品获得词条
+whitelistInvert = false
+#词条每级提升的属性比例 (0.1 代表每级增加基础值的 10%)
+#Range: 0.0 ~ 10.0
+upgradeStep = 0.2
+#最高可融合达到的词条等级上限
+#Range: 1 ~ 100
+maxLevel = 5
+#格式: 名字|属性ID|数值|加成类型(ADDITION/MULTIPLY_BASE)|权重
+affixes = ["§b迅捷|minecraft:generic.movement_speed|0.05|MULTIPLY_BASE|10", "§b精准|obscure_api:accuracy|0.1|MULTIPLY_BASE|10", "§c愤怒|obscure_api:critical_damage|0.05|MULTIPLY_TOTAL|10",  "§c锋利|minecraft:generic.attack_damage|0.05|MULTIPLY_BASE|5", "§6装甲|minecraft:generic.armor_toughness|0.05|MULTIPLY_BASE|8",, "§e护佑|minecraft:generic.armor_toughness|0.05|MULTIPLY_BASE|8", "§a生命|minecraft:generic.max_health|0.05|MULTIPLY_BASE|8"]
+

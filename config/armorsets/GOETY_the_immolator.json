@@ -1,0 +1,33 @@
+{
+  "armorSetName": "shield",
+  "performanceMode": true,
+  "mainHand": {
+    "itemKey": "cataclysm:the_immolator",
+    "mixAndMatch": [],
+    "mustBeEmpty": false
+  },
+  "offHand": {
+    "itemKey": "cataclysm:the_immolator",
+    "mixAndMatch": [],
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_damage",
+      "value": 0.4,
+      "modifierUUID": "aa75571e-5105-4c74-81ff-035812800a4e",
+      "attributeOperation": 1,
+      "interactionType": "self"
+    },
+    {
+      "type": "attribute",
+      "name": "obscure_api:critical_damage",
+      "value": 0.4,
+      "modifierUUID": "368ebbb2-b46b-4743-b47f-f6ec515734d3",
+      "attributeOperation": 0,
+      "interactionType": "self"
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

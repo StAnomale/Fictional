@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:armor",
+    "mutantmonsters:mutant_skeleton_skull",
+    "lost_aether_content:swetty_mask",
+    "enigmaticaddons:evil_dagger"
+  ],
+  "incompatible": [
+    "mynethersdelight:poaching",
+    "enigmaticlegacy:nemesis",
+    "majruszsenchantments:incompatibility_curse",
+    "majruszsenchantments:slippery_curse",
+    "enigmaticlegacy:sorrow",
+    "majruszsenchantments:breaking_curse",
+    "majruszsenchantments:fatigue_curse",
+    "minecraft:binding_curse",
+    "enigmaticlegacy:eternal_binding",
+    "minecraft:vanishing_curse",
+    "majruszsenchantments:corrosion_curse"
+  ]
+}

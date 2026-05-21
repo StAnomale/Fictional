@@ -1,0 +1,31 @@
+{
+  "armorSetName": "smithing_table",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "minecraft:smithing_table",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "functionalarmortrim:experience_boost",
+      "value": 0.1,
+      "modifierUUID": "9d80ca16-7759-4a7f-840e-b90439b6303e",
+      "attributeOperation": 1,
+      "interactionType": "self"
+    },
+    {
+      "type": "attribute",
+      "name": "forge:block_reach",
+      "value": 1.0,
+      "modifierUUID": "c9c5eb8c-fc52-4958-badb-1722fd1b9ef5",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

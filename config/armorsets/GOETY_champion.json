@@ -1,0 +1,54 @@
+{
+  "armorSetName": "champion",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "goetyawaken:champion_helmet",
+    "mixAndMatch": [
+    ],
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "goetyawaken:champion_chestplate",
+    "mixAndMatch": [
+    ],
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "goetyawaken:champion_leggings",
+    "mixAndMatch": [
+    ],
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "goetyawaken:champion_boots",
+    "mixAndMatch": [
+    ],
+    "mustBeEmpty": false
+  },
+  "partialBonusRequiredAmount": 2,
+  "partialSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "goety:void_potency",
+      "value": 0.3,
+      "modifierUUID": "48ad81c5-6a2b-44d7-899d-cc31f65c1cc5",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:penetration",
+      "value": 0.3,
+      "modifierUUID": "b66bdaad-49d6-438f-ab97-0fed7484a186",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

@@ -1,0 +1,66 @@
+{
+  "armorSetName": "DC_ignitium",
+  "performanceMode": true,
+  "head": {
+        "itemKey": "cataclysm:ignitium_helmet"
+  },
+  "chest": {
+      "itemKey": "cataclysm:ignitium_chestplate",
+      "mixAndMatch": [
+      "cataclysm:ignitium_elytra_chestplate"
+    ]
+  },
+  "legs": {
+      "itemKey": "cataclysm:ignitium_leggings"
+  },
+  "boots": {
+        "itemKey": "cataclysm:ignitium_boots"
+  },
+  "partialBonusRequiredAmount": 2,
+  "partialSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor",
+      "value": 0.4,
+      "modifierUUID": "23c0bc1b-7796-4a2a-bee4-0416706d1260",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "effect",
+      "name": "cataclysm:stun",
+      "interactionType": "immunity",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "effect",
+      "name": "eeeabsmobs:vertigo_effect",
+      "interactionType": "immunity",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "effect",
+      "name": "royalvariations:dazed",
+      "interactionType": "immunity",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_damage",
+      "value": 0.4,
+      "modifierUUID": "3db7e4fb-f68d-4412-b90e-52f66cd5ad4f",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

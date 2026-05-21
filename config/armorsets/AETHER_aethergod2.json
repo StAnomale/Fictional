@@ -1,0 +1,74 @@
+{
+  "armorSetName": "aethergod",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "aether:valkyrie_helmet",
+    "mixAndMatch": [
+      "deep_aether:stratus_helmet",
+      "deep_aether:stormforged_helmet",
+      "aether:neptune_helmet",
+      "aether:phoenix_helmet",
+      "aether:obsidian_helmet"
+    ],
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "aether:valkyrie_chestplate",
+    "mixAndMatch": [
+      "deep_aether:stratus_chestplate",
+      "deep_aether:stormforged_chestplate",
+      "aether:neptune_chestplate",
+      "aether:phoenix_chestplate",
+      "aether:obsidian_chestplate"
+    ],
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "aether:valkyrie_leggings",
+    "mixAndMatch": [
+      "deep_aether:stratus_leggings",
+      "deep_aether:stormforged_leggings",
+      "aether:neptune_leggings",
+      "aether:phoenix_leggings",
+      "aether:obsidian_leggings"
+    ],
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "aether:valkyrie_boots",
+    "mixAndMatch": [
+      "deep_aether:stratus_boots",
+      "deep_aether:stormforged_boots",
+      "aether:neptune_boots",
+      "aether:phoenix_boots",
+      "aether:obsidian_boots"
+    ],
+    "mustBeEmpty": false
+  },
+  "partialBonusRequiredAmount": 2,
+  "partialSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:healing_power",
+      "value": 0.15,
+      "modifierUUID": "f8b3fd83-0f96-473d-9c0e-5d666cedff20",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.max_health",
+      "value": 0.2,
+      "modifierUUID": "49b595b3-f39b-4f92-96af-269cbb0c3fbc",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

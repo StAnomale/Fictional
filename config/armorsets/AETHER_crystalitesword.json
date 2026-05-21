@@ -1,0 +1,21 @@
+{
+  "armorSetName": "crystalitesword",
+  "performanceMode": true,
+  "mainHand": {
+    "itemKey": "aethermobs:crystalitesword",
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor",
+      "value": 0.25,
+      "modifierUUID": "a3e1fa01-c483-4d6e-a958-603cc87c7d25",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

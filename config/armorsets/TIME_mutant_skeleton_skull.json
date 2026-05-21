@@ -1,0 +1,27 @@
+{
+  "armorSetName": "mutant_skeleton_skull",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "mutantmonsters:mutant_skeleton_skull",
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:magic_damage",
+      "value": -0.25,
+      "modifierUUID": "cad4d75f-56fc-4056-8679-64ad3f13e810",
+      "attributeOperation": 2,
+      "interactionType": "self"
+    },
+    {
+      "type": "attribute",
+      "name": "obscure_api:penetration",
+      "value": -0.25,
+      "modifierUUID": "7c44ed6c-ee1c-4e26-a5c3-248dcb3397a4",
+      "attributeOperation": 0,
+      "interactionType": "self"
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

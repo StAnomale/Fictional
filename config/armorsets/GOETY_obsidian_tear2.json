@@ -1,0 +1,32 @@
+{
+  "armorSetName": "obsidian_tear",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "goetyawaken:obsidian_tear",
+      "mixAndMatch": [
+      ],
+      "mustBeEmpty": false
+    },
+    {
+      "itemKey": "goety:unholy_hat",
+      "mixAndMatch": [
+        "goety:unholy_hat_halo"
+      ],
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "goety:nether_potency",
+      "value": 1.0,
+      "modifierUUID": "6ee05c23-d62d-4c39-970f-db336103521d",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}
