@@ -1,0 +1,21 @@
+{
+  "armorSetName": "END_enderite_bow",
+  "performanceMode": true,
+  "mainHand": {
+    "itemKey": "enderitemod:enderite_crossbow",
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:critical_damage",
+      "value": 0.8,
+      "modifierUUID": "ef7726f8-1a4f-4b24-8a98-e9f98e7c752c",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

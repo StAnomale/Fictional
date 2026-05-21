@@ -1,0 +1,43 @@
+{
+  "armorSetName": "mutantmore",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "mutantmore:mutant_jungle_zombie_vine_seed",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:magic_damage",
+      "value": 4.0,
+      "modifierUUID": "dd5e45e1-c2f8-45b4-9a07-da3a97a0e6b2",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "obscure_api:accuracy",
+      "value": -0.2,
+      "modifierUUID": "52b085bf-7627-495c-869b-bf7ea04a7c05",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor",
+      "value": -0.2,
+      "modifierUUID": "67dfa553-addb-4da0-96c3-d78c18eff8ea",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

@@ -1,0 +1,33 @@
+{
+  "armorSetName": "plastic_drinking_hat",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "artifacts:plastic_drinking_hat",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.movement_speed",
+      "value": 0.1,
+      "modifierUUID": "419b175f-6b70-46a3-98c6-3395cd3b3d53",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor",
+      "value": 0.1,
+      "modifierUUID": "89b43276-f883-48fa-808b-58c0e8ed2ab9",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

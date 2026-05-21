@@ -1,0 +1,27 @@
+
+["HUSK HAMMER"]
+	"Shockwave Length (default: 5)" = 8
+	"Shockwave Cooldown (in ticks, default: 40)" = 40
+	"Shockwave Damage (default: 6)" = 60.0
+	"Shockwave Knockback (default: 0.5)" = 1.5
+	"Geyser Knockback (default: 0.8)" = 1.5
+	"Shockwave Durability Consumption (default: 5)" = 1
+	"Durability (default: 500)" = 500
+	"Attack Speed (default: -3)" = -3.0
+	"Attack Damage (default: 8)" = 8.0
+
+["SAND CANNON"]
+	"Durability (default: 75)" = 750
+	"Use Cooldown (in ticks, default: 200)" = 20
+	"Damage (default: 7)" = 80.0
+	"Sand Boulders Despawn After (in ticks, default: 60)" = 40
+	"Griefing (default: true)" = false
+
+["DESERT HORN"]
+	"Durability (default: 100)" = 1000
+	"Use Cooldown (in ticks, default: 200)" = 30
+	"Damage Range (in blocks, default: 14)" = 14.0
+	"Damage (default: 4)" = 40.0
+	"Quicksand Range (in blocks, default: 12)" = 16.0
+	"Griefing (default: true)" = false
+

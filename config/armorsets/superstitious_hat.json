@@ -1,0 +1,29 @@
+{
+  "armorSetName": "superstitious_hat",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "artifacts:superstitious_hat",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor",
+      "value": 0.1,
+      "modifierUUID": "e4385f39-dac1-44f4-a146-448be927a765",
+      "attributeOperation": 1,
+      "interactionType": "self"
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.luck",
+      "value": 1.0,
+      "modifierUUID": "3ef22c46-6825-4911-a952-2e698df34239",
+      "attributeOperation": 0,
+      "interactionType": "self"
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

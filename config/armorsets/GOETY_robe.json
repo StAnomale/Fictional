@@ -1,0 +1,41 @@
+{
+  "armorSetName": "robe",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "goety:abyss_robe",
+      "mixAndMatch": [
+      "goety:void_robe",
+      "goety:warlock_robe",
+      "goety:warlock_robe_dark",
+      "goety:necro_cape",
+      "goety:illusion_robe_mirror",
+      "goety:frost_robe_cryo",
+      "goety:wind_robe",
+      "goety:wild_robe",
+      "goety:witch_robe_hedge",
+      "goety:witch_robe",
+      "goety:nether_robe",
+      "goety:storm_robe",
+      "goety:geo_robe",
+      "goety:frost_robe",
+      "goety:illusion_robe",
+      "goety:nether_robe_warped"
+      ],
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "goety:void_potency",
+      "value": 1.0,
+      "modifierUUID": "201d4bfb-d61f-4b69-8c57-476e6a042549",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

@@ -1,0 +1,55 @@
+{
+  "armorSetName": "solar_emblem",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "aether_redux:solar_emblem",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:penetration",
+      "value": 0.25,
+      "modifierUUID": "49d4b03a-b9cf-4579-a71f-b5d0081d07fa",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "obscure_api:critical_hit",
+      "value": 0.1,
+      "modifierUUID": "04b5c680-ce8c-4d0d-8376-3babb0fac2f1",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "conditions": [
+        {
+          "type": "timeRange",
+          "extra": "0,12500"
+        }
+      ],
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "effect",
+      "name": "kubejs:ice",
+      "interactionType": "immunity",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "effect",
+      "name": "kubejs:sun",
+      "value": 0.0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

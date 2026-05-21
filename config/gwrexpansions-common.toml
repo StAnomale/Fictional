@@ -1,0 +1,504 @@
+
+["Guns Without Roses Expansions Config"]
+
+	["Guns Without Roses Expansions Config".Sniper]
+
+		["Guns Without Roses Expansions Config".Sniper.Netherite]
+			#Bonus Damage
+			#Range: 0 ~ 100
+			bonusDamage = 0
+			#Damage Multiplier
+			#Range: 0.0 ~ 10.0
+			damageMultiplier = 2.0
+			#Headshot Multiplier
+			#Range: 1.0 ~ 10.0
+			headshotMultiplier = 1.5
+			#fire Delay
+			#Range: 4 ~ 100
+			fireDelay = 24
+			#inaccuracy
+			#Range: 0.0 ~ 10.0
+			inaccuracy = 0.0
+
+		["Guns Without Roses Expansions Config".Sniper.Cursium]
+			#Bonus Damage
+			#Range: 0 ~ 100
+			bonusDamage = 0
+			#Damage Multiplier
+			#Range: 0.0 ~ 10.0
+			damageMultiplier = 2.0
+			#Headshot Multiplier
+			#Range: 1.0 ~ 10.0
+			headshotMultiplier = 2.0
+			#fire Delay
+			#Range: 4 ~ 100
+			fireDelay = 24
+			#inaccuracy
+			#Range: 0.0 ~ 10.0
+			inaccuracy = 0.0
+
+		["Guns Without Roses Expansions Config".Sniper.DragonSteel]
+			#Bonus Damage
+			#Range: 0 ~ 100
+			bonusDamage = 0
+			#Damage Multiplier
+			#Range: 0.0 ~ 10.0
+			damageMultiplier = 1.9
+			#Headshot Multiplier
+			#Range: 1.0 ~ 10.0
+			headshotMultiplier = 1.8
+			#fire Delay
+			#Range: 4 ~ 100
+			fireDelay = 24
+			#inaccuracy
+			#Range: 0.0 ~ 10.0
+			inaccuracy = 0.0
+
+		["Guns Without Roses Expansions Config".Sniper.DestinySeven]
+			#Bonus Damage
+			#Range: 0 ~ 100
+			bonusDamage = 0
+			#Damage Multiplier
+			#Range: 0.0 ~ 10.0
+			damageMultiplier = 2.0
+			#Headshot Multiplier
+			#Range: 1.0 ~ 10.0
+			headshotMultiplier = 1.5
+			#fire Delay
+			#Range: 4 ~ 100
+			fireDelay = 24
+			#inaccuracy
+			#Range: 0.0 ~ 10.0
+			inaccuracy = 0.0
+
+	["Guns Without Roses Expansions Config".Shotgun]
+
+		["Guns Without Roses Expansions Config".Shotgun.Netherite]
+			#Bonus Damage
+			#Range: 0 ~ 100
+			bonusDamage = 0
+			#Damage Multiplier
+			#Range: 0.0 ~ 10.0
+			damageMultiplier = 0.6
+			#Headshot Multiplier
+			#Range: 1.0 ~ 10.0
+			headshotMultiplier = 1.0
+			#fire Delay
+			#Range: 4 ~ 100
+			fireDelay = 20
+			#inaccuracy
+			#Range: 0.0 ~ 10.0
+			inaccuracy = 6.0
+
+		["Guns Without Roses Expansions Config".Shotgun.NetheriteMonster]
+			#Bonus Damage
+			#Range: 0 ~ 100
+			bonusDamage = 0
+			#Damage Multiplier
+			#Range: 0.0 ~ 10.0
+			damageMultiplier = 1.0
+			#Headshot Multiplier
+			#Range: 1.0 ~ 10.0
+			headshotMultiplier = 1.0
+			#fire Delay
+			#Range: 4 ~ 100
+			fireDelay = 30
+			#inaccuracy
+			#Range: 0.0 ~ 10.0
+			inaccuracy = 6.0
+
+		["Guns Without Roses Expansions Config".Shotgun.DragonSteel]
+			#Bonus Damage
+			#Range: 0 ~ 100
+			bonusDamage = 0
+			#Damage Multiplier
+			#Range: 0.0 ~ 10.0
+			damageMultiplier = 0.75
+			#Headshot Multiplier
+			#Range: 1.0 ~ 10.0
+			headshotMultiplier = 1.0
+			#fire Delay
+			#Range: 4 ~ 100
+			fireDelay = 20
+			#inaccuracy
+			#Range: 0.0 ~ 10.0
+			inaccuracy = 4.0
+
+		["Guns Without Roses Expansions Config".Shotgun.Supershotgun]
+			#Bonus Damage
+			#Range: 0 ~ 100
+			bonusDamage = 0
+			#Damage Multiplier
+			#Range: 0.0 ~ 10.0
+			damageMultiplier = 1.0
+			#Headshot Multiplier
+			#Range: 1.0 ~ 10.0
+			headshotMultiplier = 1.0
+			#fire Delay
+			#Range: 4 ~ 100
+			fireDelay = 25
+			#inaccuracy
+			#Range: 0.0 ~ 10.0
+			inaccuracy = 8.0
+
+		["Guns Without Roses Expansions Config".Shotgun.Mirecaller]
+			#Bonus Damage
+			#Range: 0 ~ 100
+			bonusDamage = 0
+			#Damage Multiplier
+			#Range: 0.0 ~ 10.0
+			damageMultiplier = 0.8
+			#Headshot Multiplier
+			#Range: 1.0 ~ 10.0
+			headshotMultiplier = 1.0
+			#fire Delay
+			#Range: 4 ~ 100
+			fireDelay = 24
+			#inaccuracy
+			#Range: 0.0 ~ 10.0
+			inaccuracy = 4.5
+
+		["Guns Without Roses Expansions Config".Shotgun.Mirecaller_Mechanics]
+			#Explosion power for mines thrown by the Mirecaller Shotgun. Vanilla MYF Swampjaw mines default to 2.5.
+			#Range: 0.0 ~ 16.0
+			mineExplosionPower = 3.0
+
+	["Guns Without Roses Expansions Config".Gatling]
+
+		["Guns Without Roses Expansions Config".Gatling.Netherite]
+			#Bonus Damage
+			#Range: 0 ~ 100
+			bonusDamage = 0
+			#Damage Multiplier
+			#Range: 0.0 ~ 10.0
+			damageMultiplier = 0.8
+			#Headshot Multiplier
+			#Range: 1.0 ~ 10.0
+			headshotMultiplier = 1.0
+			#fire Delay
+			#Range: 4 ~ 100
+			fireDelay = 4
+			#inaccuracy
+			#Range: 0.0 ~ 10.0
+			inaccuracy = 4.0
+
+		["Guns Without Roses Expansions Config".Gatling.Ignitium]
+			#Bonus Damage
+			#Range: 0 ~ 100
+			bonusDamage = 1
+			#Damage Multiplier
+			#Range: 0.0 ~ 10.0
+			damageMultiplier = 1.0
+			#Headshot Multiplier
+			#Range: 1.0 ~ 10.0
+			headshotMultiplier = 1.0
+			#fire Delay
+			#Range: 4 ~ 100
+			fireDelay = 4
+			#inaccuracy
+			#Range: 0.0 ~ 10.0
+			inaccuracy = 3.0
+
+		["Guns Without Roses Expansions Config".Gatling.DragonSteel]
+			#Bonus Damage
+			#Range: 0 ~ 100
+			bonusDamage = 3
+			#Damage Multiplier
+			#Range: 0.0 ~ 10.0
+			damageMultiplier = 1.0
+			#Headshot Multiplier
+			#Range: 1.0 ~ 10.0
+			headshotMultiplier = 1.0
+			#fire Delay
+			#Range: 4 ~ 100
+			fireDelay = 4
+			#inaccuracy
+			#Range: 0.0 ~ 10.0
+			inaccuracy = 3.0
+
+		["Guns Without Roses Expansions Config".Gatling.Skull]
+			#Bonus Damage
+			#Range: 0 ~ 100
+			bonusDamage = 0
+			#Damage Multiplier
+			#Range: 0.0 ~ 10.0
+			damageMultiplier = 1.5
+			#Headshot Multiplier
+			#Range: 1.0 ~ 10.0
+			headshotMultiplier = 1.0
+			#fire Delay
+			#Range: 4 ~ 100
+			fireDelay = 12
+			#inaccuracy
+			#Range: 0.0 ~ 10.0
+			inaccuracy = 8.0
+
+		["Guns Without Roses Expansions Config".Gatling.Magnetic]
+			#Bonus Damage
+			#Range: 0 ~ 100
+			bonusDamage = 0
+			#Damage Multiplier
+			#Range: 0.0 ~ 10.0
+			damageMultiplier = 0.9
+			#Headshot Multiplier
+			#Range: 1.0 ~ 10.0
+			headshotMultiplier = 1.0
+			#fire Delay
+			#Range: 4 ~ 100
+			fireDelay = 4
+			#inaccuracy
+			#Range: 0.0 ~ 10.0
+			inaccuracy = 4.0
+
+	["Guns Without Roses Expansions Config".Pistol]
+
+		["Guns Without Roses Expansions Config".Pistol.Tidal]
+			#Bonus Damage
+			#Range: 0 ~ 100
+			bonusDamage = 8
+			#Damage Multiplier
+			#Range: 0.0 ~ 10.0
+			damageMultiplier = 1.0
+			#Headshot Multiplier
+			#Range: 1.0 ~ 10.0
+			headshotMultiplier = 1.0
+			#fire Delay
+			#Range: 4 ~ 100
+			fireDelay = 16
+			#inaccuracy
+			#Range: 0.0 ~ 10.0
+			inaccuracy = 2.0
+
+		["Guns Without Roses Expansions Config".Pistol.Hellforge]
+			#Bonus Damage
+			#Range: 0 ~ 100
+			bonusDamage = 4
+			#Damage Multiplier
+			#Range: 0.0 ~ 10.0
+			damageMultiplier = 1.0
+			#Headshot Multiplier
+			#Range: 1.0 ~ 10.0
+			headshotMultiplier = 1.0
+			#fire Delay
+			#Range: 4 ~ 100
+			fireDelay = 30
+			#inaccuracy
+			#Range: 0.0 ~ 10.0
+			inaccuracy = 2.0
+
+	["Guns Without Roses Expansions Config".Bullets]
+
+		["Guns Without Roses Expansions Config".Bullets.Cursium]
+			#Phantom Halber Damage
+			#Range: 0.0 ~ 100.0
+			phantomHalberDamage = 10.0
+			#Phantom Halberd Range
+			#Range: 0.0 ~ 100.0
+			phantomHalberdRange = 5.0
+			#Phantom Halberd Delay
+			#Range: 0 ~ 100
+			phantomHalberdDelay = 20
+
+		["Guns Without Roses Expansions Config".Bullets.Lavapower]
+			#Flamejet Damage
+			#Range: 0.0 ~ 100.0
+			flamejetDamage = 4.0
+			#Flamejet Count
+			#Range: 0 ~ 20
+			flamejetCount = 4
+
+		["Guns Without Roses Expansions Config".Bullets.Tidal]
+			#Portal damage
+			#Range: 0.0 ~ 100.0
+			"Portal damage" = 4.0
+			#Portal hpdamage
+			#Range: 0.0 ~ 100.0
+			"Portal hpdamage" = 0.0
+			#Golden Nugget Drop Rate
+			#Range: 0.0 ~ 1.0
+			golden_nugget_drop_rate = 0.2
+			#Golden Apple Drop Rate
+			#Range: 0.0 ~ 1.0
+			golden_apple_drop_rate = 0.013
+
+		["Guns Without Roses Expansions Config".Bullets.Gold]
+			#Golden Nugget Drop Rate
+			#Range: 0.0 ~ 1.0
+			golden_nugget_drop_rate = 0.2
+			#Golden Apple Drop Rate
+			#Range: 0.0 ~ 1.0
+			golden_apple_drop_rate = 0.013
+
+	["Guns Without Roses Expansions Config".Launcher]
+
+		["Guns Without Roses Expansions Config".Launcher.Obsidian]
+			#Bonus Damage
+			#Range: 0 ~ 100
+			bonusDamage = 10
+			#Damage Multiplier
+			#Range: 0.0 ~ 10.0
+			damageMultiplier = 10.0
+			#Headshot Multiplier
+			#Range: 1.0 ~ 10.0
+			headshotMultiplier = 1.0
+			#fire Delay
+			#Range: 4 ~ 100
+			fireDelay = 30
+			#inaccuracy
+			#Range: 0.0 ~ 10.0
+			inaccuracy = 0.0
+
+	["Guns Without Roses Expansions Config".Burstgun]
+
+		["Guns Without Roses Expansions Config".Burstgun.Void]
+			#Bonus Damage
+			#Range: 0 ~ 100
+			bonusDamage = 8
+			#Damage Multiplier
+			#Range: 0.0 ~ 10.0
+			damageMultiplier = 1.0
+			#Headshot Multiplier
+			#Range: 1.0 ~ 10.0
+			headshotMultiplier = 1.0
+			#fire Delay
+			#Range: 4 ~ 100
+			fireDelay = 25
+			#inaccuracy
+			#Range: 0.0 ~ 10.0
+			inaccuracy = 2.0
+
+		["Guns Without Roses Expansions Config".Burstgun.Void_Burst]
+			#Burst Size
+			#Range: 1 ~ 10
+			burstSize = 3
+			#Burst Delay
+			#Range: 1 ~ 100
+			burstDelay = 5
+
+		["Guns Without Roses Expansions Config".Burstgun.DuskfallEclipse]
+			#Bonus Damage
+			#Range: 0 ~ 100
+			bonusDamage = 1
+			#Damage Multiplier
+			#Range: 0.0 ~ 10.0
+			damageMultiplier = 1.0
+			#Headshot Multiplier
+			#Range: 1.0 ~ 10.0
+			headshotMultiplier = 1.0
+			#fire Delay
+			#Range: 4 ~ 100
+			fireDelay = 20
+			#inaccuracy
+			#Range: 0.0 ~ 10.0
+			inaccuracy = 1.5
+
+		["Guns Without Roses Expansions Config".Burstgun.DuskfallEclipse_Burst]
+			#Burst Size
+			#Range: 1 ~ 10
+			burstSize = 6
+			#Burst Delay
+			#Range: 1 ~ 100
+			burstDelay = 3
+
+		["Guns Without Roses Expansions Config".Burstgun.DuskfallEclipse_Mechanics]
+			#Number of additional entities each shot can pierce.
+			#Range: 0 ~ 16
+			pierceCount = 2
+			#Damage multiplier applied after each pierce.
+			#Range: 0.0 ~ 4.0
+			pierceDamageMultiplier = 0.8
+			#Maximum friendly Dusk Rose Spirits a player can maintain.
+			#Range: 0 ~ 10
+			maxSpirits = 3
+			#Ticks between spirit summons while holding the weapon.
+			#Range: 1 ~ 6000
+			spiritSummonIntervalTicks = 150
+			#Ticks spirits persist after the player stops holding the weapon.
+			#Range: 0 ~ 6000
+			unequippedGraceTicks = 100
+			#Outgoing damage bonus per active spirit. 0.08 is 8%.
+			#Range: 0.0 ~ 4.0
+			damageBonusPerSpirit = 0.08
+			#Incoming damage reduction per active spirit. 0.05 is 5%.
+			#Range: 0.0 ~ 0.95
+			damageReductionPerSpirit = 0.05
+			#Range used by spirits to find targets.
+			#Range: 1.0 ~ 128.0
+			spiritAutoTargetRange = 18.0
+			#Ticks between spirit attacks.
+			#Range: 1 ~ 6000
+			spiritAttackCooldownTicks = 40
+			#Warning ticks before a spirit attack lands.
+			#Range: 0 ~ 200
+			spiritWarnTicks = 14
+			#Damage dealt by each spirit assist attack.
+			#Range: 0.0 ~ 1000.0
+			spiritAttackDamage = 20.0
+			#Maximum health for player-owned Dusk Rose Spirits.
+			#Range: 1.0 ~ 1000.0
+			spiritMaxHealth = 80.0
+			#Armor for player-owned Dusk Rose Spirits.
+			#Range: 0.0 ~ 1000.0
+			spiritArmor = 5.0
+			#Ticks spirits remember the last target hit by this weapon.
+			#Range: 0 ~ 6000
+			lastTargetMemoryTicks = 200
+
+	["Guns Without Roses Expansions Config".General]
+		#Whether completing the RIP AND TEAR all-achievements challenge grants the Super Shotgun reward.
+		enableAllAchievementsSuperShotgunReward = false
+
+	["Guns Without Roses Expansions Config".DestinySeven]
+		#Weights for iron bullet lottery tickets.
+		#Range: 0 ~ 1000
+		ironBustWeight = 55
+		#Range: 0 ~ 1000
+		ironDoubleWeight = 30
+		#Range: 0 ~ 1000
+		ironTripleWeight = 12
+		#Range: 0 ~ 1000
+		ironJackpotWeight = 3
+		#Weights for golden bullet lottery tickets.
+		#Range: 0 ~ 1000
+		goldBustWeight = 35
+		#Range: 0 ~ 1000
+		goldDoubleWeight = 38
+		#Range: 0 ~ 1000
+		goldTripleWeight = 20
+		#Range: 0 ~ 1000
+		goldJackpotWeight = 7
+		#Weights for diamond bullet lottery tickets.
+		#Range: 0 ~ 1000
+		diamondBustWeight = 20
+		#Range: 0 ~ 1000
+		diamondDoubleWeight = 40
+		#Range: 0 ~ 1000
+		diamondTripleWeight = 28
+		#Range: 0 ~ 1000
+		diamondJackpotWeight = 12
+		#Projectile count when Destiny Seven rolls Bust.
+		#Range: 1 ~ 64
+		bustShots = 1
+		#Projectile count when Destiny Seven rolls Double.
+		#Range: 1 ~ 64
+		doubleShots = 2
+		#Projectile count when Destiny Seven rolls Triple.
+		#Range: 1 ~ 64
+		tripleShots = 3
+		#Projectile count when Destiny Seven rolls Jackpot.
+		#Range: 1 ~ 64
+		jackpotShots = 7
+		#Jackpot weight added per non-jackpot shot stored on the gun.
+		#Range: 0 ~ 100
+		pityJackpotWeightPerShot = 1
+		#Maximum extra jackpot weight from stored pity.
+		#Range: 0 ~ 1000
+		pityMaxJackpotWeight = 25
+		#Base damage used when Destiny Seven rolls a rare Obsidian Core entity. Gun bonus damage and damage multiplier still apply.
+		#Range: 0.0 ~ 1000.0
+		obsidianCoreBaseDamage = 20.0
+		#Weighted bullet pool for Bust. Format: modid:item=weight. Missing optional mod bullets are skipped.
+		bustBulletPool = ["gunswithoutroses:iron_bullet=70", "gwrexpansions:slime_bullet=30"]
+		#Weighted bullet/entity pool for Double/Triple/Jackpot. Format: modid:item=weight. Missing optional mod bullets/entities are skipped. gwrexpansions:obsidian_core is a rare Obsidian Core entity when BOMD is loaded.
+		rewardBulletPool = ["gunswithoutroses:iron_bullet=200", "gwrexpansions:slime_bullet=180", "gwrexpansions:golden_bullet=150", "gwrexpansions:diamond_bullet=120", "gwrexpansions:silver_bullet=120", "gwrexpansions:dragonsteel_fire_bullet=80", "gwrexpansions:dragonsteel_ice_bullet=80", "gwrexpansions:dragonsteel_lightning_bullet=80", "gwrexpansions:netherite_bullet=80", "gwrexpansions:lavapower_bullet=80", "gwrexpansions:cursium_bullet=80", "gwrexpansions:ignitium_bullet=80", "gwrexpansions:tidal_bullet=80", "gwrexpansions:obsidian_core=40"]
+

@@ -1,0 +1,33 @@
+{
+  "armorSetName": "DC_eco_engine",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "immersive_aircraft:eco_engine",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "functionalarmortrim:experience_boost",
+      "value": 0.2,
+      "modifierUUID": "6effb69f-9369-4bdc-9484-619f02caa1fe",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.movement_speed",
+      "value": 0.1,
+      "modifierUUID": "994652c4-b1a7-4d42-9948-ba4604dbccd5",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

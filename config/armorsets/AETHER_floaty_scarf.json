@@ -1,0 +1,33 @@
+{
+  "armorSetName": "floaty_scarf",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "deep_aether:floaty_scarf",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:magic_damage",
+      "value": 1.0,
+      "modifierUUID": "58c960fb-49c2-45c7-9554-4410c3febdd4",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "obscure_api:penetration",
+      "value": 0.1,
+      "modifierUUID": "cb300312-ffd8-4edb-9e8e-22a915a6e387",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

@@ -1,0 +1,39 @@
+{
+  "armorSetName": "END_royal_bomb",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "royalvariations:royal_bomb",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_damage",
+      "value": -0.5,
+      "modifierUUID": "506e2629-08d7-43c5-8f15-ab71af94c316",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.luck",
+      "value": 1.0,
+      "modifierUUID": "37bcd4e8-e551-46ff-8233-474f43ae4b35",
+      "attributeOperation": 0,
+      "interactionType": "self"
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.max_health",
+      "value": 20.0,
+      "modifierUUID": "dd8be1cf-bf48-4709-8149-26b5b5988e36",
+      "attributeOperation": 0,
+      "interactionType": "self"
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

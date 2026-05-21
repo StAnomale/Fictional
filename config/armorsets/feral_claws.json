@@ -1,0 +1,23 @@
+{
+  "armorSetName": "feral_claws",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "artifacts:feral_claws",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_speed",
+      "value": 0.1,
+      "modifierUUID": "0ec69d9b-3c11-443c-bdd1-e453725c1660",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

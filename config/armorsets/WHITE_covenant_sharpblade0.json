@@ -1,0 +1,49 @@
+{
+  "armorSetName": "covenant",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "kubejs:covenant_sharpblade1",
+      "mixAndMatch": [
+      "kubejs:covenant_sharpblade2",
+      "kubejs:covenant_sharpblade3",
+      "kubejs:covenant_sharpblade4",
+      "kubejs:covenant_sharpblade5"
+      ],
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:magic_resistance",
+      "value": 0.4,
+      "modifierUUID": "525a0c58-515e-46d3-89d6-b9486cc7c161",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.max_health",
+      "value": 4.0,
+      "modifierUUID": "6b9484cb-ce1b-49ca-a0f6-9dd82768d498",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "gunswithoutroses:gwr.damage_total",
+      "value": -0.3,
+      "modifierUUID": "38d0e48d-3261-490d-b2c9-d5ca8fc3826a",
+      "attributeOperation": 2,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

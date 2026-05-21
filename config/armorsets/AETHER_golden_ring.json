@@ -1,0 +1,23 @@
+{
+  "armorSetName": "golden_ring",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "aether:golden_ring",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor_toughness",
+      "value": 2.0,
+      "modifierUUID": "388a2de9-4497-468c-b4f1-7ea15776a737",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

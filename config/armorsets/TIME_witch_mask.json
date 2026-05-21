@@ -1,0 +1,53 @@
+{
+  "armorSetName": "witch_mask",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "masquerader_mod:witch_mask",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:accuracy",
+      "value": 0.1,
+      "modifierUUID": "c874c322-d4a2-4529-801e-9cf4f963e10e",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "goety:void_potency",
+      "value": 0.15,
+      "modifierUUID": "373818a5-6998-4199-8754-4ef24a541064",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "functionalarmortrim:experience_boost",
+      "value": 0.4,
+      "modifierUUID": "7e676ed6-1e65-4eff-8e97-e391f01e8541",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor_toughness",
+      "value": 6.0,
+      "modifierUUID": "f409e4c7-c511-47c9-acab-19cac84d075d",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

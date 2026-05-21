@@ -1,0 +1,27 @@
+{
+  "armorSetName": "TF_knightmetal2",
+  "performanceMode": true,
+  "head": {
+        "itemKey": "twilightforest:phantom_helmet"
+  },
+  "chest": {
+      "itemKey": "twilightforest:phantom_chestplate"
+  },
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "minecraft:slow_falling",
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:invisibility",
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

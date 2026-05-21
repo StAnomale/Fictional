@@ -1,0 +1,52 @@
+{
+  "armorSetName": "cockatrice_feather",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "aether_redux:cockatrice_feather",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "aether_redux:adrenal_fatigue",
+      "interactionType": "immunity",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "effect",
+      "name": "legendarycreatures:convulsion",
+      "interactionType": "immunity",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:wither",
+      "interactionType": "immunity",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "obscure_api:healing_power",
+      "value": 0.15,
+      "modifierUUID": "64a6b85d-7cc8-4c30-ba2f-f48db0cacda4",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "functionalarmortrim:experience_boost",
+      "value": 0.15,
+      "modifierUUID": "ed73a644-76f5-4df5-803e-12aedd3dc6cb",
+      "attributeOperation": 1,
+      "interactionType": "self"
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

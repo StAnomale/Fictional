@@ -1,0 +1,23 @@
+{
+  "armorSetName": "assassin_glove",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "goetyawaken:assassin_glove",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_speed",
+      "value": 0.05,
+      "modifierUUID": "e453aabb-a868-4954-83c2-cef854738ec9",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

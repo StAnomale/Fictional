@@ -1,0 +1,31 @@
+{
+  "armorSetName": "mushroom_hat",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "goetyawaken:mushroom_hat",
+    "mixAndMatch": [
+    ],
+    "mustBeEmpty": false
+  },
+  "additionalSetPieces": [
+    {
+      "itemKey": "goety:wild_robe",
+      "mixAndMatch": [
+      ],
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "goety:wild_potency",
+      "value": 1.0,
+      "modifierUUID": "fbe7630b-86a3-49e4-a2bd-8ee135d5cffd",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

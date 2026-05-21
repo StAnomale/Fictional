@@ -1,0 +1,12 @@
+{
+	id: "7E088251B7BDEEF5"
+	loot_size: 1
+	order_index: 8
+	rewards: [
+		{ item: "kubejs:covenant_sharpblade1", title: "战士" }
+		{ item: "kubejs:covenant_gunpowder1", title: "弓手" }
+		{ item: "kubejs:covenant_gunpowder1", title: "枪手" }
+		{ item: "kubejs:covenant_matt1", title: "巫师" }
+	]
+	title: "选择职业"
+}

@@ -1,0 +1,27 @@
+{
+  "armorSetName": "robe",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "goety:nameless_cape",
+      "mixAndMatch": [
+      "goety:unholy_robe",
+      "goety_spillage:freaky_robe"
+      ],
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "goety:void_potency",
+      "value": 2.0,
+      "modifierUUID": "02fb079b-322b-45cb-9783-125bab5da3ff",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

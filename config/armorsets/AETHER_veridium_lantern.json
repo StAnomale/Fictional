@@ -1,0 +1,33 @@
+{
+  "armorSetName": "veridium_lantern",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "aether_redux:veridium_lantern",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "functionalarmortrim:experience_boost",
+      "value": 0.2,
+      "modifierUUID": "38b72f34-c9a0-4ec3-b16b-b0191855e2dd",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.max_health",
+      "value": 4.0,
+      "modifierUUID": "e06901ed-c026-4522-b26a-c06fd66291c0",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

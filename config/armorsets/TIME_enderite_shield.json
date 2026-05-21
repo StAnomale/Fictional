@@ -1,0 +1,29 @@
+{
+  "armorSetName": "enderite_shield",
+  "performanceMode": true,
+  "offHand": {
+    "itemKey": "enderitemod:enderite_shield",
+    "mustBeEmpty": false
+  },
+  "mainHand": {
+    "itemKey": "enderitemod:enderite_sword",
+    "mixAndMatch": [
+      "enderitemod:enderite_axe",
+      "enderitemod:enderite_pickaxe",
+      "enderitemod:enderite_hoe",
+      "enderitemod:enderite_shovel"
+      ],
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor_toughness",
+      "value": 0.2,
+      "modifierUUID": "778d3c25-2b02-48d0-bffb-756dc5ad669b",
+      "attributeOperation": 1,
+      "interactionType": "self"
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

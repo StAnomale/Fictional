@@ -1,0 +1,31 @@
+{
+  "armorSetName": "spiritsword",
+  "performanceMode": true,
+  "mainHand": {
+    "itemKey": "aethermobs:spiritsword",
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_speed",
+      "value": -0.25,
+      "modifierUUID": "9d23c9cf-b323-4817-9d96-a45514a7442c",
+      "attributeOperation": 2,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "obscure_api:magic_damage",
+      "value": 0.25,
+      "modifierUUID": "783e8c94-5a15-4081-91ec-1bf251ebc9c8",
+      "attributeOperation": 2,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

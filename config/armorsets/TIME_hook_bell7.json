@@ -1,0 +1,27 @@
+{
+  "armorSetName": "hook_bell",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "goety:hook_bell",
+      "mustBeEmpty": false
+    },
+    {
+      "itemKey": "friendsandfoes:totem_of_freezing",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:critical_damage",
+      "value": 0.1,
+      "modifierUUID": "cd2574ef-0c92-40ba-bfcc-e27b3626a890",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

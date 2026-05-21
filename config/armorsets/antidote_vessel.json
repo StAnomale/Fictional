@@ -1,0 +1,37 @@
+{
+  "armorSetName": "antidote_vessel",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "artifacts:antidote_vessel",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "minecraft:slowness",
+      "interactionType": "immunity",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:poison",
+      "interactionType": "immunity",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor_toughness",
+      "value": 0.1,
+      "modifierUUID": "9da7b49d-9702-410d-8891-f9288fb788c7",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

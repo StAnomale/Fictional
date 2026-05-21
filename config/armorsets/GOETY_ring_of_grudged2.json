@@ -1,0 +1,34 @@
+{
+  "armorSetName": "ring_of_grudged",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "cataclysm:ring_of_grudged",
+      "mixAndMatch": [
+      ],
+      "mustBeEmpty": false
+    }
+  ],
+  "head": {
+    "itemKey": "cataclysm:cursium_helmet",
+    "mixAndMatch": [
+      "cataclysm:bone_reptile_helmet",
+      "cataclysm:ignitium_helmet",
+      "cataclysm:monstrous_helm"
+    ],
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:critical_damage",
+      "value": 0.1,
+      "modifierUUID": "1a491e1b-6edb-491b-8d0b-7fa576049dc1",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

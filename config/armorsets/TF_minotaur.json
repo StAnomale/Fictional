@@ -1,0 +1,35 @@
+{
+  "armorSetName": "TF_minotaur",
+  "performanceMode": true,
+  "mainHand": {
+    "itemKey": "twilightforest:gold_minotaur_axe",
+    "mixAndMatch": [
+      "twilightforest:diamond_minotaur_axe",
+      "better_minoshroomtaur:better_minotaur_axe"
+    ],
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.movement_speed",
+      "value": 0.2,
+      "modifierUUID": "7c3695ce-9885-4ab6-83d9-616a90780c71",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_damage",
+      "value": 0.1,
+      "modifierUUID": "9f35fe45-28be-4722-a0e3-1ab91bf9f95a",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

@@ -1,0 +1,33 @@
+{
+  "armorSetName": "truth_seeker",
+  "performanceMode": true,
+  "offHand": {
+    "itemKey": "goetyawaken:truth_seeker",
+    "mixAndMatch": [
+      ],
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:magic_damage",
+      "value": 1.0,
+      "modifierUUID": "f375ca83-4018-47a8-891c-48f0550d14f5",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "goety:void_potency",
+      "value": 2.0,
+      "modifierUUID": "b8b81ef4-b308-42f1-9b18-3c82d8501fbb",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

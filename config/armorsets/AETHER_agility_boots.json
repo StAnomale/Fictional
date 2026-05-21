@@ -1,0 +1,55 @@
+{
+  "armorSetName": "agility_boots",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "lost_aether_content:agility_boots",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "minecraft:slowness",
+      "interactionType": "immunity",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "effect",
+      "name": "mutantmore:jumping_fatigue",
+      "interactionType": "immunity",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "forge:step_height_addition",
+      "value": 0.5,
+      "modifierUUID": "3211c0d6-d5a1-4ddb-b571-0310b0e7b1db",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "obscure_api:healing_power",
+      "value": 0.15,
+      "modifierUUID": "d82e18e1-b95b-445f-8aff-656089aec33c",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.movement_speed",
+      "value": 0.15,
+      "modifierUUID": "d7ea0935-d4d7-4a98-9446-6b67cb6fb2aa",
+      "attributeOperation": 1,
+      "interactionType": "self"
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

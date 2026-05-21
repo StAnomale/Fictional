@@ -1,0 +1,9 @@
+
+[Remodifier]
+	#Whether or not to enable the quality substitution Modifiers to become a mod with mods
+	qualitySubstituteModifier = false
+	#Specifies whether to generate a JSON instance file
+	ShouldGenerateViolentJson = true
+	#If you open the configuration file incorrectly, it will crash directly
+	CrashTheGameIfConfigHasErrors = true
+

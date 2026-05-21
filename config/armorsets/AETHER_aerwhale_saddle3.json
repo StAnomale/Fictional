@@ -1,0 +1,37 @@
+{
+  "armorSetName": "aerwhale_saddle'",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "deep_aether:aerwhale_saddle",
+      "mustBeEmpty": false
+    },
+    {
+      "itemKey": "deep_aether:medal_of_honor",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.max_health",
+      "value": 0.05,
+      "modifierUUID": "2d781d08-5d6d-4838-9e14-95d4d58604a3",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "obscure_api:penetration",
+      "value": 0.05,
+      "modifierUUID": "2d781d08-5d6d-4838-9e14-95d4d58604a3",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

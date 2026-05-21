@@ -1,0 +1,39 @@
+{
+  "armorSetName": "TF_fiery2",
+  "performanceMode": true,
+  "mainHand": {
+    "itemKey": "twilightforest:fiery_sword",
+    "mixAndMatch": [
+      "twilightdelight:teardrop_sword",
+      "twilightforest:fiery_pickaxe"
+    ],
+    "mustBeEmpty": false
+  },
+  "head": {
+    "itemKey": "twilightforest:fiery_helmet",
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "twilightforest:fiery_chestplate",
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "twilightforest:fiery_leggings"
+  },
+  "boots": {
+    "itemKey": "twilightforest:fiery_boots"
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_damage",
+      "value": 0.3,
+      "modifierUUID": "218a8e0e-3fca-4981-8be9-2f819692ab06",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

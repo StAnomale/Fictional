@@ -1,0 +1,19 @@
+{
+  "armorSetName": "DC_bulwark_of_the_flame",
+  "performanceMode": true,
+  "offHand": {
+    "itemKey": "cataclysm:bulwark_of_the_flame",
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor",
+      "value": 4.0,
+      "modifierUUID": "1e494843-df25-4453-b83b-80a0cc43b6b7",
+      "attributeOperation": 0,
+      "interactionType": "self"
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

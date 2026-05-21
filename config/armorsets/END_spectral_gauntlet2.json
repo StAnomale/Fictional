@@ -1,0 +1,32 @@
+{
+  "armorSetName": "spectral_gauntlet2",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "royalvariations:spectral_gauntlet",
+      "mustBeEmpty": false
+    },
+    {
+      "itemKey": "royalvariations:royal_bomb",
+      "mixAndMatch": [
+      "minecraft:enchanted_golden_apple",
+      "royalvariations:spiritual_crown",
+      "royalvariations:royal_telelocator"
+      ],
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "functionalarmortrim:experience_boost",
+      "value": 0.4,
+      "modifierUUID": "d9da6af7-f2fe-4ac5-b1a1-3c4fc726c113",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

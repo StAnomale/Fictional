@@ -1,0 +1,36 @@
+{
+  "conversions": [
+    {
+      "input": "traditional_craft:big_gold",
+      "outputs": [
+        {
+          "item": "traditional_craft:broken_gold_knot",
+          "count": 4,
+          "chance": 1.0
+        },
+        {
+          "item": "traditional_craft:dim_blue_ball",
+          "count": 1,
+          "chance": 1.0
+        },
+        {
+          "item": "minecraft:gold_nugget",
+          "count": 3,
+          "chance": 0.5
+        }
+      ],
+      "chance": 1.0
+    },
+    {
+      "input": "traditional_craft:glow_gunpower",
+      "outputs": [
+        {
+          "item": "traditional_craft:active_glow_gunpower",
+          "count": 1,
+          "chance": 0.1
+        }
+      ],
+      "chance": 1.0
+    }
+  ]
+}

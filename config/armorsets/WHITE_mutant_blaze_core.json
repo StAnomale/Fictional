@@ -1,0 +1,43 @@
+{
+  "armorSetName": "mutantmore",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "mutantmore:mutant_blaze_core",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor",
+      "value": 4.0,
+      "modifierUUID": "3dfebdf0-8bb8-4d73-af0c-cc62abdd087d",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.movement_speed",
+      "value": 0.1,
+      "modifierUUID": "c722bc81-2282-483c-aa59-f9e4b2298f20",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "gunswithoutroses:gwr.damage_total",
+      "value": 0.1,
+      "modifierUUID": "69465fa6-0b26-4a98-b6f6-2184f251f045",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

@@ -1,0 +1,37 @@
+{
+  "armorSetName": "steel_boiler",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "immersive_aircraft:steel_boiler",
+      "mustBeEmpty": false
+    },
+    {
+      "itemKey": "immersive_aircraft:eco_engine",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_speed",
+      "value": 0.05,
+      "modifierUUID": "6aba7c07-cfeb-43d9-b88e-1d7b34c414d3",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor",
+      "value": 0.05,
+      "modifierUUID": "4b086b46-42a4-4c94-b27d-c4824caf03a2",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

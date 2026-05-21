@@ -1,0 +1,67 @@
+{
+  "armorSetName": "abyssal_egg",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "cataclysm:abyssal_egg",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "minecraft:darkness",
+      "interactionType": "immunity",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "effect",
+      "name": "cataclysm:abyssal_fear",
+      "interactionType": "immunity",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "goety:storm_potency",
+      "value": 1.0,
+      "modifierUUID": "4dbb20b5-d56e-48b1-b931-a9ce2a4535b8",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "obscure_api:critical_hit",
+      "value": 0.2,
+      "modifierUUID": "a1ea5ad9-53b8-4ab1-ab92-d7d1d10a5964",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "obscure_api:magic_damage",
+      "value": 1.0,
+      "modifierUUID": "dbdbc606-f76d-44aa-b725-d711b8f0e3d9",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_speed",
+      "value": -0.2,
+      "modifierUUID": "67eba53d-44db-42fa-8e2c-260e3c06e699",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

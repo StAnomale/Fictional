@@ -1,0 +1,27 @@
+{
+  "armorSetName": "tyrant_skin",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "radiation_zone_reborn:tyrant_skin",
+      "mustBeEmpty": false
+    },
+    {
+      "itemKey": "goety:amethyst_necklace",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "goety:geomancy_potency",
+      "value": 1.0,
+      "modifierUUID": "190032fa-6e1c-44df-bcc3-442dad58cb00",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

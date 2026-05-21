@@ -1,0 +1,22 @@
+{
+  "armorSetName": "DC_ice_bow",
+  "performanceMode": true,
+  "mainHand": {
+    "itemKey": "twilightforest:ice_bow",
+    "mixAndMatch": [
+      "twilightforest:seeker_bow"
+      ],
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:critical_hit",
+      "value": 0.2,
+      "modifierUUID": "deef27fe-c410-4f9c-9971-31dee82ce8e6",
+      "attributeOperation": 0,
+      "interactionType": "self"
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

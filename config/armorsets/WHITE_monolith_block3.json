@@ -1,0 +1,46 @@
+{
+  "armorSetName": "monolith_block",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "bosses_of_mass_destruction:monolith_block",
+      "mustBeEmpty": false
+    }
+  ],
+  "offHand": {
+    "itemKey": "royalvariations:royal_bomb",
+    "mixAndMatch": [
+      "radiation_zone_reborn:dust_ball",
+      "minecraft:bone",
+      "radiation_zone_reborn:radiated_bone",
+      "cataclysm:koboleton_bone",
+
+      "minecraft:trident",
+      "the_bumblezone:stinger_spear",
+      "aether_redux:spear_of_the_blight",
+      "cataclysm:coral_bardiche",
+      "cataclysm:coral_spear",
+
+      "quark:pickarang",
+      "quark:flamerang",
+
+      "goety:ill_bomb",
+      "supplementaries:bomb",
+      "supplementaries:bomb_blue"
+      ],
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:critical_damage",
+      "value": 0.3,
+      "modifierUUID": "2d2a36ab-cbfa-4de8-868b-db4fb606585a",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

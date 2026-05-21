@@ -1,0 +1,39 @@
+{
+  "armorSetName": "veridium_revolver_infused",
+  "performanceMode": true,
+  "mainHand": {
+    "itemKey": "gunswithoutrosesadditions:veridium_revolver_infused",
+    "mixAndMatch": [
+      ],
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:magic_damage",
+      "value": 0.4,
+      "modifierUUID": "7cd63fa3-e3a1-4337-8a28-f362d7f8941c",
+      "attributeOperation": 2,
+      "interactionType": "self"
+    },
+    {
+      "type": "attribute",
+      "name": "obscure_api:critical_damage",
+      "value": 0.4,
+      "modifierUUID": "d62e4eb5-d22b-4c44-96e2-9620eb743d13",
+      "attributeOperation": 0,
+      "interactionType": "self"
+    },
+    {
+      "type": "attribute",
+      "name": "goety:void_potency",
+      "value": 1.0,
+      "modifierUUID": "4a154d5c-2bba-4a4b-8088-e6c4683c0049",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

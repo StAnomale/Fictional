@@ -1,0 +1,83 @@
+{
+  "armorSetName": "covenant",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "kubejs:covenant_longbow5",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_speed",
+      "value": -0.3,
+      "modifierUUID": "8df51cd5-abe6-4b9d-857f-14b60ffa5293",
+      "attributeOperation": 2,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "obscure_api:accuracy",
+      "value": 0.05,
+      "modifierUUID": "ec9b3860-cfeb-4881-a722-9abac4c668d6",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "obscure_api:critical_hit",
+      "value": 0.05,
+      "modifierUUID": "5b3d2e56-1707-4fa0-81c7-7d8827111274",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "obscure_api:magic_damage",
+      "value": 0.6,
+      "modifierUUID": "c98a1b64-0a6e-44e4-824c-10d4ef28e976",
+      "attributeOperation": 2,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "obscure_api:critical_damage",
+      "value": 0.6,
+      "modifierUUID": "fea0e9bb-29f1-427c-808a-cad874de247e",
+      "attributeOperation": 2,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "gunswithoutroses:gwr.damage_total",
+      "value": -0.3,
+      "modifierUUID": "56279bd4-7fca-4d9a-b427-f9904dcf794d",
+      "attributeOperation": 2,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_damage",
+      "value": -0.3,
+      "modifierUUID": "50971bc2-e613-469a-b703-eacae5881eba",
+      "attributeOperation": 2,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

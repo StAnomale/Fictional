@@ -1,0 +1,57 @@
+{
+  "armorSetName": "mutant_husk_vocal_cords",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "mutantmore:mutant_husk_vocal_cords",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "goety:sun_allergy",
+      "interactionType": "immunity",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "effect",
+      "name": "goety:snow_skin",
+      "interactionType": "immunity",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_speed",
+      "value": 0.1,
+      "modifierUUID": "b383b6af-7a65-4184-b39d-ae031128586c",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor_toughness",
+      "value": 0.1,
+      "modifierUUID": "c75af2b3-81ed-480f-8752-a2391efcb975",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "obscure_api:accuracy",
+      "value": 0.1,
+      "modifierUUID": "f8ed1a97-1d9c-4d46-8751-3987fb9e4c33",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

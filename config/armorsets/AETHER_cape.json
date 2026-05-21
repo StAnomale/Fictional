@@ -1,0 +1,28 @@
+{
+  "armorSetName": "cape",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "aether:red_cape",
+      "mixAndMatch": [
+      "aether:yellow_cape",
+      "aether:white_cape",
+      "aether:blue_cape"
+      ],
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.movement_speed",
+      "value": 0.1,
+      "modifierUUID": "ef4723ee-98f7-4939-967a-793195b654da",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

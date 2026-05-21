@@ -1,0 +1,27 @@
+{
+  "armorSetName": "power_gloves",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "lost_aether_content:power_gloves",
+      "mustBeEmpty": false
+    }
+  ],
+  "mainHand": {
+    "itemKey": "aether:hammer_of_kingbdogz",
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:critical_damage",
+      "value": 0.25,
+      "modifierUUID": "08233549-2d3b-4d6c-83c2-ba6b1832320d",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

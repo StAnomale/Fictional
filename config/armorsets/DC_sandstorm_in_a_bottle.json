@@ -1,0 +1,40 @@
+{
+  "armorSetName": "DC_sandstorm_in_a_bottle",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "cataclysm:sandstorm_in_a_bottle",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "cataclysm:curse_of_desert",
+      "interactionType": "immunity",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "obscure_api:critical_hit",
+      "value": 0.15,
+      "modifierUUID": "db50f2e0-0993-44e2-aaf0-a7e98187b670",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "obscure_api:critical_damage",
+      "value": 0.15,
+      "modifierUUID": "b8bdf8a6-c080-4bab-b0db-2c26e1e279b2",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

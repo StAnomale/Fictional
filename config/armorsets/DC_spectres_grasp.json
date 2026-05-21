@@ -1,0 +1,44 @@
+{
+  "armorSetName": "spectres_grasp",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "meetyourfight:spectres_grasp",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:accuracy",
+      "value": 0.05,
+      "modifierUUID": "f90cbf72-5eb6-4c80-a975-65e7a53727ab",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "functionalarmortrim:experience_boost",
+      "value": 0.2,
+      "modifierUUID": "cbb509b3-c9ba-43b6-8bce-34475fd1e38c",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "obscure_api:magic_damage",
+      "value": 0.2,
+      "modifierUUID": "273ffa41-90c5-47cd-bf44-a7d53a44a166",
+      "attributeOperation": 2,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

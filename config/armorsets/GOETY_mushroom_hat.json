@@ -1,0 +1,33 @@
+{
+  "armorSetName": "mushroom_hat",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "goetyawaken:mushroom_hat",
+    "mixAndMatch": [
+    ],
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "goety:wild_potency",
+      "value": 1.0,
+      "modifierUUID": "ad36f9e6-034d-4d00-a79a-e809178bd7f8",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "goety:cooldown_discount",
+      "value": 0.2,
+      "modifierUUID": "3288beec-3533-4e0a-843e-680350817bc3",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

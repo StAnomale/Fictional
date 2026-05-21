@@ -1,0 +1,37 @@
+{
+  "armorSetName": "mutant_wither_skeleton",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "mutantmore:mutant_wither_skeleton_skull",
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "mutantmore:mutant_wither_skeleton_chestplate",
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "mutantmore:mutant_wither_skeleton_leggings",
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "mutantmore:mutant_wither_skeleton_boots",
+    "mustBeEmpty": false
+  },
+    "mainHand": {
+    "itemKey": "mutantmore:withered_scimitar",
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_damage",
+      "value": 0.4,
+      "modifierUUID": "1ae72bd3-8d5b-4ce6-887f-638487880341",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

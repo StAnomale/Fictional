@@ -1,0 +1,53 @@
+{
+  "armorSetName": "illusioner_mask",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "masquerader_mod:illusioner_mask",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:accuracy",
+      "value": 0.1,
+      "modifierUUID": "ec4adc70-26cd-435f-8bab-59ba75170975",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_speed",
+      "value": 0.15,
+      "modifierUUID": "37c40272-bb38-4eff-a660-daa6bdbe7036",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "functionalarmortrim:experience_boost",
+      "value": 0.4,
+      "modifierUUID": "e8f56dad-baa2-4c7d-b87d-0059e3c323ac",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor_toughness",
+      "value": 6.0,
+      "modifierUUID": "791fd4e0-2bed-4833-a750-6eca2e151bc3",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

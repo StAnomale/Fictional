@@ -1,0 +1,37 @@
+{
+  "armorSetName": "TF_knightmetal",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "twilightforest:knightmetal_helmet",
+    "mixAndMatch": [
+      "twilightforest:phantom_helmet"
+    ],
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "twilightforest:knightmetal_chestplate",
+    "mixAndMatch": [
+      "twilightforest:phantom_chestplate"
+    ],
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "twilightforest:knightmetal_leggings"
+  },
+  "boots": {
+    "itemKey": "twilightforest:knightmetal_boots"
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor",
+      "value": 0.25,
+      "modifierUUID": "67b7837b-c809-4c30-98a6-7fa89a27e949",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

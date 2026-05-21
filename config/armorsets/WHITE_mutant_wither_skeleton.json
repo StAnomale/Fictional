@@ -1,0 +1,66 @@
+{
+  "armorSetName": "mutant_wither_skeleton",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "mutantmore:mutant_wither_skeleton_skull",
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "mutantmore:mutant_wither_skeleton_chestplate",
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "mutantmore:mutant_wither_skeleton_leggings",
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "mutantmore:mutant_wither_skeleton_boots",
+    "mustBeEmpty": false
+  },
+  "partialBonusRequiredAmount": 2,
+  "partialSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor_toughness",
+      "value": 4.0,
+      "modifierUUID": "b68500a4-3ed6-4f58-b269-e46ece8a4cfb",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "obscure_api:dodge",
+      "value": 0.1,
+      "modifierUUID": "c2526e39-c4b7-4fac-8a5a-ad32d020b6d4",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor_toughness",
+      "value": 4.0,
+      "modifierUUID": "df4a0a7d-f250-4d1f-b20c-49a7fa8b4528",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "obscure_api:critical_hit",
+      "value": 0.2,
+      "modifierUUID": "386ee01d-bd2b-412a-87a9-8a351cd87aeb",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

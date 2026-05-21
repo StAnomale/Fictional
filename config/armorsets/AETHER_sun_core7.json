@@ -1,0 +1,37 @@
+{
+  "armorSetName": "sun_core",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "deep_aether:sun_core",
+      "mustBeEmpty": false
+    },
+    {
+      "itemKey": "aether:phoenix_gloves",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:healing_power",
+      "value": 0.05,
+      "modifierUUID": "23a453f2-d558-402d-b65b-d2ef389f4eb4",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "obscure_api:critical_damage",
+      "value": 0.05,
+      "modifierUUID": "b8529b28-4f73-4289-9181-beb8364332f6",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

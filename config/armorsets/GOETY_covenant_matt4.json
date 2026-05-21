@@ -1,0 +1,23 @@
+{
+  "armorSetName": "covenant",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "kubejs:covenant_matt4",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "goety:void_potency",
+      "value": 0.5,
+      "modifierUUID": "8f103958-1538-48c1-94fe-3abdd4c59de0",
+      "attributeOperation": 2,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

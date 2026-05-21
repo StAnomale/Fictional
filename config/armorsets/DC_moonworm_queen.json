@@ -1,0 +1,49 @@
+{
+  "armorSetName": "moonworm_queen",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "twilightforest:moonworm_queen",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:critical_hit",
+      "value": 0.1,
+      "modifierUUID": "09964407-da0b-4aa4-9257-c3cd75ff6174",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "obscure_api:penetration",
+      "value": 0.1,
+      "modifierUUID": "3cffd18b-1e97-46fc-be9b-4e121ddaceaf",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_damage",
+      "value": 0.1,
+      "attributeOperation": 1,
+      "modifierUUID": "bcf54119-3b83-455d-9364-b7b5342c9433",
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false,
+      "conditions": [
+        {
+          "type": "timeRange",
+          "extra": "12500,23000"
+        }
+      ]
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

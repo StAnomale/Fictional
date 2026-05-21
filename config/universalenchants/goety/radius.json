@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:focus",
+    "goety:great_hammer",
+    "goety:bonehead_hammer",
+    "goety:stormlander",
+    "goety:blade_of_ender",
+    "goety:sculk_devourer",
+    "goety:sculk_grower",
+    "goety:black_crystal",
+    "goetyawaken:mace",
+    "goetyawaken:sun_grace",
+    "goetyawaken:mooshroom_mace"
+  ],
+  "incompatible": [
+    "majruszsenchantments:incompatibility_curse"
+  ]
+}

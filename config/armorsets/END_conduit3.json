@@ -1,0 +1,25 @@
+{
+  "armorSetName": "conduit3",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "minecraft:conduit",
+      "mustBeEmpty": false
+    }
+  ],
+  "head": {
+    "itemKey": "minecraft:turtle_helmet",
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "minecraft:conduit_power",
+      "value": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

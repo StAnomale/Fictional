@@ -1,0 +1,33 @@
+{
+  "armorSetName": "shield",
+  "performanceMode": true,
+  "mainHand": {
+    "itemKey": "mutantmore:hogfist_gauntlet",
+    "mixAndMatch": [],
+    "mustBeEmpty": false
+  },
+  "offHand": {
+    "itemKey": "mutantmore:hogfist_gauntlet",
+    "mixAndMatch": [],
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_damage",
+      "value": 0.3,
+      "modifierUUID": "b1f25844-a6c3-4ba2-9c64-4d1288e04e49",
+      "attributeOperation": 1,
+      "interactionType": "self"
+    },
+    {
+      "type": "attribute",
+      "name": "obscure_api:critical_damage",
+      "value": 0.3,
+      "modifierUUID": "9d686c72-7f70-4479-a42a-2bf8ce209d57",
+      "attributeOperation": 0,
+      "interactionType": "self"
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

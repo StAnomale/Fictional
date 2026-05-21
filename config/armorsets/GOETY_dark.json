@@ -1,0 +1,58 @@
+{
+  "armorSetName": "dark",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "goety:black_iron_helmet",
+    "mixAndMatch": [
+      "goety:dark_helmet"
+    ],
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "goety:black_iron_chestplate",
+    "mixAndMatch": [
+      "goety:dark_chestplate"
+    ],
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "goety:black_iron_leggings",
+    "mixAndMatch": [
+      "goety:dark_leggings"
+    ],
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "goety:black_iron_boots",
+    "mixAndMatch": [
+      "goety:dark_boots"
+    ],
+    "mustBeEmpty": false
+  },
+  "partialBonusRequiredAmount": 2,
+  "partialSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "goety:void_potency",
+      "value": 0.2,
+      "modifierUUID": "356c35b4-2ff0-416d-8238-0d9698522ac0",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "goety:cooldown_discount",
+      "value": 0.2,
+      "modifierUUID": "6b76c326-4958-406c-9705-1939481a05d4",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

@@ -1,0 +1,32 @@
+{
+  "armorSetName": "pyrespear",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "aethermobs:pyrespear",
+      "mustBeEmpty": false
+    }
+  ],
+  "mainHand": {
+    "itemKey": "aethermobs:spiritsword",
+    "mixAndMatch": [
+      "aethermobs:saltinstrument",
+      "aethermobs:crystalitesword",
+      "aethermobs:dungeondagger"
+      ],
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:magic_damage",
+      "value": 1.0,
+      "modifierUUID": "d3a79f07-1f3e-4c18-9337-e3bef92cc3e3",
+      "attributeOperation": 2,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

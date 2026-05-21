@@ -1,0 +1,52 @@
+{
+  "armorSetName": "wildfire_crown",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "friendsandfoes:wildfire_crown"
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_damage",
+      "value": 0.2,
+      "modifierUUID": "feafd966-45b7-49fc-a1cd-27a07ce8bfd4",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "conditions": [
+        {
+          "type": "inDimension",
+          "extra": "minecraft:the_nether"
+        }
+      ]
+    },
+    {
+      "type": "attribute",
+      "name": "gunswithoutroses:gwr.damage_total",
+      "value": 0.2,
+      "modifierUUID": "d403d086-0385-4410-9f67-71fd212afdf5",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "conditions": [
+        {
+          "type": "inDimension",
+          "extra": "minecraft:the_nether"
+        }
+      ]
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor",
+      "value": 0.2,
+      "modifierUUID": "4d2a329e-7b4a-41ea-a60e-f214462ebb87",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "conditions": [
+        {
+          "type": "inDimension",
+          "extra": "minecraft:the_nether"
+        }
+      ]
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

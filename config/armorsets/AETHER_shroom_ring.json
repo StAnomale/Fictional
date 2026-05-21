@@ -1,0 +1,158 @@
+{
+  "armorSetName": "shroom_ring",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "aether_redux:shroom_ring",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_speed",
+      "value": 0.1,
+      "modifierUUID": "93e2348c-5bde-49b5-8695-19dcc6e21b25",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "effect",
+      "name": "aether_redux:adrenaline_rush",
+      "value": 2.0,
+      "interactionType": "self",
+      "interactionDuration": 1200,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false,
+      "conditions": [
+        {
+          "type": "timeRange",
+          "extra": "1000,1020"
+        }
+      ]
+    },
+    {
+      "type": "effect",
+      "name": "aether_redux:adrenaline_rush",
+      "value": 2.0,
+      "interactionType": "self",
+      "interactionDuration": 1200,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false,
+      "conditions": [
+        {
+          "type": "timeRange",
+          "extra": "3400,3420"
+        }
+      ]
+    },
+    {
+      "type": "effect",
+      "name": "aether_redux:adrenaline_rush",
+      "value": 2.0,
+      "interactionType": "self",
+      "interactionDuration": 1200,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false,
+      "conditions": [
+        {
+          "type": "timeRange",
+          "extra": "5800,5820"
+        }
+      ]
+    },
+    {
+      "type": "effect",
+      "name": "aether_redux:adrenaline_rush",
+      "value": 2.0,
+      "interactionType": "self",
+      "interactionDuration": 1200,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false,
+      "conditions": [
+        {
+          "type": "timeRange",
+          "extra": "8200,8220"
+        }
+      ]
+    },
+    {
+      "type": "effect",
+      "name": "aether_redux:adrenaline_rush",
+      "value": 2.0,
+      "interactionType": "self",
+      "interactionDuration": 1200,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false,
+      "conditions": [
+        {
+          "type": "timeRange",
+          "extra": "10600,10620"
+        }
+      ]
+    },
+    {
+      "type": "effect",
+      "name": "aether_redux:adrenaline_rush",
+      "value": 2.0,
+      "interactionType": "self",
+      "interactionDuration": 1200,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false,
+      "conditions": [
+        {
+          "type": "timeRange",
+          "extra": "13000,13020"
+        }
+      ]
+    },
+    {
+      "type": "effect",
+      "name": "aether_redux:adrenaline_rush",
+      "value": 2.0,
+      "interactionType": "self",
+      "interactionDuration": 1200,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false,
+      "conditions": [
+        {
+          "type": "timeRange",
+          "extra": "15400,15420"
+        }
+      ]
+    },
+    {
+      "type": "effect",
+      "name": "aether_redux:adrenaline_rush",
+      "value": 2.0,
+      "interactionType": "self",
+      "interactionDuration": 1200,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false,
+      "conditions": [
+        {
+          "type": "timeRange",
+          "extra": "17800,17820"
+        }
+      ]
+    },
+    {
+      "type": "effect",
+      "name": "aether_redux:adrenaline_rush",
+      "value": 2.0,
+      "interactionType": "self",
+      "interactionDuration": 1200,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false,
+      "conditions": [
+        {
+          "type": "timeRange",
+          "extra": "20200,20220"
+        }
+      ]
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

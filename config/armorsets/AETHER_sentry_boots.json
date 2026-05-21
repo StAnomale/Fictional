@@ -1,0 +1,43 @@
+{
+  "armorSetName": "sentry_boots",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "aether:sentry_boots",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:accuracy",
+      "value": 0.05,
+      "modifierUUID": "9b201ef3-b184-4c99-acc5-5eba377657c3",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor",
+      "value": 0.1,
+      "modifierUUID": "f696e1b0-7756-4e73-8825-505c7d3717fe",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor_toughness",
+      "value": 0.1,
+      "modifierUUID": "95a6dfb2-9a90-4281-8209-20b9f477e086",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

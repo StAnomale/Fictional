@@ -1,0 +1,33 @@
+{
+  "armorSetName": "void_shard",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "goety:void_shard",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "gunswithoutroses:gwr.damage_total",
+      "value": -0.2,
+      "modifierUUID": "e54db804-5a51-42ac-933a-3a039aae33ad",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "goety:void_potency",
+      "value": 1.0,
+      "modifierUUID": "05d0eb23-5a89-4981-88b8-603cc732cdeb",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

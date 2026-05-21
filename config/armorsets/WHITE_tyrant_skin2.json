@@ -1,0 +1,27 @@
+{
+  "armorSetName": "tyrant_skin",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "radiation_zone_reborn:tyrant_skin",
+      "mustBeEmpty": false
+    }
+  ],
+  "head": {
+    "itemKey": "radiation_zone_reborn:tyrant_skin_armor_helmet",
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:critical_damage",
+      "value": 0.1,
+      "modifierUUID": "a8253640-462c-47c8-b8f1-ddf722e44428",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

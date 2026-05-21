@@ -1,0 +1,32 @@
+{
+  "armorSetName": "milkmade_hat",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "crockpot:milkmade_hat",
+      "mixAndMatch": [
+      "crockpot:creative_milkmade_hat"
+    ],
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:healing_power",
+      "value": 0.2,
+      "modifierUUID": "2d10ae87-36bc-4fdc-b16e-e4431a840a92",
+      "attributeOperation": 1,
+      "interactionType": "self"
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor_toughness",
+      "value": 4.0,
+      "modifierUUID": "bc6639d7-8e5a-4c9f-96b1-822800c6ca73",
+      "attributeOperation": 0,
+      "interactionType": "self"
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

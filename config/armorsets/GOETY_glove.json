@@ -1,0 +1,28 @@
+{
+  "armorSetName": "glove",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "goetyawaken:assassin_glove",
+      "mixAndMatch": [
+        "goety:grave_glove",
+        "goety:thrash_glove",
+        "goetyawaken:dauntless_gloves"
+      ],
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "goety:void_potency",
+      "value": 1.0,
+      "modifierUUID": "12f18431-eeae-44c7-aa35-5abd8ae4a9b5",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

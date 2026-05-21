@@ -1,0 +1,53 @@
+{
+  "armorSetName": "ravager_mask",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "masquerader_mod:ravager_mask",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:accuracy",
+      "value": 0.1,
+      "modifierUUID": "243b755a-bb0e-4db5-8116-3a0240a3717a",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "obscure_api:critical_damage",
+      "value": 0.15,
+      "modifierUUID": "0c732ed7-375e-4fb8-aa04-e5026712a189",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "functionalarmortrim:experience_boost",
+      "value": 0.4,
+      "modifierUUID": "3bebb704-338d-4156-a09a-47590da8ac26",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor_toughness",
+      "value": 6.0,
+      "modifierUUID": "d2c0cce7-96e4-43f8-a6d5-48293839a9fb",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

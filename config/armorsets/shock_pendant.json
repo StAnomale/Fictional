@@ -1,0 +1,36 @@
+{
+  "armorSetName": "shock_pendant",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "artifacts:shock_pendant",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_speed",
+      "value": 0.15,
+      "modifierUUID": "6d078113-0817-4303-90db-f929f97cb694",
+      "attributeOperation": 1,
+      "interactionType": "self"
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_speed",
+      "value": 0.25,
+      "attributeOperation": 1,
+      "modifierUUID": "2921d477-c46b-4736-80d2-d390b483c061",
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false,
+      "conditions": [
+        {
+          "type": "inRain"
+        }
+      ]
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

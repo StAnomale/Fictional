@@ -1,0 +1,205 @@
+{
+  "armorSetName": "moon_dial",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "twilightforest:moon_dial",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "functionalarmortrim:experience_boost",
+      "value": 0.4,
+      "modifierUUID": "5a9622d0-981b-4b27-9aea-fbbcbf840c83",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "obscure_api:penetration",
+      "value": 0.1,
+      "modifierUUID": "607e5b07-9684-4343-baef-098a0fa882f7",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "obscure_api:penetration",
+      "value": 0.1,
+      "modifierUUID": "2928badb-64ec-4023-baa5-0a74186e683d",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false,
+      "conditions": [
+        {
+          "type": "moonPhase",
+          "extra": "firstquarter"
+        }
+      ]
+    },
+    {
+      "type": "attribute",
+      "name": "obscure_api:penetration",
+      "value": 0.1,
+      "modifierUUID": "eb304f52-c8e5-4039-969c-6411348d8844",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false,
+      "conditions": [
+        {
+          "type": "moonPhase",
+          "extra": "lastquarter"
+        }
+      ]
+    },
+    {
+      "type": "attribute",
+      "name": "functionalarmortrim:experience_boost",
+      "value": 0.4,
+      "modifierUUID": "236b6eac-28e6-47af-a809-a8a37acec0ef",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false,
+      "conditions": [
+        {
+          "type": "moonPhase",
+          "extra": "firstquarter"
+        }
+      ]
+    },
+    {
+      "type": "attribute",
+      "name": "functionalarmortrim:experience_boost",
+      "value": 0.4,
+      "modifierUUID": "08601861-a52b-44f3-bc8e-327dcc7ce0a9",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false,
+      "conditions": [
+        {
+          "type": "moonPhase",
+          "extra": "lastquarter"
+        }
+      ]
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_damage",
+      "value": 0.1,
+      "modifierUUID": "d9d1d2dd-1e8f-4a9f-9c5c-97412f593244",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false,
+      "conditions": [
+        {
+          "type": "timeRange",
+          "extra": "12500,23000"
+        }
+      ]
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_damage",
+      "value": 0.3,
+      "modifierUUID": "8e55c746-693e-4808-bc58-042e968d3b00",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false,
+      "conditions": [
+        {
+          "type": "moonPhase",
+          "extra": "new"
+        },
+        {
+          "type": "timeRange",
+          "extra": "12500,23000"
+        }
+      ]
+    },
+    {
+      "type": "attribute",
+      "name": "gunswithoutroses:gwr.damage_total",
+      "value": 0.1,
+      "modifierUUID": "2fedaba7-d156-4c66-941c-73474f5ba629",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false,
+      "conditions": [
+        {
+          "type": "timeRange",
+          "extra": "12500,23000"
+        }
+      ]
+    },
+    {
+      "type": "attribute",
+      "name": "gunswithoutroses:gwr.damage_total",
+      "value": 0.3,
+      "modifierUUID": "4680c6da-9c3f-4b6f-ac82-7b38ec3ebd2a",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false,
+      "conditions": [
+        {
+          "type": "moonPhase",
+          "extra": "waningcresent"
+        },
+        {
+          "type": "timeRange",
+          "extra": "12500,23000"
+        }
+      ]
+    },
+    {
+      "type": "attribute",
+      "name": "obscure_api:magic_damage",
+      "value": 0.1,
+      "modifierUUID": "91795fa0-2d63-4ae9-8275-818d380d6033",
+      "attributeOperation": 2,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false,
+      "conditions": [
+        {
+          "type": "timeRange",
+          "extra": "12500,23000"
+        }
+      ]
+    },
+    {
+      "type": "attribute",
+      "name": "obscure_api:magic_damage",
+      "value": 0.3,
+      "modifierUUID": "9dba1698-a4d3-4438-acf8-8bf664636a30",
+      "attributeOperation": 2,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false,
+      "conditions": [
+        {
+          "type": "moonPhase",
+          "extra": "full"
+        },
+        {
+          "type": "timeRange",
+          "extra": "12500,23000"
+        }
+      ]
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

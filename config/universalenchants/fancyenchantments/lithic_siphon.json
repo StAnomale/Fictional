@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:digger",
+    "the_bumblezone:carpenter_bee_boots_1",
+    "the_bumblezone:carpenter_bee_boots_2",
+    "twilightforest:block_and_chain"
+  ],
+  "incompatible": [
+    "fancyenchantments:air_attack",
+    "fancyenchantments:downwind",
+    "majruszsenchantments:incompatibility_curse",
+    "fancyenchantments:feather_fall",
+    "fancyenchantments:recoil",
+    "fancyenchantments:lightness",
+    "fancyenchantments:dexterity",
+    "fancyenchantments:wind_blade",
+    "fancyenchantments:reflecting",
+    "fancyenchantments:floating",
+    "fancyenchantments:blessed_wind",
+    "fancyenchantments:streamline",
+    "fancyenchantments:afterimage"
+  ]
+}

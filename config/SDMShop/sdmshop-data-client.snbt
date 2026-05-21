@@ -1,0 +1,13 @@
+{
+	shop_client_data: [{
+		data: {
+			show_cant_buy: 0b
+		}
+		shopId: [I;
+			-50753593
+			122636430
+			-1528975436
+			1215436026
+		]
+	}]
+}

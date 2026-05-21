@@ -1,0 +1,43 @@
+{
+  "armorSetName": "END_maze_remnant_page_minoshroomtaur",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "better_minoshroomtaur:maze_remnant_page_minoshroomtaur",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "functionalarmortrim:experience_boost",
+      "value": 0.4,
+      "modifierUUID": "fa700958-f081-4e52-8662-9a98366edb56",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "obscure_api:penetration",
+      "modifierUUID": "e3626d58-01e7-4796-a547-c4c430382606",
+      "value": 0.15,
+      "interactionType": "self",
+      "attributeOperation": 0,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_damage",
+      "modifierUUID": "2109399e-970d-4fe3-a43f-52e3893da64a",
+      "value": 0.15,
+      "interactionType": "self",
+      "attributeOperation": 1,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

@@ -1,0 +1,43 @@
+{
+  "armorSetName": "END_warp_stone",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "waystones:warp_stone",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_speed",
+      "value": 0.1,
+      "modifierUUID": "97e96e9b-aab5-4af3-aec7-94484a9eeb01",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "forge:entity_reach",
+      "value": 0.2,
+      "modifierUUID": "ecf257bf-e56b-474a-bb76-df16b6272d07",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.movement_speed",
+      "value": 0.1,
+      "modifierUUID": "d0af44cc-7122-4cb6-9df1-2fafbb6c7eb9",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

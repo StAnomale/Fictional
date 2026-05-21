@@ -1,0 +1,27 @@
+{
+  "armorSetName": "tyrant_skin",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "radiation_zone_reborn:tyrant_skin",
+      "mustBeEmpty": false
+    },
+    {
+      "itemKey": "goety:geo_robe",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "goety:geomancy_potency",
+      "value": 1.0,
+      "modifierUUID": "8393ee07-0818-49bf-bced-873894e59a2c",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

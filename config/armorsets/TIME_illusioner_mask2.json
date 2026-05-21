@@ -1,0 +1,41 @@
+{
+  "armorSetName": "illusioner_mask",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "masquerader_mod:illusioner_mask",
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:accuracy",
+      "value": 0.1,
+      "modifierUUID": "1ee5129d-8e81-429b-9b6d-70d9d9032e9a",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_speed",
+      "value": 0.15,
+      "modifierUUID": "471f6189-da8c-4e62-994b-b8977c25df3a",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "functionalarmortrim:experience_boost",
+      "value": 0.4,
+      "modifierUUID": "de5465ee-6522-41eb-bf14-2311070503a1",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

@@ -1,0 +1,33 @@
+{
+  "armorSetName": "END_creeper_minion_tracker",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "mutantmonsters:creeper_minion_tracker",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor",
+      "value": -0.2,
+      "modifierUUID": "bd2a6240-287b-4538-ad5c-6d83943739b7",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_damage",
+      "modifierUUID": "76e06efc-417b-4931-9764-c6dbb5abf930",
+      "value": 0.3,
+      "interactionType": "self",
+      "attributeOperation": 1,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

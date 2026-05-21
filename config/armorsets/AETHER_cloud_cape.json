@@ -1,0 +1,33 @@
+{
+  "armorSetName": "cloud_cape",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "deep_aether:cloud_cape",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor_toughness",
+      "value": 0.15,
+      "modifierUUID": "eb60ab74-2595-4494-82fe-4af097f2d844",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "obscure_api:magic_damage",
+      "value": 0.15,
+      "modifierUUID": "2429e7d6-c174-4457-a807-48221e89b357",
+      "attributeOperation": 2,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

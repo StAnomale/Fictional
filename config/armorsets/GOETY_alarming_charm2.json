@@ -1,0 +1,27 @@
+{
+  "armorSetName": "alarming_charm",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "goety:alarming_charm",
+      "mustBeEmpty": false
+    },
+    {
+      "itemKey": "goety:ominous_orb",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "goety:void_potency",
+      "value": 0.5,
+      "modifierUUID": "ad46e4e5-28f3-4106-9161-debfc00d657f",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

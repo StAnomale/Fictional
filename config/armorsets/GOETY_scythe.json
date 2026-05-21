@@ -1,0 +1,44 @@
+{
+  "armorSetName": "scythe",
+  "performanceMode": true,
+  "mainHand": {
+    "itemKey": "goety:dark_scythe",
+    "mixAndMatch": [
+      "goety:dark_metal_scythe"
+      ],
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "forge:entity_reach",
+      "value": 0.2,
+      "modifierUUID": "9e1259b1-0f23-441e-8d5b-84ed2cd2a830",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "obscure_api:penetration",
+      "value": 0.2,
+      "modifierUUID": "e11172e4-1768-4786-90ea-80b280cb3035",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "goety:void_potency",
+      "value": 1.0,
+      "modifierUUID": "fe975a78-ce85-4cf2-8d15-b7e67ea5f599",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

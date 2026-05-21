@@ -1,0 +1,31 @@
+{
+  "armorSetName": "DC_sticky_gloves",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "cataclysm:sticky_gloves",
+      "mustBeEmpty": false
+    }
+  ],
+  "offHand": {
+    "itemKey": "minecraft:bone",
+    "mixAndMatch": [
+      "radiation_zone_reborn:radiated_bone",
+      "cataclysm:koboleton_bone"
+      ],
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:penetration",
+      "value": 0.15,
+      "modifierUUID": "796ca56a-ee51-4078-a7d0-efbfb9bbbb56",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    } 
+  ],
+  "hideGeneratedTooltip": true
+}

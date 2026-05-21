@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:wearable"
+  ],
+  "incompatible": [
+    "minecraft:fire_protection",
+    "majruszsenchantments:incompatibility_curse",
+    "fancyenchantments:mountain_supreme_protection",
+    "minecraft:protection",
+    "minecraft:blast_protection",
+    "minecraft:projectile_protection",
+    "majruszsenchantments:magic_protection",
+    "minecraft:feather_falling"
+  ]
+}

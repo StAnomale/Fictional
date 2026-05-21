@@ -1,0 +1,33 @@
+{
+  "armorSetName": "iron_pendant",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "aether:iron_pendant",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_damage",
+      "value": 0.5,
+      "modifierUUID": "fe21fb18-0a63-4a06-b8e4-1e462737bc0e",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor",
+      "value": 1.0,
+      "modifierUUID": "8518d03e-5517-455e-bef2-01ecc220fe2e",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

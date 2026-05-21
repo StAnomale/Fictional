@@ -1,0 +1,43 @@
+{
+  "armorSetName": "DC_enchanted_golden_apple",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "minecraft:enchanted_golden_apple",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.max_health",
+      "value": 0.2,
+      "modifierUUID": "857024fc-b2f8-4c58-91e5-1232d019bc71",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "functionalarmortrim:experience_boost",
+      "value": 0.2,
+      "modifierUUID": "ae49bcb6-4c26-4011-aa7a-33e787d44fee",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "obscure_api:critical_damage",
+      "value": -0.2,
+      "modifierUUID": "17260583-d21c-473f-b868-2839f09a3ffa",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

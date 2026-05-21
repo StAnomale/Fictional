@@ -1,0 +1,27 @@
+{
+  "armorSetName": "blade_of_luck",
+  "performanceMode": true,
+  "mainHand": {
+    "itemKey": "deep_aether:blade_of_luck",
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.luck",
+      "value": 0.25,
+      "modifierUUID": "438abafb-a38a-4339-b8fa-67fcb049abd6",
+      "attributeOperation": 1,
+      "interactionType": "self"
+    },
+    {
+      "type": "attribute",
+      "name": "obscure_api:critical_damage",
+      "value": 0.25,
+      "modifierUUID": "f09b9abb-c114-4f25-94b7-20fea185cdf3",
+      "attributeOperation": 0,
+      "interactionType": "self"
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

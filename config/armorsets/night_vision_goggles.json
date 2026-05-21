@@ -1,0 +1,35 @@
+{
+  "armorSetName": "night_vision_goggles",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "artifacts:night_vision_goggles",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "minecraft:darkness",
+      "interactionType": "immunity",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:blindness",
+      "interactionType": "immunity",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor",
+      "value": 0.1,
+      "modifierUUID": "b0c88215-9f7b-4ba0-b0ef-9b1e4743eecc",
+      "attributeOperation": 1,
+      "interactionType": "self"
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

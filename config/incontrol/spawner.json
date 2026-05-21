@@ -1,0 +1,180 @@
+[
+    {
+		"mob": ["mutantmore:mutant_shulker", "mutantmonsters:mutant_enderman", "cataclysm:endermaptera", "minecraft:enderman"],
+        "weights": [1, 2, 30, 30],
+		"amount": {
+			"minimum": 1,
+			"maximum": 1
+		},
+		"attempts": 1,
+		"conditions": {
+			"dimension": "minecraft:the_end",
+			"norestrictions": true,
+			"mindist": 32,
+			"maxdist": 80,
+			"minheight": 1,
+			"maxheight": 196,
+			"maxthis": 1
+		}
+	},
+    {
+		"mob": ["cataclysm:endermaptera", "goety:watchling", "goety:blastling", "goety:snareling"],
+		"amount": {
+			"minimum": 1,
+			"maximum": 2,
+            "groupdistance": 2
+		},
+		"attempts": 2,
+		"conditions": {
+			"dimension": "minecraft:the_end",
+			"norestrictions": true,
+			"mindist": 32,
+			"maxdist": 80,
+			"minheight": 1,
+			"maxheight": 196,
+			"maxthis": 10
+		}
+	},
+    {
+		"mob": ["goety:reaper", "goety:wraith", "friendsandfoes:wildfire", "mutantmore:mutant_hoglin", "mutantmore:mutant_wither_skeleton", "mutantmore:mutant_blaze", "radiation_zone_reborn:fluorescence", "radiation_zone_reborn:decayed_stone_creeper", "quark:wraith", "minecraft:wither_skeleton", "minecraft:blaze", "mutantmore:rodling"],
+        "weights": [30, 30, 2, 1, 1, 1, 30, 30, 4, 30, 30, 20],
+		"amount": {
+			"minimum": 1,
+			"maximum": 1
+		},
+		"attempts": 1,
+		"conditions": {
+			"dimension": "minecraft:the_nether",
+			"norestrictions": true,
+			"mindist": 36,
+			"maxdist": 100,
+			"minheight": 1,
+			"maxheight": 196,
+			"maxthis": 1
+		}
+	},
+    {
+		"mob": ["minecraft:magma_cube", "quark:foxhound", "minecraft:hoglin", "minecraft:piglin", "radiation_zone_reborn:fluorescence", "radiation_zone_reborn:decayed_stone_creeper"],
+		"weights": [1, 2, 2, 2, 2, 4],
+		"amount": {
+			"minimum": 1,
+			"maximum": 2
+		},
+		"attempts": 1,
+		"conditions": {
+			"dimension": "minecraft:the_nether",
+			"norestrictions": true,
+			"mindist": 32,
+			"maxdist": 100,
+			"minheight": 1,
+			"maxheight": 196,
+			"maxthis": 6
+		}
+	},
+    {
+		"mob": ["goety:reaper", "goety:wraith", "minecraft:enderman", "minecraft:creeper", "minecraft:spider", "minecraft:zombie_villager", "minecraft:skeleton", "twilightforest:skeleton_druid", "twilightforest:wraith"],
+		"amount": {
+			"minimum": 1,
+			"maximum": 1
+		},
+		"attempts": 1,
+		"conditions": {
+			"dimension": "twilightforest:twilight_forest",
+			"norestrictions": true,
+			"mindist": 32,
+			"maxdist": 80,
+			"minheight": 1,
+			"maxheight": 196,
+			"maxthis": 4
+		}
+	},
+    {
+		"mob": ["minecraft:zombie", "minecraft:skeleton", "royalvariations:royal_enderman", "royalvariations:royal_zombie", "royalvariations:royal_skeleton", "royalvariations:royal_creeper", "twilightforest:king_spider", "twilightforest:skeleton_druid"],
+        "weights": [30, 30, 1, 1, 1, 1, 20, 20],
+		"amount": {
+			"minimum": 1,
+			"maximum": 1
+		},
+		"attempts": 1,
+		"conditions": {
+			"dimension": "twilightforest:twilight_forest",
+			"norestrictions": true,
+			"mindist": 32,
+			"maxdist": 80,
+			"minheight": 1,
+			"maxheight": 196,
+			"maxthis": 1
+		}
+	},
+    {
+		"mob": ["royalvariations:royal_enderman", "royalvariations:royal_creeper","aether:fire_minion", "aether:valkyrie", "aethermobs:guardianangel", "aethermobs:mutatedcritter", "aether:cockatrice", "aether:blue_swet"],
+        "weights": [1, 1, 1, 2, 1, 2, 4, 2, 40, 20],
+		"amount": {
+			"minimum": 1,
+			"maximum": 1
+		},
+		"attempts": 1,
+		"conditions": {
+			"dimension": "aether:the_aether",
+			"norestrictions": true,
+			"mindist": 32,
+			"maxdist": 80,
+			"minheight": 1,
+			"maxheight": 196,
+			"maxthis": 1
+		}
+	},
+    {
+		"mob": ["aethermobs:guardianangel", "aether:cockatrice", "aether:blue_swet"],
+        "weights": [1, 6, 2],
+		"amount": {
+			"minimum": 1,
+			"maximum": 1
+		},
+		"attempts": 1,
+		"conditions": {
+			"dimension": "aether:the_aether",
+			"norestrictions": true,
+			"mindist": 32,
+			"maxdist": 80,
+			"minheight": 1,
+			"maxheight": 196,
+			"maxthis": 6
+		}
+	},
+    {
+		"mob": ["eeeabsmobs:guling_sentinel", "radiation_zone_reborn:radiation_skeleton", "radiation_zone_reborn:dustorm", "radiation_zone_reborn:tall_tall_tall_tall_tall_walking_fumeshroom", "radiation_zone_reborn:greater_dustorm", "radiation_zone_reborn:decayed_giant", "mutantmore:mutant_frozen_zombie", "mutantmore:mutant_jungle_zombie", "mutantmore:mutant_husk", "mutantmonsters:mutant_zombie", "mutantmonsters:mutant_skeleton", "mutantmonsters:mutant_creeper"],
+        "weights": [20, 20, 40, 4, 10, 1, 1, 1, 1, 2, 2, 2],
+		"amount": {
+			"minimum": 1,
+			"maximum": 1
+		},
+		"attempts": 1,
+		"conditions": {
+			"dimension": "radiation_zone_reborn:radiation_zone",
+			"norestrictions": true,
+			"mindist": 36,
+			"maxdist": 100,
+			"minheight": 1,
+			"maxheight": 196,
+			"maxthis": 1
+		}
+	},
+    {
+		"mob": ["eeeabsmobs:guling_sentinel", "radiation_zone_reborn:radiation_skeleton", "radiation_zone_reborn:radien", "radiation_zone_reborn:fluorescence", "radiation_zone_reborn:decayed_stone_creeper"],
+		"amount": {
+			"minimum": 1,
+			"maximum": 2
+		},
+		"attempts": 1,
+		"conditions": {
+			"dimension": "radiation_zone_reborn:radiation_zone",
+			"norestrictions": true,
+			"mindist": 32,
+			"maxdist": 80,
+			"minheight": 1,
+			"maxheight": 196,
+			"maxthis": 6
+		}
+	}
+]

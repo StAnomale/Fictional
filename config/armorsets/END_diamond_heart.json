@@ -1,0 +1,38 @@
+{
+  "armorSetName": "END_diamond_heart",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "quark:diamond_heart",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "kubejs:diamond",
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "functionalarmortrim:experience_boost",
+      "value": 0.2,
+      "modifierUUID": "4c0bf4fa-3ee6-44f7-acdd-523588b049f8",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor",
+      "value": 4.0,
+      "modifierUUID": "4f74c494-370c-41c8-8ea5-65c27452e7f2",
+      "attributeOperation": 0,
+      "interactionType": "self"
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

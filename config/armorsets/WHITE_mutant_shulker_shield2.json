@@ -1,0 +1,19 @@
+{
+  "armorSetName": "mutant_shulker_shield",
+  "performanceMode": true,
+  "offHand": {
+    "itemKey": "mutantmore:mutant_shulker_shield",
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:critical_damage",
+      "value": 0.2,
+      "modifierUUID": "e0a15f29-a18a-40ac-a9d4-38f0e25ac10f",
+      "attributeOperation": 0,
+      "interactionType": "self"
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

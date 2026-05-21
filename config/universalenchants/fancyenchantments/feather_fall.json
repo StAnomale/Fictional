@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:armor_legs"
+  ],
+  "incompatible": [
+    "fancyenchantments:lithic_siphon",
+    "fancyenchantments:solid_as_a_rock",
+    "fancyenchantments:sharp_rock",
+    "fancyenchantments:eroding",
+    "majruszsenchantments:incompatibility_curse",
+    "fancyenchantments:cumbersome",
+    "fancyenchantments:standing_wall",
+    "fancyenchantments:falling_stone",
+    "fancyenchantments:mountain_supreme_protection",
+    "fancyenchantments:sander",
+    "fancyenchantments:heavy_blow",
+    "fancyenchantments:rolling_stone",
+    "fancyenchantments:heavy_arrow"
+  ]
+}

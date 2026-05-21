@@ -1,0 +1,33 @@
+{
+  "armorSetName": "END_dragon_scale2",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "quark:dragon_scale",
+      "mustBeEmpty": false
+    }
+  ],
+  "mainHand": {
+    "itemKey": "enderitemod:enderite_sword",
+    "mixAndMatch": [
+      "enderitemod:enderite_axe",
+      "enderitemod:enderite_pickaxe",
+      "enderitemod:enderite_hoe",
+      "enderitemod:enderite_shovel"
+      ],
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_damage",
+      "modifierUUID": "0b4b5f16-89c5-40a1-9721-7ed7e93021ca",
+      "value": 0.25,
+      "interactionType": "self",
+      "attributeOperation": 1,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

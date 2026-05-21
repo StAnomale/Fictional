@@ -1,0 +1,27 @@
+{
+  "armorSetName": "hook_bell",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "goety:hook_bell",
+      "mustBeEmpty": false
+    },
+    {
+      "itemKey": "trials:ominous_bottle",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:critical_damage",
+      "value": 0.1,
+      "modifierUUID": "6aab1da5-7578-4714-8d81-3917bc575144",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

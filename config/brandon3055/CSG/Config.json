@@ -1,0 +1,14 @@
+{
+  "inventory": {
+    "0:17": "{Count:1b,id:\"touhou_little_maid:smart_slab_init\"}",
+    "0:0": "{Count:1b,id:\"minecraft:iron_pickaxe\",tag:{Damage:0,Enchantments:[{id:\"minecraft:unbreaking\",lvl:3s}],RepairCost:1}}",
+    "0:5": "{Count:1b,id:\"beyonddimensions:net_creater\"}",
+    "0:7": "{Count:1b,id:\"wishing_fountain:wf_structure_map\",tag:{target:\"ba_bt:land_tower\"}}",
+    "0:15": "{Count:1b,id:\"minecraft:lantern\"}",
+    "0:1": "{Count:5b,id:\"minecraft:bread\"}",
+    "0:8": "{Count:1b,id:\"ftbquests:book\"}",
+    "0:16": "{Count:1b,id:\"kubejs:covenant_purewhite\"}",
+    "0:6": "{Count:1b,id:\"kubejs:restrictiontimer_pocketwatch\"}"
+  },
+  "wipeBlacklist": []
+}

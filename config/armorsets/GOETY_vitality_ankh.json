@@ -1,0 +1,42 @@
+{
+  "armorSetName": "vitality_ankh",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "cataclysm:vitality_ankh",
+      "mixAndMatch": [
+      ],
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "cataclysm:curse_of_desert",
+      "interactionType": "immunity",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "obscure_api:healing_power",
+      "value": 0.2,
+      "modifierUUID": "c1848852-8e46-48e1-b8ec-2c84e36fe91c",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.max_health",
+      "value": 0.1,
+      "modifierUUID": "487cee0b-ba11-4905-a635-110da679f262",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

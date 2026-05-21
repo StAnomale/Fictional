@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:more_critters_deadly_side"
+  ],
+  "incompatible": [
+    "majruszsenchantments:incompatibility_curse",
+    "more_critters:lovely_side"
+  ]
+}

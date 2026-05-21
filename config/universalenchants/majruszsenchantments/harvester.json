@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:universal_enchants_hoe"
+  ],
+  "incompatible": [
+    "majruszsenchantments:incompatibility_curse"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "armorSetName": "aerwhale_saddle'",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "deep_aether:aerwhale_saddle",
+      "mustBeEmpty": false
+    },
+    {
+      "itemKey": "deep_aether:floaty_scarf",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.max_health",
+      "value": 0.05,
+      "modifierUUID": "18d358f8-7acf-4dd1-b4f7-f8fd27b04beb",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "obscure_api:penetration",
+      "value": 0.05,
+      "modifierUUID": "d1478a50-b318-43bd-b399-6e0b1baad7a7",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

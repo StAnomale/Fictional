@@ -1,0 +1,81 @@
+{
+	icon: "twilightforest:naga_banner_pattern"
+	id: "3CCE8DBA5B5D508F"
+	loot_size: 1
+	order_index: 10
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "wishing_fountain:wf_structure_map"
+				tag: {
+					target: "dungeons_arise:foundry"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "wishing_fountain:wf_structure_map"
+				tag: {
+					target: "dungeons_arise:scorched_mines"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "wishing_fountain:wf_structure_map"
+				tag: {
+					target: "dungeons_arise:plague_asylum"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "wishing_fountain:wf_structure_map"
+				tag: {
+					target: "dungeons_arise:illager_windmill"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "wishing_fountain:wf_structure_map"
+				tag: {
+					target: "dungeons_arise:bandit_towers"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "wishing_fountain:wf_structure_map"
+				tag: {
+					target: "dungeons_arise:thornborn_towers"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "wishing_fountain:wf_structure_map"
+				tag: {
+					target: "dungeons_arise:infested_temple"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "wishing_fountain:wf_structure_map"
+				tag: {
+					target: "dungeons_arise:keep_kayra"
+				}
+			}
+		}
+	]
+	title: "遗迹地牢"
+}

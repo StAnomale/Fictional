@@ -1,0 +1,42 @@
+{
+  "armorSetName": "guardian_core3",
+  "performanceMode": true,
+  "offHand": {
+    "itemKey": "eeeabsmobs:guardian_core",
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "eeeabsmobs:armor_lower_effect",
+      "interactionType": "immunity",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor",
+      "value": 0.2,
+      "modifierUUID": "b7026f6a-2e49-45e9-88b9-c19548f90d6a",
+      "attributeOperation": 1,
+      "interactionType": "self"
+    },
+    {
+      "type": "attribute",
+      "name": "obscure_api:magic_damage",
+      "value": -0.5,
+      "modifierUUID": "2ea09e0e-fd8c-4051-b8c0-4023bf2f3e4d",
+      "attributeOperation": 2,
+      "interactionType": "self"
+    },
+    {
+      "type": "attribute",
+      "name": "obscure_api:critical_damage",
+      "value": 0.2,
+      "modifierUUID": "f4c279e4-7d7c-4f0c-866e-78f045f0376b",
+      "attributeOperation": 0,
+      "interactionType": "self"
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

@@ -1,0 +1,53 @@
+{
+  "armorSetName": "END_heavy_core",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "trials:heavy_core",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_damage",
+      "value": 4.0,
+      "modifierUUID": "3d0acbc0-2432-4eeb-bbf9-d2481e5a14d5",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor",
+      "value": 4.0,
+      "modifierUUID": "c1666e29-acfe-4998-9ed3-8bbdcd5d212a",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_speed",
+      "value": -0.2,
+      "modifierUUID": "d5b8dd3e-18b5-4e44-8663-3fbe416dc270",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.movement_speed",
+      "value": -0.2,
+      "modifierUUID": "4439fd8a-cade-40f7-a9b8-5cd8dee1d2e8",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

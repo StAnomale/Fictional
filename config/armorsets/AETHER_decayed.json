@@ -1,0 +1,73 @@
+{
+  "armorSetName": "decayed",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "radiation_zone_reborn:tyrant_skin_armor_helmet",
+    "mixAndMatch": [
+      "radiation_zone_reborn:giantrock_armor_helmet",
+      "radiation_zone_reborn:sedisilver_armor_helmet",
+      "radiation_zone_reborn:protective_helmet",
+      "radiation_zone_reborn:wastefur_armor_helmet",
+      "radiation_zone_reborn:sedisilver_protective_helmet",
+      "radiation_zone_reborn:giantrock_protective_helmet"
+    ],
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "radiation_zone_reborn:tyrant_skin_armor_chestplate",
+    "mixAndMatch": [
+      "radiation_zone_reborn:giantrock_armor_chestplate",
+      "radiation_zone_reborn:sedisilver_armor_chestplate",
+      "radiation_zone_reborn:protective_chestplate",
+      "radiation_zone_reborn:wastefur_armor_chestplate",
+      "radiation_zone_reborn:dustorm_chestplate_chestplate"
+    ],
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "radiation_zone_reborn:tyrant_skin_armor_leggings",
+    "mixAndMatch": [
+      "radiation_zone_reborn:giantrock_armor_leggings",
+      "radiation_zone_reborn:sedisilver_armor_leggings",
+      "radiation_zone_reborn:protective_leggings",
+      "radiation_zone_reborn:wastefur_armor_leggings"
+    ],
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "radiation_zone_reborn:tyrant_skin_armor_boots",
+    "mixAndMatch": [
+      "radiation_zone_reborn:giantrock_armor_boots",
+      "radiation_zone_reborn:sedisilver_armor_boots",
+      "radiation_zone_reborn:protective_boots",
+      "radiation_zone_reborn:wastefur_armor_boots"
+    ],
+    "mustBeEmpty": false
+  },
+  "partialBonusRequiredAmount": 2,
+  "partialSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.max_health",
+      "value": 0.2,
+      "modifierUUID": "6693aab6-ba94-4906-afb7-43a06227854c",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:magic_damage",
+      "value": 0.2,
+      "modifierUUID": "ce3f6406-d331-4745-98e7-ba84bb66a598",
+      "attributeOperation": 2,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

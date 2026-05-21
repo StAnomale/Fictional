@@ -1,0 +1,39 @@
+{
+  "armorSetName": "radien_jawbone",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "radiation_zone_reborn:radien_jawbone",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:accuracy",
+      "value": 0.05,
+      "modifierUUID": "767e0283-6e01-473f-a887-aaaf4f2bf4b9",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "obscure_api:magic_damage",
+      "value": 1.0,
+      "modifierUUID": "06f56ed7-13d4-480f-9cec-746d10fd2bec",
+      "attributeOperation": 0,
+      "interactionType": "self"
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.luck",
+      "value": 1.0,
+      "modifierUUID": "74fa40c8-7e07-4167-8390-d9a4209b92c8",
+      "attributeOperation": 0,
+      "interactionType": "self"
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

@@ -1,0 +1,52 @@
+{
+  "armorSetName": "TF_yeti",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "twilightforest:yeti_helmet",
+    "mixAndMatch": [
+      "twilightforest:arctic_helmet"
+    ],
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "twilightforest:yeti_chestplate",
+    "mixAndMatch": [
+      "twilightforest:arctic_chestplate"
+    ],
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "twilightforest:yeti_leggings",
+    "mixAndMatch": [
+      "twilightforest:arctic_leggings"
+    ],
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "twilightforest:yeti_boots",
+    "mixAndMatch": [
+      "twilightforest:arctic_boots"
+    ],
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor_toughness",
+      "value": 0.2,
+      "modifierUUID": "edf16ca7-6a14-4dc8-8002-1af430847182",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "effect",
+      "name": "twilightforest:frosted",
+      "interactionType": "immunity",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

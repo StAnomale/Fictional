@@ -1,0 +1,31 @@
+{
+	// Lock item list
+	lockItemList: [
+		{
+			item: "minecraft:netherite_upgrade_smithing_template",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 12
+				},
+				{
+					aptitude: "Building",
+					level: 12
+				}
+			]
+		},
+		{
+			item: "enderitemod:enderite_upgrade_smithing_template",
+			aptitudes: [
+				{
+					aptitude: "Defense",
+					level: 24
+				},
+				{
+					aptitude: "Building",
+					level: 24
+				}
+			]
+		}
+	]
+}

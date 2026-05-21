@@ -1,0 +1,6715 @@
+{
+	autofocus_id: "54EDB787F7DF74BB"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "36D386657B6BDE74"
+	group: "398A6045F9A23D02"
+	icon: "minecraft:book"
+	id: "36D386657B6BDE74"
+	order_index: 0
+	quest_links: [
+		{
+			id: "6E2BB09E6E92C05B"
+			linked_quest: "3AA9CB73A38AE37D"
+			shape: "square"
+			x: 38.5d
+			y: 23.5d
+		}
+		{
+			id: "286AD30D57D275E7"
+			linked_quest: "333C4C33DD5E472F"
+			shape: "square"
+			x: 39.5d
+			y: 24.5d
+		}
+		{
+			id: "757CD052F7231D7F"
+			linked_quest: "46211DFB0E28377E"
+			shape: "square"
+			x: 49.5d
+			y: 21.5d
+		}
+		{
+			id: "0133ACAD5CFC8947"
+			linked_quest: "690FB8F469C86608"
+			shape: "square"
+			x: 49.5d
+			y: 20.5d
+		}
+		{
+			id: "19E8FB339A50E32F"
+			linked_quest: "47D9A3465639B1E1"
+			shape: "square"
+			x: 50.5d
+			y: 20.5d
+		}
+		{
+			id: "4D6B358E842E73FF"
+			linked_quest: "6BD71358DA33821E"
+			shape: "square"
+			x: 37.5d
+			y: 23.5d
+		}
+		{
+			id: "00F1B6AA1C14F27D"
+			linked_quest: "25231E31AB4B5143"
+			shape: "square"
+			x: 50.5d
+			y: 21.5d
+		}
+		{
+			id: "01441038E73B81DC"
+			linked_quest: "1CB05B1C21194B99"
+			shape: "square"
+			x: 49.5d
+			y: 27.5d
+		}
+		{
+			id: "342F139FA484DDF8"
+			linked_quest: "70F50F6D0456E59F"
+			shape: "square"
+			x: 49.5d
+			y: 26.5d
+		}
+		{
+			id: "70055F62EAFC79E7"
+			linked_quest: "28ED057864488AF6"
+			shape: "square"
+			x: 50.5d
+			y: 26.5d
+		}
+		{
+			id: "14D486D21334D85D"
+			linked_quest: "0468C84C41C069CF"
+			shape: "square"
+			x: 50.5d
+			y: 27.5d
+		}
+		{
+			id: "04F2FB08408005F7"
+			linked_quest: "1D9210ED890BEA83"
+			shape: "square"
+			x: 70.5d
+			y: 20.5d
+		}
+		{
+			id: "6489D4E2AB3CF356"
+			linked_quest: "4CF03819150A0110"
+			shape: "square"
+			x: 70.5d
+			y: 21.5d
+		}
+		{
+			id: "5B72C8031C74CBF7"
+			linked_quest: "144AA0CAF6A3459C"
+			shape: "square"
+			x: 69.5d
+			y: 20.5d
+		}
+		{
+			id: "3AD298F535459071"
+			linked_quest: "78723235B47F9099"
+			shape: "square"
+			x: 69.5d
+			y: 21.5d
+		}
+		{
+			id: "2C39485A6994B444"
+			linked_quest: "648F9FDDD8B4FA01"
+			shape: "square"
+			x: 82.5d
+			y: 26.5d
+		}
+		{
+			id: "62599E7DEA0C857D"
+			linked_quest: "08F4EA92AF087D8E"
+			shape: "square"
+			x: 74.0d
+			y: 24.5d
+		}
+		{
+			id: "15914B3A92DCF38A"
+			linked_quest: "1D30A0A4E18D270A"
+			shape: "square"
+			x: 81.5d
+			y: 35.5d
+		}
+		{
+			id: "10D2D42F7B769BE9"
+			linked_quest: "7F704A5DE7957728"
+			shape: "square"
+			x: 43.5d
+			y: 37.0d
+		}
+		{
+			id: "16C26D9B0FB955B8"
+			linked_quest: "492C3110DCD60A49"
+			shape: "square"
+			x: 58.5d
+			y: 34.5d
+		}
+		{
+			id: "3EB37D01BC140C6B"
+			linked_quest: "2FE9B1D40B363B81"
+			shape: "square"
+			x: 58.5d
+			y: 35.5d
+		}
+		{
+			id: "02641BB23E05B937"
+			linked_quest: "46F5A1BCF4826DD5"
+			shape: "square"
+			x: 2.5d
+			y: 5.5d
+		}
+		{
+			id: "74D60E845C36207B"
+			linked_quest: "4EAA3F6A2503AAB9"
+			shape: "square"
+			x: 69.0d
+			y: 47.0d
+		}
+		{
+			id: "44B689580A71EB84"
+			linked_quest: "1E4E788CF71FAEEC"
+			shape: "square"
+			x: 69.0d
+			y: 48.0d
+		}
+		{
+			id: "45434B9928F3A292"
+			linked_quest: "340E7D08E8994856"
+			shape: "square"
+			x: 73.5d
+			y: 48.0d
+		}
+		{
+			id: "0073D2040C763CE1"
+			linked_quest: "37F723168DD607BA"
+			shape: "square"
+			x: 73.5d
+			y: 47.0d
+		}
+		{
+			id: "6D85907CB036CF4C"
+			linked_quest: "6BBAF79E41AA650B"
+			shape: "square"
+			x: 15.0d
+			y: 24.0d
+		}
+		{
+			id: "5CB30DB56FD57A89"
+			linked_quest: "0AE0D370077A0A39"
+			shape: "square"
+			x: 82.5d
+			y: 13.5d
+		}
+		{
+			id: "029F336EF051A2AC"
+			linked_quest: "7B81B61A48031A08"
+			shape: "square"
+			x: 86.5d
+			y: 35.5d
+		}
+		{
+			id: "43B7629605AB6F32"
+			linked_quest: "4D491DB703A5B388"
+			shape: "square"
+			x: 86.5d
+			y: 34.5d
+		}
+		{
+			id: "0909F5D8BBDCA032"
+			linked_quest: "013B7A748F465DCE"
+			shape: "square"
+			x: 82.5d
+			y: 20.5d
+		}
+		{
+			id: "25F2A24A90429E1E"
+			linked_quest: "38EAC004EBCD7D8C"
+			shape: "square"
+			x: 81.5d
+			y: 21.5d
+		}
+		{
+			id: "0C6BEDEDDF6088CD"
+			linked_quest: "0312B9F7F2A08BF3"
+			shape: "square"
+			x: 81.5d
+			y: 24.5d
+		}
+		{
+			id: "62BD2F42B60C98BD"
+			linked_quest: "64E984E0E51C2925"
+			shape: "square"
+			x: 4.5d
+			y: 5.5d
+		}
+		{
+			id: "4778D928CAE67CDD"
+			linked_quest: "0A8B119469340C61"
+			shape: "square"
+			x: 5.5d
+			y: 5.5d
+		}
+		{
+			id: "34EBD41CBBECB8F1"
+			linked_quest: "4B88ADD0028D819C"
+			shape: "square"
+			x: 5.5d
+			y: 6.5d
+		}
+		{
+			id: "04BB67B98F7387EA"
+			linked_quest: "5371B8E8DEB2EE8D"
+			shape: "square"
+			x: 3.5d
+			y: 5.5d
+		}
+		{
+			id: "4221051396006FF3"
+			linked_quest: "7F851BB65C9BAE7C"
+			shape: "square"
+			x: 2.5d
+			y: 6.5d
+		}
+		{
+			id: "5CDC13C75D1081E4"
+			linked_quest: "0EFDBBE26C72A14B"
+			shape: "square"
+			x: 43.5d
+			y: 38.0d
+		}
+		{
+			id: "68287C68CC859561"
+			linked_quest: "3498B32DDAD01C51"
+			shape: "square"
+			x: 81.5d
+			y: 20.5d
+		}
+		{
+			id: "027B60F720807D90"
+			linked_quest: "4883B56A4DB342FF"
+			shape: "square"
+			x: 34.5d
+			y: 23.5d
+		}
+		{
+			id: "23F8E8CE7B8CE55C"
+			linked_quest: "2F5A4EBF565FB9C4"
+			shape: "square"
+			x: 13.0d
+			y: 23.0d
+		}
+		{
+			id: "5E37B63656B3A83B"
+			linked_quest: "234EA81FE2C90BD8"
+			shape: "square"
+			x: 13.0d
+			y: 25.0d
+		}
+		{
+			id: "5862EE74CF2A0D57"
+			linked_quest: "4BBDADE7C62B4E5F"
+			shape: "square"
+			x: 14.0d
+			y: 24.0d
+		}
+		{
+			id: "3617F063B03BD851"
+			linked_quest: "25651FAF5E685F7A"
+			shape: "square"
+			x: 21.5d
+			y: 23.5d
+		}
+		{
+			id: "6D7421C35522D1C8"
+			linked_quest: "155209DA4540C9FE"
+			shape: "square"
+			x: 21.5d
+			y: 34.5d
+		}
+		{
+			id: "5C6F68052E4A351F"
+			linked_quest: "343295B87BC319C7"
+			shape: "square"
+			x: 21.5d
+			y: 35.5d
+		}
+		{
+			id: "18A894E0B70A2FEE"
+			linked_quest: "645F30F7701E6E3E"
+			shape: "square"
+			x: 34.5d
+			y: 24.5d
+		}
+		{
+			id: "16656B80BF8F3D39"
+			linked_quest: "1F527D09CF60EA0E"
+			shape: "square"
+			x: 37.5d
+			y: 12.5d
+		}
+		{
+			id: "75AD3EE5EC00DB66"
+			linked_quest: "3AF458C341F84C4B"
+			shape: "square"
+			x: 37.5d
+			y: 13.5d
+		}
+		{
+			id: "5A71EE6E6CF1A732"
+			linked_quest: "6D30FED4B168870A"
+			shape: "square"
+			x: 38.5d
+			y: 13.5d
+		}
+		{
+			id: "7070BA495DD6621A"
+			linked_quest: "093C56FCC6F9ACDE"
+			shape: "square"
+			x: 38.5d
+			y: 12.5d
+		}
+		{
+			id: "3D05AFC6DD076C07"
+			linked_quest: "1990C2A85DCFA8DF"
+			shape: "square"
+			x: 43.5d
+			y: 10.0d
+		}
+		{
+			id: "720E15149AD2EFD0"
+			linked_quest: "474D7E2374131081"
+			shape: "square"
+			x: 53.0d
+			y: 12.5d
+		}
+		{
+			id: "07A8B35893284AC8"
+			linked_quest: "6555623EEF52CB9D"
+			shape: "square"
+			x: 16.0d
+			y: 23.0d
+		}
+		{
+			id: "1020F2DEFCBE3FDA"
+			linked_quest: "7311ADCEF43F4A68"
+			shape: "square"
+			x: 17.0d
+			y: 25.0d
+		}
+		{
+			id: "7D42CD9B98BB9589"
+			linked_quest: "45FC1A47C5648550"
+			shape: "square"
+			x: 55.5d
+			y: 24.5d
+		}
+		{
+			id: "2FD518C7259197E9"
+			linked_quest: "3D04498CB9595AFA"
+			shape: "square"
+			x: 74.0d
+			y: 23.5d
+		}
+		{
+			id: "15D9EF17E8E5DA08"
+			linked_quest: "306E8ABD3A77286A"
+			shape: "square"
+			x: 81.5d
+			y: 26.5d
+		}
+		{
+			id: "69E5E9CA78A9930E"
+			linked_quest: "254373DA031AF2D3"
+			shape: "square"
+			x: 81.5d
+			y: 27.5d
+		}
+		{
+			id: "5BA328E93E3305D6"
+			linked_quest: "1481B78D6E714649"
+			shape: "square"
+			x: 81.5d
+			y: 13.5d
+		}
+		{
+			id: "6E16FFA9C39B064B"
+			linked_quest: "133B80508BE741CC"
+			shape: "square"
+			x: 86.5d
+			y: 12.5d
+		}
+		{
+			id: "4467428CDEE2FE55"
+			linked_quest: "625A18CEE48FB4B4"
+			shape: "square"
+			x: 86.5d
+			y: 13.5d
+		}
+		{
+			id: "7DA740682DC5AD16"
+			linked_quest: "59EC1B8659BEDB92"
+			shape: "square"
+			x: 81.5d
+			y: 34.5d
+		}
+		{
+			id: "182445DAB01F7B7E"
+			linked_quest: "668145D7F1F10984"
+			shape: "square"
+			x: -1.5d
+			y: 40.5d
+		}
+		{
+			id: "5376800D4547163B"
+			linked_quest: "73FED89B63935EA6"
+			shape: "square"
+			x: -1.5d
+			y: 36.5d
+		}
+		{
+			id: "1F296EE8C0193615"
+			linked_quest: "48FCE0373925DCD5"
+			shape: "square"
+			x: 66.0d
+			y: 23.5d
+		}
+		{
+			id: "3AABBBCD1F06EB34"
+			linked_quest: "556CD5EAE8EFC51A"
+			shape: "square"
+			x: 37.5d
+			y: 35.5d
+		}
+		{
+			disable_toast: true
+			id: "62B17402443A87AF"
+			linked_quest: "67477A904F9D8A45"
+			shape: "square"
+			x: 21.5d
+			y: 2.5d
+		}
+		{
+			id: "651E98252EB5CE4A"
+			linked_quest: "2C3892846B7E8CEB"
+			shape: "square"
+			x: 55.5d
+			y: 3.5d
+		}
+		{
+			id: "4F45D0931FCBA89B"
+			linked_quest: "7D76087FE650495D"
+			shape: "square"
+			x: 55.5d
+			y: 2.5d
+		}
+		{
+			disable_toast: true
+			id: "2E1F5F3DB8A93DF6"
+			linked_quest: "2B5E15D79D9DFFA1"
+			shape: "square"
+			x: 43.5d
+			y: 3.0d
+		}
+		{
+			disable_toast: true
+			id: "53763FF4F335AB75"
+			linked_quest: "668BA59F84635A22"
+			shape: "square"
+			x: 58.5d
+			y: 3.0d
+		}
+		{
+			disable_toast: true
+			id: "7B217F17F9122FF0"
+			linked_quest: "5C32FA1BBB223F71"
+			shape: "square"
+			x: 73.5d
+			y: 3.0d
+		}
+		{
+			disable_toast: true
+			id: "03C9909D2E8DD921"
+			linked_quest: "5087C4778D86F57C"
+			shape: "square"
+			x: 23.5d
+			y: 2.5d
+		}
+		{
+			disable_toast: true
+			id: "6A3BDF5C5D90BBEF"
+			linked_quest: "2802FFA72032B471"
+			shape: "square"
+			x: 22.5d
+			y: 3.5d
+		}
+		{
+			disable_toast: true
+			id: "7AACEA15C43B6FD3"
+			linked_quest: "746FBED86F96E156"
+			shape: "square"
+			x: 49.5d
+			y: 3.0d
+		}
+		{
+			disable_toast: true
+			id: "569ED8B67CCA97EB"
+			linked_quest: "3EA27D349BF916AD"
+			shape: "square"
+			x: 53.0d
+			y: 3.0d
+		}
+		{
+			disable_toast: true
+			id: "63A3148C02D0E5E2"
+			linked_quest: "270D56769E646904"
+			shape: "square"
+			x: 37.5d
+			y: 2.5d
+		}
+		{
+			disable_toast: true
+			id: "52401AC14F3601D5"
+			linked_quest: "588CD410870A8C84"
+			shape: "square"
+			x: 37.5d
+			y: 3.5d
+		}
+		{
+			disable_toast: true
+			id: "170F338F0D57B6CF"
+			linked_quest: "10CE1A9118002394"
+			shape: "square"
+			x: 22.5d
+			y: 2.5d
+		}
+		{
+			disable_toast: true
+			id: "286B88723CA524C6"
+			linked_quest: "61C75FBC105327D4"
+			shape: "square"
+			x: 28.5d
+			y: 2.5d
+		}
+		{
+			id: "3F3EB0E018D710FF"
+			linked_quest: "7303B17B775EC792"
+			shape: "square"
+			x: 15.0d
+			y: 23.0d
+		}
+		{
+			id: "2D8C32E5143D346A"
+			linked_quest: "07CFB62B4B8AE957"
+			shape: "square"
+			x: 15.0d
+			y: 25.0d
+		}
+		{
+			id: "52D8E1917BDD9EEC"
+			linked_quest: "6C013EDBA3F4E4B6"
+			shape: "square"
+			x: 14.0d
+			y: 23.0d
+		}
+		{
+			id: "7629DF1C41789764"
+			linked_quest: "40AB1F6ED1160CCC"
+			shape: "square"
+			x: 14.0d
+			y: 25.0d
+		}
+		{
+			id: "06003FE70D9326B0"
+			linked_quest: "28F7E8E7FA23E92C"
+			shape: "square"
+			x: 66.0d
+			y: 24.5d
+		}
+		{
+			id: "78684D8DDE500C23"
+			linked_quest: "5AFD8FAF2D8075EC"
+			shape: "square"
+			x: 22.5d
+			y: 23.5d
+		}
+		{
+			id: "24BC7F3FA68C2C12"
+			linked_quest: "1AB24C0947C396E9"
+			shape: "square"
+			size: 3.0d
+			x: 10.5d
+			y: 5.5d
+		}
+		{
+			id: "1BB177D206847B53"
+			linked_quest: "3649EE9FB5137F6D"
+			shape: "square"
+			x: 34.5d
+			y: 34.5d
+		}
+		{
+			id: "0E4C9739F0C13183"
+			linked_quest: "0D6B74A36F70F127"
+			shape: "square"
+			x: 34.5d
+			y: 35.5d
+		}
+		{
+			id: "1EF365D94A90C3DD"
+			linked_quest: "5DC740981C17F735"
+			shape: "square"
+			x: 39.5d
+			y: 12.5d
+		}
+		{
+			id: "0FD79B9FD428F723"
+			linked_quest: "3259D2A429D4B276"
+			shape: "square"
+			x: 39.5d
+			y: 13.5d
+		}
+		{
+			id: "4E23C1FF04A859A2"
+			linked_quest: "042C0B16620292E2"
+			shape: "square"
+			x: 82.5d
+			y: 21.5d
+		}
+		{
+			id: "25E98BB362F88F2A"
+			linked_quest: "415F97671A88F766"
+			shape: "square"
+			x: 82.5d
+			y: 23.5d
+		}
+		{
+			id: "157BBC00D5828533"
+			linked_quest: "4F019BBF3067988D"
+			shape: "square"
+			x: 87.5d
+			y: 34.5d
+		}
+		{
+			id: "27305106C26D42FE"
+			linked_quest: "68E8B7E7D4BB9AAB"
+			shape: "square"
+			x: 87.5d
+			y: 13.5d
+		}
+		{
+			id: "48158DDC675DB49A"
+			linked_quest: "6E25D5E8A152B85A"
+			shape: "square"
+			x: 87.5d
+			y: 12.5d
+		}
+		{
+			id: "4C16F16AE13C68D7"
+			linked_quest: "681FBE54C3DEDBA4"
+			shape: "square"
+			x: 82.5d
+			y: 35.5d
+		}
+		{
+			id: "46B56A024EC28964"
+			linked_quest: "46B3EB86F9BB3F39"
+			shape: "square"
+			x: 82.5d
+			y: 34.5d
+		}
+		{
+			id: "5CF7BB00CE270B1D"
+			linked_quest: "68BF49D6CA512419"
+			shape: "square"
+			x: 21.5d
+			y: 45.5d
+		}
+		{
+			id: "5545A73802E777C8"
+			linked_quest: "6F36DB3FFF4E4378"
+			shape: "square"
+			x: 43.5d
+			y: 42.5d
+		}
+		{
+			id: "37A2E82EC321935E"
+			linked_quest: "5147057645ECE89E"
+			shape: "square"
+			x: 21.5d
+			y: 44.5d
+		}
+		{
+			id: "0ED7ECB73CF232EC"
+			linked_quest: "053ADA310785FC71"
+			shape: "square"
+			x: 28.5d
+			y: 45.5d
+		}
+		{
+			id: "0657B8C8CA939A32"
+			linked_quest: "19ECB08B4227BC7B"
+			shape: "square"
+			x: 49.5d
+			y: 35.5d
+		}
+		{
+			id: "1AF62BA76434E070"
+			linked_quest: "308AC0CC5D662021"
+			shape: "square"
+			x: 69.5d
+			y: 27.5d
+		}
+		{
+			id: "6C2F1FA6EC844A80"
+			linked_quest: "56D310F981B62BD5"
+			shape: "square"
+			x: 69.5d
+			y: 24.5d
+		}
+		{
+			id: "1552818D836A6879"
+			linked_quest: "79ABE39E508D5E14"
+			shape: "square"
+			x: 64.5d
+			y: 44.5d
+		}
+		{
+			id: "3E366573C8AAC6CA"
+			linked_quest: "612613B8C4FA2288"
+			shape: "square"
+			x: 64.5d
+			y: 45.5d
+		}
+		{
+			id: "6A7BE4E959F9998D"
+			linked_quest: "3544DD5F90BB8904"
+			shape: "square"
+			x: 65.5d
+			y: 45.5d
+		}
+		{
+			id: "1ECA0D49116E19EB"
+			linked_quest: "6AA38492210E93DA"
+			shape: "square"
+			x: 87.5d
+			y: 35.5d
+		}
+		{
+			id: "2A1A67CE0020D059"
+			linked_quest: "7C3F81D17F091040"
+			shape: "square"
+			x: 82.5d
+			y: 27.5d
+		}
+		{
+			id: "199E7FB522461FF6"
+			linked_quest: "59A6667B25B3B02E"
+			shape: "square"
+			x: 58.5d
+			y: 15.5d
+		}
+		{
+			id: "7A4C15534A9E8272"
+			linked_quest: "329688C6351DE766"
+			shape: "square"
+			x: 58.5d
+			y: 32.0d
+		}
+		{
+			id: "44C432F3D037BE16"
+			linked_quest: "796E64123A4AE734"
+			shape: "square"
+			x: 49.5d
+			y: 32.0d
+		}
+		{
+			id: "167969BF01193D44"
+			linked_quest: "39F5E03E38386235"
+			shape: "square"
+			x: 49.5d
+			y: 33.0d
+		}
+		{
+			id: "674DBB8F35A1D2FF"
+			linked_quest: "3C036F9B4E2A1415"
+			shape: "square"
+			x: 50.5d
+			y: 32.5d
+		}
+		{
+			id: "0C9BEC363CB590BE"
+			linked_quest: "77EB9110BDB5C7D8"
+			shape: "square"
+			x: 58.5d
+			y: 33.0d
+		}
+		{
+			id: "6111E979DCA219EC"
+			linked_quest: "78C82B1087A91843"
+			shape: "square"
+			x: 43.5d
+			y: 32.5d
+		}
+		{
+			id: "18BF30C32D9AD09D"
+			linked_quest: "1A47FA072030DB05"
+			shape: "square"
+			x: 49.5d
+			y: 47.0d
+		}
+		{
+			id: "572304DD851A4194"
+			linked_quest: "6D6071F6CA488DC3"
+			shape: "square"
+			x: 49.5d
+			y: 48.0d
+		}
+		{
+			id: "05880D3D89E0C5CD"
+			linked_quest: "0C35A1816B69F26C"
+			shape: "square"
+			x: 46.5d
+			y: 48.0d
+		}
+		{
+			id: "1EC39D97FD5E31CF"
+			linked_quest: "25B29EDF6CE54D35"
+			shape: "square"
+			x: 46.5d
+			y: 47.0d
+		}
+		{
+			id: "41800DE296AC2709"
+			linked_quest: "4EAD5FE67C6D5689"
+			shape: "square"
+			x: 43.5d
+			y: 47.0d
+		}
+		{
+			id: "7EC7B56AA70EFC25"
+			linked_quest: "417DD77CC8BFFF88"
+			shape: "square"
+			x: 59.5d
+			y: 43.0d
+		}
+		{
+			id: "18CCD48902142EF9"
+			linked_quest: "41804912AED1EC7C"
+			shape: "square"
+			x: 43.5d
+			y: 44.5d
+		}
+		{
+			id: "0BBB24A9866B7EB5"
+			linked_quest: "63B40638E76C7965"
+			shape: "square"
+			x: 37.5d
+			y: 44.5d
+		}
+		{
+			id: "43F85D31245C7E62"
+			linked_quest: "079C6BB5A2987603"
+			shape: "square"
+			x: 43.5d
+			y: 45.5d
+		}
+		{
+			id: "174E6B02DBA84818"
+			linked_quest: "2605801688661363"
+			shape: "square"
+			x: 37.5d
+			y: 45.5d
+		}
+		{
+			id: "24587CAE57BDF848"
+			linked_quest: "11D851BCACC0B40C"
+			shape: "square"
+			x: 28.5d
+			y: 44.5d
+		}
+		{
+			id: "6E2AA460FBA82061"
+			linked_quest: "219B68285A64A4F5"
+			shape: "square"
+			x: 46.5d
+			y: 42.5d
+		}
+		{
+			id: "75CB8A7621D7481C"
+			linked_quest: "601BD92A6B84B5AE"
+			shape: "square"
+			x: 58.5d
+			y: 42.0d
+		}
+		{
+			id: "06A456EB20DF3E32"
+			linked_quest: "736C0576F41074D1"
+			shape: "square"
+			x: 58.5d
+			y: 43.0d
+		}
+		{
+			id: "679D4D199F8258D2"
+			linked_quest: "2BCDAC9BB4D6AC86"
+			shape: "square"
+			x: 59.5d
+			y: 42.0d
+		}
+		{
+			id: "75BAEB30CC32247F"
+			linked_quest: "6C59545B3E2DED38"
+			shape: "square"
+			x: 49.5d
+			y: 34.5d
+		}
+		{
+			id: "1E0D2DDA3AA94411"
+			linked_quest: "239D14F89DF0915D"
+			shape: "square"
+			x: 49.5d
+			y: 15.0d
+		}
+		{
+			id: "0E85B60C67C0BCB6"
+			linked_quest: "6FB180F3389D2C5E"
+			shape: "square"
+			x: 49.5d
+			y: 16.0d
+		}
+		{
+			id: "5C9DCEA050123750"
+			linked_quest: "426AB492CFD80F00"
+			shape: "square"
+			x: 53.0d
+			y: 10.0d
+		}
+		{
+			id: "7B7C132A01877CDB"
+			linked_quest: "005FA2AD4152A124"
+			shape: "square"
+			x: 53.0d
+			y: 11.0d
+		}
+		{
+			id: "46BC9E334AD87831"
+			linked_quest: "442F97D58677E6CF"
+			shape: "square"
+			x: 43.5d
+			y: 15.0d
+		}
+		{
+			id: "7AAA56550BFBF7F8"
+			linked_quest: "18ED47FE75D95CE8"
+			shape: "square"
+			x: 43.5d
+			y: 16.0d
+		}
+		{
+			id: "33F0587D25433532"
+			linked_quest: "2D279424EB0B8512"
+			shape: "square"
+			x: 43.5d
+			y: 13.5d
+		}
+		{
+			id: "4AFE8848A598D8F6"
+			linked_quest: "62C1C8BB3C7E08B8"
+			shape: "square"
+			x: 43.5d
+			y: 12.5d
+		}
+		{
+			id: "3C5D84144C3B481D"
+			linked_quest: "1B979B32EF188C44"
+			shape: "square"
+			x: 49.5d
+			y: 13.5d
+		}
+		{
+			id: "694680C41B56F016"
+			linked_quest: "344B8ABFB8C5D13D"
+			shape: "square"
+			x: 49.5d
+			y: 12.5d
+		}
+		{
+			id: "0104A05DCB8CA79D"
+			linked_quest: "7A3666E3BC4669D6"
+			shape: "square"
+			x: 38.5d
+			y: 24.5d
+		}
+		{
+			disable_toast: true
+			id: "7EF9EDCB85964B8F"
+			linked_quest: "64B11446BAF1F3A7"
+			shape: "square"
+			x: 28.5d
+			y: 3.5d
+		}
+		{
+			disable_toast: true
+			id: "330BBF7B00EFD75E"
+			linked_quest: "14C6935168DD48FB"
+			shape: "square"
+			x: 23.5d
+			y: 3.5d
+		}
+		{
+			id: "4B58153D0DBB8E38"
+			linked_quest: "2D10B2F61FF4F3E2"
+			shape: "square"
+			x: 44.5d
+			y: 16.0d
+		}
+		{
+			id: "7EAFA45F2AA5B9DA"
+			linked_quest: "21386B7100D7A4D2"
+			shape: "square"
+			x: 44.5d
+			y: 15.0d
+		}
+		{
+			disable_toast: true
+			id: "03178864555D6C23"
+			linked_quest: "0956D78A06CDFB0B"
+			shape: "square"
+			x: 70.5d
+			y: 2.5d
+		}
+		{
+			disable_toast: true
+			id: "0BC4C94D9BCA3037"
+			linked_quest: "60DC696424FF2AAE"
+			shape: "square"
+			x: 69.5d
+			y: 3.5d
+		}
+		{
+			disable_toast: true
+			id: "691159FE4B12397A"
+			linked_quest: "516D0A218F7D5047"
+			shape: "square"
+			x: 69.5d
+			y: 2.5d
+		}
+		{
+			id: "54121BFE7A34E97C"
+			linked_quest: "564BFC67EBBC72FE"
+			shape: "square"
+			x: 44.5d
+			y: 13.5d
+		}
+		{
+			id: "6BBCD5B65B3828D1"
+			linked_quest: "162BC385D5A6073E"
+			shape: "square"
+			x: 44.5d
+			y: 12.5d
+		}
+		{
+			disable_toast: true
+			id: "66808562089F2C9D"
+			linked_quest: "76F4DE22990419C6"
+			shape: "square"
+			x: 29.5d
+			y: 3.5d
+		}
+		{
+			disable_toast: true
+			id: "78FA795DA83E65C8"
+			linked_quest: "012B3874B788AA57"
+			shape: "square"
+			x: 29.5d
+			y: 2.5d
+		}
+		{
+			disable_toast: true
+			id: "38B4371629C687A9"
+			linked_quest: "7C66EEB3E7065DBA"
+			shape: "square"
+			x: 38.5d
+			y: 2.5d
+		}
+		{
+			disable_toast: true
+			id: "0ADCA8D5E48B3D87"
+			linked_quest: "16496449846A160C"
+			shape: "square"
+			x: 38.5d
+			y: 3.5d
+		}
+		{
+			id: "0F6B2D6188C91AB8"
+			linked_quest: "24978CA3911B83C5"
+			shape: "square"
+			size: 2.0d
+			x: 57.0d
+			y: 37.5d
+		}
+		{
+			id: "78E79F89678B1EF1"
+			linked_quest: "35289304CDBC61A6"
+			shape: "square"
+			size: 2.0d
+			x: 48.0d
+			y: 37.5d
+		}
+		{
+			id: "6C48B553EAD873FC"
+			linked_quest: "6BFE354A276B6237"
+			shape: "square"
+			size: 2.0d
+			x: 80.0d
+			y: 18.5d
+		}
+		{
+			id: "2B0ACB7D9785E125"
+			linked_quest: "6EC24F55C4F534CC"
+			shape: "square"
+			size: 2.0d
+			x: 82.0d
+			y: 18.5d
+		}
+		{
+			id: "724108E2553F41B2"
+			linked_quest: "0932901A953FDD92"
+			shape: "square"
+			size: 2.0d
+			x: 80.0d
+			y: 30.0d
+		}
+		{
+			id: "4F482022AE527CB7"
+			linked_quest: "2A2C2F2483C64C99"
+			shape: "square"
+			size: 2.0d
+			x: 82.0d
+			y: 30.0d
+		}
+		{
+			id: "38A93189EBA14FE8"
+			linked_quest: "6F5E91C46C9F014E"
+			shape: "square"
+			x: 53.0d
+			y: 13.5d
+		}
+		{
+			id: "56B4FDCA451B2D47"
+			linked_quest: "26ACD03FAFDDCDBB"
+			shape: "square"
+			x: 22.5d
+			y: 24.5d
+		}
+		{
+			id: "4500551CBDA727F0"
+			linked_quest: "60F6E425DC0814A7"
+			shape: "square"
+			x: 23.5d
+			y: 23.5d
+		}
+		{
+			id: "57397537834A6B94"
+			linked_quest: "3669848ED9339DF7"
+			shape: "square"
+			x: 24.5d
+			y: 24.5d
+		}
+		{
+			id: "071B9E0755FD2E83"
+			linked_quest: "11C7FC25DCD9E8D1"
+			shape: "square"
+			x: 24.5d
+			y: 23.5d
+		}
+		{
+			id: "6A798C2AB1E8D259"
+			linked_quest: "2F9A537F33853FDD"
+			shape: "square"
+			x: 23.5d
+			y: 24.5d
+		}
+		{
+			id: "0027184B9623622B"
+			linked_quest: "4467DE82945BCB85"
+			shape: "square"
+			x: 82.5d
+			y: 24.5d
+		}
+		{
+			id: "01B5C0CF5BB9A49F"
+			linked_quest: "5349FB227F6EF64A"
+			shape: "square"
+			x: 43.5d
+			y: 34.5d
+		}
+		{
+			id: "66CEC31296C437F7"
+			linked_quest: "6DCD6173921B3295"
+			shape: "square"
+			x: 43.5d
+			y: 35.5d
+		}
+		{
+			id: "086A87B2A1581DE0"
+			linked_quest: "3EFEF926E0773776"
+			shape: "square"
+			size: 2.0d
+			x: 61.5d
+			y: 21.0d
+		}
+		{
+			id: "328FC0713F35122B"
+			linked_quest: "1FF549793509450A"
+			shape: "square"
+			size: 2.0d
+			x: 64.5d
+			y: 21.0d
+		}
+		{
+			id: "3E71ED546DD4EAC9"
+			linked_quest: "7E0BBC3D643B3095"
+			shape: "square"
+			size: 2.0d
+			x: 61.5d
+			y: 27.0d
+		}
+		{
+			id: "482A807739CC5275"
+			linked_quest: "2F59B35C8D250A9B"
+			shape: "square"
+			size: 2.0d
+			x: 64.5d
+			y: 27.0d
+		}
+		{
+			disable_toast: true
+			id: "2537F380BD42D574"
+			linked_quest: "5811D7912A386E41"
+			shape: "square"
+			x: 70.5d
+			y: 3.5d
+		}
+		{
+			disable_toast: true
+			id: "0A37E92A3DC73690"
+			linked_quest: "2F94708190D87058"
+			shape: "square"
+			x: 83.5d
+			y: 18.0d
+		}
+		{
+			disable_toast: true
+			id: "0371DAAFEEBEC751"
+			linked_quest: "56C260CCED0E43CD"
+			shape: "square"
+			x: 83.5d
+			y: 19.0d
+		}
+		{
+			disable_toast: true
+			id: "48BD5F2D564C2FC2"
+			linked_quest: "40F1C37634DDEC36"
+			shape: "square"
+			x: 83.5d
+			y: 24.0d
+		}
+		{
+			disable_toast: true
+			id: "4A215892E2EADE9B"
+			linked_quest: "06097773E9744423"
+			shape: "square"
+			x: 83.5d
+			y: 29.5d
+		}
+		{
+			disable_toast: true
+			id: "33546A1DD7F58A65"
+			linked_quest: "486D7A8D2C3B95E4"
+			shape: "square"
+			x: 83.5d
+			y: 30.5d
+		}
+		{
+			id: "7CFFE7338D5B52CF"
+			linked_quest: "3E87096F296CD0BE"
+			shape: "square"
+			x: 21.5d
+			y: 3.5d
+		}
+		{
+			disable_toast: true
+			id: "58F80CC3FEC7B700"
+			linked_quest: "486172C8252B27E6"
+			shape: "square"
+			size: 2.0d
+			x: -3.0d
+			y: 35.0d
+		}
+		{
+			disable_toast: true
+			id: "00EEAFDDD8E5CD8E"
+			linked_quest: "75112303AE1F195C"
+			shape: "square"
+			size: 3.0d
+			x: 4.0d
+			y: 24.0d
+		}
+		{
+			disable_toast: true
+			id: "6E22A546A1797CB5"
+			linked_quest: "71696EB3AA216CA6"
+			shape: "square"
+			size: 2.0d
+			x: -8.0d
+			y: 23.0d
+		}
+		{
+			disable_toast: true
+			id: "283A56B1C0808820"
+			linked_quest: "5F5F41D5FBB669CB"
+			shape: "square"
+			size: 2.0d
+			x: -8.0d
+			y: 25.0d
+		}
+		{
+			disable_toast: true
+			id: "34C7BF381755E15B"
+			linked_quest: "6F606ABDAB1F5F26"
+			shape: "square"
+			size: 2.0d
+			x: 7.0d
+			y: 21.0d
+		}
+		{
+			disable_toast: true
+			id: "74B29B17EBCD4D13"
+			linked_quest: "2D43B3124A0BA216"
+			shape: "square"
+			size: 2.0d
+			x: 7.0d
+			y: 23.0d
+		}
+		{
+			disable_toast: true
+			id: "73F45F670A8505EC"
+			linked_quest: "77DCFC01D9D06A54"
+			shape: "square"
+			size: 2.0d
+			x: 7.0d
+			y: 25.0d
+		}
+		{
+			disable_toast: true
+			id: "40E6F5DF25C7B57C"
+			linked_quest: "004263F488605CEA"
+			shape: "square"
+			size: 2.0d
+			x: 7.0d
+			y: 27.0d
+		}
+		{
+			disable_toast: true
+			id: "0B5F34F3F5C15862"
+			linked_quest: "2D72592B7B2114AC"
+			shape: "square"
+			size: 2.0d
+			x: 10.0d
+			y: 21.0d
+		}
+		{
+			disable_toast: true
+			id: "01238133169C9A34"
+			linked_quest: "2D9C4D51C9F1A584"
+			shape: "square"
+			size: 2.0d
+			x: 10.0d
+			y: 23.0d
+		}
+		{
+			disable_toast: true
+			id: "31D52880F71FBB2E"
+			linked_quest: "7B8946D2ED3D9276"
+			shape: "square"
+			size: 2.0d
+			x: 10.0d
+			y: 25.0d
+		}
+		{
+			disable_toast: true
+			id: "0D9402D23298326D"
+			linked_quest: "2A4B95480CF8350C"
+			shape: "square"
+			size: 2.0d
+			x: 10.0d
+			y: 27.0d
+		}
+		{
+			disable_toast: true
+			id: "73A5124C814C3479"
+			linked_quest: "24A35B574CAEC350"
+			shape: "square"
+			x: 17.0d
+			y: 24.0d
+		}
+		{
+			disable_toast: true
+			id: "4A227A2F7C95CE9C"
+			linked_quest: "38DE33BBDB494762"
+			shape: "square"
+			size: 2.0d
+			x: -3.0d
+			y: 13.0d
+		}
+		{
+			disable_toast: true
+			id: "45509193CC16E764"
+			linked_quest: "3B42820F3BD8BA42"
+			shape: "square"
+			size: 2.0d
+			x: 7.0d
+			y: 13.0d
+		}
+		{
+			disable_toast: true
+			id: "12A7A6B9C7F1017A"
+			linked_quest: "6B90866A84DF81E3"
+			shape: "square"
+			size: 2.0d
+			x: 10.0d
+			y: 13.0d
+		}
+		{
+			disable_toast: true
+			id: "1B30C73B4FE3BE42"
+			linked_quest: "77BBD5B4BF3E92EB"
+			shape: "square"
+			size: 2.0d
+			x: 4.0d
+			y: 13.0d
+		}
+		{
+			disable_toast: true
+			id: "5525A38686AA8B3F"
+			linked_quest: "55D5870AEF8758F3"
+			shape: "square"
+			size: 2.0d
+			x: 0.0d
+			y: 13.0d
+		}
+		{
+			disable_toast: true
+			id: "10D3AD55B3501CCD"
+			linked_quest: "48A6D1327F3B85FC"
+			shape: "square"
+			size: 2.0d
+			x: -3.0d
+			y: 9.0d
+		}
+		{
+			disable_toast: true
+			id: "0EE1849EF458449E"
+			linked_quest: "650AE200D404FA61"
+			shape: "square"
+			x: 43.5d
+			y: 48.0d
+		}
+		{
+			disable_toast: true
+			id: "3D9A73FEBBDF7A0C"
+			linked_quest: "2315A9FD44D60D71"
+			shape: "square"
+			x: 69.5d
+			y: 26.5d
+		}
+		{
+			disable_toast: true
+			id: "1F86E3202E6E3BAE"
+			linked_quest: "1197E342051C2F0C"
+			shape: "square"
+			x: 70.5d
+			y: 27.5d
+		}
+		{
+			disable_toast: true
+			id: "033717745DEC1600"
+			linked_quest: "20B6BD4C405B7690"
+			shape: "square"
+			x: 69.5d
+			y: 23.5d
+		}
+		{
+			disable_toast: true
+			id: "4358A7A935E47F3D"
+			linked_quest: "1CFD83FC738330EE"
+			shape: "square"
+			x: 70.5d
+			y: 23.5d
+		}
+		{
+			disable_toast: true
+			id: "62676398BF4CD143"
+			linked_quest: "4CFD55B15EC543B2"
+			shape: "square"
+			x: 66.0d
+			y: 21.5d
+		}
+		{
+			disable_toast: true
+			id: "1A863E8E221ED470"
+			linked_quest: "01C6B45A5F054AE5"
+			shape: "square"
+			x: 66.0d
+			y: 20.5d
+		}
+		{
+			disable_toast: true
+			id: "5F38F88A0770425C"
+			linked_quest: "3CB0AEDA035919A6"
+			shape: "square"
+			x: 66.0d
+			y: 26.5d
+		}
+		{
+			disable_toast: true
+			id: "3B7D21FB62BF26DB"
+			linked_quest: "655CB79909B9B312"
+			shape: "square"
+			x: 66.0d
+			y: 27.5d
+		}
+		{
+			disable_toast: true
+			id: "3DA6E20C1954E02B"
+			linked_quest: "0D47ADC996A6D68B"
+			shape: "square"
+			x: 30.0d
+			y: 24.5d
+		}
+		{
+			disable_toast: true
+			id: "1EA4762AFD704DCE"
+			linked_quest: "252E2A7832D5BB8F"
+			shape: "square"
+			x: 29.0d
+			y: 23.5d
+		}
+		{
+			disable_toast: true
+			id: "6112435BAAF89F74"
+			linked_quest: "64EE2E6CAF62C904"
+			shape: "square"
+			x: 30.0d
+			y: 23.5d
+		}
+		{
+			disable_toast: true
+			id: "4A2C2B0DE50CE298"
+			linked_quest: "698DD96DF04DE22B"
+			shape: "square"
+			x: 16.0d
+			y: 25.0d
+		}
+		{
+			disable_toast: true
+			id: "057807A2A300CBD0"
+			linked_quest: "05D2549A4BA71DE4"
+			shape: "square"
+			x: 17.0d
+			y: 23.0d
+		}
+		{
+			disable_toast: true
+			id: "16AC68BA89BE20EC"
+			linked_quest: "68DC297D7E9EC372"
+			shape: "square"
+			x: 31.0d
+			y: 23.5d
+		}
+		{
+			disable_toast: true
+			id: "7EB665344B51ECE3"
+			linked_quest: "1E278A418BF40789"
+			shape: "square"
+			x: 29.0d
+			y: 24.5d
+		}
+		{
+			disable_toast: true
+			id: "02BE1EA794218788"
+			linked_quest: "45AE0AEA7097AEEE"
+			shape: "square"
+			x: 65.5d
+			y: 44.5d
+		}
+		{
+			disable_toast: true
+			id: "16F8B5C4029B6DD1"
+			linked_quest: "5BF8508DFFA725DD"
+			shape: "square"
+			x: 37.5d
+			y: 24.5d
+		}
+		{
+			disable_toast: true
+			id: "384416A4680FDBBF"
+			linked_quest: "5BF8508DFFA725DD"
+			shape: "square"
+			x: 49.5d
+			y: 10.0d
+		}
+		{
+			disable_toast: true
+			id: "7497B3193D5A3C2B"
+			linked_quest: "4A485411781156A8"
+			shape: "square"
+			x: 49.5d
+			y: 11.0d
+		}
+		{
+			disable_toast: true
+			id: "45B48A458EF212AB"
+			linked_quest: "05548BB3247C1645"
+			shape: "square"
+			x: 31.0d
+			y: 24.5d
+		}
+		{
+			disable_toast: true
+			id: "0FE3F071370AAB4A"
+			linked_quest: "7E21B7E643AA3C5F"
+			shape: "square"
+			x: 37.5d
+			y: 34.5d
+		}
+		{
+			disable_toast: true
+			id: "3CE9110A2AE1315E"
+			linked_quest: "31B4BDE9526D878C"
+			shape: "square"
+			x: 70.5d
+			y: 24.5d
+		}
+		{
+			disable_toast: true
+			id: "7997398D9C77F13D"
+			linked_quest: "4DC0CA144311D600"
+			shape: "square"
+			x: 70.5d
+			y: 26.5d
+		}
+		{
+			disable_toast: true
+			id: "632C1AAAC4C0E7CD"
+			linked_quest: "59A9557AC34D51CC"
+			shape: "square"
+			x: 16.0d
+			y: 24.0d
+		}
+	]
+	quests: [
+		{
+			dependencies: ["6ADE6FB6EA56CE28"]
+			description: [
+				"使用下界合金碎片和金锭制作而成的珍贵材料，也可以在&n高炉&r中烧炼 &d下界合金装备&r 获取。用以制作更高级的工具与装备。"
+				""
+				"下界合金锻造模板需要前往猪灵的 &n堡垒遗迹&r 获取。"
+			]
+			id: "58304F0993278036"
+			rewards: [
+				{
+					id: "083156972411FBCA"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0E8839D7F154C67D"
+					item: "minecraft:wither_skeleton_skull"
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "63F5148D6C983131"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
+			x: 36.0d
+			y: 35.0d
+		}
+		{
+			dependencies: ["1F8AD0B187BECE0B"]
+			description: ["末影合金锭的获取需要前往末地外岛，它被末地石包围，寻常情况难以发现。推荐在附魔&d连锁采集&r之后再前往搜寻，挖掘末影合金残骸需要首先使用&dTNT爆炸&r，然后才能进行挖掘。"]
+			id: "3A962EB70A45DCF7"
+			rewards: [{
+				id: "4A6929FAAA37350B"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "5A0FAD4035FE390F"
+				item: "enderitemod:enderite_ingot"
+				type: "item"
+			}]
+			x: 64.5d
+			y: 24.0d
+		}
+		{
+			description: [""]
+			icon: "kubejs:contrary_chronicle_easy"
+			icon_scale: 2.0d
+			id: "54EDB787F7DF74BB"
+			shape: "square"
+			size: 3.0d
+			subtitle: "从这里开始主线任务"
+			tasks: [{
+				id: "2F75B8B86B414E2F"
+				title: "反之编年史"
+				type: "checkmark"
+			}]
+			title: "反之编年史"
+			x: -3.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["54EDB787F7DF74BB"]
+			description: [
+				"&n熔炉&r是非常重要的工作方块，添加了&e大量额外配方&r。你可以将原矿烧制成矿石锭，将生食烧制成熟食。"
+				""
+				"&n高炉&r是熔炉的升级版本。烧制矿石材料的效率翻倍，并额外添加了&e大量额外配方&r，尤其是能够直接将装备等量&d烧融金属锭&r，能够用于回收冒险途中搜集的装备。"
+				""
+				"&n烹饪炉&r是熔炉的升级版本。能以双倍效率烹饪食物，并获得&n额外的配方&r。它能以双倍&d经验获取&r烧制仙人掌，能提升部分食物&e品质&r。"
+			]
+			hide_dependency_lines: true
+			id: "606C1BFA2310A336"
+			rewards: [{
+				id: "0EA581B3EEE2C690"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "6B3279F61730BFB4"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 11.0d
+		}
+		{
+			description: ["添加了许多新附魔，它们的附魔书都有 &a独特纹理&r 和相应的 &a效果描述&r 。对附魔的 &d兼容&r 进行调整，基础的保护或锋利附魔不再与同类附魔冲突，实现近战武器、远程武器之间的附魔互相兼容等。"]
+			hide_dependency_lines: true
+			id: "7A046AFBE6D4FCF2"
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "04182EE9FE6F1722"
+				item: "minecraft:enchanting_table"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 35.0d
+		}
+		{
+			description: ["用于酿造药水、喷溅药水和滞留药水的功能方块。它也是牧师村民的工作站点方块。"]
+			id: "27DD0E2D0D4F10B5"
+			rewards: [{
+				id: "4D9AFC2107EA87DF"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			tasks: [{
+				id: "394DD91BB4D8FAF0"
+				item: "minecraft:brewing_stand"
+				type: "item"
+			}]
+			x: 22.5d
+			y: 35.5d
+		}
+		{
+			dependencies: ["1F8AD0B187BECE0B"]
+			description: ["在返回传送门的四边各放置一颗末地水晶后，将会关闭返回传送门，并逐一重新生成每座黑曜石柱上的原始末地水晶，随后四个末影水晶会向返回传送门正上方射出类似于治愈光柱的光线，最终 &d末影龙会重生&r 。"]
+			id: "1E12E4EE8280FE13"
+			rewards: [{
+				id: "5D3B98DE86A6604F"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				count: 4L
+				id: "7D30D5C53CA7723C"
+				item: "minecraft:end_crystal"
+				type: "item"
+			}]
+			title: "复活末影龙"
+			x: 59.5d
+			y: 24.0d
+		}
+		{
+			dependencies: [
+				"11C0EB60CC5BCEBE"
+				"4CC72B5B3D54670E"
+				"356D9C298B852A11"
+			]
+			description: [
+				"要前往末地，你需要准备至少 &n12&r 枚&d末影之眼&r，然后跟随它所指引的方向，前往要塞，在末地传送门上放置末影之眼，踏入终末之地。"
+				""
+				"可以通过 &b许愿泉&r 获取对应结构的位置。这需要向许愿泉献出 &e&n末影之眼&r 、皇家末影珍珠、传送卷轴、星界粉尘 。"
+				""
+				"&d末影龙&r是至少2星的BOSS单位，它的机制经过修改，战斗难度提升。末影龙&c免疫负面效果&r，在喷吐龙息时免疫弹射物伤害，攻击时会召唤闪电；&e末地水晶&r会随时间逐渐恢复。击败第一头末影龙将获得&d巨量经验&r。"
+				""
+				"&8请注意，当末影龙被魔法伤害或者其他来源的爆炸伤害杀死时，可能导致玩家无法获得成就。"
+			]
+			icon: "minecraft:ender_eye"
+			icon_scale: 2.0d
+			id: "1F8AD0B187BECE0B"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/curios add charm @p"
+					elevate_perms: true
+					icon: "minecraft:bundle"
+					id: "0861463B53626AC4"
+					title: "获得额外的护符栏位"
+					type: "command"
+				}
+				{
+					id: "2825A3AD0A612F57"
+					item: {
+						Count: 1
+						id: "wishing_fountain:wf_structure_map"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 3.0d
+			tasks: [
+				{
+					id: "7C853F6B081D9F6C"
+					item: "minecraft:ender_eye"
+					type: "item"
+				}
+				{
+					advancement: "minecraft:end/kill_dragon"
+					criterion: ""
+					id: "1324916AF8E82E19"
+					type: "advancement"
+				}
+			]
+			title: "终末之地的凝视"
+			x: 53.5d
+			y: 24.0d
+		}
+		{
+			description: ["击败 &d末影龙&r 的战利品。整个存档仅此一颗。右键它会随机传送到附近任意方块上，在它下面两格放置火把或者红石，然后挖开其下面的方块，即可获得龙蛋掉落物。末影龙经过了一定的增强，请做好准备再前往挑战。"]
+			id: "697230D9ECD68E4E"
+			rewards: [{
+				id: "1895684776658B12"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "2630AFC548CF8552"
+				item: "minecraft:dragon_egg"
+				type: "item"
+			}]
+			x: 55.5d
+			y: 23.5d
+		}
+		{
+			dependencies: ["54EDB787F7DF74BB"]
+			description: ["可以在&n高炉&r中烧炼 &b钻石装备&r 获取钻石。钻石需要 &n铁镐&r 才能挖掘，是相当重要的资源。"]
+			id: "0181D693C37E390F"
+			rewards: [{
+				id: "581B8A06A4D630A0"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 2.0d
+			subtitle: "可将钻石装备烧成钻石"
+			tasks: [{
+				id: "6C2FAB3A8B0C96C9"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			title: "以钻石为誓"
+			x: 20.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["0181D693C37E390F"]
+			description: [
+				"制作一个 2×2 的&n水池&r，水池旁边放满&a 植物 &r，再向水池投掷一颗&b 钻石 &r，&n暮色森林&r的传送门便会打开！在&n暮色森林&r维度额外有较高概率生成&e皇家生物&r。"
+				""
+				"{image:supplementaries:textures/map_marker/twilight_portal.png width:100 height:100 align:center}"
+			]
+			icon: "twilightforest:twilight_portal_miniature_structure"
+			id: "253992EBCC3E3DF4"
+			rewards: [{
+				id: "73E81560E6B9BD1F"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				dimension: "twilightforest:twilight_forest"
+				icon: "twilightforest:twilight_portal_miniature_structure"
+				id: "1EAF89A3BEE3B921"
+				title: "前往暮色森林"
+				type: "dimension"
+			}]
+			title: "暮色降临"
+			x: 20.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["0181D693C37E390F"]
+			description: [
+				"将水浇灌在岩浆上可得到黑曜石。使用&d黑曜石&r搭建传送门框架，用&n打火石&r点燃，即可开启下界传送门。"
+				""
+				""
+				"{image:supplementaries:textures/map_marker/nether_portal.png width:50 height:50 align:center}"
+			]
+			icon: "minecraft:netherrack"
+			id: "6856EEA7F1D56A22"
+			rewards: [{
+				id: "39694036B0CB7CE1"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "4E3AF8E8A7893C2A"
+				title: "前往下界"
+				type: "dimension"
+			}]
+			title: "行至下界"
+			x: 20.0d
+			y: 35.0d
+		}
+		{
+			dependencies: ["0181D693C37E390F"]
+			description: [
+				"使用 &b化石之饵 &r召唤，是至少1星的BOSS单位。它的挑战难度并不低，推荐做好准备，提升自己的&c远程攻击手段&r。杀死掉落 1个 &a藓牙&r，可用于制作初期的强力饰品。"
+				""
+				"沼泽巨颌怪会在玩家上方盘旋，并投掷炸弹造成&c范围爆炸伤害&r；之后，它会尝试向玩家俯冲攻击，此时若对其造成伤害，则可&e打断本次攻击&r，并令其翻身僵直。"
+			]
+			icon: "meetyourfight:swampjaw_head"
+			id: "76AD0F30202D5CAB"
+			rewards: [
+				{
+					id: "39C88BF8284A4596"
+					type: "xp"
+					xp: 500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5524FE64CEFADDD0"
+					table_id: 2514079791446414624L
+					type: "random"
+				}
+			]
+			shape: "square"
+			size: 2.0d
+			tasks: [
+				{
+					id: "5B9BB798FEAD80A0"
+					item: "meetyourfight:fossil_bait"
+					type: "item"
+				}
+				{
+					advancement: "meetyourfight:main/swampjaw_kill"
+					criterion: ""
+					id: "38996F1480CE00B2"
+					type: "advancement"
+				}
+			]
+			title: "沼泽巨颌怪"
+			x: 36.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["6ADE6FB6EA56CE28"]
+			description: ["猪灵蛮兵主要位于下界的猪灵堡垒当中。它是至少1星的精英敌人，击败它将获得&d下界合金碎片&r，并且有一定概率掉落饰品。"]
+			icon: "minecraft:piglin_head"
+			id: "281AC88362776B55"
+			rewards: [
+				{
+					id: "52BDACCA10F8F3C6"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "13C7E9DE019286B3"
+					item: "minecraft:wither_skeleton_skull"
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				entity: "minecraft:piglin_brute"
+				icon: "minecraft:piglin_head"
+				id: "48BE5B6C54B0D7A6"
+				type: "kill"
+				value: 4L
+			}]
+			title: "猪灵蛮兵"
+			x: 33.0d
+			y: 35.0d
+		}
+		{
+			dependencies: ["23A23E0F33CCB939"]
+			description: [
+				"你需要将4个 灵魂沙/灵魂土 按 T 字型放置，然后在上方摆放3个&e凋灵骷髅头&r，即可召唤&c凋灵&r。击败可获得&e下界之星&r和&d下界合金碎片&r。"
+				""
+				"凋灵是至少2星的BOSS单位，攻击将造成&c爆炸伤害&r并附带&d凋零&r效果，生命低于 &n50%&r 将免疫弹射物伤害。特别的，凋灵的生命回复提升至 &n2&r 倍。"
+			]
+			icon: "minecraft:nether_star"
+			id: "7070E4AB26571A06"
+			rewards: [{
+				id: "355B7AFBE2469893"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [
+				{
+					advancement: "minecraft:nether/summon_wither"
+					criterion: ""
+					icon: "minecraft:wither_rose"
+					id: "2BFFAE1C2A72B4D0"
+					type: "advancement"
+				}
+				{
+					id: "01D8FB27A8D27724"
+					item: "minecraft:nether_star"
+					type: "item"
+				}
+			]
+			title: "凋灵"
+			x: 42.0d
+			y: 35.0d
+		}
+		{
+			dependencies: ["762D2C71DF2FCFC6"]
+			description: [
+				"使用 &b缠魂铃铛&r 召唤。是至少2星的BOSS单位。杀死掉落 1个 &a幽魂质&r 。敲钟人漂会浮在地面上方并且可以穿过墙壁，类似于恼鬼。"
+				""
+				"敲钟人会不断对目标发射弹丸攻击，这些弹丸可以&c穿过墙壁&r，在短暂加速后沿直线行进。在血量低于 &n50%&r 后，它会对目标施加&n缓慢2级&r效果，并快速发射大量射弹。之后，使其发射的弹丸数量增加。"
+			]
+			icon: "meetyourfight:bellringer_head"
+			id: "11C0EB60CC5BCEBE"
+			rewards: [
+				{
+					id: "22230A95680DAA13"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "5017F3C2C46AAA39"
+					item: "goety:treasure_pouch"
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 2.0d
+			tasks: [
+				{
+					id: "0CB3963767A1494D"
+					item: "meetyourfight:haunted_bell"
+					type: "item"
+				}
+				{
+					advancement: "meetyourfight:main/bellringer_kill"
+					criterion: ""
+					id: "0F502D078221A7A7"
+					type: "advancement"
+				}
+			]
+			title: "敲钟人"
+			x: 48.0d
+			y: 21.0d
+		}
+		{
+			dependencies: ["0DFC1C0D802892FC"]
+			description: [
+				"使用 &b魔鬼赌注&r 召唤，是至少2星的BOSS单位，难度较高，杀死掉落 1个 &e命运之眷&r。"
+				""
+				"女爵的主要攻击方式为发射筹码和骰子，筹码和骰子均能&c穿过墙壁&r，但可以被盾牌&e格挡&r。特别的，福尔图娜女爵的生命回复提升至 &n2&r 倍。"
+				""
+				"血量每下降一定阶段，福尔图娜将使用屏障包裹自身使自己无敌，此时她会召唤卡牌，打乱排序并让你&e选择正确的牌&r。若选择错误，她将&a回复&r一定生命。三次猜测正确，她会向你鞠躬，并停止所有攻击行为。"
+			]
+			icon: "meetyourfight:dame_fortuna_head"
+			id: "356D9C298B852A11"
+			rewards: [
+				{
+					id: "6A70DAE3E04F5E28"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "2F7A8C0915F20809"
+					item: "goety:treasure_pouch"
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 2.0d
+			tasks: [
+				{
+					id: "799D36F7E2969BEA"
+					item: "meetyourfight:devils_ante"
+					type: "item"
+				}
+				{
+					advancement: "meetyourfight:main/dame_fortuna_kill"
+					criterion: ""
+					id: "7080EA978ADC82FC"
+					type: "advancement"
+				}
+			]
+			title: "福尔图娜女爵"
+			x: 48.0d
+			y: 27.0d
+		}
+		{
+			dependencies: ["11C0EB60CC5BCEBE"]
+			description: [
+				"使用 &b黄昏之钥&r 召唤，是至少3星的BOSS单位，能够飞行和穿过墙壁，挑战难度较高。杀死掉落&d暮光紫罗兰&r和&d末影合金碎片&r。"
+				""
+				"罗莎琳会带着四只蔷薇怨灵出现，当蔷薇怨灵存活时，罗莎琳&6免疫所有伤害&r，并且每秒基础回复1点生命值。当生命低于 &n50%&r 时，罗莎琳会重新召唤四只蔷薇怨灵。特别的，罗莎琳的生命回复提升至 &n2&r 倍。"
+			]
+			icon: "meetyourfight:rosalyne_head_cracked"
+			id: "0F8511CBED66E328"
+			rewards: [{
+				id: "6DD39F6C8181F195"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [
+				{
+					id: "2407111750423156"
+					item: "meetyourfight:dusk_key"
+					type: "item"
+				}
+				{
+					advancement: "meetyourfight:main/rosalyne_kill"
+					criterion: ""
+					id: "3CE81D66E74CDB46"
+					type: "advancement"
+				}
+			]
+			title: "薄暮之锋，罗莎琳"
+			x: 68.0d
+			y: 21.0d
+		}
+		{
+			description: ["基础饰品。可制作飞行器。"]
+			hide_dependency_lines: true
+			id: "730BADB4815502F0"
+			rewards: [{
+				id: "2C8DDDF1A6856789"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "75DBAA1B39D21EAC"
+				item: "immersive_aircraft:engine"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["730BADB4815502F0"]
+			description: ["可作为饰品佩戴。"]
+			hide_dependency_lines: true
+			id: "55998E2EC15C9EDC"
+			rewards: [{
+				id: "47A45F06396A82CC"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			tasks: [{
+				id: "003E895E29C3617D"
+				item: "immersive_aircraft:eco_engine"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["730BADB4815502F0"]
+			description: ["可作为饰品佩戴。"]
+			hide_dependency_lines: true
+			id: "3BE002DB237BBF77"
+			rewards: [{
+				id: "39B03BE1EC532916"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			tasks: [{
+				id: "6586A5153F34F11B"
+				item: "immersive_aircraft:nether_engine"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["253992EBCC3E3DF4"]
+			description: ["可作为饰品佩戴。你需要杀死盘旋于黑曜石柱周围的渡鸦，使用渡鸦羽毛制作&d魔法地图核心&r，由此制作&n空白魔法地图&r，魔法地图会显示周围BOSS的位置。"]
+			id: "25A86106E8A39999"
+			rewards: [{
+				id: "34EED299559A175B"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "6137124A7D1B5BCB"
+				item: "twilightforest:magic_map_focus"
+				type: "item"
+			}]
+			title: "魔法地图"
+			x: 27.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["25A86106E8A39999"]
+			description: [
+				"使用&n魔法地图&r找到&n娜迦庭院&r，挑战&a娜迦&r，是至少1星的BOSS单位。使用&d盾牌&r可以格挡娜迦的冲撞攻击，并使其陷入&n眩晕&r状态。"
+				""
+				"击败可获得&a娜迦鳞片&r。娜迦鳞片能够为防具赋予&d经验修补&r附魔，能够制作娜迦装备、保管护符、抗火药水，还能作为锻造材料使用。"
+			]
+			id: "33DD9379C37541B4"
+			rewards: [
+				{
+					id: "787E1607969010E2"
+					type: "xp"
+					xp: 500
+				}
+				{
+					count: 3
+					id: "508DAE14BA15FAEC"
+					item: "twilightforest:naga_scale"
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				advancement: "twilightforest:progress_naga"
+				criterion: ""
+				icon: "twilightforest:naga_trophy"
+				id: "519CB03B60C6E598"
+				type: "advancement"
+			}]
+			title: "娜迦"
+			x: 33.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["33DD9379C37541B4"]
+			description: [
+				"使用&n魔法地图&r找到&n巫妖塔&r。&d巫妖&r需要在击杀娜迦后才能挑战，是至少1星的BOSS单位。"
+				""
+				"巫妖第一阶段的护盾需要使用&d魔法伤害&r才能击破。可以通过攻击反弹巫妖发射的魔法球，或者使用喷溅型治疗药水，打破巫妖的护盾。击败巫妖后，你将能够前往&n沼泽&r、&n黑暗森林&r和&n冰雪森林&r。"
+				""
+				"击败可获得&b黄昏权杖&r、&b僵尸权杖&r、&b吸血权杖&r、&b护盾权杖&r中的一把，有一定概率会掉落&e饰品&r。"
+			]
+			icon: "twilightforest:lich_trophy"
+			id: "777DD17382416015"
+			rewards: [
+				{
+					id: "6F8FB188D9BF111C"
+					type: "xp"
+					xp: 500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "529EB920C0F0B0CA"
+					table_id: 2514079791446414624L
+					type: "random"
+				}
+				{
+					id: "486F92DAC93EA855"
+					item: "goety:treasure_pouch"
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				advancement: "twilightforest:progress_lich"
+				criterion: ""
+				id: "7A07278695D993C1"
+				type: "advancement"
+			}]
+			title: "巫妖"
+			x: 36.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["777DD17382416015"]
+			description: [
+				"使用&n魔法地图&r前往沼泽寻找&n牛头人迷宫&r。&d米诺菇&r通常位于迷宫的第二层。在击杀巫妖后才能进行挑战，是至少2星的BOSS单位。"
+				""
+				"击杀后获得&b钻石米诺陶战斧&r和&e牛头人沙拉酱&r，&c吃下牛头人沙拉酱后才能前往火焰沼泽&r。现在额外会掉落迷宫蘑菇、蘑菇钥匙、蘑菇试炼刷怪笼。"
+			]
+			icon: "twilightforest:minoshroom_trophy"
+			id: "60CA6B846D408EAE"
+			rewards: [{
+				id: "45DD4101E22C6931"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				advancement: "twilightforest:progress_labyrinth"
+				criterion: ""
+				id: "3B7420B67A93EF50"
+				type: "advancement"
+			}]
+			title: "米诺菇"
+			x: 42.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["60CA6B846D408EAE"]
+			description: [
+				"使用&n魔法地图&r前往火焰沼泽寻找&n九头蛇巢穴&r。臭名昭著的&d九头蛇&r盘踞其中。在吃下&e牛头人沙拉酱&r后才能进行挑战，是至少2星的BOSS单位。每斩下一个九头蛇首，九头蛇便会增生出两个新的蛇首，免伤也会随之下降。"
+				""
+				"在九头蛇双颚紧闭时拥有极高的&e免伤&r，玩家的攻击只会使它受到很小程度的伤害，因此必须攻击它&n正在张嘴的蛇头&r；它的大部分攻击都是火焰，因此&c抗火&r效果能够很好的应对它。击杀后可获得&b炽热的血液&r和&b九头蛇肉排&r。"
+			]
+			id: "7291F7C905503CF2"
+			rewards: [{
+				id: "6457D15816B30E0B"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				advancement: "twilightforest:progress_hydra"
+				criterion: ""
+				id: "32F580E291BADCE4"
+				type: "advancement"
+			}]
+			title: "九头蛇"
+			x: 48.0d
+			y: 10.5d
+		}
+		{
+			description: ["能够快速破坏迷宫内的方块。"]
+			id: "459F0F205FFC9EE6"
+			rewards: [{
+				id: "356661B917940C72"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			tasks: [{
+				id: "1777A8A8F24EEC3F"
+				item: {
+					Count: 1
+					id: "twilightforest:mazebreaker_pickaxe"
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								id: "minecraft:efficiency"
+								lvl: 4s
+							}
+							{
+								id: "minecraft:unbreaking"
+								lvl: 3s
+							}
+							{
+								id: "minecraft:fortune"
+								lvl: 2s
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 43.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["777DD17382416015"]
+			description: [
+				"使用&n魔法地图&r前往黑暗森林寻找&n骑士要塞&r。要进入骑士要塞，你需要将任意&d奖杯&r放置于&n奖杯基座&r上。&d幻影骑士&r就在骑士要塞深处的墓室中。"
+				""
+				"在击杀巫妖后才能进行挑战，是至少2星的BOSS单位。幻影骑士共有6位，常规状态下拥有极高护甲，在攻击时会解除隐身状态并降低自身护甲值。"
+				""
+				"击杀后可获得&b幻影骑士装备&r，并且获得进入黑暗森林深处、登上&n黑暗高塔&r的资格。"
+			]
+			id: "6114BCF9AF4D8E0C"
+			rewards: [
+				{
+					id: "1EE7C3741D75E2F8"
+					type: "xp"
+					xp: 500
+				}
+				{
+					count: 3
+					id: "20EECB45A1276C61"
+					item: "twilightforest:knightmetal_ingot"
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				advancement: "twilightforest:progress_knights"
+				criterion: ""
+				id: "73DDB7D9D4DF76F5"
+				type: "advancement"
+			}]
+			title: "幻影骑士"
+			x: 42.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["6114BCF9AF4D8E0C"]
+			description: [
+				"使用&n魔法地图&r深入黑暗森林，登上&n黑暗高塔&r。如今被称作&d暮初恶魂&r的生物就盘踞在黑暗高塔顶部。需要在击杀幻影骑士后才能进行挑战，是至少2星的BOSS单位。特别的，暮初恶魂生命回复仅拥有 &n0.5&r 倍。"
+				""
+				"暮初恶魂在受到一定伤害后会进入“愤怒模式”，获得&c极高免伤&r，并持续落下泪雨造成伤害。"
+				""
+				"黑暗高塔四周安置有&b恶魂陷阱&r，在陷阱范围内杀死三只迷你幽灵并成功给陷阱充能后，等待暮初恶魂来到陷阱上空即可启动陷阱，砷铅铁产生的反应会将它拉向地面，这时的暮初恶魂会&e失去对所有伤害的抗性&r。"
+				""
+				"击杀后可获得&c炽热之泪&r和&b砷铅铁矿石&r。可用于制作炽铁锭、拆解台和砷铅铁装置。"
+			]
+			icon: "twilightforest:ur_ghast_trophy"
+			id: "55BA549394F93E27"
+			rewards: [{
+				id: "78888AA0E743A8B5"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				advancement: "twilightforest:progress_ur_ghast"
+				criterion: ""
+				id: "306E0C4D8C2A6D3F"
+				type: "advancement"
+			}]
+			title: "暮初恶魂"
+			x: 48.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["777DD17382416015"]
+			description: [
+				"使用&n魔法地图&r前往冰雪森林寻找&n雪怪巢穴&r。&d雪怪首领&r会呆在巢穴中央。在击杀巫妖后才能进行挑战，是至少2星的BOSS单位。"
+				""
+				"当雪怪首领受到火焰伤害时会立刻尝试使用寒冰狂暴，对目标造成&b霜结&r效果，在接触水时会立刻停止该技能开始休息。穿戴&n雪地毛皮&r装备可抵御霜结效果。"
+				""
+				"击杀后可获得&b雪怪首领毛皮&r，并且获得进入冰雪森林深处、登上&n极光宫殿&r的资格。"
+			]
+			icon: "twilightforest:alpha_yeti_trophy"
+			id: "115412F65C61A843"
+			rewards: [
+				{
+					id: "42F5561E134D7C19"
+					type: "xp"
+					xp: 500
+				}
+				{
+					count: 3
+					id: "3278BFEABD1226F6"
+					item: "twilightforest:alpha_yeti_fur"
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				advancement: "twilightforest:progress_yeti"
+				criterion: ""
+				id: "39270D8312DA5139"
+				type: "advancement"
+			}]
+			title: "雪怪首领"
+			x: 42.0d
+			y: 15.5d
+		}
+		{
+			description: ["获得总共94种暮色树木制品。把所有的犄角旮旯全部搜索一遍。然后收集齐所有从树上出来的东西！不论是合成出来还是战利品箱子里搜，不论是台阶还是树苗还是树叶，只要是从树上的哪个部分做出来的都算！"]
+			id: "04ADE801C3BF8AEC"
+			rewards: [{
+				id: "690655243EFA7D54"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "square"
+			tasks: [{
+				advancement: "twilightforest:arborist"
+				criterion: ""
+				id: "76D541B3B452E9F8"
+				type: "advancement"
+			}]
+			title: "疯狂树木学家"
+			x: 58.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["115412F65C61A843"]
+			description: [
+				"使用&n魔法地图&r深入冰雪森林，登上&n极光宫殿&r。&d冰雪女王&r在宫殿的最高处等候你的到来。在击杀雪怪首领后才能进行挑战，是至少3星的BOSS单位。特别的，冰雪女王拥有 &n40%&r 护甲穿透。"
+				""
+				"冰雪女王的身边环绕着一圈寒冰云，你必须绕开这圈寒冰云才能攻击她。击杀后可获得&c三发弓&r或&b追踪弓&r，有一定概率会获得&e饰品&r。"
+			]
+			icon: "twilightforest:snow_queen_trophy"
+			id: "018C8161533ECF9D"
+			rewards: [{
+				id: "39BF94339C1E218A"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				advancement: "twilightforest:progress_glacier"
+				criterion: ""
+				id: "6C57452BBC511689"
+				type: "advancement"
+			}]
+			title: "冰雪女王"
+			x: 48.0d
+			y: 15.5d
+		}
+		{
+			description: ["品尝所有只能在暮色森林找到的食物。包括生鹿肉/鹿肉排、生牛头人肉/牛头人肉排、迷宫薄饼、牛头人沙拉酱肉、九头蛇肉排、试验物品 115和火炬浆果。"]
+			id: "41B42BB5CDE66DA2"
+			rewards: [{
+				id: "55791EED71AFD5CE"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "square"
+			tasks: [{
+				advancement: "twilightforest:twilight_dinner"
+				criterion: ""
+				id: "22D5742545AAC32B"
+				type: "advancement"
+			}]
+			title: "永恒黄昏之宴"
+			x: 58.5d
+			y: 12.5d
+		}
+		{
+			dependencies: [
+				"7291F7C905503CF2"
+				"55BA549394F93E27"
+				"018C8161533ECF9D"
+			]
+			description: [
+				"在&n魔法地图&r的指引下抵达暮色高原，从 &n巨魔洞穴&r 中找到的 &d魔豆&r ，将其种在肥沃泥土将长成通天豆茎，以快速登上云顶的 &n巨人小屋&r 。"
+				""
+				"巨人小屋居住着武装巨人和矿工巨人。击败 &n矿工巨人&r 后，可获得它的&d巨人镐&r，也可通过巨型方块合成获得。"
+			]
+			icon: {
+				Count: 1
+				id: "twilightforest:giant_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "62C246BC74813749"
+			rewards: [{
+				id: "7205CEEF278734AE"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "12C0C43808912F59"
+				item: {
+					Count: 1
+					id: "twilightforest:giant_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "巨人镐"
+			x: 51.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["62C246BC74813749"]
+			description: [
+				"使用 &d巨人镐&r 回到&n巨魔洞穴&r，挖开巨型黑曜石后，便能在宝箱中找到 &d余烬之灯&r 。"
+				""
+				"余烬之灯能够解除荆棘之地的酸雨封印，右键可以焚烧围绕在 &n终焉城堡&r 周围的荆棘。"
+			]
+			icon: {
+				Count: 1
+				id: "twilightforest:lamp_of_cinders"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0C6F0F713602B9DA"
+			rewards: [{
+				id: "604C76A25E99C092"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "7E4141BBDC17D640"
+				item: {
+					Count: 1
+					id: "twilightforest:lamp_of_cinders"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "余烬之灯"
+			x: 57.0d
+			y: 13.0d
+		}
+		{
+			dependencies: [
+				"0C6F0F713602B9DA"
+				"0F2F16521A0541C8"
+				"6C422B04702F4A22"
+			]
+			description: [
+				"获得&d余烬之灯&r后可解除荆棘之地的酸雨封印，焚烧那些荆棘，最终抵达&n终焉城堡&r，于此得到终焉的&d立方护符&r。"
+				""
+				"&8无论如何，这就是最后了，在旅途的尽头，黄昏的终末，我窥见纯粹黑暗的一角。"
+			]
+			icon: "twilightforest:cube_talisman"
+			icon_scale: 2.0d
+			id: "346D6C352DABA30A"
+			rewards: [{
+				auto: "enabled"
+				command: "/curios add charm @p"
+				elevate_perms: true
+				icon: "minecraft:bundle"
+				id: "37B703AB12BCED9A"
+				title: "获得额外的护符栏位"
+				type: "command"
+			}]
+			shape: "square"
+			size: 3.0d
+			tasks: [
+				{
+					icon: "twilightforest:cube_of_annihilation"
+					id: "4F5119C272F2A6EA"
+					structure: "twilightforest:final_castle"
+					title: "抵达终焉城堡"
+					type: "structure"
+				}
+				{
+					id: "263DF0279FAAE03D"
+					item: "twilightforest:cube_talisman"
+					type: "item"
+				}
+			]
+			title: "终焉的立方"
+			x: 63.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["43121DC26ACE425F"]
+			description: [
+				"制作&d巨兽之眼&r，在下界中找到灵魂锻造厂。下界合金巨兽会在灵魂锻造厂的中心等待你。"
+				""
+				"下界合金巨兽是至少4星的BOSS单位，拥有 &n200&r 点伤害限制。下界合金巨兽现在会额外掉落&d下界合金碎片&r。"
+				""
+				"下界合金巨兽的&c头部&r被攻击时会受到 1.5 倍 的伤害，且只有这个部位不免疫弹射物攻击。"
+				""
+				"可以通过 &b许愿泉&r 获取对应结构的位置。这需要向许愿泉献出 &e&n巨兽之眼&r 、皇家末影珍珠、传送卷轴、星界粉尘 。"
+			]
+			icon: "cataclysm:monstrous_eye"
+			id: "1A36178D51EEFCE9"
+			rewards: [{
+				id: "239262152646ACA8"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [
+				{
+					id: "5E380A2A950AAFDF"
+					item: "cataclysm:monstrous_eye"
+					type: "item"
+				}
+				{
+					advancement: "cataclysm:kill_monstrosity"
+					criterion: ""
+					id: "7CAD0B915F24DF8F"
+					type: "advancement"
+				}
+			]
+			title: "下界合金巨兽"
+			x: 80.0d
+			y: 35.0d
+		}
+		{
+			dependencies: [
+				"6229BF181C9AA3E0"
+				"0F8511CBED66E328"
+				"3A962EB70A45DCF7"
+				"7B799A2CE0A8EEB9"
+			]
+			description: [
+				"制作&d虚空之眼&r，在末地中找到废弃堡垒。在废弃堡垒的下方会存在一个&e虚空祭坛&r，靠近祭坛后，末影守卫将会被召唤。末影守卫现在会额外掉落&d末影合金碎片&r、&d末影合金锻造模板&r和&d虚空核心&r。"
+				""
+				"末影守卫是至少3星的BOSS单位，拥有 &n100&r 点伤害限制。末影守卫一阶段&e免疫弹射物&r，攻击会施加&e眩晕&r。"
+				""
+				"可以通过 &b许愿泉&r 获取对应结构的位置。这需要向许愿泉献出 &e&n虚空之眼&r 、皇家末影珍珠、传送卷轴、星界粉尘 。"
+			]
+			icon: "cataclysm:void_eye"
+			id: "5F1D4916C5EA8406"
+			rewards: [{
+				id: "52CE5D5A42ED08F3"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [
+				{
+					id: "7329C5DFE5B0AC72"
+					item: "cataclysm:void_eye"
+					type: "item"
+				}
+				{
+					advancement: "cataclysm:kill_ender_guardian"
+					criterion: ""
+					id: "08B144D012175FE2"
+					type: "advancement"
+				}
+			]
+			title: "末影守卫"
+			x: 72.5d
+			y: 24.0d
+		}
+		{
+			description: ["只能种植在灵魂沙或灵魂土上。能够制成火药和煤炭。"]
+			icon: "minecraft:nether_wart"
+			id: "6D5F87AAD9C4BA7C"
+			rewards: [{
+				id: "3A32C2B7885CFE69"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			tasks: [{
+				id: "2FE1550F43BC95F8"
+				item: "minecraft:nether_wart"
+				type: "item"
+			}]
+			x: 22.5d
+			y: 34.5d
+		}
+		{
+			dependencies: ["6AB82AE7B083A563"]
+			description: [
+				"制作&d机械之眼&r，在主世界的地下找到远古工厂。消耗&e下界之星&r右键远古工厂中“沉睡”的先驱者以将其唤。"
+				""
+				"先驱者是至少4星的BOSS单位，拥有 &n200&r 点伤害限制。先驱者攻击会施加&d凋零&r效果，二阶段将免疫弹射物伤害，并且会发射伤害极高的&c死亡激光&r。"
+				""
+				"先驱者发射的死亡激光束能够给 &e电磁脉冲装置&r 充能。可通过红石信号激活此装置，能对范围内的目标造成伤害，&n眩晕&r先驱者和徘徊者并击杀附近的观测者。"
+				""
+				"可以通过 &b许愿泉&r 获取对应结构的位置。这需要向许愿泉献出 &e&n机械之眼&r 、皇家末影珍珠、传送卷轴、星界粉尘 。"
+			]
+			icon: "cataclysm:mech_eye"
+			id: "169A2C5C87EC7C51"
+			rewards: [{
+				id: "569546BEAD38BF11"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [
+				{
+					id: "1BE5A8DD2FBADBB6"
+					item: "cataclysm:mech_eye"
+					type: "item"
+				}
+				{
+					advancement: "cataclysm:kill_harbinger"
+					criterion: ""
+					id: "208070BB1EE1396C"
+					type: "advancement"
+				}
+			]
+			title: "先驱者"
+			x: 80.0d
+			y: 24.0d
+		}
+		{
+			dependencies: [
+				"2F59B35C8D250A9B"
+				"6229BF181C9AA3E0"
+			]
+			description: [
+				"制作&d沙漠之眼&r，在主世界的沙漠群系中找到诅咒金字塔。手持&e沙漠项链&r右击诅咒金字塔中央“沉睡”的远古遗魂来唤醒。"
+				""
+				"远古遗魂是至少4星的BOSS单位，拥有 &n200&r 点伤害限制。远古遗魂属于亡灵生物，在未眩晕时免疫弹射物。击败后获得&d瓶中沙暴&r和诅咒金属块。"
+				""
+				"远古遗魂的部分攻击可施加 &6沙漠诅咒&r 效果。攻击未命中时，会积攒1格怒气值；命中则减少1格怒气值。当怒气值满时，远古遗魂会消耗全部怒气释放&c暴怒冲锋&r。撞到墙壁时或冲锋结束后会陷入 &6眩晕&r 状态。"
+				""
+				"可以通过 &b许愿泉&r 获取对应结构的位置。这需要向许愿泉献出 &e&n沙漠之眼&r 、皇家末影珍珠、传送卷轴、星界粉尘 。"
+			]
+			icon: "cataclysm:desert_eye"
+			id: "0FB0AC1AB80CCFD5"
+			rewards: [{
+				id: "5ED21462596E37C0"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [
+				{
+					id: "7129584237B5C311"
+					item: "cataclysm:desert_eye"
+					type: "item"
+				}
+				{
+					advancement: "cataclysm:kill_remnant"
+					criterion: ""
+					id: "0170340FCFD5FD81"
+					type: "advancement"
+				}
+			]
+			title: "远古遗魂"
+			x: 80.0d
+			y: 27.0d
+		}
+		{
+			dependencies: ["346D6C352DABA30A"]
+			description: [
+				"制作&d深渊之眼&r，在主世界的海洋群系中找到沉沦之城。在沉没之城的中心用&e深渊祭品&r右击深渊祭坛召唤。"
+				""
+				"利维坦是至少4星的BOSS单位，拥有 &n200&r 点伤害限制。利维坦在未接触水时会进入&6无敌&r状态，无法受到正常伤害。持有&d紫水晶祝福&r效果可以免疫利维坦战斗中施加的大部分负面效果。"
+				""
+				"可以通过 &b许愿泉&r 获取对应结构的位置。这需要向许愿泉献出 &e&n深渊之眼&r 、皇家末影珍珠、传送卷轴、星界粉尘 。"
+			]
+			icon: "cataclysm:abyss_eye"
+			id: "4F28647726C588F0"
+			rewards: [{
+				id: "4C78F6D2992EE02D"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [
+				{
+					id: "1A087DBBD45596BC"
+					item: "cataclysm:abyss_eye"
+					type: "item"
+				}
+				{
+					advancement: "cataclysm:kill_leviathan"
+					criterion: ""
+					id: "18C0D10FD2BFB226"
+					type: "advancement"
+				}
+			]
+			title: "利维坦"
+			x: 80.0d
+			y: 13.0d
+		}
+		{
+			dependencies: [
+				"1FF549793509450A"
+				"0F8511CBED66E328"
+			]
+			description: [
+				"制作&d诅咒之眼&r，在主世界的寒冷群系中找到苦寒监牢。需要击败冥行武弁获取&n怪奇之钥&r，才能打开其中的封印之门。右键苦寒监牢中心&e被诅咒的墓碑&r召唤。"
+				""
+				"咒翼灵骸是至少4星的BOSS单位。咒翼灵骸属于亡灵生物，其攻击命中后会在短时间内叠加&c怒气&r，每层怒气将提升&n20%&r伤害，最多5层。特别的，咒翼灵骸的伤害限制为 &n200&r 点，拥有 &n50%&r 闪避率。"
+				""
+				"可以通过 &b许愿泉&r 获取对应结构的位置。这需要向许愿泉献出 &e&n诅咒之眼&r 、皇家末影珍珠、传送卷轴、星界粉尘 。"
+			]
+			icon: "cataclysm:cursed_eye"
+			id: "374A6184032E1FD8"
+			rewards: [{
+				id: "4996DC4D12AC37DE"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [
+				{
+					id: "166397FE3D8D9D8C"
+					item: "cataclysm:cursed_eye"
+					type: "item"
+				}
+				{
+					advancement: "cataclysm:kill_maledictus"
+					criterion: ""
+					id: "3A38B82334479705"
+					type: "advancement"
+				}
+			]
+			title: "咒翼灵骸"
+			x: 80.0d
+			y: 21.0d
+		}
+		{
+			dependencies: ["1A36178D51EEFCE9"]
+			description: [
+				"制作&d烈焰之眼&r，在下界中找到烈焰竞技场。用&e炽燃余烬&r右键点击烈焰竞技场顶层中心的烈焰祭坛召唤。"
+				""
+				"焰魔是至少4星的BOSS单位，拥有 &n200&r 点伤害限制。焰魔持盾时&e格挡&r正前方的攻击。通过反弹焰魔释放的璨焰火球可以提前&e摧毁巨盾&r。焰魔的攻击会施加&c炽热烙印&r效果，降低目标的护甲值与盔甲韧性，并且汲取一定的生命。特别的，焰魔额外拥有 &n30%&r 魔法抗性。"
+				""
+				"可以通过 &b许愿泉&r 获取对应结构的位置。这需要向许愿泉献出 &e&n烈焰之眼&r 、皇家末影珍珠、传送卷轴、星界粉尘 。"
+			]
+			icon: "cataclysm:flame_eye"
+			id: "63D12D2F2016BC2A"
+			rewards: [{
+				id: "026D15856FA0B5AF"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [
+				{
+					id: "49285E9EF6100FC4"
+					item: "cataclysm:flame_eye"
+					type: "item"
+				}
+				{
+					id: "4AE37946F58638D7"
+					item: "cataclysm:burning_ashes"
+					type: "item"
+				}
+				{
+					advancement: "cataclysm:kill_ignis"
+					criterion: ""
+					id: "1DA870CD7C2A65AD"
+					type: "advancement"
+				}
+			]
+			title: "焰魔"
+			x: 85.0d
+			y: 35.0d
+		}
+		{
+			dependencies: ["4F28647726C588F0"]
+			description: [
+				"制作&d风暴之眼&r，在主世界的&n暖水海洋&r群系中找到卫城。斯库拉就在卫城的顶端。"
+				""
+				"斯库拉是至少4星的BOSS单位，拥有 &n200&r 点伤害限制。斯库拉会造成&e雷电伤害&r，攻击施加&b潮湿&r状态，使目标受到的雷电伤害进一步增加。特别的，斯库拉护甲值较高，额外拥有 &n20%&r 暴击抗性。"
+				""
+				"可以通过 &b许愿泉&r 获取对应结构的位置。这需要向许愿泉献出 &e&n风暴之眼&r 、皇家末影珍珠、传送卷轴、星界粉尘 。"
+			]
+			icon: "cataclysm:storm_eye"
+			id: "13390E141FE1EE8C"
+			rewards: [{
+				id: "70BC1153CE6D71F7"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [
+				{
+					id: "23FCE288A3829851"
+					item: "cataclysm:storm_eye"
+					type: "item"
+				}
+				{
+					advancement: "cataclysm:kill_scylla"
+					criterion: ""
+					id: "01F4F22AC0E84F02"
+					type: "advancement"
+				}
+			]
+			title: "斯库拉"
+			x: 85.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["22ED48E9F18B57E7"]
+			description: [
+				"我走入一处肃穆的墓园，抬眼望去，密密麻麻的方尖碑上刻着无数名字，枯瘦的花朵规矩地摆在墓碑前。黑白两色的肃穆人群一排排向前，正在对墓碑致礼，然后洒下他们的哀悼。"
+				""
+				"“您是来参加葬礼的吗？”就在这时，一道带着些许哀婉的轻柔嗓音在我身边响起，是一位相当高挑的女士。她身着一袭黑色的丧葬礼裙，精致却苍白的妆容之中连嘴唇都血色全无，一顶黑纱编织的圆檐宽帽挡下了她的半边面孔，却依旧能够深刻地感受到在她身上流露的沉重悲伤。"
+				""
+				"“是的，”我从口袋中摸出一张卡片模样的东西，递给这位黑裙女士，“这是邀请函。”"
+				""
+				"高挑的黑裙女士盯着那张卡片，露出些许惊讶的表情，立刻稍稍躬身到尽可能与我平视的幅度，轻声说道，“原来是您来了，大家都等了您很久。”话音落下，墓园之内的所有人齐刷刷地把目光投向这里。"
+				""
+				"我记不得他们每个人的脸，只能从他们身上感受到无言、无尽的悲伤。黑裙女士忽然把双手搭在我的肩膀上，呵护般推着我向前走去，而所有人都自觉为我们让开一条路。"
+				""
+				"直到此时，我才得以看清，在人群簇拥的中间，是一块巨大的墓碑，那墓碑上，写着这么几行话："
+			]
+			hide_until_deps_complete: true
+			icon: "gravestone:gravestone"
+			id: "2B530BD810D044D6"
+			rewards: [
+				{
+					auto: "enabled"
+					id: "125A0A332F6F6168"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					auto: "enabled"
+					command: "/playsound cataclysm:the_cataclysmfarer music @p ~ ~ ~ 1 1"
+					elevate_perms: true
+					icon: "cataclysm:music_disc_the_cataclysmfarer"
+					id: "03B428514EC13F8C"
+					silent: true
+					title: "时间的逆行者"
+					type: "command"
+				}
+			]
+			shape: "square"
+			size: 3.0d
+			tasks: [{
+				id: "7098742A38E1690C"
+				title: "故事的下一页"
+				type: "checkmark"
+			}]
+			title: "世界的葬礼"
+			x: 108.0d
+			y: 24.0d
+		}
+		{
+			description: ["可作为饰品佩戴。新增合成配方。"]
+			id: "6D5622979A3E2CC8"
+			rewards: [{
+				id: "2AA82F6DE62D5327"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			tasks: [{
+				id: "493EC1800E193498"
+				item: "twilightforest:charm_of_life_1"
+				type: "item"
+			}]
+			x: 34.5d
+			y: 13.5d
+		}
+		{
+			description: ["可作为饰品佩戴。新增合成配方。"]
+			id: "5D243C4D91A75E73"
+			rewards: [{
+				id: "11D203A7C9ABE023"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			tasks: [{
+				id: "18656EC628596F2F"
+				item: "twilightforest:charm_of_keeping_1"
+				type: "item"
+			}]
+			x: 34.5d
+			y: 12.5d
+		}
+		{
+			description: ["击杀&d紫水晶巨蟹&r，将得到的紫水晶蟹肉置入紫水晶祭坛后获得。吃下后能够获得&d紫水晶祝福&r。紫水晶巨蟹可通过使用&n蟹钳&r在&n紫水晶祭坛&r上召唤。"]
+			icon: "cataclysm:blessed_amethyst_crab_meat"
+			id: "396C74BDAB650273"
+			rewards: [{
+				id: "6FBF3B65E5A2560D"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			tasks: [{
+				id: "76CDFD165343419B"
+				item: "cataclysm:blessed_amethyst_crab_meat"
+				type: "item"
+			}]
+			x: 81.5d
+			y: 12.5d
+		}
+		{
+			description: ["能够对部分装备进行&e特殊升级&r。"]
+			id: "481258741C78F0EA"
+			rewards: [{
+				id: "601AB3B257F4DECB"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			tasks: [{
+				id: "7DDE26793D0FAB1D"
+				item: "cataclysm:mechanical_fusion_anvil"
+				type: "item"
+			}]
+			x: 81.5d
+			y: 23.5d
+		}
+		{
+			description: ["你可能会在蜜蜂领域或主世界遇见&d蜂后&r，击杀获得蜜蜂触角。戴上蜜蜂触角后，你的行为不会引来蜜蜂的敌对。此时使用螫针剑 &ashift+右键&r 可召唤一只持续10秒的蜜蜂，为周围友方单位提供&c2级生命恢复&r，这个效果有20秒冷却时间。使用螫针剑进行攻击将对目标施加&d中毒和反胃&r效果。"]
+			icon: "queen_bee:antenna"
+			id: "4B6AD341F419D12F"
+			rewards: [{
+				id: "20F060E03341040A"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			tasks: [
+				{
+					id: "78AE297219819F62"
+					item: {
+						Count: 1
+						id: "queen_bee:stinger_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "142ABB79494C83EF"
+					item: "queen_bee:antenna"
+					type: "item"
+				}
+			]
+			title: "蜜蜂触角"
+			x: -1.5d
+			y: 41.5d
+		}
+		{
+			description: ["击杀&d利维坦&r掉落。"]
+			icon: {
+				Count: 1
+				id: "gwrexpansions:tidal_pistol"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "42C52D76EDC26B40"
+			rewards: [{
+				id: "745D8640C1B5D5FA"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			tasks: [{
+				id: "6E2655C788970BA0"
+				item: {
+					Count: 1
+					id: "gwrexpansions:tidal_pistol"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 82.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["60CA6B846D408EAE"]
+			description: [
+				"击败米诺菇将获得&d蘑菇试炼刷怪笼&r和&d蘑菇钥匙&r。对着蘑菇试炼刷怪笼使用蘑菇钥匙，可消耗钥匙并召唤——超级米诺菇。它是至少3星的BOSS单位，非常强大！"
+				""
+				"超级米诺菇在生命低于 &n50%&r 时会进入二阶段，并回复大量生命；在生命低于 &n20%&r 时将拥有对所有非近战伤害的&e高额免伤&r。超级米诺菇会释放范围践踏攻击，造成&c巨额的摔落伤害&r，在其范围内可通过跳跃躲避。这个伤害也可被&n摔落缓冲&r附魔和&n塔楼牌&r减免。"
+				""
+				"击杀后可获得&b迷宫钻石&r。战斗前可在蘑菇试炼刷怪笼周围摆放&n迷宫蘑菇&r，根据摆放蘑菇的数量将提升超级米诺菇的属性和掉落物。"
+			]
+			icon: "better_minoshroomtaur:maze_diamond"
+			id: "7C8E16E72EBFE0BC"
+			rewards: [{
+				id: "0C7838F3504910F1"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [
+				{
+					count: 2L
+					id: "2FA6F95970E453D2"
+					item: { Count: 2, id: "better_minoshroomtaur:maze_mushroom" }
+					type: "item"
+				}
+				{
+					id: "1D63F645D8460475"
+					item: "better_minoshroomtaur:maze_diamond"
+					type: "item"
+				}
+			]
+			title: "超级米诺菇"
+			x: 51.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["7C8E16E72EBFE0BC"]
+			description: ["可作为饰品佩戴。在击败使用&n至少8个迷宫蘑菇&r增强的超级米诺菇时掉落。"]
+			icon: "better_minoshroomtaur:maze_remnant_page_minoshroomtaur"
+			id: "0F2F16521A0541C8"
+			rewards: [{
+				id: "67DC2E842F06D6E1"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "0D737C2E289A26CA"
+				item: "better_minoshroomtaur:maze_remnant_page_minoshroomtaur"
+				type: "item"
+			}]
+			x: 57.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["6856EEA7F1D56A22"]
+			description: ["击杀&c烈焰人&r以获取烈焰棒。烈焰人将在 &n下界要塞&r 生成，也有较低概率在下界自然生成。"]
+			id: "6ADE6FB6EA56CE28"
+			rewards: [{
+				id: "2FE2498016DF02C0"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				advancement: "minecraft:nether/obtain_blaze_rod"
+				criterion: ""
+				id: "673FEB9022B7E225"
+				type: "advancement"
+			}]
+			title: "与火共舞"
+			x: 27.0d
+			y: 35.0d
+		}
+		{
+			description: [
+				"对着蜂巢或蜂箱投掷1颗&d末影珍珠&r，即可进入&e蜜蜂领域&r。你必须通过传送石碑等手段才能离开蜜蜂领域。"
+				""
+				"蜜蜂领域是蜂巢内部的世界，充斥着蜜脾块、蜂蜜块。在此维度内的蜜蜂将得到&c大幅度加强&r，若是挖掘蜂蜜块、从满多孔蜜脾块中采集蜂蜜或是在未装备&n花朵头饰&r的情况下进入蜂巢迷宫，将会获得“&c群蜂之怒&r”，受到所有蜜蜂的攻击。&n繁花之宫&r将只在蜜蜂领域顶层生成。"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "the_bumblezone:stingless_bee_helmet_1"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "250E47A7E3ADEA8F"
+			rewards: [
+				{
+					id: "24C8F46608C25F58"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "17E8CE7E7083DB9B"
+					table_id: 6997903212867593696L
+					type: "random"
+				}
+			]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				dimension: "the_bumblezone:the_bumblezone"
+				icon: {
+					Count: 1
+					id: "the_bumblezone:stingless_bee_helmet_1"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "46962D57DB1FC229"
+				title: "进入蜜蜂领域"
+				type: "dimension"
+			}]
+			title: "蜜蜂领域"
+			x: -3.0d
+			y: 37.0d
+		}
+		{
+			dependencies: ["250E47A7E3ADEA8F"]
+			description: [
+				"对着蜂巢或蜂房右键蜂蜜指南针，会指向该蜂巢或蜂房，并且会保持追踪方块的位置；在蜜蜂领域内右键使用时，则会指向最近的&e巢室迷宫&r。迷宫中有大量的蜜蜂领域的方块，以及成吨的充满宝藏的蜂蜜茧。在巢室迷宫中搜刮到的蜜蜂盔甲还会有额外的效果。"
+				""
+				"贸然进入巢室迷宫会获得&c蜂群之怒&r的效果，并遭到蜜蜂们的围攻。因此你应当确保你获得了&a蜂群之护&r，或是穿戴了花朵头饰后进入迷宫。一旦你已经吸收了蜜蜂精华，那就可以随时出入巢室迷宫了。"
+			]
+			icon: {
+				Count: 1
+				id: "the_bumblezone:honey_compass"
+				tag: { }
+			}
+			id: "3F716E56E84F1FC1"
+			rewards: [
+				{
+					id: "40C2311B35BB2AA2"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "49F61FD152E1B062"
+					table_id: 6997903212867593696L
+					type: "random"
+				}
+			]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "51739EFA2BF64FB9"
+				item: {
+					Count: 1
+					id: "the_bumblezone:honey_compass"
+					tag: { }
+				}
+				title: "制作蜂蜜指南针"
+				type: "item"
+			}]
+			title: "蜂蜜指南针"
+			x: -3.0d
+			y: 39.0d
+		}
+		{
+			dependencies: ["3F716E56E84F1FC1"]
+			description: [
+				"&n王座尖柱&r在蜜蜂领域中非常稀有，但是可以通过在巢室迷宫找到的&d特殊蜂蜜指南针&r进行定位（此指南针的名字是“&e蜜蜂指南针-王座柱！&r”）。巢室迷宫的中央房间一定会出现一个特殊蜂蜜指南针。"
+				""
+				"王座尖柱中有一只&d蜜蜂女王&r等待与你进行交易。如果没有吸收蜜蜂精华，靠近蜜蜂女王会获得挖掘疲劳。"
+			]
+			icon: "the_bumblezone:bee_queen_spawn_egg"
+			id: "5107C73EE408379A"
+			rewards: [
+				{
+					id: "70165B85BEFBFF1C"
+					type: "xp"
+					xp: 500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "790FB7DACDCEC575"
+					table_id: 2514079791446414624L
+					type: "random"
+				}
+			]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				icon: "the_bumblezone:bee_queen_spawn_egg"
+				id: "1792F5E7F797850F"
+				structure: "the_bumblezone:throne_pillar"
+				title: "抵达王座尖柱"
+				type: "structure"
+			}]
+			title: "王座尖柱"
+			x: -3.0d
+			y: 41.0d
+		}
+		{
+			dependencies: ["5107C73EE408379A"]
+			description: [
+				"你可以手持物品右键蜜蜂女王，或将物品丢到蜜蜂女面前与其进行&a交易&r。首次成功交易后，你将解锁蜜蜂女王的挑战任务线。"
+				""
+				"具体的 &d&n挑战任务线&r 任务可在 &n成就进度&r 中查看。每完成一个挑战进度，都会获得一瓶&e蜂王浆瓶&r，它能够制作&e药水蜡烛&r。"
+				""
+				"完成所有挑战进度后与蜜蜂女王右键互动，将获得&d蜜蜂精华&r。再次右键蜂后将重置进度，可再重新完成挑战进度并获得蜜蜂精华。"
+			]
+			icon: "the_bumblezone:royal_jelly_bottle"
+			id: "7F514CB38AA6017F"
+			rewards: [
+				{
+					id: "015B6017308C6379"
+					type: "xp"
+					xp: 500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "29A577B05901AEBB"
+					table_id: 6997903212867593696L
+					type: "random"
+				}
+			]
+			shape: "square"
+			size: 2.0d
+			tasks: [
+				{
+					advancement: "the_bumblezone:the_queens_desire/the_beginning"
+					criterion: ""
+					id: "2ECA33DD30FBA19D"
+					type: "advancement"
+				}
+				{
+					id: "535DE79CFBA9F6EC"
+					item: "the_bumblezone:royal_jelly_bottle"
+					type: "item"
+				}
+			]
+			title: "女王的愿望"
+			x: -3.0d
+			y: 43.0d
+		}
+		{
+			dependencies: ["7F514CB38AA6017F"]
+			description: [
+				"完成“&n&d女王的愿望&r”挑战任务线，获得&d蜜蜂精华&r。"
+				""
+				"当你使用&d蜜蜂精华&r后，你将能从蜂蜜茧中获得指向&n永恒圣所&r的蜂蜜指南针。如果你过早地进入了永恒圣所，你会获得挖掘疲劳效果，哨兵守卫会对你造成大量伤害。即使你到达了中心的房间，你也不能触发竞技场事件。"
+				""
+				"当你抵达圣所的中心房间后，你会发现中央有一个彩色精华方块，触摸这个方块会触发&d竞技场事件&r，不同颜色的圣所的事件不同，所给予的最终奖励也不同，难度较高。在永恒圣所死亡时，墓碑将会生成在&n永恒圣所顶部&r的空旷位置。"
+			]
+			icon: "the_bumblezone:honey_crystal"
+			id: "152CEE1EB83E723E"
+			rewards: [
+				{
+					id: "482BF710D87A9B0C"
+					type: "xp"
+					xp: 500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "72CC9290BC3624E7"
+					table_id: 6997903212867593696L
+					type: "random"
+				}
+			]
+			shape: "square"
+			size: 2.0d
+			tasks: [
+				{
+					advancement: "the_bumblezone:structures/enter_sempiternal_sanctum"
+					criterion: ""
+					id: "243D9BDB4B7D3A0D"
+					type: "advancement"
+				}
+				{
+					id: "203DE3F63A546E37"
+					item: "the_bumblezone:essence_of_the_bees"
+					type: "item"
+				}
+			]
+			title: "永恒圣所"
+			x: 0.0d
+			y: 43.0d
+		}
+		{
+			dependencies: ["152CEE1EB83E723E"]
+			description: [
+				"当你抵达圣所的中心房间后，你会发现中央有一个彩色精华方块，触摸这个方块会触发&d竞技场事件&r。"
+				""
+				"完成&n红色永恒圣所&r的挑战任务，获得&c暴怒精华&r。你需要在限定时间内总计击杀100只怪物。什么怪物都有，包括劫掠兽、恶魂、杀手兔、狼等。"
+			]
+			icon: {
+				Count: 1
+				id: "the_bumblezone:essence_raging"
+				tag: {
+					abilityUseRemaining: 28
+				}
+			}
+			id: "6B08504E69F31D1D"
+			rewards: [{
+				id: "3663650701E02ADD"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [
+				{
+					icon: "the_bumblezone:honey_crystal"
+					id: "45E40EF560412568"
+					structure: "the_bumblezone:sempiternal_sanctum_red"
+					title: "红色永恒圣所"
+					type: "structure"
+				}
+				{
+					id: "3CB4298CC7A6A053"
+					item: {
+						Count: 1
+						id: "the_bumblezone:essence_raging"
+						tag: {
+							abilityUseRemaining: 28
+						}
+					}
+					type: "item"
+					weak_nbt_match: true
+				}
+			]
+			title: "红色永恒圣所"
+			x: 5.5d
+			y: 40.5d
+		}
+		{
+			dependencies: ["152CEE1EB83E723E"]
+			description: [
+				"当你抵达圣所的中心房间后，你会发现中央有一个彩色精华方块，触摸这个方块会触发&d竞技场事件&r。"
+				""
+				"完成&n黄色永恒圣所&r的挑战任务，获得&e光辉精华&r。你需要在限定时间时间内通过总计100个环。同时会刷出大量的恼鬼会干扰你，期间会获得获得迅捷V、跳跃提升V和挖掘疲劳I的Buff。"
+			]
+			icon: {
+				Count: 1
+				id: "the_bumblezone:essence_radiance"
+				tag: {
+					abilityUseRemaining: 4800
+				}
+			}
+			id: "694CAD5A539FA0CE"
+			rewards: [{
+				id: "79E7A4E7E5624A4C"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [
+				{
+					icon: "the_bumblezone:honey_crystal"
+					id: "27F9A2C394433E05"
+					structure: "the_bumblezone:sempiternal_sanctum_yellow"
+					title: "黄色永恒圣所"
+					type: "structure"
+				}
+				{
+					id: "0286AF139E7F772D"
+					item: {
+						Count: 1
+						id: "the_bumblezone:essence_radiance"
+						tag: {
+							abilityUseRemaining: 4800
+						}
+					}
+					type: "item"
+					weak_nbt_match: true
+				}
+			]
+			title: "黄色永恒圣所"
+			x: 5.5d
+			y: 41.5d
+		}
+		{
+			dependencies: ["152CEE1EB83E723E"]
+			description: [
+				"当你抵达圣所的中心房间后，你会发现中央有一个彩色精华方块，触摸这个方块会触发&d竞技场事件&r。"
+				""
+				"完成&n蓝色永恒圣所&r的挑战任务，获得&b平静精华&r。你需要在限定时间内在水下击杀总计50个怪物，包括溺尸、守卫者和远古守卫者。"
+			]
+			icon: {
+				Count: 1
+				id: "the_bumblezone:essence_calming"
+				tag: {
+					abilityUseRemaining: 600
+				}
+			}
+			id: "204E549F9C64E08C"
+			rewards: [{
+				id: "4272074F52E37819"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [
+				{
+					icon: "the_bumblezone:honey_crystal"
+					id: "6CF0DC1FFEE406D3"
+					structure: "the_bumblezone:sempiternal_sanctum_blue"
+					title: "蓝色永恒圣所"
+					type: "structure"
+				}
+				{
+					id: "12AF347A4AF29418"
+					item: {
+						Count: 1
+						id: "the_bumblezone:essence_calming"
+						tag: {
+							abilityUseRemaining: 600
+						}
+					}
+					type: "item"
+					weak_nbt_match: true
+				}
+			]
+			title: "蓝色永恒圣所"
+			x: 5.5d
+			y: 42.5d
+		}
+		{
+			dependencies: ["152CEE1EB83E723E"]
+			description: [
+				"当你抵达圣所的中心房间后，你会发现中央有一个彩色精华方块，触摸这个方块会触发&d竞技场事件&r。"
+				""
+				"完成&n绿色永恒圣所&r的挑战任务，获得&a生命精华&r。你需要在限定时间时间内把根蠹吐的泥土球打回去攻击它自己30次，或者用投掷物泥土球直接攻击。需要来到&e指定的平台&r，根蠹才会开始吐泥土球。随着时间的推移，根蠹吐的速度会越来越快。"
+			]
+			icon: {
+				Count: 1
+				id: "the_bumblezone:essence_life"
+				tag: {
+					abilityUseRemaining: 1000
+				}
+			}
+			id: "0AE7B31FB34A152F"
+			rewards: [{
+				id: "10854D47B4BE9583"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [
+				{
+					icon: "the_bumblezone:honey_crystal"
+					id: "3827E7D557A1D3C3"
+					structure: "the_bumblezone:sempiternal_sanctum_green"
+					title: "绿色永恒圣所"
+					type: "structure"
+				}
+				{
+					id: "79BB35AA8D784368"
+					item: {
+						Count: 1
+						id: "the_bumblezone:essence_life"
+						tag: {
+							abilityUseRemaining: 1000
+						}
+					}
+					type: "item"
+					weak_nbt_match: true
+				}
+			]
+			title: "绿色永恒圣所"
+			x: 5.5d
+			y: 43.5d
+		}
+		{
+			dependencies: ["152CEE1EB83E723E"]
+			description: [
+				"当你抵达圣所的中心房间后，你会发现中央有一个彩色精华方块，触摸这个方块会触发&d竞技场事件&r。"
+				""
+				"完成&n紫色永恒圣所&r的挑战任务，获得&d全知精华&r。你需要在限定时间里躲避尖刺的攻击，碰到尖刺将受到伤害并获得&a中毒&r效果，圣所内将禁用大部分飞行手段。"
+			]
+			icon: {
+				Count: 1
+				id: "the_bumblezone:essence_knowing"
+				tag: {
+					abilityUseRemaining: 1200
+				}
+			}
+			id: "26D9059CCD383383"
+			rewards: [{
+				id: "314A33C67DBCACF5"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [
+				{
+					icon: "the_bumblezone:honey_crystal"
+					id: "7F35F01C3EFA2268"
+					structure: "the_bumblezone:sempiternal_sanctum_purple"
+					title: "紫色永恒圣所"
+					type: "structure"
+				}
+				{
+					id: "31665630BB8DD698"
+					item: {
+						Count: 1
+						id: "the_bumblezone:essence_knowing"
+						tag: {
+							abilityUseRemaining: 1200
+						}
+					}
+					type: "item"
+					weak_nbt_match: true
+				}
+			]
+			title: "紫色永恒圣所"
+			x: 5.5d
+			y: 44.5d
+		}
+		{
+			dependencies: ["152CEE1EB83E723E"]
+			description: [
+				"当你抵达圣所的中心房间后，你会发现中央有一个彩色精华方块，触摸这个方块会触发&d竞技场事件&r。"
+				""
+				"完成&n白色永恒圣所&r的挑战任务，获得&7连续精华&r。你需要在限定时间内击杀6个宇宙水晶实体。每个水晶实体拥有60点生命，拥有 &n2&r 点伤害限制。"
+			]
+			icon: {
+				Count: 1
+				id: "the_bumblezone:essence_continuity"
+				tag: {
+					abilityUseRemaining: 1
+				}
+			}
+			id: "5B2C309C9EDAAA30"
+			rewards: [{
+				id: "24484190F74FFFAB"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [
+				{
+					icon: "the_bumblezone:honey_crystal"
+					id: "7EF16AEFDDD40B2D"
+					structure: "the_bumblezone:sempiternal_sanctum_white"
+					title: "白色永恒圣所"
+					type: "structure"
+				}
+				{
+					id: "500EE0E9E9DD1139"
+					item: {
+						Count: 1
+						id: "the_bumblezone:essence_continuity"
+						tag: {
+							abilityUseRemaining: 1
+						}
+					}
+					type: "item"
+					weak_nbt_match: true
+				}
+			]
+			title: "白色永恒圣所"
+			x: 5.5d
+			y: 45.5d
+		}
+		{
+			dependencies: [
+				"5B2C309C9EDAAA30"
+				"26D9059CCD383383"
+				"6B08504E69F31D1D"
+				"0AE7B31FB34A152F"
+				"204E549F9C64E08C"
+				"694CAD5A539FA0CE"
+			]
+			description: ["你已完成全部的永恒试炼。"]
+			icon: "the_bumblezone:essence_of_the_bees"
+			icon_scale: 2.0d
+			id: "03AC13ADFC3AADB9"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/curios add charm @p"
+					elevate_perms: true
+					icon: "minecraft:bundle"
+					id: "3CFFB64348BC9E86"
+					title: "获得额外的护符栏位"
+					type: "command"
+				}
+				{
+					id: "7B5E43518D2CF7F0"
+					item: "the_bumblezone:essence_of_the_bees"
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 3.0d
+			tasks: [{
+				id: "653B4815E35D3F14"
+				title: "迈入永恒"
+				type: "checkmark"
+			}]
+			title: "迈入永恒"
+			x: 11.0d
+			y: 43.0d
+		}
+		{
+			dependencies: ["2B530BD810D044D6"]
+			description: [
+				"&o&d&l“这是一场彻头彻尾的失败，「终末」即将降临，「希望」却已不再。——我已是终亡，世界的毁灭者。”&r"
+				""
+				"这是世界的葬礼，黑裙女士如是说。她的眼角缓缓流下泪水，嗓音带着无法遏制的悲痛，“我们最最亲爱的世界，从此埋葬。”"
+				""
+				"周围传来似有若无的抽泣声，但在它出现之时，便开始渐渐地消散。我看到周围簇拥的人群在渐渐消失，每一个人的消失，墓园内就会出现一小块新的墓碑。只是，这些墓碑的前方再也没有任何鲜花和祝词，只得有无尽的虚无装点。"
+				""
+				"然后我见到，浩瀚无垠的宇宙，入目所及是无限的繁荣，无数的文明闪烁其中，每一点星光都代表着希望。最后，星光一颗颗地黯淡下去，伴随着一声声几近无法察觉的、文明消散时的呜咽，只余下一片纯粹的黑暗。"
+				""
+				"——末日要来了。"
+			]
+			hide_until_deps_complete: true
+			icon: "minecraft:end_crystal"
+			icon_scale: 2.0d
+			id: "4CCF1E77336ED939"
+			rewards: [{
+				id: "6419067DFCEFEF0F"
+				item: "kubejs:contrary_chronicle"
+				type: "item"
+			}]
+			shape: "none"
+			size: 3.0d
+			tasks: [{
+				id: "3EAAB7D183471163"
+				title: "故事的尾页"
+				type: "checkmark"
+			}]
+			title: "这是一场彻头彻尾的失败"
+			x: 112.5d
+			y: 24.0d
+		}
+		{
+			description: ["能够为工具赋予 &a耐久2级&r 附魔。"]
+			id: "6A7DDBBE1DC8A71D"
+			rewards: [{
+				id: "6E7F867D198A7971"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			tasks: [{
+				id: "6546A7A9F952C9CF"
+				item: "twilightforest:liveroot"
+				type: "item"
+			}]
+			x: 28.5d
+			y: 13.5d
+		}
+		{
+			description: [
+				"能够为防具赋予 &a保护2级&r 附魔。"
+				"钢叶块能为防具赋予 &a保护4级&r 附魔"
+			]
+			id: "060E9B448F02336E"
+			rewards: [{
+				id: "0C8939490C72B418"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			tasks: [{
+				id: "29687ACA387F7BD6"
+				item: "twilightforest:steeleaf_ingot"
+				type: "item"
+			}]
+			x: 28.5d
+			y: 12.5d
+		}
+		{
+			description: ["通过挖掘蜂蜜结晶获得。能够为防具赋予 &a耐久1级&r 附魔，能够对螫针武器进行&d附魔强化&r，也能作为结晶炮的弹药使用。"]
+			icon: "the_bumblezone:honey_crystal_shards"
+			id: "43E49067260EAB3D"
+			rewards: [{
+				id: "042ED3597A1A8E48"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			tasks: [{
+				id: "6B4E85EA00AF9809"
+				item: "the_bumblezone:honey_crystal_shards"
+				type: "item"
+			}]
+			title: "蜂蜜结晶碎片"
+			x: -1.5d
+			y: 38.5d
+		}
+		{
+			description: [
+				"巨蜂是蜜蜂领域中一种可&e驯服骑乘&r的飞行生物。当你手持蜂蜜桶时，它们会跟随你。若已驯服，手持蜂蜜桶将能吸引 &n200&r 格内被驯服的巨蜂快速飞向你。"
+				""
+				"巨蜂可以通过喂食蜂蜜瓶、蜂蜜桶或蜜蜂面包等蜂蜜食物来驯服，骑乘还需为其准备1个鞍。"
+				""
+				"喂养和骑乘能够提升你与巨蜂的&a友谊度&r，友谊度越高，巨蜂的飞行速度将越快。当友谊度达到最大1000点时，巨蜂就会成为&d巨蜂后&r并保持最大飞行速度。当巨蜂受到伤害后，友谊度将减少，友谊度归零时将无法骑乘。"
+			]
+			icon: "the_bumblezone:bee_bread"
+			id: "4B10AB0B18498631"
+			rewards: [{
+				id: "4F3CEAA12B1D3873"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			tasks: [{
+				advancement: "the_bumblezone:effects/beenergized_maxed"
+				criterion: ""
+				id: "7E3BDAC81AE12D74"
+				type: "advancement"
+			}]
+			title: "获得一只巨蜂坐骑"
+			x: -1.5d
+			y: 37.5d
+		}
+		{
+			description: ["成功格挡攻击后，为目标施加8秒&d缓慢II&r效果。当你用蜂蜜结晶碎片在铁砧中修复它时，将提升盾牌等级，并提升其&e耐久上限&r。在阻挡爆炸或火焰伤害时，会受到大量耐久损耗。"]
+			icon: {
+				Count: 1
+				id: "the_bumblezone:honey_crystal_shield"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2CB6FCBCBDB34247"
+			rewards: [{
+				id: "719629C9970E5623"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			tasks: [{
+				id: "249C1B3B1D971C27"
+				item: {
+					Count: 1
+					id: "the_bumblezone:honey_crystal_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "蜂蜜结晶盾牌"
+			x: -1.5d
+			y: 39.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["152CEE1EB83E723E"]
+			description: ["勤劳的蜜蜂们将为你找出&e特定结构的位置&r。幽匿古城和试炼密室的位置需要你回到 &n主世界&r 进行搜索，永恒圣所的位置需要你前往 &n蜜蜂领域&r 进行搜索。"]
+			icon: "the_bumblezone:bee_bread"
+			id: "0BA5738EE27FA2B0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "34B4CDC4C6FB80C3"
+				table_id: 1053396989842132077L
+				type: "choice"
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [
+				{
+					consume_items: true
+					id: "2F5BC643C54D56D1"
+					item: "the_bumblezone:royal_jelly_bottle"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "7130EDC24E66C924"
+					item: "the_bumblezone:bee_bread"
+					type: "item"
+				}
+			]
+			title: "群蜂之息"
+			x: 0.0d
+			y: 45.0d
+		}
+		{
+			dependencies: ["7070E4AB26571A06"]
+			description: [
+				"制作&d血色之眼&r，在下界中找到血色祭坛，死尸术士正在举行神秘仪式，击败获得&d异教徒的心脏&r和&d唤魂项链&r。"
+				""
+				"死尸术士是至少3星的精英单位；它拥有 &n80点&r 伤害限制，拥有 &n50%&r 魔法伤害抗性。在受到伤害后，死尸术士将会&d瞬移&r；在生命较低时，还会献祭仆从死尸&c回复大量生命值&r，及时击杀仆从死尸可以&e阻止其回复生命值&r。特别的，死尸术士的生命回复提升至 &n1.5&r 倍。"
+				""
+				"可以通过 &b许愿泉&r 获取对应结构的位置。这需要向许愿泉献出 &e&n血色之眼&r 、皇家末影珍珠、传送卷轴、星界粉尘 。"
+			]
+			icon: "eeeabsmobs:bloody_altar_eye"
+			id: "6BF1A1E585436F58"
+			rewards: [
+				{
+					id: "6030D49E56392DAE"
+					type: "xp"
+					xp: 500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2D4928D925A7298A"
+					table_id: 2184327557013803857L
+					type: "random"
+				}
+				{
+					id: "02E6D74BA1896EFC"
+					item: "goety:treasure_pouch"
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 2.0d
+			tasks: [
+				{
+					id: "3D019DA3D24B4DF7"
+					item: "eeeabsmobs:bloody_altar_eye"
+					type: "item"
+				}
+				{
+					advancement: "eeeabsmobs:eeeabsmobs/kill_corpse_warlock"
+					criterion: ""
+					id: "7B54DAD15D4BB48B"
+					type: "advancement"
+				}
+			]
+			title: "死尸术士"
+			x: 57.0d
+			y: 35.0d
+		}
+		{
+			dependencies: [
+				"51A447BBEB66E6F2"
+				"01E3571060F3B3A4"
+			]
+			description: [
+				"制作&d古陵之眼&r，在辐射荒原地下找到古陵，它固定生成在 &nY=-30&r 格位置。结构外层覆盖了&9无法破坏&r的方块，要想进入得先找到结构顶部存在发光地衣的位置。"
+				""
+				"无名守卫者是至少3星的BOSS单位。它拥有 &n120点&r 伤害限制。在增幅状态下免疫弹射物伤害，且会释放造成&d魔法伤害&r的激光。"
+				""
+				"无名守卫者的近战攻击附带&c吸血&r效果，部分攻击会造成&6眩晕&r效果。无名守卫者血量首次低于 &n60%&r 后进入增幅状态，反之则会在虚弱状态30秒后再次进入增幅状态，持续65秒，在释放强力撼地攻击后，进入虚弱状态。"
+			]
+			icon: {
+				Count: 1
+				id: "eeeabsmobs:guardian_axe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1B171AD55782782F"
+			rewards: [{
+				id: "76714F77E3E5C1C8"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				advancement: "eeeabsmobs:eeeabsmobs/kill_nameless_guardian"
+				criterion: ""
+				id: "06FA1E2F1C1E9518"
+				type: "advancement"
+			}]
+			title: "无名守卫者"
+			x: 72.0d
+			y: 47.5d
+		}
+		{
+			dependencies: ["0A303A2D4D19EE4D"]
+			description: [
+				"制作&d古陵之眼&r，在辐射荒原地下找到古陵，它固定生成在 &nY=-30&r 格位置。结构外层覆盖了&9无法破坏&r方块，要想进入得先找到结构顶部存在发光地衣的位置。"
+				""
+				"古陵第二层会生成&b古陵哨兵-重型&r，是至少3星的精英单位，其护甲值较高，对除虚空伤害以外的所有伤害拥有额外 &n20%&r 免伤。击败可获得&b远古驱动水晶&r。"
+				""
+				"可以通过 &b许愿泉&r 获取对应结构的位置。这需要向许愿泉献出 &e&n古陵之眼&r 、皇家末影珍珠、传送卷轴、星界粉尘 。"
+			]
+			icon: "eeeabsmobs:guling_eye"
+			id: "51A447BBEB66E6F2"
+			rewards: [{
+				id: "2E2BF5ABDFC8EDA2"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [
+				{
+					id: "4402803EEBCDBE97"
+					item: "eeeabsmobs:guling_eye"
+					type: "item"
+				}
+				{
+					icon: "eeeabsmobs:ancient_drive_crystal"
+					id: "5D0A50EA6DF29649"
+					structure: "eeeabsmobs:guling"
+					title: "抵达古陵"
+					type: "structure"
+				}
+			]
+			title: "古陵"
+			x: 67.5d
+			y: 47.5d
+		}
+		{
+			dependencies: [
+				"6BF1A1E585436F58"
+				"6DCCD248D5F7358D"
+				"24978CA3911B83C5"
+			]
+			description: ["你从地狱离开，踏足了时间的长河。"]
+			icon: "supplementaries:clock_block"
+			icon_scale: 2.0d
+			id: "43121DC26ACE425F"
+			rewards: [{
+				auto: "enabled"
+				command: "/curios add charm @p"
+				elevate_perms: true
+				icon: "minecraft:bundle"
+				id: "760E492048B70815"
+				title: "获得额外的护符栏位"
+				type: "command"
+			}]
+			shape: "square"
+			size: 3.0d
+			tasks: [{
+				id: "1249A8F9203C0CE3"
+				title: "溢裂时空"
+				type: "checkmark"
+			}]
+			title: "溢裂时空"
+			x: 63.5d
+			y: 35.0d
+		}
+		{
+			dependencies: ["05FA3C2BDADED141"]
+			description: [
+				"制作&e虚饰的空白&r，在任意维度使用，即可召唤时间之外的不朽者。击败可获得&d幽冥钢锭&r。"
+				""
+				"不朽者是至少4星的BOSS单位。它拥有 &n200&r 点伤害限制，拥有 &n40%&r 闪避率，拥有&6伤害适应&r机制。不朽者免疫并反弹所有受到的&c负面药水&r效果，在短时间内&n受到高频率攻击&r将完全&e免疫&r这些伤害。"
+				""
+				"不朽者会主动格挡攻击，使受到的伤害降低90%，格挡3次后触发反击。它的攻击会附带&6眩晕&r效果，部分攻击将造成&d魔法伤害&r。"
+				""
+				"■ 伤害适应：受到伤害后20秒内，获得 &n5%&r 针对此伤害的免伤，可计算16次，相同类型的免伤至多 &n40%&r 。"
+			]
+			icon: {
+				Count: 1
+				id: "eeeabsmobs:ghost_warrior_helmet"
+				tag: {
+					CodeAddFlag: 1b
+					Damage: 0
+					Unbreakable: 1b
+				}
+			}
+			id: "792949F22AB9A33C"
+			rewards: [{
+				auto: "enabled"
+				id: "511463D5A84CE2A8"
+				type: "xp"
+				xp: 1000
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "5F4A9D22575697A8"
+				item: "eeeabsmobs:ghost_steel_ingot"
+				type: "item"
+			}]
+			title: "不朽者"
+			x: 94.0d
+			y: 27.0d
+		}
+		{
+			description: ["可以储存、快捷更换你的&e饰品&r。"]
+			hide_dependency_lines: true
+			id: "2492E1991047FB16"
+			rewards: [{
+				id: "3323B43AA7CCB4AC"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			tasks: [{
+				id: "6BDDAE552E5AEAA2"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 1
+						}
+					}
+					id: "convenientcurioscontainer:curios_container"
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 13.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["0181D693C37E390F"]
+			description: [
+				"天境传送门（又叫“天堂传送门”）的构建方式与下界传送门完全相反：使用 &e荧石&r 搭建传送门框架，通过 &b水&r 来激活传送门。"
+				""
+				"天境是&c难度较高&r的维度，推荐在拥有飞行手段和强力装备后再开始挑战地牢BOSS。其他维度的装备现在可以在天境维度正常使用，但挖掘天境内的方块依旧需要天境工具。&n天际挑战者&r将只在天境维度生成。"
+				""
+				"{image:aether:item/miscellaneous/aether_portal_frame width:100 height:100 align:center}"
+				"  &7              &o记得要放一桶水激活（不能是糖水）&r&r"
+			]
+			disable_toast: true
+			icon: "aether:aether_portal_frame"
+			id: "7609E979E6C5E76F"
+			rewards: [{
+				id: "42F6E0C968411CA6"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				dimension: "aether:the_aether"
+				icon: "aether:aether_portal_frame"
+				id: "17A3C5705E1611B0"
+				title: "前往天境"
+				type: "dimension"
+			}]
+			title: "登上天堂"
+			x: 20.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7609E979E6C5E76F"]
+			description: ["紫晶石是天境中的重要矿物材料，通过挖掘紫晶矿石掉落。这种矿物用途十分广泛，可以被用于合成护甲、武器、饰品、工具以及 &b神能炉&r 。"]
+			icon: "aether:zanite_gemstone"
+			id: "1016029E84BDE45B"
+			rewards: [{
+				id: "669D3762F6E96A70"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "669FE8FA6ABE18F8"
+				item: "aether:zanite_gemstone"
+				type: "item"
+			}]
+			x: 27.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1016029E84BDE45B"]
+			description: ["重力晶是天境中的最为重要的矿物材料，通过 &b神能炉&r 附神粗重力晶获取。重力晶用途十分广泛，其制作的工具、武器有强制目标浮空的能力，而其护甲套装则能提高玩家的跳跃高度，并降低摔落伤害。"]
+			icon: "aether_redux:gravitite_ingot"
+			id: "25796A407123E811"
+			rewards: [{
+				id: "642233FE4453B25B"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "578E9BB0E6EF4FC9"
+				item: "aether_redux:gravitite_ingot"
+				type: "item"
+			}]
+			x: 36.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["25796A407123E811"]
+			description: [
+				"&d滑行魔石&r是青铜地牢的看守者，护甲值较高，是至少2星的BOSS单位。青铜地牢深埋于空屿的地下，在空屿表面或边缘会留下较为明显的入口。击败掉落1把&b青铜钥匙&r，可开启青铜地牢的宝箱。"
+				""
+				"休眠状态下的滑行魔石不会做出任何敌对行为，无法被推动，一般武器无法对其造成伤害，只能使用 &b镐&r 类武器进行攻击。当生命值低于100点时，滑行魔石会进入&c暴走状态&r。特别的，滑行魔石拥有 &n40%&r 暴击率。"
+				""
+				"可以通过 &b许愿泉&r 获取对应结构的位置。这需要向许愿泉献出 &e&n感应砖&r 、皇家末影珍珠、传送卷轴、星界粉尘 。"
+			]
+			icon: "aether:bronze_dungeon_key"
+			id: "07A9860222C0BD2E"
+			rewards: [{
+				id: "1ACE27C587228D7B"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				advancement: "aether:bronze_dungeon"
+				criterion: ""
+				id: "47B215F0A88890E6"
+				type: "advancement"
+			}]
+			title: "滑行魔石"
+			x: 42.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["07A9860222C0BD2E"]
+			description: [
+				"&d狂瞳龙卷&r是黄铜地牢的看守者，是至少3星的BOSS单位。黄铜地牢是坐落于天境云层之上的巨型城堡。击败掉落1把&b黄铜钥匙&r，可开启黄铜地牢的宝箱。"
+				""
+				"狂瞳龙卷由 19 节龙身和 1 节龙首组成。任意身体部件被摧毁后，会&e分裂&r为独立个体自主攻击；龙首被摧毁时，龙身将成为新龙首。特别的，狂瞳龙卷生命回复速度较快，拥有 &n40%&r 护甲穿透。"
+				""
+				"可以通过 &b许愿泉&r 获取对应结构的位置。这需要向许愿泉献出 &e&n寒风境云&r 、皇家末影珍珠、传送卷轴、星界粉尘 。"
+				""
+				"&8&ops：如果开始战斗后狂瞳龙卷重新回到休眠状态，请摘下类似可怖之袋这样会给予目标持续伤害的饰品。"
+			]
+			icon: "deep_aether:brass_dungeon_key"
+			id: "49905447C5419C42"
+			rewards: [{
+				id: "3C96CC814EA82F24"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				advancement: "deep_aether:brass_dungeon"
+				criterion: ""
+				id: "52A433D9402B2B89"
+				type: "advancement"
+			}]
+			title: "狂瞳龙卷"
+			x: 48.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["49905447C5419C42"]
+			description: [
+				"&d武神女王&r是白银地牢的看守者，是至少3星的BOSS单位。庄严的白银地牢是天境不可侵犯的圣地，也是武神族人的休憩之所，位于Y轴高于100的天空中。击败掉落1把&b白银钥匙&r，可开启白银地牢的宝箱。"
+				""
+				"需携带10枚 &e胜利奖牌&r ，作为足以挑战武神女王的资格。武神女王能够短暂飞行，免疫火焰伤害，会不时使用冲刺对玩家造成突击伤害，或召唤风暴雷球攻击玩家。特别的，武神女王的生命回复提升至 &n3&r 倍。"
+				""
+				"可以通过 &b许愿泉&r 获取对应结构的位置。这需要向许愿泉献出 &e&n神能晶片&r 、皇家末影珍珠、传送卷轴、星界粉尘 。"
+			]
+			icon: "aether:silver_dungeon_key"
+			id: "1591031B34583EDB"
+			rewards: [{
+				id: "473062CD6454D097"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				advancement: "aether:silver_dungeon"
+				criterion: ""
+				id: "4BE0E950928348B0"
+				type: "advancement"
+			}]
+			title: "武神女王"
+			x: 51.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1591031B34583EDB"]
+			description: [
+				"&d烈阳巨灵&r是黄金地牢的看守者，是至少4星的BOSS单位。黄金地牢位于一座生长着无数&n金琥珀橡树&r的球状浮岛内部，浮岛位于Y轴大于110的高空。击败掉落&c日轮祭坛&r和&e黄金钥匙&r，可开启黄金地牢的宝箱。"
+				""
+				"烈阳巨灵&d无法被任何形式的攻击所伤害&r，免疫&n附加伤害&r，在挑战前，推荐先获取提供 &b寒冰增幅 &r的饰品。"
+				""
+				"烈阳巨灵会发射两种晶球。红色的为&c滚炎球&r，被命中会造成伤害和爆炸，可以被攻击打碎；蓝色的为&b冰结球&r，受到玩家攻击后会改变轨迹向攻击方向飞出，冰结球如果命中烈阳巨灵将&e破除烈阳巨灵的无敌状态&r，并分裂出烈焰奴仆。&n烈阳仆从&r为至少1星的精英单位，注意清理。"
+				""
+				"击败烈阳巨灵后，天境将获得正常的&d日夜更替&r，使用日轮祭坛可以操纵天境的时间。"
+				""
+				"可以通过 &b许愿泉&r 获取对应结构的位置。这需要向许愿泉献出 &e&n金琥珀&r 、皇家末影珍珠、传送卷轴、星界粉尘 。"
+			]
+			icon: "aether:gold_dungeon_key"
+			id: "2AF7951F496E6CC6"
+			rewards: [{
+				id: "4A547CC519FCD848"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				advancement: "aether:gold_dungeon"
+				criterion: ""
+				id: "4DED0DC03AEF919D"
+				type: "advancement"
+			}]
+			title: "烈阳巨灵"
+			x: 57.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2AF7951F496E6CC6"]
+			description: [
+				"&d帝王云鲸&r是铂金地牢的看守者，是至少4星的BOSS单位。铂金地牢位于Y轴大于120的高空。击败掉落1把&b铂金钥匙&r，可开启铂金地牢的宝箱。"
+				""
+				"破坏楼顶的 &e颂歌石&r 便会开启同帝王云鲸的战斗。帝王云鲸会在玩家头顶盘旋，通过快速俯冲对玩家造成伤害，可以用盾牌&n格挡&r，或通过走位躲避此次攻击，使帝王云鲸&n眩晕&r，&e此时玩家方可对它造成伤害&r。"
+				""
+				"帝王云鲸&c免疫远程伤害&7(死亡射线/适应性弩/守卫者激光除外)&r，其生命回复速度较快，推荐对其施加&c重创&r或&d深渊恐惧&r效果，并携带&n不同的盾牌&r辅助战斗。"
+				""
+				"可以通过 &b许愿泉&r 获取对应结构的位置。这需要向许愿泉献出 &e&n重力晶盾&r 、皇家末影珍珠、传送卷轴、星界粉尘 。"
+			]
+			icon: "lost_aether_content:platinum_key"
+			id: "08345AE545056CE1"
+			rewards: [{
+				id: "5B78A4579A901561"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				advancement: "lost_aether_content:platinum_dungeon"
+				criterion: ""
+				id: "222A69EAD35BD6DE"
+				type: "advancement"
+			}]
+			title: "帝王云鲸"
+			x: 72.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"寻找特殊结构，右键&n天境灯&r召唤&d灯壶之灵&r，是至少2星的BOSS单位。击败可获得&b灯灵剑&r。灯壶之灵结构地面的&n速沙&r会大幅加快其移动速度，战斗前可对场地进行改造。"
+				""
+				"可以通过 &b许愿泉&r 获取对应结构的位置。这需要向许愿泉献出 &e&n速沙&r 、皇家末影珍珠、传送卷轴、星界粉尘 。"
+			]
+			icon: {
+				Count: 1
+				id: "aethermobs:spiritsword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "00DDB4429F78FE9F"
+			rewards: [{
+				id: "6223007A93342FEE"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "4BFC3E47F83C249B"
+				item: {
+					Count: 1
+					id: "aethermobs:spiritsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "灯壶之灵"
+			x: 36.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["00DDB4429F78FE9F"]
+			description: [
+				"寻找特殊结构，通过红石信号激活对应的&n生成器&r召唤&d盐蟹之王&r，是至少2星的BOSS单位。击败可获得&b盐之器&r。特别的，盐蟹之王的生命回复提升至 &n2&r 倍。"
+				""
+				"可以通过 &b许愿泉&r 获取对应结构的位置。这需要向许愿泉献出 &e&n糖&r 、皇家末影珍珠、传送卷轴、星界粉尘 。"
+			]
+			icon: {
+				Count: 1
+				id: "aethermobs:saltinstrument"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1F5D49ECFF91E038"
+			rewards: [
+				{
+					id: "0205771B166F98A3"
+					type: "xp"
+					xp: 500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "624056A4E5768F7D"
+					table_id: 2514079791446414624L
+					type: "random"
+				}
+			]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "5D011C826FD8DF7A"
+				item: {
+					Count: 1
+					id: "aethermobs:saltinstrument"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "盐蟹之王"
+			x: 42.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"1F5D49ECFF91E038"
+				"2AF7951F496E6CC6"
+			]
+			description: [
+				"寻找特殊结构，在&d黑夜&r通过红石信号激活对应的&n生成器&r召唤&d晶岩魔像&r，是至少3星的BOSS单位。击败可获得&b晶岩剑&r。晶岩魔像在战斗中会召唤大量晶岩仆从。特别的，晶盐魔像的护甲值较高，生命回复提升至 &n2&r 倍。"
+				""
+				"可以通过 &b许愿泉&r 获取对应结构的位置。这需要向许愿泉献出 &e&n海晶石&r 、皇家末影珍珠、传送卷轴、星界粉尘 。"
+			]
+			icon: {
+				Count: 1
+				id: "aethermobs:crystalitesword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6D17D1D5F6D25950"
+			rewards: [{
+				id: "20ECE50ACCCA8267"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "078297FD7A1F80AB"
+				item: {
+					Count: 1
+					id: "aethermobs:crystalitesword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "晶岩魔像"
+			x: 57.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6D17D1D5F6D25950"]
+			description: [
+				"寻找特殊结构，在&d黑夜&r通过红石信号激活对应的&n生成器&r召唤&d天境娜迦&r，是至少3星的BOSS单位。击败可获得&b地牢匕首&r。特别的，天境娜迦额外拥有 &n30%&r 闪避率。"
+				""
+				"可以通过 &b许愿泉&r 获取对应结构的位置。这需要向许愿泉献出 &e&n娜迦鳞片&r 、皇家末影珍珠、传送卷轴、星界粉尘 。"
+			]
+			icon: {
+				Count: 1
+				id: "aethermobs:dungeondagger"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "10BDC48CC62FCAB5"
+			rewards: [{
+				id: "6F4951E395CF74B6"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "2B2308C673CD7845"
+				item: {
+					Count: 1
+					id: "aethermobs:dungeondagger"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "天境娜迦"
+			x: 60.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["10BDC48CC62FCAB5"]
+			description: [
+				"寻找特殊结构，在&d黑夜&r通过激活对应的&n生成器&r召唤&d远古潜影贝&r，是至少3星的BOSS单位。击败可获得&b柴薪长矛&r。特别的，远古潜影贝攻击附带高额&d魔法伤害&r。"
+				""
+				"可以通过 &b许愿泉&r 获取对应结构的位置。这需要向许愿泉献出 &e&n潜影壳&r 、皇家末影珍珠、传送卷轴、星界粉尘 。"
+			]
+			icon: {
+				Count: 1
+				id: "aethermobs:pyrespear"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7CB97643B07AD909"
+			rewards: [{
+				id: "632AF67425F20892"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "0E341C23AE4C5BA9"
+				item: {
+					Count: 1
+					id: "aethermobs:pyrespear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "远古潜影贝"
+			x: 68.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7CB97643B07AD909"]
+			description: [
+				"寻找特殊结构，击败&e守护天使&r获取城市之钥，制作&d终末之钥&r。使用终末之钥激活对应的&n生成器&r召唤&d天境巨龙&r，是至少4星的BOSS单位。击败可获得&b阴影装备&r。"
+				""
+				"天境巨龙拥有两个阶段，一阶段会发射远程弹幕攻击，二阶段将回到地面战斗，并拥有较高的护甲值。特别的，天境巨龙的攻击附带高额的&d魔法伤害&r。"
+				""
+				"可以通过 &b许愿泉&r 获取对应结构的位置。这需要向许愿泉献出 &e&n龙息&r 、皇家末影珍珠、传送卷轴、星界粉尘 。"
+			]
+			icon: {
+				Count: 1
+				id: "aethermobs:shaday_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "186E6345810B8304"
+			rewards: [{
+				id: "60511A184E3B6E70"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [
+				{
+					id: "7423EE7D9834B423"
+					item: "aethermobs:finalkey"
+					type: "item"
+				}
+				{
+					id: "7C9BC2CB8BED5E7C"
+					item: {
+						Count: 1
+						id: "aethermobs:shaday_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "16A77C0880C3778C"
+					item: {
+						Count: 1
+						id: "aethermobs:shaday_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1DD58EC84906D434"
+					item: {
+						Count: 1
+						id: "aethermobs:shaday_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "天境巨龙"
+			x: 72.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"08345AE545056CE1"
+				"186E6345810B8304"
+			]
+			description: ["我们终将抵达约定的天国之顶。"]
+			icon: "aethermobs:finalkey"
+			icon_scale: 2.0d
+			id: "428EE9CAC2FE8D35"
+			rewards: [{
+				auto: "enabled"
+				command: "/curios add charm @p"
+				elevate_perms: true
+				icon: "minecraft:bundle"
+				id: "5B71AEDFA90D8490"
+				title: "获得额外的护符栏位"
+				type: "command"
+			}]
+			shape: "square"
+			size: 3.0d
+			tasks: [{
+				id: "6E859A27C9221DE0"
+				title: "约定的天国"
+				type: "checkmark"
+			}]
+			title: "约定的天国"
+			x: 80.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"&o&7           “ 欢迎来到这片浩瀚的梦田，"
+				"&o&7                          愿你也能儿在做上一段悠远的梦。”&r"
+				""
+				"“&7&l虚&b&l饰&7&l作品 &f- &c&lFic&e&ltional&r”整合包旨在以原版理念扩展玩家的冒险生存，整合包会采取各种措施来充实玩家的冒险体验，它的另一个备选名字是“我的世界+”，意思是在原版的基础上进行一些合理的改动，以此达到更好的游戏体验。"
+				""
+				"作为一个侧重冒险的整合包，这里 &n没有&r 夸张到百万的敌人血量，也 &n没有&r 对玩家前期的大量削弱折磨。"
+				""
+				"整合包中不会添加太多模组，所做的更多是对已有的内容进行改进，它不是一个大型的、颠覆性的整合包，而是对原有内容的“优化”。例如为 &e奇异饰品&r、&e暮色森林&r 、&e灾变&r 等模组的道具拓展用途，将这些模组添加的物品制作成 &b饰品&r 。"
+				""
+				"按 &aJ键&r 即可快速打开 [任务界面]。"
+				"按 &aB键&r 即可快速打开 [百科搜索] 。"
+				""
+				""
+				"制作者： &e绘名青棺&r(Silentmo) "
+				"联系群： &b693928637&r(主群)"
+			]
+			hide_details_until_startable: true
+			hide_lock_icon: true
+			hide_text_until_complete: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "minecraft:writable_book"
+			icon_scale: 2.0d
+			id: "4BEC7090F7B95409"
+			invisible: true
+			rewards: [{
+				description: "本整合包由 绘名青棺(Silentmo) 制作，联系QQ群：693928637"
+				id: "79E4E83DC1452F0F"
+				type: "toast"
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				days: 10000000
+				disable_toast: true
+				id: "63630A0D8D451B41"
+				type: "questsadditions:days"
+			}]
+			title: "引导的一页"
+			x: -212.5d
+			y: 22.5d
+		}
+		{
+			dependencies: ["2AF7951F496E6CC6"]
+			description: [
+				"&d云母钢锭&r的合成需要收集来自天境维度的大量珍贵材料，是天境维度的终极材料。"
+				""
+				"制作云母钢之前，首先需要寻找&b银青境云&r，其只会少量生成于天境 y≥200 处，被&c生物触碰&r会变为寒风境云&r。&n感应砖&r的获取来自天境空岛下方的感应石。"
+			]
+			icon: "deep_aether:stratus_ingot"
+			id: "71334FEC9155AEAE"
+			rewards: [{
+				id: "309D07016BB7678A"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "0F66FD003C52B808"
+				item: "deep_aether:stratus_ingot"
+				type: "item"
+			}]
+			title: "云母钢锭"
+			x: 68.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1F8AD0B187BECE0B"]
+			description: [
+				"鞘翅的获取需要前往末地外岛，找到&d末地船&r结构。将鞘翅装备在 &b胸甲栏&r 或 &b背饰栏&r ，然后手持烟花火箭 &a右键&r 即可直接飞行 。在没有烟花火箭的情况下，鞘翅可进行滑翔，通过 &aR键&r 翻滚获得动力。"
+				""
+				"可以通过 &b许愿泉&r 获取对应结构的位置。这需要向许愿泉献出 紫颂果、绿宝石、末影珍珠 。"
+				""
+				"&8在翻滚的加持下，获取鞘翅意味着你获得了极强的机动力，正式进入游戏中期，踏上讨伐主线BOSS的旅程。"
+			]
+			id: "16514A937D927204"
+			rewards: [{
+				id: "136DA3AA5F008B3E"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "6C423A831A9C2A38"
+				item: {
+					Count: 1
+					id: "minecraft:elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 57.0d
+			y: 24.0d
+		}
+		{
+			dependencies: [
+				"13390E141FE1EE8C"
+				"63D12D2F2016BC2A"
+				"0FB0AC1AB80CCFD5"
+				"169A2C5C87EC7C51"
+				"374A6184032E1FD8"
+				"6EC24F55C4F534CC"
+				"2A2C2F2483C64C99"
+				"454B9931ED15AD98"
+				"428EE9CAC2FE8D35"
+			]
+			description: [
+				"位于铅海的一角，被时间遗落。罪恶的灵魂在这里歇脚，等待下一场翼云的振翅。"
+				""
+				"1099年9月1日，铅海在一瞬间内暴涨数百米的水位，吞没了沉睡海港上居住的所有人类。"
+				""
+				"“……”"
+			]
+			icon: "minecraft:ender_chest"
+			icon_scale: 2.0d
+			id: "3D9DA4E862ECB032"
+			rewards: [{
+				auto: "enabled"
+				command: "/curios add charm @p"
+				elevate_perms: true
+				icon: "minecraft:bundle"
+				id: "1A269AB6EDF2E1A3"
+				title: "获得额外的护符栏位"
+				type: "command"
+			}]
+			shape: "square"
+			size: 3.0d
+			tasks: [{
+				id: "3CAD437E850872A1"
+				title: "沉睡海港"
+				type: "checkmark"
+			}]
+			title: "沉睡海港"
+			x: 90.5d
+			y: 24.0d
+		}
+		{
+			dependencies: ["2AF7951F496E6CC6"]
+			description: ["&d生命补片&r可以在&e黄金地牢&r或&b铂金地牢&r中获取，使用后可以永久增加 &a4点&r 生命上限，至多可使用 &n10次&r 。"]
+			icon: "aether:life_shard"
+			id: "548B6CB57A003995"
+			rewards: [{
+				id: "364EF5B8CB1D5F8E"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "1BCE027233A7C67E"
+				item: "aether:life_shard"
+				type: "item"
+			}]
+			title: "生命补片"
+			x: 60.0d
+			y: 3.0d
+		}
+		{
+			description: ["&e更多箱子&r模组提供了容量更大的箱子，铁箱子拥有 &n54&r 格容量，可通过&n箱子升级&r将已放置的箱子转为高级箱子。"]
+			hide_dependency_lines: true
+			id: "7E7F663BC02384F3"
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "5F11F02013C29674"
+				item: "ironchest:iron_chest"
+				type: "item"
+			}]
+			title: "更多箱子"
+			x: 4.0d
+			y: 35.0d
+		}
+		{
+			dependencies: ["7E7F663BC02384F3"]
+			description: ["钻石箱子拥有 &n108&r 格容量，是容量最大的箱子。可通过&n箱子升级&r将已放置的箱子转为高级箱子。"]
+			id: "06F066902919E788"
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "19409846A10B0F4B"
+				item: "ironchest:diamond_chest"
+				type: "item"
+			}]
+			title: "钻石箱子"
+			x: 6.0d
+			y: 35.0d
+		}
+		{
+			dependencies: ["6856EEA7F1D56A22"]
+			description: [
+				"凋灵骷髅将在下界的&n要塞&r自然生成，击败有概率掉落&e凋灵骷髅头&r，也可使用&n骷髅头&r制作而成。"
+				""
+				"你需要将4个 灵魂沙/灵魂土 按 T 字型放置，然后在上方摆放3个&e凋灵骷髅头&r，即可召唤&c凋灵&r。"
+			]
+			id: "23A23E0F33CCB939"
+			rewards: [{
+				id: "59CE73C0660B9E75"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				count: 3L
+				id: "632C1A7345B54512"
+				item: { Count: 3, id: "minecraft:wither_skeleton_skull" }
+				type: "item"
+			}]
+			title: "凋灵骷髅"
+			x: 39.0d
+			y: 35.0d
+		}
+		{
+			description: ["机械饰品的核心组件。"]
+			disable_toast: true
+			id: "223F9FB2B5F941EA"
+			rewards: [{
+				id: "24C4F399286C083C"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				disable_toast: true
+				id: "767A4BEB4B07DC9F"
+				item: "immersive_aircraft:steel_boiler"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["730BADB4815502F0"]
+			description: [
+				"不需要消耗燃料。起飞较慢，飞行速度适中。"
+				""
+				"按住 &aW键&r 进行起飞。使用时会消耗你的饱和度和饥饿值，当你饥饿时飞机会失去动力并垂直坠落。"
+			]
+			id: "04BB4A53800CFA83"
+			rewards: [{
+				id: "2B05E156F44E2B8F"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "4898B03015B958D8"
+				item: "immersive_aircraft:gyrodyne"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["730BADB4815502F0"]
+			description: ["需要较长的直线跑道来进行起飞，飞行速度最快，同时可升级的空间也最大。"]
+			id: "751D14F0FF7E0959"
+			rewards: [{
+				id: "53D2F5B279DF014E"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "56A38FF8351D1B14"
+				item: "immersive_aircraft:biplane"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 11.0d
+		}
+		{
+			description: ["可作为饰品佩戴。打开100次&n战利品宝箱&r获取。"]
+			icon: "lootr:trophy"
+			id: "1D6B18ABDFC969A3"
+			rewards: [{
+				id: "6B9B3309B8732A6E"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "4B7B3AF467CC4BD8"
+				item: "lootr:trophy"
+				type: "item"
+			}]
+			title: "百次奖杯"
+			x: 21.5d
+			y: 24.5d
+		}
+		{
+			description: [
+				"烹饪时，烹饪锅会计算当前放入食材的“&e食材值&r”；当锅内的食材值达到某个配方的要求阈值时，一份新鲜的料理将在配方要求的时间过后出现。"
+				""
+				"某些配方除了要求“食材值”以外，还需要玩家额外放入某些&a特定的食物&r才能成功制作；某些配方也会&c禁止放入特定食物&r，需要注意。"
+			]
+			id: "646227954E331B2A"
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "2E7A34447CF4006D"
+				item: "crockpot:crock_pot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["1016029E84BDE45B"]
+			description: ["神能炉使用&e神能晶片&r作为燃料，用来执行天境特有的物品处理方式——附神。神能炉也可用于修复物品耐久。"]
+			icon: "aether:altar"
+			id: "09B06E7D305D707D"
+			rewards: [{
+				id: "4766D5BAAB07395D"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "74BB3DE98D486C94"
+				item: "aether:altar"
+				type: "item"
+			}]
+			x: 33.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["250E47A7E3ADEA8F"]
+			description: [
+				"晶化花能够为附魔书&d自选附魔&r，在&n蜜蜂领域&r的特殊结构中生成，只能放置在&n紫水晶块&r等方块上。"
+				""
+				"你可以给予晶化花经验或物品供其消耗，晶化花最高可以长7格高。晶化花能够为附魔书&d自选附魔&r。破坏晶化花后将获得它本身，可储存其经验值。"
+			]
+			icon: "the_bumblezone:crystalline_flower"
+			id: "223F1F66B475BE60"
+			rewards: [{
+				id: "036401D92B3E8B74"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "square"
+			size: 2.0d
+			subtitle: "能够自选附魔"
+			tasks: [{
+				id: "7CDD5F2C9DCF0AED"
+				item: "the_bumblezone:crystalline_flower"
+				type: "item"
+			}]
+			title: "晶化花"
+			x: -3.0d
+			y: 45.0d
+		}
+		{
+			dependencies: ["0181D693C37E390F"]
+			description: [
+				"要进入辐射荒原，你需要用8块&n衰败石&r在地面围上一圈，在中心处放置一颗&n荧石&r或&n荧岩&r；最后，使用&a放射焰&r右击中心的荧石或荧岩，即可开启辐射荒原传送门。"
+				""
+				"&d辐射荒原传送门废墟&r有概率在主世界的&n沙漠&r群系或下界的&n顶层&r生成。&e荧光人&r和&e衰败石苦力怕&r有概率在&n下界&r自然生成。由此可以获取辐射荒原传送门的搭建材料。"
+				""
+				"辐射荒原是&c难度较高&r的维度，玩家在不作任何防护情况下待在辐射荒原维度会缓慢累计衰弱值，累计达到一定值便会陷入&c衰弱&r状态，减少各项基础属性，并持续损失生命；因此，必须佩戴相应的&n过滤口罩/防护面罩&r。"
+				""
+				"{image:radiation_zone_reborn:block/radiation_zone_portal_frame width:100 height:100 align:center}"
+				"              &7              &o这真的能够作为参考吗（&r&r"
+			]
+			disable_toast: true
+			icon: "radiation_zone_reborn:radioactive_flame"
+			id: "1429AEF9ADD2A30B"
+			shape: "square"
+			size: 2.0d
+			tasks: [
+				{
+					count: 8L
+					id: "65AF43277191221E"
+					item: { Count: 8, id: "radiation_zone_reborn:decayed_stone" }
+					type: "item"
+				}
+				{
+					id: "564930069446E11C"
+					item: "minecraft:glowstone"
+					type: "item"
+				}
+				{
+					id: "21FCFF261BCE8054"
+					item: "radiation_zone_reborn:radioactive_flame"
+					type: "item"
+				}
+			]
+			title: "辐射荒原"
+			x: 20.0d
+			y: 45.0d
+		}
+		{
+			dependencies: ["21247AC7F254B442"]
+			description: [
+				"&e大地石碑&r矗立在高塔的顶层。对其放入3枚&e大地石碑之键&r即可唤醒大地高塔的守卫者。它是至少1星的BOSS单位，击败可获得&d大地守卫之眼&r和&b钻石之心&r。"
+				""
+				"它会发射火球造成&c范围爆炸伤害&r，能够破坏方块；近战攻击可以&e反弹&r其发射的火球。高塔的守护者死亡后，高塔将会开始&c崩塌&r。"
+				""
+				"高塔的守卫免疫大部分法术以及仆从造成的伤害，只有 &n死亡射线&r 、&n卫射&r、&n音爆&r、&n地动&r 和 &n紫晶簇&r 聚晶能够正常对其造成伤害。"
+				""
+				"&8左键可立即破坏刷怪笼，获取1枚对应高塔的石碑之键 。在击败高塔守卫后，可以使用精准采集的镐挖掘其战利品箱，获得1个额外的守卫之眼。"
+			]
+			icon: "ba_bt:land_golem_eye"
+			id: "12383FFA86CDCBED"
+			rewards: [
+				{
+					id: "39C0A6038AE4322A"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "1E7D24956960CDF3"
+					item: {
+						Count: 1
+						id: "wishing_fountain:wf_structure_map"
+						tag: {
+							target: "ba_bt:ocean_tower"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "7674B9AD06CE7745"
+				item: "ba_bt:land_golem_eye"
+				type: "item"
+			}]
+			title: "大地高塔"
+			x: 33.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["54EDB787F7DF74BB"]
+			description: [
+				"&e大地高塔&r 生成于主世界的任意群系&n地表&r，可以通过许愿泉获取对应结构的位置。要挑战大地的守卫，你必须寻找并&n破坏&r高塔内的&c刷怪笼&r，以打开高塔内的宝箱，获取 &n3&r 枚&e大地石碑之键&r。"
+				""
+				"你的手上有一个 &b瓶中船&r ，使用它可获得指向 &e大地高塔&r 的地图。地图的方向可参考右上角的小地图。"
+				""
+				"&8左键可立即破坏刷怪笼，获取1枚对应高塔的石碑之键 。在击败高塔守卫后，可以使用精准采集的镐挖掘其战利品箱，获得1个额外的守卫之眼。"
+			]
+			icon: "ba_bt:land_monolith_key"
+			id: "21247AC7F254B442"
+			rewards: [{
+				id: "2FC18AC6CA671632"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "square"
+			size: 2.0d
+			subtitle: "使用瓶中船寻找高塔位置"
+			tasks: [{
+				count: 3L
+				id: "679445B1BF939182"
+				item: "ba_bt:land_monolith_key"
+				type: "item"
+			}]
+			title: "大地石碑之键"
+			x: 27.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["12383FFA86CDCBED"]
+			description: [
+				"&e海洋高塔&r 生成于主世界的&n海洋&r群系当中，可以通过许愿泉获取对应结构的位置。要挑战海洋的守卫，你必须寻找并&n破坏&r高塔内的&c刷怪笼&r，以打开高塔内的宝箱，获取&e海洋石碑之键&r。"
+				""
+				"海洋石碑矗立于高塔的底层。对其放入2枚&e海洋石碑之键&r，再放入1枚&d大地守卫之眼&r，唤醒海洋高塔的守卫者。它是至少2星的BOSS单位，会不断召唤溺尸，击败可获得&d海洋守卫之眼&r和&b海洋之心&r。"
+				""
+				"海洋高塔中会获得&d坠渊&r效果，使你持续坠向深渊的最底层，在水中能如陆地般行走。高塔的守护者死亡后，高塔将会开始&c崩塌&r。"
+				""
+				"高塔的守卫免疫大部分法术以及仆从造成的伤害，只有 &n死亡射线&r 、&n卫射&r、&n音爆&r、&n地动&r 和 &n紫晶簇&r 聚晶能够正常对其造成伤害。"
+				""
+				"&8左键可立即破坏刷怪笼，获取1枚对应高塔的石碑之键 。在击败高塔守卫后，可以使用精准采集的镐挖掘其战利品箱，获得1个额外的守卫之眼。"
+			]
+			icon: "ba_bt:ocean_golem_eye"
+			id: "73ABABA3E3440DBC"
+			rewards: [
+				{
+					id: "5628CDE4327A1CBB"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "6532CA13E55CD4DA"
+					item: {
+						Count: 1
+						id: "wishing_fountain:wf_structure_map"
+						tag: {
+							target: "ba_bt:core_tower"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 2.0d
+			subtitle: "推荐先获取水下呼吸"
+			tasks: [
+				{
+					count: 2L
+					id: "4A2C5F9FC36EECB3"
+					item: "ba_bt:ocean_monolith_key"
+					type: "item"
+				}
+				{
+					id: "21E19B75D1298127"
+					item: "ba_bt:land_golem_eye"
+					type: "item"
+				}
+				{
+					id: "10E0B10CECAC08A6"
+					item: "ba_bt:ocean_golem_eye"
+					type: "item"
+				}
+			]
+			title: "海洋高塔"
+			x: 42.0d
+			y: 24.0d
+		}
+		{
+			dependencies: [
+				"73ABABA3E3440DBC"
+				"76AD0F30202D5CAB"
+			]
+			description: [
+				"&e炉心高塔&r 生成于主世界的&n地下&r当中，可以通过许愿泉获取对应结构的位置。要挑战炉心的守卫，你必须寻找并&n破坏&r高塔内的&c刷怪笼&r，以打开高塔内的宝箱，获取&e炉心石碑之键&r。"
+				""
+				"炉心石碑矗立于高塔的顶层。对其放入2枚&e炉心石碑之键&r，再放入1枚&d海洋守卫之眼&r，唤醒炉心高塔的守卫者。它是至少2星的BOSS单位，击败可获得&d炉心守卫之眼&r。"
+				""
+				"它会发射火球造成&c范围爆炸伤害&r，并且能够破坏方块；使用近战攻击可以&e反弹&r其发射的火球。"
+				""
+				"炉心高塔内的所有敌对生物将获得&c抗火&r效果，并持续为你施加&c炉心炽烤&r效果，不断造成&n火焰伤害&r。高塔的守护者死亡后，高塔将会开始&c崩塌&r。"
+				""
+				"高塔的守卫免疫大部分法术以及仆从造成的伤害，只有 &n死亡射线&r 、&n卫射&r、&n音爆&r、&n地动&r 和 &n紫晶簇&r 聚晶能够正常对其造成伤害。"
+				""
+				"&8左键可立即破坏刷怪笼，获取1枚对应高塔的石碑之键 。在击败高塔守卫后，可以使用精准采集的镐挖掘其战利品箱，获得1个额外的守卫之眼。"
+			]
+			icon: "ba_bt:core_golem_eye"
+			id: "4CC72B5B3D54670E"
+			rewards: [
+				{
+					id: "618DC0459AA625C6"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "2CD3FE4576C69FC3"
+					item: {
+						Count: 1
+						id: "wishing_fountain:wf_structure_map"
+						tag: {
+							target: "betterstrongholds:stronghold"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 2.0d
+			subtitle: "推荐先获取免疫火焰伤害"
+			tasks: [
+				{
+					count: 2L
+					id: "0F6D42712A877981"
+					item: { Count: 2, id: "ba_bt:core_monolith_key" }
+					type: "item"
+				}
+				{
+					id: "0401DE490A3DD877"
+					item: "ba_bt:ocean_golem_eye"
+					type: "item"
+				}
+				{
+					id: "30EA65F7E55DA79D"
+					item: "ba_bt:core_golem_eye"
+					type: "item"
+				}
+			]
+			title: "炉心高塔"
+			x: 48.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["7070E4AB26571A06"]
+			description: [
+				"下界铁掌竞技场位于&n下界岩浆湖&r之上，可以通过 &b许愿泉&r 获取对应结构的位置。这需要向许愿泉献出 &e&n下界合金碎片&r 、皇家末影珍珠、传送卷轴、星界粉尘 。"
+				""
+				"挖掘结构中央的&d远古雕纹黑石&r即可召唤。击败可获得&d烈焰之眼&r，并在结构周围生成5块&n下界残骸&r。使用&n硫磺花蜜&r可重置此结构，以便于重复挑战。"
+				""
+				"下界铁掌是等同2星的BOSS单位；它拥有较高的护甲值，只有&e攻击其眼球才能对其造成伤害&r。下界铁掌的攻击会伴随大范围的&c爆炸伤害&r和&c火焰&r，在生命较低时会赋予玩家&d失明&r效果，还会发射&n伤害较高&r的掌眼镭射。"
+				""
+				"下界铁掌免疫大部分法术及仆从造成的伤害，只有 &n沧棱&r 、 &n紫晶簇&r 聚晶及远程/飞行仆从能对其造成伤害。"
+			]
+			icon: "bosses_of_mass_destruction:blazing_eye"
+			id: "75EE8DEF277BF6AC"
+			rewards: [{
+				id: "03F48A537BA8BA53"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "square"
+			size: 2.0d
+			subtitle: "这不是必须挑战的BOSS"
+			tasks: [{
+				id: "0D6EE98AC7D5F303"
+				item: "bosses_of_mass_destruction:blazing_eye"
+				type: "item"
+			}]
+			title: "下界铁掌"
+			x: 48.0d
+			y: 35.0d
+		}
+		{
+			dependencies: [
+				"762A3048963FA5CA"
+				"77213F11C389B678"
+				"441D895EAD2122FA"
+				"0A303A2D4D19EE4D"
+			]
+			description: [
+				"虚空之花位于&n辐射荒原&r的地下，&d虚空百合&r会为你指出正确的方向，注意虚空百合只能种植在&n正常的土方块&r上。靠近结构中央将召唤虚空之花。击败可获得&d虚空荆棘&r。使用&n硫磺花蜜&r可重置此结构，以便于重复挑战。"
+				""
+				"虚空之花是等同3星的BOSS单位；它不会移动，攻击附带高额的&d魔法伤害&r，拥有&c极高的生命回复速度&r。它会在场地周围召唤小型虚空之花，&n全部摧毁&r可阻止虚空之花的生命回复。"
+			]
+			icon: "bosses_of_mass_destruction:void_thorn"
+			id: "2E009A85EE3F0052"
+			rewards: [{
+				id: "631298BD0680E5EC"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [
+				{
+					id: "0C7C350ED763D832"
+					item: "bosses_of_mass_destruction:void_lily"
+					type: "item"
+				}
+				{
+					id: "352BF5934F2A65DF"
+					item: "bosses_of_mass_destruction:void_thorn"
+					type: "item"
+				}
+			]
+			title: "虚空之花"
+			x: 63.0d
+			y: 45.0d
+		}
+		{
+			dependencies: ["754E09563BF817E3"]
+			description: [
+				"暗夜巫妖的高塔位于暮色森林的&n冰雪森林&r，在高塔上层的&n雕纹石头祭坛&r上放置4枚灵魂之星，召唤暗夜巫妖。击败可获得&d古代灵魂&r。使用&n硫磺花蜜&r可重置此结构，以便于重复挑战。"
+				""
+				"暗夜巫妖是等同3星的BOSS单位，其会将时间锁定为黑夜。暗夜巫妖有四个血量阶段，不会自然回复生命。"
+				""
+				"暗夜巫妖能够瞬移、飞行和穿越墙壁，能够造成&c弹射物伤害&r和&c爆炸伤害&r，攻击附带高额的&d魔法伤害&r，同时会持续召唤&n幻翼&r协助作战。"
+				""
+				"可以通过 &b许愿泉&r 获取对应结构的位置。这需要向许愿泉献出 &e&n灵魂之星&r 、皇家末影珍珠、传送卷轴、星界粉尘 。"
+			]
+			icon: "bosses_of_mass_destruction:ancient_anima"
+			id: "6C422B04702F4A22"
+			rewards: [
+				{
+					id: "1709EBAE16D4484F"
+					type: "xp"
+					xp: 500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0EB0A7E4C85665D1"
+					table_id: 2184327557013803857L
+					type: "random"
+				}
+				{
+					id: "15F3C530679F6BC6"
+					item: "goety:treasure_pouch"
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "432B046EADE4763C"
+				item: "bosses_of_mass_destruction:ancient_anima"
+				type: "item"
+			}]
+			title: "暗夜巫妖"
+			x: 57.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["356D9C298B852A11"]
+			description: [
+				"&d黑曜石浮岛&r位于&n末地外岛&r之上，可以通过 &b许愿泉&r 获取对应结构的位置。这需要向许愿泉献出 &e&n哭泣的黑曜石&r 、皇家末影珍珠、传送卷轴、星界粉尘 。"
+				""
+				"在结构中央的&n黑曜石祭坛&r上放置1枚末影之眼，召唤黑曜石巨柱。击败可获得&d黑曜石之心&r和&d末影合金锻造模板&r。使用&n硫磺花蜜&r可重置此结构，以便于重复挑战。"
+				""
+				"黑曜石巨柱是等同3星的BOSS单位，其护甲值较高，拥有四个血量阶段，每阶段都会使自身&c无法受到伤害&r，必须&e摧毁周围的黑曜石符文&r解除此状态。攻击附带高额的&d魔法伤害&r，能够召唤地刺&n点燃&r目标或施加&n缓慢&r效果，能够施放大荒星陨对目标造成高额&c爆炸伤害&r。"
+			]
+			icon: "bosses_of_mass_destruction:obsidian_heart"
+			id: "6229BF181C9AA3E0"
+			rewards: [{
+				id: "3066AC935C17B2B5"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [
+				{
+					id: "5B068D5C92B692CF"
+					item: "minecraft:ender_eye"
+					type: "item"
+				}
+				{
+					id: "4624AF7315BE09D3"
+					item: "bosses_of_mass_destruction:obsidian_heart"
+					type: "item"
+				}
+			]
+			title: "黑曜石巨柱"
+			x: 68.0d
+			y: 27.0d
+		}
+		{
+			description: [
+				"突变烈焰人有概率在&n下界&r自然生成，或者对烈焰人使用&e突变药剂X/Z&r转化而来。击败可获得&d突变烈焰人核心&r。"
+				""
+				"突变烈焰人是至少2星的精英单位。它的周围环绕 &n6&r 面盾牌，每面可抵挡 &n1&r 次伤害，盾牌会随时间回复。它能够召唤&n小火蝠&r协助作战，会发射烈焰弹造成范围&c爆炸伤害&r，附带&c灼烧&r效果，可被近战攻击反弹。"
+			]
+			icon: "mutantmore:mutant_blaze_core"
+			id: "7FE77411965F504B"
+			rewards: [{
+				id: "2A7EECDD226C13C2"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "47A4C6183D6F19D3"
+				item: "mutantmore:mutant_blaze_core"
+				type: "item"
+			}]
+			title: "突变烈焰人"
+			x: 42.0d
+			y: 32.5d
+		}
+		{
+			dependencies: [
+				"799DBC106A0E5E17"
+				"1B171AD55782782F"
+			]
+			description: ["“这份痛苦，我希望尽早结束。”"]
+			icon: "radiation_zone_reborn:tyrant_eye"
+			icon_scale: 2.0d
+			id: "454B9931ED15AD98"
+			rewards: [{
+				auto: "enabled"
+				command: "/curios add charm @p"
+				elevate_perms: true
+				icon: "minecraft:bundle"
+				id: "30C8C73FBC9CF029"
+				title: "获得额外的护符栏位"
+				type: "command"
+			}]
+			shape: "square"
+			size: 3.0d
+			tasks: [{
+				id: "506DB7AB072E8A45"
+				title: "荧白的升华"
+				type: "checkmark"
+			}]
+			title: "荧白的升华"
+			x: 80.0d
+			y: 45.0d
+		}
+		{
+			dependencies: ["1F8AD0B187BECE0B"]
+			description: [
+				"突变潜影贝有概率在&n末地&r自然生成，或者对潜影贝使用&e突变药剂X/Z&r转化而来。击败可获得&d突变潜影壳&r。"
+				""
+				"突变潜影贝是至少3星的精英单位。当它缩进潜影壳中后，能&n抵挡&r所有伤害。它会发射潜影弹造成&d漂浮&r效果。"
+				""
+				"&8&ops：完成“狩猎全突变体”成就后，将获得1只变异合剂W宠物，输入 /concoctionw 指令可调整其相关设置。"
+			]
+			icon: "mutantmore:mutant_shulker_shell"
+			id: "7B799A2CE0A8EEB9"
+			rewards: [{
+				id: "219691B339A0FCAB"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "1A4924B96924C315"
+				item: "mutantmore:mutant_shulker_shell"
+				type: "item"
+			}]
+			title: "突变潜影贝"
+			x: 68.0d
+			y: 24.0d
+		}
+		{
+			description: [
+				"突变冰封僵尸有概率在&n辐射荒原&r自然生成，无法通过突变药剂转化。击败可获得&d突变冰封僵尸冰刺&r。"
+				""
+				"突变冰封僵尸是至少2星的精英单位。它生命值耗尽时，它将重新爬起，&c回复全部生命&r，此效果可发动 &n2&r 次。它的攻击附带&b寒冷&r效果，冰块命中会将目标困在冰块内。"
+			]
+			icon: "mutantmore:mutant_frozen_zombie_spikes"
+			id: "1CF14D58DA9706DA"
+			rewards: [{
+				id: "666161249E04C40C"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "3F42C41DC2C781CB"
+				item: "mutantmore:mutant_frozen_zombie_spikes"
+				type: "item"
+			}]
+			title: "突变冰封僵尸"
+			x: 45.0d
+			y: 47.5d
+		}
+		{
+			dependencies: [
+				"1CF14D58DA9706DA"
+				"309AE238D6B31982"
+			]
+			description: [
+				"突变丛林僵尸有概率在&n辐射荒原&r自然生成，无法通过突变药剂转化。击败可获得&d突变丛林僵尸藤曼种子&r。"
+				""
+				"突变丛林僵尸是至少3星的精英单位。它生命值耗尽时，它将重新爬起，&c回复全部生命&r，此效果可发动 &n2&r 次。它的攻击附带&a中毒&r效果，攻击频率较高，能够用藤蔓将目标&n拉至身前&r造成多段伤害。"
+				""
+				"&8&ops：完成“狩猎全突变体”成就后，将获得1只变异合剂W宠物，输入 /concoctionw 指令可调整其相关设置。"
+			]
+			icon: "mutantmore:mutant_jungle_zombie_vine_seed"
+			id: "01E3571060F3B3A4"
+			rewards: [{
+				id: "78A77FF38487FE55"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "107EEE19C6CDDA4C"
+				item: "mutantmore:mutant_jungle_zombie_vine_seed"
+				type: "item"
+			}]
+			title: "突变丛林僵尸"
+			x: 48.0d
+			y: 47.5d
+		}
+		{
+			description: [
+				"突变尸壳有概率在&n辐射荒原&r自然生成，或对尸壳使用&e突变药剂X/Z&r转化而来。击败可获得&d突变尸壳声带&r。"
+				""
+				"突变尸壳是至少2星的精英单位。它生命值耗尽时，它将重新爬起，&c回复全部生命&r，此效果可发动 &n1&r 次。它的攻击附带&6饥饿&r效果，能够制造流沙限制目标的移动。"
+			]
+			icon: "mutantmore:mutant_husk_vocal_cords"
+			id: "309AE238D6B31982"
+			rewards: [{
+				id: "2EE12A8B30157041"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "65DDFBB294033FDD"
+				item: "mutantmore:mutant_husk_vocal_cords"
+				type: "item"
+			}]
+			title: "突变尸壳"
+			x: 42.0d
+			y: 47.5d
+		}
+		{
+			description: [
+				"突变疣猪兽有概率在&n下界&r自然生成，或对疣猪兽使用&e突变药剂X/Z&r转化而来。击败可获得&d突变疣猪兽獠牙&r。"
+				""
+				"突变疣猪兽是至少2星的精英单位。它会发动长距离冲撞攻击，能够造成&n巨幅击退&r，部分攻击可施加&d跳跃疲劳&r。"
+			]
+			icon: "mutantmore:mutant_hoglin_tusk"
+			id: "440C35A9242774B9"
+			rewards: [{
+				id: "2339D94B7E900BE7"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "09202FCE0F61033D"
+				item: "mutantmore:mutant_hoglin_tusk"
+				type: "item"
+			}]
+			title: "突变疣猪兽"
+			x: 48.0d
+			y: 32.5d
+		}
+		{
+			dependencies: [
+				"440C35A9242774B9"
+				"7FE77411965F504B"
+			]
+			description: [
+				"突变凋零骷髅有概率在&n下界&r自然生成，或对凋零骷髅使用&e突变药剂X/Z&r转化而来。击败可搜集四散掉落的骨骼，制作&d突变凋零骷髅骨铠&r。"
+				""
+				"突变凋零骷髅是至少3星的精英单位。它能够&n格挡&r受到的伤害并进行反击。它的攻击附带&d凋零&r效果，能够释放造成失明、挖掘疲劳和&d跳跃疲劳&r的凋零之雾。"
+				""
+				"&8&ops：完成“狩猎全突变体”成就后，将获得1只变异合剂W宠物，输入 /concoctionw 指令可调整其相关设置。"
+			]
+			icon: {
+				Count: 1
+				id: "mutantmore:mutant_wither_skeleton_skull"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6DCCD248D5F7358D"
+			rewards: [{
+				id: "6A08B7B174063ABD"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				advancement: "mutantmore:mutantmore/kill_mutant_wither_skeleton"
+				criterion: ""
+				id: "2A721DC36B4A169A"
+				type: "advancement"
+			}]
+			title: "突变凋零骷髅"
+			x: 57.0d
+			y: 32.5d
+		}
+		{
+			dependencies: ["1429AEF9ADD2A30B"]
+			description: ["沉积银矿石在&n辐射荒原&r维度的&n地下&r自然生成，能够用于制作基础的沉积银装备。"]
+			icon: "radiation_zone_reborn:sedisilver_ingot"
+			id: "703A6DCAF8A56D6C"
+			rewards: [{
+				id: "754EBC1ACB397208"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "15121BECA197A25F"
+				item: "radiation_zone_reborn:sedisilver_ingot"
+				type: "item"
+			}]
+			title: "沉积银锭"
+			x: 36.0d
+			y: 45.0d
+		}
+		{
+			dependencies: ["703A6DCAF8A56D6C"]
+			description: ["巨岩岩石在&n辐射荒原&r维度 Y<-32&r 的&n地下&r有较低概率自然生成，也可通过击败衰败巨像、腐衰图腾、荧烁和荒原龙获取。能够用于制作进阶的巨岩装备。"]
+			icon: "radiation_zone_reborn:giantrock_ingot"
+			id: "44072EA17A0881E0"
+			rewards: [{
+				id: "4F9AE2CC327D1202"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "7D55419A9BBDE40E"
+				item: "radiation_zone_reborn:giantrock_ingot"
+				type: "item"
+			}]
+			title: "巨岩锭"
+			x: 42.0d
+			y: 45.0d
+		}
+		{
+			dependencies: ["64BC7B49ECC03A29"]
+			description: [
+				"大型沙尘人是沙尘人的变种，自然生成率相对较低；是至少2星的精英单位，不会受到摔落伤害。击败可获得&d沙尘棒&r和&d风眼&r，较低概率获得&d沙尘人头颅&r。"
+				""
+				"大型沙尘人会对&n接触&r到的目标持续造成多段伤害，其还会发射散射沙尘弹造成&n群体穿透&r的&c弹射物伤害&r。"
+			]
+			icon: "radiation_zone_reborn:dustorm_eye"
+			id: "1C256A382863B472"
+			rewards: [
+				{
+					id: "6046FEEAD4CB8102"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "02C16A3811FF0D83"
+					item: "radiation_zone_reborn:dustorm_head"
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "061F9260CF98D5C1"
+				item: "radiation_zone_reborn:dustorm_eye"
+				type: "item"
+			}]
+			title: "大型沙尘人"
+			x: 45.0d
+			y: 42.5d
+		}
+		{
+			dependencies: ["1429AEF9ADD2A30B"]
+			description: [
+				"衰败巨像自然生成于&n辐射荒原&r的任意群系，在地下额外有一定概率生成；是至少1星的精英单位，护甲值较高，移动速度较慢，属于&6石头生物&r。衰败巨像的攻击可被盾牌格挡。击败可获得&d巨岩锭&r。"
+				""
+				"■ 石头生物：受到来自镐/锤的攻击时，额外造成 &n50%&r 的伤害；否则造成的伤害减少 &n25%&r。"
+			]
+			icon: "radiation_zone_reborn:decayed_stone"
+			id: "539730F8028A45C5"
+			rewards: [{
+				id: "50783464FB4241FD"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				advancement: "radiation_zone_reborn:kill_decayed_giant"
+				criterion: ""
+				id: "4E6B3A74C7F841E0"
+				type: "advancement"
+			}]
+			title: "衰败巨像"
+			x: 39.0d
+			y: 45.0d
+		}
+		{
+			dependencies: ["44072EA17A0881E0"]
+			description: [
+				"腐衰图腾生成于&n辐射平原&r群系的 &e图腾神庙&r 中，可以通过 &b许愿泉&r 获取对应结构的位置。这需要向许愿泉献出 &e&n放射珍珠&r 、皇家末影珍珠、传送卷轴、星界粉尘 。"
+				""
+				"左键沉睡的腐衰图腾即可将其激活；是至少3星的精英单位，护甲值较高，属于&6石头生物&r。击败可获得大量&d巨岩锭&r，结构中概率获得暴龙皮/沙尘之星升级的&n锻造模板&r。"
+				""
+				"腐衰图腾有六只悬空的石拳，石拳可格挡伤害。腐衰图腾的攻击可被盾牌格挡，能够释放&c牵引目标&r的吸引拳。"
+				""
+				"注意，腐衰图腾在生成时有概率无法渲染本体模型，对其左键依然可以正常开始战斗。这是 &n实体模型特性&r 和 &n实体纹理特性&r 模组导致的问题，删除即可解决。"
+				""
+				"■ 石头生物：受到来自镐/锤的攻击时，额外造成 &n50%&r 的伤害；否则造成的伤害减少 &n25%&r。"
+			]
+			icon: "radiation_zone_reborn:item_kill_decayed_totem"
+			id: "762A3048963FA5CA"
+			rewards: [{
+				id: "4BED2A66B5B73BDA"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				advancement: "radiation_zone_reborn:kill_decayed_totem"
+				criterion: ""
+				id: "5803E39523C7EFA8"
+				type: "advancement"
+			}]
+			title: "腐衰图腾"
+			x: 57.0d
+			y: 45.0d
+		}
+		{
+			description: ["击败&n沙尘人&r或&n大型沙尘人&r后可获得。沙尘人是&n废土砂漠&r群系中的常见怪物，可进行远程与近战攻击，免疫摔落伤害。击败有较低概率获得&d沙尘人头颅&r。"]
+			icon: "radiation_zone_reborn:dust_rod"
+			id: "64BC7B49ECC03A29"
+			rewards: [{
+				id: "5E119E2268D998A6"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "6515CD586D9FCD82"
+				item: "radiation_zone_reborn:dust_rod"
+				type: "item"
+			}]
+			title: "沙尘人"
+			x: 42.0d
+			y: 42.5d
+		}
+		{
+			dependencies: ["44072EA17A0881E0"]
+			description: [
+				"荧烁生成于&n辐射平原/霜尘雪原&r群系的 &e荧烁要塞 &r中。可以通过 &b许愿泉&r 获取对应结构的位置。这需要向许愿泉献出 &e&n放射焰&r 、皇家末影珍珠、传送卷轴、星界粉尘 。"
+				""
+				"荧烁是至少2星的精英单位，不会受到摔落伤害，属于&6石头生物&r。击败可获得&d巨岩锭&r和&d发光雕纹衰败石&r，结构中概率获得暴龙皮/沙尘之星升级的&n锻造模板&r。"
+				""
+				"荧烁周围环绕的 &n5&r 面盾牌，每面拥有荧烁 &n40%&r 的生命值；需全部打碎才能对本体造成伤害。盾牌存在时，荧烁&c免疫弹射物&r攻击；荧烁每 &n15&r 秒将为自己恢复 &n1&r 面盾牌。使用镐/锤攻击荧烁可&e立刻摧毁&r它的 &n1&r 面盾牌。"
+				""
+				"荧烁会令距离较近的目标快速累计&c衰弱值&r。在战斗中会&d召唤&r荧光人辅助作战，至多同时召唤 &n2&r 只。荧烁死亡时，会原地解体成 &n5&r 只小荧光人，其中 &n1&r 只将与玩家保持中立，可用&e荧岩晶&r驯服。"
+				""
+				"■ 石头生物：受到来自镐/锤的攻击时，额外造成 &n50%&r 的伤害；否则造成的伤害减少 &n25%&r。"
+			]
+			icon: "radiation_zone_reborn:item_kill_irrdiant"
+			id: "77213F11C389B678"
+			rewards: [{
+				id: "75E3D1DD4FF92D10"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				advancement: "radiation_zone_reborn:kill_irradiant"
+				criterion: ""
+				id: "262A94EB6D7003E6"
+				type: "advancement"
+			}]
+			title: "荧烁"
+			x: 51.5d
+			y: 45.0d
+		}
+		{
+			dependencies: ["0FC1B2D14B4F4656"]
+			description: [
+				"砂岩凋灵需要搭建特定结构召唤；是至少3星的BOSS单位，不会受到摔落伤害，具有较高的护甲值和生命回复能力，概率&c偏转弹射物&r，属于&6石头生物&r。击败可获得&d沙尘之星&r，以及暴龙皮/沙尘之星升级的&n锻造模板&r。"
+				""
+				"砂岩凋灵生成后会逐渐自愈，并最终产生巨大的&c爆炸&r，摧毁周围的方块。若砂岩凋灵不处于&n废土砂漠&r群系，将进入&c狂暴状态&r，攻击频率和伤害大幅度提升。"
+				""
+				"砂岩凋灵可以发射能够&c穿透且无视盾牌格挡&r的沙尘弹。战斗时将释放冲撞攻击摧毁途经的方块，并生成许多小旋风&d束缚拖拽&r目标。"
+				""
+				"当砂岩凋灵的生命值不足 &n10%&r 时，它将连续不断地向目标发起&c冲撞攻击&r摧毁途径的方块；此状态将失去基础的生命回复，当冲撞命中目标后会为其&c回复生命值&r。"
+				""
+				"■ 石头生物：受到来自镐/锤的攻击时，额外造成 &n50%&r 的伤害；否则造成的伤害减少 &n25%&r。当砂岩凋灵的生命值不足 &n50%/10%&r 时，此特性的&6伤害减免&r效果将提高至 &n40%/50%&r，且单次受到的伤害无法高于 &n15&r 点。"
+			]
+			icon: "radiation_zone_reborn:dust_star"
+			id: "441D895EAD2122FA"
+			rewards: [{
+				id: "45FC125762C4139F"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "086CA5BB5B0C73FA"
+				item: "radiation_zone_reborn:dust_star"
+				type: "item"
+			}]
+			title: "砂岩凋灵"
+			x: 57.0d
+			y: 42.5d
+		}
+		{
+			dependencies: ["1C256A382863B472"]
+			description: [
+				"如同召唤凋灵那样，你需要将4个废土砂岩按 T 字型放置，然后在上方摆放3个沙尘人头颅；最后，使用&d风眼&r右键中间的废土砂岩，即可召唤&n砂岩凋灵&r。"
+				""
+				"砂岩凋灵生成后会逐渐自愈，并最终产生巨大的&c爆炸&r，摧毁周围的方块。若砂岩凋灵不处于&n废土砂漠&r群系，将进入&c狂暴状态&r，攻击频率和伤害大幅度提升。"
+			]
+			icon: "radiation_zone_reborn:dustorm_head"
+			id: "0FC1B2D14B4F4656"
+			rewards: [{
+				id: "619905F9737234B7"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [
+				{
+					count: 4L
+					id: "6160D6EA1054EC45"
+					item: { Count: 4, id: "radiation_zone_reborn:wasteland_sandstone" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "5F32F9A8A934007F"
+					item: { Count: 3, id: "radiation_zone_reborn:dustorm_head" }
+					type: "item"
+				}
+				{
+					id: "7D11AF7765DAC129"
+					item: "radiation_zone_reborn:dustorm_eye"
+					type: "item"
+				}
+			]
+			title: "召唤砂岩凋灵"
+			x: 51.5d
+			y: 42.5d
+		}
+		{
+			dependencies: ["646227954E331B2A"]
+			description: ["食用烹饪锅的所有食物后获得（共51种）。"]
+			icon: "crockpot:gnaws_coin"
+			id: "6A7C72E15AE8303C"
+			rewards: [{
+				id: "54714D3A1DDC6D09"
+				type: "xp"
+				xp: 1000
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "5D35FA26963C9EB5"
+				item: "crockpot:gnaws_coin"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["77213F11C389B678"]
+			description: [
+				"要召唤银质灾祸，需要使用共计 &n26&r 块沉积银块以及 &n1&r 块发光雕纹衰败石搭建一个 &n3x3x3&r 的结构，&d发光雕纹衰败石&r需要放置在结构最上层的中央。"
+				""
+				"正确搭建后，构成结构的所有方块会被全部消耗，并原地生成&d银质灾祸&r。银质灾祸会&n无差别攻击所有生物&r，但它未必会成为你的敌人。"
+			]
+			icon: "radiation_zone_reborn:sedisilver_block"
+			id: "391D153690EE35BD"
+			rewards: [{
+				id: "6119E6C6D3CDC6E6"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [
+				{
+					count: 26L
+					id: "30C7505810F07F6D"
+					item: { Count: 26, id: "radiation_zone_reborn:sedisilver_block" }
+					type: "item"
+				}
+				{
+					id: "248E8A875D370824"
+					item: "radiation_zone_reborn:glowing_chiseled_decayed_stone"
+					type: "item"
+				}
+			]
+			title: "召唤银质灾祸"
+			x: 51.5d
+			y: 47.5d
+		}
+		{
+			dependencies: ["391D153690EE35BD"]
+			description: [
+				"银质灾祸需要搭建特定结构召唤；是等同2星的精英单位，免疫击退和摔落伤害，具有较高的护甲值，属于&6石头生物&r。击败可获得&d银质加护&r。"
+				""
+				"银质灾祸会&n无差别攻击所有生物&r，但它未必会成为你的敌人。其仅能进行近战攻击，攻击距离较短，攻击频率和攻击伤害较高，且&e攻击无视无敌帧&r。"
+				""
+				"■ 石头生物：受到来自镐/锤的攻击时，额外造成 &n50%&r 的伤害；否则造成的伤害减少 &n25%&r。"
+				""
+				"&o&8ps：“银质加护”的材质来自葬雪小娘分享的资源，其同时也是辐射荒原的作者。&r"
+			]
+			icon: "kubejs:silver_protection"
+			id: "0A303A2D4D19EE4D"
+			rewards: [{
+				id: "10BCBB3B1CA76FBE"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "02206CCB32A3209F"
+				item: "kubejs:silver_protection"
+				type: "item"
+			}]
+			title: "银质灾祸"
+			x: 57.0d
+			y: 47.5d
+		}
+		{
+			dependencies: ["2B6F9F37D48E5847"]
+			description: [
+				"制作&d暴龙之眼&r寻找&n荒原龙巢穴&r，靠近或者攻击即可将荒原龙唤醒；是至少4星的BOSS单位，具有较高的护甲值和生命回复能力。击败可获得&d暴龙皮&r，以及暴龙皮/沙尘之星升级的&n锻造模板&r。"
+				""
+				"荒原龙的大部分攻击均可被盾牌格挡，注意防御能够造成多段高伤害的&c热能喷射&r。在生命耗尽后，荒原龙将&c自爆&r，随后重新站起再次战斗。在二阶段它将失去基础的生命回复能力，且被视为&6石头生物&r。"
+				""
+				"■ 石头生物：受到来自镐/锤的攻击时，额外造成 &n50%&r 的伤害；否则造成的伤害减少 &n25%&r。"
+			]
+			icon: "radiation_zone_reborn:tyrant_skin"
+			id: "799DBC106A0E5E17"
+			rewards: [{
+				id: "4934FCE335956C65"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "5C2A79BE4A87F999"
+				item: "radiation_zone_reborn:tyrant_skin"
+				type: "item"
+			}]
+			title: "荒原龙"
+			x: 72.0d
+			y: 45.0d
+		}
+		{
+			dependencies: ["2E009A85EE3F0052"]
+			description: [
+				"右键可投掷，暴龙之眼将飞向&n荒原龙巢穴&r的方向；不同于末影之眼，暴龙之眼使用后不会破碎。"
+				""
+				"可以通过 &b许愿泉&r 获取对应结构的位置。这需要向许愿泉献出 &e&n暴龙之眼&r 、皇家末影珍珠、传送卷轴、星界粉尘 。"
+			]
+			icon: "radiation_zone_reborn:tyrant_eye"
+			id: "2B6F9F37D48E5847"
+			rewards: [{
+				id: "15CE701AC03463DF"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "6C618F0B9163534F"
+				item: "radiation_zone_reborn:tyrant_eye"
+				type: "item"
+			}]
+			x: 67.5d
+			y: 45.0d
+		}
+		{
+			description: ["可以搜索特定的&a群系&r。"]
+			icon: {
+				Count: 1
+				id: "naturescompass:naturescompass"
+				tag: { }
+			}
+			id: "1A6417393B6DE132"
+			rewards: [{
+				id: "159549EDFFD365A6"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "48CD65A1F519BEB9"
+				item: {
+					Count: 1
+					id: "naturescompass:naturescompass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 39.5d
+			y: 23.5d
+		}
+		{
+			dependencies: ["018C8161533ECF9D"]
+			description: [
+				"每累计击杀 &n40&r 只亡灵生物即可获得 &n1&r 枚灵魂之星。暗夜巫妖的高塔位于暮色森林的&n冰雪森林&r，使用&d灵魂之星&r后，它将为你指出正确的方向。"
+				""
+				"在高塔上层的&n雕纹石头祭坛&r上放置 &n4&r 枚灵魂之星，召唤暗夜巫妖。击败可获得&d古代灵魂&r。使用&n硫磺花蜜&r可重置此结构，以便于重复挑战。"
+				""
+				"可以通过 &b许愿泉&r 获取对应结构的位置。这需要向许愿泉献出 &e&n灵魂之星&r 、皇家末影珍珠、传送卷轴、星界粉尘 。"
+			]
+			icon: "bosses_of_mass_destruction:soul_star"
+			id: "754E09563BF817E3"
+			rewards: [{
+				id: "22849912E1BE9221"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				count: 4L
+				id: "455C936B4217EA08"
+				item: "bosses_of_mass_destruction:soul_star"
+				type: "item"
+			}]
+			title: "灵魂之星"
+			x: 51.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["76AD0F30202D5CAB"]
+			description: ["每累计击杀 &n40&r 只亡灵生物即可获得 &n1&r 枚灵魂之星。制作 &b缠魂铃铛&r 以召唤敲钟人 。"]
+			icon: "meetyourfight:haunted_bell"
+			id: "762D2C71DF2FCFC6"
+			rewards: [{
+				id: "732AC622A00449D6"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "78C525F297CB3D33"
+				item: "meetyourfight:haunted_bell"
+				type: "item"
+			}]
+			x: 42.0d
+			y: 21.0d
+		}
+		{
+			dependencies: ["76AD0F30202D5CAB"]
+			description: ["每累计击杀 &n40&r 只亡灵生物即可获得 &n1&r 枚灵魂之星。制作 &b魔鬼赌注&r 以召唤福尔图娜女爵 。"]
+			icon: "meetyourfight:devils_ante"
+			id: "0DFC1C0D802892FC"
+			rewards: [{
+				id: "12F5CA7C0F6A3679"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "3BC2836F8BB3374B"
+				item: "meetyourfight:devils_ante"
+				type: "item"
+			}]
+			x: 42.0d
+			y: 27.0d
+		}
+		{
+			dependencies: [
+				"5F1D4916C5EA8406"
+				"0C923560CF3401D9"
+			]
+			description: [
+				"击败驻守在 &n末地&r 的守卫者们，从它们身上夺取末地守卫之钥，合成 &d末影守卫之眼&r 。"
+				""
+				"&8这一切的源头，是一位还未诞生、绝不该诞生、但终将诞生的神祇。一道绝对的规则。"
+			]
+			icon: "ba_bt:end_monolith_key"
+			icon_scale: 2.0d
+			id: "6AB82AE7B083A563"
+			rewards: [{
+				auto: "enabled"
+				command: "/curios add charm @p"
+				elevate_perms: true
+				icon: "minecraft:bundle"
+				id: "6DC662A44AECB856"
+				title: "获得额外的护符栏位"
+				type: "command"
+			}]
+			shape: "square"
+			size: 3.0d
+			tasks: [{
+				id: "7C0705456AA9595B"
+				item: "ba_bt:end_golem_eye"
+				type: "item"
+			}]
+			title: "终末空无之景"
+			x: 76.5d
+			y: 24.0d
+		}
+		{
+			dependencies: ["1E12E4EE8280FE13"]
+			description: [
+				"可作为饰品佩戴。击杀&d复活后的末影龙&r掉落，可制作&n末影合金&r锻造模板。可在工作台中复制鞘翅（不会继承附魔）。"
+				""
+				"象征终末的龙，复活后褪下的奇异鳞片。巨龙的蛋与鳞，向你揭示了终末的“新生”，一切的追问与意义似乎在此得到解答——"
+			]
+			icon: "quark:dragon_scale"
+			icon_scale: 2.0d
+			id: "0C923560CF3401D9"
+			rewards: [{
+				id: "4653DC948F898F83"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "68446F1BFB390BDB"
+				item: "quark:dragon_scale"
+				type: "item"
+			}]
+			title: "龙鳞"
+			x: 61.5d
+			y: 24.0d
+		}
+		{
+			dependencies: ["73ABABA3E3440DBC"]
+			description: [
+				"&d许愿泉&r是需要手动搭建的多方块结构。通过献出特定的材料，可以获得&e指向特定结构&r的地图。"
+				""
+				"首先用&n平滑石英块&r围成 &n5x5&r 的一圈，用&n水桶&r在中间铺成 &n3x3&r 的水池，将 &n8&r 个&n平滑石英台阶&r铺在水池里。"
+				"{image:kubejs:item/wishing_fountain width:150 height:100 align:center}"
+				""
+				"在中间搭上 &n4&r 块&n石英柱&r，在石英柱的顶端放上一桶&n水&r，最后再向水池扔 &n1&r 枚&d海洋守卫之眼&r。"
+				"{image:kubejs:item/wishing_fountain2 width:150 height:100 align:center}"
+				"       &7      &o记得是扔海洋守卫之眼，不是海洋之心&r&r"
+			]
+			icon: {
+				Count: 1
+				id: "wishing_fountain:wf_structure_map"
+				tag: { }
+			}
+			id: "7F9CAD341AEE74AE"
+			rewards: [{
+				id: "4828F43B536F51ED"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "square"
+			size: 2.0d
+			subtitle: "能够搜索特定的结构"
+			tasks: [
+				{
+					count: 16L
+					disable_toast: true
+					id: "159BD6A7B81E1C0B"
+					item: "minecraft:smooth_quartz"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "04E7620A011D471C"
+					item: "minecraft:water_bucket"
+					type: "item"
+				}
+				{
+					count: 8L
+					disable_toast: true
+					id: "2BF11CF72251FDFE"
+					item: "minecraft:smooth_quartz_slab"
+					type: "item"
+				}
+				{
+					count: 4L
+					disable_toast: true
+					id: "628852C3BCB3AAEA"
+					item: "minecraft:quartz_pillar"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "46B98F9C24471FC7"
+					item: "ba_bt:ocean_golem_eye"
+					type: "item"
+				}
+			]
+			title: "许愿泉"
+			x: 45.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["646227954E331B2A"]
+			description: [""]
+			icon: "crockpot:creative_milkmade_hat"
+			id: "34A295707BB8F261"
+			rewards: [{
+				id: "2B555B4996F93F82"
+				type: "xp"
+				xp: 1000
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "53BF26AF0B74DE57"
+				item: "crockpot:creative_milkmade_hat"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			description: [
+				"在背包内放置1个小时后，将转化为&n稳态时空碎片&r。可用于合成维度网络发生器、网络熔炉和经验棒。"
+				""
+				"&8使用维度网络发生器后，可按 [ O ] 键随时打开个人维度网络，维度网络拥有几近无限的存储空间。"
+			]
+			icon: "beyonddimensions:unstable_space_time_fragment"
+			id: "00CD251A11A317A6"
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "297D433A43EA9BDA"
+				item: "beyonddimensions:unstable_space_time_fragment"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 37.0d
+		}
+		{
+			description: [
+				"空手时 &aShift+右键&r 可绑定到当前玩家所在的维度网络。绑定后可以被任意玩家访问，带有合成槽。"
+				""
+				"维度网络的管理员空手 &aShift+右键&r 可取消绑定。"
+				""
+				"&8使用维度网络发生器后，可按 [ O ] 键随时打开个人维度网络，维度网络拥有几近无限的存储空间。"
+				" "
+			]
+			icon: "beyonddimensions:net_terminal_block"
+			id: "5A58034F58C177B4"
+			shape: "square"
+			size: 2.0d
+			tasks: [
+				{
+					id: "37EC23F83EFAB54E"
+					item: "beyonddimensions:net_terminal_block"
+					type: "item"
+				}
+				{
+					id: "6A2F654F76E8A6B3"
+					item: "beyonddimensions:net_terminal_item"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 37.0d
+		}
+		{
+			dependencies: ["00CD251A11A317A6"]
+			description: [
+				"空手时 &aShift+右键&r 可绑定到当前玩家所在的维度网络。能够 &c自动烧炼&r 网络中的物品。"
+				""
+				"可以根据输入标记从网络中提取原料，根据燃料标记提取燃料，成品可以直接存入网络中，也可以通过自带的弹出模式输出到邻近容器。"
+				""
+				"&8使用维度网络发生器后，可按 [ O ] 键随时打开个人维度网络，维度网络拥有几近无限的存储空间。"
+			]
+			icon: "beyonddimensions:net_furnace_block"
+			id: "0AD86E9705869683"
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "21CB0827D15EF7EC"
+				item: "beyonddimensions:net_furnace_block"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 37.0d
+		}
+		{
+			dependencies: ["00CD251A11A317A6"]
+			description: [
+				"在维度网络中右键，可将玩家等级转化为 &a液态经验&r 存入当前槽位，亦可右键标记槽来标记液态经验。对着任何液态经验流体中键，可以将经验转换为玩家等级。"
+				""
+				"&8使用维度网络发生器后，可按 [ O ] 键随时打开个人维度网络，维度网络拥有几近无限的存储空间。"
+			]
+			icon: "beyonddimensions:xp_exchange_item"
+			id: "59F59193182819A1"
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "55800F78EE110518"
+				item: "beyonddimensions:xp_exchange_item"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 37.0d
+		}
+		{
+			dependencies: ["7A046AFBE6D4FCF2"]
+			description: [
+				"可以将 &d附魔书&r 全部转化为对应的附魔等级进行存储，取出附魔书需要消耗对应的附魔经验。"
+				""
+				"附魔图书馆可以记录 &d突破附魔等级上限&r 的附魔，在取出附魔书时能够突破到已记录的最高等级。"
+			]
+			hide_dependency_lines: true
+			id: "1AB54A60BBB7C162"
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "7098EAA22D73679B"
+				item: "enchlibathome:library"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 35.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			description: [
+				"野火是至少2星的精英单位，位于&n下界岩浆湖&r上的圆形城堡结构中，也有较低概率在下界自然生成，击败会掉落&d野火王冠碎片&r和下界合金碎片。"
+				""
+				"玩家需要先破坏它的&e盾牌&r才能对其造成伤害。野火会自己恢复生命值和修复盾牌。在攻击时会发射很多&c火球&r攻击玩家，在近战时会击退玩家，也会召唤一定量的烈焰人进行援助。"
+				""
+				"可以通过 &b许愿泉&r 获取对应结构的位置。这需要向许愿泉献出 &e&n烈焰棒&r 、皇家末影珍珠、传送卷轴、星界粉尘 。"
+			]
+			icon: "friendsandfoes:wildfire_crown_fragment"
+			id: "142719882E3B20BC"
+			rewards: [{
+				id: "63746161A3EC697D"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "6C33B4ACE45B0E71"
+				item: "friendsandfoes:wildfire_crown_fragment"
+				type: "item"
+			}]
+			title: "野火"
+			x: 42.0d
+			y: 37.5d
+		}
+		{
+			dependencies: ["1429AEF9ADD2A30B"]
+			description: ["辐射荒原是&c难度较高&r的维度，玩家在不作任何防护情况下待在辐射荒原维度会缓慢累计衰弱值，累计达到一定值便会陷入&c衰弱&r状态，减少各项基础属性，并持续损失生命；因此，必须佩戴相应的&n过滤口罩/防护面罩&r。"]
+			icon: {
+				Count: 1
+				id: "radiation_zone_reborn:copper_filter_mask_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6AF863D86C053AA4"
+			rewards: [{
+				id: "70AAE0FDE0FB6153"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "0E7A836C9E2BBF4B"
+				item: {
+					Count: 1
+					id: "radiation_zone_reborn:copper_filter_mask_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "过滤口罩"
+			x: 27.0d
+			y: 45.0d
+		}
+		{
+			dependencies: ["4AFA0C9EBAFFD9C9"]
+			description: [
+				"使用 &d混沌之眼&r ，在主世界的&n蘑菇岛&r群系找到 &d混沌监牢&r 结构，哞菇巨兽就在混沌监牢的底层。"
+				""
+				"哞菇巨兽具有 &n5%&r 最大生命的伤害限制，是等同4星的BOSS单位，击败将获得&b超聚合菌丝回路&r。"
+				""
+				"哞菇巨兽的周围存在&n毒蘑菇&r时，会为哞菇巨兽提供额外的&a生命回复&r。哞菇巨兽的周围存在&n蘑菇类方块&r(包括菌丝)时，会为哞菇巨兽提供额外的&e伤害减免&r。"
+				""
+				"哞菇巨兽能够施展聚晶法术，造成高额&d魔法伤害&r，并召唤&c愤怒哞菇&r协助作战。哞菇巨兽将根据损失生命获得额外减伤，在剩余25%生命值时达到最大值(50％)。"
+			]
+			icon: "goetyawaken:superaggregated_mycelial_circuit"
+			id: "2F043D2D1EBB363C"
+			rewards: [{
+				id: "04D952A5C4B4E406"
+				type: "xp"
+				xp: 1000
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "1B4D01754EAF7498"
+				item: "goetyawaken:superaggregated_mycelial_circuit"
+				type: "item"
+			}]
+			title: "哞菇巨兽"
+			x: 94.0d
+			y: 21.0d
+		}
+		{
+			dependencies: ["3D9DA4E862ECB032"]
+			description: [
+				"使用 &d混沌之眼&r ，在主世界的&n蘑菇岛&r群系找到 &d混沌监牢&r 结构，哞菇巨兽就在混沌监牢的底层。"
+				""
+				"可通过 &b许愿泉&r 获取对应结构位置。这需要献出 &e&n迷宫蘑菇/混沌之眼&r 、皇家末影珍珠、传送卷轴、星界粉尘 。"
+			]
+			icon: "goetyawaken:prison_eye"
+			id: "4AFA0C9EBAFFD9C9"
+			rewards: [{
+				id: "275E16C9A67FD307"
+				type: "xp"
+				xp: 1000
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "22EB8F8A834A928F"
+				item: "goetyawaken:prison_eye"
+				type: "item"
+			}]
+			x: 90.5d
+			y: 21.0d
+		}
+		{
+			dependencies: ["51E6B1485A4A31E5"]
+			description: [
+				"使用破损的怀表抵达&n沉睡海港&r，在此维度使用 &d虚饰的空白&r 召唤无名者。无名者为当前版本的最终BOSS。"
+				""
+				"无名者具有 &n7%&r 最大生命的伤害限制，是等同4星的BOSS单位，击败将获得&d终刻白金&r。"
+				""
+				"无名者是亡灵生物，免疫负面效果，具有&a生命回复&r能力，在生命 &n50%&r 时进入二阶段&7(无法回复至50%生命以上)&r，能够释放更多魔法，并且获得高额的&6伤害减免&r。"
+				""
+				"无名者能够施展相当多种类的聚晶法术，造成高额&d魔法伤害&r，并召唤&c大量仆从&r协助作战，冠军仆从存在时将为无名者提供&6伤害减免&r。若不及时清理其召唤的仆从单位，无名者将&c吸取&r这些仆从的生命。"
+				""
+				"&8在战斗中，无名者有可能会瞬移传送至场地外，可以通过旅人之钟/潜地矛穿越屏障，继续战斗。"
+			]
+			icon: "goetyawaken:nameless_platinum"
+			icon_scale: 2.0d
+			id: "22ED48E9F18B57E7"
+			rewards: [{
+				auto: "enabled"
+				command: "/curios add charm @p"
+				elevate_perms: true
+				icon: "minecraft:bundle"
+				id: "2A426B046A93DD3F"
+				title: "获得额外的护符栏位"
+				type: "command"
+			}]
+			shape: "square"
+			size: 3.0d
+			tasks: [{
+				id: "7B0E603CFA27CE1C"
+				item: "goetyawaken:nameless_platinum"
+				type: "item"
+			}]
+			title: "无名者"
+			x: 99.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["3D9DA4E862ECB032"]
+			description: ["制作 &e虚饰的空白&r ，可吸引维度之外的存在。"]
+			icon: "kubejs:feigned_blank"
+			id: "05FA3C2BDADED141"
+			rewards: [{
+				auto: "enabled"
+				id: "12B88873DD723697"
+				type: "xp"
+				xp: 1000
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "4360ABA680B19185"
+				item: "kubejs:feigned_blank"
+				type: "item"
+			}]
+			x: 90.5d
+			y: 27.0d
+		}
+		{
+			dependencies: [
+				"2F043D2D1EBB363C"
+				"792949F22AB9A33C"
+				"3D9DA4E862ECB032"
+			]
+			description: ["你向时间长河索取了一件物品，一件曾属于你的怀表。攥紧这只怀表，你因此寻得 &d&n沉睡海港&r 的坐标。"]
+			icon: "kubejs:broken_pocketwatch"
+			icon_scale: 2.0d
+			id: "51E6B1485A4A31E5"
+			rewards: [{
+				id: "2349CF2B9DA91AD1"
+				item: "kubejs:feigned_blank"
+				type: "item"
+			}]
+			shape: "square"
+			size: 3.0d
+			tasks: [{
+				id: "73FF5AA6062EBC39"
+				item: "kubejs:broken_pocketwatch"
+				type: "item"
+			}]
+			x: 94.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["22ED48E9F18B57E7"]
+			description: [
+				"使用破损的怀表抵达&n沉睡海港&r，在 &e召唤祭坛&r  中放置终刻白金，再放置咒魂锭，即可挑战全盛的 &d&n咒翼灵骸&r 。"
+				""
+				"咒翼灵骸的属性获得&c大幅增强&r，拥有额外的&a生命回复&r效果，能够发射追踪的&d虚空震荡弹&r并&d瞬移&r至目标位置。话虽如此，加强后的咒翼灵骸依然不存在额外的无敌帧、伤害适应等特殊减伤机制，是最理想的伤害测试对象。"
+				""
+				"&c这是一次终极挑战，挑战成功不会得到任何实质性的奖励，推荐在完成主线的所有内容后再尝试进行。"
+			]
+			hide_dependency_lines: true
+			icon: "cataclysm:cursium_helmet"
+			icon_scale: 2.0d
+			id: "3C2D4432D675835E"
+			rewards: [{
+				id: "6920471CD97B0755"
+				item: "kubejs:cucumber1"
+				type: "item"
+			}]
+			shape: "square"
+			size: 3.0d
+			subtitle: "你希望再来一场酣战吗？"
+			tasks: [
+				{
+					disable_toast: true
+					id: "6F26C56EB500CDE6"
+					item: "goetyawaken:nameless_platinum"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "5B420B34F653F979"
+					item: "cataclysm:cursium_ingot"
+					type: "item"
+				}
+			]
+			title: "恶咒圣战"
+			x: 117.0d
+			y: 24.0d
+		}
+		{
+			description: [
+				"本整合包始终是免费发布。在Bilibili搜索“绘名青棺”即可找到官方账号，整合包的主要更新都会发视频。"
+				""
+				"除此之外，也可在MC百科、BBSMC、XyeBBS等网站上找到本整合包。可加群(&n693928637&r)反馈问题。"
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "kubejs:cucumber2"
+			id: "052015224D57C23A"
+			invisible: true
+			shape: "square"
+			size: 1.0d
+			subtitle: "如果你惹恼了我，那我会变得毛绒绒的"
+			tasks: [{
+				id: "133D28C8C46EF5EB"
+				item: "kubejs:cucumber2"
+				type: "item"
+			}]
+			title: "制作者：绘名青棺"
+			x: 233.0d
+			y: 22.0d
+		}
+	]
+	title: "反之编年史"
+}

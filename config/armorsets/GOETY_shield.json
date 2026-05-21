@@ -1,0 +1,31 @@
+{
+  "armorSetName": "shield",
+  "performanceMode": true,
+  "offHand": {
+    "itemKey": "minecraft:shield",
+    "mixAndMatch": [
+      "cataclysm:black_steel_targe",
+      "cataclysm:azure_sea_shield"
+      ],
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor",
+      "value": 2.0,
+      "modifierUUID": "dda3a3be-acc1-4f43-976e-b07ccc95e82d",
+      "attributeOperation": 0,
+      "interactionType": "self"
+    },
+    {
+      "type": "attribute",
+      "name": "obscure_api:accuracy",
+      "value": 0.05,
+      "modifierUUID": "a3e849f0-b979-45ba-bca8-86870d427a94",
+      "attributeOperation": 0,
+      "interactionType": "self"
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

@@ -1,0 +1,27 @@
+{
+  "armorSetName": "cocktail_cutlass",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "meetyourfight:ace_of_iron",
+      "mustBeEmpty": false
+    }
+  ],
+  "mainHand": {
+    "itemKey": "meetyourfight:cocktail_cutlass",
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_damage",
+      "value": 0.25,
+      "modifierUUID": "c8ee6ff1-6d75-425e-8401-c1485ab4db18",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

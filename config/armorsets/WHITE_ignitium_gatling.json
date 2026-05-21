@@ -1,0 +1,31 @@
+{
+  "armorSetName": "ignitium_gatling",
+  "performanceMode": true,
+  "mainHand": {
+    "itemKey": "gwrexpansions:ignitium_gatling",
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:healing_power",
+      "value": -0.4,
+      "modifierUUID": "b53c2717-5890-47c5-b467-335e112a737f",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "obscure_api:critical_damage",
+      "value": 0.4,
+      "modifierUUID": "268b4a4b-cce3-42a6-bccf-a5cc4d5ab546",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

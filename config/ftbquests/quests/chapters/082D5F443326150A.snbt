@@ -1,0 +1,2478 @@
+{
+	autofocus_id: "3C3B4958FA1AA747"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "082D5F443326150A"
+	group: "1921F41DC18E85FC"
+	icon: "goety:wayfarers_belt"
+	id: "082D5F443326150A"
+	order_index: 0
+	quest_links: [
+		{
+			id: "5FDE315629682399"
+			linked_quest: "5F5F41D5FBB669CB"
+			shape: "square"
+			size: 2.0d
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			id: "20666C1E94E68CA2"
+			linked_quest: "71696EB3AA216CA6"
+			shape: "square"
+			size: 2.0d
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			disable_toast: true
+			id: "5FBCFB233DAE343F"
+			linked_quest: "1E278A418BF40789"
+			shape: "square"
+			x: 19.5d
+			y: 4.5d
+		}
+		{
+			disable_toast: true
+			id: "3D7C6FEF085B7D78"
+			linked_quest: "2855D472511DAD1A"
+			shape: "square"
+			x: 18.5d
+			y: 4.5d
+		}
+		{
+			disable_toast: true
+			id: "3CD8525F99C82FB9"
+			linked_quest: "252E2A7832D5BB8F"
+			shape: "square"
+			x: 20.5d
+			y: 4.5d
+		}
+		{
+			disable_toast: true
+			id: "1F67C1E10E1020DB"
+			linked_quest: "75FCC7A9B2A0EDE2"
+			shape: "square"
+			x: 22.5d
+			y: 4.5d
+		}
+		{
+			disable_toast: true
+			id: "3B2E2026CD2FBD22"
+			linked_quest: "7C306218BC076E8F"
+			shape: "square"
+			x: 23.5d
+			y: 5.5d
+		}
+		{
+			disable_toast: true
+			id: "6934BB98D1C95A35"
+			linked_quest: "20EDAC51AD43D438"
+			shape: "square"
+			x: 18.5d
+			y: 5.5d
+		}
+		{
+			disable_toast: true
+			id: "0B24A63A3CF535D9"
+			linked_quest: "1710FF5846B54E7F"
+			shape: "square"
+			x: 23.5d
+			y: 4.5d
+		}
+		{
+			disable_toast: true
+			id: "6CF2731D9B72730C"
+			linked_quest: "44F5154A23A3E60F"
+			shape: "square"
+			x: 21.5d
+			y: 4.5d
+		}
+		{
+			disable_toast: true
+			id: "64D736CF80E063FF"
+			linked_quest: "05548BB3247C1645"
+			shape: "square"
+			x: 19.5d
+			y: 5.5d
+		}
+		{
+			disable_toast: true
+			id: "5D71C077AB5F171C"
+			linked_quest: "68DC297D7E9EC372"
+			shape: "square"
+			x: 20.5d
+			y: 5.5d
+		}
+		{
+			disable_toast: true
+			id: "7D155D08FCC9AD0D"
+			linked_quest: "3654FA122390CE90"
+			shape: "square"
+			x: 21.5d
+			y: 5.5d
+		}
+		{
+			disable_toast: true
+			id: "44CBAC96239EE264"
+			linked_quest: "3852FDC51A4AFDDC"
+			shape: "square"
+			x: 22.5d
+			y: 5.5d
+		}
+		{
+			disable_toast: true
+			id: "0491F74B69100FAA"
+			linked_quest: "7F9CAD341AEE74AE"
+			shape: "square"
+			size: 2.0d
+			title: "许愿泉"
+			x: 24.0d
+			y: -1.0d
+		}
+		{
+			disable_toast: true
+			id: "498805AFEAA7F960"
+			linked_quest: "250E47A7E3ADEA8F"
+			shape: "square"
+			x: 18.0d
+			y: -10.5d
+		}
+		{
+			disable_toast: true
+			id: "371B54556D79E775"
+			linked_quest: "3F716E56E84F1FC1"
+			shape: "square"
+			x: 19.5d
+			y: -10.5d
+		}
+		{
+			disable_toast: true
+			id: "66D3CBF21AC0360D"
+			linked_quest: "5107C73EE408379A"
+			shape: "square"
+			x: 21.0d
+			y: -10.5d
+		}
+	]
+	quests: [
+		{
+			description: [
+				"从这里开始你的旅途，采集，狩猎，生存。制作 &a工作台&r ，并获得一个安全的庇护所吧。"
+				""
+				"工作台是一切的基础，整合包对配方进行了大量修改，请按 &aR/U键 &r查看物品的配方和用途。另外，你可以直接在背包中 &a右键&r 打开工作台界面。"
+				""
+				"当你定居后，你可以放置一个&d传送石碑/共享石碑&r，以便你能快速回家。背包内的传送功能拥有 &n2分钟&r 的冷却时间，你也可以借助 &d传送石&r 或者其他传送石碑进行传送。"
+			]
+			icon: "minecraft:crafting_table"
+			icon_scale: 2.0d
+			id: "3C3B4958FA1AA747"
+			rewards: [
+				{
+					id: "5E70827C59B1CBA9"
+					item: "waystones:waystone"
+					type: "item"
+				}
+				{
+					id: "646FE120A9E90626"
+					item: "backpacked:backpack"
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 3.0d
+			subtitle: "首先，制作工作台"
+			tasks: [{
+				id: "47E73EFBE615E558"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}]
+			title: "最初的起点"
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3C3B4958FA1AA747"]
+			description: [
+				"收集羊毛后，使用羊毛和木板制作床。若你长时间没有睡觉，将会持续在周围生成 &d幻翼&r 来攻击你。"
+				""
+				"在夜晚来临的时候，使用床进行睡觉，以便快速度过夜晚，同时会将此地点设置为 &e重生点&r 。"
+			]
+			id: "4B0099AD413C81B1"
+			rewards: [{
+				id: "7DF203B67D82746E"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 1.0d
+			subtitle: "可保存为重生点"
+			tasks: [{
+				id: "0EAE8AF58EFE5D3E"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:beds)"
+					}
+				}
+				title: "任意床"
+				type: "item"
+			}]
+			title: "床"
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5A7D54AF82088E0A"]
+			description: ["放置营火后，将持续提供&a生命恢复&r效果。营火既能提供照明，也能烧制物品，还可以作为烹饪时的&c热源&r使用。"]
+			id: "3FB184A15118D2DB"
+			rewards: [{
+				id: "57B72C7A3D57DCED"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			subtitle: "提供生命回复效果"
+			tasks: [{
+				id: "62EB897BEF3A56B8"
+				item: "minecraft:campfire"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3C3B4958FA1AA747"]
+			description: ["你需要收集资源，将你的采集工具升级为 &n铁镐&r ，用以挖掘&b钻石&r。可以在&n高炉&r中烧炼 &b铁装备&r 获取铁锭。"]
+			icon: "minecraft:iron_ingot"
+			id: "5A7D54AF82088E0A"
+			rewards: [{
+				count: 8
+				id: "5C30E48B3CBDC5BA"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			shape: "square"
+			size: 2.0d
+			subtitle: "可以将铁装备烧成铁锭"
+			tasks: [{
+				id: "13A9D3E1E6EFD85E"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			title: "漫过铁器时代"
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3C3B4958FA1AA747"]
+			description: [
+				"如果开启 &c死亡掉落&r 规则，玩家死亡后会在原地生成&n墓碑&r储存背包内的物品，穿戴的饰品并不会因此掉落。"
+				""
+				"通过挖掘破坏墓碑，或站在墓碑上按 &ashift&r 键，可获取墓碑内的物品。破坏后会生成 &n1&r 只幽灵协助你战斗。"
+				""
+				"在蜜蜂领域的永恒圣所死亡时，墓碑将会生成在永恒圣所顶部的空旷位置。特殊情况下死亡，墓碑可能无法正确生成，需要回档解决。"
+			]
+			icon: "gravestone:gravestone"
+			id: "01287164FDA92C8A"
+			shape: "square"
+			size: 1.0d
+			subtitle: "死亡后将生成墓碑"
+			tasks: [{
+				id: "37C881E9EC1E652E"
+				title: "墓碑"
+				type: "checkmark"
+			}]
+			title: "墓碑"
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5A7D54AF82088E0A"]
+			description: [
+				"制作一把 &n铁刀&r 开始你的美食之旅。使用刀具击败一些生物时，将获得额外的掉落物。"
+				""
+				"砧板可以对材料进行 &n加工&r 处理。手持物品 &a右键&r 可放置在砧板上，再手持对应的刀具右键以加工物品。"
+			]
+			icon: {
+				Count: 1
+				id: "farmersdelight:iron_knife"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6A29C8E369F9AD3F"
+			rewards: [{
+				id: "36EDC66713BC67D8"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 1.0d
+			subtitle: "用刀处理食材"
+			tasks: [
+				{
+					id: "2483877CE6DA6552"
+					item: "farmersdelight:cutting_board"
+					type: "item"
+				}
+				{
+					id: "211D0D06539DEAF6"
+					item: {
+						Count: 1
+						id: "farmersdelight:iron_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "刀耕火种"
+			x: 9.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3C3B4958FA1AA747"]
+			description: ["夜视镜可作为饰品佩戴，能够提供&d夜视&r效果。除此之外，还可以佩戴 &e塔罗牌:月亮&r 以获得夜视效果。"]
+			icon: "artifacts:night_vision_goggles"
+			id: "38DE33BBDB494762"
+			rewards: [{
+				id: "103542CA43D3447A"
+				item: "artifacts:night_vision_goggles"
+				type: "item"
+			}]
+			shape: "square"
+			size: 1.0d
+			subtitle: "提供夜视效果"
+			tasks: [{
+				consume_items: true
+				id: "6F01CC97CA93E50E"
+				item: "minecraft:glow_ink_sac"
+				type: "item"
+			}]
+			title: "夜视镜"
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5A7D54AF82088E0A"]
+			description: [
+				"通过锻造台制作的装备将&e继承&r附魔能力。打造盔甲饰纹时，根据锻造饰纹的材料将获得&d额外的属性加成&r。"
+				""
+				"■ 铜锭：+20%游泳速度"
+				"■ 铁锭：+1.5点护甲"
+				"■ 金锭：+1点盔甲韧性，使猪灵保持中立"
+				"■ 红石：+10%移速，+1格台阶高度"
+				"■ 青金石：+15%经验获取"
+				"■ 绿宝石：+20%村庄信誉"
+				"■ 下界石英：+2点荆棘伤害，+25%火抗"
+				""
+				"■ 紫水晶：+5%暴击率，+5%盔甲韧性"
+				"■ 钻石：+1点护甲值，+1点盔甲韧性"
+				"■ 下界合金：+10%护甲值和盔甲韧性，+50%火抗"
+				"■ 末影合金：+10%攻击伤害和经验获取，虚空漂浮"
+				""
+				"■ 诅咒金属锭：+5%法术强效，+5%护甲值"
+				"■ 黑暗金属锭：+5%法术强效，+5%冷却缩减"
+				""
+				"{@pagebreak}"
+				"■ 铁木锭：+5%护甲值，+5%攻击速度"
+				"■ 钢叶：+5%护甲值，+5%经验获取"
+				"■ 娜迦鳞片：+1点攻击伤害，+25%火抗"
+				"■ 骑士金属锭：+15%护甲值"
+				"■ 砷铅铁矿石：+5%暴击率、移动速度和经验获取"
+				"■ 炽铁锭：+10%攻击伤害，+25%火抗"
+				""
+				"■ 紫晶：+1点护甲值，+5%移动速度"
+				"■ 穹玉：+1点盔甲韧性，+5%移动速度"
+				"■ 金琥珀：+0.5点附加伤害，+5%移动速度"
+				"■ 重力晶：+5%弹丸伤害，+5%护甲穿透"
+				"■ 海皇纱：+15%盔甲韧性"
+				"■ 风锻强化板：+7.5%附加伤害，+7.5%经验获取"
+				"■ 武神合金锭：+15%攻击伤害，+10%经验获取"
+				"■ 凤凰合金锭：+10%暴击率，+50%火焰抗性"
+				"■ 云母钢：+10%暴击伤害，+10%最大生命"
+				""
+				"■ 远古金属锭：+10%护甲穿透，+10%经验获取"
+				"■ 凋零合金锭：+5%暴击率、护甲值和攻击伤害"
+				"■ 咒魂锭：+0.5点附加伤害，+10%盔甲韧性"
+				"■ 腾炎锭：+10%攻击伤害，+10%护甲穿透"
+			]
+			id: "6B90866A84DF81E3"
+			rewards: [{
+				id: "27A9A2BDAFFFBA48"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 1.0d
+			subtitle: "锻造饰纹可提供加成"
+			tasks: [{
+				consume_items: false
+				id: "38F11DA3652A574D"
+				item: "minecraft:smithing_table"
+				type: "item"
+			}]
+			title: "锻造系统"
+			x: 9.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3C3B4958FA1AA747"]
+			description: [
+				"按 &a~键&r 进行连锁采集，这会大量消耗饱食度。此外，工具现在可以使用 &d连锁采集&r 附魔，大幅提升连锁采集的范围，按住 &ashift键&r 可以阻止此效果 。"
+				""
+				"可按住 &ashift+右键&r 将目标抱起，包括生物/方块。抱起目标后，依靠传送工具可以将目标带回家。"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:diamond_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "69D27F9165363468"
+			shape: "square"
+			size: 1.0d
+			subtitle: "按 ~ 键进行连锁采集"
+			tasks: [{
+				id: "0DD0563A47451B0F"
+				title: "连锁采集"
+				type: "checkmark"
+			}]
+			title: "连锁采集"
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5A7D54AF82088E0A"]
+			description: [
+				"打开食物清单，你可以查看当前的食物进度。当你吃了足够丰富多样的食物后，你将获得至多&a40点&r生命上限。"
+				""
+				"部分食物存在不同的品质，共有“&7铁&r、&e金&r、&b钻&r”三种品质等级，品质越高，其所提供的饱食度就越高。&a幸运值&r可以影响食物品质的概率。高品质的食物还能减少食物的负面效果、提高正面效果。"
+			]
+			icon: "solcarrot:food_book"
+			id: "48A6D1327F3B85FC"
+			rewards: [{
+				id: "58C9B41C2998CBB5"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 1.0d
+			subtitle: "吃东西提升血量"
+			tasks: [{
+				id: "6BC4F7F192C683B5"
+				item: "solcarrot:food_book"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5A7D54AF82088E0A"]
+			description: [
+				"按 &ashift+右键&r 打开相机界面，需要装入 &n胶卷&r 才能使用。按 &a右键&r 打开取景器，再次按下 &a右键&r 即可进行拍摄。"
+				""
+				"拍照后的胶卷需要药水进行处理。黑白胶卷需要 &n水瓶&r ，而彩色胶卷需要 &n平凡/粗制/浓稠的药水&r 进行处理。"
+				""
+				"此外，你可以在 &d&n暗房&r 中打印胶卷，在其中预览底片，并放入纸与相应的染料，将其打印成彩色照片。"
+			]
+			icon: "exposure:camera"
+			id: "1B2C5AB22AC71586"
+			rewards: [{
+				id: "3376379093272224"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 1.0d
+			subtitle: "另外，它是一件饰品"
+			tasks: [{
+				id: "2EA92F93439BDA73"
+				item: "exposure:camera"
+				type: "item"
+			}]
+			title: "拾光定影"
+			x: 6.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3C3B4958FA1AA747"]
+			description: ["手持时 &ashift+右键&r 可以储存你的&d经验&r，每本最多储存 &n60&r 级。再次 &a右键&r 即可取回你的经验值。能够升级成维度网络的&n经验棒&r。"]
+			id: "4385C8B7C37663EB"
+			rewards: [{
+				id: "26E43A8C92BEF998"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			subtitle: "储存你的经验值"
+			tasks: [{
+				id: "716BB3EBFD60D49A"
+				item: {
+					Count: 1
+					id: "xpbook:xp_tome"
+					tag: { }
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["39398D53903FE58D"]
+			description: [
+				"手持时 &a右键&r 能够&e储存&r持有的塔罗牌，所有放入其中的塔罗牌都会生效。手持塔罗牌 &a右键&r 可关闭其功能。"
+				""
+				"塔罗牌可在 &n主世界/下界/末地&r 结构中概率获得，也可以在 &e伊甸银行&r 中购买，共有22张不同的塔罗牌。"
+			]
+			disable_toast: true
+			id: "703E78D997A4308B"
+			rewards: [{
+				id: "58E21E1EC32CE28E"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			subtitle: "能够储存所有塔罗牌"
+			tasks: [{
+				disable_toast: true
+				id: "644B8AB9A5CFBEA6"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 22
+						}
+					}
+					id: "tarotcards:tarot_deck"
+				}
+				type: "item"
+			}]
+			title: "塔罗牌"
+			x: 15.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5A7D54AF82088E0A"]
+			description: ["手持时按 &a右键&r 打开，可以在其中存放你的&e饰品&r，或者在界面内直接更换已经穿戴的饰品。"]
+			id: "08BD275B866C848F"
+			rewards: [{
+				id: "42BEF6A40634DFBC"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			subtitle: "可以快捷更换饰品"
+			tasks: [{
+				id: "66CB8958D0427991"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 1
+						}
+					}
+					id: "convenientcurioscontainer:curios_container"
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["39398D53903FE58D"]
+			description: [
+				"人偶可以用于测试你的&c伤害数据(DPH/DPS)&r。敌人普遍拥有护甲，建议为人偶穿戴一套 &b钻石防具&r 作为参考。"
+				""
+				"整合包对盔甲提供的防护效果进行了修改：&9最终伤害&r=&c受到的伤害&r*MAX(20/(20+&6护甲值&r),0.1)*MAX(20/(20+&b盔甲韧性&r),0.1)*MAX(20/(20+&d保护附魔等级&r),0.2)"
+				""
+				"概括的说，&n护甲值&r和&n盔甲韧性&r现在具有相同的效果，保护附魔提供的防护效果被削弱了。而 &e护甲穿透&r 属性将百分比无视目标的护甲值和盔甲韧性。"
+				""
+				"近战 &a长按左键&r 自动攻击。部分近战武器会发射&n弹幕&r。"
+				"弓箭 &a长按右键&r 自动射击。&e副手&r或按 &ashift键&r 阻止射击。"
+				"&8弓类武器的自动射击需要佩戴猎人盟约/医者仁心触发。&r"
+			]
+			icon: "dummmmmmy:target_dummy"
+			id: "2C4EF87D29108399"
+			rewards: [{
+				id: "4BEC70328D56D367"
+				item: "dummmmmmy:target_dummy"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "能够测试你的伤害"
+			tasks: [{
+				id: "279602612E361A4D"
+				title: "训练人偶"
+				type: "checkmark"
+			}]
+			x: 14.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["39398D53903FE58D"]
+			description: ["使用时需要按住右键，能够 &d&n传送&r 到已记录的石碑坐标，有冷却时间。在受到伤害后会被&c打断使用&r。"]
+			disable_toast: true
+			id: "53D9433CCEBB1EB3"
+			rewards: [{
+				id: "2CFF533CD9EB2BE2"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			tasks: [{
+				disable_toast: true
+				id: "6F5EE63BF46739EF"
+				item: {
+					Count: 1
+					id: "waystones:warp_stone"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 15.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6A29C8E369F9AD3F"]
+			description: [
+				"能够制作农夫乐事模组提供的独特食物。为了准备食物，下方必须有&c热源&r为其提供热量。"
+				""
+				"炉灶可以作为厨锅与煎锅的&c热源&r使用。可以像营火一样烧炼食物，并且可以放入最多 6 个物品。"
+			]
+			icon: "farmersdelight:cooking_pot"
+			id: "5B99F01D353DCB77"
+			rewards: [{
+				id: "42AAABD2EA568399"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 1.0d
+			subtitle: "做菜所需的厨具"
+			tasks: [
+				{
+					id: "15766A60CA7C189A"
+					item: "farmersdelight:cooking_pot"
+					type: "item"
+				}
+				{
+					id: "59D363F054EE57D6"
+					item: {
+						Count: 1
+						id: "farmersdelight:skillet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2FFEF0A84CDD343E"
+					item: "farmersdelight:stove"
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6B90866A84DF81E3"]
+			description: ["需要&n消耗锻造模板&r方能为盔甲打造锻造饰纹，可以在工作台用 &b钻石&r 进行复制。在锻造台打造锻造饰纹时，根据使用的材料将获得&d额外的属性加成&r。"]
+			icon: "minecraft:wild_armor_trim_smithing_template"
+			id: "2172DE486365C540"
+			rewards: [{
+				id: "3B32BE4F1CB7AE49"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 1.0d
+			subtitle: "需要消耗锻造模板"
+			tasks: [{
+				disable_toast: true
+				id: "465F0CC2CE2590F2"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:trim_templates)"
+					}
+				}
+				title: "任意锻造模板"
+				type: "item"
+			}]
+			title: "锻造模板"
+			x: 10.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["39398D53903FE58D"]
+			description: ["&e更多箱子&r模组提供了容量更大的箱子，钻石箱子拥有 &n108&r 格容量，可通过&n箱子升级&r直接转化已放置的箱子。"]
+			id: "55A651CBC61792B3"
+			rewards: [{
+				id: "549E77A96972E63D"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "281884085FA2FB31"
+				item: "ironchest:diamond_chest"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["39398D53903FE58D"]
+			description: [
+				"添加了许多新附魔，它们的附魔书都有 &a独特纹理&r 和相应的 &a效果描述&r 。对附魔的 &d兼容&r 进行调整，基础的保护或锋利附魔不再与同类附魔冲突，实现近战武器、远程武器之间的附魔互相兼容等。"
+				""
+				"如果要查询附魔，请在搜索框中 &e&n输入中文&r 进行搜索，拼音搜索未能兼容目前的附魔描述。"
+			]
+			id: "08C5B65353ECA2C3"
+			rewards: [{
+				id: "0E840464AB40B0C1"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 1.0d
+			subtitle: "附魔不再冲突"
+			tasks: [{
+				id: "47BDC01A2E72710B"
+				item: "minecraft:enchanting_table"
+				type: "item"
+			}]
+			x: 17.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3C3B4958FA1AA747"]
+			description: [
+				"在背包内放置1个小时后，将转化为&n稳态时空碎片&r。可用于合成维度网络发生器、网络熔炉和经验棒。"
+				""
+				"使用 &e&n网络熔炉&r 能够 &c自动烧炼&r 网络中的物品。可以根据输入标记从网络中提取原料，根据燃料标记提取燃料，成品可以直接存入网络中，也可以通过自带的弹出模式输出到邻近容器。"
+				""
+				"使用 &e&n经验棒&r 在维度网络中右键，可将玩家等级转化为 &a液态经验&r 存入当前槽位，亦可右键标记槽来标记液态经验。对着任何液态经验流体中键，可以将经验转换为玩家等级。"
+				""
+				"&8使用维度网络发生器后，可按 [ O ] 键随时打开个人维度网络，维度网络拥有几近无限的存储空间。"
+			]
+			icon: "beyonddimensions:unstable_space_time_fragment"
+			id: "4D0A08A01F5860BE"
+			rewards: [{
+				id: "6CB52ED07AC12120"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 1.0d
+			subtitle: "按 O 键打开维度网络"
+			tasks: [
+				{
+					id: "7AD6D158E6FCD302"
+					item: "beyonddimensions:unstable_space_time_fragment"
+					type: "item"
+				}
+				{
+					id: "04B3A87CFF3D1BEA"
+					item: "beyonddimensions:net_furnace_block"
+					type: "item"
+				}
+				{
+					id: "36E991A821E36DB7"
+					item: "beyonddimensions:xp_exchange_item"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3C3B4958FA1AA747"]
+			description: [
+				"空手时 &aShift+右键&r 可绑定到当前玩家所在的维度网络。绑定后可以被任意玩家访问，带有合成槽。"
+				""
+				"维度网络的管理员空手 &aShift+右键&r 可取消绑定。 "
+				""
+				"&8使用维度网络发生器后，可按 [ O ] 键随时打开个人维度网络，维度网络拥有几近无限的存储空间。"
+			]
+			icon: "beyonddimensions:net_terminal_block"
+			id: "2EDAEA70A983DA71"
+			rewards: [{
+				id: "68592BDF37BD8E5E"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 1.0d
+			subtitle: "按 O 键打开维度网络"
+			tasks: [
+				{
+					id: "25A6B59BF0B88B81"
+					item: "beyonddimensions:net_terminal_block"
+					type: "item"
+				}
+				{
+					id: "658C1CEDC9741AF3"
+					item: "beyonddimensions:net_terminal_item"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5A7D54AF82088E0A"]
+			description: [
+				"烹饪时，烹饪锅会计算当前放入食材的“&e食材值&r”；当锅内的食材值达到某个配方的要求阈值时，一份新鲜的料理将在配方要求的时间过后出现。"
+				""
+				"某些配方除了要求“食材值”以外，还需要玩家额外放入某些&a特定的食物&r才能成功制作；某些配方也会&c禁止放入特定食物&r，需要注意。"
+				""
+				"食用烹饪锅可以制作的所有食物后（共51种），可获得通用饰品 &d暴食的赞赏&r ，佩戴提升 &n20%&r 暴击率。"
+			]
+			id: "2B4D817218D907A3"
+			rewards: [{
+				id: "024925034FEF9259"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 1.0d
+			subtitle: "饥荒烹饪系统"
+			tasks: [{
+				id: "7DA32C7E65955852"
+				item: "crockpot:crock_pot"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5A7D54AF82088E0A"]
+			description: ["《记忆中的幻想乡》是车万女仆模组的指导手册，可以在其中查阅多方块结构 &d祭坛&r 的搭建方法，通过祭坛举行仪式可以召唤/复活女仆，制作一些女仆相关的道具。"]
+			icon: {
+				Count: 1
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "touhou_little_maid:memorizable_gensokyo"
+				}
+			}
+			id: "4835549F43C92774"
+			rewards: [{
+				id: "19E9CAD15F568481"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 1.0d
+			subtitle: "使用魂符可召唤女仆"
+			tasks: [{
+				id: "37D3F38BA09E32B6"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "touhou_little_maid:memorizable_gensokyo"
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5A7D54AF82088E0A"]
+			description: [
+				"高炉是熔炉的升级版本。烧制矿石材料的效率翻倍，并额外添加了&e大量额外配方&r，尤其是能够直接将装备&c烧炼&r成为等量金属锭，能够用于回收冒险途中搜集的装备。"
+				""
+				"&n烹饪炉&r是熔炉的升级版本。能以双倍效率烹饪食物，并获得&n额外的配方&r。它能以双倍&d经验获取&r烧制仙人掌，能提升部分食物&e品质&r。"
+			]
+			icon: "minecraft:blast_furnace"
+			id: "77BBD5B4BF3E92EB"
+			rewards: [{
+				id: "5F7155FB2CF8C76C"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 1.0d
+			subtitle: "可以将装备烧成金属锭"
+			tasks: [
+				{
+					id: "5FFEA749628809AC"
+					item: "minecraft:blast_furnace"
+					type: "item"
+				}
+				{
+					id: "3E386033938EC3AF"
+					item: "minecraft:smoker"
+					type: "item"
+				}
+			]
+			title: "高炉和烹饪炉"
+			x: 5.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["39398D53903FE58D"]
+			description: [
+				"第一个夜晚降临，危险迫近，你必须做点什么。怪物在生成时有概率成为 &d突变生物&r 或 &d皇家变种&r 。这些精英敌人实力强大，击败后可获得强力装备。"
+				""
+				"所有怪物在生成时有 &b&n15%&r 概率为&e冠军精英怪&r，根据其星级获得&c随机词条&r和&c属性提升&r。"
+				""
+				"所有精英怪都将获得&n生命恢复&r和&n抗性提升&r效果，每星级将获得对应等级的&e虚饰的空白&r效果，额外提升1点&c附加伤害&r、5%&c护甲穿透&r、5%&c暴击率&r和5%&c暴击抗性&r、10%&d魔法抗性&r、10%&b闪避率&r；二星及以上将获得&e发光&r效果。"
+				""
+				"精英怪词条如下："
+				""
+				"适应 - 相同类型的连续攻击将持续衰减，至多&c40%&r；"
+				"极寒 - 持续发射冰弹并减速目标；"
+				"灰烬 - 持续发射火球造成爆炸与火焰效果；"
+				"抑制 - 减少&c60%&r间接攻击的伤害（例如箭矢）；"
+				"亵渎 - 在目标下方生成伤害云持续造成&d魔法伤害&r；"
+				"急速 - 大幅提高移动速度；"
+				"感染 - 每隔一段时间会生成蠹虫；"
+				"瘫痪 - 攻击时有概率使目标无法移动；"
+				"爆震 - 攻击击退能力增加；"
+				"活力 - 每秒恢复&c2点&r生命，失去目标时恢复&c20点&r生命；"
+				"熔融 - 获得抗火，提升攻击伤害且会点燃目标；"
+				"瘟疫 - 使附近的生物陷入&a中毒&r状态；"
+				"反射 - 受到的部分近战伤害反射（至多&c20点&r）；"
+				"创伤 - 概率使目标易伤，且回复效果降低；"
+				"磁力 - 持续将周围的目标拉向自己；"
+				"监禁 - 每次攻击将会有概率监禁目标。"
+				""
+				"保护（&c已禁用&r） - 每隔一段时间获得伤害免疫效果。"
+			]
+			icon: "minecraft:rotten_flesh"
+			id: "295958A270103625"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "13732346CA456645"
+				table_id: 6997903212867593696L
+				type: "random"
+			}]
+			shape: "square"
+			size: 2.0d
+			subtitle: "这些是你将面对的敌人"
+			tasks: [{
+				advancement: "minecraft:adventure/kill_a_mob"
+				criterion: ""
+				disable_toast: true
+				id: "161F210BD20BA8E9"
+				type: "advancement"
+			}]
+			title: "世界的第一个夜晚"
+			x: 16.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5A7D54AF82088E0A"]
+			description: ["可以在&n高炉&r中烧炼 &b钻石装备&r 获取钻石。钻石需要 &n铁镐&r 才能挖掘，是相当重要的资源。"]
+			id: "39398D53903FE58D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "32CB38CAA8C72C11"
+				table_id: 2514079791446414624L
+				type: "random"
+			}]
+			shape: "square"
+			size: 2.0d
+			subtitle: "可以将钻石装备烧成钻石"
+			tasks: [{
+				id: "1AE3B5B8D2D1B7ED"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			title: "以钻石为誓"
+			x: 16.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["39398D53903FE58D"]
+			description: [
+				"■ 移除基础 &e无敌帧&r ；在造成伤害后将使目标获得0.5秒的 &e动态抗性&r 效果，减少其 &n40%&r 所受伤害。"
+				""
+				"■ &e弹丸伤害&r 将提升枪炮射击的弹丸所造成的伤害，弹丸属于远程弹射物，但能够部分&n无视远程免疫&r机制。"
+				" "
+				"■ &e命中率&r 将等额无视目标的 &e闪避率&r 值。根据目标的 &e闪避率&r 值，攻击时有相应概率&n无法造成伤害&r。"
+				"■ &e暴击率&r 将根据概率造成等同 &e暴击伤害&r 倍率的伤害加成，这个伤害受到 &e暴击抗性&r 的百分比减免。"
+				""
+				"■ &e护甲穿透&r 将百分比无视目标的 &e护甲值&r 和 &e盔甲韧性&r 值。目标的 &e护甲值&r 和 &e盔甲韧性&r 将分别提供伤害减免。"
+				"■ &e附加伤害&r 将使&n每段&r攻击额外附加等量 &e魔法伤害&r，这个伤害受到目标 &e魔法抗性&r 的百分比减免。"
+				""
+				"任何人只要拥有法术强效，就会触发“&d&n魔能渴望&r”:"
+				"&c■ 若你的法术强效大于0点，你造成的伤害下降50%"
+				"■ 若你的法术强效达到4点，你造成的伤害提升10%"
+				"&8法术强效每超过1点，提升10%造成伤害(至多240%)"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:iron_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "717CE3D6F2D894CF"
+			shape: "square"
+			size: 1.0d
+			subtitle: "你的伤害由属性决定"
+			tasks: [{
+				id: "56A70BCCFB237AAF"
+				title: "奇异饰品"
+				type: "checkmark"
+			}]
+			title: "伤害机制"
+			x: 14.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3C3B4958FA1AA747"]
+			description: [
+				"按 &aR键&r 可进行翻滚，翻滚过程中有6刻&e无敌帧&r，在空中翻滚将大幅提升翻滚距离，在跑图时可用于快速赶路。"
+				""
+				"为头盔附魔 &d连续翻滚&r 可提升翻滚的储存次数，缩短翻滚冷却；为鞋子附魔 &d跃进&r 可提升翻滚的移动距离。"
+			]
+			icon: "goetyawaken:ripplewalk"
+			id: "750770764953DAD0"
+			shape: "square"
+			size: 1.0d
+			subtitle: "按 R 键进行翻滚闪避"
+			tasks: [{
+				id: "077420C4D9A90C68"
+				title: "翻滚闪避"
+				type: "checkmark"
+			}]
+			title: "翻滚闪避"
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3C3B4958FA1AA747"]
+			description: [
+				"使用 &d维度网络发生器&r 后，可按 &aO&r 键随时打开个人维度网络，维度网络拥有几近无限的存储空间。"
+				""
+				"空手时 &aShift+右键&r 可绑定到当前玩家所在的维度网络。绑定后可以被任意玩家访问，带有合成槽。"
+				""
+				"维度网络的管理员空手 &aShift+右键&r 可取消绑定。 "
+			]
+			icon: "beyonddimensions:net_creater"
+			id: "29B526066489A16B"
+			rewards: [{
+				id: "3451BCDA6B3428CB"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 1.0d
+			subtitle: "按 O 键打开维度网络"
+			tasks: [{
+				id: "284758F3F10369F0"
+				title: "维度网络发生器"
+				type: "checkmark"
+			}]
+			title: "超越维度"
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["39398D53903FE58D"]
+			description: [
+				"技能系统可按 &aG键&r 快捷打开。根据技能总等级，每累计提升10级，额外提升1点最大生命，最多提升 &a40点&r 最大生命。通过技能系统也对少数物品作了&c等级限制&r。"
+				""
+				"升级技能将获得许多属性提升，具体加成可前往技能界面顶部右侧的“&nPerks&r”按钮查看。"
+				""
+				"■ &e防御&r 属性可获得至多 &n50%&r 护甲值加成。"
+				"■ &e攻击&r 属性可获得至多 &n50%&r 暴击伤害加成。"
+				""
+				"■ &e建造&r 属性可提升至多 &n50%&r 盔甲韧性加成。"
+				"■ &e魔法&r 属性可获得至多 &n25%&r 附加伤害加成。"
+				""
+				"■ &e速度&r 属性可获得至多 &n25%&r 移动速度加成。"
+				"■ &e采集&r 属性可获得至多 &n50%&r 经验获取加成。"
+				""
+				"■ &e采矿&r 属性可获得至多 &n50%&r 挖掘速度加成。"
+				"■ &e耕作&r 属性可获得至多 &n50%&r 作物成长加成。"
+			]
+			icon: "minecraft:book"
+			id: "562F2F81CD5BA7BE"
+			shape: "square"
+			size: 1.0d
+			subtitle: "按 G 键打开技能界面"
+			tasks: [{
+				id: "0C546EE02ED453E8"
+				title: "技能系统"
+				type: "checkmark"
+			}]
+			title: "技能系统"
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["39398D53903FE58D"]
+			description: ["在联机模式下，放置的&n共享石碑&r无需激活即可作为坐标传送。其他玩家可以使用&e相同的共享石碑&r传送至此。"]
+			disable_toast: true
+			icon: "waystones:sharestone"
+			id: "7F133DC5647CB187"
+			rewards: [{
+				id: "453493303C08B023"
+				item: "waystones:sharestone"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "18459AACACC09910"
+				title: "共享石碑"
+				type: "checkmark"
+			}]
+			x: 14.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"[ 战士 ] 可 &a长按左键&r 自动攻击，攻击发射远程弹幕。"
+				"[ 弓手 ] 可 &a长按右键&r 自动射击，可无视无敌帧射击。"
+				"[ 枪手 ] 可 &e双持&r 不同的枪输出，射击需要消耗弹丸。"
+				"[ 巫师 ] 可使用 &d聚晶&r 进行施法，自动回复灵魂能量。"
+			]
+			icon: "kubejs:silver_protection"
+			id: "75112303AE1F195C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "52B2B48945B9B8CE"
+				table_id: 9081651936079245045L
+				title: "您的选择"
+				type: "choice"
+			}]
+			shape: "square"
+			size: 2.0d
+			subtitle: "选择职业，或成为散人"
+			tasks: [{
+				consume_items: true
+				id: "589E4AFE9CF09841"
+				item: "kubejs:covenant_purewhite"
+				type: "item"
+			}]
+			title: "选择职业"
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6F606ABDAB1F5F26"]
+			description: ["战士装备。战士可 &a长按左键&r 自动攻击，根据 &d&n近战伤害/攻击速度&r 属性提升伤害。部分近战武器在攻击时会发射 &e&n远程弹幕&r ，发射间隔由攻击速度决定。"]
+			icon: {
+				Count: 1
+				id: "minecraft:iron_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2D72592B7B2114AC"
+			rewards: [
+				{
+					id: "2282E76FEEA02B31"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_sword"
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									id: "minecraft:sharpness"
+									lvl: 1s
+								}
+								{
+									id: "minecraft:smite"
+									lvl: 1s
+								}
+								{
+									id: "minecraft:sweeping"
+									lvl: 1s
+								}
+								{
+									id: "majruszsenchantments:death_wish"
+									lvl: 1s
+								}
+								{
+									id: "majruszsenchantments:leech"
+									lvl: 1s
+								}
+							]
+							RepairCost: 5
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3E16FDDDAD0E8C54"
+					item: {
+						Count: 1
+						id: "minecraft:shield"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:unbreaking"
+								lvl: 3s
+							}]
+							RepairCost: 1
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "21E253524ADE5811"
+					item: "immersive_aircraft:steel_boiler"
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "7575590E9483EBC3"
+				title: "选择装备"
+				type: "checkmark"
+			}]
+			title: "战士"
+			x: -10.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2D43B3124A0BA216"]
+			description: [
+				"弓手装备。弓手可获得 &e&n多重射击/快速装填&r 等附魔的加成，射击可以&e无视无敌帧&r造成伤害。可 &a长按右键&r 可以触发自动射击。在&e副手&r时或按 &ashift键&r 可阻止自动射击。"
+				""
+				"佩戴 &n猎人盟约/医者仁心&r 后，弓箭 &a长按右键&r 可以触发自动射击。在&e副手&r时或按 &ashift键&r 可阻止自动射击。"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:bow"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2D9C4D51C9F1A584"
+			rewards: [
+				{
+					id: "633627150C9BF4B6"
+					item: {
+						Count: 1
+						id: "minecraft:bow"
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									id: "minecraft:multishot"
+									lvl: 1s
+								}
+								{
+									id: "minecraft:quick_charge"
+									lvl: 1s
+								}
+								{
+									id: "majruszsenchantments:hunter"
+									lvl: 1s
+								}
+								{
+									id: "minecraft:power"
+									lvl: 1s
+								}
+							]
+							RepairCost: 7
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3FD54F312D105B17"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								Items: [{
+									BigCount: 500
+									Count: 127b
+									Slot: 0
+									id: "quark:torch_arrow"
+								}]
+								SelectedSlot: 0
+								Size: 9
+							}
+						}
+						id: "supplementaries:quiver"
+					}
+					type: "item"
+				}
+				{
+					count: 60
+					id: "4ED57697B3404EA4"
+					item: "supplementaries:bomb"
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "333C156441AD60CC"
+				title: "选择装备"
+				type: "checkmark"
+			}]
+			title: "弓手"
+			x: -10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["004263F488605CEA"]
+			description: [
+				"巫师装备。巫师消耗灵魂能量使用 &e&n聚晶&r 施法，能&e自动回复&r灵魂能量，根据 &d&n法术强效/冷却缩减&r 属性提升伤害。聚晶能够获得相应&n附魔&r的提升，也能够被&n法杖&r加成。"
+				""
+				"然而，这个世界的生灵天然&c不具有使用魔法的资质&r，只能通过“魔法代价”换取施法能力。"
+				""
+				"任何人只要拥有法术强效，就会触发“&d&n魔能渴望&r”:"
+				"&c■ 若你的法术强效大于0点，你造成的伤害下降50%"
+				"■ 若你的法术强效达到4点，你造成的伤害提升10%"
+				"&8法术强效每超过1点，提升10%造成伤害(至多240%)"
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					Parent: {
+						Items: [ ]
+						Size: 1
+					}
+				}
+				id: "goety:dark_wand"
+			}
+			id: "2A4B95480CF8350C"
+			rewards: [
+				{
+					id: "55C6E570CD070BBF"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								Items: [{
+									Count: 1b
+									Slot: 0
+									id: "goetyawaken:death_ray_focus"
+								}]
+								Size: 1
+							}
+						}
+						id: "goety:dark_wand"
+						tag: {
+							"Cast Time": 0
+							Cool: 0
+							Cooldown: 0
+							Duration: 0
+							Seconds: 0
+							Shots: 0
+							"Soul Cost": 13
+							"Soul Use": 10
+							cap: {
+								Items: [{
+									Count: 1b
+									Slot: 0
+									id: "goetyawaken:death_ray_focus"
+								}]
+								Size: 1
+							}
+							goety-dirty: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "52994880237F0C5B"
+					item: {
+						Count: 1
+						id: "goety:totem_of_roots"
+						tag: {
+							"Max Souls": 100
+							Souls: 100
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "42C170771C49AA5D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								Items: [
+									{
+										Count: 1b
+										Slot: 1
+										id: "goety:soul_bolt_focus"
+									}
+									{
+										Count: 1b
+										Slot: 2
+										id: "goety:launch_focus"
+									}
+									{
+										Count: 1b
+										Slot: 3
+										id: "goety:fire_breath_focus"
+									}
+									{
+										Count: 1b
+										Slot: 4
+										id: "goety:updraft_focus"
+									}
+									{
+										Count: 1b
+										Slot: 5
+										id: "goety:hunting_focus"
+									}
+								]
+								Size: 11
+							}
+						}
+						id: "goety:focus_bag"
+						tag: {
+							cap: {
+								Items: [
+									{
+										Count: 1b
+										Slot: 1
+										id: "goety:soul_bolt_focus"
+									}
+									{
+										Count: 1b
+										Slot: 2
+										id: "goety:launch_focus"
+									}
+									{
+										Count: 1b
+										Slot: 3
+										id: "goety:fire_breath_focus"
+									}
+									{
+										Count: 1b
+										Slot: 4
+										id: "goety:updraft_focus"
+									}
+									{
+										Count: 1b
+										Slot: 5
+										id: "goety:hunting_focus"
+									}
+								]
+								Size: 11
+							}
+							goety-dirty: 0b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "27E0F75CC6F1EA31"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "goety:black_book"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "3171366AE1EB541E"
+				title: "选择装备"
+				type: "checkmark"
+			}]
+			title: "巫师"
+			x: -10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["77DCFC01D9D06A54"]
+			description: ["枪炮手装备。枪手可以 &e&n双持&r 不同的枪输出，根据 &d&n弹丸伤害&r 属性提升伤害。射击需要消耗弹丸，手持&e弹药背包&r右键打开，可放入至多 &n9&r 组弹丸，在背包内即可生效。"]
+			icon: {
+				Count: 1
+				id: "gunswithoutroses:iron_gun"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7B8946D2ED3D9276"
+			rewards: [
+				{
+					id: "385E1DD0C0B28F7B"
+					item: {
+						Count: 1
+						id: "gunswithoutroses:gold_gun"
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									id: "gunswithoutroses:impact"
+									lvl: 1s
+								}
+								{
+									id: "gunswithoutroses:bullseye"
+									lvl: 1s
+								}
+								{
+									id: "gunswithoutroses:sleight_of_hand"
+									lvl: 1s
+								}
+								{
+									id: "gunswithoutroses:preserving"
+									lvl: 1s
+								}
+							]
+							RepairCost: 1
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "10BBFC4106A61B1C"
+					table_id: 3820709147006525809L
+					type: "choice"
+				}
+				{
+					id: "421769DEAB446A30"
+					item: {
+						Count: 1
+						id: "gunswithoutroses:bullet_bag"
+						tag: {
+							Items: [
+								{
+									BigCount: 500
+									Count: 127b
+									id: "gunswithoutroses:iron_bullet"
+								}
+								{
+									Count: 0b
+									id: "minecraft:air"
+								}
+								{
+									Count: 0b
+									id: "minecraft:air"
+								}
+								{
+									Count: 0b
+									id: "minecraft:air"
+								}
+								{
+									Count: 0b
+									id: "minecraft:air"
+								}
+								{
+									Count: 0b
+									id: "minecraft:air"
+								}
+								{
+									Count: 0b
+									id: "minecraft:air"
+								}
+								{
+									Count: 0b
+									id: "minecraft:air"
+								}
+								{
+									Count: 0b
+									id: "minecraft:air"
+								}
+							]
+							open: 0b
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "3F32A86AA411CB4B"
+				title: "选择装备"
+				type: "checkmark"
+			}]
+			title: "枪手"
+			x: -10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["75112303AE1F195C"]
+			description: ["射手佩戴的盟约。猎人盟约可以将 &e&n命中率/暴击率/暴击伤害/附加伤害/弹丸伤害&r 属性转换为输出增益。"]
+			id: "77DCFC01D9D06A54"
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "6A167F1B74DE2CB1"
+				item: "kubejs:covenant_gunpowder1"
+				type: "item"
+			}]
+			title: "猎人盟约"
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["75112303AE1F195C"]
+			description: [
+				"奇迹与魔法是有代价的。平庸之人没有使用魔法的资质，只能通过“魔法代价”换取施法的能力。"
+				""
+				"佩戴 &n无光盟约&r 后，你将&e解除施法能力的限制&r，并在使用部分物品时获得额外加成。"
+				""
+				"你因此坠入了名为“&d&n魔能渴望&r”的深渊:"
+				"&c■ 若你的法术强效大于0点，你造成的伤害下降50%"
+				"■ 若你的法术强效达到4点，你造成的伤害提升10%"
+				"&8法术强效每超过1点，提升10%造成伤害(至多240%)"
+			]
+			icon: "kubejs:covenant_matt1"
+			id: "004263F488605CEA"
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "1205F929F2E29C32"
+				item: "kubejs:covenant_matt1"
+				type: "item"
+			}]
+			title: "无光盟约"
+			x: -7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["75112303AE1F195C"]
+			description: ["战士佩戴的盟约。利刃盟约将提升攻击伤害和法术抗性，对目标造成 &c重创&r 效果，减少目标 &a生命回复&r 速度。"]
+			id: "6F606ABDAB1F5F26"
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "010305873481673F"
+				item: "kubejs:covenant_sharpblade1"
+				type: "item"
+			}]
+			title: "利刃盟约"
+			x: -7.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["75112303AE1F195C"]
+			description: [
+				"射手佩戴的盟约。猎人盟约可以将 &e&n命中率/暴击率/暴击伤害/附加伤害/弹丸伤害&r 属性转换为输出增益。"
+				""
+				"佩戴 &n猎人盟约/医者仁心&r 后，弓箭 &a长按右键&r 可以触发自动射击。在&e副手&r时或按 &ashift键&r 可阻止自动射击。"
+			]
+			id: "2D43B3124A0BA216"
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "4229FC80174BE34D"
+				item: "kubejs:covenant_gunpowder1"
+				type: "item"
+			}]
+			title: "猎人盟约"
+			x: -7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["39398D53903FE58D"]
+			description: [
+				"铁砧是可以用来修复、附魔和重命名物品的方块。后续可以升级为&n不消耗经验等级&r的 &d黑暗铁砧&r 。"
+				""
+				"铁砧现在可以储存物品并进行显示。铁砧&d惩罚机制得到改善&r。手持铁块时 &a右键&r 铁砧可以对其进行修复。"
+				""
+				"现在使用铁砧进行重命名工作不会再消耗经验和铁砧的耐久，另外，玩家只需手持命名牌 &aShift+右键&r 即可打开一个简单的设置界面来设置新名称。命名的文本内容可以使用&d颜色格式代码&r。"
+			]
+			id: "3B42820F3BD8BA42"
+			rewards: [{
+				id: "081B1BF0AC8F2643"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "78D97CF1A14AE824"
+				item: "minecraft:anvil"
+				type: "item"
+			}]
+			x: 18.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5A7D54AF82088E0A"]
+			description: [
+				"不需要消耗燃料。起飞较慢，飞行速度适中。"
+				""
+				"按住 &aW键&r 进行起飞。使用时会消耗你的饱和度和饥饿值，当你饥饿时飞机会失去动力并垂直坠落。"
+			]
+			id: "128E1C3413315808"
+			rewards: [{
+				id: "3AFB4AF50FCAB7E2"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "442D4D400482BC53"
+				item: "immersive_aircraft:gyrodyne"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["295958A270103625"]
+			description: [
+				"原版怪物在生成时有概率为&d突变生物&r。在&n下界&r、&n末地&r、&n辐射荒原&r维度额外有较高的概率生成。"
+				""
+				"可用苦力怕残片酿造&d突变药水&r，将生物转换为突变生物（仅限僵尸、骷髅、苦力怕和末影人突变体）。"
+				""
+				"&8完成“狩猎全突变体”成就后，将获得1只变异合剂W宠物，输入 /concoctionw 指令可调整其相关设置。"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "minecraft:potion"
+				tag: {
+					Potion: "mutantmonsters:chemical_x"
+				}
+			}
+			id: "3F8E219D0531EFDD"
+			rewards: [
+				{
+					id: "75E925090AFEF040"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "44325838791C7A22"
+					item: {
+						Count: 1
+						id: "minecraft:splash_potion"
+						tag: {
+							Potion: "mutantmonsters:chemical_x"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				advancement: "mutantmonsters:root"
+				criterion: ""
+				disable_toast: true
+				id: "636FF91B96102162"
+				type: "advancement"
+			}]
+			title: "突变生物"
+			x: 18.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["295958A270103625"]
+			description: ["原版怪物在生成时有概率为&e皇家变种&r，在&n暮色森林&r和&n天境&r维度额外有较高概率生成。使用&n灵性王冠&r可以将普通生物&d转化&r为皇家变种生物。"]
+			disable_toast: true
+			icon: "royalvariations:achievement_icon"
+			id: "638490BAAA2863A6"
+			rewards: [{
+				id: "04337B526454D300"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				advancement: "royalvariations:royal_variations"
+				criterion: ""
+				disable_toast: true
+				id: "4B14450E1557E879"
+				type: "advancement"
+			}]
+			title: "皇家变种"
+			x: 18.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["39398D53903FE58D"]
+			description: ["探索特定的结构，能够定向获取大量资源。原版的刷怪笼在刷出 &n&b10次&r 生物后将会&c自动损毁&r，战斗高塔的刷怪笼则不会自动损毁。可通过 &b许愿泉&r 搜索特定结构的位置。"]
+			icon: "twilightforest:lich_tower_miniature_structure"
+			id: "2978CCA9D441C04B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4421DC02FC15199C"
+				table_id: 4381595319014346895L
+				type: "random"
+			}]
+			shape: "square"
+			size: 2.0d
+			subtitle: "探索遗迹，搜集资源"
+			tasks: [{
+				id: "3DAD2F1E82F031DE"
+				title: "搜集资源"
+				type: "checkmark"
+			}]
+			title: "一些未能诉说的故事"
+			x: 20.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["638490BAAA2863A6"]
+			description: [
+				"原版怪物在生成时有概率为&e皇家变种&r，在&n暮色森林&r维度额外有较高概率生成。皇家僵尸为至少1星的精英敌人，拥有较高的护甲值和生命回复速度。"
+				""
+				"皇家僵尸生成时会固定伴随2只&e皇家骑士&r；它能够持续将周围的僵尸转换为皇家骑士，并为其赋予&c骑士坚毅&r效果。攻击时会施加&c锁定目标&r效果，并使附近亡灵生物获得&c亡灵冲锋&r的能力。"
+			]
+			disable_toast: true
+			icon: "royalvariations:rotten_king_icon"
+			id: "344D317074BA464F"
+			rewards: [{
+				id: "4FAE1FBBC14386E3"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				advancement: "royalvariations:rotten_king"
+				criterion: ""
+				disable_toast: true
+				id: "2A47B9C68280DEF6"
+				type: "advancement"
+			}]
+			title: "皇家僵尸"
+			x: 19.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["638490BAAA2863A6"]
+			description: [
+				"原版怪物在生成时有概率为&e皇家变种&r，在&n暮色森林&r&r维度额外有较高概率生成。皇家骷髅为至少1星的精英敌人，拥有较高的护甲值和生命回复速度。"
+				""
+				"它的攻击会施加&c标记&r效果，会发射束网阻止目标的行动。在受到攻击时，皇家骷髅会向后跳跃以拉开距离。"
+			]
+			disable_toast: true
+			icon: "royalvariations:bony_king_icon"
+			id: "5F3D224A63718128"
+			rewards: [{
+				id: "26E5CB49B599B839"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				advancement: "royalvariations:bony_king"
+				criterion: ""
+				disable_toast: true
+				id: "379F1A8E0D2FF0FE"
+				type: "advancement"
+			}]
+			title: "皇家骷髅"
+			x: 21.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["638490BAAA2863A6"]
+			description: [
+				"原版怪物在生成时有概率为&e皇家变种&r，在&n暮色森林&r和&n天境&r维度额外有较高概率生成。皇家苦力怕为至少1星的精英敌人，拥有较高的护甲值和生命回复速度。"
+				""
+				"爆炸闪烁时，施予目标&c定时炸弹&r效果，4.2秒后，被施予定时炸弹效果的敌对生物爆炸并陷入&c眩晕&r状态；皇家苦力怕爆炸后，也会对目标施加眩晕效果。"
+			]
+			disable_toast: true
+			icon: "royalvariations:explosive_king_icon"
+			id: "5F8A35EC685B091B"
+			rewards: [{
+				id: "63ECFC7A524E3533"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				advancement: "royalvariations:explosive_king"
+				criterion: ""
+				disable_toast: true
+				id: "1F0A27214A74C1CF"
+				type: "advancement"
+			}]
+			title: "皇家苦力怕"
+			x: 22.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["638490BAAA2863A6"]
+			description: [
+				"原版怪物在生成时有概率为&e皇家变种&r，主要在&n暮色森林&r、&n天境&r、&n末地&r生成。皇家末影人为至少1星的精英敌人，拥有较高的护甲值和生命回复速度。"
+				""
+				"战斗时，会施予目标黑暗和&d压迫凝视&r效果，使附近末影人与目标&c敌对&r。受到远程攻击前会进行&e传送闪避&r，并对范围内的目标造成&d魔法伤害&r。攻击概率释放&n灵能铁砧&r，造成魔法伤害，并使目标陷入&c终末重压&r状态。"
+			]
+			disable_toast: true
+			icon: "royalvariations:teleporting_king_icon"
+			id: "6DE1D8171910AE5A"
+			rewards: [{
+				id: "76A1F3D3AC7D726D"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				advancement: "royalvariations:teleporting_king"
+				criterion: ""
+				disable_toast: true
+				id: "63C557A19631FBB0"
+				type: "advancement"
+			}]
+			title: "皇家末影人"
+			x: 24.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"&o&7           “ 欢迎来到这片浩瀚的梦田，"
+				"&o&7                          愿你也能儿在做上一段悠远的梦。”&r"
+				""
+				"“&7&l虚&b&l饰&7&l作品 &f- &c&lFic&e&ltional&r”整合包旨在以原版理念扩展玩家的冒险生存，整合包会采取各种措施来充实玩家的冒险体验，它的另一个备选名字是“我的世界+”，意思是在原版的基础上进行一些合理的改动，以此达到更好的游戏体验。"
+				""
+				"作为一个侧重冒险的整合包，这里 &n没有&r 夸张到百万的敌人血量，也 &n没有&r 对玩家前期的大量削弱折磨。"
+				""
+				"整合包中不会添加太多模组，所做的更多是对已有的内容进行改进，它不是一个大型的、颠覆性的整合包，而是对原有内容的“优化”。例如为 &e奇异饰品&r、&e暮色森林&r 、&e灾变&r 等模组的道具拓展用途，将这些模组添加的物品制作成 &b饰品&r 。"
+				""
+				"按 &aJ键&r 即可快速打开 [任务界面]。"
+				"按 &aB键&r 即可快速打开 [百科搜索] 。"
+				""
+				""
+				"制作者： &e绘名青棺&r(Silentmo) "
+				"联系群： &b693928637&r(主群)"
+			]
+			hide_details_until_startable: true
+			hide_lock_icon: true
+			hide_text_until_complete: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "minecraft:writable_book"
+			icon_scale: 2.0d
+			id: "5791267757DFF1FD"
+			invisible: true
+			rewards: [{
+				description: "本整合包由 绘名青棺(Silentmo) 制作，联系QQ群：693928637"
+				id: "7005613581B80513"
+				type: "toast"
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				days: 10000000
+				disable_toast: true
+				id: "7F5ED587AC1D8167"
+				type: "questsadditions:days"
+			}]
+			title: "引导的一页"
+			x: -162.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3F8E219D0531EFDD"]
+			description: [
+				"僵尸突变体主要在 &n主世界&r 和 &n辐射荒原&r 维度自然生成，是至少1星的精英单位，击败可获得&d巨人之锤&r。"
+				""
+				"它生命值耗尽时，将重新爬起，&c回复全部生命&r，此效果可发动 &n3&r 次。使用 &n打火石&r 点燃它的尸体可阻止其复活。"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "mutantmonsters:hulk_hammer"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "57FAC1D2A410E27B"
+			rewards: [{
+				id: "45A5833BDED22002"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "2393AD007997F3B3"
+				item: {
+					Count: 1
+					id: "mutantmonsters:hulk_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "突变僵尸"
+			x: 19.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3F8E219D0531EFDD"]
+			description: ["骷髅突变体主要在 &n主世界&r 和 &n辐射荒原&r 维度自然生成，是至少1星的精英单位。击败骷髅突变体，收集四散掉落的骨骼，可制作4件&d骷髅突变体骨铠&r。"]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "mutantmonsters:mutant_skeleton_skull"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "61846BF4386CC054"
+			rewards: [{
+				id: "00D869AA01AD3E65"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [
+				{
+					id: "4E49A69506FFE74A"
+					item: {
+						Count: 1
+						id: "mutantmonsters:mutant_skeleton_skull"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "06B8479C0A51254A"
+					item: {
+						Count: 1
+						id: "mutantmonsters:mutant_skeleton_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1930C8A85B2A2EB9"
+					item: {
+						Count: 1
+						id: "mutantmonsters:mutant_skeleton_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6FF7CADB44E52367"
+					item: {
+						Count: 1
+						id: "mutantmonsters:mutant_skeleton_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "突变骷髅"
+			x: 21.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3F8E219D0531EFDD"]
+			description: [
+				"苦力怕突变体主要在 &n主世界&r 和 &n辐射荒原&r 维度自然生成，是至少1星的精英单位，击败可获得&d苦力怕残片&r。"
+				""
+				"此外，苦力怕仆从蛋可 &a右键&r 戴在头顶。等待一段时间后，它将孵化为 &e苦力怕仆从&r 。如果打破苦力怕仆从蛋，将获得苦力怕残片，或是一些火药。"
+			]
+			disable_toast: true
+			icon: "mutantmonsters:creeper_minion_tracker"
+			id: "72C2C7DE3C98D9D2"
+			rewards: [{
+				id: "313397B0BF4160E2"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "391AF10ED80ECB60"
+				item: "mutantmonsters:creeper_minion_tracker"
+				type: "item"
+			}]
+			title: "突变苦力怕"
+			x: 22.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3F8E219D0531EFDD"]
+			description: [
+				"末影人突变体主要在 &n主世界&r 和 &n末地&r 维度自然生成，是至少2星的精英单位，击败可获得&d末影之手&r。"
+				""
+				"击败末影人突变体后，空手右键收集其死亡时爆发的残片，然后按 &aQ键&r 扔出1枚&n末影之眼&r转换得到末影之手。"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "mutantmonsters:endersoul_hand"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "644C8180D9AF52EA"
+			rewards: [{
+				id: "7401CD5CF1ED2825"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "4BD4944FE1B71FB7"
+				item: {
+					Count: 1
+					id: "mutantmonsters:endersoul_hand"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "突变末影人"
+			x: 24.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["39398D53903FE58D"]
+			description: [
+				"在战斗之前，可以适当进行一些准备。整合包添加了许多新附魔，并使附魔可以互相 &d兼容&r 。如果要查询附魔，请在搜索框中 &e&n输入中文&r 进行搜索。"
+				""
+				"通过制作 &n附魔装备&r ，打造 &n锻造饰纹&r ，提升 &n技能等级&r 、搜集 &n饰品/塔罗牌&r 等方式都能有效提升战斗力。"
+			]
+			icon: "goetyawaken:endersent_enchanted_book"
+			id: "6F7CA6D758B78346"
+			shape: "square"
+			size: 2.0d
+			subtitle: "在挑战强敌前可做的准备，俗称沉淀"
+			tasks: [{
+				id: "649314EBAD33ED4B"
+				title: "自我审视"
+				type: "checkmark"
+			}]
+			title: "自我审视"
+			x: 16.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["39398D53903FE58D"]
+			description: [
+				"使用 &d维度网络发生器&r 后，可按 &aO&r 键随时打开个人维度网络，维度网络中会不断生成 &b&n破碎的时空结晶&r 。"
+				""
+				"使用后消耗此物品，在 &n10w&r 格范围内进行 &e&n随机传送&r ，如果不希望探索重复的结构，推荐随机传送后再开始。"
+			]
+			disable_toast: true
+			id: "21B42289195C5046"
+			rewards: [{
+				id: "61AE0E0B00199596"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			subtitle: "使用后可在范围内随机传送"
+			tasks: [{
+				disable_toast: true
+				id: "02C27622CA3EBDA4"
+				item: "beyonddimensions:shattered_space_time_crystallization"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"本整合包始终是免费发布。在Bilibili搜索“绘名青棺”即可找到官方账号，整合包的主要更新都会发视频。"
+				""
+				"除此之外，也可在MC百科、BBSMC、XyeBBS等网站上找到本整合包。可加群(&n693928637&r)反馈问题。"
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "kubejs:cucumber2"
+			id: "3EC06AB864BD77B8"
+			invisible: true
+			shape: "square"
+			size: 1.0d
+			subtitle: "如果你惹恼了我，那我会变得毛绒绒的"
+			tasks: [{
+				id: "196F0909EDAA7C7D"
+				item: "kubejs:cucumber2"
+				type: "item"
+			}]
+			title: "制作者：绘名青棺"
+			x: 138.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6F7CA6D758B78346"]
+			description: [
+				"可通过 &d附魔台&r 对装备进行附魔，如果要查询附魔，请在搜索框中 &e&n输入中文&r 进行搜索，拼音搜索未能兼容目前的附魔描述。"
+				""
+				"在工作台中使用 &a&n活根&r 可直接赋予工具耐久2级附魔，使用 &b&n钢叶&r 可赋予防具保护2级附魔，使用 &e&n蜜蜂结晶碎片&r 可赋予防具耐久2级附魔。已附魔至装备上的经验修补也可通过 &6&n砂轮&r 转移至附魔书上。"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:protection"
+						lvl: 4s
+					}]
+				}
+			}
+			id: "48854F77AF715AF9"
+			rewards: [{
+				id: "6F1F41E399BD78A8"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 1.0d
+			subtitle: "能够定向获取附魔"
+			tasks: [{
+				id: "12D962A370A0F5BF"
+				title: "获取附魔"
+				type: "checkmark"
+			}]
+			title: "获取附魔"
+			x: 16.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["6F7CA6D758B78346"]
+			description: [
+				"紫水晶是 &e&n伊甸银行&r 重要的货币之一，具有相当的购买力。您可以考虑建造一座属于您自己的&d紫水晶农场&r，或是向 &e&n蜜蜂女王&r 置换您拥有的&n紫水晶块&r。"
+				""
+				"使用紫水晶币可在任务 &e&n伊甸银行&r 章节购买随机&n塔罗牌/奇异饰品&r，或者购买特定的附魔书、随机礼物。"
+			]
+			id: "71C60C9E081FF314"
+			rewards: [{
+				id: "75CBBE1E9C6DBDED"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 1.0d
+			subtitle: "重要的货币资源"
+			tasks: [{
+				id: "0F2FB1E442311ADC"
+				item: "kubejs:compressed_amethyst"
+				type: "item"
+			}]
+			x: 18.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["71C60C9E081FF314"]
+			description: [
+				"紫水晶块可在&c高炉&r中分解成 &n2枚&r 紫水晶，如果向 &e&n蜜蜂女王&r 置换则可以得到 &n4枚&r 紫水晶。"
+				""
+				"可通过主世界地下的&n紫水晶洞&r获取大量紫水晶块，在&n末地外岛&r的特定群系也会大量生成裸露的紫水晶块。"
+			]
+			id: "39AE14DE50551B8A"
+			rewards: [{
+				id: "688DB47F2D70D5A1"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 1.0d
+			subtitle: "分解紫水晶块以获取紫水晶"
+			tasks: [{
+				id: "5BD9871DCFB59C12"
+				item: "minecraft:amethyst_block"
+				type: "item"
+			}]
+			title: "紫水晶块"
+			x: 19.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["48854F77AF715AF9"]
+			description: [
+				"在工作台中使用 &a&n娜迦鳞片&r 可直接赋予防具经验修补附魔，使用 &d&n回响碎片&r 可赋予工具经验修补附魔。"
+				""
+				"已附魔至装备上的经验修补也可通过 &6&n砂轮&r 转移至附魔书上。此外，在任务 &e&n伊甸银行&r 章节可花费 &n10枚&r 紫水晶币购买经验修补附魔书。"
+			]
+			icon: "twilightforest:naga_scale"
+			id: "7AE3988031AB4D63"
+			rewards: [{
+				id: "26930CFD7EBDD8D3"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 1.0d
+			subtitle: "定向获取经验修补"
+			tasks: [{
+				id: "5A6E5F0DC1BED19B"
+				title: "经验修补"
+				type: "checkmark"
+			}]
+			x: 18.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["48854F77AF715AF9"]
+			description: [
+				"晶化花能够为附魔书&d自选附魔&r。它会在&n蜜蜂领域&r的特殊结构中生成，只能放置在&n紫水晶块&r等方块上。"
+				""
+				"你可以给予晶化花 &n经验&r 或 &n物品&r 供其消耗。破坏晶化花后将获得它本身，可储存其经验值。"
+			]
+			icon: "the_bumblezone:crystalline_flower"
+			id: "50D6FE6F35A7FC67"
+			rewards: [{
+				id: "0B5119FCE849B3E9"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "square"
+			size: 1.0d
+			subtitle: "能够自选附魔"
+			tasks: [{
+				id: "50A6B3C145861CC3"
+				item: "the_bumblezone:crystalline_flower"
+				type: "item"
+			}]
+			title: "晶化花"
+			x: 16.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["48854F77AF715AF9"]
+			description: [
+				"可以将 &d附魔书&r 全部转化为对应的附魔等级进行存储，取出附魔书需要消耗对应的附魔经验。"
+				""
+				"附魔图书馆可以记录 &d突破附魔等级上限&r 的附魔，在取出附魔书时能够突破到已记录的最高等级。"
+			]
+			id: "1012317C63F977B3"
+			rewards: [{
+				id: "320EF116E1E2F994"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 1.0d
+			subtitle: "储存所有附魔"
+			tasks: [{
+				id: "17A207BF2BA20F78"
+				item: "enchlibathome:library"
+				type: "item"
+			}]
+			x: 21.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["48854F77AF715AF9"]
+			description: [
+				"将任意一个被附魔的物品（除附魔书外）和一本书放在一个砂轮里，砂轮会将物品的全部&d魔咒转移&r至书上。"
+				""
+				"将一本附魔书和一本普通书放在砂轮里，砂轮会将附魔书中第一行的附魔转移至书上。"
+			]
+			id: "55D5870AEF8758F3"
+			rewards: [{
+				id: "1BBAB95642C6EEBE"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 1.0d
+			subtitle: "能够转移附魔"
+			tasks: [{
+				id: "00C1F863A5721C84"
+				item: "minecraft:grindstone"
+				type: "item"
+			}]
+			x: 19.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["71C60C9E081FF314"]
+			description: ["可通过&n大地仪式&r获取紫水晶母岩。紫水晶母岩将随时间生成出紫水晶簇，挖掘后可获得紫水晶碎片。"]
+			id: "25F2BA433AC5AB31"
+			rewards: [{
+				id: "39B2AD3EFCF1AB96"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 1.0d
+			subtitle: "紫水晶母岩可产出紫水晶"
+			tasks: [{
+				id: "640A066F87A7BAD6"
+				item: "minecraft:budding_amethyst"
+				type: "item"
+			}]
+			x: 21.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["2978CCA9D441C04B"]
+			description: ["在主世界、下界、天境和暮色森林等维度中常见的高塔结构，旷野之息高塔的塔顶拥有 &n1&r 个传送石碑，结构宝箱中可获得 &n&e云朵瓶/跃兔鞋/雨伞&r 等重要饰品道具。"]
+			icon: "waystones:mossy_waystone"
+			id: "2DE16EE54AB7F74C"
+			rewards: [{
+				id: "3176DEABCF85D8C5"
+				item: {
+					Count: 1
+					id: "wishing_fountain:wf_structure_map"
+					tag: {
+						target: "totw_modded:regular"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			size: 1.0d
+			subtitle: "能够获取传送石碑"
+			tasks: [{
+				id: "350DD2AF97D57EF4"
+				title: "旷野之息高塔"
+				type: "checkmark"
+			}]
+			x: 21.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["39398D53903FE58D"]
+			description: ["[ \"如果你已做好准备，点击 \", { \"text\": \"此处\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"54EDB787F7DF74BB\" } }, \" 跳转至主线任务章节。\" ]"]
+			icon: "kubejs:contrary_chronicle_easy"
+			icon_scale: 2.0d
+			id: "6EF9DEBA2D1138F6"
+			shape: "square"
+			size: 3.0d
+			subtitle: "从这里开始主线任务"
+			tasks: [{
+				id: "2050BA1E2E3F2EEF"
+				title: "反之编年史"
+				type: "checkmark"
+			}]
+			title: "反之编年史"
+			x: 29.0d
+			y: -1.0d
+		}
+	]
+	title: "旅行的开始"
+}

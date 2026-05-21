@@ -1,0 +1,33 @@
+{
+  "armorSetName": "shield_of_repulsione",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "aether:shield_of_repulsion",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor_toughness",
+      "value": 4.0,
+      "modifierUUID": "5360e905-58b2-4043-86b2-956dcbfee239",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "obscure_api:accuracy",
+      "value": 0.1,
+      "modifierUUID": "010f8f88-52aa-4c91-ad8b-380e306527c1",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

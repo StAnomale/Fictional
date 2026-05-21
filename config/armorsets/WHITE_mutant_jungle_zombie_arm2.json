@@ -1,0 +1,31 @@
+{
+  "armorSetName": "mutant_jungle_zombie_arm",
+  "performanceMode": true,
+  "offHand": {
+    "itemKey": "mutantmore:mutant_jungle_zombie_arm",
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.movement_speed",
+      "value": 0.1,
+      "modifierUUID": "eff31987-31a9-44c3-af8d-72eef0bea91a",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "obscure_api:magic_damage",
+      "value": -0.25,
+      "modifierUUID": "fcb3bdee-b417-4652-a35d-52ff320ac18e",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

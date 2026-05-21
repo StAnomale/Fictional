@@ -1,0 +1,30 @@
+{
+  "armorSetName": "pocket_piston",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "artifacts:pocket_piston",
+      "mustBeEmpty": false
+    },
+    {
+      "itemKey": "immersive_aircraft:steel_boiler",
+      "mixAndMatch": [
+      "cataclysm:emp"
+    ],
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "forge:entity_reach",
+      "value": 0.15,
+      "modifierUUID": "adea7ff7-7cd1-4813-b764-e5b37bfee831",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

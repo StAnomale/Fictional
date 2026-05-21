@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:wearable"
+  ],
+  "incompatible": [
+    "fancyenchantments:air_attack",
+    "fancyenchantments:downwind",
+    "minecraft:fire_protection",
+    "majruszsenchantments:incompatibility_curse",
+    "minecraft:protection",
+    "fancyenchantments:feather_fall",
+    "fancyenchantments:recoil",
+    "minecraft:feather_falling",
+    "fancyenchantments:lightness",
+    "fancyenchantments:dexterity",
+    "fancyenchantments:wind_blade",
+    "fancyenchantments:advanced_protection",
+    "fancyenchantments:reflecting",
+    "fancyenchantments:floating",
+    "fancyenchantments:blessed_wind",
+    "minecraft:blast_protection",
+    "minecraft:projectile_protection",
+    "majruszsenchantments:magic_protection",
+    "fancyenchantments:streamline",
+    "fancyenchantments:afterimage"
+  ]
+}

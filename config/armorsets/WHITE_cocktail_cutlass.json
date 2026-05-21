@@ -1,0 +1,21 @@
+{
+  "armorSetName": "cocktail_cutlass",
+  "performanceMode": true,
+  "mainHand": {
+    "itemKey": "meetyourfight:cocktail_cutlass",
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.luck",
+      "value": 0.25,
+      "modifierUUID": "dbae0af3-b36c-46d2-85eb-cda3ec6a8578",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

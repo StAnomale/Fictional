@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:weapon",
+    "mowziesmobs:spear",
+    "mowziesmobs:naga_fang_dagger",
+    "farmersdelight:skillet",
+    "cataclysm:gauntlet_of_guard",
+    "cataclysm:gauntlet_of_bulwark",
+    "cataclysm:the_incinerator",
+    "cataclysm:soul_render",
+    "cataclysm:the_annihilator",
+    "cataclysm:meat_shredder",
+    "cataclysm:void_forge",
+    "cataclysm:tidal_claws",
+    "cataclysm:infernal_forge",
+    "cataclysm:ancient_spear",
+    "irons_spellbooks:graybeard_staff",
+    "irons_spellbooks:artificer_cane",
+    "irons_spellbooks:ice_staff",
+    "irons_spellbooks:lightning_rod",
+    "irons_spellbooks:blood_staff"
+  ],
+  "incompatible": [
+    "minecraft:fire_aspect"
+  ]
+}

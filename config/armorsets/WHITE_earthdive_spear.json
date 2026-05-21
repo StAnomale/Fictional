@@ -1,0 +1,41 @@
+{
+  "armorSetName": "earthdive_spear",
+  "performanceMode": true,
+  "mainHand": {
+    "itemKey": "bosses_of_mass_destruction:earthdive_spear",
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "forge:entity_reach",
+      "value": 2.0,
+      "modifierUUID": "e140d832-c52f-4ba4-bb1e-1c4f869745ad",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "obscure_api:critical_hit",
+      "value": 0.1,
+      "modifierUUID": "96fc7eff-728d-4f4f-a66a-188916b905ed",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "obscure_api:accuracy",
+      "value": 0.1,
+      "modifierUUID": "9aa971ff-8c58-413f-a90d-859b2c96e567",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

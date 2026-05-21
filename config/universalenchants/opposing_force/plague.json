@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:vile_boulder"
+  ],
+  "incompatible": [
+    "majruszsenchantments:incompatibility_curse"
+  ]
+}

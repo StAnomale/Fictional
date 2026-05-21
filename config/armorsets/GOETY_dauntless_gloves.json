@@ -1,0 +1,33 @@
+{
+  "armorSetName": "dauntless_gloves",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "goetyawaken:dauntless_gloves",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_damage",
+      "value": 0.05,
+      "modifierUUID": "ac255cb6-d461-4c98-9a15-ceb0aa07e09c",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "goety:void_potency",
+      "value": 1.0,
+      "modifierUUID": "648d160b-ff63-4b2e-a833-784aad54557a",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

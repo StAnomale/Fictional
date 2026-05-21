@@ -1,0 +1,35 @@
+{
+  "armorSetName": "ring_of_grudged",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "cataclysm:ring_of_grudged",
+      "mixAndMatch": [
+      ],
+      "mustBeEmpty": false
+    }
+  ],
+  "chest": {
+    "itemKey": "cataclysm:cursium_chestplate",
+    "mixAndMatch": [
+      "cataclysm:bone_reptile_chestplate",
+      "cataclysm:ignitium_chestplate",
+      "cataclysm:ignitium_elytra_chestplate",
+      "cataclysm:bloom_stone_pauldrons"
+    ],
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:critical_damage",
+      "value": 0.1,
+      "modifierUUID": "f54b92b3-bd8b-4768-a207-f5c3dfb17f28",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

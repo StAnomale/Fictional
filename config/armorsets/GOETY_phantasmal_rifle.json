@@ -1,0 +1,29 @@
+{
+  "armorSetName": "phantasmal_rifle",
+  "performanceMode": true,
+  "mainHand": {
+    "itemKey": "meetyourfight:phantasmal_rifle",
+    "mixAndMatch": [
+      ],
+    "mustBeEmpty": false
+  },
+  "additionalSetPieces": [
+    {
+      "itemKey": "meetyourfight:spectres_grasp",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "gunswithoutroses:gwr.damage_total",
+      "value": 0.2,
+      "modifierUUID": "7cdfb119-f87f-4778-997f-75ed041fc2d6",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

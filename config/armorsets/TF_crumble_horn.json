@@ -1,0 +1,169 @@
+ {
+  "armorSetName": "crumble_horn",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "twilightforest:crumble_horn",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor",
+      "value": -0.2,
+      "modifierUUID": "f2a70fd0-c131-40ee-aa53-074c6001bbb1",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "obscure_api:penetration",
+      "value": 0.15,
+      "modifierUUID": "e1f843ea-0ed4-40ef-a767-4ce8fd13dcea",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_damage",
+      "modifierUUID": "6b84eccc-2434-42b1-a6b8-5ab150b6742c",
+      "value": 0.35,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "attributeOperation": 1,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false,
+      "conditions": [
+        {
+          "type": "timeRange",
+          "extra": "0,3000"
+        }
+      ]
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_speed",
+      "modifierUUID": "0642ca00-42bf-4d01-8d04-1470b636bb7a",
+      "value": 0.35,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "attributeOperation": 1,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false,
+      "conditions": [
+        {
+          "type": "timeRange",
+          "extra": "3000,6000"
+        }
+      ]
+    },
+    {
+      "type": "attribute",
+      "name": "functionalarmortrim:experience_boost",
+      "modifierUUID": "3691fdb6-e27b-4caf-b852-22c31dc58451",
+      "value": 0.35,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "attributeOperation": 1,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false,
+      "conditions": [
+        {
+          "type": "timeRange",
+          "extra": "6000,9000"
+        }
+      ]
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.movement_speed",
+      "modifierUUID": "e70103a4-7840-4bc5-bdaf-dc788bb7660f",
+      "value": 0.35,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "attributeOperation": 1,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false,
+      "conditions": [
+        {
+          "type": "timeRange",
+          "extra": "9000,12000"
+        }
+      ]
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_damage",
+      "modifierUUID": "3a69b875-4d5f-4488-bc1c-a55ba3106e82",
+      "value": 0.35,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "attributeOperation": 1,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false,
+      "conditions": [
+        {
+          "type": "timeRange",
+          "extra": "12000,15000"
+        }
+      ]
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_speed",
+      "modifierUUID": "82213273-fa1f-4430-aa2a-9443a1423570",
+      "value": 0.35,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "attributeOperation": 1,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false,
+      "conditions": [
+        {
+          "type": "timeRange",
+          "extra": "15000,18000"
+        }
+      ]
+    },
+    {
+      "type": "attribute",
+      "name": "functionalarmortrim:experience_boost",
+      "modifierUUID": "a7a0b965-2d5f-4a29-9c3f-8345c8d8cbc4",
+      "value": 0.35,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "attributeOperation": 1,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false,
+      "conditions": [
+        {
+          "type": "timeRange",
+          "extra": "18000,21000"
+        }
+      ]
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.movement_speed",
+      "modifierUUID": "88b0d751-e356-49ef-9322-d27153eae2ad",
+      "value": 0.35,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "attributeOperation": 1,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false,
+      "conditions": [
+        {
+          "type": "timeRange",
+          "extra": "21000,24000"
+        }
+      ]
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

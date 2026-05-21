@@ -1,0 +1,21 @@
+{
+  "armorSetName": "END_royal_bow",
+  "performanceMode": true,
+  "mainHand": {
+    "itemKey": "royalvariations:royal_bow",
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:penetration",
+      "value": 0.2,
+      "modifierUUID": "38c747cd-fca2-4cde-bf44-abf00fafd982",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

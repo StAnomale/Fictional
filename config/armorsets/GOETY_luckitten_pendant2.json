@@ -1,0 +1,45 @@
+{
+  "armorSetName": "luckitten_pendant",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "kubejs:luckitten_pendant",
+      "mustBeEmpty": false
+    },
+    {
+      "itemKey": "catburger:cat_burger",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "minecraft:jump_boost",
+      "value": 4.0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.luck",
+      "value": 1.0,
+      "modifierUUID": "9e83a5d1-d735-4639-aa94-76526288be18",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "obscure_api:dodge",
+      "value": 0.05,
+      "modifierUUID": "04fcba5d-499b-4290-ad29-a4f30fc53242",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

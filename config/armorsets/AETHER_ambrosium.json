@@ -1,0 +1,70 @@
+{
+  "armorSetName": "ambrosium",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "aether:gravitite_gloves",
+      "mixAndMatch": [
+      "deep_aether:stratus_gloves",
+      "aether:zanite_gloves",
+      "deep_aether:skyjade_gloves"
+      ],
+      "mustBeEmpty": false
+    }
+  ],
+  "mainHand": {
+    "itemKey": "aether:zanite_sword",
+    "mixAndMatch": [
+      "deep_aether:stratus_sword",
+      "deep_aether:stratus_axe",
+      "deep_aether:stratus_pickaxe",
+      "deep_aether:stratus_hoe",
+      "deep_aether:stratus_shovel",
+
+      "aether:zanite_axe",
+      "aether:zanite_pickaxe",
+      "aether:zanite_hoe",
+      "aether:zanite_shovel",
+
+      "aether_redux:spear_of_the_blight",
+
+      "deep_aether:skyjade_sword",
+      "deep_aether:skyjade_axe",
+      "deep_aether:skyjade_pickaxe",
+      "deep_aether:skyjade_hoe",
+      "deep_aether:skyjade_shovel",
+
+      "aether:gravitite_sword",
+      "aether:gravitite_axe",
+      "aether:gravitite_pickaxe",
+      "aether:gravitite_hoe",
+      "aether:gravitite_shovel",
+
+      "aether_redux:infused_veridium_sword",
+      "aether_redux:infused_veridium_axe",
+      "aether_redux:infused_veridium_pickaxe",
+      "aether_redux:infused_veridium_hoe",
+      "aether_redux:infused_veridium_shovel",
+
+      "aether_redux:veridium_sword",
+      "aether_redux:veridium_axe",
+      "aether_redux:veridium_pickaxe",
+      "aether_redux:veridium_hoe",
+      "aether_redux:veridium_shovel"
+      ],
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_damage",
+      "value": 0.2,
+      "modifierUUID": "be0649cf-249d-4ca5-8384-072cc9331072",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

@@ -1,0 +1,43 @@
+{
+  "armorSetName": "alarming_charm",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "goety:alarming_charm",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "goety:void_potency",
+      "value": 0.5,
+      "modifierUUID": "9996b985-a743-4a8c-8030-8a96c932a762",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "obscure_api:penetration",
+      "value": 0.25,
+      "modifierUUID": "6239ea88-1af2-4f0f-b377-2e8289d3df3a",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor_toughness",
+      "value": -0.25,
+      "modifierUUID": "7cab3b97-7a60-43cf-a1fb-880bdc03dd08",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

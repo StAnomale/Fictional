@@ -1,0 +1,31 @@
+{
+  "armorSetName": "TF_knightmetal_shield2",
+  "performanceMode": true,
+  "offHand": {
+    "itemKey": "twilightforest:knightmetal_shield",
+    "mustBeEmpty": false
+  },
+  "mainHand": {
+    "itemKey": "twilightforest:knightmetal_sword",
+    "mixAndMatch": [
+      "gunswithoutrosesadditions:knightmetal_shotgun",
+      "twilightforest:block_and_chain",
+      "twilightforest:knightmetal_pickaxe",
+      "twilightforest:knightmetal_axe"
+    ],
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:magic_damage",
+      "value": 1.5,
+      "modifierUUID": "ff3d93a9-5850-4ec3-8662-8823742adcc0",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

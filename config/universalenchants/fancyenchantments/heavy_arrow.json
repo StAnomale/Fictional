@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:bow",
+    "cataclysm:cursed_bow",
+    "cataclysm:wrath_of_the_desert"
+  ],
+  "incompatible": [
+    "fancyenchantments:air_attack",
+    "fancyenchantments:downwind",
+    "majruszsenchantments:incompatibility_curse",
+    "fancyenchantments:feather_fall",
+    "fancyenchantments:recoil",
+    "fancyenchantments:lightness",
+    "fancyenchantments:dexterity",
+    "fancyenchantments:wind_blade",
+    "fancyenchantments:reflecting",
+    "fancyenchantments:floating",
+    "fancyenchantments:blessed_wind",
+    "fancyenchantments:streamline",
+    "fancyenchantments:afterimage"
+  ]
+}

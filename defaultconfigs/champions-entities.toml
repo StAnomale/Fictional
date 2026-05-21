@@ -1,0 +1,1002 @@
+
+#List of entity configurations
+[[entities]]
+	entity = "minecraft:creeper"
+	minTier = 0
+	maxTier = 5
+	presetAffixes = []
+	affixList = ["knocking", "wounding", "paralyzing", "molten"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "aqua_creepers:aqua_creeper"
+	minTier = 0
+	maxTier = 5
+	presetAffixes = []
+	affixList = ["Plagued", "molten"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "minecraft:silverfish"
+	minTier = 0
+	maxTier = 3
+	presetAffixes = []
+	affixList = ["Plagued"]
+	affixPermission = "BLACKLIST"
+	
+[[entities]]
+	#幽灵死灵法师
+	entity = "goetyawaken:wraith_necromancer"
+	minTier = 0
+	maxTier = 1
+	presetAffixes = ["lively"]
+	affixPermission = "BLACKLIST"
+	
+[[entities]]
+	#焦骸死灵法师
+	entity = "goetyawaken:parched_necromancer"
+	minTier = 0
+	maxTier = 1
+	presetAffixes = ["lively"]
+	affixPermission = "BLACKLIST"
+	
+[[entities]]
+	#无名者
+	entity = "goetyawaken:nameless_one"
+	minTier = 0
+	maxTier = 1
+	presetAffixes = ["lively"]
+	affixPermission = "BLACKLIST"
+	
+[[entities]]
+	#哞菇巨兽
+	entity = "goetyawaken:hostile_mushroom_monstrosity"
+	minTier = 0
+	maxTier = 1
+	presetAffixes = ["lively"]
+	affixPermission = "BLACKLIST"
+	
+[[entities]]
+	#灾厄宰相
+	entity = "goety:vizier"
+	minTier = 0
+	maxTier = 1
+	presetAffixes = ["lively"]
+	affixPermission = "BLACKLIST"
+	
+[[entities]]
+	#红石巨兽
+	entity = "goety:hostile_redstone_monstrosity"
+	minTier = 0
+	maxTier = 1
+	presetAffixes = ["lively"]
+	affixPermission = "BLACKLIST"
+	
+[[entities]]
+	#末影谴使
+	entity = "goety:endersent"
+	minTier = 0
+	maxTier = 1
+	presetAffixes = ["lively"]
+	affixPermission = "BLACKLIST"
+	
+[[entities]]
+	#末影守望者
+	entity = "goety:ender_keeper"
+	minTier = 0
+	maxTier = 1
+	presetAffixes = ["lively"]
+	affixPermission = "BLACKLIST"
+	
+[[entities]]
+	#使徒
+	entity = "goety:apostle"
+	minTier = 0
+	maxTier = 1
+	presetAffixes = ["lively"]
+	affixPermission = "BLACKLIST"
+	
+[[entities]]
+	#巫师
+	entity = "goety:sorcerer"
+	minTier = 0
+	maxTier = 1
+	presetAffixes = ["lively"]
+	affixPermission = "BLACKLIST"
+	
+[[entities]]
+	#骨头领主
+	entity = "goety:bone_lord"
+	minTier = 0
+	maxTier = 1
+	presetAffixes = ["lively"]
+	affixPermission = "BLACKLIST"
+	
+[[entities]]
+	#骷髅领主
+	entity = "goety:skull_lord"
+	minTier = 0
+	maxTier = 1
+	presetAffixes = ["lively"]
+	affixPermission = "BLACKLIST"
+	
+[[entities]]
+	#灾厄教父
+	entity = "goety:minister"
+	minTier = 0
+	maxTier = 1
+	presetAffixes = ["lively"]
+	affixPermission = "BLACKLIST"
+	
+[[entities]]
+	#孤魂尸鬼
+	entity = "goety:wight"
+	minTier = 0
+	maxTier = 1
+	presetAffixes = ["lively"]
+	affixPermission = "BLACKLIST"
+	
+[[entities]]
+	#凋零死灵法师
+	entity = "goety:wither_necromancer"
+	minTier = 0
+	maxTier = 1
+	presetAffixes = ["lively"]
+	affixPermission = "BLACKLIST"
+	
+[[entities]]
+	#巫婆
+	entity = "goety:crone"
+	minTier = 0
+	maxTier = 1
+	presetAffixes = ["lively"]
+	affixPermission = "BLACKLIST"
+	
+[[entities]]
+	#育母蜘蛛(无法生效，悲)
+	entity = "goety:brood_mother"
+	minTier = 0
+	maxTier = 1
+	presetAffixes = ["lively"]
+	affixPermission = "BLACKLIST"
+	
+[[entities]]
+	#大地守卫
+	entity = "ba_bt:land_golem"
+	minTier = 1
+	maxTier = 2
+	presetAffixes = ["lively"]
+	affixPermission = "BLACKLIST"
+	
+[[entities]]
+	#海洋守卫
+	entity = "ba_bt:ocean_golem"
+	minTier = 2
+	maxTier = 3
+	presetAffixes = ["lively"]
+	affixPermission = "BLACKLIST"
+	
+[[entities]]
+	#炉心守卫
+	entity = "ba_bt:core_golem"
+	minTier = 2
+	maxTier = 3
+	presetAffixes = ["lively"]
+	affixPermission = "BLACKLIST"
+	
+[[entities]]
+	#渊灵祭司
+	entity = "cataclysm:deepling_priest"
+	minTier = 2
+	maxTier = 3
+	presetAffixes = ["lively"]
+	affixPermission = "BLACKLIST"
+	
+[[entities]]
+	#渊灵术士
+	entity = "cataclysm:deepling_warlock"
+	minTier = 2
+	maxTier = 3
+	presetAffixes = ["lively"]
+	affixPermission = "BLACKLIST"
+	
+[[entities]]
+	#虚空之花(无法生效，悲)
+	entity = "bosses_of_mass_destruction:void_blossom"
+	minTier = 3
+	maxTier = 4
+	presetAffixes = ["lively"]
+	affixPermission = "BLACKLIST"
+	
+[[entities]]
+	#暗夜巫妖(无法生效，悲)
+	entity = "bosses_of_mass_destruction:lich"
+	minTier = 3
+	maxTier = 4
+	presetAffixes = ["lively"]
+	affixPermission = "BLACKLIST"
+	
+[[entities]]
+	#下界铁掌(无法生效，悲)
+	entity = "bosses_of_mass_destruction:gauntlet"
+	minTier = 3
+	maxTier = 4
+	presetAffixes = ["lively"]
+	affixPermission = "BLACKLIST"
+	
+[[entities]]
+	#黑曜石巨柱(无法生效，悲)
+	entity = "bosses_of_mass_destruction:obsidilith"
+	minTier = 3
+	maxTier = 4
+	presetAffixes = ["lively"]
+	affixPermission = "BLACKLIST"
+	
+[[entities]]
+	#衰败巨像
+	entity = "radiation_zone_reborn:decayed_giant"
+	minTier = 1
+	maxTier = 5
+	presetAffixes = ["lively"]
+	affixPermission = "BLACKLIST"
+	
+[[entities]]
+	#大型沙尘人
+	entity = "radiation_zone_reborn:greater_dustorm"
+	minTier = 2
+	maxTier = 5
+	presetAffixes = ["lively"]
+	affixPermission = "BLACKLIST"
+	
+[[entities]]
+	#荧烁
+	entity = "radiation_zone_reborn:irradiant"
+	minTier = 2
+	maxTier = 5
+	presetAffixes = ["lively"]
+	affixPermission = "BLACKLIST"
+	
+[[entities]]
+	#腐衰图腾
+	entity = "radiation_zone_reborn:decayed_totem"
+	minTier = 3
+	maxTier = 5
+	presetAffixes = ["lively"]
+	affixPermission = "BLACKLIST"
+	
+[[entities]]
+	#砂岩凋灵
+	entity = "radiation_zone_reborn:sandstone_wither"
+	minTier = 3
+	maxTier = 5
+	presetAffixes = ["lively"]
+	affixPermission = "BLACKLIST"
+	
+[[entities]]
+	#银质灾祸（你也无法生效，悲）
+	entity = "radiation_zone_reborn:silver_calamity"
+	minTier = 3
+	maxTier = 5
+	presetAffixes = []
+	affixList = ["lively"]
+	affixPermission = "BLACKLIST"
+	
+[[entities]]
+	#荒原龙
+	entity = "radiation_zone_reborn:wastelands_tyrant"
+	minTier = 4
+	maxTier = 5
+	presetAffixes = ["lively"]
+	affixPermission = "BLACKLIST"
+	
+
+[[entities]]
+	#野火
+	entity = "friendsandfoes:wildfire"
+	minTier = 2
+	maxTier = 3
+	presetAffixes = ["lively"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	#滑行魔石
+	entity = "aether:slider"
+	minTier = 2
+	maxTier = 3
+	presetAffixes = ["lively"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	#女武神
+	entity = "aether:valkyrie"
+	minTier = 0
+	maxTier = 4
+	presetAffixes = ["lively"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	#武神女王
+	entity = "aether:valkyrie_queen"
+	minTier = 3
+	maxTier = 5
+	presetAffixes = ["lively"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	#烈阳奴仆
+	entity = "aether:fire_minion"
+	minTier = 1
+	maxTier = 3
+	presetAffixes = ["enkindling"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	#烈阳巨灵
+	entity = "aether:sun_spirit"
+	minTier = 4
+	maxTier = 5
+	presetAffixes = ["adaptable", "magnetic"]
+	affixList = ["lively"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	#盐蟹之王
+	entity = "aethermobs:saltcrabking"
+	minTier = 2
+	maxTier = 4
+	presetAffixes = ["lively"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	#晶岩魔像
+	entity = "aethermobs:crystalitegolem"
+	minTier = 3
+	maxTier = 5
+	presetAffixes = ["lively"]
+	affixPermission = "BLACKLIST"
+	
+[[entities]]
+	#晶岩仆从
+	entity = "aethermobs:crystaliteminion"
+	minTier = 0
+	maxTier = 1
+	presetAffixes = ["lively"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	#灯壶之灵
+	entity = "aethermobs:spirit"
+	minTier = 2
+	maxTier = 3
+	presetAffixes = ["lively"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	#狂瞳龙卷战斗前
+	entity = "deep_aether:eots_controller"
+	minTier = 3
+	maxTier = 4
+	presetAffixes = ["lively"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	#狂瞳龙卷
+	entity = "deep_aether:eots_segment"
+	minTier = 2
+	maxTier = 2
+	presetAffixes = ["arctic"]
+	affixList = ["plagued", "lively"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	#帝王云鲸
+	entity = "lost_aether_content:aerwhale_king"
+	minTier = 4
+	maxTier = 4
+	presetAffixes = ["wounding"]
+	affixList = ["hasty", "lively"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	#天境纳迦
+	entity = "aethermobs:aether_naga"
+	minTier = 3
+	maxTier = 5
+	presetAffixes = ["lively"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	#远古潜影贝
+	entity = "aethermobs:eldershulker"
+	minTier = 3
+	maxTier = 5
+	presetAffixes = ["lively", "desecrating"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	#守护天使
+	entity = "aethermobs:guardianangel"
+	minTier = 1
+	maxTier = 4
+	presetAffixes = ["lively"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	#天境巨龙
+	entity = "aethermobs:aetherdragon"
+	minTier = 4
+	maxTier = 5
+	presetAffixes = ["lively", "desecrating"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	#天境巨龙2阶段
+	entity = "aethermobs:aetherdragonphase_2"
+	minTier = 4
+	maxTier = 5
+	presetAffixes = ["lively", "desecrating"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	#灵魂感应师
+	entity = "illageandspillage:spiritcaller"
+	minTier = 2
+	maxTier = 4
+	affixPermission = "BLACKLIST"
+	presetAffixes = ["lively"]
+
+[[entities]]
+	#怪人
+	entity = "illageandspillage:freakager"
+	minTier = 2
+	maxTier = 4
+	affixPermission = "BLACKLIST"
+	presetAffixes = ["lively"]
+
+[[entities]]
+	#腐败蜘蛛
+	entity = "illageandspillage:ragno"
+	minTier = 2
+	maxTier = 4
+	affixPermission = "BLACKLIST"
+	presetAffixes = ["lively"]
+
+[[entities]]
+	#魔法师
+	entity = "illageandspillage:magispeller"
+	minTier = 3
+	maxTier = 4
+	affixPermission = "BLACKLIST"
+	presetAffixes = ["lively"]
+
+[[entities]]
+	#假面愚者
+	entity = "masquerader_mod:masquerader"
+	minTier = 3
+	maxTier = 4
+	affixPermission = "BLACKLIST"
+	presetAffixes = ["lively"]
+
+[[entities]]
+	#死尸术士
+	entity = "eeeabsmobs:corpse_warlock"
+	minTier = 3
+	maxTier = 4
+	presetAffixes = ["lively"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	#古陵哨兵-重型
+	entity = "eeeabsmobs:guling_sentinel_heavy"
+	minTier = 3
+	maxTier = 4
+	presetAffixes = ["lively"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	#无名守卫者
+	entity = "eeeabsmobs:nameless_guardian"
+	minTier = 3
+	maxTier = 4
+	presetAffixes = ["lively"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	#不朽者
+	entity = "eeeabsmobs:immortal"
+	minTier = 4
+	maxTier = 4
+	presetAffixes = ["lively"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	#死灵书掉落异常修复
+	entity = "twilightforest:death_tome"
+	minTier = 0
+	maxTier = 1
+	presetAffixes = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	#洞穴巨魔
+	entity = "twilightforest:troll"
+	minTier = 0
+	maxTier = 3
+	presetAffixes = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	#矿工巨人
+	entity = "twilightforest:giant_miner"
+	minTier = 1
+	maxTier = 5
+	presetAffixes = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	#武装巨人
+	entity = "twilightforest:armored_giant"
+	minTier = 1
+	maxTier = 5
+	presetAffixes = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	#娜迦
+	entity = "twilightforest:naga"
+	minTier = 1
+	maxTier = 2
+	presetAffixes = ["lively", "Knocking"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	#巫妖
+	entity = "twilightforest:lich"
+	minTier = 1
+	maxTier = 2
+	presetAffixes = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	#米诺菇
+	entity = "twilightforest:minoshroom"
+	minTier = 2
+	maxTier = 3
+	presetAffixes = ["lively"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	#超级米诺菇
+	entity = "better_minoshroomtaur:better_minoshroomtaur"
+	minTier = 3
+	maxTier = 4
+	presetAffixes = ["lively"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	#幻影骑士
+	entity = "twilightforest:knight_phantom"
+	minTier = 2
+	maxTier = 3
+	presetAffixes = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	#九头蛇
+	entity = "twilightforest:hydra"
+	minTier = 2
+	maxTier = 3
+	presetAffixes = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	#终焉的暮光
+	entity = "the_faint_radiance:lychnus"
+	minTier = 3
+	maxTier = 4
+	presetAffixes = ["lively"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	#暮初恶魂
+	entity = "twilightforest:ur_ghast"
+	minTier = 2
+	maxTier = 3
+	presetAffixes = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	#雪怪首领
+	entity = "twilightforest:alpha_yeti"
+	minTier = 2
+	maxTier = 3
+	presetAffixes = ["lively"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	#冰雪女王
+	entity = "twilightforest:snow_queen"
+	minTier = 3
+	maxTier = 4
+	presetAffixes = ["lively"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	#末影守卫
+	entity = "cataclysm:ender_guardian"
+	minTier = 3
+	maxTier = 4
+	affixPermission = "BLACKLIST"
+	presetAffixes = ["lively"]
+
+[[entities]]
+	#末影傀儡
+	entity = "cataclysm:ender_golem"
+	minTier = 2
+	maxTier = 4
+	affixPermission = "BLACKLIST"
+	presetAffixes = ["lively"]
+
+[[entities]]
+	#焰魔
+	entity = "cataclysm:ignis"
+	minTier = 4
+	maxTier = 4
+	affixPermission = "BLACKLIST"
+	presetAffixes = ["lively"]
+
+[[entities]]
+	#炽燃遗魂
+	entity = "cataclysm:ignited_revenant"
+	minTier = 2
+	maxTier = 4
+	affixPermission = "BLACKLIST"
+	presetAffixes = ["lively"]
+
+[[entities]]
+	#炽燃狂魂
+	entity = "cataclysm:ignited_berserker"
+	minTier = 2
+	maxTier = 4
+	affixPermission = "BLACKLIST"
+	presetAffixes = ["lively"]
+
+[[entities]]
+	#珊瑚傀儡
+	entity = "cataclysm:coral_golem"
+	minTier = 2
+	maxTier = 4
+	affixPermission = "BLACKLIST"
+	presetAffixes = ["lively"]
+
+[[entities]]
+	#珊瑚巨像
+	entity = "cataclysm:coralssus"
+	minTier = 2
+	maxTier = 4
+	affixPermission = "BLACKLIST"
+	presetAffixes = ["lively"]
+
+[[entities]]
+	#紫水晶巨蟹
+	entity = "cataclysm:amethyst_crab"
+	minTier = 2
+	maxTier = 4
+	affixPermission = "BLACKLIST"
+	presetAffixes = ["lively"]
+
+[[entities]]
+	#徘徊者
+	entity = "cataclysm:the_prowler"
+	minTier = 1
+	maxTier = 4
+	affixPermission = "BLACKLIST"
+	presetAffixes = ["lively"]
+
+[[entities]]
+	#下界合金巨兽
+	entity = "cataclysm:netherite_monstrosity"
+	minTier = 4
+	maxTier = 4
+	affixPermission = "BLACKLIST"
+	presetAffixes = ["lively"]
+
+[[entities]]
+	#先驱者
+	entity = "cataclysm:the_harbinger"
+	minTier = 4
+	maxTier = 4
+	affixPermission = "BLACKLIST"
+	presetAffixes = ["lively"]
+
+[[entities]]
+	#远古遗魂
+	entity = "cataclysm:ancient_remnant"
+	minTier = 4
+	maxTier = 4
+	affixPermission = "BLACKLIST"
+	presetAffixes = ["lively"]
+
+[[entities]]
+	#骇龙斗士
+	entity = "cataclysm:kobolediator"
+	minTier = 2
+	maxTier = 4
+	affixPermission = "BLACKLIST"
+	presetAffixes = ["lively"]
+
+[[entities]]
+	#瓦吉特
+	entity = "cataclysm:wadjet"
+	minTier = 2
+	maxTier = 4
+	affixPermission = "BLACKLIST"
+	presetAffixes = ["lively"]
+
+[[entities]]
+	#利维坦
+	entity = "cataclysm:the_leviathan"
+	minTier = 4
+	maxTier = 4
+	affixPermission = "BLACKLIST"
+	affixList = ["Plagued", "molten"]
+	presetAffixes = ["lively"]
+
+[[entities]]
+	#咒翼灵骸
+	entity = "cataclysm:maledictus"
+	minTier = 4
+	maxTier = 4
+	affixPermission = "BLACKLIST"
+	presetAffixes = ["lively"]
+
+[[entities]]
+	#冥行武弁
+	entity = "cataclysm:aptrgangr"
+	minTier = 2
+	maxTier = 4
+	affixPermission = "BLACKLIST"
+	presetAffixes = ["lively"]
+
+[[entities]]
+	#斯库拉
+	entity = "cataclysm:scylla"
+	minTier = 4
+	maxTier = 4
+	affixPermission = "BLACKLIST"
+	presetAffixes = ["lively"]
+
+[[entities]]
+	#沧溟巡守
+	entity = "cataclysm:hippocamtus"
+	minTier = 1
+	maxTier = 4
+	affixPermission = "BLACKLIST"
+	presetAffixes = ["lively"]
+
+[[entities]]
+	#水母莉娅
+	entity = "cataclysm:cindaria"
+	minTier = 1
+	maxTier = 4
+	affixPermission = "BLACKLIST"
+	presetAffixes = ["lively"]
+
+[[entities]]
+	#巨钳守卫
+	entity = "cataclysm:clawdian"
+	minTier = 2
+	maxTier = 4
+	affixPermission = "BLACKLIST"
+	presetAffixes = ["lively"]
+
+[[entities]]
+	#沼泽巨颌怪
+	entity = "meetyourfight:swampjaw"
+	minTier = 1
+	maxTier = 2
+	presetAffixes = ["lively"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	#敲钟人
+	entity = "meetyourfight:bellringer"
+	minTier = 2
+	maxTier = 3
+	presetAffixes = ["lively"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	#福尔图娜女爵
+	entity = "meetyourfight:dame_fortuna"
+	minTier = 2
+	maxTier = 4
+	presetAffixes = ["lively"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	#罗莎琳
+	entity = "meetyourfight:rosalyne"
+	minTier = 3
+	maxTier = 4
+	presetAffixes = ["lively"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	#末影龙
+	entity = "minecraft:ender_dragon"
+	minTier = 2
+	maxTier = 3
+	affixList = ["lively"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	#凋灵
+	entity = "minecraft:wither"
+	minTier = 2
+	maxTier = 3
+	presetAffixes = ["lively"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	#唤魔者
+	entity = "minecraft:evoker"
+	minTier = 1
+	maxTier = 5
+	presetAffixes = ["lively"]
+	affixList = ["Plagued"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	#幻术师
+	entity = "minecraft:illusioner"
+	minTier = 1
+	maxTier = 5
+	presetAffixes = ["lively"]
+	affixList = ["Plagued"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	#远古守卫者
+	entity = "minecraft:elder_guardian"
+	minTier = 1
+	maxTier = 4
+	presetAffixes = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	#猪灵蛮兵
+	entity = "minecraft:piglin_brute"
+	minTier = 1
+	maxTier = 5
+	presetAffixes = []
+	affixList = ["Plagued"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	#皇家僵尸
+	entity = "royalvariations:royal_zombie"
+	minTier = 1
+	maxTier = 5
+	presetAffixes = ["lively"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	#皇家骷髅
+	entity = "royalvariations:royal_skeleton"
+	minTier = 1
+	maxTier = 5
+	presetAffixes = ["lively"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	#皇家苦力怕
+	entity = "royalvariations:royal_creeper"
+	minTier = 1
+	maxTier = 5
+	presetAffixes = ["lively"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	#皇家末影人
+	entity = "royalvariations:royal_enderman"
+	minTier = 1
+	maxTier = 5
+	presetAffixes = ["lively"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	#突变末影人
+	entity = "mutantmonsters:mutant_enderman"
+	minTier = 2
+	maxTier = 5
+	presetAffixes = ["lively"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	#突变僵尸
+	entity = "mutantmonsters:mutant_zombie"
+	minTier = 1
+	maxTier = 5
+	presetAffixes = ["lively"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	#突变骷髅
+	entity = "mutantmonsters:mutant_skeleton"
+	minTier = 1
+	maxTier = 5
+	presetAffixes = ["lively"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	#突变苦力怕
+	entity = "mutantmonsters:mutant_creeper"
+	minTier = 1
+	maxTier = 5
+	presetAffixes = ["lively"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	#突变僵尸
+	entity = "mutantmonsters:mutant_zombie"
+	minTier = 1
+	maxTier = 5
+	presetAffixes = ["lively"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	#突变潜影贝
+	entity = "mutantmore:mutant_shulker"
+	minTier = 3
+	maxTier = 5
+	presetAffixes = ["lively"]
+	affixPermission = "BLACKLIST"
+	
+[[entities]]
+	#突变疣猪兽
+	entity = "mutantmore:mutant_hoglin"
+	minTier = 2
+	maxTier = 5
+	presetAffixes = ["lively"]
+	affixPermission = "BLACKLIST"
+	
+[[entities]]
+	#突变凋灵骷髅
+	entity = "mutantmore:mutant_wither_skeleton"
+	minTier = 3
+	maxTier = 5
+	presetAffixes = ["lively"]
+	affixPermission = "BLACKLIST"
+	
+[[entities]]
+	#突变烈焰人
+	entity = "mutantmore:mutant_blaze"
+	minTier = 2
+	maxTier = 5
+	presetAffixes = ["lively"]
+	affixPermission = "BLACKLIST"
+	
+[[entities]]
+	#突变冰封僵尸
+	entity = "mutantmore:mutant_frozen_zombie"
+	minTier = 2
+	maxTier = 5
+	presetAffixes = ["lively"]
+	affixPermission = "BLACKLIST"
+	
+[[entities]]
+	#突变丛林僵尸
+	entity = "mutantmore:mutant_jungle_zombie"
+	minTier = 3
+	maxTier = 5
+	presetAffixes = ["lively"]
+	affixPermission = "BLACKLIST"
+	
+[[entities]]
+	#突变尸壳
+	entity = "mutantmore:mutant_husk"
+	minTier = 2
+	maxTier = 5
+	presetAffixes = ["lively"]
+	affixPermission = "BLACKLIST"

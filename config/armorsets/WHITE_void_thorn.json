@@ -1,0 +1,39 @@
+{
+  "armorSetName": "void_thorn",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "bosses_of_mass_destruction:void_thorn",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "gunswithoutroses:gwr.shotgun_projectiles",
+      "value": -2.0,
+      "modifierUUID": "1266ae7d-21ba-4d90-bbd9-f17e589e57f3",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "gunswithoutroses:gwr.damage_total",
+      "value": 0.15,
+      "modifierUUID": "5558d0a1-b992-485c-bcb7-b182b0713a14",
+      "attributeOperation": 1,
+      "interactionType": "self"
+    },
+    {
+      "type": "attribute",
+      "name": "obscure_api:magic_damage",
+      "value": 1.0,
+      "modifierUUID": "6684ce2d-3e3d-4e83-8c71-7e2bad6a8dcc",
+      "attributeOperation": 0,
+      "interactionType": "self"
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

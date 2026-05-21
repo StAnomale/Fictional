@@ -1,0 +1,31 @@
+{
+  "armorSetName": "grindstone",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "minecraft:grindstone",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "functionalarmortrim:experience_boost",
+      "value": 0.1,
+      "modifierUUID": "cc6cbcca-94b8-4aaf-900e-02d71309867a",
+      "attributeOperation": 1,
+      "interactionType": "self"
+    },
+    {
+      "type": "attribute",
+      "name": "forge:block_reach",
+      "value": 1.0,
+      "modifierUUID": "49726f03-31f0-401a-83e3-611d2396543d",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

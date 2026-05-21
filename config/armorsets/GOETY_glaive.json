@@ -1,0 +1,44 @@
+{
+  "armorSetName": "stormlander",
+  "performanceMode": true,
+  "mainHand": {
+    "itemKey": "goetyawaken:glaive",
+    "mixAndMatch": [
+      "goetyawaken:grave_bane"
+      ],
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:penetration",
+      "value": 0.2,
+      "modifierUUID": "a931ade5-6aec-4c4b-867d-0e30a8d44381",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "forge:entity_reach",
+      "value": 0.2,
+      "modifierUUID": "d7b44771-8ce5-415f-b644-49cf25019e52",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "goety:void_potency",
+      "value": 1.0,
+      "modifierUUID": "46d67ac8-423c-4ea3-870e-7923e8ffdbb4",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

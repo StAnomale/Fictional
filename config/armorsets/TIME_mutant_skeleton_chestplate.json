@@ -1,0 +1,19 @@
+{
+  "armorSetName": "mutant_skeleton_chestplate",
+  "performanceMode": true,
+  "chest": {
+    "itemKey": "mutantmonsters:mutant_skeleton_chestplate",
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:critical_damage",
+      "value": -0.25,
+      "modifierUUID": "411360ca-7d18-49f5-b562-58dd48bb7879",
+      "attributeOperation": 0,
+      "interactionType": "self"
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

@@ -1,0 +1,45 @@
+{
+  "armorSetName": "mossy_tooth",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "meetyourfight:mossy_tooth",
+      "mixAndMatch": [
+      ],
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:magic_damage",
+      "value": -0.15,
+      "modifierUUID": "68e2013e-17c3-4bd2-b0a4-49a6a4783c5a",
+      "attributeOperation": 2,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.max_health",
+      "value": 4.0,
+      "modifierUUID": "7ee1ab20-00a0-4081-b4df-e9f943648412",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "obscure_api:penetration",
+      "value": 0.15,
+      "modifierUUID": "995fb145-3afd-4158-aa77-e55c39dca0db",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

@@ -1,0 +1,50 @@
+{
+	icon: "artifacts:mimic_spawn_egg"
+	id: "22E3CE400A26D520"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ item: "artifacts:helium_flamingo" }
+		{ item: "artifacts:universal_attractor" }
+		{ item: "artifacts:chorus_totem", weight: 3.0f }
+		{ item: "artifacts:crystal_heart" }
+		{ item: "artifacts:antidote_vessel" }
+		{ item: "artifacts:cloud_in_a_bottle" }
+		{ item: "artifacts:obsidian_skull" }
+		{ item: "artifacts:vampiric_glove" }
+		{ item: "artifacts:fire_gauntlet" }
+		{ item: "artifacts:feral_claws" }
+		{ item: "artifacts:digging_claws" }
+		{ item: "artifacts:power_glove" }
+		{ item: "artifacts:pickaxe_heater" }
+		{ item: "artifacts:golden_hook" }
+		{ item: "artifacts:pocket_piston" }
+		{ item: "artifacts:onion_ring" }
+		{ item: "artifacts:kitty_slippers" }
+		{ item: "artifacts:bunny_hoppers" }
+		{ item: "artifacts:snowshoes" }
+		{ item: "artifacts:rooted_boots" }
+		{ item: "artifacts:whoopee_cushion", weight: 2.0f }
+		{ item: "artifacts:aqua_dashers" }
+		{ item: "artifacts:flippers" }
+		{ item: "artifacts:steadfast_spikes" }
+		{ item: "artifacts:running_shoes" }
+		{ item: "artifacts:flame_pendant" }
+		{ item: "artifacts:shock_pendant" }
+		{ item: "artifacts:thorn_pendant" }
+		{ item: "artifacts:panic_necklace" }
+		{ item: "artifacts:cross_necklace" }
+		{ item: "artifacts:charm_of_sinking" }
+		{ item: "artifacts:scarf_of_invisibility" }
+		{ item: "artifacts:lucky_scarf" }
+		{ item: "artifacts:plastic_drinking_hat" }
+		{ item: "artifacts:novelty_drinking_hat" }
+		{ item: "artifacts:snorkel" }
+		{ item: "artifacts:night_vision_goggles" }
+		{ item: "artifacts:villager_hat" }
+		{ item: "artifacts:cowboy_hat" }
+		{ item: "artifacts:anglers_hat" }
+		{ item: "artifacts:superstitious_hat" }
+	]
+	title: "奇异饰品"
+}

@@ -1,0 +1,38 @@
+{
+  "armorSetName": "TIME_contrary_chronicle0",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "kubejs:contrary_chronicle_easy",
+      "mixAndMatch": [
+      "kubejs:contrary_chronicle_hostility",
+      "kubejs:contrary_chronicle_normal",
+      "kubejs:contrary_chronicle_hard"
+      ],
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_speed",
+      "value": 0.4,
+      "modifierUUID": "3b3f3a40-7fe3-46a8-a204-7c797b64d39f",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "obscure_api:magic_damage",
+      "value": 1.0,
+      "modifierUUID": "d3b76f91-ff67-4f35-8ad3-14c2a9c08539",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

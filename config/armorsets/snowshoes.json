@@ -1,0 +1,44 @@
+{
+  "armorSetName": "snowshoes",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "artifacts:snowshoes",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor_toughness",
+      "value": 0.15,
+      "modifierUUID": "4c637e99-43b3-4a37-9369-d02a5c025c4c",
+      "attributeOperation": 1,
+      "interactionType": "self"
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.movement_speed",
+      "value": 0.1,
+      "modifierUUID": "1db67a6c-dfb5-4266-9b05-44a5a42efbf2",
+      "attributeOperation": 1,
+      "interactionType": "self"
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.movement_speed",
+      "value": 0.25,
+      "attributeOperation": 1,
+      "modifierUUID": "2745d623-47e5-4631-9ba5-5dac558d5d96",
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false,
+      "conditions": [
+        {
+          "type": "inRain"
+        }
+      ]
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

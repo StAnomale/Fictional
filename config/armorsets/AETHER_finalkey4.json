@@ -1,0 +1,27 @@
+{
+  "armorSetName": "finalkey",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "aethermobs:finalkey",
+      "mustBeEmpty": false
+    }
+  ],
+  "legs": {
+    "itemKey": "aethermobs:shaday_leggings",
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.max_health",
+      "value": 0.1,
+      "modifierUUID": "9057c9eb-488c-4672-8e96-92634505ea1d",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

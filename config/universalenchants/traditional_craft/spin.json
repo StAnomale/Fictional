@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:traditional_craft_spin"
+  ],
+  "incompatible": [
+    "majruszsenchantments:incompatibility_curse",
+    "traditional_craft:recoil"
+  ]
+}

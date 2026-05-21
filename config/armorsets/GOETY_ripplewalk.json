@@ -1,0 +1,33 @@
+{
+  "armorSetName": "ripplewalk",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "goetyawaken:ripplewalk",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "goety:void_potency",
+      "value": 1.0,
+      "modifierUUID": "e27bd261-4c2d-41ec-96d9-4f6a1595e5cc",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.movement_speed",
+      "value": 0.05,
+      "modifierUUID": "e1e653be-9501-49f1-85aa-ae8afc134d98",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

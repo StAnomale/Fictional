@@ -1,0 +1,43 @@
+{
+  "armorSetName": "sentry_shield",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "lost_aether_content:sentry_shield",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_damage",
+      "value": 0.15,
+      "modifierUUID": "7f629b9c-9356-4fc5-abea-79db1a22b564",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor",
+      "value": 4.0,
+      "modifierUUID": "7d067d6f-e8b2-4726-b838-b626083c9d0f",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor_toughness",
+      "value": 4.0,
+      "modifierUUID": "a1b0dd48-7a1a-438f-b769-26f9d0a690f0",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

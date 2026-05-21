@@ -1,0 +1,27 @@
+{
+  "armorSetName": "conduit2",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "minecraft:conduit",
+      "mustBeEmpty": false
+    }
+  ],
+  "mainHand": {
+    "itemKey": "minecraft:trident",
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_damage",
+      "value": 0.25,
+      "modifierUUID": "b536f5c5-c498-40dd-ab76-0532bca82dcc",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

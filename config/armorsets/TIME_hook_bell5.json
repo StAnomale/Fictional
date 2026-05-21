@@ -1,0 +1,27 @@
+{
+  "armorSetName": "hook_bell",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "goety:hook_bell",
+      "mustBeEmpty": false
+    },
+    {
+      "itemKey": "minecraft:totem_of_undying",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:critical_damage",
+      "value": 0.1,
+      "modifierUUID": "01a4536f-6980-4704-85b3-9163dbd6d638",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

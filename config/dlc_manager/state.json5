@@ -1,0 +1,84 @@
+{
+  "stateById": {
+    "mod:DLC|Ixeris-3.8.5+1.20.1-forge.jar": {
+      "enabled": false,
+      "appliedTargets": []
+    },
+    "mod:DLC|acceleratedrendering-1.0.8-1.20.1-alpha.jar": {
+      "enabled": false,
+      "appliedTargets": []
+    },
+    "mod:DLC|%5B1.20.1%5Dslashblade_acceleratedrendering-1.0.1.jar": {
+      "enabled": false,
+      "appliedTargets": []
+    },
+    "mod:DLC|RenderScale-forge-1.20.1-1.0.jar": {
+      "enabled": false,
+      "appliedTargets": []
+    },
+    "mod:DLC|FastWorkbench-1.20.1-8.0.4.jar": {
+      "enabled": false,
+      "appliedTargets": []
+    },
+    "mod:DLC|c2meF-0.2.0+alpha.12-all.jar": {
+      "enabled": false,
+      "appliedTargets": []
+    },
+    "mod:DLC|smoothchunk-1.20.1-4.1.jar": {
+      "enabled": false,
+      "appliedTargets": []
+    },
+    "mod:DLC|chunksending-1.20.1-2.8.jar": {
+      "enabled": false,
+      "appliedTargets": []
+    },
+    "mod:DLC|cupboard-1.20.1-2.7.jar": {
+      "enabled": false,
+      "appliedTargets": [
+        "mods\\cupboard-1.20.1-2.7.jar"
+      ]
+    },
+    "mod:DLC|tfthreadsafetyaddon-forge-1.20.1-1.0.0.jar": {
+      "enabled": false,
+      "appliedTargets": []
+    },
+    "mod:DLC|starlight-1.1.3%2Bforge.c562a3a.jar": {
+      "enabled": false,
+      "appliedTargets": []
+    },
+    "mod:DLC|acceleratedrecoiling-0.8-alpha-1.20.1-hotfix-all.jar": {
+      "enabled": false,
+      "appliedTargets": []
+    },
+    "mod:DLC|biomespy-1.3.2-all.jar": {
+      "enabled": false,
+      "appliedTargets": []
+    },
+    "mod:DLC|UTF-8\u0027\u0027fastnbt-1.20.1-1.1-forge.jar": {
+      "enabled": false,
+      "appliedTargets": [
+        "mods\\UTF-8\u0027\u0027fastnbt-1.20.1-1.1-forge.jar"
+      ]
+    },
+    "mod:DLC|UTF-8\u0027\u0027acedium-0.2.7-beta.jar": {
+      "enabled": false,
+      "appliedTargets": [
+        "mods\\UTF-8\u0027\u0027acedium-0.2.7-beta.jar"
+      ]
+    },
+    "mod:DLC|UTF-8\u0027\u0027acceleratedrendering-1.0.8-1.20.1-alpha.jar": {
+      "enabled": false,
+      "appliedTargets": [
+        "mods\\UTF-8\u0027\u0027acceleratedrendering-1.0.8-1.20.1-alpha.jar"
+      ]
+    },
+    "mod:DLC|acedium-0.2.7-beta.jar": {
+      "enabled": false,
+      "appliedTargets": []
+    },
+    "mod:DLC|threatengl-forge-2.0.4-release.10.jar": {
+      "enabled": false,
+      "appliedTargets": []
+    }
+  }
+}

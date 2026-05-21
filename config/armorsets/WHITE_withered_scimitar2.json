@@ -1,0 +1,21 @@
+{
+  "armorSetName": "withered_scimitar",
+  "performanceMode": true,
+    "offHand": {
+    "itemKey": "mutantmore:withered_scimitar",
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor",
+      "value": 4.0,
+      "modifierUUID": "fae148e6-2d8f-43bd-9a3d-9a67ce527804",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

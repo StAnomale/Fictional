@@ -1,0 +1,39 @@
+{
+  "armorSetName": "claymore",
+  "performanceMode": true,
+  "mainHand": {
+    "itemKey": "goetyawaken:claymore",
+    "mixAndMatch": [
+      "goetyawaken:obsidian_claymore",
+      "goetyawaken:starless_night"
+      ],
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "goety:void_potency",
+      "value": 1.0,
+      "modifierUUID": "77d2e66e-ade4-4902-897c-5c4f7bd8421c",
+      "attributeOperation": 0,
+      "interactionType": "self"
+    },
+    {
+      "type": "attribute",
+      "name": "obscure_api:penetration",
+      "value": 0.2,
+      "modifierUUID": "de36404b-8444-428f-82e4-8ae21679f22c",
+      "attributeOperation": 0,
+      "interactionType": "self"
+    },
+    {
+      "type": "attribute",
+      "name": "forge:entity_reach",
+      "value": 2.0,
+      "modifierUUID": "8147bda2-401f-4c1d-ae9e-48e75c65a402",
+      "attributeOperation": 0,
+      "interactionType": "self"
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

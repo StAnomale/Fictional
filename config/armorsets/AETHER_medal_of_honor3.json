@@ -1,0 +1,37 @@
+{
+  "armorSetName": "medal_of_honor",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "deep_aether:medal_of_honor",
+      "mustBeEmpty": false
+    },
+    {
+      "itemKey": "aether:valkyrie_cape",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:critical_damage",
+      "value": 0.05,
+      "modifierUUID": "2795d6e4-7cdd-49b7-b18c-c99a6e12bbd3",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "obscure_api:critical_hit",
+      "value": 0.05,
+      "modifierUUID": "7b677a26-b344-43e5-b9c5-e552f397e831",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

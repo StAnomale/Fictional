@@ -1,0 +1,53 @@
+{
+  "armorSetName": "DC_passages_toll",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "meetyourfight:passages_toll",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:critical_hit",
+      "value": 0.15,
+      "modifierUUID": "54fd9697-05de-406f-af4b-42f7b0ad5ab1",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor_toughness",
+      "value": -0.3,
+      "modifierUUID": "f731e987-891b-4c34-9aa0-f45de557b6f4",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "gunswithoutroses:gwr.damage_total",
+      "value": 0.15,
+      "modifierUUID": "bab003f3-4351-471a-9e83-d0efdbe2aae5",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.movement_speed",
+      "value": 0.1,
+      "modifierUUID": "bc70063d-8a55-441b-ad78-751b44eb8a73",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

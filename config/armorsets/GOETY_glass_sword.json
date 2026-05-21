@@ -1,0 +1,33 @@
+{
+  "armorSetName": "glass_sword",
+  "performanceMode": true,
+  "mainHand": {
+    "itemKey": "twilightforest:glass_sword",
+    "mixAndMatch": [
+      ],
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:magic_damage",
+      "value": -0.5,
+      "modifierUUID": "5b1fde97-fa2e-4212-a789-e4622a136ea3",
+      "attributeOperation": 2,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_speed",
+      "value": -0.5,
+      "modifierUUID": "a280e9e6-fbaa-4eb9-8ce1-a44aa2636c81",
+      "attributeOperation": 2,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

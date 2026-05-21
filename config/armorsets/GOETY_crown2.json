@@ -1,0 +1,28 @@
+{
+  "armorSetName": "crown",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "goety:crone_hat",
+      "mixAndMatch": [
+      "goety:unholy_hat",
+      "goety:unholy_hat_halo",
+      "goety:nameless_crown"
+      ],
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "goety:void_potency",
+      "value": 2.0,
+      "modifierUUID": "bf5d7c7e-1944-418d-b714-148d8d8c3428",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

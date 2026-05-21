@@ -1,0 +1,23 @@
+{
+  "armorSetName": "thrash_glove",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "goety:thrash_glove",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:critical_hit",
+      "value": 0.05,
+      "modifierUUID": "4e801717-57fe-44aa-beab-acbdc11cc1fc",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

@@ -1,0 +1,37 @@
+{
+  "armorSetName": "ring_of_wisdom",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "aether_redux:ring_of_wisdom",
+      "mustBeEmpty": false
+    },
+    {
+      "itemKey": "xercamusic:god",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:accuracy",
+      "value": 0.1,
+      "modifierUUID": "10f3f982-ffa1-43aa-a12e-b4aa658c6fba",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.luck",
+      "value": 1.0,
+      "modifierUUID": "acd0a34c-f196-46f5-ba77-ce8388a7bcda",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

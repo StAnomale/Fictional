@@ -1,0 +1,57 @@
+{
+  "armorSetName": "ancient_drive_crystal",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "eeeabsmobs:ancient_drive_crystal",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "minecraft:resistance",
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "effect",
+      "name": "cataclysm:stun",
+      "interactionType": "immunity",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "effect",
+      "name": "eeeabsmobs:vertigo_effect",
+      "interactionType": "immunity",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "effect",
+      "name": "royalvariations:dazed",
+      "interactionType": "immunity",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor",
+      "value": 4,
+      "modifierUUID": "1b4a1243-5d01-4365-af93-c8125e6833ea",
+      "attributeOperation": 0,
+      "interactionType": "self"
+    },
+    {
+      "type": "attribute",
+      "name": "obscure_api:critical_damage",
+      "value": -0.15,
+      "modifierUUID": "bc355dfc-2a1e-4442-9c71-ee8b55a96d25",
+      "attributeOperation": 0,
+      "interactionType": "self"
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

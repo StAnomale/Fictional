@@ -1,0 +1,43 @@
+{
+  "armorSetName": "frost_scythe",
+  "performanceMode": true,
+  "mainHand": {
+    "itemKey": "goetyawaken:frost_scythe",
+    "mixAndMatch": [
+      ],
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "forge:entity_reach",
+      "value": 0.2,
+      "modifierUUID": "218c71e3-ed20-4e10-b011-097409fde6b2",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "obscure_api:penetration",
+      "value": 0.2,
+      "modifierUUID": "90f437c9-d034-4242-ab26-7f51003299c0",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "goety:void_potency",
+      "value": 2.0,
+      "modifierUUID": "2080e707-9fe0-422f-b195-7d8ef26ceb88",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

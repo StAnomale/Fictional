@@ -1,0 +1,6 @@
+{
+  "attackSkillLocks": {
+    "minecraft:ender_dragon": ["attack:16"],
+    "minecraft:wither": ["attack:8"]
+  }
+}

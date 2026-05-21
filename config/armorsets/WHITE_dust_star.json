@@ -1,0 +1,39 @@
+{
+  "armorSetName": "dust_star",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "radiation_zone_reborn:dust_star",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "forge:entity_reach",
+      "value": -2.0,
+      "modifierUUID": "5bd58afb-db91-40bf-bbc1-93b3f1c099e9",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_speed",
+      "value": 0.5,
+      "modifierUUID": "894fcf97-eb12-4dd0-889e-a0a12703f7f4",
+      "attributeOperation": 0,
+      "interactionType": "self"
+    },
+    {
+      "type": "attribute",
+      "name": "obscure_api:magic_damage",
+      "value": 1.5,
+      "modifierUUID": "5200b9e0-79f6-478d-8ee7-3c5299fdeca4",
+      "attributeOperation": 0,
+      "interactionType": "self"
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

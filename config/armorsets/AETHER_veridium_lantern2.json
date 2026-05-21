@@ -1,0 +1,35 @@
+{
+  "armorSetName": "veridium_lantern",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "aether_redux:veridium_lantern",
+      "mustBeEmpty": false
+    }
+  ],
+  "mainHand": {
+    "itemKey": "aether_redux:infused_veridium_sword",
+    "mixAndMatch": [
+      "gunswithoutrosesadditions:veridium_revolver_infused",
+      "aether_redux:infused_veridium_dart_shooter",
+      "aether_redux:infused_veridium_axe",
+      "aether_redux:infused_veridium_pickaxe",
+      "aether_redux:infused_veridium_hoe",
+      "aether_redux:infused_veridium_shovel"
+      ],
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:penetration",
+      "value": 0.25,
+      "modifierUUID": "cdc5e71d-8a77-41fc-9656-e98978b3ef89",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

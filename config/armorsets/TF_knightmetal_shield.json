@@ -1,0 +1,27 @@
+{
+  "armorSetName": "TF_knightmetal_shield1",
+  "performanceMode": true,
+  "offHand": {
+    "itemKey": "twilightforest:knightmetal_shield",
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor",
+      "value": 2.0,
+      "modifierUUID": "afaea90c-570e-4cc1-9e68-98ea8bf161bd",
+      "attributeOperation": 0,
+      "interactionType": "self"
+    },
+    {
+      "type": "attribute",
+      "name": "obscure_api:accuracy",
+      "value": 0.05,
+      "modifierUUID": "26d4a17e-d46f-410f-bd2f-7fcd9b2c56df",
+      "attributeOperation": 0,
+      "interactionType": "self"
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

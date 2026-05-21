@@ -1,0 +1,27 @@
+{
+  "armorSetName": "finalkey",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "aethermobs:finalkey",
+      "mustBeEmpty": false
+    }
+  ],
+  "head": {
+    "itemKey": "aethermobs:shaday_helmet",
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.max_health",
+      "value": 0.1,
+      "modifierUUID": "6f337bfa-a189-4416-871c-dd7df68b0d22",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

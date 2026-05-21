@@ -1,0 +1,33 @@
+{
+  "armorSetName": "unholy_blood",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "goety:unholy_blood",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "goety:soul_discount",
+      "value": 0.2,
+      "modifierUUID": "7839ea1f-b633-4316-9380-62b71bae83ac",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_speed",
+      "value": -0.2,
+      "modifierUUID": "8997d8bb-affd-4321-8f2e-bee7c6bbf149",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

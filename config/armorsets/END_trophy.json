@@ -1,0 +1,33 @@
+{
+  "armorSetName": "END_trophy",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "lootr:trophy",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "functionalarmortrim:experience_boost",
+      "value": 0.4,
+      "modifierUUID": "d81c02d8-5498-479a-8a88-c959c7724ee5",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "obscure_api:critical_hit",
+      "value": 0.15,
+      "modifierUUID": "596375d3-183d-4f75-9b86-a3bc50dec1cc",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

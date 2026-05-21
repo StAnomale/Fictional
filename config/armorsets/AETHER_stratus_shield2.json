@@ -1,0 +1,30 @@
+{
+  "armorSetName": "stratus_shield",
+  "performanceMode": true,
+  "offHand": {
+    "itemKey": "deep_aether:stratus_shield",
+    "mustBeEmpty": false
+  },
+  "mainHand": {
+    "itemKey": "deep_aether:stratus_sword",
+    "mixAndMatch": [
+      "gwrexpansions:super_shotgun",
+      "deep_aether:stratus_axe",
+      "deep_aether:stratus_pickaxe",
+      "deep_aether:stratus_hoe",
+      "deep_aether:stratus_shovel"
+      ],
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:critical_damage",
+      "value": 0.2,
+      "modifierUUID": "38f13ff5-72f6-432d-825c-e50c7dacef1c",
+      "attributeOperation": 0,
+      "interactionType": "self"
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

@@ -1,0 +1,613 @@
+{
+  "armorSetName": "TIME_contrary_chronicle_hostility4",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "kubejs:contrary_chronicle_hostility",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "kubejs:hostility_wounding",
+      "value": 0.0,
+      "interactionType": "self",
+      "interactionDuration": 600,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false,
+      "conditions": [
+        {
+          "type": "timeRange",
+          "extra": "14400,14420"
+        }
+      ]
+    },
+    {
+      "type": "effect",
+      "name": "kubejs:hostility_wounding",
+      "value": 0.0,
+      "interactionType": "self",
+      "interactionDuration": 600,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false,
+      "conditions": [
+        {
+          "type": "timeRange",
+          "extra": "24400,24420"
+        }
+      ]
+    },
+    {
+      "type": "effect",
+      "name": "kubejs:hostility_wounding",
+      "value": 0.0,
+      "interactionType": "self",
+      "interactionDuration": 600,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false,
+      "conditions": [
+        {
+          "type": "timeRange",
+          "extra": "54400,54420"
+        }
+      ]
+    },
+    {
+      "type": "effect",
+      "name": "kubejs:hostility_wounding",
+      "value": 0.0,
+      "interactionType": "self",
+      "interactionDuration": 600,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false,
+      "conditions": [
+        {
+          "type": "timeRange",
+          "extra": "84400,84420"
+        }
+      ]
+    },
+    {
+      "type": "effect",
+      "name": "royalvariations:marked",
+      "value": 0.0,
+      "interactionType": "self",
+      "interactionDuration": 600,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false,
+      "conditions": [
+        {
+          "type": "timeRange",
+          "extra": "11000,11120"
+        }
+      ]
+    },
+    {
+      "type": "effect",
+      "name": "royalvariations:marked",
+      "value": 0.0,
+      "interactionType": "self",
+      "interactionDuration": 600,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false,
+      "conditions": [
+        {
+          "type": "timeRange",
+          "extra": "31000,31120"
+        }
+      ]
+    },
+    {
+      "type": "effect",
+      "name": "kubejs:hostility_chaos",
+      "value": 4.0,
+      "interactionType": "self",
+      "interactionDuration": 600,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false,
+      "conditions": [
+        {
+          "type": "timeRange",
+          "extra": "2100,2180"
+        }
+      ]
+    },
+    {
+      "type": "effect",
+      "name": "kubejs:hostility_chaos",
+      "value": 4.0,
+      "interactionType": "self",
+      "interactionDuration": 600,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false,
+      "conditions": [
+        {
+          "type": "timeRange",
+          "extra": "8100,8180"
+        }
+      ]
+    },
+    {
+      "type": "effect",
+      "name": "the_bumblezone:wrath_of_the_hive",
+      "value": 4.0,
+      "interactionType": "self",
+      "interactionDuration": 600,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false,
+      "conditions": [
+        {
+          "type": "timeRange",
+          "extra": "9240,9340"
+        }
+      ]
+    },
+    {
+      "type": "effect",
+      "name": "the_bumblezone:wrath_of_the_hive",
+      "value": 4.0,
+      "interactionType": "self",
+      "interactionDuration": 600,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false,
+      "conditions": [
+        {
+          "type": "timeRange",
+          "extra": "15240,15440"
+        }
+      ]
+    },
+    {
+      "type": "effect",
+      "name": "mutantmore:jumping_fatigue",
+      "value": 4.0,
+      "interactionType": "self",
+      "interactionDuration": 200,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false,
+      "conditions": [
+        {
+          "type": "timeRange",
+          "extra": "20640,20660"
+        }
+      ]
+    },
+    {
+      "type": "effect",
+      "name": "mutantmore:jumping_fatigue",
+      "value": 4.0,
+      "interactionType": "self",
+      "interactionDuration": 200,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false,
+      "conditions": [
+        {
+          "type": "timeRange",
+          "extra": "30640,30660"
+        }
+      ]
+    },
+    {
+      "type": "effect",
+      "name": "mutantmore:jumping_fatigue",
+      "value": 4.0,
+      "interactionType": "self",
+      "interactionDuration": 200,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false,
+      "conditions": [
+        {
+          "type": "timeRange",
+          "extra": "40640,40660"
+        }
+      ]
+    },
+    {
+      "type": "effect",
+      "name": "mutantmore:jumping_fatigue",
+      "value": 4.0,
+      "interactionType": "self",
+      "interactionDuration": 200,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false,
+      "conditions": [
+        {
+          "type": "timeRange",
+          "extra": "50640,50660"
+        }
+      ]
+    },
+    {
+      "type": "effect",
+      "name": "cataclysm:curse_of_desert",
+      "value": 4.0,
+      "interactionType": "self",
+      "interactionDuration": 200,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false,
+      "conditions": [
+        {
+          "type": "timeRange",
+          "extra": "13240,13260"
+        }
+      ]
+    },
+    {
+      "type": "effect",
+      "name": "cataclysm:curse_of_desert",
+      "value": 4.0,
+      "interactionType": "self",
+      "interactionDuration": 200,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false,
+      "conditions": [
+        {
+          "type": "timeRange",
+          "extra": "33240,33260"
+        }
+      ]
+    },
+    {
+      "type": "effect",
+      "name": "cataclysm:curse_of_desert",
+      "value": 4.0,
+      "interactionType": "self",
+      "interactionDuration": 200,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false,
+      "conditions": [
+        {
+          "type": "timeRange",
+          "extra": "53240,53260"
+        }
+      ]
+    },
+    {
+      "type": "effect",
+      "name": "legendarycreatures:convulsion",
+      "value": 4.0,
+      "interactionType": "self",
+      "interactionDuration": 200,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false,
+      "conditions": [
+        {
+          "type": "timeRange",
+          "extra": "10660,10680"
+        }
+      ]
+    },
+    {
+      "type": "effect",
+      "name": "legendarycreatures:convulsion",
+      "value": 4.0,
+      "interactionType": "self",
+      "interactionDuration": 200,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false,
+      "conditions": [
+        {
+          "type": "timeRange",
+          "extra": "39660,39680"
+        }
+      ]
+    },
+    {
+      "type": "effect",
+      "name": "legendarycreatures:convulsion",
+      "value": 4.0,
+      "interactionType": "self",
+      "interactionDuration": 200,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false,
+      "conditions": [
+        {
+          "type": "timeRange",
+          "extra": "49660,49680"
+        }
+      ]
+    },
+    {
+      "type": "effect",
+      "name": "legendarycreatures:convulsion",
+      "value": 4.0,
+      "interactionType": "self",
+      "interactionDuration": 200,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false,
+      "conditions": [
+        {
+          "type": "timeRange",
+          "extra": "89660,89680"
+        }
+      ]
+    },
+    {
+      "type": "effect",
+      "name": "cataclysm:abyssal_fear",
+      "value": 4.0,
+      "interactionType": "self",
+      "interactionDuration": 600,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false,
+      "conditions": [
+        {
+          "type": "timeRange",
+          "extra": "6660,6760"
+        }
+      ]
+    },
+    {
+      "type": "effect",
+      "name": "cataclysm:abyssal_fear",
+      "value": 4.0,
+      "interactionType": "self",
+      "interactionDuration": 600,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false,
+      "conditions": [
+        {
+          "type": "timeRange",
+          "extra": "16660,16760"
+        }
+      ]
+    },
+    {
+      "type": "effect",
+      "name": "cataclysm:abyssal_fear",
+      "value": 4.0,
+      "interactionType": "self",
+      "interactionDuration": 600,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false,
+      "conditions": [
+        {
+          "type": "timeRange",
+          "extra": "36660,36760"
+        }
+      ]
+    },
+    {
+      "type": "effect",
+      "name": "cataclysm:abyssal_fear",
+      "value": 4.0,
+      "interactionType": "self",
+      "interactionDuration": 600,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false,
+      "conditions": [
+        {
+          "type": "timeRange",
+          "extra": "46660,46760"
+        }
+      ]
+    },
+    {
+      "type": "effect",
+      "name": "cataclysm:abyssal_fear",
+      "value": 4.0,
+      "interactionType": "self",
+      "interactionDuration": 600,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false,
+      "conditions": [
+        {
+          "type": "timeRange",
+          "extra": "66660,66760"
+        }
+      ]
+    },
+    {
+      "type": "effect",
+      "name": "cataclysm:abyssal_fear",
+      "value": 4.0,
+      "interactionType": "self",
+      "interactionDuration": 600,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false,
+      "conditions": [
+        {
+          "type": "timeRange",
+          "extra": "28660,28760"
+        }
+      ]
+    },
+    {
+      "type": "effect",
+      "name": "royalvariations:marked",
+      "value": 0.0,
+      "interactionType": "self",
+      "interactionDuration": 600,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false,
+      "conditions": [
+        {
+          "type": "timeRange",
+          "extra": "41110,41120"
+        }
+      ]
+    },
+    {
+      "type": "effect",
+      "name": "kubejs:hostility_chaos",
+      "value": 4.0,
+      "interactionType": "self",
+      "interactionDuration": 600,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false,
+      "conditions": [
+        {
+          "type": "timeRange",
+          "extra": "18100,18180"
+        }
+      ]
+    },
+    {
+      "type": "effect",
+      "name": "the_bumblezone:wrath_of_the_hive",
+      "value": 4.0,
+      "interactionType": "self",
+      "interactionDuration": 600,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false,
+      "conditions": [
+        {
+          "type": "timeRange",
+          "extra": "152140,154140"
+        }
+      ]
+    },
+    {
+      "type": "effect",
+      "name": "the_bumblezone:wrath_of_the_hive",
+      "value": 4.0,
+      "interactionType": "self",
+      "interactionDuration": 600,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false,
+      "conditions": [
+        {
+          "type": "timeRange",
+          "extra": "32140,34140"
+        }
+      ]
+    },
+    {
+      "type": "effect",
+      "name": "the_bumblezone:wrath_of_the_hive",
+      "value": 4.0,
+      "interactionType": "self",
+      "interactionDuration": 600,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false,
+      "conditions": [
+        {
+          "type": "timeRange",
+          "extra": "62140,64140"
+        }
+      ]
+    },
+    {
+      "type": "effect",
+      "name": "royalvariations:marked",
+      "value": 0.0,
+      "interactionType": "self",
+      "interactionDuration": 600,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false,
+      "conditions": [
+        {
+          "type": "timeRange",
+          "extra": "61110,61120"
+        }
+      ]
+    },
+    {
+      "type": "effect",
+      "name": "kubejs:hostility_chaos",
+      "value": 4.0,
+      "interactionType": "self",
+      "interactionDuration": 600,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false,
+      "conditions": [
+        {
+          "type": "timeRange",
+          "extra": "28100,28180"
+        }
+      ]
+    },
+    {
+      "type": "effect",
+      "name": "kubejs:hostility_chaos",
+      "value": 4.0,
+      "interactionType": "self",
+      "interactionDuration": 600,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false,
+      "conditions": [
+        {
+          "type": "timeRange",
+          "extra": "58100,58180"
+        }
+      ]
+    },
+    {
+      "type": "effect",
+      "name": "kubejs:hostility_chaos",
+      "value": 4.0,
+      "interactionType": "self",
+      "interactionDuration": 600,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false,
+      "conditions": [
+        {
+          "type": "timeRange",
+          "extra": "38100,38180"
+        }
+      ]
+    },
+    {
+      "type": "effect",
+      "name": "kubejs:hostility_chaos",
+      "value": 4.0,
+      "interactionType": "self",
+      "interactionDuration": 600,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false,
+      "conditions": [
+        {
+          "type": "timeRange",
+          "extra": "48100,48180"
+        }
+      ]
+    },
+    {
+      "type": "effect",
+      "name": "kubejs:hostility_chaos",
+      "value": 4.0,
+      "interactionType": "self",
+      "interactionDuration": 600,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false,
+      "conditions": [
+        {
+          "type": "timeRange",
+          "extra": "68100,68180"
+        }
+      ]
+    },
+    {
+      "type": "effect",
+      "name": "kubejs:hostility_chaos",
+      "value": 4.0,
+      "interactionType": "self",
+      "interactionDuration": 600,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false,
+      "conditions": [
+        {
+          "type": "timeRange",
+          "extra": "128100,128180"
+        }
+      ]
+    },
+    {
+      "type": "effect",
+      "name": "the_bumblezone:wrath_of_the_hive",
+      "value": 4.0,
+      "interactionType": "self",
+      "interactionDuration": 600,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false,
+      "conditions": [
+        {
+          "type": "timeRange",
+          "extra": "112140,114140"
+        }
+      ]
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

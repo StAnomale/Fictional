@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:armor_chest"
+  ],
+  "incompatible": [
+    "fancyenchantments:icy_burst",
+    "fancyenchantments:stacking_waves",
+    "fancyenchantments:ocean_current",
+    "majruszsenchantments:incompatibility_curse",
+    "fancyenchantments:overflow",
+    "fancyenchantments:drowning",
+    "minecraft:blast_protection",
+    "fancyenchantments:abyssal_maelstrom",
+    "fancyenchantments:frozen_heart",
+    "fancyenchantments:bubble_shield",
+    "fancyenchantments:calmer"
+  ]
+}

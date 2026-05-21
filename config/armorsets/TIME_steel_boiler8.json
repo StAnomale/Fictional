@@ -1,0 +1,37 @@
+{
+  "armorSetName": "steel_boiler",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "immersive_aircraft:steel_boiler",
+      "mustBeEmpty": false
+    },
+    {
+      "itemKey": "immersive_aircraft:gyroscope_hud",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_speed",
+      "value": 0.05,
+      "modifierUUID": "cb8879f5-b5ff-42ba-a24a-851bc9c35797",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor",
+      "value": 0.05,
+      "modifierUUID": "918cb46a-4bc9-4f49-9e96-e979cb982b7e",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

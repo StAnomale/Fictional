@@ -1,0 +1,43 @@
+{
+  "armorSetName": "invincibility_gem",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "lost_aether_content:invincibility_gem",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:magic_damage",
+      "value": 2.0,
+      "modifierUUID": "989b2dc1-39e2-484d-ba63-c57b4d9bf537",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.luck",
+      "value": 2.0,
+      "modifierUUID": "085df360-683c-4f73-b518-9fafc69442c7",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor_toughness",
+      "value": -0.3,
+      "modifierUUID": "0694dff8-7ea9-469c-91f3-d23aa932eccb",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

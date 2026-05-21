@@ -1,0 +1,35 @@
+{
+  "armorSetName": "zanite_ring",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "aether:zanite_ring",
+      "mustBeEmpty": false
+    }
+  ],
+  "mainHand": {
+    "itemKey": "aether:zanite_sword",
+    "mixAndMatch": [
+      "gunswithoutrosesadditions:zanite_gun",
+      "aether_redux:spear_of_the_blight",
+      "aether:zanite_axe",
+      "aether:zanite_pickaxe",
+      "aether:zanite_hoe",
+      "aether:zanite_shovel"
+      ],
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:critical_hit",
+      "value": 0.1,
+      "modifierUUID": "704f200e-a600-4a7b-b390-57862c80273b",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

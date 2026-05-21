@@ -1,0 +1,58 @@
+{
+  "armorSetName": "TF_fiery",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "twilightforest:fiery_helmet",
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "twilightforest:fiery_chestplate",
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "twilightforest:fiery_leggings"
+  },
+  "boots": {
+    "itemKey": "twilightforest:fiery_boots"
+  },
+  "partialBonusRequiredAmount": 2,
+  "partialSetBonuses": [
+    {
+      "type": "effect",
+      "name": "minecraft:regeneration",
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:fire_resistance",
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_damage",
+      "value": 0.1,
+      "modifierUUID": "2f498c57-d76c-40f6-812a-beec7542aa9e",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.max_health",
+      "value": 0.2,
+      "modifierUUID": "5e78bc64-3aad-4a65-a9c6-b8d01737af8b",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

@@ -1,0 +1,33 @@
+{
+  "armorSetName": "golden_pendant",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "aether:golden_pendant",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:magic_damage",
+      "value": 0.5,
+      "modifierUUID": "2355dea5-cb08-4e95-84c6-1cdf5e2427f0",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor_toughness",
+      "value": 1.0,
+      "modifierUUID": "cd87bbc6-5af6-4c64-89ad-1c815153a1b1",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

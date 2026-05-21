@@ -1,0 +1,37 @@
+{
+  "armorSetName": "scarf_of_invisibility",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "artifacts:scarf_of_invisibility",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor_toughness",
+      "value": 0.15,
+      "modifierUUID": "358ad3a0-7205-4b88-adb5-8bd1082e368b",
+      "attributeOperation": 1,
+      "interactionType": "self"
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_damage",
+      "value": 0.25,
+      "attributeOperation": 1,
+      "modifierUUID": "c2c4dc65-fb0b-4126-83f1-28228ff20dbe",
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false,
+      "conditions": [
+        {
+          "type": "timeRange",
+          "extra": "12500,23000"
+        }
+      ]
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

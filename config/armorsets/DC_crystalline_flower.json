@@ -1,0 +1,33 @@
+{
+  "armorSetName": "DC_crystalline_flower",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "the_bumblezone:crystalline_flower",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "functionalarmortrim:experience_boost",
+      "value": 0.8,
+      "modifierUUID": "9e8663ff-fcdb-4119-bfe9-e2f7f3a3bd48",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.max_health",
+      "value": 8.0,
+      "modifierUUID": "73c9b98d-50ce-4cd0-b56c-b9f10207d404",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

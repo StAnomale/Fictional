@@ -1,0 +1,23 @@
+{
+  "armorSetName": "swet_cape",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "aether:swet_cape",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:healing_power",
+      "value": 0.15,
+      "modifierUUID": "8b4288f0-cf04-4c12-bf35-be067264b41f",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

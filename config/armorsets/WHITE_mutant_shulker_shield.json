@@ -1,0 +1,33 @@
+{
+  "armorSetName": "mutant_shulker_shield",
+  "performanceMode": true,
+  "offHand": {
+    "itemKey": "mutantmore:mutant_shulker_shield",
+    "mustBeEmpty": false
+  },
+  "mainHand": {
+    "itemKey": "mutantmonsters:creeper_shard",
+    "mixAndMatch": [
+      "mutantmore:adaptive_crossbow",
+      "mutantmore:mutant_jungle_zombie_arm",
+      "mutantmore:husk_hammer",
+      "mutantmore:withered_scimitar",
+      "mutantmore:hogfist_gauntlet",
+      "mutantmore:hoglance",
+      "mutantmonsters:hulk_hammer",
+      "mutantmonsters:endersoul_hand"
+      ],
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor_toughness",
+      "value": 0.3,
+      "modifierUUID": "6b11c890-f7cd-4a72-a59e-70ed9b51f29d",
+      "attributeOperation": 1,
+      "interactionType": "self"
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

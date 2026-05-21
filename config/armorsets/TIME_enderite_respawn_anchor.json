@@ -1,0 +1,29 @@
+{
+  "armorSetName": "enderite_respawn_anchor",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "enderitemod:enderite_respawn_anchor",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor_toughness",
+      "value": 0.3,
+      "modifierUUID": "0c0be381-1ab1-4240-8faf-86d33847ff52",
+      "attributeOperation": 1,
+      "interactionType": "self"
+    },
+    {
+      "type": "attribute",
+      "name": "functionalarmortrim:experience_boost",
+      "value": 0.3,
+      "modifierUUID": "5d356463-7981-4290-ba3a-8522d1790199",
+      "attributeOperation": 1,
+      "interactionType": "self"
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

@@ -1,0 +1,33 @@
+{
+  "armorSetName": "flaming_gemstone",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "lost_aether_content:flaming_gemstone",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.max_health",
+      "value": 4.0,
+      "modifierUUID": "3307a481-6a50-4813-90ea-ce0cb3eef44c",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_damage",
+      "value": 0.15,
+      "modifierUUID": "7939ec80-14a0-471c-85d9-800879f764de",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

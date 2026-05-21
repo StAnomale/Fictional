@@ -1,0 +1,39 @@
+{
+  "armorSetName": "vampiric_glove",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "artifacts:vampiric_glove",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:healing_power",
+      "value": -0.25,
+      "modifierUUID": "c37d7e72-fb74-4a22-9021-6ff806c5b4be",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_damage",
+      "value": 0.15,
+      "attributeOperation": 1,
+      "modifierUUID": "fa34b87f-fb2c-49ca-9499-369fe5a97c67",
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false,
+      "conditions": [
+        {
+          "type": "timeRange",
+          "extra": "12500,23000"
+        }
+      ]
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

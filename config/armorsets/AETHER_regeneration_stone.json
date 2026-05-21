@@ -1,0 +1,33 @@
+{
+  "armorSetName": "regeneration_stone",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "aether:regeneration_stone",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.max_health",
+      "value": 8.0,
+      "modifierUUID": "262aac89-9cee-443b-9fb8-073686105b38",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "functionalarmortrim:experience_boost",
+      "value": 0.25,
+      "modifierUUID": "98dc6f5b-552a-4e9a-8756-387318a179dc",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

@@ -1,0 +1,36 @@
+{
+  "armorSetName": "END_creeper_minion_tracker",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "mutantmonsters:creeper_minion_tracker",
+      "mustBeEmpty": false
+    }
+  ],
+  "mainHand": {
+    "itemKey": "mutantmonsters:creeper_shard",
+    "mixAndMatch": [
+      "mutantmore:mutant_jungle_zombie_arm",
+      "mutantmore:husk_hammer",
+      "mutantmore:withered_scimitar",
+      "mutantmore:hogfist_gauntlet",
+      "mutantmore:hoglance",
+      "mutantmonsters:hulk_hammer",
+      "mutantmonsters:endersoul_hand"
+      ],
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_damage",
+      "modifierUUID": "ca55ad42-ea19-43df-9bfb-33cc5bc2aeb4",
+      "value": 0.2,
+      "interactionType": "self",
+      "attributeOperation": 1,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

@@ -2,3 +2,17 @@
 !/.gitignore
 !/kubejs/
 !/kubejs/**
+!/mods/
+!/mods/**
+!/config/
+!/config/**
+!/resourcepacks/
+!/resourcepacks/**
+!/PCL/
+!/PCL/**
+!/defaultconfigs/
+!/defaultconfigs/**
+!/CustomSkinLoader/
+!/CustomSkinLoader/**
+!/TrashSlotSaveState.json
+!/options.txt

@@ -1,0 +1,33 @@
+{
+  "armorSetName": "rabbit_foot",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "minecraft:rabbit_foot",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.movement_speed",
+      "value": 0.15,
+      "modifierUUID": "f3240b73-b073-493e-9407-a585687bb37f",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.luck",
+      "value": 1.0,
+      "modifierUUID": "b87a689e-479f-49e0-b436-69d4ffa5fda2",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

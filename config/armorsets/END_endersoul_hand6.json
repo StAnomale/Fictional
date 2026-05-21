@@ -1,0 +1,27 @@
+{
+  "armorSetName": "END_endersoul_hand",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "mutantmonsters:endersoul_hand",
+      "mustBeEmpty": false
+    }
+  ],
+  "head": {
+    "itemKey": "mutantmore:hog_helm",
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor_toughness",
+      "modifierUUID": "1678bfc8-c567-43ce-8ff1-1bc1755eaa6f",
+      "value": 0.1,
+      "interactionType": "self",
+      "attributeOperation": 1,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

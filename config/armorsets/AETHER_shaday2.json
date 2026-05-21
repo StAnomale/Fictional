@@ -1,0 +1,56 @@
+{
+  "armorSetName": "shaday",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "aethermobs:shaday_helmet",
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "aethermobs:shaday_chestplate",
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "aethermobs:shaday_leggings",
+    "mustBeEmpty": false
+  },
+  "partialBonusRequiredAmount": 1,
+  "partialSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor_toughness",
+      "value": -0.2,
+      "modifierUUID": "f0e79a51-789a-43c2-9465-c31792a0f542",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "conditions": [
+        {
+          "type": "timeRange",
+          "extra": "0,12500"
+        }
+      ],
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.movement_speed",
+      "value": 0.2,
+      "modifierUUID": "24100b5e-b79f-4d92-b99e-95d04501c6d8",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "minecraft:hero_of_the_village",
+      "interactionType": "immunity",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

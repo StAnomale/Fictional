@@ -1,0 +1,37 @@
+{
+  "armorSetName": "sun_core",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "deep_aether:sun_core",
+      "mustBeEmpty": false
+    },
+    {
+      "itemKey": "aether_redux:solar_emblem",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:healing_power",
+      "value": 0.05,
+      "modifierUUID": "6cdf1d9b-2f95-4197-b78d-8f30faa0908b",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "obscure_api:critical_damage",
+      "value": 0.05,
+      "modifierUUID": "aeffc73e-8da6-442e-8bc4-b86a355bd925",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

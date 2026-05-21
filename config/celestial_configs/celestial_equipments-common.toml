@@ -1,0 +1,188 @@
+
+[arrow]
+	#Abyss Arrow: Damage factor
+	#Range: 0.01 ~ 100.0
+	abyssArrowDamageFactor = 0.5
+	#Black Flame Arrow: Burn time
+	#Range: 20 ~ 1000
+	blackFlameArrowBurnTime = 60
+	#Virtual Gold Arrow: Base damage factor
+	#Range: 0.01 ~ 10.0
+	virtualGoldArrowBaseDamageFactor = 0.05
+	#Virtual Gold Arrow: Damage factor when burning
+	#Range: 0.01 ~ 100.0
+	virtualGoldArrowDamageFactorInFire = 0.1
+
+[bow]
+	#Bright Prophecy: Damage that can be increased by each light level
+	#Range: 0.01 ~ 10.0
+	brightProphecyDamageBonus = 0.02
+	#Dark Crow: Increase the attack every 1 point below the maximum light level
+	#Range: 0.01 ~ 10.0
+	darkCrowDamageBonus = 0.02
+	#Dark Crow: Movement speed bonus
+	#Range: 0.01 ~ 10.0
+	darkCrowSpeedBonus = 0.05
+	#Elven Bow: Increased attack when the target is not wearing armor
+	#Range: 0.01 ~ 10.0
+	elvenBowDamageBonus = 0.07
+	#Emerald Wind: Luck bonus
+	#Range: 1.0 ~ 100.0
+	emeraldWindLuckBonus = 2.0
+	#Frozen Invasion: The value of time the target is frozen in
+	#Range: 10 ~ 1000
+	frozenInvasionFrozenTime = 60
+	#Sun Flame: The burn time the target is stuck into
+	#Range: 1 ~ 1000
+	sunFlameBurnTime = 60
+	#Sun Flame: Attack the target in the fire and increase the attack
+	#Range: 0.01 ~ 10.0
+	sunFlameDamageBonus = 0.05
+
+[crossbow]
+	#Glintstone Resonance: Extra penetration level
+	#Range: 0 ~ 99
+	glintstoneResonanceExtraPenetration = 4
+	#Sakura Bloom: Split Arrow's damage factor
+	#Range: 0.01 ~ 10.0
+	sakuraBloomDamageGrowth = 0.05
+	#The extent to which base damage affects sonic boom damage
+	#Range: 0.01 ~ 1000.0
+	sonicCrossbowSonicDamageFactor = 1.6
+	#Each level of the Piercing enchantment increases armor penetration
+	#Range: 0.01 ~ 10.0
+	virtualGoldCrossbowPenetrationBonus = 0.1
+
+[digger]
+	#Throw cooldown
+	#Range: > 0
+	enderThrowingAxeCooldown = 100
+	#Increased throw damage per level
+	#Range: 0.01 ~ 1000.0
+	enderThrowingAxeThrowDamageFactor = 0.05
+	#Use cooldown
+	#Range: > 0
+	fashionScissorsCooldown = 100
+
+[melee]
+	#Abyss Whisper: Cooldown time
+	#Range: 1 ~ 1000000
+	abyssWhisperCooldownTime = 100
+	#Abyss Whisper: Additional damage multiplier
+	#Range: 0.01 ~ 10.0
+	abyssWhisperDamageFactor = 0.05
+	#Avarice Blade: Extra experience drop by this value
+	#Range: 0.01 ~ 10.0
+	avariceBladeExpDropBonus = 0.04
+	#Blanking Dagger: Increase attack damage when attacking from behind
+	#Range: 0.01 ~ 10.0
+	blankingDaggerDamageBonus = 0.1
+	#Blood Binding: The health recovered when killing the target
+	#Range: 0.0 ~ 5.0
+	bloodBindingHealFactor = 0.15
+	#Brilliant Glory: The health recovered when killing the target
+	#Range: 0.01 ~ 10.0
+	brilliantGloryCritDamageBonus = 0.2
+	#Brilliant Glory: Improve the attack according to the positive effect
+	#Range: 0.0 ~ 10.0
+	brilliantGloryEffectDamageBonus = 0.05
+	#Crystal Sword: How much chance does it have to increase critical hits and critical damage when attacking
+	#Range: 0.01 ~ 1.0
+	crystalSwordEffectChance = 0.2
+	#Giant Skeleton: Increase the attack according to the maximum life of the target
+	#Range: 0.0 ~ 1.0
+	giantSkeletonDamageFactor = 0.005
+	#Giant Skeleton: Entity reach bonus
+	#Range: 1 ~ 100
+	giantSkeletonEntityReachBonus = 2
+	#Heaven Gift: Sweep reach bonus
+	#Range: 0.01 ~ 10.0
+	heavenGiftSweepReachBonus = 0.5
+	#Jazz Dagger: Single bonus when hitting combos
+	#Range: 0.01 ~ 10.0
+	jazzDaggerDamageBonus = 0.02
+	#Jazz Dagger: Luck bonus
+	#Range: 1.0 ~ 100.0
+	jazzDaggerLuckBonus = 1.0
+	#Jazz Dagger: Max damage bonus
+	#Range: 0.01 ~ 10.0
+	jazzDaggerMaxDamageBonus = 0.2
+	#Shady Deap: Increase the attack on targets without armor
+	#Range: 0.01 ~ 10.0
+	shadyDeapDamageBonus = 0.07
+	#Terra Broadsword: Cooldown time
+	#Range: 1 ~ 1000000
+	terraBroadswordCooldownTime = 100
+	#Undead Sword: Increase the attack according to the loss of life
+	#Range: 0.01 ~ 10.0
+	undeadSwordDamageBonus = 0.05
+
+[misc]
+	#The chance of gaining experience when armor takes damage
+	#Range: 0.01 ~ 1.0
+	armorExpGetChance = 0.5
+	#Equipment max exp
+	#Range: > 0
+	equipmentMaxExp = 500
+	#The value gained when armor gains experience
+	#Range: > 0
+	equipmentMaxLevel = 1
+	#The durability value restored for equipment
+	#Range: 0 ~ 200000
+	repairKitRepairDurability = 1200
+
+[trident]
+	#Abyssal Disaster: Abyssal damage factor
+	#Range: 0.01 ~ 1000.0
+	abyssalDisasterAbyssalDamageFactor = 1.2
+	#Abyssal Disaster: Abyssal damage growth per level
+	#Range: 0.01 ~ 1000.0
+	abyssalDisasterAbyssalDamageGrowth = 0.1
+	#Poseidon Wrath: Thunder damage factor
+	#Range: 0.01 ~ 1000.0
+	poseidonWrathThunderDamageFactor = 1.2
+	#Poseidon Wrath: Thunder damage growth per level
+	#Range: 0.01 ~ 1000.0
+	poseidonWrathThunderDamageGrowth = 0.1
+
+[itemToggles]
+	undead_sword = true
+	blanking_dagger = true
+	abyss_whisper = true
+	brilliant_glory = true
+	shady_deap = true
+	giant_skeleton = true
+	blood_binding = true
+	crystal_sword = true
+	heaven_gift = true
+	avarice_blade = true
+	terra_broadsword = true
+	jazz_dagger = true
+	elven_bow = true
+	sun_flame = true
+	bright_prophecy = true
+	dark_crow = true
+	emerald_wind = true
+	polar_shadow = true
+	heaven_bow = true
+	frozen_invasion = true
+	sakura_bloom = true
+	virtual_gold_crossbow = true
+	sonic_crossbow = true
+	glintstone_resonance = true
+	ocean_tide = true
+	poseidon_wrath = true
+	abyssal_disaster = true
+	gravediggers_helper = true
+	radiant_treasure = true
+	ender_throwing_axe = true
+	fashion_scissors = true
+	training_arrow = true
+	ocean_arrow = true
+	fragment_arrow = true
+	abyss_arrow = true
+	black_flame_arrow = true
+	ender_arrow = true
+	virtual_gold_arrow = true
+	guardian_arrow = true
+

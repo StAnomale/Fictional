@@ -1,0 +1,28 @@
+{
+  "armorSetName": "floaty_scarf",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "deep_aether:floaty_scarf",
+      "mustBeEmpty": false
+    },
+    {
+      "itemKey": "deep_aether:cloud_cape",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:magic_damage",
+      "value": 0.5,
+      "modifierUUID": "b1133219-8408-4a78-b358-1949705b9810",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  
+  "hideGeneratedTooltip": true
+}

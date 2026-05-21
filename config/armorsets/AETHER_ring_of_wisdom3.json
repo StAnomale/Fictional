@@ -1,0 +1,37 @@
+{
+  "armorSetName": "ring_of_wisdom",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "aether_redux:ring_of_wisdom",
+      "mustBeEmpty": false
+    },
+    {
+      "itemKey": "aether_redux:grand_victory_medal",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "gunswithoutroses:gwr.damage_total",
+      "value": 0.1,
+      "modifierUUID": "8c0c0dd8-3843-4756-98aa-8ba873ae87b0",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.luck",
+      "value": 1.0,
+      "modifierUUID": "c9cf6572-1b16-483e-834b-1935ce983a8c",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

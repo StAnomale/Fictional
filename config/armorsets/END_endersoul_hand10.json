@@ -1,0 +1,27 @@
+{
+  "armorSetName": "END_endersoul_hand",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "mutantmonsters:endersoul_hand",
+      "mustBeEmpty": false
+    }
+  ],
+  "boots": {
+    "itemKey": "mutantmore:mutant_wither_skeleton_boots",
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor_toughness",
+      "modifierUUID": "0bda1a38-5fea-48d6-9b28-ee294616ca3d",
+      "value": 0.1,
+      "interactionType": "self",
+      "attributeOperation": 1,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

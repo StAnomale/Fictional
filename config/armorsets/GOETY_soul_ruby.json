@@ -1,0 +1,45 @@
+{
+  "armorSetName": "soul_ruby",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "goety:soul_ruby",
+      "mixAndMatch": [
+      ],
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "goety:soul_discount",
+      "value": 0.1,
+      "modifierUUID": "e706eb5b-8469-4247-8640-5a06f47c99a4",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "goety:cooldown_discount",
+      "value": 0.1,
+      "modifierUUID": "223f6199-f5d2-43d1-bfc9-aedf949101c1",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.max_health",
+      "value": 4.0,
+      "modifierUUID": "9cc0f39c-9bd5-4f35-85dc-8bea9c4c7dec",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

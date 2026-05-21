@@ -1,0 +1,30 @@
+{
+  "armorSetName": "pickaxe_heater",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "artifacts:pickaxe_heater",
+      "mustBeEmpty": false
+    },
+    {
+      "itemKey": "immersive_aircraft:steel_boiler",
+      "mixAndMatch": [
+      "cataclysm:emp"
+    ],
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "forge:entity_reach",
+      "value": 0.15,
+      "modifierUUID": "2ac7060d-32e3-42c2-9d0f-ea84bcbc310e",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

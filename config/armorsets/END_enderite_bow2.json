@@ -1,0 +1,21 @@
+{
+  "armorSetName": "END_enderite_bow",
+  "performanceMode": true,
+  "mainHand": {
+    "itemKey": "enderitemod:enderite_bow",
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:magic_damage",
+      "value": 0.4,
+      "modifierUUID": "c92685e7-5f52-4c50-90cc-4d82f2345147",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

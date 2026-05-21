@@ -1,0 +1,29 @@
+{
+  "armorSetName": "dark_sword",
+  "performanceMode": true,
+  "mainHand": {
+    "itemKey": "goety:philosophers_mace",
+    "mixAndMatch": [
+      ],
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "goety:void_potency",
+      "value": 2.0,
+      "modifierUUID": "cdac1f2e-77da-451c-943a-c1649ee80c0f",
+      "attributeOperation": 0,
+      "interactionType": "self"
+    },
+    {
+      "type": "attribute",
+      "name": "obscure_api:penetration",
+      "value": 0.2,
+      "modifierUUID": "c0f47193-7957-4450-8f85-4a25fb99b648",
+      "attributeOperation": 0,
+      "interactionType": "self"
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

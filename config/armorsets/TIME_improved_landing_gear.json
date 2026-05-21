@@ -1,0 +1,31 @@
+{
+  "armorSetName": "improved_landing_gear",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "immersive_aircraft:improved_landing_gear",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor",
+      "value": 2.0,
+      "modifierUUID": "82a4696d-274b-47bc-8b59-7e7ef7dbd60c",
+      "attributeOperation": 0,
+      "interactionType": "self"
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.knockback_resistance",
+      "value": 0.2,
+      "modifierUUID": "e622c57d-4fd7-4c7b-b34b-6c9bddf581f3",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

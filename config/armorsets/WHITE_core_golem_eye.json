@@ -1,0 +1,39 @@
+{
+  "armorSetName": "core_golem_eye",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "ba_bt:core_golem_eye",
+      "mixAndMatch": [
+      "ba_bt:end_golem_eye"
+      ],
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.max_health",
+      "value": 4.0,
+      "modifierUUID": "0f88fc75-d3da-4a89-a997-0a9187f9d370",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "obscure_api:critical_damage",
+      "value": 0.3,
+      "modifierUUID": "146aa489-efd0-43ad-ae8d-0446f7ae74e8",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "conditions": [
+        {
+          "type": "inLava"
+        }
+      ]
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

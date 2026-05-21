@@ -1,0 +1,27 @@
+{
+  "armorSetName": "END_spiritual_crown6",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "royalvariations:spiritual_crown",
+      "mustBeEmpty": false
+    }
+  ],
+  "boots": {
+    "itemKey": "royalvariations:royal_knight_boots",
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor",
+      "modifierUUID": "9f09f9fb-14b4-46ec-8bf8-7a88dd77c5ee",
+      "value": 0.1,
+      "interactionType": "self",
+      "attributeOperation": 1,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

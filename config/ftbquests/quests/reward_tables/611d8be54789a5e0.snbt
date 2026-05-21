@@ -1,0 +1,177 @@
+{
+	icon: "supplementaries:present_black"
+	id: "611D8BE54789A5E0"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{
+			type: "xp"
+			weight: 4.0f
+			xp: 100
+		}
+		{ count: 2, item: "minecraft:golden_apple", weight: 2.0f }
+		{ item: "minecraft:enchanted_golden_apple" }
+		{ item: "minecraft:netherite_scrap" }
+		{ item: "minecraft:diamond" }
+		{ item: "xercamusic:god" }
+		{ item: "xercamusic:guitar" }
+		{ item: "xercamusic:redstone_guitar" }
+		{ item: "xercamusic:xylophone" }
+		{ item: "xercamusic:flute" }
+		{ item: "xercamusic:piano" }
+		{ count: 2, item: "supplementaries:bomb_blue" }
+		{ count: 2, item: "trials:trial_key" }
+		{ item: "trials:trial_key_ominous" }
+		{ count: 2, item: "minecraft:ender_pearl", weight: 4.0f }
+		{ item: "royalvariations:spiritual_crown_shard" }
+		{ item: "royalvariations:royal_armor_fragments", random_bonus: 2 }
+		{ item: "enderitemod:enderite_scrap" }
+		{ item: "twilightforest:charm_of_keeping_1" }
+		{ item: "twilightforest:charm_of_life_1" }
+		{ count: 3, item: "kubejs:golden_feather" }
+		{ count: 2, item: "kubejs:enchanted_golden_feather" }
+		{ item: "artifacts:whoopee_cushion" }
+		{ item: "royalvariations:royal_ender_pearl" }
+		{
+			item: {
+				Count: 1
+				id: "mutantmonsters:creeper_shard"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "minecraft:ghast_tear" }
+		{ count: 2, item: "minecraft:blaze_rod" }
+		{ item: "royalvariations:royal_bone" }
+		{ count: 3, item: "twilightforest:steeleaf_ingot", weight: 2.0f }
+		{ count: 3, item: "twilightforest:liveroot", weight: 2.0f }
+		{ item: "royalvariations:royal_gunpowder" }
+		{ count: 4, item: "cataclysm:black_steel_ingot", weight: 2.0f }
+		{ count: 4, item: "minecraft:iron_ingot", weight: 4.0f }
+		{ count: 4, item: "cataclysm:lacrima" }
+		{ count: 2, item: "minecraft:nautilus_shell" }
+		{ count: 2, item: "minecraft:echo_shard" }
+		{ count: 4, item: "supplementaries:bomb", weight: 2.0f }
+		{ item: "minecraft:totem_of_undying" }
+		{
+			type: "xp"
+			weight: 4.0f
+			xp: 500
+		}
+		{
+			type: "xp"
+			weight: 2.0f
+			xp: 1000
+		}
+		{ item: "trials:ominous_bottle" }
+		{ count: 60, item: "minecraft:amethyst_shard", weight: 4.0f }
+		{ item: "waystones:waystone" }
+		{ count: 4, item: "minecraft:gold_ingot", weight: 2.0f }
+		{ item: "obscure_api:astral_dust" }
+		{ count: 2, item: "better_minoshroomtaur:maze_mushroom" }
+		{ item: "queen_bee:antenna" }
+		{ count: 4, item: "the_bumblezone:bee_bread" }
+		{ item: "the_bumblezone:crystalline_flower" }
+		{ count: 2, item: "cataclysm:amethyst_crab_meat" }
+		{ item: "the_bumblezone:buzzing_briefcase" }
+		{ item: "the_bumblezone:royal_jelly_bottle" }
+		{ item: "trials:ominous_bottle" }
+		{ count: 4, item: "minecraft:rabbit_hide" }
+		{ count: 4, item: "minecraft:rabbit_foot" }
+		{ count: 4, item: "minecraft:slime_ball" }
+		{ item: "obscure_api:astral_dust" }
+		{ count: 4, item: "the_bumblezone:honey_crystal_shards" }
+		{ item: "quark:diamond_heart" }
+		{ count: 2, item: "cataclysm:dying_ember" }
+		{ item: "twilightforest:ore_map" }
+		{
+			item: {
+				Count: 1
+				id: "twilightforest:ore_magnet"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ count: 4, item: "minecraft:ender_pearl" }
+		{ count: 10, item: "minecraft:gunpowder" }
+		{
+			item: {
+				Count: 1
+				id: "minecraft:splash_potion"
+				tag: {
+					Potion: "mutantmonsters:chemical_x"
+				}
+			}
+		}
+		{ item: "masquerader_mod:invitation" }
+		{ item: "quark:crate" }
+		{ count: 2, item: "waystones:return_scroll" }
+		{ count: 2, item: "waystones:warp_scroll" }
+		{ item: "friendsandfoes:totem_of_freezing" }
+		{ item: "friendsandfoes:totem_of_illusion" }
+		{ item: "masquerader_mod:invitation" }
+		{ count: 4, item: "minecraft:cactus", weight: 5.0f }
+		{ count: 4, item: "minecraft:dead_bush", weight: 5.0f }
+		{ count: 16, item: "minecraft:bone", weight: 4.0f }
+		{ count: 16, item: "radiation_zone_reborn:radiated_bone", weight: 4.0f }
+		{ count: 4, item: "aether:ambrosium_shard", weight: 2.0f }
+		{ item: "aether_redux:raw_gravitite" }
+		{ count: 4, item: "radiation_zone_reborn:radiance_crystal_shard", weight: 4.0f }
+		{ item: "bosses_of_mass_destruction:soul_star" }
+		{ item: "quark:soul_bead" }
+		{
+			item: {
+				Count: 1
+				id: "wishing_fountain:wf_biome_map"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "wishing_fountain:wf_structure_map"
+				tag: { }
+			}
+		}
+		{ count: 16, item: "radiation_zone_reborn:dust_ball", weight: 4.0f }
+		{ item: "aether_redux:cockatrice_feather" }
+		{ count: 2, item: "aether_redux:mykapod_shell_chunk" }
+		{ count: 8, item: "aether:golden_amber" }
+		{
+			item: {
+				Count: 1
+				id: "wishing_fountain:wf_structure_map"
+				tag: {
+					target: "ba_bt:land_tower"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "wishing_fountain:wf_structure_map"
+				tag: {
+					target: "ba_bt:ocean_tower"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "wishing_fountain:wf_structure_map"
+				tag: {
+					target: "ba_bt:core_tower"
+				}
+			}
+		}
+		{ item: "bosses_of_mass_destruction:soul_star" }
+		{ item: "twilightforest:hollow_oak_sapling" }
+		{ item: "twilightforest:sorting_sapling" }
+		{ item: "twilightforest:mining_sapling" }
+		{ item: "twilightforest:time_sapling" }
+		{ item: "twilightforest:transformation_sapling" }
+	]
+	title: "礼物盒"
+}

@@ -1,0 +1,79 @@
+
+["噩梦"]
+	#“”噩梦基座“给玩家的罪孽数量
+	#Range: 0 ~ 7
+	nig_ = 5
+	#Nightecora病毒的额外生命值惩罚，单位百分比
+	#Range: 0 ~ 100
+	Nightecora_ = 10
+	#“欺骗”恢复的生命值，单位百分比
+	#Range: 0 ~ 100
+	nightmare_base_redemption_deception = 100
+	#“欺骗”恢复的生命值，单位秒
+	#Range: 0 ~ 100
+	nightmare_base_redemption_deception_time = 7
+	#危险的头骨造成的额外伤害，“2”是两倍
+	#Range: 0.0 ~ 9999.0
+	nightmare_base_fool_bone = 1.25
+	#疯狂灵药的最大属性加成，单位百分比
+	#Range: 0 ~ 99999
+	nightmare_base_insight_drug = 80
+	#疯狂灵药的单物品计算的属性衰败，单位百分比
+	#Range: 0 ~ 99999
+	nightmare_base_insight_drug_2 = 8
+	#癫狂之石的杀死生物后获得的伤害加成，单位百分比
+	#Range: 0 ~ 99999
+	nightmare_base_insight_insane = 30
+
+	["噩梦"."其他"]
+		#开局自动佩戴噩梦基座
+		eqNightmareBase = false
+
+	["噩梦"."获取"]
+		#疯狂灵药获取时要求的药水数量
+		#Range: 1 ~ 100
+		give_nightmare_base_insight_drug = 9
+		#神血祖符需要的击杀数
+		#Range: > 1
+		blood_god_kill = 500
+		#神血祖符需要的治疗量
+		#Range: > 1
+		blood_god_heal = 5000
+		#神血祖符需要的造成伤害
+		#Range: > 1
+		blood_god_damage = 10000
+
+	["噩梦"."邪念之窥眸"]
+		#近视效果开关
+		nightmare_base_black_eye = true
+
+	["噩梦"."死兆方尖碑"]
+		#满血的受伤伤害
+		#Range: 1.0 ~ 999.0
+		nightmare_base_stone = 5.0
+
+	["噩梦"."愚者之危"]
+		#最大处罚值，0.5就是50%
+		#Range: 0.0 ~ 1.0
+		nightmare_base_fool = 0.5
+
+	["噩梦"."噩梦洞悉者"]
+		#附魔的减少值
+		#Range: 0 ~ 1000
+		nightmare_base_insight = 2
+
+	["噩梦"."“救赎”"]
+		#属性衰败比例
+		#Range: 0 ~ 100
+		nightmare_base_redemption = 15
+
+	["噩梦"."颠倒之物"]
+		#每次死亡降低的最低值
+		#Range: 0 ~ 100
+		nightmare_base_reversal = 4
+
+	["噩梦"."噩梦之起始"]
+		#护甲值的处罚
+		#Range: 0 ~ 100
+		nightmare_base_start = 100
+

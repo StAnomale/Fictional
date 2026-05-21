@@ -1,0 +1,30 @@
+{
+  "armorSetName": "dagger",
+  "performanceMode": true,
+  "offHand": {
+    "itemKey": "goety:fanged_dagger",
+    "mixAndMatch": [
+      "goety:hungry_dagger"
+      ],
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "goety:void_potency",
+      "value": 1.0,
+      "modifierUUID": "55972c61-b786-4339-b2d5-c92ca1862d4d",
+      "attributeOperation": 0,
+      "interactionType": "self"
+    },
+    {
+      "type": "attribute",
+      "name": "obscure_api:magic_damage",
+      "value": 1.0,
+      "modifierUUID": "de75dbd8-c679-4e8b-87a0-c94f3e5c8bbc",
+      "attributeOperation": 0,
+      "interactionType": "self"
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

@@ -1,0 +1,27 @@
+{
+  "armorSetName": "hook_bell",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "goety:hook_bell",
+      "mustBeEmpty": false
+    },
+    {
+      "itemKey": "masquerader_mod:ravager_mask",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:critical_damage",
+      "value": 0.1,
+      "modifierUUID": "6526e377-53af-4303-8f4e-bf06fe2498c1",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

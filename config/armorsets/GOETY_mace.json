@@ -1,0 +1,35 @@
+{
+  "armorSetName": "mace",
+  "performanceMode": true,
+  "mainHand": {
+    "itemKey": "goetyawaken:mace",
+    "mixAndMatch": [
+      "goety:great_hammer",
+      "goety:bonehead_hammer"
+      ],
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:critical_hit",
+      "value": 0.2,
+      "modifierUUID": "95649fcf-4cd0-4d2b-8a72-b684c6b8d340",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "goety:void_potency",
+      "value": 1.0,
+      "modifierUUID": "9728f2df-9e8c-4b4b-8ce2-b24af1806a60",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

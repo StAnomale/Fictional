@@ -1,0 +1,27 @@
+{
+  "armorSetName": "END_endersoul_hand",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "mutantmonsters:endersoul_hand",
+      "mustBeEmpty": false
+    }
+  ],
+  "head": {
+    "itemKey": "mutantmore:mutant_wither_skeleton_skull",
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor_toughness",
+      "modifierUUID": "a48b7f3a-012f-46fd-803e-dea50b731e48",
+      "value": 0.1,
+      "interactionType": "self",
+      "attributeOperation": 1,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

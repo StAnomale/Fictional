@@ -1,0 +1,32 @@
+{
+  "armorSetName": "ring_of_grudged",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "cataclysm:ring_of_grudged",
+      "mixAndMatch": [
+      ],
+      "mustBeEmpty": false
+    }
+  ],
+  "legs": {
+    "itemKey": "cataclysm:cursium_leggings",
+    "mixAndMatch": [
+      "cataclysm:ignitium_leggings"
+    ],
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:critical_damage",
+      "value": 0.1,
+      "modifierUUID": "b34c239e-4f3d-4ade-b73e-d23c0c2c8f71",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

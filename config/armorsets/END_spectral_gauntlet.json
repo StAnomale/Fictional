@@ -1,0 +1,33 @@
+{
+  "armorSetName": "END_spectral_gauntlet",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "royalvariations:spectral_gauntlet",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:magic_damage",
+      "value": 2.0,
+      "modifierUUID": "ff0b7253-655f-4b07-82e7-7c706e32a583",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor",
+      "value": -0.3,
+      "modifierUUID": "ec16ffc5-540b-4b06-b091-b1afc66a3ef5",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

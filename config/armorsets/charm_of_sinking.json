@@ -1,0 +1,35 @@
+{
+  "armorSetName": "charm_of_sinking",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "artifacts:charm_of_sinking",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor_toughness",
+      "value": 0.1,
+      "modifierUUID": "ad967d50-9caa-4cf2-aee1-89963b016d2c",
+      "attributeOperation": 1,
+      "interactionType": "self"
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:slow_falling",
+      "value": 0,
+      "attributeOperation": 1,
+      "interactionDuration": 300,
+      "interactionType": "self",
+      "conditions": [
+        {
+          "type": "timeRange",
+          "extra": "0,12500"
+        }
+      ]
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

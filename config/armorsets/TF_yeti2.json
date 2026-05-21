@@ -1,0 +1,39 @@
+{
+  "armorSetName": "TF_yeti2",
+  "performanceMode": true,
+  "head": {
+        "itemKey": "twilightforest:yeti_helmet"
+  },
+  "chest": {
+      "itemKey": "twilightforest:yeti_chestplate"
+  },
+  "legs": {
+      "itemKey": "twilightforest:yeti_leggings"
+  },
+  "boots": {
+        "itemKey": "twilightforest:yeti_boots"
+  },
+  "partialBonusRequiredAmount": 2,
+  "partialSetBonuses": [
+    {
+      "type": "effect",
+      "name": "minecraft:resistance",
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor_toughness",
+      "value": 0.2,
+      "modifierUUID": "d8b77fb8-ce41-4f4e-8bdc-7a8a7bf92903",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

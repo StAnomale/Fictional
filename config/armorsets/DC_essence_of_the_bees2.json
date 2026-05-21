@@ -1,0 +1,34 @@
+{
+  "armorSetName": "DC_essence_of_the_bees",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "the_bumblezone:essence_of_the_bees",
+      "mustBeEmpty": false
+    }
+  ],
+  "offHand": {
+    "itemKey": "the_bumblezone:essence_raging",
+    "mixAndMatch": [
+      "the_bumblezone:essence_knowing",
+      "the_bumblezone:essence_life",
+      "the_bumblezone:essence_radiance",
+      "the_bumblezone:essence_continuity",
+      "the_bumblezone:essence_calming"
+    ],
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:critical_damage",
+      "value": 0.4,
+      "modifierUUID": "4c89029d-2600-41c8-9335-1da2fcdce078",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

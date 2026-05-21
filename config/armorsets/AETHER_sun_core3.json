@@ -1,0 +1,62 @@
+{
+  "armorSetName": "sun_core",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "deep_aether:sun_core",
+      "mustBeEmpty": false
+    },
+    {
+      "itemKey": "deep_aether:slider_eye",
+      "mustBeEmpty": false
+    },
+    {
+      "itemKey": "aether_redux:solar_emblem",
+      "mustBeEmpty": false
+    },
+    {
+      "itemKey": "lost_aether_content:flaming_gemstone",
+      "mustBeEmpty": false
+    },
+    {
+      "itemKey": "aether:obsidian_gloves",
+      "mustBeEmpty": false
+    },
+    {
+      "itemKey": "aether:phoenix_gloves",
+      "mustBeEmpty": false
+    },
+    {
+      "itemKey": "lost_aether_content:phoenix_cape",
+      "mustBeEmpty": false
+    }
+  ],
+  "partialBonusRequiredAmount": 3,
+  "partialSetBonuses": [
+    {
+      "type": "effect",
+      "name": "kubejs:ice",
+      "interactionType": "immunity",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "effect",
+      "name": "kubejs:sun",
+      "value": 0.0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "kubejs:ice",
+      "interactionType": "immunity",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

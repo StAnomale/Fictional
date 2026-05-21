@@ -1,0 +1,27 @@
+{
+  "armorSetName": "heart_of_the_sea2",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "minecraft:heart_of_the_sea",
+      "mustBeEmpty": false
+    }
+  ],
+  "mainHand": {
+    "itemKey": "minecraft:trident",
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_damage",
+      "value": 0.2,
+      "modifierUUID": "f5520733-554b-4cc1-8d0f-e1e51eef9493",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

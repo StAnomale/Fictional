@@ -1,0 +1,3 @@
+#Is it only automatically adding modifier when first equipping
+checkFistTime = false
+

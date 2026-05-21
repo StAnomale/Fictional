@@ -1,0 +1,43 @@
+{
+  "armorSetName": "tyrant_skin",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "radiation_zone_reborn:tyrant_skin",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "goety:geomancy_potency",
+      "value": 1.0,
+      "modifierUUID": "1cfd31e6-f1c7-42d2-9aaa-b2b6305adcba",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor_toughness",
+      "value": 0.2,
+      "modifierUUID": "0695e615-b886-44e3-a2f1-4f4088f49aa8",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "obscure_api:critical_damage",
+      "value": 0.2,
+      "modifierUUID": "08fa72d2-e8bd-4597-a757-99b3c606aded",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

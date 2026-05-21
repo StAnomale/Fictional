@@ -1,0 +1,35 @@
+{
+  "armorSetName": "ominous_orb",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "goety:ominous_orb",
+      "mixAndMatch": [
+      ],
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "gunswithoutroses:gwr.damage_total",
+      "value": -0.2,
+      "modifierUUID": "1beac5fe-23b9-4d9d-be5b-c44895dd241f",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "goety:void_potency",
+      "value": 1.0,
+      "modifierUUID": "01eb964b-e6a2-4358-a378-990e1fac5b7c",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

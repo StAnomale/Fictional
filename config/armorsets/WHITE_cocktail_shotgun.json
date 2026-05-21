@@ -1,0 +1,21 @@
+{
+  "armorSetName": "cocktail_shotgun",
+  "performanceMode": true,
+  "mainHand": {
+    "itemKey": "meetyourfight:cocktail_shotgun",
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.luck",
+      "value": 0.25,
+      "modifierUUID": "5476a3dd-8f43-430f-a7e8-2f6c5e06bc8c",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

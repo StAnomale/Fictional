@@ -1,0 +1,35 @@
+{
+  "armorSetName": "END_prepared_flesh",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "jrftl:prepared_flesh",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "minecraft:nausea",
+      "interactionType": "immunity",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "effect",
+      "name": "legendarycreatures:convulsion",
+      "interactionType": "immunity",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor_toughness",
+      "value": 2.0,
+      "modifierUUID": "f855b1d2-7ed3-4380-9559-2029f4bfa292",
+      "attributeOperation": 0,
+      "interactionType": "self"
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

@@ -1,0 +1,27 @@
+{
+  "armorSetName": "DC_astrape",
+  "performanceMode": true,
+  "mainHand": {
+    "itemKey": "cataclysm:astrape",
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:magic_damage",
+      "value": 0.4,
+      "modifierUUID": "11001d7a-4430-43c1-a597-ce1560b44b57",
+      "attributeOperation": 2,
+      "interactionType": "self"
+    },
+    {
+      "type": "attribute",
+      "name": "obscure_api:critical_damage",
+      "value": 0.4,
+      "modifierUUID": "286301c5-af64-4ef5-9aa8-4add635cf3d0",
+      "attributeOperation": 0,
+      "interactionType": "self"
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

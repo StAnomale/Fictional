@@ -1,0 +1,86 @@
+#破命刀的血量最多恢复到的值
+#The maximum amount of health restored to the value of the Life-Breaking Knife
+#Range: 0.0 ~ 1.0
+life_max_BreakingTheLife = 0.5
+#白镴刀锋的物理伤害
+#The physical damage of the white blade
+#Range: 0.0 ~ 2.147483647E9
+WhiteArrowBladeAttack = 1.3
+#白镴刀锋的恶念转化
+#The transformation of the evil thoughts of the blade of the white arrow
+#Range: 0.0 ~ 2.147483647E9
+WhiteArrowBladeMagic = 0.5
+#白镴方体的每个恶念要塞装备或者饰品给予的邪念之护
+#The protection of evil thoughts given by each evil thought fortress equipment in the white cypress cube
+#Range: 0.0 ~ 2.147483647E9
+armorHugeSouls = 0.02500000037252903
+#白镴方体的给予的邪念之护
+#The protection of evil thoughts given by the white cypress cube
+#Range: 0.0 ~ 2.147483647E9
+armorDefHugeSouls = 0.10000000149011612
+#永堕灵魂符文的叠加速度
+#The stacking speed of the Eternal Fallen Soul rune
+#Range: 0.0 ~ 2.147483647E9
+speedEternalFallenSoul = 0.02500000037252903
+#永堕灵魂符文的最大叠加值
+#The maximum stack value of the Eternal Fallen Soul Rune
+#Range: 0.0 ~ 2.147483647E9
+maxEternalFallenSoul = 0.25
+#锋刀誓言符文的第二次伤害的值
+#The value of the second damage of the Blade Oath rune
+#Range: 0.0 ~ 2.147483647E9
+doubleBladeOath = 0.5
+#殉锋符文记录的上一次伤害比率
+#The last damage ratio recorded by the Rune of the Martyrdom
+#Range: 0.0 ~ 2.147483647E9
+mMartyrdomDamage = 0.8999999761581421
+#殉锋符文在触发连击奖励时给予的次数
+#The number of times the Rune of Martyrdom is given when triggering a combo bonus
+#Range: > 1
+attackDoubleMartyrdom = 1
+#堕井充能后的属性加成
+#Attribute bonus after falling well charge
+#Range: 0.0 ~ 2.147483647E9
+addPowerFallingWell = 0.20000000298023224
+#极殇的幽影精魂机率
+#The probability of the ghost spirit of extreme death
+#Range: > 0
+lvlExtremelyDead_1 = 2
+#极殇的伤害
+#Extremely deadly injuries
+#Range: 0.0 ~ 2.147483647E9
+damageExtremelyDead = 0.25
+#泣仙的属性加成
+#Weeping Immortal's attribute bonus
+#Range: 0.0 ~ 2.147483647E9
+attributeWeepingImmortal = 0.15000000596046448
+#破极兵刃的最大宽容度数
+#The maximum tolerance of the Broken Blade
+#Range: 0 ~ 360
+theBreakingTheWeapon = 45
+#破极兵刃的最大额外伤害（护甲，灵魂护盾）
+#The maximum bonus damage of the Extreme Blade（Armor，Soul shield）
+#Range: > 0
+maxArmorDamageBreakingTheWeapon = 30
+#破极兵刃的最大额外伤害倍率（满生命值）
+#The maximum bonus damage multiplier of the Extreme Blade（Full health）
+#Range: 0.0 ~ 2.147483647E9
+healthDamageBreakingTheWeapon = 1.5
+#启用堕落诅咒的属性
+#Enables the Curse of the Corruption attribute
+attributeFallCurse = true
+#尸釜的激活属性
+#The activation attribute of the cauldron
+#Range: 0.0 ~ 2.147483647E9
+attributeCorpseCauldron = 0.15000000596046448
+#堕井的堕落诅咒添加生物黑名单
+#Fallen Curse of the Fall Well adds mob blacklist
+effectFallWell = ["minecraft:player"]
+#奥术谐振对物品的属性影响
+#Arcane resonance affects the attributes of items
+#Range: > 0
+ArcaneHarmonics = 1
+#堕井的堕落诅咒添加的生物标签黑名单
+#Falling Curse of the Well added creature tag blacklist
+effectFallWellTag = ["forge:bosses"]
+

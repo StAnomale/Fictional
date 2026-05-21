@@ -1,0 +1,36 @@
+{
+  "armorSetName": "running_shoes",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "artifacts:running_shoes",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor",
+      "value": 0.1,
+      "modifierUUID": "7aaf3dd6-e2f8-4340-9ec8-0c871beec069",
+      "attributeOperation": 1,
+      "interactionType": "self"
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.movement_speed",
+      "value": 0.1,
+      "modifierUUID": "5fd7d1d8-6250-4004-aae6-3c2f49af0c99",
+      "attributeOperation": 1,
+      "interactionType": "self"
+    },
+    {
+      "type": "effect",
+      "name": "mutantmore:jumping_fatigue",
+      "interactionType": "immunity",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

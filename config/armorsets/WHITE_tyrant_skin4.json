@@ -1,0 +1,27 @@
+{
+  "armorSetName": "tyrant_skin",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "radiation_zone_reborn:tyrant_skin",
+      "mustBeEmpty": false
+    }
+  ],
+  "legs": {
+    "itemKey": "radiation_zone_reborn:tyrant_skin_armor_leggings",
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:critical_damage",
+      "value": 0.1,
+      "modifierUUID": "51c478b3-4fbe-4741-809c-b39f0ac6131f",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

@@ -1,0 +1,33 @@
+{
+  "armorSetName": "mutation_potion",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "goety_spillage:mutation_potion",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "goety:soul_discount",
+      "value": -0.2,
+      "modifierUUID": "148c5fd6-cce1-423c-8e11-3270c4efc87a",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "goety:void_potency",
+      "value": 1.0,
+      "modifierUUID": "5f4eb8b5-290e-40e4-b201-ede9f3c4af4c",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

@@ -1,0 +1,21 @@
+{
+  "armorSetName": "gnaws_coin",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "crockpot:gnaws_coin",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:critical_hit",
+      "value": 0.2,
+      "modifierUUID": "f06a7b59-02d2-45dc-867f-bcf0575c637c",
+      "attributeOperation": 0,
+      "interactionType": "self"
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

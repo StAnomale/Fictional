@@ -1,0 +1,27 @@
+{
+  "armorSetName": "hook_bell",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "goety:hook_bell",
+      "mustBeEmpty": false
+    },
+    {
+      "itemKey": "illageandspillage:totem_of_banishment",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:critical_damage",
+      "value": 0.1,
+      "modifierUUID": "097ee92a-ffd2-4a44-9c8c-0b8933478685",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

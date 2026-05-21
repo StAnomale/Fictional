@@ -1,0 +1,29 @@
+{
+  "armorSetName": "dust_star",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "radiation_zone_reborn:dust_star",
+      "mustBeEmpty": false
+    }
+  ],
+  "mainHand": {
+    "itemKey": "radiation_zone_reborn:dustorm_greatsword",
+    "mixAndMatch": [
+      "radiation_zone_reborn:dustorm_hammer",
+      "radiation_zone_reborn:dustorm_sword"
+      ],
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_damage",
+      "value": 0.2,
+      "modifierUUID": "894fcf97-eb12-4dd0-889e-a0a12703f7f4",
+      "attributeOperation": 1,
+      "interactionType": "self"
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

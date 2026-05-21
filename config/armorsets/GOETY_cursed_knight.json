@@ -1,0 +1,68 @@
+{
+  "armorSetName": "dark",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "goety:cursed_knight_helmet",
+    "mixAndMatch": [
+      "goety:cursed_paladin_helmet"
+    ],
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "goety:cursed_knight_chestplate",
+    "mixAndMatch": [
+      "goety:cursed_paladin_chestplate"
+    ],
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "goety:cursed_knight_leggings",
+    "mixAndMatch": [
+      "goety:cursed_paladin_leggings"
+    ],
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "goety:cursed_knight_boots",
+    "mixAndMatch": [
+      "goety:cursed_paladin_boots"
+    ],
+    "mustBeEmpty": false
+  },
+  "partialBonusRequiredAmount": 2,
+  "partialSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "goety:void_potency",
+      "value": 0.2,
+      "modifierUUID": "255967b6-3e47-42fa-a8df-7bdbe62d3c33",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_damage",
+      "value": 0.2,
+      "modifierUUID": "f34305bc-7d1e-4d89-8294-5e6bca64a9e8",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor",
+      "value": 4.0,
+      "modifierUUID": "74aeeb7e-4ed6-45dc-a90f-5ba333396339",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

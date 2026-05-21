@@ -1,0 +1,343 @@
+
+[logging]
+	#Whether to log successful operations or not.
+	log_successful = false
+	#Whether to log failed operations or not.
+	log_errors = true
+
+#Generates a config with all non-default values in propertymodifier-generated.toml.
+[generating]
+	#Generates block state-related entries.
+	block_states = false
+	#Generates block-related entries.
+	blocks = false
+	#Generates item-related entries.
+	items = false
+	#Generates armor-related entries.
+	armor = false
+	#Generates tool-related entries.
+	tools = false
+	#Generates enchantment-related entries.
+	enchantments = false
+	#Generates composting-related entries.
+	composting = false
+	#The default enchantment value used. 0 in vanilla, but mods such as Apotheosis may change this.
+	#Range: 0 ~ 1000000
+	default_enchantment_value = 0
+
+#Set the respective values here by adding lines in the respective groups. Keys can be either a block (e.g. "minecraft:stripped_birch_wood"), a block regex (e.g. "minecraft:.*_block") or a blockstate definition (e.g. "minecraft:grass_block[snowy=true]"). Block regexes cannot contain the [] characters, as their presence will be interpreted as a blockstate definition instead.
+[blocks_and_blockstates]
+
+	#Set the destroy time for a block (state). Dirt has 0.5, stone has 1.5, obsidian has 50. -1 makes the block unbreakable. Examples (without the leading #):
+	#"minecraft:grass_block[snowy=true]" = 100
+	#"minecraft:.*_planks" = 100
+	[blocks_and_blockstates.destroy_time]
+		test = 0.0
+
+	#Set the tool requirement of a block (state). Must be true or false. Examples (without the leading #):
+	#"minecraft:diamond_ore" = false
+	#"minecraft:oak_log" = true
+	[blocks_and_blockstates.requires_tool]
+		test = false
+
+	#Set the light emission of a block (state). Must be an integer between 0 and 15. Examples (without the leading #):
+	#"minecraft:redstone_torch[lit=true]" = 15
+	#"minecraft:.*_bricks" = 7
+	[blocks_and_blockstates.light_emission]
+		test = 0
+
+#Set the respective values here by adding lines in the respective groups. Keys can be either an item (e.g. "minecraft:stripped_birch_wood") or an item regex (e.g. "minecraft:diamond.*").
+[items]
+
+	#Set the values for armor.
+	[items.armor]
+
+		#Set the defense value of an armor item. May not work on modded armors, please file an issue if that's the case. Example (without the leading #):
+		#"minecraft:golden_chestplate" = 10
+		[items.armor.defense]
+			"cataclysm:bone_reptile_helmet" = 4
+			"cataclysm:bone_reptile_chestplate" = 9
+			"cataclysm:monstrous_helm" = 5
+
+		#Set the toughness value of an armor item. May not work on modded armors, please file an issue if that's the case. Example (without the leading #):
+		#"minecraft:golden_boots" = 1
+		[items.armor.toughness]
+			"cataclysm:bone_reptile_helmet" = 5
+			"cataclysm:bone_reptile_chestplate" = 5
+			"mutantmonsters:mutant_skeleton_skull" = 3
+			"cataclysm:monstrous_helm" = 5
+
+		#Set the knockback resistance of an armor item. May not work on modded armors, please file an issue if that's the case. Example (without the leading #):
+		#"minecraft:golden_leggings" = 0.1
+		[items.armor.knockback_resistance]
+			test = 0.0
+
+	#Set the values for tools, swords and tridents.
+	[items.tools]
+
+		#Set the attack damage of a tool or weapon. May not work on modded tools, please file an issue if that's the case. Example (without the leading #):
+		#"minecraft:netherite_sword" = 12
+		[items.tools.attack_damage]
+			"cataclysm:the_annihilator" = 16.0
+			"cataclysm:the_immolator" = 20.0
+			"the_bumblezone:stinger_spear" = 4.0
+			"queen_bee:stinger_sword" = 6.0
+			"meetyourfight:depth_star" = 16
+			"deep_aether:blade_of_luck" = 25.0
+			"lost_aether_content:phoenix_sword" = 20.0
+			"lost_aether_content:phoenix_axe" = 24.0
+			"lost_aether_content:phoenix_hoe" = 1.5
+			"aether:valkyrie_lance" = 12.0
+			"aether:valkyrie_axe" = 18.0
+			"meetyourfight:cocktail_cutlass" = 11.0
+			"meetyourfight:twilights_thorn" = 12.0
+			"aether_redux:veridium_axe" = 7.0
+			"aether_redux:infused_veridium_axe" = 16.0
+			"aether_redux:infused_veridium_sword" = 12.0
+			"aether:hammer_of_kingbdogz" = 8.0
+			"aether:flaming_sword" = 12.0
+			"aether:holy_sword" = 12.0
+			"aether:lightning_sword" = 8.5
+			"deep_aether:storm_sword" = 10.0
+			"aether:vampire_blade" = 12.0
+			"aether:pig_slayer" = 10.0
+			"aethermobs:saltinstrument" = 12.0
+			"aethermobs:dungeondagger" = 10.0
+			"aether:gravitite_sword" = 10.0
+			"deep_aether:stratus_sword" = 16.0
+			"deep_aether:stratus_axe" = 20.0
+			"advancednetherite:netherite_iron_sword" = 9.0
+			"advancednetherite:netherite_gold_sword" = 10.0
+			"advancednetherite:netherite_emerald_sword" = 11.0
+			"advancednetherite:netherite_diamond_sword" = 12.0
+			"aether_redux:infused_veridium_pickaxe" = 8.0
+			"twilightforest:fiery_pickaxe" = 9.0
+			"aether:valkyrie_pickaxe" = 9.0
+			"aether:gravitite_pickaxe" = 8.0
+			"lost_aether_content:phoenix_pickaxe" = 10.0
+			"mutantmonsters:hulk_hammer" = 12.0
+			"mutantmore:husk_hammer" = 15.0
+			"bosses_of_mass_destruction:earthdive_spear" = 8.0
+			"radiation_zone_reborn:sedisilver_hammer" = 12.0
+			"radiation_zone_reborn:giantrock_sword" = 8.5
+			"radiation_zone_reborn:giantrock_dagger" = 4.0
+			"radiation_zone_reborn:giantrock_axe" = 15.0
+			"radiation_zone_reborn:giantrock_hammer" = 16.0
+			"radiation_zone_reborn:dustorm_greatsword" = 10.0
+			"radiation_zone_reborn:dustorm_sword" = 8.0
+			"radiation_zone_reborn:dustorm_hammer" = 20.0
+			"cataclysm:infernal_forge" = 16.0
+			"cataclysm:void_forge" = 16.0
+			"minecraft:golden_sword" = 5.0
+			"quark:pickarang" = 6.0
+			"quark:flamerang" = 8.0
+			"cataclysm:black_steel_sword" = 8.0
+			"goety:dark_sword" = 9.0
+			"goety:dark_axe" = 11.0
+			"goety:dark_scythe" = 10.0
+			"goety:dark_metal_scythe" = 12.0
+			"goetyawaken:frost_scythe" = 12.0
+			"goety:death_scythe" = 16.0
+			"goety:rampaging_axe" = 10.0
+			"goety:great_hammer" = 10.0
+			"goety:bonehead_hammer" = 15.0
+			"goety:stormlander" = 15.0
+			"goetyawaken:mace" = 12.0
+			"goetyawaken:sun_grace" = 15.0
+			"goetyawaken:mooshroom_mace" = 25.0
+			"goety:blade_of_ender" = 10.0
+			"twilightforest:glass_sword" = 40.0
+			"goetyawaken:truth_seeker" = 16.0
+			"goetyawaken:claymore" = 15.0
+			"goetyawaken:obsidian_claymore" = 20.0
+			"goetyawaken:starless_night" = 25.0
+			"goetyawaken:glaive" = 12.0
+			"goetyawaken:grave_bane" = 16.0
+			"goetyawaken:moonlight_cut" = 20.0
+			"twilightforest:fiery_sword" = 9.0
+			"twilightdelight:teardrop_sword" = 12.0
+
+		#Set the efficiency value of a tool. May not work on modded tools, please file an issue if that's the case. Also doesn't work on shears, due to internal problems with that. Example (without the leading #):
+		#"minecraft:iron_pickaxe" = 16
+		[items.tools.efficiency]
+			test = 0.0
+
+		#Set the attack speed of a tool or weapon. May not work on modded tools, please file an issue if that's the case. Example (without the leading #):
+		#"minecraft:netherite_pickaxe" = 2.5
+		[items.tools.attack_speed]
+			"meetyourfight:twilights_thorn" = 1.8
+			"twilightforest:glass_sword" = 1.0
+			"twilightforest:knightmetal_sword" = 2.0
+			"twilightforest:knightmetal_axe" = 1.4
+			"twilightforest:knightmetal_pickaxe" = 1.4
+			"cataclysm:astrape" = 1.8
+			"cataclysm:soul_render" = 1.4
+			"aether:valkyrie_axe" = 0.85
+			"aether:holy_sword" = 1.4
+			"aether:lightning_sword" = 2.0
+			"deep_aether:storm_sword" = 2.0
+			"aether:pig_slayer" = 2.4
+			"bosses_of_mass_destruction:earthdive_spear" = 3.0
+			"goetyawaken:truth_seeker" = 1.4
+			"radiation_zone_reborn:dustorm_greatsword" = 1.2
+			"royalvariations:royal_staff" = 2.0
+
+	#Set the max damage (durability) of an item. Only items that already have durability can have this value altered. Example (without the leading #):
+	#"minecraft:diamond_.*" = 5000
+	[items.max_damage]
+		test = 0
+
+	#Set the max stack size of an item. Only values between 2 and 64 are supported. Items that have durability cannot have this value altered. Example (without the leading #):
+	#"minecraft:ender_pearl" = 64
+	[items.max_stack_size]
+		"minecraft:amethyst_shard" = 640
+
+	#Set this value to true to make an item fire resistant (like netherite is), or set it to false to make it burn in fire and lava. Example (without the leading #):
+	#"minecraft:netherite_ingot" = false
+	[items.fire_resistant]
+		test = false
+
+	#Set the rarity (item color) of an item. Must be a valid rarity name. Example (without the leading #):
+	#"minecraft:beacon" = "common"
+	#Default rarities (mods may add more!): "common", "uncommon", "rare", "epic"
+	[items.rarity]
+		test = ""
+
+	#Set the enchantment value of an item. Higher value means better enchantments on average. May not always have a noticeable effect. Example (without the leading #):
+	#"minecraft:.*_hoe" = 40
+	[items.enchantment_value]
+		test = 0
+
+	#Set the repair material of an item. May be an item or a tag containing multiple items, with a # before the tag id. Example (without the leading #):
+	#"minecraft:wooden_.*" = "#minecraft:fishes"
+	[items.repair_material]
+		test = ""
+
+#Set the values for entities.
+[entities]
+
+	#Set the default attributes for entities. Format is "entityid" = "attributeid;value". Cannot add new attributes to mobs, can only alter those that are present by default anyway. Example (without the leading #):
+	#"minecraft:zombie" = "minecraft:generic.attack_damage;10"
+	[entities.default_attributes]
+		"minecraft:bee" = "minecraft:generic.max_health;20"
+		"the_bumblezone:beehemoth" = "minecraft:generic.max_health;200"
+		"queen_bee:queen_bee" = "minecraft:generic.max_health;400"
+		"royalvariations:royal_zombie" = "minecraft:generic.armor_toughness;24"
+		"royalvariations:royal_skeleton" = "minecraft:generic.armor_toughness;20"
+		"royalvariations:royal_enderman" = "minecraft:generic.armor_toughness;24"
+		"royalvariations:royal_creeper" = "minecraft:generic.armor_toughness;24"
+		"meetyourfight:dame_fortuna" = "obscure_api:healing_power;2"
+		"meetyourfight:rosalyne" = "obscure_api:healing_power;2"
+		"minecraft:wither" = "obscure_api:healing_power;2"
+		"minecraft:ender_dragon" = "obscure_api:healing_power;20"
+		"eeeabsmobs:corpse_warlock" = "obscure_api:healing_power;1.5"
+		"masquerader_mod:masquerader" = "obscure_api:penetration;0.4"
+		"twilightforest:ur_ghast" = "obscure_api:healing_power;0.5"
+		"twilightforest:snow_queen" = "obscure_api:penetration;0.4"
+		"illageandspillage:freakager" = "obscure_api:penetration;0.3"
+		"illageandspillage:ragno" = "obscure_api:penetration;0.4"
+		"illageandspillage:magispeller" = "obscure_api:dodge;0.3"
+		"cataclysm:amethyst_crab" = "obscure_api:healing_power;2"
+		"cataclysm:scylla" = "obscure_api:resilience;0.2"
+		"cataclysm:ignis" = "obscure_api:magic_resistance;0.3"
+		"cataclysm:maledictus" = "obscure_api:dodge;0.1"
+		"aether:slider" = "obscure_api:critical_hit;0.4"
+		"deep_aether:eots_segment" = "obscure_api:penetration;0.4"
+		"bosses_of_mass_destruction:void_blossom" = "obscure_api:magic_damage;8.0"
+		"bosses_of_mass_destruction:obsidilith" = "obscure_api:magic_damage;8.0"
+		"bosses_of_mass_destruction:lich" = "obscure_api:magic_damage;3.0"
+		"bosses_of_mass_destruction:gauntlet" = "obscure_api:magic_damage;1.0"
+		"aethermobs:saltcrabking" = "obscure_api:healing_power;2"
+		"aether:valkyrie_queen" = "obscure_api:healing_power;3"
+		"aethermobs:aether_naga" = "obscure_api:dodge;0.3"
+		"aethermobs:crystalitegolem" = "obscure_api:healing_power;2"
+		"aethermobs:eldershulker" = "obscure_api:magic_damage;6"
+		"aethermobs:aetherdragon" = "obscure_api:magic_damage;8"
+		"aethermobs:aetherdragonphase_2" = "obscure_api:magic_damage;8"
+		"lost_aether_content:aerwhale_king" = "minecraft:generic.movement_speed;0.001"
+		"radiation_zone_reborn:wastelands_tyrant" = "obscure_api:magic_damage;6.0"
+		"mutantmore:mutant_frozen_zombie" = "obscure_api:magic_damage;2.0"
+		"mutantmore:mutant_husk" = "obscure_api:magic_damage;2.0"
+
+#Set the respective values here by adding lines in the respective groups. Keys can be either a block (e.g. "minecraft:stripped_birch_wood") or a block regex (e.g. "minecraft:.*_block").
+[blocks]
+
+	#Set the explosion resistance for a block. Dirt has 0.5, stone and has 6, obsidian has 1200. 3600000 or more makes the block completely explosion resistant. Example (without the leading #):
+	#"minecraft:dirt" = 1000
+	[blocks.explosion_resistance]
+		test = 0.0
+
+	#Set the friction for a block. 0.6 for most blocks, 0.8 for slime blocks, 0.98 for ice, packed ice and frosted ice, and 0.989 for blue ice. Example (without the leading #):
+	#"minecraft:.*ice" = 0.6
+	[blocks.friction]
+		test = 0.0
+
+	#Set the speed factor for a block. 1 for most blocks, 0.4 for soul sand and honey blocks. Example (without the leading #):
+	#"minecraft:soul_sand" = 1
+	[blocks.speed_factor]
+		test = 0.0
+
+	#Set the speed factor for a block. 1 for most blocks, 0.5 for honey blocks. Example (without the leading #):
+	#"minecraft:honey_block" = 1
+	[blocks.jump_factor]
+		test = 0.0
+
+#Set the values for enchantments.
+[enchantments]
+
+	#Set the rarity of an enchantment. Must be a valid rarity name. Example (without the leading #):
+	#"minecraft:mending" = "common"
+	#Default rarities (mods may add more!): "common", "uncommon", "rare", "very_rare"
+	[enchantments.rarity]
+		test = ""
+
+#Add or remove compostables.
+[composting]
+	#Whether to remove all predefined compostables or not.
+	clear = false
+
+	#Add new compostables here. Consists of an item or item regex and a float between 0 and 1, representing the chance that the composter level is increased. Example (without the leading #):
+	#"minecraft:netherite_scrap" = 0.8
+	[composting.composting]
+		test = 0.0
+
+#Set the values for axe stripping.
+[stripping]
+	#Whether to remove all predefined stripping values or not.
+	clear = false
+
+	#Add new stripping transitions here. Consists of a block or block regex and a block or block state, representing the output. Example (without the leading #):
+	#"minecraft:.*_planks" = "minecraft:infested_cobblestone"
+	[stripping.stripping]
+		test = ""
+
+#Set the values for shovel flattening.
+[flattening]
+	#Whether to remove all predefined flattening values or not.
+	clear = false
+
+	#Add new flattening transitions here. Consists of a block or block regex and a block or block state, representing the output. Example (without the leading #):
+	#"minecraft:.*_planks" = "minecraft:infested_cobblestone"
+	[flattening.flattening]
+		test = ""
+
+#Set the values for hoe tilling.
+[tilling]
+	#Whether to remove all predefined tilling values or not.
+	clear = false
+
+	#Add new tilling transitions here. Consists of a block or block regex and a block or block state, representing the output. Example (without the leading #):
+	#"minecraft:diamond_block" = "minecraft:emerald_block"
+	[tilling.tilling]
+		test = ""
+
+	#Whether a certain tilling transition needs air above to work. Consists of a block or block regex and a boolean value (true or false). If left unspecified, true is assumed. Example (without the leading #):
+	#"minecraft:diamond_block" = false
+	[tilling.needs_air]
+		test = false
+
+	#The item that is dropped when tilling. Consists of a block or block regex and an item id. If left unspecified, no item is dropped. Example (without the leading #):
+	#"minecraft:diamond_block" = "minecraft:iron_nugget"
+	[tilling.item_drop]
+		test = "minecraft:missingno"
+

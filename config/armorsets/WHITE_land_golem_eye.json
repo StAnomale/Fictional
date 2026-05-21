@@ -1,0 +1,55 @@
+{
+  "armorSetName": "land_golem_eye",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "ba_bt:land_golem_eye",
+      "mixAndMatch": [
+      "ba_bt:end_golem_eye",
+      "ba_bt:ocean_golem_eye",
+      "ba_bt:core_golem_eye"
+      ],
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.max_health",
+      "value": 4.0,
+      "modifierUUID": "3e7541ba-e20b-4a3c-aa89-2623d1fb3fc1",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "combatroll:count",
+      "value": 1.0,
+      "modifierUUID": "ab3624c7-40a6-4cac-bc63-004aad786971",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "obscure_api:penetration",
+      "value": 0.2,
+      "modifierUUID": "71fbd256-7a03-4430-89f2-909d068a58a4",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "conditions": [
+        {
+          "type": "inDimension",
+          "extra": "minecraft:overworld"
+        }
+      ],
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

@@ -1,0 +1,28 @@
+
+#Mana bar display settings
+[mana_bar]
+	#Whether to enable mana bar display
+	enabled = true
+	#Mana bar width
+	#Range: 50 ~ 300
+	width = 186
+	#Mana bar height
+	#Range: 2 ~ 20
+	height = 9
+	#Mana bar X axis offset
+	#Range: -500 ~ 500
+	offset_x = 0
+	#Mana bar Y axis offset
+	#Range: -500 ~ 500
+	offset_y = -50
+	#Whether to show mana value text
+	show_text = true
+	#Text scale ratio
+	#Range: 0.1 ~ 2.0
+	text_scale = 0.8
+	#Mana bar display mode: ALWAYS(always show), WEAPON_ONLY(show only when holding mana-consuming weapons)
+	#Allowed Values: ALWAYS, WEAPON_ONLY
+	display_mode = "WEAPON_ONLY"
+	#Mana bar UI size: true(large), false(small)
+	large_size = true
+

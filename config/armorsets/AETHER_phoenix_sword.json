@@ -1,0 +1,27 @@
+{
+  "armorSetName": "phoenix_sword",
+  "performanceMode": true,
+  "mainHand": {
+    "itemKey": "lost_aether_content:phoenix_sword",
+    "mixAndMatch": [
+      "lost_aether_content:phoenix_axe",
+      "lost_aether_content:phoenix_pickaxe",
+      "lost_aether_content:phoenix_hoe",
+      "lost_aether_content:phoenix_shovel"
+    ],
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:critical_damage",
+      "value": 0.25,
+      "modifierUUID": "289ab08f-0e77-4267-8086-ca85711d0062",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

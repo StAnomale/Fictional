@@ -1,0 +1,67 @@
+{
+	icon: "minecraft:bell"
+	id: "69EDC9562AD614AB"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{
+			command: "/bettertime set day"
+			elevate_perms: true
+			icon: "minecraft:sunflower"
+			title: "将时间改为白天"
+			type: "command"
+		}
+		{
+			command: "/bettertime set night"
+			elevate_perms: true
+			icon: "twilightforest:moonworm"
+			title: "将时间改为夜晚"
+			type: "command"
+		}
+		{
+			command: "/gamerule keepInventory true"
+			elevate_perms: true
+			icon: "minecraft:soul_campfire"
+			title: "设置死亡不掉落"
+			type: "command"
+		}
+		{
+			command: "/gamerule keepInventory false"
+			elevate_perms: true
+			icon: "gravestone:gravestone"
+			title: "设置死亡掉落"
+			type: "command"
+		}
+		{
+			command: "/gamerule mobGriefing false"
+			elevate_perms: true
+			icon: "royalvariations:royal_creeper_spawn_egg"
+			title: "设置生物无法破坏方块"
+			type: "command"
+		}
+		{
+			command: "/gamerule mobGriefing true"
+			elevate_perms: true
+			icon: "minecraft:creeper_head"
+			title: "设置生物可以破坏方块"
+			type: "command"
+		}
+		{
+			command: "/concoctionw"
+			elevate_perms: true
+			icon: "mutantmore:incomplete_compound_z"
+			silent: true
+			title: "关于变异合剂W的调整"
+			type: "command"
+		}
+		{
+			command: "/sweepermaid dustbin"
+			elevate_perms: true
+			icon: "minecraft:lava_bucket"
+			silent: true
+			title: "打开垃圾桶"
+			type: "command"
+		}
+	]
+	title: "您的选择"
+}

@@ -1,0 +1,27 @@
+{
+  "armorSetName": "charged_ender_pearl",
+  "performanceMode": true,
+  "offHand": {
+    "itemKey": "bosses_of_mass_destruction:charged_ender_pearl",
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_speed",
+      "value": 0.15,
+      "modifierUUID": "122ffbda-96a7-4ea7-a6c7-db195f0448df",
+      "attributeOperation": 1,
+      "interactionType": "self"
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.movement_speed",
+      "value": 0.15,
+      "modifierUUID": "0d7a2587-4e18-43f9-b362-5364a652da06",
+      "attributeOperation": 1,
+      "interactionType": "self"
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

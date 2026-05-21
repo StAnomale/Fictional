@@ -1,0 +1,35 @@
+{
+  "armorSetName": "prison_eye",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "goetyawaken:prison_eye",
+      "mixAndMatch": [
+      ],
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor",
+      "value": 2.0,
+      "modifierUUID": "9895e74d-5fe0-4253-9fa7-df8bc538bf3a",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor_toughness",
+      "value": 2.0,
+      "modifierUUID": "31aca1bb-9998-49d5-8a46-b38e517d0e64",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

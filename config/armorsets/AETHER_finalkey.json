@@ -1,0 +1,43 @@
+{
+  "armorSetName": "finalkey",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "aethermobs:finalkey",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:critical_hit",
+      "value": 0.25,
+      "modifierUUID": "31e90d14-ca52-4ed2-882c-eb332c560639",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_damage",
+      "value": -0.2,
+      "modifierUUID": "12b7da4b-5c03-4a2d-af20-04ec8648dfe7",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "obscure_api:penetration",
+      "value": 0.1,
+      "modifierUUID": "1e7b85f0-1367-4503-96c4-befd93c78846",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

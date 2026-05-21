@@ -1,0 +1,65 @@
+{
+  "armorSetName": "spooky_ring",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "deep_aether:spooky_ring",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:magic_damage",
+      "value": 1.0,
+      "modifierUUID": "a8937680-b549-42cb-ba0c-fcdf50db5db5",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_damage",
+      "value": 1.0,
+      "modifierUUID": "4be4e6df-e11c-4324-8b1a-a8593e580e9e",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "gunswithoutroses:gwr.damage_total",
+      "value": 0.15,
+      "attributeOperation": 1,
+      "modifierUUID": "d395f61c-0f35-475c-b7d1-7c9d037c3303",
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false,
+      "conditions": [
+        {
+          "type": "timeRange",
+          "extra": "12500,23000"
+        }
+      ]
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_speed",
+      "value": 0.15,
+      "attributeOperation": 1,
+      "modifierUUID": "c39af936-db8e-428f-a8a4-67755e92b606",
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false,
+      "conditions": [
+        {
+          "type": "timeRange",
+          "extra": "12500,23000"
+        }
+      ]
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

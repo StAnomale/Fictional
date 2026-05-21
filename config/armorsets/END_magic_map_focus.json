@@ -1,0 +1,23 @@
+{
+  "armorSetName": "END_magic_map_focus",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "twilightforest:magic_map_focus",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:magic_damage",
+      "value": 1.0,
+      "modifierUUID": "9faa748f-e7ae-4962-8333-461d7c137fb8",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

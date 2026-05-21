@@ -1,0 +1,41 @@
+{
+  "armorSetName": "pickaxe_heater",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "artifacts:pickaxe_heater",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_damage",
+      "value": 0.15,
+      "modifierUUID": "6a4dd58a-25e0-4cf0-b34e-01d9fa582eb5",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor",
+      "value": 0.15,
+      "modifierUUID": "c9eca423-5505-42fa-ac82-743c84b5244a",
+      "attributeOperation": 1,
+      "interactionType": "self"
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:glowing",
+      "value": 0.0,
+      "attributeOperation": 1,
+      "interactionDuration": 600,
+      "interactionType": "attack",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

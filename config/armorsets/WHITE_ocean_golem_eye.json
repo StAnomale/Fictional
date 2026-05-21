@@ -1,0 +1,40 @@
+{
+  "armorSetName": "ocean_golem_eye",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "ba_bt:ocean_golem_eye",
+      "mixAndMatch": [
+      "ba_bt:end_golem_eye",
+      "ba_bt:core_golem_eye"
+      ],
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.max_health",
+      "value": 4.0,
+      "modifierUUID": "5f318b6d-0780-4a50-9826-146868be9288",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "forge:swim_speed",
+      "value": 0.3,
+      "modifierUUID": "721a1528-0514-4871-9587-f798a00929e0",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "conditions": [
+        {
+          "type": "inWater"
+        }
+      ]
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

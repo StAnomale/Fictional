@@ -1,0 +1,28 @@
+{
+  "armorSetName": "floaty_scarf",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "deep_aether:floaty_scarf",
+      "mustBeEmpty": false
+    },
+    {
+      "itemKey": "deep_aether:wind_shield",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:magic_damage",
+      "value": 0.5,
+      "modifierUUID": "9499eead-71e6-4a93-a3a2-982e1b6f0468",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  
+  "hideGeneratedTooltip": true
+}

@@ -1,0 +1,27 @@
+{
+  "armorSetName": "saintwing_cucumberangel",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "kubejs:saintwing_cucumberangel",
+      "mustBeEmpty": false
+    },
+    {
+      "itemKey": "goetyawaken:taboo_fragment",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.movement_speed",
+      "value": -0.1,
+      "modifierUUID": "c4308278-8c18-4a13-bcb9-787fd4c1828c",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

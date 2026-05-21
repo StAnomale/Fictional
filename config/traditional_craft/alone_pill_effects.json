@@ -1,0 +1,117 @@
+{
+  "herb_effects": {
+    "traditional_craft:lophatherum": {
+      "effects": [
+        {
+          "effect": "minecraft:fire_resistance",
+          "duration": 6000,
+          "amplifier": 0
+        }
+      ]
+    },
+    "traditional_craft:ass_glue": {
+      "effects": [
+        {
+          "effect": "traditional_craft:heal",
+          "duration": 6000,
+          "amplifier": 0
+        }
+      ]
+    },
+    "traditional_craft:ginseng": {
+      "effects": [
+        {
+          "effect": "traditional_craft:immunity",
+          "duration": 6000,
+          "amplifier": 0
+        }
+      ]
+    },
+    "traditional_craft:active_glow_gunpower": {
+      "effects": [
+        {
+          "effect": "traditional_craft:perception",
+          "duration": 3600,
+          "amplifier": 0
+        }
+      ]
+    },
+    "traditional_craft:osmanthus": {
+      "effects": [
+        {
+          "effect": "minecraft:regeneration",
+          "duration": 400,
+          "amplifier": 0
+        },
+        {
+          "effect": "minecraft:speed",
+          "duration": 400,
+          "amplifier": 0
+        }
+      ]
+    },
+    "traditional_craft:bat_dung": {
+      "effects": [
+        {
+          "effect": "traditional_craft:clear_vision",
+          "duration": 6000,
+          "amplifier": 0
+        }
+      ]
+    },
+    "minecraft:phantom_membrane": {
+      "effects": [
+        {
+          "effect": "minecraft:slow_falling",
+          "duration": 6000,
+          "amplifier": 0
+        }
+      ]
+    },
+    "minecraft:magma_cream": {
+      "effects": [
+        {
+          "effect": "minecraft:fire_resistance",
+          "duration": 6000,
+          "amplifier": 0
+        }
+      ]
+    },
+    "minecraft:golden_carrot": {
+      "effects": [
+        {
+          "effect": "minecraft:night_vision",
+          "duration": 6000,
+          "amplifier": 0
+        }
+      ]
+    },
+    "minecraft:ghast_tear": {
+      "effects": [
+        {
+          "effect": "minecraft:regeneration",
+          "duration": 6000,
+          "amplifier": 0
+        }
+      ]
+    },
+    "minecraft:sugar": {
+      "effects": [
+        {
+          "effect": "minecraft:speed",
+          "duration": 6000,
+          "amplifier": 0
+        }
+      ]
+    },
+    "minecraft:blaze_powder": {
+      "effects": [
+        {
+          "effect": "minecraft:strength",
+          "duration": 6000,
+          "amplifier": 0
+        }
+      ]
+    }
+  }
+}

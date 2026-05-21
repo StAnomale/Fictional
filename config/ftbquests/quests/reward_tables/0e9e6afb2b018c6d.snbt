@@ -1,0 +1,121 @@
+{
+	icon: "the_bumblezone:royal_jelly_bottle"
+	id: "0E9E6AFB2B018C6D"
+	loot_size: 1
+	order_index: 4
+	rewards: [
+		{
+			command: "/locate structure queen_bee:beehive"
+			elevate_perms: true
+			icon: "queen_bee:antenna"
+			title: "搜索蜂后的位置"
+			type: "command"
+		}
+		{
+			command: "/locate structure the_bumblezone:sempiternal_sanctum_white"
+			elevate_perms: true
+			icon: {
+				Count: 1
+				id: "the_bumblezone:essence_continuity"
+				tag: {
+					abilityUseRemaining: 1
+				}
+			}
+			title: "搜索白色永恒圣所的位置"
+			type: "command"
+		}
+		{
+			command: "/locate structure the_bumblezone:sempiternal_sanctum_blue"
+			elevate_perms: true
+			icon: {
+				Count: 1
+				id: "the_bumblezone:essence_calming"
+				tag: {
+					abilityUseRemaining: 600
+				}
+			}
+			title: "搜索蓝色永恒圣所的位置"
+			type: "command"
+		}
+		{
+			command: "/locate structure the_bumblezone:sempiternal_sanctum_green"
+			elevate_perms: true
+			icon: {
+				Count: 1
+				id: "the_bumblezone:essence_life"
+				tag: {
+					abilityUseRemaining: 1000
+				}
+			}
+			title: "搜索绿色永恒圣所的位置"
+			type: "command"
+		}
+		{
+			command: "/locate structure the_bumblezone:sempiternal_sanctum_red"
+			elevate_perms: true
+			icon: {
+				Count: 1
+				id: "the_bumblezone:essence_raging"
+				tag: {
+					abilityUseRemaining: 28
+				}
+			}
+			title: "搜索红色永恒圣所的位置"
+			type: "command"
+		}
+		{
+			command: "/locate structure the_bumblezone:sempiternal_sanctum_yellow"
+			elevate_perms: true
+			icon: {
+				Count: 1
+				id: "the_bumblezone:essence_radiance"
+				tag: {
+					abilityUseRemaining: 4800
+				}
+			}
+			title: "搜索黄色永恒圣所的位置"
+			type: "command"
+		}
+		{
+			command: "/locate structure the_bumblezone:sempiternal_sanctum_purple"
+			elevate_perms: true
+			icon: {
+				Count: 1
+				id: "the_bumblezone:essence_knowing"
+				tag: {
+					abilityUseRemaining: 1200
+				}
+			}
+			title: "搜索紫色永恒圣所的位置"
+			type: "command"
+		}
+		{
+			command: "/locate structure minecraft:ancient_city"
+			elevate_perms: true
+			icon: "minecraft:sculk_shrieker"
+			title: "搜索主世界幽匿古城的位置"
+			type: "command"
+		}
+		{
+			command: "/locate structure trials:trials_chambers"
+			elevate_perms: true
+			icon: "trials:trial_key_ominous"
+			title: "搜索主世界试炼密室的位置"
+			type: "command"
+		}
+		{
+			command: "/locate structure friendsandfoes:citadel"
+			elevate_perms: true
+			icon: {
+				Count: 1
+				id: "friendsandfoes:wildfire_crown"
+				tag: {
+					Damage: 0
+				}
+			}
+			title: "搜索下界野火城堡的位置"
+			type: "command"
+		}
+	]
+	title: "群蜂之息"
+}

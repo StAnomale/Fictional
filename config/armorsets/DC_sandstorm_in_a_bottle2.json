@@ -1,0 +1,31 @@
+{
+  "armorSetName": "DC_sandstorm_in_a_bottle2",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "cataclysm:sandstorm_in_a_bottle",
+      "mustBeEmpty": false
+    }
+  ],
+  "mainHand": {
+    "itemKey": "cataclysm:ancient_spear",
+    "mixAndMatch": [
+      "cataclysm:gauntlet_of_maelstrom",
+      "cataclysm:wrath_of_the_desert"
+      ],
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor_toughness",
+      "value": 0.3,
+      "modifierUUID": "1f9b202a-a20d-4473-8c7e-bbf050181a90",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

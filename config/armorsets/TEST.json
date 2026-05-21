@@ -1,0 +1,21 @@
+{
+  "armorSetName": "TEST",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "queen_bee:antenna",
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:magic_resistance",
+      "value": 10.0,
+      "modifierUUID": "e1e6e10e-0fe9-427b-81e8-260c69cd91a6",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

@@ -1,0 +1,37 @@
+{
+  "armorSetName": "phoenix_cape",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "lost_aether_content:phoenix_cape",
+      "mustBeEmpty": false
+    }
+  ],
+  "mainHand": {
+    "itemKey": "lost_aether_content:phoenix_sword",
+    "mixAndMatch": [
+      "lost_aether_content:phoenix_axe",
+      "lost_aether_content:phoenix_pickaxe",
+      "lost_aether_content:phoenix_hoe",
+      "lost_aether_content:phoenix_shovel",
+
+      "deep_aether:afterburner",
+      "aether:flaming_sword",
+      "aether:phoenix_bow"
+      ],
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_damage",
+      "value": 0.2,
+      "modifierUUID": "9aab9a4e-349b-4977-b84c-8fa28f79f278",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

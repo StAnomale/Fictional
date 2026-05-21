@@ -1,0 +1,343 @@
+{
+  "armorSetName": "TIME_contrary_chronicle_hostility2",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "kubejs:contrary_chronicle_hostility",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "royalvariations:pressing_gaze",
+      "value": 4.0,
+      "interactionType": "self",
+      "interactionDuration": 600,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false,
+      "conditions": [
+        {
+          "type": "timeRange",
+          "extra": "91110,91120"
+        }
+      ]
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:bad_omen",
+      "value": 4.0,
+      "interactionType": "self",
+      "interactionDuration": 600,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false,
+      "conditions": [
+        {
+          "type": "timeRange",
+          "extra": "22240,22440"
+        }
+      ]
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:weakness",
+      "value": 4.0,
+      "interactionType": "self",
+      "interactionDuration": 600,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false,
+      "conditions": [
+        {
+          "type": "timeRange",
+          "extra": "34800,34820"
+        }
+      ]
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:unluck",
+      "value": 4.0,
+      "interactionType": "self",
+      "interactionDuration": 1200,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false,
+      "conditions": [
+        {
+          "type": "timeRange",
+          "extra": "78200,78220"
+        }
+      ]
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:hunger",
+      "value": 4.0,
+      "interactionType": "self",
+      "interactionDuration": 600,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false,
+      "conditions": [
+        {
+          "type": "timeRange",
+          "extra": "21200,21220"
+        }
+      ]
+    },
+    {
+      "type": "effect",
+      "name": "eeeabsmobs:armor_lower_effect",
+      "value": 4.0,
+      "interactionType": "self",
+      "interactionDuration": 600,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false,
+      "conditions": [
+        {
+          "type": "timeRange",
+          "extra": "41300,41320"
+        }
+      ]
+    },
+    {
+      "type": "effect",
+      "name": "eeeabsmobs:erode_effect",
+      "value": 4.0,
+      "interactionType": "self",
+      "interactionDuration": 600,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false,
+      "conditions": [
+        {
+          "type": "timeRange",
+          "extra": "7600,7620"
+        }
+      ]
+    },
+    {
+      "type": "effect",
+      "name": "royalvariations:pressing_gaze",
+      "value": 4.0,
+      "interactionType": "self",
+      "interactionDuration": 600,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false,
+      "conditions": [
+        {
+          "type": "timeRange",
+          "extra": "79000,79020"
+        }
+      ]
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:bad_omen",
+      "value": 4.0,
+      "interactionType": "self",
+      "interactionDuration": 600,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false,
+      "conditions": [
+        {
+          "type": "timeRange",
+          "extra": "72400,72420"
+        }
+      ]
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:weakness",
+      "value": 4.0,
+      "interactionType": "self",
+      "interactionDuration": 600,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false,
+      "conditions": [
+        {
+          "type": "timeRange",
+          "extra": "46800,46820"
+        }
+      ]
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:unluck",
+      "value": 4.0,
+      "interactionType": "self",
+      "interactionDuration": 1200,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false,
+      "conditions": [
+        {
+          "type": "timeRange",
+          "extra": "47770,47790"
+        }
+      ]
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:mining_fatigue",
+      "value": 4.0,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false,
+      "conditions": [
+        {
+          "type": "timeRange",
+          "extra": "19600,19620"
+        }
+      ]
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:hunger",
+      "value": 4.0,
+      "interactionType": "self",
+      "interactionDuration": 600,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false,
+      "conditions": [
+        {
+          "type": "timeRange",
+          "extra": "34000,34020"
+        }
+      ]
+    },
+    {
+      "type": "effect",
+      "name": "eeeabsmobs:armor_lower_effect",
+      "value": 4.0,
+      "interactionType": "self",
+      "interactionDuration": 600,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false,
+      "conditions": [
+        {
+          "type": "timeRange",
+          "extra": "25400,25420"
+        }
+      ]
+    },
+    {
+      "type": "effect",
+      "name": "eeeabsmobs:erode_effect",
+      "value": 4.0,
+      "interactionType": "self",
+      "interactionDuration": 600,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false,
+      "conditions": [
+        {
+          "type": "timeRange",
+          "extra": "86800,86820"
+        }
+      ]
+    },
+    {
+      "type": "effect",
+      "name": "royalvariations:pressing_gaze",
+      "value": 4.0,
+      "interactionType": "self",
+      "interactionDuration": 600,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false,
+      "conditions": [
+        {
+          "type": "timeRange",
+          "extra": "55000,55020"
+        }
+      ]
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:bad_omen",
+      "value": 4.0,
+      "interactionType": "self",
+      "interactionDuration": 600,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false,
+      "conditions": [
+        {
+          "type": "timeRange",
+          "extra": "94400,94420"
+        }
+      ]
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:weakness",
+      "value": 4.0,
+      "interactionType": "self",
+      "interactionDuration": 600,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false,
+      "conditions": [
+        {
+          "type": "timeRange",
+          "extra": "28200,28220"
+        }
+      ]
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:unluck",
+      "value": 4.0,
+      "interactionType": "self",
+      "interactionDuration": 1200,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false,
+      "conditions": [
+        {
+          "type": "timeRange",
+          "extra": "25720,25740"
+        }
+      ]
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:hunger",
+      "value": 4.0,
+      "interactionType": "self",
+      "interactionDuration": 600,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false,
+      "conditions": [
+        {
+          "type": "timeRange",
+          "extra": "281000,281020"
+        }
+      ]
+    },
+    {
+      "type": "effect",
+      "name": "eeeabsmobs:armor_lower_effect",
+      "value": 4.0,
+      "interactionType": "self",
+      "interactionDuration": 600,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false,
+      "conditions": [
+        {
+          "type": "timeRange",
+          "extra": "234400,234420"
+        }
+      ]
+    },
+    {
+      "type": "effect",
+      "name": "eeeabsmobs:erode_effect",
+      "value": 4.0,
+      "interactionType": "self",
+      "interactionDuration": 600,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false,
+      "conditions": [
+        {
+          "type": "timeRange",
+          "extra": "28000,28200"
+        }
+      ]
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

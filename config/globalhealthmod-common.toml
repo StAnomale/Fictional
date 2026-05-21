@@ -1,0 +1,14 @@
+
+["Global Health Settings"]
+	#Health multiplier for entities (e.g. 2.0 for double health)
+	#Range: 0.1 ~ 100.0
+	health_multiplier = 2.0
+	#Set to true to use whitelist mode (only modify listed entities)
+	use_whitelist_mode = false
+	#Entities to exclude from health modification
+	#Format: modid:entity_id (e.g. minecraft:zombie)
+	blacklist = ["minecraft:player"]
+	#Entities to include in health modification (only if whitelist mode is enabled)
+	#Format: modid:entity_id (e.g. minecraft:creeper)
+	whitelist = ["minecraft:zombie", "minecraft:skeleton"]
+

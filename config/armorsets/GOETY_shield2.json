@@ -1,0 +1,32 @@
+{
+  "armorSetName": "tortoise_shell_shield",
+  "performanceMode": true,
+  "offHand": {
+    "itemKey": "minecraft:shield",
+    "mixAndMatch": [
+      "cataclysm:black_steel_targe",
+      "cataclysm:azure_sea_shield"
+      ],
+    "mustBeEmpty": false
+  },
+  "mainHand": {
+    "itemKey": "minecraft:iron_sword",
+    "mixAndMatch": [
+      "minecraft:golden_sword",
+      "cataclysm:black_steel_sword",
+      "minecraft:diamond_sword"
+      ],
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:penetration",
+      "value": 0.2,
+      "modifierUUID": "173f4a37-25b3-4f79-af4b-1688af215923",
+      "attributeOperation": 0,
+      "interactionType": "self"
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

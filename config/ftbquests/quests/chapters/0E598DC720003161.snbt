@@ -1,0 +1,688 @@
+{
+	autofocus_id: "707EB5F8834D7B6C"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	default_quest_size: 0.0d
+	filename: "0E598DC720003161"
+	group: "1921F41DC18E85FC"
+	icon: "minecraft:writable_book"
+	id: "0E598DC720003161"
+	order_index: 1
+	quest_links: [
+		{
+			disable_toast: true
+			id: "55A3EF52E1220BC9"
+			linked_quest: "5F5F41D5FBB669CB"
+			shape: "square"
+			size: 2.0d
+			x: 2.0d
+			y: 14.0d
+		}
+		{
+			disable_toast: true
+			id: "6CDB26D85BC6630B"
+			linked_quest: "71696EB3AA216CA6"
+			shape: "square"
+			size: 2.0d
+			x: -2.0d
+			y: 14.0d
+		}
+		{
+			disable_toast: true
+			id: "442D8DB809C72DD9"
+			linked_quest: "48A6D1327F3B85FC"
+			shape: "square"
+			x: -2.0d
+			y: 17.5d
+		}
+		{
+			disable_toast: true
+			id: "7675BF82C242E1E9"
+			linked_quest: "75112303AE1F195C"
+			shape: "square"
+			size: 3.0d
+			x: 0.0d
+			y: 10.5d
+		}
+		{
+			disable_toast: true
+			id: "796151515A727523"
+			linked_quest: "562F2F81CD5BA7BE"
+			shape: "square"
+			x: -2.0d
+			y: 18.5d
+		}
+		{
+			disable_toast: true
+			id: "77F6BC3811BD0B88"
+			linked_quest: "29B526066489A16B"
+			shape: "square"
+			x: -1.0d
+			y: 18.5d
+		}
+		{
+			disable_toast: true
+			id: "49A13BAF2FBEEE4C"
+			linked_quest: "69D27F9165363468"
+			shape: "square"
+			x: 1.0d
+			y: 18.5d
+		}
+		{
+			disable_toast: true
+			id: "3920E9D0A6F9FADE"
+			linked_quest: "750770764953DAD0"
+			shape: "square"
+			x: 2.0d
+			y: 18.5d
+		}
+		{
+			disable_toast: true
+			id: "6C54E95E0A1FD68D"
+			linked_quest: "01287164FDA92C8A"
+			shape: "square"
+			x: 2.0d
+			y: 17.5d
+		}
+	]
+	quests: [
+		{
+			description: [
+				"&o&7           “ 欢迎来到这片浩瀚的梦田，"
+				"&o&7                          愿你也能儿在做上一段悠远的梦。”&r"
+				""
+				"“&7&l虚&b&l饰&7&l作品 &f- &c&lFic&e&ltional&r”整合包是以“饰品搭配”和“弹幕战斗”为主的魔改冒险包，旨在以原版理念扩展玩家的冒险生存，它的另一个备选名字是“我的世界+”。"
+				""
+				"整合包会采取各种措施充实玩家的冒险体验，通过调整配方、扩展用途或者将其制作为饰品，赋予原本不合理、无价值的内容全新的探索价值。"
+				""
+				"这里 &n没有&r 夸张到百万的敌人血量，也 &n没有&r 对玩家前期的大量削弱折磨。它不是一个大型的、颠覆性的整合包，而是对原有内容的“优化”。"
+				""
+				"按 &aJ键&r 即可快速打开 [任务界面]。"
+				"按 &aB键&r 即可快速打开 [百科搜索] 。"
+				""
+				""
+				"制作者： &e绘名青棺&r(Silentmo) "
+				"联系群： &b693928637&r(主群)"
+			]
+			icon: "minecraft:writable_book"
+			icon_scale: 2.0d
+			id: "707EB5F8834D7B6C"
+			rewards: [{
+				auto: "enabled"
+				command: "/curios replace chronicle 0 @p with kubejs:contrary_chronicle_normal"
+				elevate_perms: true
+				icon: "minecraft:writable_book"
+				id: "154596E385292CAD"
+				silent: true
+				title: "默认选择普通难度"
+				type: "command"
+			}]
+			shape: "square"
+			size: 3.0d
+			tasks: [{
+				disable_toast: true
+				elapsedTime: 1L
+				id: "4A11E8FEC7CD9FC6"
+				title: "自动领取"
+				type: "questsadditions:time"
+			}]
+			title: "引导的一页"
+			x: 0.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["707EB5F8834D7B6C"]
+			description: [
+				"能够快速了解物品的&n来源&r和&n用途&r。"
+				""
+				"将鼠标移动到物品上："
+				"■ 按住 &aR键 &r显示该物品的合成配方"
+				"■ 按住 &aU键&r 显示该物品的用途配方"
+				""
+				"此外，JEI还在背包的右侧添加了物品查询栏，通过其下方的 &b搜索&r 功能来查询相关词条的物品。"
+				""
+				"■ 点击 &a鼠标左键&r 显示该物品的合成配方"
+				"■ 点击 &a鼠标右键&r 显示该物品的用途配方"
+				""
+				"在背包界面，按住 &aA键&r  可以将该物品收藏在左侧；在工作台界面中，通过点击 &e已收藏&r 的物品，然后点击物品界面下方的 “&a+&r” 号以快速进行配方合成。"
+			]
+			icon: "minecraft:crafting_table"
+			id: "0154028C29BAC779"
+			shape: "square"
+			size: 2.0d
+			subtitle: "最重要的辅助工具"
+			tasks: [{
+				id: "691742B0CEA174AD"
+				title: "JEI物品管理器"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 14.0d
+		}
+		{
+			description: [
+				"通过配方修改将部分装备的制作并入了锻造台系统，通过锻造台制作的装备将&e继承&r此前的附魔能力。打造盔甲饰纹时，根据锻造饰纹的材料将获得&d额外的属性加成&r。"
+				""
+				"■ 铜锭：+20%游泳速度"
+				"■ 铁锭：+1.5点护甲"
+				"■ 金锭：+1点盔甲韧性，使猪灵保持中立"
+				"■ 红石：+10%移速，+1格台阶高度"
+				"■ 青金石：+15%经验获取"
+				"■ 绿宝石：+20%村庄信誉"
+				"■ 下界石英：+2点荆棘伤害，+25%火抗"
+				""
+				"■ 紫水晶：+5%暴击率，+5%盔甲韧性"
+				"■ 钻石：+1点护甲值，+1点盔甲韧性"
+				"■ 下界合金：+10%护甲值和盔甲韧性，+50%火抗"
+				"■ 末影合金：+10%攻击伤害和经验获取，虚空漂浮"
+				""
+				"■ 诅咒金属锭：+5%法术强效，+5%护甲值"
+				"■ 黑暗金属锭：+5%法术强效，+5%冷却缩减"
+				""
+				"{@pagebreak}"
+				"■ 铁木锭：+5%护甲值，+5%攻击速度"
+				"■ 钢叶：+5%护甲值，+5%经验获取"
+				"■ 娜迦鳞片：+1点攻击伤害，+25%火抗"
+				"■ 骑士金属锭：+15%护甲值"
+				"■ 砷铅铁矿石：+5%暴击率、移动速度和经验获取"
+				"■ 炽铁锭：+10%攻击伤害，+25%火抗"
+				""
+				"■ 紫晶：+1点护甲值，+5%移动速度"
+				"■ 穹玉：+1点盔甲韧性，+5%移动速度"
+				"■ 金琥珀：+0.5点附加伤害，+5%移动速度"
+				"■ 重力晶：+5%弹丸伤害，+5%护甲穿透"
+				"■ 海皇纱：+15%盔甲韧性"
+				"■ 风锻强化板：+7.5%附加伤害，+7.5%经验获取"
+				"■ 武神合金锭：+15%攻击伤害，+10%经验获取"
+				"■ 凤凰合金锭：+10%暴击率，+50%火焰抗性"
+				"■ 云母钢：+10%暴击伤害，+10%最大生命"
+				""
+				"■ 远古金属锭：+10%护甲穿透，+10%经验获取"
+				"■ 凋零合金锭：+5%暴击率、护甲值和攻击伤害"
+				"■ 咒魂锭：+0.5点附加伤害，+10%盔甲韧性"
+				"■ 腾炎锭：+10%攻击伤害，+10%护甲穿透"
+			]
+			id: "51B678DCE9F00875"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				consume_items: false
+				id: "111D420CFB0B9040"
+				item: "minecraft:smithing_table"
+				type: "item"
+			}]
+			title: "锻造系统"
+			x: 2.0d
+			y: 15.5d
+		}
+		{
+			description: [
+				"刷怪笼在刷出 &n&b10次&r 生物后将会&c损毁&r。"
+				""
+				"所有怪物在生成时有 &b&n15%&r 概率为&e冠军精英怪&r，根据其星级获得&d随机词条&r和&c属性提升&r。部分怪物生成时有概率为&d突变生物&r或&e皇家变种&r。部分BOSS单位以及特殊生物在生成时将固定获得冠军精英怪加成。"
+				""
+				"所有精英怪都将获得&n生命恢复&r和&n抗性提升&r效果，每星级将获得对应等级的&e虚饰的空白&r效果，额外提升1点&c附加伤害&r、5%&c护甲穿透&r、5%&c暴击率&r和5%&c暴击抗性&r、10%&d魔法抗性&r、10%&b闪避率&r；二星及以上将获得&e发光&r效果。"
+				""
+				"精英怪词条如下："
+				""
+				"适应 - 相同类型的连续攻击将持续衰减，至多&c40%&r；"
+				"极寒 - 持续发射冰弹并减速目标；"
+				"灰烬 - 持续发射火球造成爆炸与火焰效果；"
+				"抑制 - 减少&c60%&r间接攻击的伤害（例如箭矢）；"
+				"亵渎 - 在目标下方生成伤害云持续造成&d魔法伤害&r；"
+				"急速 - 大幅提高移动速度；"
+				"感染 - 每隔一段时间会生成蠹虫；"
+				"瘫痪 - 攻击时有概率使目标无法移动；"
+				"爆震 - 攻击击退能力增加；"
+				"活力 - 每秒恢复&c2点&r生命，失去目标时恢复&c20点&r生命；"
+				"熔融 - 获得抗火，提升攻击伤害且会点燃目标；"
+				"瘟疫 - 使附近的生物陷入&a中毒&r状态；"
+				"反射 - 受到的部分近战伤害反射（至多&c20点&r）；"
+				"创伤 - 概率使目标易伤，且回复效果降低；"
+				"磁力 - 持续将周围的目标拉向自己；"
+				"监禁 - 每次攻击将会有概率监禁目标。"
+				""
+				"保护（&c已禁用&r） - 每隔一段时间获得伤害免疫效果。"
+			]
+			icon: "trials:ominous_bottle"
+			id: "14E73E540B684981"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "67B4B3471E590A91"
+				title: "难度系统"
+				type: "checkmark"
+			}]
+			title: "难度系统"
+			x: 2.0d
+			y: 16.5d
+		}
+		{
+			description: [
+				"使用近战武器时可 &a按住左键&r 来持续进行攻击。部分武器在攻击后可以射出弹幕，达到类似泰拉瑞亚的效果。"
+				""
+				"使用弓弩等蓄力武器时可 &a按住右键&r 自动射击，此时 &a按住shift键&r 阻止自动射击。取消弹射物命中后的&e&n无敌帧&r&r。"
+				""
+				"按 &aF5键&r 切换视角，可切换至&n&e越肩视角&r&r。"
+				""
+				"饰品在死亡时 &c&n不会掉落&r&r 。在死亡地点生成一座墓碑储存你的物品，挖掘墓碑或在墓碑上按 &ashift键&r 收回物品。同时，召唤一只以你为原型的 &b幽灵&r 帮助你战斗。"
+				""
+				"整合包对伤害计算公式进行了修改，以适配各种装备道具带来的数值提升。最终伤害=&c伤害值&r*16/(16+&6护甲值&r)*20/(20+&b盔甲韧性&r)*20/(20+&d保护附魔系数&r)。护甲值和盔甲韧性至多将伤害降低至&c10%&r。"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:iron_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "62E8755DC8C85AE5"
+			shape: "square"
+			tasks: [{
+				id: "27787A630BD8C496"
+				title: "战斗修改"
+				type: "checkmark"
+			}]
+			title: "战斗修改"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			description: [
+				"添加了许多新附魔，它们的附魔书都有 &a独特纹理&r 和相应的 &a效果描述&r 。对附魔的 &d兼容&r 进行调整，例如基础的保护或锋利附魔不再与同类附魔冲突。"
+				""
+				"如果要查询附魔，请在搜索框中 &e&n输入中文&r 进行搜索，拼音搜索未能兼容目前的附魔描述。"
+				""
+				"&e砂轮&r现在可以 &d转移附魔&r 。可以将装备的附魔转移至附魔书上，也可以将附魔书的附魔转移至另一本附魔书上。"
+			]
+			icon: "minecraft:enchanting_table"
+			id: "221CA208D1706EDB"
+			shape: "square"
+			size: 1.0d
+			tasks: [
+				{
+					consume_items: false
+					id: "7BBF7E698AF1877B"
+					item: "minecraft:enchanting_table"
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "42A8FAF655D5DBBA"
+					item: "minecraft:grindstone"
+					type: "item"
+				}
+			]
+			title: "附魔系统"
+			x: -2.0d
+			y: 15.5d
+		}
+		{
+			description: [
+				"近战 &a长按左键&r 自动攻击。部分近战武器会发射&n弹幕&r。"
+				"弓箭 &a长按右键&r 自动射击。&e副手&r或按 &ashift键&r 阻止射击。"
+				"&8弓类武器的自动射击现在需要佩戴猎人盟约触发。&r"
+				""
+				"按 &aR键&r 可进行翻滚，具有6刻&e无敌帧&r，空中翻滚将大幅提升翻滚距离。附魔可提升翻滚距离和储存次数。"
+				""
+				"按 &aF5&r 可切换视角，新增&n越肩视角&r。"
+				""
+				"整合包对盔甲提供的防护效果进行了修改：&9最终伤害&r=&c受到的伤害&r*MAX(20/(20+&6护甲值&r),0.1)*MAX(20/(20+&b盔甲韧性&r),0.1)*MAX(20/(20+&d保护附魔等级&r),0.2)"
+				""
+				"■ 移除基础 &e无敌帧&r ；在造成伤害后将使目标获得0.5秒的 &e动态抗性&r 效果，减少其 &n40%&r 所受伤害。"
+				""
+				"■ &e弹丸伤害&r 将提升枪炮射击的弹丸所造成的伤害，弹丸属于远程弹射物，但能够部分&n无视远程免疫&r机制。"
+				" "
+				"■ &e命中率&r 将等额无视目标的 &e闪避率&r 值。根据目标的 &e闪避率&r 值，攻击时有相应概率&n无法造成伤害&r。"
+				"■ &e暴击率&r 将根据概率造成等同 &e暴击伤害&r 倍率的伤害加成，这个伤害受到 &e暴击抗性&r 的百分比减免。"
+				""
+				"■ &e护甲穿透&r 将百分比无视目标的 &e护甲值&r 和 &e盔甲韧性&r 值。目标的 &e护甲值&r 和 &e盔甲韧性&r 将分别提供伤害减免。"
+				"■ &e附加伤害&r 将使&n每段&r攻击额外附加等量 &e魔法伤害&r，这个伤害受到目标 &e魔法抗性&r 的百分比减免。"
+				""
+				"任何人只要拥有法术强效，就会触发“&d&n魔能渴望&r”:"
+				"&c■ 若你的法术强效大于0点，你造成的伤害下降50%"
+				"■ 若你的法术强效达到4点，你造成的伤害提升10%"
+				"&8法术强效每超过1点，提升10%造成伤害(至多240%)"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:iron_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7D7AF92F7E56913E"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "6B0B4F472F43B5D1"
+				title: "奇异饰品"
+				type: "checkmark"
+			}]
+			title: "战斗系统"
+			x: -2.0d
+			y: 16.5d
+		}
+		{
+			description: [
+				"&o&7           “ 欢迎来到这片浩瀚的梦田，"
+				"&o&7                          愿你也能儿在做上一段悠远的梦。”&r"
+				""
+				"“&7&l虚&b&l饰&7&l作品 &f- &c&lFic&e&ltional&r”整合包旨在以原版理念扩展玩家的冒险生存，整合包会采取各种措施来充实玩家的冒险体验，它的另一个备选名字是“我的世界+”，意思是在原版的基础上进行一些合理的改动，以此达到更好的游戏体验。"
+				""
+				"作为一个侧重冒险的整合包，这里 &n没有&r 夸张到百万的敌人血量，也 &n没有&r 对玩家前期的大量削弱折磨。"
+				""
+				"整合包中不会添加太多模组，所做的更多是对已有的内容进行改进，它不是一个大型的、颠覆性的整合包，而是对原有内容的“优化”。例如为 &e奇异饰品&r、&e暮色森林&r 、&e灾变&r 等模组的道具拓展用途，将这些模组添加的物品制作成 &b饰品&r 。"
+				""
+				"按 &aJ键&r 即可快速打开 [任务界面]。"
+				"按 &aB键&r 即可快速打开 [百科搜索] 。"
+				""
+				""
+				"制作者： &e绘名青棺&r(Silentmo) "
+				"联系群： &b693928637&r(主群)"
+			]
+			hide_details_until_startable: true
+			hide_lock_icon: true
+			hide_text_until_complete: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "minecraft:writable_book"
+			icon_scale: 2.0d
+			id: "2C2FBFCC57D795F1"
+			invisible: true
+			rewards: [{
+				description: "本整合包由 绘名青棺(Silentmo) 制作，联系QQ群：693928637"
+				id: "3885CFAC8196A627"
+				type: "toast"
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				days: 10000000
+				disable_toast: true
+				id: "750B8BB12474C499"
+				type: "questsadditions:days"
+			}]
+			title: "引导的一页"
+			x: 0.0d
+			y: -77.5d
+		}
+		{
+			dependencies: ["39398D53903FE58D"]
+			description: ["使用时需要按住右键，能够 &d&n传送&r 到已记录的石碑坐标，有冷却时间。在受到伤害后会被&c打断使用&r。"]
+			disable_toast: true
+			id: "6C4C75CD5AAB67CB"
+			rewards: [{
+				id: "62CD3D550E28CB75"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			tasks: [{
+				disable_toast: true
+				id: "6934080E3546ECD9"
+				item: {
+					Count: 1
+					id: "waystones:warp_stone"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 18.5d
+		}
+		{
+			dependencies: ["39398D53903FE58D"]
+			description: ["使用时需要按住右键，能够 &d&n传送&r 到已记录的石碑坐标，有冷却时间。在受到伤害后会被&c打断使用&r。"]
+			disable_toast: true
+			id: "1283A4708983C7E2"
+			rewards: [{
+				id: "778FBB4B45CA5B11"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			tasks: [{
+				disable_toast: true
+				id: "13069D911B397271"
+				item: {
+					Count: 1
+					id: "waystones:warp_stone"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 18.5d
+		}
+		{
+			dependencies: ["39398D53903FE58D"]
+			description: ["使用时需要按住右键，能够 &d&n传送&r 到已记录的石碑坐标，有冷却时间。在受到伤害后会被&c打断使用&r。"]
+			disable_toast: true
+			id: "5923F7E336B7CC23"
+			rewards: [{
+				id: "279202D7B480CEF3"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			tasks: [{
+				disable_toast: true
+				id: "081792951F4A8FCA"
+				item: {
+					Count: 1
+					id: "waystones:warp_stone"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 18.5d
+		}
+		{
+			dependencies: ["39398D53903FE58D"]
+			description: ["使用时需要按住右键，能够 &d&n传送&r 到已记录的石碑坐标，有冷却时间。在受到伤害后会被&c打断使用&r。"]
+			disable_toast: true
+			id: "053CDAA9BE53571C"
+			rewards: [{
+				id: "3A552AEFB49B9338"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			tasks: [{
+				disable_toast: true
+				id: "2B43587CAAB873BB"
+				item: {
+					Count: 1
+					id: "waystones:warp_stone"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 18.5d
+		}
+		{
+			dependencies: ["39398D53903FE58D"]
+			description: ["使用时需要按住右键，能够 &d&n传送&r 到已记录的石碑坐标，有冷却时间。在受到伤害后会被&c打断使用&r。"]
+			disable_toast: true
+			id: "5872043334286B1F"
+			rewards: [{
+				id: "3DF1D08FF236220B"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			tasks: [{
+				disable_toast: true
+				id: "4EC83ACF612549C1"
+				item: {
+					Count: 1
+					id: "waystones:warp_stone"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 18.5d
+		}
+		{
+			dependencies: ["39398D53903FE58D"]
+			description: ["使用时需要按住右键，能够 &d&n传送&r 到已记录的石碑坐标，有冷却时间。在受到伤害后会被&c打断使用&r。"]
+			disable_toast: true
+			id: "489310D7FC52582B"
+			rewards: [{
+				id: "445E74A8B4106ACD"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			tasks: [{
+				disable_toast: true
+				id: "44439E7A620CC708"
+				item: {
+					Count: 1
+					id: "waystones:warp_stone"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 17.5d
+		}
+		{
+			dependencies: ["39398D53903FE58D"]
+			description: ["使用时需要按住右键，能够 &d&n传送&r 到已记录的石碑坐标，有冷却时间。在受到伤害后会被&c打断使用&r。"]
+			disable_toast: true
+			id: "34FFEE2B7458A71B"
+			rewards: [{
+				id: "77B7463B7128CDA4"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			tasks: [{
+				disable_toast: true
+				id: "38AEFCEF195A8B58"
+				item: {
+					Count: 1
+					id: "waystones:warp_stone"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: 14.5d
+		}
+		{
+			description: [
+				"当你定居后，你可以放置一个&d传送石碑/共享石碑&r，以便你能快速回家。背包内的传送功能拥有 &n2分钟&r 的冷却时间，你也可以借助 &d传送石&r 或者其他传送石碑进行传送。"
+				""
+				"传送石使用时需要按住右键，能够 &d&n传送&r 到已记录的石碑坐标，有冷却时间。在受到伤害后会被&c打断使用&r。"
+				""
+				"在多人游戏中，放置的&n共享石碑&r无需激活即可作为坐标传送。其他玩家可以使用&e相同的共享石碑&r传送至此。"
+			]
+			icon: {
+				Count: 1
+				id: "waystones:warp_stone"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5E81BEE742E1391D"
+			shape: "square"
+			size: 1.0d
+			subtitle: "在背包内可直接传送"
+			tasks: [{
+				id: "1F47813BA9D2C1AE"
+				item: "waystones:waystone"
+				type: "item"
+			}]
+			title: "传送石碑"
+			x: 0.0d
+			y: 18.5d
+		}
+		{
+			description: [
+				"本整合包始终是免费发布。在Bilibili搜索“绘名青棺”即可找到官方账号，整合包的主要更新都会发视频。"
+				""
+				"除此之外，也可在MC百科、BBSMC、XyeBBS等网站上找到本整合包。可加群(&n693928637&r)反馈问题。"
+			]
+			icon: "kubejs:cucumber2"
+			id: "15744B8EAA38D1F2"
+			shape: "square"
+			size: 1.0d
+			subtitle: "如果你惹恼了我，那我会变得毛绒绒的"
+			tasks: [{
+				id: "67C9318393891497"
+				item: "kubejs:cucumber2"
+				type: "item"
+			}]
+			title: "制作者：绘名青棺"
+			x: -0.5d
+			y: 20.5d
+		}
+		{
+			description: [
+				"视频制作：好像茫茫"
+				"优化贡献：OneKissADay"
+				"代码贡献：FXT1206、林芝酱、折戏鸢"
+				"吉祥物团：润润、凯西、观测员LA酱、大梦千秋"
+				""
+				"同时，感谢MC百科社区的大佬们写下的教程。"
+			]
+			icon: "kubejs:citlali_ingot"
+			id: "3677514D672F5711"
+			shape: "square"
+			size: 1.0d
+			subtitle: "其实都是蛐蛐笨蛋罢了"
+			tasks: [{
+				id: "55AF00B8132475DB"
+				item: "kubejs:citlali_ingot"
+				type: "item"
+			}]
+			title: "贡献者名单"
+			x: 0.5d
+			y: 20.5d
+		}
+		{
+			description: [
+				"本整合包始终是免费发布。在Bilibili搜索“绘名青棺”即可找到官方账号，整合包的主要更新都会发视频。"
+				""
+				"除此之外，也可在MC百科、BBSMC、XyeBBS等网站上找到本整合包。可加群(&n693928637&r)反馈问题。"
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "kubejs:cucumber2"
+			id: "0C8D164473EF887F"
+			invisible: true
+			shape: "square"
+			size: 1.0d
+			subtitle: "如果你惹恼了我，那我会变得毛绒绒的"
+			tasks: [{
+				id: "4C9DF3697623FF19"
+				item: "kubejs:cucumber2"
+				type: "item"
+			}]
+			title: "制作者：绘名青棺"
+			x: 0.0d
+			y: 83.0d
+		}
+	]
+	title: "引导的一页"
+}

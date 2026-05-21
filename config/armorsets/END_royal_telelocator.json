@@ -1,0 +1,51 @@
+{
+  "armorSetName": "END_royal_telelocator",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "royalvariations:royal_telelocator",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:accuracy",
+      "value": 0.1,
+      "modifierUUID": "e47ba522-4ea7-4c61-aaca-6b768ba0e374",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_damage",
+      "value": 3.0,
+      "modifierUUID": "561ae420-2879-4435-ac31-a4ae5a587c7b",
+      "attributeOperation": 0,
+      "interactionType": "self"
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.movement_speed",
+      "value": 0.10,
+      "modifierUUID": "6ffa474b-12b6-4bd4-84b3-3cd796fd3da4",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor_toughness",
+      "value": -0.2,
+      "modifierUUID": "6f255b69-9dbe-4ebc-a2fe-1b03f3ea4a91",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

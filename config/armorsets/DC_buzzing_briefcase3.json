@@ -1,0 +1,27 @@
+{
+  "armorSetName": "DC_buzzing_briefcase3",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "the_bumblezone:buzzing_briefcase",
+      "mustBeEmpty": false
+    }
+  ],
+  "head": {
+    "itemKey": "queen_bee:antenna",
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor_toughness",
+      "value": 0.4,
+      "modifierUUID": "547b5135-ef80-4888-b07e-cfc0e3aa6b0b",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

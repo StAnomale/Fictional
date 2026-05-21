@@ -1,0 +1,27 @@
+{
+  "armorSetName": "iron_ring",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "aether:iron_ring",
+      "mustBeEmpty": false
+    }
+  ],
+  "mainHand": {
+    "itemKey": "minecraft:iron_sword",
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_damage",
+      "value": 0.2,
+      "modifierUUID": "7cd5b04a-012f-4d52-929e-c8d9bb47a2a3",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

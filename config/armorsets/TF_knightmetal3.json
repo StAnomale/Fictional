@@ -1,0 +1,31 @@
+{
+  "armorSetName": "TF_knightmetal3",
+  "performanceMode": true,
+  "mainHand": {
+    "itemKey": "twilightforest:knightmetal_sword",
+    "mixAndMatch": [
+      "twilightforest:knightmetal_pickaxe",
+      "twilightforest:knightmetal_axe"
+    ],
+    "mustBeEmpty": false
+  },
+  "head": {
+        "itemKey": "twilightforest:phantom_helmet"
+  },
+  "chest": {
+      "itemKey": "twilightforest:phantom_chestplate"
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_damage",
+      "value": 0.25,
+      "modifierUUID": "c2f3da69-fbf8-46b6-9596-93017bd7bcd7",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

@@ -1,0 +1,32 @@
+{
+  "armorSetName": "TF_bone_reptile",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "cataclysm:bone_reptile_helmet",
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "cataclysm:bone_reptile_chestplate",
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "cataclysm:curse_of_desert",
+      "interactionType": "immunity",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor_toughness",
+      "value": 0.2,
+      "modifierUUID": "aaee12ee-734a-4bdc-af25-45059132dd60",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

@@ -1,0 +1,28 @@
+{
+  "armorSetName": "floaty_scarf",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "deep_aether:floaty_scarf",
+      "mustBeEmpty": false
+    },
+    {
+      "itemKey": "deep_aether:stormforged_gloves",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:magic_damage",
+      "value": 0.5,
+      "modifierUUID": "6515a8da-9f42-41e1-a63d-75cfae79de02",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  
+  "hideGeneratedTooltip": true
+}

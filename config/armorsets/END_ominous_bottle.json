@@ -1,0 +1,43 @@
+{
+  "armorSetName": "END_ominous_bottle",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "trials:ominous_bottle",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:accuracy",
+      "value": 0.1,
+      "modifierUUID": "019d995b-17b5-4c3e-bd83-1e70c45b00d4",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "obscure_api:magic_damage",
+      "value": 1.0,
+      "modifierUUID": "85bede4a-6991-40e6-b415-0be1f6cb6d4d",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_damage",
+      "value": -0.2,
+      "modifierUUID": "f1b6bcf9-3d62-4d8e-b3e1-45404a2d27e8",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

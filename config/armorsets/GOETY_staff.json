@@ -1,0 +1,33 @@
+{
+  "armorSetName": "nameless_staff",
+  "performanceMode": true,
+  "mainHand": {
+    "itemKey": "goety:dark_wand",
+    "mixAndMatch": [
+      "goety:necro_staff",
+	    "goety:wild_staff",
+	    "goety:ominous_staff",
+	    "goety:geo_staff",
+	    "goety:wind_staff",
+	    "goety:storm_staff",
+	    "goety:frost_staff",
+	    "goety:nether_staff",
+	    "goety:void_staff",
+	    "goety:abyss_staff"
+      ],
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "goety:void_potency",
+      "value": 1.0,
+      "modifierUUID": "76400dbb-f098-4219-b5ba-d900b06b4ed1",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

@@ -1,0 +1,59 @@
+{
+  "armorSetName": "totem_of_banishment",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "illageandspillage:totem_of_banishment",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "minecraft:weakness",
+      "interactionType": "immunity",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:mining_fatigue",
+      "interactionType": "immunity",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_damage",
+      "value": 0.3,
+      "modifierUUID": "62b42972-9ddd-474d-9f9b-52a24a99d2ad",
+      "attributeOperation": 1,
+      "interactionType": "self"
+    },
+    {
+      "type": "attribute",
+      "name": "obscure_api:magic_damage",
+      "value": -0.3,
+      "modifierUUID": "693dec3e-99de-40e0-b26a-f439b37094fd",
+      "attributeOperation": 2,
+      "interactionType": "self"
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_speed",
+      "value": 0.3,
+      "modifierUUID": "22de36da-080e-4962-b421-079046be9132",
+      "attributeOperation": 1,
+      "interactionType": "self"
+    },
+    {
+      "type": "attribute",
+      "name": "forge:entity_reach",
+      "value": -0.6,
+      "modifierUUID": "689e445f-0ddb-47b6-94e3-3b497848d837",
+      "attributeOperation": 1,
+      "interactionType": "self"
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

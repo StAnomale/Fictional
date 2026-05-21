@@ -1,0 +1,2246 @@
+{
+	autofocus_id: "5AC10A2447BA7FFC"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "44ECD44A6EDE9261"
+	group: "398A6045F9A23D02"
+	icon: "minecraft:gold_ingot"
+	id: "44ECD44A6EDE9261"
+	order_index: 2
+	quest_links: [
+		{
+			id: "49F45C043E19F751"
+			linked_quest: "41B42BB5CDE66DA2"
+			shape: "square"
+			x: -5.5d
+			y: -3.5d
+		}
+		{
+			id: "28E4097282496FA5"
+			linked_quest: "04ADE801C3BF8AEC"
+			shape: "square"
+			x: -5.5d
+			y: -2.5d
+		}
+	]
+	quests: [
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:mending"
+						lvl: 1s
+					}]
+				}
+			}
+			id: "70AF0B6A8135A118"
+			rewards: [{
+				id: "48F1C58D42D9B7B1"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:mending"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				consume_items: true
+				count: 10L
+				disable_toast: true
+				id: "0A63B7BCF51BFA01"
+				item: "kubejs:compressed_amethyst"
+				type: "item"
+			}]
+			title: "经验修补"
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "veinmining:vein_mining"
+						lvl: 1s
+					}]
+				}
+			}
+			id: "37C1EE11D551B486"
+			rewards: [{
+				id: "7C3ADD48CBB8CB5B"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "veinmining:vein_mining"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				consume_items: true
+				count: 10L
+				disable_toast: true
+				id: "39EA08276F1A7559"
+				item: "kubejs:compressed_amethyst"
+				type: "item"
+			}]
+			title: "连锁采集"
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["5AC10A2447BA7FFC"]
+			description: ["紫水晶是 &e&n伊甸银行&r 重要的货币之一，具有相当的购买力。您可以考虑建造一座属于您自己的&d紫水晶农场&r，或是向 &e&n蜜蜂女王&r 置换您拥有的&n紫水晶块&r。"]
+			disable_toast: true
+			icon: "artifacts:mimic_spawn_egg"
+			id: "14A491050B25EA7F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "47E2B29C173CBAED"
+				table_id: 2514079791446414624L
+				type: "loot"
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				consume_items: true
+				count: 40L
+				disable_toast: true
+				id: "296B734D9A736E80"
+				item: "kubejs:compressed_amethyst"
+				type: "item"
+			}]
+			title: "购买饰品"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"5AC10A2447BA7FFC"
+				"76AD0F30202D5CAB"
+			]
+			description: ["尊敬的客人，这是属于您的“利息”，请您一定要收下。您不需要为此支付任何代价，如果还有其他需求，请随时吩咐，伊甸银行竭诚为您服务。"]
+			icon: "minecraft:gold_ingot"
+			id: "2FA8B0B6F37C0F94"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5E2F76AF6A903679"
+					table_id: 2514079791446414624L
+					type: "loot"
+				}
+				{
+					id: "1FA11BE5C30DB1FB"
+					type: "xp"
+					xp: 500
+				}
+			]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				advancement: "lootr:10loot"
+				criterion: ""
+				disable_toast: true
+				id: "32D77580D661A211"
+				type: "advancement"
+			}]
+			title: "“利息”"
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			description: ["尊敬的客人，欢迎来到伊甸银行。您有任何需求，请随时吩咐，伊甸银行竭诚为您服务。"]
+			icon: "minecraft:gold_ingot"
+			icon_scale: 2.0d
+			id: "5AC10A2447BA7FFC"
+			shape: "square"
+			size: 3.0d
+			tasks: [{
+				id: "488734115A27D610"
+				title: "欢迎来到伊甸银行"
+				type: "checkmark"
+			}]
+			title: "伊甸银行"
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2FA8B0B6F37C0F94"
+				"5AC10A2447BA7FFC"
+			]
+			description: ["尊敬的客人，这是属于您的“利息”，请您一定要收下。您不需要为此支付任何代价，如果还有其他需求，请随时吩咐，伊甸银行竭诚为您服务。"]
+			icon: "minecraft:gold_ingot"
+			id: "41D8B4902EC93A7E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "67DC638966F6567F"
+					table_id: 2514079791446414624L
+					type: "loot"
+				}
+				{
+					id: "191635AFF6F18DEE"
+					type: "xp"
+					xp: 500
+				}
+			]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				advancement: "lootr:50loot"
+				criterion: ""
+				disable_toast: true
+				id: "41C0268A8C62EC63"
+				type: "advancement"
+			}]
+			title: "“利息”"
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"5AC10A2447BA7FFC"
+				"356D9C298B852A11"
+			]
+			description: [
+				"尊敬的客人，这是属于您的“利息”，请您一定要收下。您不需要为此支付任何代价，如果还有其他需求，请随时吩咐，伊甸银行竭诚为您服务。"
+				""
+				"&8在“探索的时光”进度中，除去原版的所有群系外，还有一种模组群系，名为“微光荒野”。"
+			]
+			icon: "minecraft:gold_ingot"
+			id: "102E0FF3F315CB0B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4C3A86E7D7E3EEEB"
+					table_id: 2514079791446414624L
+					type: "loot"
+				}
+				{
+					id: "25E21185B9E52AEB"
+					type: "xp"
+					xp: 500
+				}
+			]
+			shape: "square"
+			size: 2.0d
+			tasks: [
+				{
+					advancement: "minecraft:adventure/adventuring_time"
+					criterion: ""
+					disable_toast: true
+					id: "2F49C0F1A61577D7"
+					type: "advancement"
+				}
+				{
+					advancement: "minecraft:nether/explore_nether"
+					criterion: ""
+					id: "7BC54D2A21F07311"
+					type: "advancement"
+				}
+				{
+					advancement: "deep_aether:explore_aether"
+					criterion: ""
+					id: "666FA14FEBC0BB6D"
+					type: "advancement"
+				}
+			]
+			title: "“利息”"
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"5AC10A2447BA7FFC"
+				"04ADE801C3BF8AEC"
+				"41B42BB5CDE66DA2"
+			]
+			description: [
+				"尊敬的客人，这是属于您的“利息”，请您一定要收下。您不需要为此支付任何代价，如果还有其他需求，请随时吩咐，伊甸银行竭诚为您服务。"
+				""
+				"&8完成“狩猎全突变体”成就后，将获得1只变异合剂W宠物，输入 /concoctionw 指令可调整其相关设置。"
+			]
+			icon: "minecraft:gold_ingot"
+			id: "57361B7C8775BF91"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "69B3C4B3858191DF"
+					table_id: 2514079791446414624L
+					type: "loot"
+				}
+				{
+					id: "6E50C1135C0D962B"
+					type: "xp"
+					xp: 500
+				}
+			]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				advancement: "mutantmore:mutantmore/kill_all_mutants"
+				criterion: ""
+				id: "478033DC2E8CD068"
+				type: "advancement"
+			}]
+			title: "“利息”"
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"尊敬的客人，谨遵您的要求。如果还有其他需求，请随时吩咐，伊甸银行竭诚为您服务。"
+				""
+				"&8部分突变生物在关闭生物破坏时也能破坏方块，需要在mutantmore/grouped_options-common文件关闭。"
+				""
+				"&8完成“狩猎全突变体”成就后，将获得1只变异合剂W宠物，输入 /concoctionw 指令可调整其相关设置。"
+			]
+			icon: "minecraft:clock"
+			id: "5F5F41D5FBB669CB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2A3F81E525C0FDC6"
+				table_id: 7632978315385902251L
+				title: "您的选择"
+				type: "choice"
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				disable_toast: true
+				id: "6418B8E34337EF9E"
+				title: "您的选择"
+				type: "checkmark"
+			}]
+			title: "改变游戏规则"
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4EAEA338FC6FEA06"]
+			description: ["您可以在此出售货物。"]
+			hide_until_deps_complete: true
+			icon: "farmersdelight:potato_crate"
+			id: "3DF6A947273FED6B"
+			rewards: [{
+				count: 15
+				id: "1DD45B9B6772BDEA"
+				item: "kubejs:compressed_amethyst"
+				random_bonus: 10
+				type: "item"
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "360CECBD8DEFF0B9"
+				item: "farmersdelight:potato_crate"
+				type: "item"
+			}]
+			title: "马铃薯"
+			x: 1.0d
+			y: 9.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0223C5DC084BAD15"]
+			description: ["您可以在此出售货物。"]
+			hide_until_deps_complete: true
+			icon: "farmersdelight:carrot_crate"
+			id: "2D177E54AA43A341"
+			rewards: [{
+				count: 15
+				id: "03A3D55803853E7C"
+				item: "kubejs:compressed_amethyst"
+				random_bonus: 10
+				type: "item"
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "0CF5CA49E704A178"
+				item: "farmersdelight:carrot_crate"
+				type: "item"
+			}]
+			title: "胡萝卜"
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4055AECE41898CFF"]
+			description: ["您可以在此出售货物。"]
+			icon: "quark:bonded_leather"
+			id: "57C4DE6AB2BE0E15"
+			rewards: [{
+				count: 15
+				id: "3854165424D8158B"
+				item: "kubejs:compressed_amethyst"
+				random_bonus: 10
+				type: "item"
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "5645B0576B2E748C"
+				item: "quark:bonded_leather"
+				type: "item"
+			}]
+			title: "皮革"
+			x: -4.0d
+			y: 9.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["5E33F03D32B32471"]
+			description: ["您可以在此出售货物。将糖块喂给马，可使其获得 &b迅捷2级&r 持续60秒。"]
+			hide_until_deps_complete: true
+			icon: "supplementaries:sugar_cube"
+			id: "7D788C191679FFD0"
+			rewards: [{
+				count: 15
+				id: "4514D15D464E2830"
+				item: "kubejs:compressed_amethyst"
+				random_bonus: 10
+				type: "item"
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "6700AB5C73499868"
+				item: "supplementaries:sugar_cube"
+				type: "item"
+			}]
+			title: "糖"
+			x: -1.0d
+			y: 10.0d
+		}
+		{
+			description: ["您可以在此出售货物。"]
+			icon: "minecraft:hay_block"
+			id: "2A7281F4656CF4F1"
+			rewards: [
+				{
+					count: 50
+					id: "693EAB434D37E8FD"
+					item: "kubejs:compressed_amethyst"
+					type: "item"
+				}
+				{
+					id: "28E00DCBF26AD174"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "7E4CE563BACD84C0"
+				item: "minecraft:hay_block"
+				type: "item"
+			}]
+			title: "小麦"
+			x: -3.0d
+			y: 7.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["62B28F189DE05390"]
+			description: ["您可以在此出售货物。"]
+			hide_until_deps_complete: true
+			icon: "quark:apple_crate"
+			id: "226EC9402F81D87B"
+			rewards: [{
+				count: 15
+				id: "16DBDE10C0663C7A"
+				item: "kubejs:compressed_amethyst"
+				random_bonus: 10
+				type: "item"
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "6916A82E77DA71DD"
+				item: "quark:apple_crate"
+				type: "item"
+			}]
+			title: "苹果"
+			x: -2.0d
+			y: 9.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["73536649F827A8A5"]
+			description: ["您可以在此出售货物。"]
+			hide_until_deps_complete: true
+			icon: "quark:gunpowder_sack"
+			id: "02CCC1527AB7BB65"
+			rewards: [{
+				count: 15
+				id: "61981B948035BBEF"
+				item: "kubejs:compressed_amethyst"
+				random_bonus: 10
+				type: "item"
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "5EF0F3170CBAEB55"
+				item: "quark:gunpowder_sack"
+				type: "item"
+			}]
+			title: "火药"
+			x: -7.0d
+			y: 9.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["643BC5DACA4D4FAB"]
+			description: ["您可以在此出售货物。"]
+			hide_until_deps_complete: true
+			icon: "quark:cocoa_beans_sack"
+			id: "17CCF7F47B8CB22E"
+			rewards: [{
+				count: 15
+				id: "560B6996D9AE2467"
+				item: "kubejs:compressed_amethyst"
+				random_bonus: 10
+				type: "item"
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "51D90E1C8D9FB2B9"
+				item: "quark:cocoa_beans_sack"
+				type: "item"
+			}]
+			title: "可可豆"
+			x: 4.0d
+			y: 9.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["332D01F2D8FFA380"]
+			description: ["您可以在此出售货物。"]
+			hide_until_deps_complete: true
+			icon: "minecraft:pumpkin"
+			id: "66CD31A07484CD5A"
+			rewards: [{
+				count: 10
+				id: "3A421A433335FD85"
+				item: "kubejs:compressed_amethyst"
+				random_bonus: 10
+				type: "item"
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				count: 128L
+				id: "3D3A7DD9DD7DCB17"
+				item: "minecraft:pumpkin"
+				type: "item"
+			}]
+			title: "南瓜"
+			x: 3.0d
+			y: 9.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0AF40C06D14AC544"]
+			description: ["您可以在此出售货物。"]
+			hide_until_deps_complete: true
+			icon: "minecraft:melon"
+			id: "111D02DA250B5903"
+			rewards: [{
+				count: 10
+				id: "34D4C0770C6079A4"
+				item: "kubejs:compressed_amethyst"
+				random_bonus: 10
+				type: "item"
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				count: 128L
+				id: "3DFE12EB8107B0A9"
+				item: "minecraft:melon"
+				type: "item"
+			}]
+			title: "西瓜"
+			x: 2.0d
+			y: 9.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["26C5DD2DB25042B4"]
+			description: ["您可以在此出售货物。"]
+			hide_until_deps_complete: true
+			icon: "supplementaries:feather_block"
+			id: "28D5DDD74CB60564"
+			rewards: [{
+				count: 15
+				id: "694FF6DA1C2A8AA5"
+				item: "kubejs:compressed_amethyst"
+				random_bonus: 10
+				type: "item"
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "45422BB2BBD514E9"
+				item: "supplementaries:feather_block"
+				type: "item"
+			}]
+			title: "羽毛"
+			x: -6.0d
+			y: 9.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["12EB51D8670D1F21"]
+			description: ["您可以在此出售货物。"]
+			hide_until_deps_complete: true
+			icon: "minecraft:white_wool"
+			id: "40D1A81EDD36D589"
+			rewards: [{
+				count: 10
+				id: "108111C19DCA0C48"
+				item: "kubejs:compressed_amethyst"
+				random_bonus: 10
+				type: "item"
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				count: 128L
+				id: "1C776BFAD696BAD6"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:wool)"
+					}
+				}
+				title: "羊毛"
+				type: "item"
+			}]
+			title: "羊毛"
+			x: -5.0d
+			y: 9.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4117FE7C42D9CBE2"]
+			description: ["您可以在此出售货物。"]
+			hide_until_deps_complete: true
+			icon: "minecraft:dried_kelp_block"
+			id: "191A53C63CB27B51"
+			rewards: [{
+				count: 10
+				id: "2E0B5E57C09A7267"
+				item: "kubejs:compressed_amethyst"
+				random_bonus: 10
+				type: "item"
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "66FF3C1399DDD983"
+				item: "minecraft:dried_kelp_block"
+				type: "item"
+			}]
+			title: "干海带"
+			x: 5.0d
+			y: 9.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["49176756BCCD3C73"]
+			description: ["您可以在此出售货物。"]
+			hide_until_deps_complete: true
+			icon: "quark:charcoal_block"
+			id: "74FEC20D43499EB1"
+			rewards: [
+				{
+					count: 15
+					id: "4AB7D830278742D1"
+					item: "kubejs:compressed_amethyst"
+					random_bonus: 10
+					type: "item"
+				}
+				{
+					id: "130A995FBEFC67EB"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "23C82FB713A8EF51"
+				item: "quark:charcoal_block"
+				type: "item"
+			}]
+			title: "木炭块"
+			x: -8.0d
+			y: 9.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["779FACB6237B43F6"]
+			description: ["您可以在此出售货物。"]
+			hide_until_deps_complete: true
+			icon: "ends_delight:chorus_fruit_crate"
+			id: "4B073C0D7BACBE06"
+			rewards: [{
+				count: 15
+				id: "250C4BDBDC55D914"
+				item: "kubejs:compressed_amethyst"
+				random_bonus: 10
+				type: "item"
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "1A2D9F14654451E5"
+				item: "ends_delight:chorus_fruit_crate"
+				type: "item"
+			}]
+			title: "紫颂果"
+			x: 6.0d
+			y: 9.0d
+		}
+		{
+			description: [
+				"种子袋可以储存 &b640个相同作物&r 的种子。"
+				""
+				"在物品栏中用种子 &a右击&r 种子袋可将种子放入种子袋，同时，在物品栏中 &a右击&r 种子袋可取出最多一组种子。"
+				"手持种子袋 &a右击&r 耕地可将种子种在耕地上。"
+				""
+				"&ashift+右键&r 耕地可一次性将种子种植在3*3的耕地上。"
+				"当种子袋在主手或副手时，从地上捡取的任何和种子袋内种类相同的种子都将自动进入种子袋。"
+				"同时，手持种子袋时，快捷栏左侧的方块计数器会显示种子袋内剩余种子的数量。"
+			]
+			id: "21A1BDA9755BD55E"
+			rewards: [{
+				id: "6DE790F08519CA66"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "24C1F380379DC0BB"
+				item: "quark:seed_pouch"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			description: ["使用锄头 &a右键&r 泥土可以将其改造为耕地，有了耕地才能进行种植。锄头现在的基础工作范围提升为了&b3x3&r。使用锄头 &a右键&r 农作物可以将它们直接&d收割并自动补种&r。若是升级成钻石锄头，它的工作范围将提升至&b5x5&r。"]
+			id: "0EAB88F18F9D793A"
+			rewards: [{
+				id: "3F1786994670460B"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "25CF8CCBCF86937C"
+				item: {
+					Count: 1
+					id: "minecraft:stone_hoe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "锄头"
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			description: [
+				"在&e饲料槽&r中装填动物所爱吃的饲料，即可自动喂食动物们，以便实现半自动繁殖。"
+				""
+				"在一定范围内羊、牛、猪、鸡都会主动吃&e饲料堆&r从而使他们进入繁殖状态，它们对应的幼年动物也会去吃饲料堆缩短成年时间。最多食用八次。"
+			]
+			icon: "quark:feeding_trough"
+			id: "11CB271172D8862B"
+			rewards: [{
+				id: "6C1C8453EF224A71"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [
+				{
+					id: "0095F7C3B432273C"
+					item: "quark:feeding_trough"
+					type: "item"
+				}
+				{
+					id: "07CBB76F67AD3DAC"
+					item: "supplementaries:fodder"
+					type: "item"
+				}
+			]
+			title: "饲料"
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			description: ["也许您可以直接下海捕鱼，但谁让您是钓鱼佬呢。"]
+			icon: {
+				Count: 1
+				id: "minecraft:fishing_rod"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "64AD3E45F0CF3C49"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "55EB0509CC6BDA34"
+				table_id: 2514079791446414624L
+				type: "random"
+			}]
+			shape: "square"
+			tasks: [
+				{
+					id: "0FA4F516ECB11055"
+					item: {
+						Count: 1
+						id: "minecraft:fishing_rod"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 20L
+					id: "33565BA575CCA522"
+					item: { Count: 20, id: "minecraft:pufferfish" }
+					type: "item"
+				}
+			]
+			title: "抓到二十条河豚！"
+			x: -3.0d
+			y: 5.0d
+		}
+		{
+			description: ["用玻璃瓶右击云得到，放置之后会在几秒之后消失。在消失之前可以使用方块替换瓶中云的位置，如果这样做，云会回到瓶子里。"]
+			id: "6408FC1D3384BC97"
+			rewards: [{
+				id: "6EABD7D62EF3E126"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "34DFF9DD6EF7D33A"
+				item: "quark:bottled_cloud"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"2A7281F4656CF4F1"
+				"76BAB18B19F76ECD"
+				"133CFE79BFF57E38"
+				"1037BEC06EDC03D4"
+				"55EFE69C256476B3"
+				"7F1836F06F494A8E"
+				"7753A871037732AF"
+				"584837BB4CEA071B"
+				"66B97FB5AC8F0A20"
+				"3AD1989DD1D3410E"
+				"41BFAD53A8F640D4"
+				"635C5BD2F0D6A74E"
+				"47C373E84B5E1F74"
+				"45D709DCD320DE1A"
+				"3BC4060665ADBE99"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"有一位黑猫小姐，自小视力极佳。她能迅速找到老鼠的窝穴，能轻易从草地里发现细针丝线。随着年龄的增长，她的视力来到了某种程度，她渐渐能看见一些“不太寻常”的东西。"
+				""
+				"她说整个世界都遍布着虫子，在地上，在空气中，在她的全身上下；她说，每朵云上也都藏着一只云之虫，那是云的本体，云朵们飘来飘去，实际上是在寻找伴侣。"
+				""
+				"黑猫小姐总是细致地观察着她看到的一切，在如此程度的视力下，她渐渐开始一言不发，大家对她的精神状态忧心不已。她的父母为她找来了一副特殊的眼镜，戴上之后，能够让她的视力回到“正常”的程度。眼镜的效果很好，黑猫小姐因此拾回了曾经的活泼。"
+				""
+				"这样又过去了一段时间，一次意外，黑猫小姐的眼镜被撞掉了。她瞪大双眼，如雕塑般一动不动，目光死死地盯着她脚下的某个位置。人们急忙把眼镜重新为她戴上，却于事无补。"
+				""
+				"她就这样保持着这个姿势，用她的目光锁定着什么东西，一刻不停，从白天站到黑夜，又从黑夜站到白天。——直到她死去时，都是如此。"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "artifacts:kitty_slippers"
+			id: "1E7AEDDF75147356"
+			rewards: [
+				{
+					id: "32A3C3BAB3E03FFC"
+					type: "xp"
+					xp: 500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "78EA03EF8E2732A7"
+					table_id: 6997903212867593696L
+					type: "random"
+				}
+			]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "4CB51BCDA9771C07"
+				title: "聆听传言"
+				type: "checkmark"
+			}]
+			title: "“黑猫小姐”"
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"1E7AEDDF75147356"
+				"346D6C352DABA30A"
+			]
+			description: [
+				"您售出的货物已经结算完毕，如果还有其他需求，在下随时为您服务。"
+				""
+				"啊......没错，传言中的那只小黑猫，正是我的女儿。都过去很久了，不必为我伤心。虽然不知道您听到的传言是什么版本，但应该都大差不差。"
+				""
+				"——是真的，她确实是发现了什么东西，于是盯着那东西直到死去。后来我们掘地三百尺，想看看到底是什么害死了她，却一无所获。"
+			]
+			hide_until_deps_complete: true
+			icon: "artifacts:kitty_slippers"
+			id: "7255B169DAA696CB"
+			rewards: [
+				{
+					id: "6664199EDD275442"
+					type: "xp"
+					xp: 500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "34C2707CA4110CEF"
+					table_id: 6997903212867593696L
+					type: "random"
+				}
+			]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "432DF20600CE4A26"
+				title: "同他交谈"
+				type: "checkmark"
+			}]
+			title: "“黑猫先生”"
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["5AC10A2447BA7FFC"]
+			description: ["紫水晶是 &e&n伊甸银行&r 重要的货币之一，具有相当的购买力。您可以考虑建造一座属于您自己的&d紫水晶农场&r，或是向 &e&n蜜蜂女王&r 置换您拥有的&n紫水晶块&r。"]
+			disable_toast: true
+			icon: "supplementaries:present_black"
+			id: "039091F47BC57E08"
+			rewards: [{
+				id: "0727B8650DA6A899"
+				table_id: 6997903212867593696L
+				title: "随机礼物"
+				type: "random"
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				consume_items: true
+				count: 10L
+				disable_toast: true
+				id: "2CDA39AABE26947E"
+				item: "kubejs:compressed_amethyst"
+				type: "item"
+			}]
+			title: "礼物盒"
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["5889CFD3410FF75A"]
+			description: ["您可以在此出售货物。"]
+			hide_until_deps_complete: true
+			icon: "minecraft:hay_block"
+			id: "3EF52CD76F371453"
+			rewards: [{
+				count: 15
+				id: "783B30AAEF5FDB4A"
+				item: "kubejs:compressed_amethyst"
+				random_bonus: 10
+				type: "item"
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "1A3A240092B04371"
+				item: "minecraft:hay_block"
+				type: "item"
+			}]
+			title: "小麦"
+			x: -3.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["2A7281F4656CF4F1"]
+			description: ["您可以在此出售货物。"]
+			hide_until_deps_complete: true
+			icon: "minecraft:hay_block"
+			id: "5889CFD3410FF75A"
+			rewards: [
+				{
+					count: 25
+					id: "366D0270F0DA8F98"
+					item: "kubejs:compressed_amethyst"
+					type: "item"
+				}
+				{
+					id: "2F420295D4633C44"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "5A2391E5A8146202"
+				item: "minecraft:hay_block"
+				type: "item"
+			}]
+			title: "小麦"
+			x: -3.0d
+			y: 8.0d
+		}
+		{
+			description: ["您可以在此出售货物。"]
+			icon: "quark:apple_crate"
+			id: "76BAB18B19F76ECD"
+			rewards: [
+				{
+					count: 50
+					id: "05839B6A891CA11F"
+					item: "kubejs:compressed_amethyst"
+					type: "item"
+				}
+				{
+					id: "442DAF2218A39B26"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "1957A509EC6C8725"
+				item: "quark:apple_crate"
+				type: "item"
+			}]
+			title: "苹果"
+			x: -2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["76BAB18B19F76ECD"]
+			description: ["您可以在此出售货物。"]
+			hide_until_deps_complete: true
+			icon: "quark:apple_crate"
+			id: "62B28F189DE05390"
+			rewards: [
+				{
+					count: 25
+					id: "771E191C57685281"
+					item: "kubejs:compressed_amethyst"
+					type: "item"
+				}
+				{
+					id: "546F9A6FB2CBFF0F"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "0BA0234F46560D06"
+				item: "quark:apple_crate"
+				type: "item"
+			}]
+			title: "苹果"
+			x: -2.0d
+			y: 8.0d
+		}
+		{
+			description: ["您可以在此出售货物。将糖块喂给马，可使其获得 &b迅捷2级&r 持续60秒。"]
+			icon: "supplementaries:sugar_cube"
+			id: "133CFE79BFF57E38"
+			rewards: [
+				{
+					count: 50
+					id: "4253A7BCC2A90A8D"
+					item: "kubejs:compressed_amethyst"
+					type: "item"
+				}
+				{
+					id: "3854238FAAE23875"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "7A4677F76739A90B"
+				item: "supplementaries:sugar_cube"
+				type: "item"
+			}]
+			title: "糖"
+			x: -1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["133CFE79BFF57E38"]
+			description: ["您可以在此出售货物。将糖块喂给马，可使其获得 &b迅捷2级&r 持续60秒。"]
+			hide_until_deps_complete: true
+			icon: "supplementaries:sugar_cube"
+			id: "5E33F03D32B32471"
+			rewards: [
+				{
+					count: 25
+					id: "2A73C2B3551EAF4A"
+					item: "kubejs:compressed_amethyst"
+					type: "item"
+				}
+				{
+					id: "1521D8EADA48A599"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "512D382A6385A9DD"
+				item: "supplementaries:sugar_cube"
+				type: "item"
+			}]
+			title: "糖"
+			x: -1.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5E33F03D32B32471"]
+			description: ["您可以在此出售货物。将糖块喂给马，可使其获得 &b迅捷2级&r 持续60秒。"]
+			hide_until_deps_complete: true
+			icon: "supplementaries:sugar_cube"
+			id: "7378F8F9784939EC"
+			rewards: [
+				{
+					count: 25
+					id: "03B704E198E20228"
+					item: "kubejs:compressed_amethyst"
+					type: "item"
+				}
+				{
+					id: "79C9758C55EC1A5D"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "7E0C6F9E9B2E2E07"
+				item: "supplementaries:sugar_cube"
+				type: "item"
+			}]
+			title: "糖"
+			x: -1.0d
+			y: 9.0d
+		}
+		{
+			description: ["您可以在此出售货物。"]
+			icon: "farmersdelight:carrot_crate"
+			id: "55EFE69C256476B3"
+			rewards: [
+				{
+					count: 50
+					id: "347F52BCA96CB6D5"
+					item: "kubejs:compressed_amethyst"
+					type: "item"
+				}
+				{
+					id: "6C3707A839C73BAE"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "4C4604874560ADF0"
+				item: "farmersdelight:carrot_crate"
+				type: "item"
+			}]
+			title: "胡萝卜"
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["55EFE69C256476B3"]
+			description: ["您可以在此出售货物。"]
+			hide_until_deps_complete: true
+			icon: "farmersdelight:carrot_crate"
+			id: "0223C5DC084BAD15"
+			rewards: [
+				{
+					count: 25
+					id: "697F5317391CF7F6"
+					item: "kubejs:compressed_amethyst"
+					type: "item"
+				}
+				{
+					id: "115B6D096A3951A2"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "2AD0E0322560B7BD"
+				item: "farmersdelight:carrot_crate"
+				type: "item"
+			}]
+			title: "胡萝卜"
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			description: ["您可以在此出售货物。"]
+			icon: "farmersdelight:potato_crate"
+			id: "7F1836F06F494A8E"
+			rewards: [
+				{
+					count: 50
+					id: "7FDC993EE7051A9C"
+					item: "kubejs:compressed_amethyst"
+					type: "item"
+				}
+				{
+					id: "0F6CA456163C5EC6"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "59C33479BED48AFC"
+				item: "farmersdelight:potato_crate"
+				type: "item"
+			}]
+			title: "马铃薯"
+			x: 1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["7F1836F06F494A8E"]
+			description: ["您可以在此出售货物。"]
+			hide_until_deps_complete: true
+			icon: "farmersdelight:potato_crate"
+			id: "4EAEA338FC6FEA06"
+			rewards: [
+				{
+					count: 25
+					id: "7EDF62219A63BCBE"
+					item: "kubejs:compressed_amethyst"
+					type: "item"
+				}
+				{
+					id: "3AE4396FD799CE4A"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "272B1D5E0E7B90A8"
+				item: "farmersdelight:potato_crate"
+				type: "item"
+			}]
+			title: "马铃薯"
+			x: 1.0d
+			y: 8.0d
+		}
+		{
+			description: ["您可以在此出售货物。"]
+			icon: "minecraft:melon"
+			id: "7753A871037732AF"
+			rewards: [
+				{
+					count: 40
+					id: "4AB85A4BD637B452"
+					item: "kubejs:compressed_amethyst"
+					type: "item"
+				}
+				{
+					id: "1F6DF7E5912E1892"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				count: 128L
+				id: "6D06E4B85336CCDF"
+				item: "minecraft:melon"
+				type: "item"
+			}]
+			title: "西瓜"
+			x: 2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["7753A871037732AF"]
+			description: ["您可以在此出售货物。"]
+			hide_until_deps_complete: true
+			icon: "minecraft:melon"
+			id: "0AF40C06D14AC544"
+			rewards: [
+				{
+					count: 20
+					id: "26BE9151DEDB0939"
+					item: "kubejs:compressed_amethyst"
+					type: "item"
+				}
+				{
+					id: "6C072B82987443F8"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				count: 128L
+				id: "619A555F7697561B"
+				item: "minecraft:melon"
+				type: "item"
+			}]
+			title: "西瓜"
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			description: ["您可以在此出售货物。"]
+			icon: "minecraft:pumpkin"
+			id: "584837BB4CEA071B"
+			rewards: [
+				{
+					count: 40
+					id: "6333F2EC73D15ECA"
+					item: "kubejs:compressed_amethyst"
+					type: "item"
+				}
+				{
+					id: "298A8C5B375B98FF"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				count: 128L
+				id: "54F7FB6ED2BCCDD5"
+				item: "minecraft:pumpkin"
+				type: "item"
+			}]
+			title: "南瓜"
+			x: 3.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["584837BB4CEA071B"]
+			description: ["您可以在此出售货物。"]
+			hide_until_deps_complete: true
+			icon: "minecraft:pumpkin"
+			id: "332D01F2D8FFA380"
+			rewards: [
+				{
+					count: 20
+					id: "79D4D7500A26DF07"
+					item: "kubejs:compressed_amethyst"
+					type: "item"
+				}
+				{
+					id: "4FF28400C6779AD8"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				count: 128L
+				id: "184133285C6C9634"
+				item: "minecraft:pumpkin"
+				type: "item"
+			}]
+			title: "南瓜"
+			x: 3.0d
+			y: 8.0d
+		}
+		{
+			description: ["您可以在此出售货物。"]
+			icon: "quark:cocoa_beans_sack"
+			id: "635C5BD2F0D6A74E"
+			rewards: [
+				{
+					count: 50
+					id: "3870901756F0931E"
+					item: "kubejs:compressed_amethyst"
+					type: "item"
+				}
+				{
+					id: "17D54A1918C47FE3"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "63046225780E5813"
+				item: "quark:cocoa_beans_sack"
+				type: "item"
+			}]
+			title: "可可豆"
+			x: 4.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["635C5BD2F0D6A74E"]
+			description: ["您可以在此出售货物。"]
+			hide_until_deps_complete: true
+			icon: "quark:cocoa_beans_sack"
+			id: "643BC5DACA4D4FAB"
+			rewards: [
+				{
+					count: 25
+					id: "7025B4B45880A873"
+					item: "kubejs:compressed_amethyst"
+					type: "item"
+				}
+				{
+					id: "2DBBA40D6A89E3F7"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "5751A8FEE25A3F0E"
+				item: "quark:cocoa_beans_sack"
+				type: "item"
+			}]
+			title: "可可豆"
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			description: ["您可以在此出售货物。"]
+			icon: "minecraft:dried_kelp_block"
+			id: "45D709DCD320DE1A"
+			rewards: [
+				{
+					count: 40
+					id: "0C598B31E8506A11"
+					item: "kubejs:compressed_amethyst"
+					type: "item"
+				}
+				{
+					id: "1E8B3C110E70B69F"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "35559151A82A8E8B"
+				item: "minecraft:dried_kelp_block"
+				type: "item"
+			}]
+			title: "干海带"
+			x: 5.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["45D709DCD320DE1A"]
+			description: ["您可以在此出售货物。"]
+			hide_until_deps_complete: true
+			icon: "minecraft:dried_kelp_block"
+			id: "4117FE7C42D9CBE2"
+			rewards: [
+				{
+					count: 20
+					id: "11FE022B2EB30778"
+					item: "kubejs:compressed_amethyst"
+					type: "item"
+				}
+				{
+					id: "6CBE490C825C261D"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "0FD2D9DB5942EAA9"
+				item: "minecraft:dried_kelp_block"
+				type: "item"
+			}]
+			title: "干海带"
+			x: 5.0d
+			y: 8.0d
+		}
+		{
+			description: ["您可以在此出售货物。"]
+			icon: "ends_delight:chorus_fruit_crate"
+			id: "3BC4060665ADBE99"
+			rewards: [
+				{
+					count: 50
+					id: "7467669CC12FEF7A"
+					item: "kubejs:compressed_amethyst"
+					type: "item"
+				}
+				{
+					id: "45DA2195CBAA3FA4"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "2CEDDBB8D57A0845"
+				item: "ends_delight:chorus_fruit_crate"
+				type: "item"
+			}]
+			title: "紫颂果"
+			x: 6.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3BC4060665ADBE99"]
+			description: ["您可以在此出售货物。"]
+			hide_until_deps_complete: true
+			icon: "ends_delight:chorus_fruit_crate"
+			id: "779FACB6237B43F6"
+			rewards: [
+				{
+					count: 25
+					id: "65044AC8DF373B11"
+					item: "kubejs:compressed_amethyst"
+					type: "item"
+				}
+				{
+					id: "56748ABD9ADFA7A8"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "671C93E568EF9D03"
+				item: "ends_delight:chorus_fruit_crate"
+				type: "item"
+			}]
+			title: "紫颂果"
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			description: ["您可以在此出售货物。"]
+			icon: "quark:bonded_leather"
+			id: "1037BEC06EDC03D4"
+			rewards: [
+				{
+					count: 50
+					id: "18F6EF802EA6C638"
+					item: "kubejs:compressed_amethyst"
+					type: "item"
+				}
+				{
+					id: "3FA72BA341E39B56"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "4E639E52C2A07BD9"
+				item: "quark:bonded_leather"
+				type: "item"
+			}]
+			title: "皮革"
+			x: -4.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["1037BEC06EDC03D4"]
+			description: ["您可以在此出售货物。"]
+			hide_until_deps_complete: true
+			icon: "quark:bonded_leather"
+			id: "4055AECE41898CFF"
+			rewards: [
+				{
+					count: 25
+					id: "00CDCFC83ABBE7A3"
+					item: "kubejs:compressed_amethyst"
+					type: "item"
+				}
+				{
+					id: "6CF9EEC8416A234E"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "583C9073BB5715F7"
+				item: "quark:bonded_leather"
+				type: "item"
+			}]
+			title: "皮革"
+			x: -4.0d
+			y: 8.0d
+		}
+		{
+			description: ["您可以在此出售货物。"]
+			icon: "minecraft:white_wool"
+			id: "66B97FB5AC8F0A20"
+			rewards: [
+				{
+					count: 40
+					id: "6901B3CCE0F057D0"
+					item: "kubejs:compressed_amethyst"
+					type: "item"
+				}
+				{
+					id: "59104655665F46B3"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				count: 128L
+				id: "1BB3C25D67C42BE9"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:wool)"
+					}
+				}
+				title: "羊毛"
+				type: "item"
+			}]
+			title: "羊毛"
+			x: -5.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["66B97FB5AC8F0A20"]
+			description: ["您可以在此出售货物。"]
+			hide_until_deps_complete: true
+			icon: "minecraft:white_wool"
+			id: "12EB51D8670D1F21"
+			rewards: [
+				{
+					count: 20
+					id: "56F943296FF3B6DB"
+					item: "kubejs:compressed_amethyst"
+					type: "item"
+				}
+				{
+					id: "3304F02610E44E20"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				count: 128L
+				id: "4EEC75F788478272"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:wool)"
+					}
+				}
+				title: "羊毛"
+				type: "item"
+			}]
+			title: "羊毛"
+			x: -5.0d
+			y: 8.0d
+		}
+		{
+			description: ["您可以在此出售货物。"]
+			icon: "supplementaries:feather_block"
+			id: "3AD1989DD1D3410E"
+			rewards: [
+				{
+					count: 50
+					id: "3AB0635563EADB27"
+					item: "kubejs:compressed_amethyst"
+					type: "item"
+				}
+				{
+					id: "4E380542C458546B"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "1410F79AED8DCF16"
+				item: "supplementaries:feather_block"
+				type: "item"
+			}]
+			title: "羽毛"
+			x: -6.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3AD1989DD1D3410E"]
+			description: ["您可以在此出售货物。"]
+			hide_until_deps_complete: true
+			icon: "supplementaries:feather_block"
+			id: "26C5DD2DB25042B4"
+			rewards: [
+				{
+					count: 25
+					id: "60CD1D04CC587AF6"
+					item: "kubejs:compressed_amethyst"
+					type: "item"
+				}
+				{
+					id: "653BA9EE7C829733"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "432910C1D918254E"
+				item: "supplementaries:feather_block"
+				type: "item"
+			}]
+			title: "羽毛"
+			x: -6.0d
+			y: 8.0d
+		}
+		{
+			description: ["您可以在此出售货物。"]
+			icon: "quark:gunpowder_sack"
+			id: "41BFAD53A8F640D4"
+			rewards: [
+				{
+					count: 50
+					id: "636346AA08A6CD9A"
+					item: "kubejs:compressed_amethyst"
+					type: "item"
+				}
+				{
+					id: "585285877855C1F7"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "354A21A1E4323261"
+				item: "quark:gunpowder_sack"
+				type: "item"
+			}]
+			title: "火药"
+			x: -7.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["41BFAD53A8F640D4"]
+			description: ["您可以在此出售货物。"]
+			hide_until_deps_complete: true
+			icon: "quark:gunpowder_sack"
+			id: "73536649F827A8A5"
+			rewards: [
+				{
+					count: 25
+					id: "755E000E5705DF14"
+					item: "kubejs:compressed_amethyst"
+					type: "item"
+				}
+				{
+					id: "5A022B0758D120D3"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "3EF340249A82EA23"
+				item: "quark:gunpowder_sack"
+				type: "item"
+			}]
+			title: "火药"
+			x: -7.0d
+			y: 8.0d
+		}
+		{
+			description: ["您可以在此出售货物。"]
+			icon: "quark:charcoal_block"
+			id: "47C373E84B5E1F74"
+			rewards: [
+				{
+					count: 50
+					id: "5C651D454FB09ED4"
+					item: "kubejs:compressed_amethyst"
+					type: "item"
+				}
+				{
+					id: "5E83F3589C7D7935"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "5FF01E712CAD7D6A"
+				item: "quark:charcoal_block"
+				type: "item"
+			}]
+			title: "木炭块"
+			x: -8.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["47C373E84B5E1F74"]
+			description: ["您可以在此出售货物。"]
+			hide_until_deps_complete: true
+			icon: "quark:charcoal_block"
+			id: "49176756BCCD3C73"
+			rewards: [
+				{
+					count: 25
+					id: "793883482A0542C6"
+					item: "kubejs:compressed_amethyst"
+					type: "item"
+				}
+				{
+					id: "4F29F42E678914BE"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "2D09EA0432280D66"
+				item: "quark:charcoal_block"
+				type: "item"
+			}]
+			title: "木炭块"
+			x: -8.0d
+			y: 8.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["5AC10A2447BA7FFC"]
+			description: ["紫水晶是 &e&n伊甸银行&r 重要的货币之一，具有相当的购买力。您可以考虑建造一座属于您自己的&d紫水晶农场&r，或是向 &e&n蜜蜂女王&r 置换您拥有的&n紫水晶块&r。"]
+			disable_toast: true
+			icon: "tarotcards:tarot_deck"
+			id: "0E9628731F02510D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3AD3897424C86F03"
+				table_id: 6936774145233365287L
+				type: "random"
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				consume_items: true
+				count: 50L
+				disable_toast: true
+				id: "456D109BD356D1B9"
+				item: "kubejs:compressed_amethyst"
+				type: "item"
+			}]
+			title: "购买塔罗牌"
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"默认已选择【 &b普通模式&r 】。改变难度之后，第一个护符位的饰品会被&c直接顶替&r。"
+				""
+				"【 &a简单模式&r 】"
+				" ■  获得 &e7个&r 任意饰品栏位"
+				" ■  提升自身 &a50%&r 造成伤害"
+				" ■  提升自身 &a100%&r 最大生命"
+				" ■  提升自身 &a100%&r 治疗效果"
+				" ■  解除自身 &d施法能力&r 的限制"
+				""
+				"【 &b普通模式&r 】"
+				" ■  减少自身 &c10%&r 治疗效果"
+				" ■  提升自身 &a10%&r 经验获取"
+				""
+				"【 &c困难模式&r 】"
+				" ■  减少自身 &c40%&r 造成伤害"
+				" ■  减少自身 &c20%&r 生存属性"
+				" ■  减少自身 &c25%&r 基础属性"
+				" ■  提升自身 &a50%&r 经验获取 "
+				""
+				"【 &d恶意模式&r 】"
+				" ■  减少自身 &c60%&r 造成伤害"
+				" ■  减少自身 &c40%&r 生存属性"
+				" ■  减少自身 &c50%&r 基础属性"
+				" ■  获得 &e1个&r 额外的护符栏位"
+				" ■  提升自身 &a100%&r 经验获取"
+				" ■  赋予自身 &d1层&r 恶意浪潮效果"
+				""
+				"&8恶意浪潮将根据时间随机获得各种负面效果，这可能产生各种情况，如果应对不及时，有可能因此直接死亡。可通过制作 &8&n守护之羽/偏执解药瓶&r&8 等免疫饰品抵御。"
+			]
+			icon: "minecraft:book"
+			id: "71696EB3AA216CA6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "25C4B04F382D49E2"
+				table_id: 7449570740334082042L
+				title: "选择难度"
+				type: "choice"
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				disable_toast: true
+				id: "7910D018ACD24416"
+				title: "您的选择"
+				type: "checkmark"
+			}]
+			title: "改变游戏难度"
+			x: -1.0d
+			y: -5.0d
+		}
+		{
+			description: [
+				"&o&7           “ 欢迎来到这片浩瀚的梦田，"
+				"&o&7                          愿你也能儿在做上一段悠远的梦。”&r"
+				""
+				"“&7&l虚&b&l饰&7&l作品 &f- &c&lFic&e&ltional&r”整合包旨在以原版理念扩展玩家的冒险生存，整合包会采取各种措施来充实玩家的冒险体验，它的另一个备选名字是“我的世界+”，意思是在原版的基础上进行一些合理的改动，以此达到更好的游戏体验。"
+				""
+				"作为一个侧重冒险的整合包，这里 &n没有&r 夸张到百万的敌人血量，也 &n没有&r 对玩家前期的大量削弱折磨。"
+				""
+				"整合包中不会添加太多模组，所做的更多是对已有的内容进行改进，它不是一个大型的、颠覆性的整合包，而是对原有内容的“优化”。例如为 &e奇异饰品&r、&e暮色森林&r 、&e灾变&r 等模组的道具拓展用途，将这些模组添加的物品制作成 &b饰品&r 。"
+				""
+				"按 &aJ键&r 即可快速打开 [任务界面]。"
+				"按 &aB键&r 即可快速打开 [百科搜索] 。"
+				""
+				""
+				"制作者： &e绘名青棺&r(Silentmo) "
+				"联系群： &b693928637&r(主群)"
+			]
+			hide_details_until_startable: true
+			hide_lock_icon: true
+			hide_text_until_complete: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "minecraft:writable_book"
+			icon_scale: 2.0d
+			id: "3B435A43FA4722F2"
+			invisible: true
+			rewards: [{
+				description: "本整合包由 绘名青棺(Silentmo) 制作，联系QQ群：693928637"
+				id: "52F5F356C9D612C3"
+				type: "toast"
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				days: 10000000
+				disable_toast: true
+				id: "2DCFD74657B857B3"
+				type: "questsadditions:days"
+			}]
+			title: "引导的一页"
+			x: 3.0d
+			y: 119.0d
+		}
+		{
+			dependencies: [
+				"102E0FF3F315CB0B"
+				"2FA8B0B6F37C0F94"
+				"41D8B4902EC93A7E"
+				"57361B7C8775BF91"
+				"604F6DDEA29E5EF6"
+			]
+			description: [
+				"灵魂的意义在于旅行，这源于深埋在所有灵魂内心的呼唤——去寻找一个什么\"地方\"。"
+				""
+				"而翼云，则是灵魂们寻找那个\"地方\"的工具。只是翼云至今没能寻到，所以事实上缔造了灵魂的轮回。"
+				""
+				"我们称呼那个\"地方\"为——&e伊甸银行&r。"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: "minecraft:gold_block"
+			icon_scale: 2.0d
+			id: "1AB24C0947C396E9"
+			rewards: [{
+				auto: "enabled"
+				command: "/curios add charm @p"
+				elevate_perms: true
+				icon: "minecraft:bundle"
+				id: "399ECE29AD07E118"
+				title: "获得额外的护符栏位"
+				type: "command"
+			}]
+			shape: "square"
+			size: 3.0d
+			tasks: [{
+				id: "448BC6639896324B"
+				title: "最终利息"
+				type: "checkmark"
+			}]
+			title: "“最终利息”"
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1AB24C0947C396E9"]
+			description: [
+				"“你记得入口吗？.......”见你无法作出回答，女孩又自顾自地说：“那我再带你去一次。”"
+				""
+				"于是她拉住你的手，带你穿过狭长的巷子，翻过爬满苔藓的高墙，落到了一间看起来没人居住的院子里。"
+				""
+				"然后，她推开其中一扇门，拉着你的手走了进去。"
+				""
+				"一阵刺目的白光过后，你站在一个相当高的天台上，微微俯身，云层就匍匐在你的脚下。在你脚下，支撑着你的，是一座纯白的高塔，你就站在高塔之顶。"
+				""
+				"但它并非孤单的塔，在塔的四周，有无数类似的高塔矗立，彼此之间由一条条不可思议的木桥相连。女孩一蹦一跃地在云间的木桥上移动，绕着你转圈圈。"
+				""
+				"“欢迎回家。”她说。"
+			]
+			hide_until_deps_complete: true
+			icon: "artifacts:cloud_in_a_bottle"
+			id: "3FC2705D634FBDBD"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "145688E1F788D05D"
+					table_id: 6997903212867593696L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "41E3F537B91801CF"
+					table_id: 2368394927309931206L
+					type: "random"
+				}
+			]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "454EAD583AD6BC1B"
+				title: "你记得入口吗？"
+				type: "checkmark"
+			}]
+			title: "在云端"
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"5AC10A2447BA7FFC"
+				"1F8AD0B187BECE0B"
+			]
+			description: [
+				"铅海是洗涤灵魂之海，是时间长河的尽头，只要顺着时间长河而下，就一定会抵达铅海。铅海因灵魂的罪恶而漆黑。"
+				""
+				"铅海是生命的终点，也是旅程的起点。翼云将消耗灵魂的阅历，以此为燃料载着灵魂开始一场新的旅程，假如在旅途中留恋眼前的风景，灵魂便落回现世，重新发芽。"
+				""
+				"而罪恶深重的灵魂，无法完全被铅海洗走罪恶，便会化作无翼闪蝶。这是世界上最美丽的生物。它们每隔一段时间便凝聚出漆黑的羽翼，然后主动撕下，由此来褪去自己的罪恶。"
+			]
+			icon: "minecraft:gold_ingot"
+			id: "604F6DDEA29E5EF6"
+			rewards: [{
+				id: "41AF5E98DD9B4E59"
+				type: "xp"
+				xp: 1000
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [
+				{
+					consume_items: true
+					count: 200L
+					id: "3F26FFF85F0E82A5"
+					item: "kubejs:compressed_amethyst"
+					type: "item"
+				}
+				{
+					elapsedTime: 12000L
+					id: "033B6C61260116FE"
+					title: "时间漂流"
+					type: "questsadditions:time"
+				}
+			]
+			title: "时间的漂流瓶"
+			x: 8.0d
+			y: 0.0d
+		}
+	]
+	title: "伊甸银行"
+}

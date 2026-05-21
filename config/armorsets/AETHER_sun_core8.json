@@ -1,0 +1,37 @@
+{
+  "armorSetName": "sun_core",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "deep_aether:sun_core",
+      "mustBeEmpty": false
+    },
+    {
+      "itemKey": "lost_aether_content:phoenix_cape",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:healing_power",
+      "value": 0.05,
+      "modifierUUID": "b5a3c328-39f2-46b1-aba5-c7a043c7fee7",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "obscure_api:critical_damage",
+      "value": 0.05,
+      "modifierUUID": "a2778f03-e081-47ed-8925-94c62aaba76c",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

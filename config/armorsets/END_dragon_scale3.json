@@ -1,0 +1,27 @@
+{
+  "armorSetName": "END_dragon_scale3",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "quark:dragon_scale",
+      "mustBeEmpty": false
+    }
+  ],
+  "head": {
+    "itemKey": "enderitemod:enderite_helmet",
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor_toughness",
+      "modifierUUID": "b6ebc8ad-66a5-4b17-9a9e-dee596e350a0",
+      "value": 0.05,
+      "interactionType": "self",
+      "attributeOperation": 1,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

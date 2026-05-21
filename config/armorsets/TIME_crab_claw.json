@@ -1,0 +1,41 @@
+{
+  "armorSetName": "END_crab_claw",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "friendsandfoes:crab_claw",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor",
+      "value": 0.1,
+      "modifierUUID": "c18ba756-2aa4-4c56-9908-65257684b6f1",
+      "attributeOperation": 1,
+      "interactionType": "self"
+    },
+    {
+      "type": "attribute",
+      "name": "forge:block_reach",
+      "value": 0.15,
+      "modifierUUID": "3d4ee1e1-248d-44b9-aa8a-64ff45dc4293",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "forge:entity_reach",
+      "value": 0.15,
+      "modifierUUID": "cd857ba2-1c95-499d-86e1-a57db715806c",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

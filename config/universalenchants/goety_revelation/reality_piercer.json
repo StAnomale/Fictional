@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:weapon",
+    "goety:dark_scythe",
+    "goety:dark_metal_scythe",
+    "goety:death_scythe",
+    "goety:great_hammer",
+    "goety:bonehead_hammer",
+    "goety:stormlander",
+    "goety:fanged_dagger",
+    "goety:philosophers_mace",
+    "goety:hungry_dagger",
+    "mutantmonsters:endersoul_hand",
+    "better_minoshroomtaur:better_minotaur_axe",
+    "aether_redux:spear_of_the_blight",
+    "cataclysm:gauntlet_of_guard",
+    "cataclysm:gauntlet_of_bulwark",
+    "cataclysm:gauntlet_of_maelstrom",
+    "cataclysm:the_incinerator",
+    "cataclysm:soul_render",
+    "cataclysm:the_annihilator",
+    "cataclysm:astrape",
+    "cataclysm:ceraunus",
+    "cataclysm:the_immolator",
+    "cataclysm:meat_shredder",
+    "cataclysm:void_forge",
+    "cataclysm:tidal_claws",
+    "cataclysm:infernal_forge",
+    "cataclysm:ancient_spear",
+    "goety_revelation:gungnir"
+  ],
+  "incompatible": [
+    "majruszsenchantments:incompatibility_curse"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "armorSetName": "DC_essence_of_the_storm",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "cataclysm:essence_of_the_storm",
+      "mustBeEmpty": false
+    },
+    {
+      "itemKey": "goety:storm_robe",
+      "mixAndMatch": [
+      ],
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "goety:storm_potency",
+      "value": 1.0,
+      "modifierUUID": "865347d5-cf5a-4e62-b053-bd5e8ee22925",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

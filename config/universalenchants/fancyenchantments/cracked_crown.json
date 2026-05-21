@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:armor_head",
+    "mutantmonsters:mutant_skeleton_skull",
+    "lost_aether_content:swetty_mask"
+  ],
+  "incompatible": [
+    "fancyenchantments:bullying",
+    "fancyenchantments:hungry",
+    "majruszsenchantments:incompatibility_curse",
+    "fancyenchantments:bloodthirsty",
+    "fancyenchantments:greed_supreme_looting",
+    "fancyenchantments:nightmare",
+    "fancyenchantments:blood_sacrifice",
+    "fancyenchantments:cursed_gaze",
+    "fancyenchantments:eater_of_souls",
+    "fancyenchantments:the_fallen"
+  ]
+}

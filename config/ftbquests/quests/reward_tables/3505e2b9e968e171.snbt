@@ -1,0 +1,61 @@
+{
+	icon: {
+		Count: 1
+		id: "gunswithoutroses:diamond_shotgun"
+		tag: {
+			Damage: 0
+			Enchantments: [
+				{
+					id: "gunswithoutroses:impact"
+					lvl: 1s
+				}
+				{
+					id: "gunswithoutroses:bullseye"
+					lvl: 1s
+				}
+				{
+					id: "gunswithoutroses:sleight_of_hand"
+					lvl: 1s
+				}
+				{
+					id: "gunswithoutroses:preserving"
+					lvl: 1s
+				}
+			]
+			RepairCost: 4
+		}
+	}
+	id: "3505E2B9E968E171"
+	loot_size: 1
+	order_index: 9
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "gunswithoutroses:diamond_shotgun"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "gunswithoutroses:diamond_sniper"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "gunswithoutroses:diamond_gatling"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+	]
+	title: "选择枪炮"
+}

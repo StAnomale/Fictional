@@ -1,0 +1,43 @@
+{
+  "armorSetName": "END_royal_bomb",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "royalvariations:royal_bomb",
+      "mustBeEmpty": false
+    }
+  ],
+  "mainHand": {
+    "itemKey": "royalvariations:royal_bomb",
+    "mixAndMatch": [
+      "radiation_zone_reborn:dust_ball",
+      "minecraft:bone",
+      "radiation_zone_reborn:radiated_bone",
+      "cataclysm:koboleton_bone",
+
+      "minecraft:trident",
+      "the_bumblezone:stinger_spear",
+      "aether_redux:spear_of_the_blight",
+      "cataclysm:coral_bardiche",
+      "cataclysm:coral_spear",
+
+      "goety:ill_bomb",
+      "supplementaries:bomb",
+      "supplementaries:bomb_blue"
+      ],
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:critical_hit",
+      "value": 0.2,
+      "modifierUUID": "daaf531e-039c-462b-9b6d-9acf9e447339",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

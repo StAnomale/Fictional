@@ -1,0 +1,23 @@
+{
+  "armorSetName": "shield",
+  "performanceMode": true,
+  "offHand": {
+    "itemKey": "lost_aether_content:gravitite_shield",
+    "mixAndMatch": [
+      "deep_aether:skyjade_shield",
+      "lost_aether_content:zanite_shield"
+      ],
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:healing_power",
+      "value": 0.1,
+      "modifierUUID": "985a4a9f-b142-4c0b-b2c7-2a7209515769",
+      "attributeOperation": 1,
+      "interactionType": "self"
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

@@ -1,0 +1,29 @@
+
+[general]
+	#是否启用经验计算修改
+	enableXpCalculationModifier = true
+	#经验计算模式 LINEAR/STATIC/FORMULA
+	calculateMode = "STATIC"
+
+["mode settings"]
+
+	["mode settings".linear]
+		#线性基础经验值
+		#Range: 1 ~ 10000
+		linearBaseXp = 100
+		#线性经验增量
+		#Range: 1 ~ 10000
+		LinearXpAddition = 1
+
+	["mode settings".static]
+		#固定升级所需经验值
+		#Range: 1 ~ 10000
+		staticModeXpNeeded = 100
+
+	["mode settings".formula]
+		#公式模式计算公式（注意括号使用,可用参数base,level,分别对应设置的公式基础经验与玩家等级）
+		formula = "base+((level*level)*10)"
+		#公式模式基础经验（可选）
+		#Range: 1 ~ 10000
+		formulaBaseXp = 100
+

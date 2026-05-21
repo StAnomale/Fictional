@@ -1,0 +1,30 @@
+{
+	icon: "the_bumblezone:buzzing_briefcase"
+	id: "20DE3AA35A2542C6"
+	loot_size: 1
+	order_index: 3
+	rewards: [
+		{ item: "minecraft:golden_apple", random_bonus: 2 }
+		{ item: "the_bumblezone:bee_bread", random_bonus: 2 }
+		{ item: "berry_good:glowgurt" }
+		{ count: 2, item: "minecraft:baked_potato", random_bonus: 4 }
+		{ item: "berry_good:sweet_berry_meatballs", random_bonus: 2 }
+		{ item: "minecraft:golden_carrot", random_bonus: 2 }
+		{ count: 8, item: "supplementaries:candy", random_bonus: 8 }
+		{ count: 2, item: "twilightforest:maze_wafer", random_bonus: 4 }
+		{ item: "twilightforest:cooked_meef", random_bonus: 2 }
+		{ item: "better_minoshroomtaur:warrior_mushroom_stew", random_bonus: 2 }
+		{ item: "twilightforest:cooked_venison", random_bonus: 2 }
+		{ item: "minecraft:cake" }
+		{ item: "minecraft:cooked_beef" }
+		{ item: "minecraft:cooked_porkchop" }
+		{ item: "minecraft:cooked_mutton" }
+		{ item: "minecraft:pumpkin_pie" }
+		{ count: 2, item: "minecraft:cooked_chicken" }
+		{ item: "minecraft:rabbit_stew" }
+		{ count: 2, item: "minecraft:cooked_cod" }
+		{ count: 2, item: "minecraft:cooked_salmon" }
+		{ item: "minecraft:enchanted_golden_apple" }
+	]
+	title: "饭盒"
+}

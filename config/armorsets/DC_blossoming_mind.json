@@ -1,0 +1,43 @@
+{
+  "armorSetName": "blossoming_mind",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "meetyourfight:blossoming_mind",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:critical_damage",
+      "value": 0.4,
+      "modifierUUID": "5a71438e-f2e8-4708-9b9b-bdedb1fdaa6a",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "gunswithoutroses:gwr.sniper_crit_mult",
+      "value": 0.25,
+      "modifierUUID": "6879620e-1667-4e09-aa5a-4e1668868e6d",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "obscure_api:magic_damage",
+      "value": -0.4,
+      "modifierUUID": "34cc1eec-fac1-4335-ae23-9b28d1faf6ab",
+      "attributeOperation": 2,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

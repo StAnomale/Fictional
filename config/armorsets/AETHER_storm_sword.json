@@ -1,0 +1,21 @@
+{
+  "armorSetName": "storm_sword",
+  "performanceMode": true,
+  "mainHand": {
+    "itemKey": "deep_aether:storm_sword",
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:magic_damage",
+      "value": 0.25,
+      "modifierUUID": "8e1402e5-14cd-4bf5-9131-1586e3b880a2",
+      "attributeOperation": 2,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

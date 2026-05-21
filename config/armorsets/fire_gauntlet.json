@@ -1,0 +1,35 @@
+{
+  "armorSetName": "fire_gauntlet",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "artifacts:fire_gauntlet",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_damage",
+      "value": 0.25,
+      "modifierUUID": "00276734-8acf-4f4a-b1c9-f0f77e8fdecf",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "conditions": [
+        {
+          "type": "inDimension",
+          "extra": "minecraft:the_nether"
+        }
+      ]
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_damage",
+      "value": 0.2,
+      "modifierUUID": "c5f1fe28-4f6f-4230-bd96-f3b22a67386f",
+      "attributeOperation": 1,
+      "interactionType": "self"
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

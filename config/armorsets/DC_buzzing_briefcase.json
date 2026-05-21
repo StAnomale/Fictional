@@ -1,0 +1,55 @@
+{
+  "armorSetName": "DC_buzzing_briefcase",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "the_bumblezone:buzzing_briefcase",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:regeneration",
+      "value": 2.0,
+      "modifierUUID": "320fd2a4-8136-4993-9e19-9c15b5b09569",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "effect",
+      "name": "the_bumblezone:beenergized",
+      "value": 0.0,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "effect",
+      "name": "the_bumblezone:beenergized",
+      "value": 1.0,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false,
+      "conditions": [
+        {
+          "type": "timeRange",
+          "extra": "0,12500"
+        }
+      ]
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor_toughness",
+      "value": 4.0,
+      "modifierUUID": "2f95551e-7b19-40e6-9eec-bf0170e60bce",
+      "attributeOperation": 0,
+      "interactionType": "self"
+    }
+  ],
+  "hideGeneratedTooltip": true
+}
