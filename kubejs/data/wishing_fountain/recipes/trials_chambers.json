@@ -1,0 +1,19 @@
+{
+  "type": "wishing_fountain:wishing_fountain_recipe",
+  "wish_type": "structure",
+  "target": "trials:trials_chambers",
+  "ingredients": [
+    {
+      "item": "minecraft:copper_block"
+    },
+    {
+      "item": "royalvariations:royal_ender_pearl"
+    },
+    {
+      "item": "waystones:warp_scroll"
+    },
+    {
+      "item": "obscure_api:astral_dust"
+    }
+  ]
+}

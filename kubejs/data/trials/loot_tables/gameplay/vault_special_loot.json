@@ -1,0 +1,184 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald",
+          "weight": 20,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 4,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_ingot",
+          "weight": 16,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 4,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kubejs:compressed_amethyst",
+          "weight": 16,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_ingot",
+          "weight": 16,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 4,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ender_pearl",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+	      {
+          "type": "minecraft:item",
+          "name": "minecraft:book",
+          "weight": 15,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": [
+                "trials:density",
+                "trials:breach",
+                "trials:wind_burst"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_golden_apple",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "trials:ominous_bottle",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald_block",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_block",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "bosses_of_mass_destruction:soul_star",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "artifacts:cowboy_hat",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "artifacts:cloud_in_a_bottle",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "artifacts:antidote_vessel",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "artifacts:crystal_heart",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "artifacts:universal_attractor",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "artifacts:pickaxe_heater",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "trials:gameplay/diamond_armor",
+          "weight": 12
+        },
+        {
+          "type": "minecraft:item",
+          "name": "trials:flow_template",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "trials:music_disc_creator",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_block",
+          "weight": 3
+        }
+      ]
+    }
+  ]
+}

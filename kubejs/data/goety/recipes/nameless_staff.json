@@ -1,0 +1,34 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "goety:necro_staff"
+  },
+  "craftType": "necroturgy",
+  "research": "forbidden",
+  "soulCost": 100,
+  "duration": 20,
+  "ingredients": [
+    {
+      "item": "goety:ectoplasm"
+    },
+    {
+      "item": "goety:ectoplasm"
+    },
+    {
+      "item": "goety:forbidden_fragment"
+    },
+    {
+      "item": "goety:forbidden_fragment"
+    },
+    {
+      "item": "goety:forbidden_fragment"
+    },
+    {
+      "item": "goety:heart_of_the_night"
+    }
+  ],
+  "result": {
+    "item": "goety:nameless_staff"
+  }
+}

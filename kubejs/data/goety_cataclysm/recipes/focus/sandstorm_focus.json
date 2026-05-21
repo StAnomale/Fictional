@@ -1,0 +1,33 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "goety:cyclone_focus"
+  },
+  "craftType": "sky",
+  "soulCost": 1,
+  "duration": 10,
+  "ingredients": [
+    {
+      "item": "cataclysm:sandstorm_in_a_bottle"
+    },
+    {
+      "item": "cataclysm:ancient_metal_ingot"
+    },
+    {
+      "item": "goety:resonance_crystal"
+    },
+    {
+      "item": "radiation_zone_reborn:dust_star"
+    },
+    {
+      "item": "goetyawaken:taboo_fragment"
+    },
+    {
+      "tag": "forge:sand"
+    }
+  ],
+  "result": {
+    "item": "goety_cataclysm:sandstorm_focus"
+  }
+}

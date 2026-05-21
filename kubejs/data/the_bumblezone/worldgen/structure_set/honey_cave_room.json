@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "the_bumblezone:honey_cave_room",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "the_bumblezone:advanced_random_spread",
+    "salt": 722299384,
+    "spacing": 4,
+    "separation": 2
+  }
+}

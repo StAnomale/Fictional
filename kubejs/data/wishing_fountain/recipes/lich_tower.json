@@ -1,0 +1,19 @@
+{
+  "type": "wishing_fountain:wishing_fountain_recipe",
+  "wish_type": "structure",
+  "target": "bosses_of_mass_destruction:lich_tower",
+  "ingredients": [
+    {
+      "item": "bosses_of_mass_destruction:soul_star"
+    },
+    {
+      "item": "royalvariations:royal_ender_pearl"
+    },
+    {
+      "item": "waystones:warp_scroll"
+    },
+    {
+      "item": "obscure_api:astral_dust"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "structures": [
+    {
+      "structure": "simply_houses:forest_chapel",
+      "weight": 1
+    },
+    {
+      "structure": "simply_houses:forest_house",
+      "weight": 2
+    },
+    {
+      "structure": "simply_houses:forest_stonemason",
+      "weight": 2
+    },
+    {
+      "structure": "simply_houses:forest_fort",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 60,
+    "separation": 45,
+    "salt": 4424514
+  }
+}

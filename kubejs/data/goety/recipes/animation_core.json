@@ -1,0 +1,32 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "goety:empty_focus"
+  },
+  "craftType": "animation",
+  "soulCost": 10,
+  "duration": 10,
+  "ingredients": [
+    {
+      "item": "obscure_api:astral_dust"
+    },
+    {
+      "item": "minecraft:minecart"
+    },
+    {
+      "tag": "goety:boats"
+    },
+    {
+      "tag": "forge:leather"
+    },
+    {
+      "tag": "forge:feathers"
+    }
+
+  ],
+  "result": {
+    "item": "goety:animation_core",
+    "count": 2
+  }
+}

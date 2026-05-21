@@ -1,0 +1,33 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "minecraft:chain"
+  },
+  "craftType": "geoturgy",
+  "soulCost": 10,
+  "duration": 10,
+  "ingredients": [
+    {
+      "item": "minecraft:bell"
+    },
+    {
+      "item": "goety:soul_emerald"
+    },
+    {
+      "item": "minecraft:netherite_ingot"
+    },
+    {
+      "item": "goety:cursed_ingot"
+    },
+    {
+      "item": "goety:cursed_ingot"
+    },
+    {
+      "item": "goety:cursed_ingot"
+    }
+  ],
+  "result": {
+    "item": "goety:alarming_charm"
+  }
+}

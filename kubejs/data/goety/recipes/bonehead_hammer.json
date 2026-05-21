@@ -1,0 +1,39 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "goety:great_hammer"
+  },
+  "craftType": "necroturgy",
+  "soulCost": 50,
+  "duration": 10,
+  "ingredients": [
+    {
+      "tag": "goety:skulls"
+    },
+    {
+      "item": "minecraft:bone_block"
+    },
+    {
+      "item": "minecraft:bone_block"
+    },
+    {
+      "item": "twilightforest:fiery_ingot"
+    },
+    {
+      "item": "mutantmonsters:mutant_skeleton_skull"
+    },
+    {
+      "item": "goety:dark_ingot"
+    },
+    {
+      "tag": "forge:gems/diamond"
+    },
+    {
+      "item": "meetyourfight:mossy_tooth"
+    }
+  ],
+  "result": {
+    "item": "goety:bonehead_hammer"
+  }
+}

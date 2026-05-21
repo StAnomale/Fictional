@@ -1,0 +1,22 @@
+{
+    "structures": [
+        {
+            "structure": "ati_structures:warden_monument",
+            "weight": 10
+        },
+        {
+            "structure": "ati_structures:illager_tower",
+            "weight": 1
+        },
+        {
+            "structure": "ati_structures:ancient_vessel",
+            "weight": 10
+        }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "spacing": 75,
+        "separation": 55,
+        "salt": 34562347
+    }
+}

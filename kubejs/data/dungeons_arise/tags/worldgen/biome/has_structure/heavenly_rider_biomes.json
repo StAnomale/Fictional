@@ -1,0 +1,39 @@
+{
+  "replace": false,
+  "values": [
+    "deep_aether:yagroot_swamp",
+    "deep_aether:aerglow_forest",
+    "deep_aether:blue_aerglow_forest",
+
+    "deep_aether:mystic_aerglow_forest",
+    "deep_aether:aerlavender_fields",
+    "deep_aether:luminescent_forest",
+    "deep_aether:golden_heights",
+    "deep_aether:golden_grove",
+    "deep_aether:cloud",
+    "aether_redux:cloudcaps",
+    "aether_redux:frosted_forests",
+    "aether_redux:glacial_tundra",
+
+    "aether_redux:gilded_groves",
+    "aether_redux:gilded_grasslands",
+    "aether_redux:the_blight",
+    "aether_redux:skyfields",
+    "aether_redux:skyroot_shrublands",
+
+   	"aether:skyroot_woodland",
+    "aether:skyroot_meadow",
+    "aether:skyroot_forest",
+    "aether:skyroot_grove",
+    
+    "#minecraft:is_jungle",
+    "#minecraft:is_forest",
+    "minecraft:desert",
+    "minecraft:plains",
+    "minecraft:sunflower_plains",
+    "minecraft:savanna",
+    "minecraft:savanna_plateau",
+    "minecraft:end_midlands",
+    "minecraft:end_highlands"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "goety:quaking_focus"
+  },
+  "craftType": "geoturgy",
+  "soulCost": 20,
+  "duration": 10,
+  "ingredients": [
+    {
+      "item": "cataclysm:ancient_metal_ingot"
+    },
+    {
+      "item": "minecraft:tnt"
+    },
+    {
+      "item": "cataclysm:ancient_metal_ingot"
+    },
+    {
+      "item": "cataclysm:ancient_metal_ingot"
+    },
+    {
+      "item": "cataclysm:ancient_metal_ingot"
+    },
+    {
+      "item": "cataclysm:koboleton_bone"
+    },
+    {
+      "item": "cataclysm:koboleton_bone"
+    },
+    {
+      "item": "minecraft:bell"
+    }
+  ],
+  "result": {
+    "item": "goety_cataclysm:earth_shake_focus"
+  }
+}

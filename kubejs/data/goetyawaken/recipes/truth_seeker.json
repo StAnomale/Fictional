@@ -1,0 +1,39 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "goety:hungry_dagger"
+  },
+  "craftType": "forge",
+  "soulCost": 100,
+  "duration": 20,
+  "ingredients": [
+    {
+      "item": "quark:diamond_heart"
+    },
+    {
+      "item": "goety:pale_steel_ingot"
+    },
+    {
+      "item": "goetyawaken:taboo_fragment"
+    },
+    {
+      "item": "better_minoshroomtaur:maze_diamond"
+    },
+    {
+      "item": "better_minoshroomtaur:maze_diamond"
+    },
+    {
+      "item": "better_minoshroomtaur:maze_diamond"
+    },
+    {
+      "item": "goety:ominous_orb"
+    },
+    {
+      "item": "goety:magic_fabric"
+    }
+  ],
+  "result": {
+    "item": "goetyawaken:truth_seeker"
+  }
+}

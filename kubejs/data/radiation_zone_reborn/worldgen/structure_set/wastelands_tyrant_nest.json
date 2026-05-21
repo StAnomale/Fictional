@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "radiation_zone_reborn:wastelands_tyrant_nest",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 70,
+    "separation": 50,
+    "salt": 1385427715
+  }
+}

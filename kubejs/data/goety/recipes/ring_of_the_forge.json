@@ -1,0 +1,33 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "aether_redux:enchanted_ring"
+  },
+  "craftType": "geoturgy",
+  "soulCost": 20,
+  "duration": 20,
+  "ingredients": [
+    {
+      "tag": "forge:leather"
+    },
+    {
+      "item": "minecraft:anvil"
+    },
+    {
+      "item": "goety:ectoplasm"
+    },
+    {
+      "item": "goety:shadow_essence"
+    },
+    {
+      "item": "goety:dark_ingot"
+    },
+    {
+      "item": "goety:soul_emerald"
+    }
+  ],
+  "result": {
+    "item": "goety:ring_of_the_forge"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "goety:shadow_essence"
+  },
+  "craftType": "necroturgy",
+  "research": "forbidden",
+  "soulCost": 10,
+  "duration": 10,
+  "ingredients": [
+    {
+      "item": "goety:grave_dust"
+    },
+    {
+      "item": "goety:grave_dust"
+    },
+    {
+      "item": "goety:grave_dust"
+    },
+    {
+      "item": "goety:grave_dust"
+    },
+    {
+      "item": "goety:ectoplasm"
+    },
+    {
+      "item": "goety:ectoplasm"
+    },
+    {
+      "item": "goety:ectoplasm"
+    },
+    {
+      "item": "goety:ectoplasm"
+    }
+  ],
+  "result": {
+    "item": "goety:shadow_essence",
+    "count": 4
+  }
+}

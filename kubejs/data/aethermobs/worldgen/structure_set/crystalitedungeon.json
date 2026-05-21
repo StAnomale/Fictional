@@ -1,0 +1,15 @@
+{
+  "structures": [
+    {
+      "structure": "aethermobs:crystalitedungeon",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 49,
+    "separation": 33,
+    "min_distance_from_world_origin": 500,
+    "salt": 142293976
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "goety:hunters_bow"
+  },
+  "craftType": "forge",
+  "soulCost": 100,
+  "duration": 20,
+  "ingredients": [
+    {
+      "item": "advancednetherite:netherite_gold_ingot"
+    },
+    {
+      "item": "goety:dark_ingot"
+    },
+    {
+      "item": "goetyawaken:mucilage"
+    },
+    {
+      "item": "goety:dark_ingot"
+    },
+    {
+      "item": "royalvariations:royal_bow"
+    },
+    {
+      "item": "advancednetherite:netherite_gold_ingot"
+    },
+    {
+      "item": "goetyawaken:mucilage"
+    },
+    {
+      "item": "goety:shadow_essence"
+    }
+  ],
+  "result": {
+    "item": "goetyawaken:dark_netherite_bow"
+  }
+}

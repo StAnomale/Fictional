@@ -1,0 +1,45 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "goety:bonehead_hammer"
+  },
+  "craftType": "forge",
+  "soulCost": 150,
+  "duration": 20,
+  "ingredients": [
+    {
+      "item": "goetyawaken:superaggregated_mycelial_circuit"
+    },
+    {
+      "item": "goetyawaken:superaggregated_mycelial_circuit"
+    },
+    {
+      "item": "goetyawaken:superaggregated_mycelial_circuit"
+    },
+    {
+      "item": "cataclysm:essence_of_the_storm"
+    },
+    {
+      "item": "goetyawaken:mushroom_coated_alloy_block"
+    },
+    {
+      "item": "goetyawaken:mushroom_coated_alloy_block"
+    },
+    {
+      "item": "goety:dark_metal_block"
+    },
+    {
+      "item": "minecraft:crimson_stem"
+    },
+    {
+      "item": "minecraft:warped_stem"
+    },
+    {
+      "item": "trials:mace"
+    }
+  ],
+  "result": {
+    "item": "goetyawaken:mooshroom_mace"
+  }
+}

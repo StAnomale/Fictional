@@ -1,0 +1,37 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "goety:necro_crown"
+  },
+  "craftType": "necroturgy",
+  "research": "forbidden",
+  "soulCost": 100,
+  "duration": 20,
+  "ingredients": [
+    {
+      "tag": "forge:ingots/iron"
+    },
+    {
+      "tag": "forge:ingots/iron"
+    },
+    {
+      "tag": "forge:ingots/iron"
+    },
+    {
+      "item": "goety:soul_emerald"
+    },
+    {
+      "item": "goety:forbidden_fragment"
+    },
+    {
+      "item": "goety:forbidden_fragment"
+    },
+    {
+      "item": "goety:forbidden_fragment"
+    }
+  ],
+  "result": {
+    "item": "goety:nameless_crown"
+  }
+}

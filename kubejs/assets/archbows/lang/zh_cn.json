@@ -1,0 +1,69 @@
+{
+
+  "itemGroup.archbowstab": "古弓弩",
+
+  "item.archbows.longbow": "长弓",
+
+  "item.archbows.recurve": "反曲弓",
+
+  "item.archbows.shortbow": "短弓",
+
+  "item.archbows.flatbow": "平弓",
+
+  "item.archbows.arbalest": "劲弩",
+
+  "item.archbows.pistol_crossbow": "手枪弩",
+
+  "item.archbows.heavy_crossbow": "重型弩",
+
+
+
+  "item.archbows.flax_string": "蓝亚麻弦",
+
+  "item.archbows.linen_string": "亚麻线",
+
+  "item.archbows.flax_seeds": "蓝亚麻种子",
+
+
+
+  "item.archbows.flax": "蓝亚麻",
+
+  "item.archbows.wild_flax": "野生蓝亚麻",
+
+  "item.archbows.wild_flax2": "野生蓝亚麻",
+
+  "item.archbows.potted_flax": "盆栽蓝亚麻",
+
+  "item.archbows.potted_flax2": "盆栽蓝亚麻",
+
+
+
+  "block.archbows.flax": "蓝亚麻",
+
+  "block.archbows.wild_flax": "野生蓝亚麻",
+
+  "block.archbows.wild_flax2": "野生蓝亚麻",
+
+  "block.archbows.potted_flax": "盆栽蓝亚麻",
+
+  "block.archbows.potted_flax2": "盆栽蓝亚麻",
+
+
+
+  "tooltip.archbows.modifiers.bow.draw_length": "%s 拉弓时间",
+
+  "tooltip.archbows.modifiers.bow.draw_length.value": "%.2f",
+
+  "tooltip.archbows.modifiers.speed_multiplier": "%s 投射物速度",
+
+  "tooltip.archbows.modifiers.speed_multiplier.value": "%.2f",
+
+  "tooltip.archbows.modifiers.crossbow.load_time": "%s 装填时间",
+
+  "tooltip.archbows.modifiers.crossbow.load_time.value": "%.2f",
+
+  "tooltip.archbows.modifiers.crossbow.aim_time": "%s 瞄准时间",
+
+  "tooltip.archbows.modifiers.crossbow.aim_time.value": "%.2f"
+
+}

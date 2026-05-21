@@ -1,0 +1,39 @@
+{
+  "mod.death_penalty.name": "Death Penalty",
+  "mod.death_penalty.description": "A Minecraft mod that adds death penalty countdown system inspired by Terraria",
+  
+  "death_penalty.title": "Death Penalty",
+  "death_penalty.wait_for_respawn": "Please wait for the countdown to finish...",
+  "death_penalty.time_remaining": "Time remaining: %ss",
+  "death_penalty.death_cause": "Cause of death: %s",
+  
+  "config.death_penalty.enableMod": "Enable Mod",
+  "config.death_penalty.enableMod.tooltip": "Whether to enable the death penalty mechanism",
+  
+  "config.death_penalty.deathPenaltyDuration": "Death Penalty Duration",
+  "config.death_penalty.deathPenaltyDuration.tooltip": "Death penalty countdown duration in seconds",
+  
+  "config.death_penalty.showDeathCause": "Show Death Cause",
+  "config.death_penalty.showDeathCause.tooltip": "Whether to show death cause in the UI",
+  
+  "config.death_penalty.allowRespawnInVoid": "Allow Respawn In Void",
+  "config.death_penalty.allowRespawnInVoid.tooltip": "Whether to apply death penalty when dying in void",
+  
+  "config.death_penalty.respawnHealth": "Respawn Health",
+  "config.death_penalty.respawnHealth.tooltip": "Health value when respawning. Can be a fixed number (e.g. 10) or percentage (e.g. 50%)",
+  
+  "config.death_penalty.uiScale": "UI Scale",
+  "config.death_penalty.uiScale.tooltip": "UI scale factor",
+  
+  "config.death_penalty.textColor": "Text Color",
+  "config.death_penalty.textColor.tooltip": "Text color in hexadecimal format",
+  
+  "config.death_penalty.titleColor": "Title Color",
+  "config.death_penalty.titleColor.tooltip": "Title text color in hexadecimal format",
+  
+  "config.death_penalty.debugMode": "Debug Mode",
+  "config.death_penalty.debugMode.tooltip": "Enable debug logging",
+  
+  "config.death_penalty.showDebugInfo": "Show Debug Info",
+  "config.death_penalty.showDebugInfo.tooltip": "Show debug information in UI"
+}

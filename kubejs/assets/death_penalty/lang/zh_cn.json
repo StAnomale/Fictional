@@ -1,0 +1,39 @@
+{
+  "mod.death_penalty.name": "死亡惩罚",
+  "mod.death_penalty.description": "一个受泰拉瑞亚启发的Minecraft模组，添加了死亡惩罚倒计时系统",
+  
+  "death_penalty.title": "死亡惩罚",
+  "death_penalty.wait_for_respawn": "请等待倒计时结束...",
+  "death_penalty.time_remaining": "剩余时间: %s秒",
+  "death_penalty.death_cause": "死亡原因: %s",
+  
+  "config.death_penalty.enableMod": "启用模组",
+  "config.death_penalty.enableMod.tooltip": "是否启用死亡惩罚机制",
+  
+  "config.death_penalty.deathPenaltyDuration": "死亡惩罚时长",
+  "config.death_penalty.deathPenaltyDuration.tooltip": "死亡惩罚倒计时持续时间（秒）",
+  
+  "config.death_penalty.showDeathCause": "显示死亡原因",
+  "config.death_penalty.showDeathCause.tooltip": "是否在UI中显示死亡原因",
+  
+  "config.death_penalty.allowRespawnInVoid": "允许虚空死亡复活",
+  "config.death_penalty.allowRespawnInVoid.tooltip": "是否在虚空中死亡时应用死亡惩罚",
+  
+  "config.death_penalty.respawnHealth": "复活后生命值",
+  "config.death_penalty.respawnHealth.tooltip": "复活时的生命值。可以是固定数值（例如10）或百分比（例如50%）",
+  
+  "config.death_penalty.uiScale": "UI缩放",
+  "config.death_penalty.uiScale.tooltip": "UI缩放因子",
+  
+  "config.death_penalty.textColor": "文字颜色",
+  "config.death_penalty.textColor.tooltip": "文字颜色（十六进制格式）",
+  
+  "config.death_penalty.titleColor": "标题颜色",
+  "config.death_penalty.titleColor.tooltip": "标题文字颜色（十六进制格式）",
+  
+  "config.death_penalty.debugMode": "调试模式",
+  "config.death_penalty.debugMode.tooltip": "启用调试日志",
+  
+  "config.death_penalty.showDebugInfo": "显示调试信息",
+  "config.death_penalty.showDebugInfo.tooltip": "在UI中显示调试信息"
+}

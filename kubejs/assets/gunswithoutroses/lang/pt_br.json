@@ -1,0 +1,35 @@
+{
+	"item.gunswithoutroses.iron_gun": "Pistola de Ferro",
+	"item.gunswithoutroses.gold_gun": "Pistola de Ouro",
+	"item.gunswithoutroses.diamond_shotgun": "Escopeta de Diamante",
+	"item.gunswithoutroses.diamond_sniper": "Rifle de Precisão de Diamante",
+	"item.gunswithoutroses.diamond_gatling": "Metralhadora de Diamante",
+	
+	"item.gunswithoutroses.flint_bullet": "Projétil de Sílex",
+	"item.gunswithoutroses.iron_bullet": "Projétil de Ferro",
+	"item.gunswithoutroses.blaze_bullet": "Projétil Incêndiario",
+	
+	"tooltip.gunswithoutroses.shift": "§7Segure §fSHIFT§7 para estatísticas§r",
+	"tooltip.gunswithoutroses.bullet.damage": "%d dano",
+	
+	"tooltip.gunswithoutroses.gatling.hold": "Retarda o usuário enquanto dispara",
+	
+	"tooltip.gunswithoutroses.blaze_bullet": "Incendeia entidades",
+	
+	"itemGroup.gunswithoutroses": "Guns Without Roses",
+	
+	"enchantment.gunswithoutroses.impact": "Impacto",
+	"enchantment.gunswithoutroses.impact.desc": "Aumenta o dano do projétil",
+	"enchantment.gunswithoutroses.bullseye": "Alvo",
+	"enchantment.gunswithoutroses.bullseye.desc": "Aumenta a precisão do projétil",
+	"enchantment.gunswithoutroses.sleight_of_hand": "Prestidigitação",
+	"enchantment.gunswithoutroses.sleight_of_hand.desc": "Diminui o atraso do disparo",
+	"enchantment.gunswithoutroses.preserving": "Preservação",
+	"enchantment.gunswithoutroses.preserving.desc": "Dá a chance de não consumir munição ao atirar",
+	
+	"entity.gunswithoutroses.bullet": "Projétil",
+
+	"subtitles.gunswithoutroses.item.gun.shoot": "Arma disparada",
+	"subtitles.gunswithoutroses.item.shotgun.shoot": "Espingarda disparada",
+	"subtitles.gunswithoutroses.item.sniper.shoot": "Sniper disparada"
+}

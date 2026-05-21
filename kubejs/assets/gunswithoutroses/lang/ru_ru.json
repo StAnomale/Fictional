@@ -1,0 +1,35 @@
+{
+	"item.gunswithoutroses.iron_gun": "Железный пистолет",
+	"item.gunswithoutroses.gold_gun": "Золотой пистолет",
+	"item.gunswithoutroses.diamond_shotgun": "Алмазный дробовик",
+	"item.gunswithoutroses.diamond_sniper": "Алмазная винтовка",
+	"item.gunswithoutroses.diamond_gatling": "Алмазный пулемет Гатлинга",
+	
+	"item.gunswithoutroses.flint_bullet": "Кремниевая пуля",
+	"item.gunswithoutroses.iron_bullet": "Железная пуля",
+	"item.gunswithoutroses.blaze_bullet": "Огненная пуля",
+	
+	"tooltip.gunswithoutroses.shift": "§7Удерживайте §fSHIFT§7 чтобы увидеть характеристики§r",
+	"tooltip.gunswithoutroses.bullet.damage": "%d урона",
+	
+	"tooltip.gunswithoutroses.gatling.hold": "Замедляет пользователя при стрельбе",
+	
+	"tooltip.gunswithoutroses.blaze_bullet": "Поджигает сущности",
+	
+	"itemGroup.gunswithoutroses": "Guns Without Roses",
+	
+	"enchantment.gunswithoutroses.impact": "Ударная сила",
+	"enchantment.gunswithoutroses.impact.desc": "Увеличенный урон снарядами",
+	"enchantment.gunswithoutroses.bullseye": "Снайпер",
+	"enchantment.gunswithoutroses.bullseye.desc": "Увеличение точности снарядов",
+	"enchantment.gunswithoutroses.sleight_of_hand": "Ловкость рук",
+	"enchantment.gunswithoutroses.sleight_of_hand.desc": "Уменьшает задержку между выстрелами",
+	"enchantment.gunswithoutroses.preserving": "Экономист",
+	"enchantment.gunswithoutroses.preserving.desc": "Дает шанс не расходовать боеприпасы при стрельбе",
+	
+	"entity.gunswithoutroses.bullet": "Пуля",
+
+	"subtitles.gunswithoutroses.item.gun.shoot": "Пистолет выстрелил",
+	"subtitles.gunswithoutroses.item.shotgun.shoot": "Дробовик выстрелил",
+	"subtitles.gunswithoutroses.item.sniper.shoot": "Винтовка выстрелила"
+}
