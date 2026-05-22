@@ -271,6 +271,19 @@ EntityEvents.spawned(event => {
   }
 });
 
+// EntityEvents.drops('zombie', event => {
+//   let entity = event.entity;
+//   let dimensionId = entity.level.dimension.toString()
+//   if (dimensionId === 'minecraft:overworld') {
+//     const damageSource = event.getSource();
+//     const player = damageSource.player
+//     // event.cancel();
+//     // entity.spawnAtLocation('oak_button', 1);
+//     event.drops.removeIf(item => item.item.id === 'minecraft:rotten_flesh');
+//     event.addDrop('oak_button', 1)
+//   }
+// })
+
 // 骷髅幻翼
 //EntityEvents.spawned('minecraft:skeleton', event => {
 //	let skeleton = event.entity;

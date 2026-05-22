@@ -20,19 +20,17 @@ netheriteWeapons.forEach(weapon => {
   ItemEvents.firstLeftClicked(weapon.itemId, event => {
     const { player, level } = event;
     if (!player.potionEffects.isActive('kubejs:netherite')) return;
-    if (player.cooldowns.isOnCooldown(weapon.itemId)) return;
-
-    /**
-     * @type {Internal.Projectile}
-     */
-    const projectile = global.shootProjectile('cataclysm:blazing_bone', player);
     const damage = player.getAttributeTotalValue('minecraft:generic.attack_damage');
     const adddamage = player.getAttributeTotalValue(weapon.addAttr);
     const setCOOLDOWNS = player.getAttributeTotalValue('minecraft:generic.attack_speed');
+    /**
+     * @type {Internal.Projectile}
+     */
+    const projectile = shootProjectile(event, weapon.itemId, 'cataclysm:blazing_bone', {
+      cooldown: 20 / setCOOLDOWNS
+    });
+    if(!projectile) return;
     projectile.setDamage(4 + 0.4 * damage + weapon.dmgMult * adddamage);
-
-    player.addItemCooldown(weapon.itemId, 20 / setCOOLDOWNS);
-    projectile.spawn();
   });
 
   // 右键激活效果

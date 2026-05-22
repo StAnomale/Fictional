@@ -2,6 +2,16 @@ let $LMLivingHurtEvent = Java.loadClass("net.minecraftforge.event.entity.living.
 
 // 本整合包由 绘名青棺(Silentmo) 制作，联系QQ群：693928637
 
+// 示例
+// /**
+//  * @returns {Internal.Projectile}
+//  */
+// function shootExample(event, itemId, projectileType, options) {
+//     options = options || {};
+//     options.nbt = options.nbt || { pickup: 2, damage: 2 + 0.75 * damage + 0.75 * adddamage, PierceLevel: 2 };
+//     return shootProjectile(event, itemId, projectileType, options);
+// }
+
 // 玩家登录事件
 PlayerEvents.loggedIn(event => {
 	let player = event.player
@@ -1465,70 +1475,6 @@ ItemEvents.rightClicked('minecraft:bone', event => {
 
 });
 
-// ==================== 通用弹射物发射函数 ====================
-/**
- * 发射弹射物的通用函数
- * @param {Object} event - 事件对象
- * @param {string} itemId - 物品ID（用于冷却检测）
- * @param {string} projectileType - 弹射物实体类型
- * @param {Object} options - 配置选项
- */
-function shootProjectile(event, itemId, projectileType, options) {
-  options = options || {};
-  const player = event.player;
-  const level = event.level;
-  //if (!player || !level) return;
-  
-  // 检查冷却
-  if (player.cooldowns.isOnCooldown(itemId)) return;
-  
-  // 获取视角向量并标准化
-  const viewVector = player.getViewVector(1.0);
-  const length = Math.sqrt(viewVector.x() * viewVector.x() + viewVector.y() * viewVector.y() + viewVector.z() * viewVector.z());
-  const normalizedVector = {
-    x: viewVector.x() / length,
-    y: viewVector.y() / length,
-    z: viewVector.z() / length
-  };
-  
-  // 创建弹射物
-  const projectile = level.createEntity(projectileType);
-  
-  // 设置发射位置
-  const offset = options.offset || 1.5;
-  const spawnY = options.spawnY || 1.5;
-  const spawnX = player.x + normalizedVector.x * offset;
-  const spawnZ = player.z + normalizedVector.z * offset;
-  projectile.setPosition(spawnX, player.y + spawnY + normalizedVector.y * offset, spawnZ);
-  
-  // 设置速度
-  const velocity = options.velocity || 2.0;
-  projectile.setMotion(normalizedVector.x * velocity, normalizedVector.y * velocity, normalizedVector.z * velocity);
-  
-  // 设置方向
-  //if (options.setYRot !== false) {
-  //  projectile.yRot = player.yRot;
-  //}
-  
-  // 设置NBT数据
-  if (options.nbt) {
-    projectile.mergeNbt(options.nbt);
-  }
-  
-  // 设置拥有者
-  projectile.setOwner(player);
-  
-  // 设置冷却
-  if (options.cooldown) {
-    const cooldownTicks = typeof options.cooldown === 'function' ? options.cooldown(player) : options.cooldown;
-    player.addItemCooldown(itemId, cooldownTicks);
-  }
-  
-  // 生成弹射物
-  projectile.spawn();
-  return projectile;
-}
-
 // 竖琴弩
 ItemEvents.rightClicked('goetyawaken:harp_crossbow', event => {
   const { player } = event;
@@ -1543,8 +1489,7 @@ ItemEvents.rightClicked('goetyawaken:harp_crossbow', event => {
 
   shootProjectile(event, 'goety:unholy_blood', 'goety:death_arrow', {
     nbt: { pickup: 2, damage: 2 + 0.75 * damage + 0.75 * adddamage, PierceLevel: 2 },
-    cooldown: (p) => 20 ,
-    velocity: 4.0
+    cooldown: 20, velocity: 4.0
   });
 })
 });
@@ -1562,8 +1507,7 @@ ItemEvents.rightClicked('goetyawaken:dark_netherite_bow', event => {
 
   shootProjectile(event, 'goety:unholy_blood', 'goety:death_arrow', {
     nbt: { pickup: 2, damage: 2 + 0.4 * adddamage, PierceLevel: 2 },
-    cooldown: (p) => 20 ,
-    velocity: 2.0
+    cooldown: 20
   });
 })
 });
@@ -1574,9 +1518,8 @@ ItemEvents.firstLeftClicked('goety:blade_of_ender', event => {
   const damage = player.getAttributeTotalValue("minecraft:generic.attack_damage");
   const adddamage = player.getAttributeTotalValue("goety:void_potency");
 
-  shootProjectile(event, 'goety:blade_of_ender', 'radiation_zone_reborn:sand_ball', {
+  atkSpeedShootProjectile(event, 'goety:blade_of_ender', 'radiation_zone_reborn:sand_ball', {
     nbt: { pickup: 2, damage: 0.5 + 0.05 * damage + 0.25 * adddamage, PierceLevel: 2 },
-    cooldown: (p) => 20 / p.getAttributeTotalValue("minecraft:generic.attack_speed"),
     velocity: 4.0
   });
 });
@@ -1586,11 +1529,11 @@ ItemEvents.firstLeftClicked('goetyawaken:frost_scythe', event => {
   const { player } = event;
   const damage = player.getAttributeTotalValue("minecraft:generic.armor");
   const adddamage = player.getAttributeTotalValue("goety:void_potency");
+  const cooldown = player.getAttributeTotalValue("minecraft:generic.attack_speed");
 
   shootProjectile(event, 'goetyawaken:frost_scythe', 'radiation_zone_reborn:sand_ball', { //发射物
     nbt: { pickup: 2, damage: 1 + 0.1 * damage + 0.25 * adddamage, PierceLevel: 2 },
-    cooldown: (p) => 20 / p.getAttributeTotalValue("minecraft:generic.attack_speed"),
-    velocity: 4.0
+    cooldown: cooldown, velocity: 4.0
   });
 });
 
@@ -1600,9 +1543,8 @@ ItemEvents.firstLeftClicked('goetyawaken:starless_night', event => {
   const damage = player.getAttributeTotalValue("minecraft:generic.attack_damage");
   const adddamage = player.getAttributeTotalValue("goety:void_potency");
 
-  shootProjectile(event, 'goetyawaken:starless_night', 'radiation_zone_reborn:sand_ball', { //发射物
+  atkSpeedShootProjectile(event, 'goetyawaken:starless_night', 'radiation_zone_reborn:sand_ball', { //发射物
     nbt: { pickup: 2, damage: 1 + 0.1 * damage + 0.5 * adddamage, PierceLevel: 2 },
-    cooldown: (p) => 20 / p.getAttributeTotalValue("minecraft:generic.attack_speed"),
     velocity: 4.0
   });
 });
@@ -1613,9 +1555,8 @@ ItemEvents.firstLeftClicked('goety:frozen_blade', event => {
   const damage = player.getAttributeTotalValue("minecraft:generic.attack_damage");
   const adddamage = player.getAttributeTotalValue("goety:void_potency");
 
-  shootProjectile(event, 'goety:frozen_blade', 'radiation_zone_reborn:sand_ball', { //发射物
+  atkSpeedShootProjectile(event, 'goety:frozen_blade', 'radiation_zone_reborn:sand_ball', { //发射物
     nbt: { pickup: 2, damage: 0.5 + 0.05 * damage + 0.25 * adddamage, PierceLevel: 2 },
-    cooldown: (p) => 20 / p.getAttributeTotalValue("minecraft:generic.attack_speed"),
     velocity: 4.0
   });
 });
@@ -1755,49 +1696,24 @@ ItemEvents.firstLeftClicked('goetyawaken:starless_night', event => { //无星之
 
 ItemEvents.firstLeftClicked('mutantmore:mutant_jungle_zombie_arm', event => { //突变丛林僵尸手臂
   const { player, level } = event; //从事件中解构出对象待用
-  if (event.player.cooldowns.isOnCooldown('kubejs:cucumber1')) return;
-  const viewVector = player.getViewVector(1.0); // 获取玩家的视角向量并标准化
-  const length = Math.sqrt(viewVector.x() * viewVector.x() + viewVector.y() * viewVector.y() + viewVector.z() * viewVector.z());
-  const normalizedVector = {x: viewVector.x() / length,y: viewVector.y() / length,z: viewVector.z() / length};
-  const projectile = level.createEntity("goety:blossom_thorn"); // 发射物
-  const offset = 6.0;  // 偏移距离
-  const spawnX = player.x + normalizedVector.x * offset; // 基于玩家位置+视线方向偏移
-  const spawnY = player.y - 0.5 + normalizedVector.y * offset;
-  const spawnZ = player.z + normalizedVector.z * offset;
-  projectile.setPosition(spawnX, spawnY, spawnZ); //设定发射坐标
-  const velocity = 0.5; // 设定速度基数
-  projectile.mergeNbt({ pickup: 2, damage: 1, PierceLevel: 2 })// 设定弹射物NBT数据
-  const setCOOLDOWNS=player.getAttributeTotalValue("minecraft:generic.attack_speed")
-  projectile.setMotion(normalizedVector.x * velocity, normalizedVector.y * velocity, normalizedVector.z * velocity); // 设定弹射物方向
-  projectile.setOwner(player) // 设定弹射物发射者
-  projectile.spawn();
+  if (event.player.cooldowns.isOnCooldown('mutantmore:mutant_jungle_zombie_arm')) return;
 
-  const projectile4 = level.createEntity("goety:blossom_thorn"); // 发射物
-  projectile4.setPosition(spawnX +1, spawnY , spawnZ ); //设定发射坐标
-  projectile4.mergeNbt({ pickup: 2, damage: 1, PierceLevel: 2 })// 设定弹射物NBT数据
-  projectile4.setMotion(normalizedVector.x * velocity, normalizedVector.y * velocity, normalizedVector.z * velocity); // 设定弹射物方向
-  projectile4.setOwner(player) // 设定弹射物发射者
-  projectile4.spawn();
-
-  const projectile5 = level.createEntity("goety:blossom_thorn"); // 发射物
-  projectile5.setPosition(spawnX -1, spawnY , spawnZ ); //设定发射坐标
-  projectile5.mergeNbt({ pickup: 2, damage: 1, PierceLevel: 2 })// 设定弹射物NBT数据
-  projectile5.setMotion(normalizedVector.x * velocity, normalizedVector.y * velocity, normalizedVector.z * velocity); // 设定弹射物方向
-  projectile5.setOwner(player) // 设定弹射物发射者
-  projectile5.spawn();
-
-  const projectile2 = level.createEntity("goety:blossom_thorn"); // 发射物
-  projectile2.setPosition(spawnX , spawnY , spawnZ -1); //设定发射坐标
-  projectile2.mergeNbt({ pickup: 2, damage: 1, PierceLevel: 2 })// 设定弹射物NBT数据
-  projectile2.setMotion(normalizedVector.x * velocity, normalizedVector.y * velocity, normalizedVector.z * velocity); // 设定弹射物方向
-  projectile2.setOwner(player) // 设定弹射物发射者
-  projectile2.spawn();
-
-  const projectile3 = level.createEntity("goety:blossom_thorn"); // 发射物
-  projectile3.setPosition(spawnX , spawnY , spawnZ +1); //设定发射坐标
-  projectile3.mergeNbt({ pickup: 2, damage: 1, PierceLevel: 2 })// 设定弹射物NBT数据
-  projectile3.setMotion(normalizedVector.x * velocity, normalizedVector.y * velocity, normalizedVector.z * velocity); // 设定弹射物方向
-  projectile3.setOwner(player) // 设定弹射物发射者
-  projectile3.spawn();
-  player.addItemCooldown('kubejs:cucumber1', 80/setCOOLDOWNS);
-  });
+  const hitResult = event.player.pick(6.0, 0.0, false);
+  const pos = hitResult.getLocation().add(0, -2.0, 0);
+  const postions = [pos,
+    pos.add(1.0, 0, 0),
+    pos.add(-1.0, 0, 0),
+    pos.add(0, 0, -1.0),
+    pos.add(0, 0, 1.0),
+  ]
+  postions.forEach(p => {
+    let projectile = level.createEntity("goety:blossom_thorn");
+    projectile.setPos(p); //设定发射坐标
+    projectile.mergeNbt({ pickup: 2, damage: 1, PierceLevel: 2 })// 设定弹射物NBT数据
+    projectile.setOwner(player) // 设定弹射物发射者
+    projectile.spawn();
+  })
+  
+  let setCOOLDOWNS=player.getAttributeTotalValue("minecraft:generic.attack_speed")
+  player.addItemCooldown('mutantmore:mutant_jungle_zombie_arm', 80/setCOOLDOWNS);
+});

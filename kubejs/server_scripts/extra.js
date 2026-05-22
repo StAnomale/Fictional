@@ -6,6 +6,13 @@
 console.info('Hello, World! (Loaded client scripts)')
 //你补药看我的石山代码口牙！！！！
 
+//extra.js多重弹射物发射
+function defaultExtraJsShoot(event, itemId, projectileType, positions, options) {
+    options = options || {};
+    options.nbt = options.nbt || { pickup: 2, damage: 8, PierceLevel: 5 };
+    shootMultiProjectile(event, itemId, projectileType, positions, options);
+}
+
 // 玩家左键点击刷怪笼时立即破坏并给予钥匙
 BlockEvents.leftClicked('ba_bt:spawner_marker', event => {
     const { player, block, level } = event;
@@ -319,40 +326,6 @@ ItemEvents.firstRightClicked('twilightforest:triple_bow', event => {
   if (player.cooldowns.isOnCooldown('twilightforest:triple_bow')) {return;} // 冷却返回
   player.addItemCooldown('twilightforest:triple_bow', 6);
   });
-
-// ==================== 通用弹射物发射函数 ====================
-function shootMultiProjectile(event, itemId, projectileType, positions, options) {
-  options = options || {};
-  const player = event.player;
-  const level = event.level;
-  if (!player || !level) return;
-  
-  if (player.cooldowns.isOnCooldown(itemId)) return;
-  
-  const viewVector = player.getViewVector(1.0);
-  const length = Math.sqrt(viewVector.x() * viewVector.x() + viewVector.y() * viewVector.y() + viewVector.z() * viewVector.z());
-  const normalizedVector = {
-    x: viewVector.x() / length,
-    y: viewVector.y() / length,
-    z: viewVector.z() / length
-  };
-  
-  const velocity = options.velocity || 2.0;
-  const nbt = options.nbt || { pickup: 2, damage: 8, PierceLevel: 5 };
-  
-  positions.forEach(pos => {
-    const projectile = level.createEntity(projectileType);
-    projectile.setPosition(player.x + pos.x, player.y + pos.y, player.z + pos.z);
-    projectile.setMotion(normalizedVector.x * velocity, normalizedVector.y * velocity, normalizedVector.z * velocity);
-    projectile.setOwner(player);
-    projectile.mergeNbt(nbt);
-    projectile.spawn();
-  });
-  
-  if (options.cooldown) {
-    player.addItemCooldown(itemId, options.cooldown);
-  }
-}
 
 //孔雀羽扇 - 4方向发射
 ItemEvents.rightClicked('twilightforest:peacock_feather_fan', event => {
@@ -744,20 +717,3 @@ ItemEvents.rightClicked('twilightforest:fortification_scepter', event => {
   });
 });
 
-//防护口罩辐射衰减Tick逻辑
-PlayerEvents.tick(event => {
-  const { player } = event;
-  if (!player || player.level.isClientSide()) return;
-  if (player.age % 20 !== 0) return;
-  
-  const mask = player.getCurios().getEquippedItem('head');
-  if (!mask || !mask.test(Item.of('radiation_zone_reborn:golden_filter_mask_helmet'))) return;
-  
-  const decayAttribute = player.getAttribute('radiation_zone_reborn:decay');
-  if (!decayAttribute) return;
-  
-  const decay = decayAttribute.baseValue;
-  if (decay > 0.1) {
-    decayAttribute.baseValue = Math.max(decay - 0.4, 0.1);
-  }
-});
