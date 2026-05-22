@@ -1575,7 +1575,7 @@ ItemEvents.firstLeftClicked('goety:blade_of_ender', event => {
   const adddamage = player.getAttributeTotalValue("goety:void_potency");
 
   shootProjectile(event, 'goety:blade_of_ender', 'radiation_zone_reborn:sand_ball', {
-    nbt: { pickup: 2, damage: 1 + 0.05 * damage + 0.25 * adddamage, PierceLevel: 2 },
+    nbt: { pickup: 2, damage: 0.5 + 0.05 * damage + 0.25 * adddamage, PierceLevel: 2 },
     cooldown: (p) => 20 / p.getAttributeTotalValue("minecraft:generic.attack_speed"),
     velocity: 4.0
   });

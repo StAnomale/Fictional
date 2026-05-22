@@ -7,7 +7,7 @@
 // 实体发射弹射物配置
 const projectileConfigs = [
   {
-    entities: ['minecraft:wither', 'goety:wither_necromancer', 'goety:apostle', 'cataclysm:the_harbinger'],
+    entities: ['goety:wither_necromancer', 'goety:apostle', 'cataclysm:the_harbinger'],
     timer: 20,
     projectile: 'goety:fire_tornado_trap', //燃烧龙卷风
     damage: 16
