@@ -23,6 +23,38 @@
 	presetAffixes = []
 	affixList = ["Plagued"]
 	affixPermission = "BLACKLIST"
+
+[[entities]]
+	#飓旋
+	entity = "legendary_monsters:hovering_hurricane"
+	minTier = 2
+	maxTier = 3
+	presetAffixes = ["lively"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	#云筑魔像
+	entity = "legendary_monsters:cloud_golem"
+	minTier = 4
+	maxTier = 4
+	presetAffixes = ["lively"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	#堕落圣骑
+	entity = "legendary_monsters:posessed_paladin"
+	minTier = 4
+	maxTier = 4
+	presetAffixes = ["lively"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	#湮灭构造体
+	entity = "legendary_monsters:the_obliterator "
+	minTier = 4
+	maxTier = 4
+	presetAffixes = ["lively"]
+	affixPermission = "BLACKLIST"
 	
 [[entities]]
 	#幽灵死灵法师

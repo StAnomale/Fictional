@@ -350,7 +350,7 @@
 		[mobs.ender_guardian.combat_config]
 			#Scale mob health by this value
 			#Range: 0.1 ~ 1000000.0
-			health_multiplier = 7.0
+			health_multiplier = 8.0
 			#Scale mob attack damage by this value
 			#Range: 0.1 ~ 1000000.0
 			attack_multiplier = 3.0
@@ -568,7 +568,7 @@
 		[mobs.harbinger.combat_config]
 			#Scale mob health by this value
 			#Range: 0.1 ~ 1000000.0
-			health_multiplier = 6.0
+			health_multiplier = 7.0
 			#Scale mob attack damage by this value
 			#Range: 0.1 ~ 1000000.0
 			attack_multiplier = 3.0
@@ -715,7 +715,7 @@
 		charge_hp_damage = 0.2
 		#Hp Damage
 		#Range: 0.0 ~ 1.0
-		hp_damage = 0.1
+		hp_damage = 0.15
 		#Stomp Hp Damage
 		#Range: 0.0 ~ 1.0
 		stomp_hp_damage = 0.06
@@ -729,7 +729,7 @@
 		[mobs.ancient_remnant.combat_config]
 			#Scale mob health by this value
 			#Range: 0.1 ~ 1000000.0
-			health_multiplier = 6.0
+			health_multiplier = 7.0
 			#Scale mob attack damage by this value
 			#Range: 0.1 ~ 1000000.0
 			attack_multiplier = 4.0

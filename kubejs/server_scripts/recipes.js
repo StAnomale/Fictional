@@ -5,7 +5,7 @@ console.info('Hello, World! (You will see this line every time server resources 
 ServerEvents.recipes(event => {
 
    //破损的怀表
-    event.shapeless('kubejs:broken_pocketwatch', ['eeeabsmobs:ghost_steel_ingot','goetyawaken:superaggregated_mycelial_circuit'])
+    event.shapeless('kubejs:broken_pocketwatch', ['eeeabsmobs:ghost_steel_ingot','goetyawaken:superaggregated_mycelial_circuit','kubejs:restrictiontimer_pocketwatch'])
 
     //图腾转换
     event.shapeless('minecraft:totem_of_undying', ['friendsandfoes:totem_of_freezing'])

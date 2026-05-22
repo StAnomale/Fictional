@@ -1,0 +1,31 @@
+{
+  "armorSetName": "gold_heart",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "kubejs:gold_heart",
+      "mixAndMatch": [
+      ],
+      "mustBeEmpty": false
+    },
+    {
+      "itemKey": "royalvariations:spiritual_crown",
+      "mixAndMatch": [
+      ],
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.luck",
+      "value": 2.0,
+      "modifierUUID": "91faf81e-5aa9-41ac-b491-b5d246fd7833",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

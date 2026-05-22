@@ -32,9 +32,9 @@ registerWeapons(stratusIceWeapons, 'firstLeftClicked', (event, itemId) => {
     spawnY: 1.0,
     velocity: 4.0,
     nbt: { pickup: 4, damage: 0.4 * damage + 0.2 * adddamage, PierceLevel: 8 },
-    cooldown: () => 200 / (4 + setCOOLDOWNS)
+    cooldown: 1 + 120 / (4 + setCOOLDOWNS)
   });
-  player.addItemCooldown('aether:ice_pendant', 1 + 200 / (4 + setCOOLDOWNS));
+  player.addItemCooldown('aether:ice_pendant', 1 + 120 / (4 + setCOOLDOWNS));
 });
 
 // ==================== 云母钢系列 - 太阳效果（5个武器）====================
@@ -50,7 +50,7 @@ registerWeapons(stratusIceWeapons, 'firstLeftClicked', (event, itemId) => {
     spawnY: 1.0,
     velocity: 4.0,
     nbt: { pickup: 1, damage: 1, PierceLevel: 1 },
-    cooldown: () => 1 + 200 / (4 + setCOOLDOWNS)
+    cooldown:  1 + 120 / (4 + setCOOLDOWNS)
   });
 });
 
@@ -68,7 +68,7 @@ registerWeapons(stratusIceWeapons, 'firstLeftClicked', (event, itemId) => {
     spawnY: 1.5,
     velocity: 3.0,
     nbt: { pickup: 4, damage: 2 + 0.2 * adddamage, PierceLevel: 8 },
-    cooldown: () => 8 / setCOOLDOWNS
+    cooldown: 3 / setCOOLDOWNS
   });
 });
 
@@ -89,9 +89,9 @@ ItemEvents.firstLeftClicked('aethermobs:spiritsword', event => {
     spawnY: 1.0,
     velocity: 4.0,
     nbt: { pickup: 4, damage: 0.4 * damage + 0.2 * adddamage, PierceLevel: 8 },
-    cooldown: () => 1 + 200 / (4 + setCOOLDOWNS)
+    cooldown: 1 + 120 / (4 + setCOOLDOWNS)
   });
-  player.addItemCooldown('aether:ice_pendant', 200 / (4 + setCOOLDOWNS));
+  player.addItemCooldown('aether:ice_pendant', 120 / (4 + setCOOLDOWNS));
 });
 
 // 灯壶之灵剑 - 火焰之矛效果
@@ -108,7 +108,7 @@ ItemEvents.firstLeftClicked('aethermobs:spiritsword', event => {
     spawnY: 1.5,
     velocity: 3.0,
     nbt: { pickup: 4, damage: 2 + 0.2 * adddamage, PierceLevel: 8 },
-    cooldown: () => 8 / setCOOLDOWNS
+    cooldown: 3 / setCOOLDOWNS
   });
 });
 
@@ -139,7 +139,7 @@ registerWeapons(pyrespearWeapons, 'firstLeftClicked', (event, itemId) => {
     spawnY: 1.5,
     velocity: 3.0,
     nbt: { pickup: 4, damage: 2 + 0.2 * adddamage, PierceLevel: 8 },
-    cooldown: () => 8 / setCOOLDOWNS
+    cooldown: 3 / setCOOLDOWNS
   });
 });
 
@@ -177,7 +177,7 @@ ItemEvents.rightClicked(shooter.itemId, event => {
   const adddamage = player.getAttributeTotalValue('minecraft:generic.max_health');
   projectile.mergeNbt({ pickup: 4, damage: 6 + shooter.dmgMult * adddamage, PierceLevel: 8 });
   
-  player.addItemCooldown('deep_aether:slider_eye', 1+200 / (4 + setCOOLDOWNS));
+  player.addItemCooldown('deep_aether:slider_eye', 1+120 / (4 + setCOOLDOWNS));
   projectile.spawn();
 });
 
@@ -199,9 +199,9 @@ ItemEvents.rightClicked('aether_redux:subzero_crossbow', event => {
     spawnY: 1.0,
     velocity: 3.0,
     nbt: { pickup: 4, damage: 2 + 0.4 * adddamage, PierceLevel: 8 },
-    cooldown: () => 1 + 200 / (4 + setCOOLDOWNS)
+    cooldown: 1 + 120 / (4 + setCOOLDOWNS)
   });
-  player.addItemCooldown('aether:ice_pendant', 200 / (4 + setCOOLDOWNS));
+  player.addItemCooldown('aether:ice_pendant', 120 / (4 + setCOOLDOWNS));
 });
 
 // 冰零弩 - 普通射击
@@ -218,7 +218,7 @@ ItemEvents.rightClicked('aether_redux:subzero_crossbow', event => {
     spawnY: 1.5,
     velocity: 2.0,
     nbt: { pickup: 4, damage: 6 + 0.4 * adddamage, PierceLevel: 8 },
-    cooldown: () => 1 + 200 / (4 + setCOOLDOWNS)
+    cooldown: 1 + 120 / (4 + setCOOLDOWNS)
   });
 });
 
@@ -237,9 +237,9 @@ ItemEvents.rightClicked('deep_aether:storm_bow', event => {
     spawnY: 1.0,
     velocity: 4.0,
     nbt: { pickup: 1, damage: 1, PierceLevel: 1 },
-    cooldown: () => 1 + 200 / (4 + setCOOLDOWNS)
+    cooldown: 1 + 120 / (4 + setCOOLDOWNS)
   });
-  player.addItemCooldown('aether:ice_pendant', 200 / (4 + setCOOLDOWNS));
+  player.addItemCooldown('aether:ice_pendant', 120 / (4 + setCOOLDOWNS));
 });
 
 // 卷风长弓 - 普通射击
@@ -282,7 +282,7 @@ ItemEvents.rightClicked('aether:phoenix_bow', event => {
     spawnY: 1.0,
     velocity: 3.0,
     nbt: { pickup: 1, damage: 1, PierceLevel: 1 },
-    cooldown: () => 1 + 200 / (4 + setCOOLDOWNS)
+    cooldown: 1 + 120 / (4 + setCOOLDOWNS)
   });
 });
 
@@ -326,7 +326,7 @@ ItemEvents.rightClicked('deep_aether:afterburner', event => {
     spawnY: 1.0,
     velocity: 3.5,
     nbt: { pickup: 1, damage: 1, PierceLevel: 1 },
-    cooldown: () => 1 + 200 / (4 + setCOOLDOWNS)
+    cooldown:  1 + 120 / (4 + setCOOLDOWNS)
   });
 });
 
@@ -378,28 +378,23 @@ ItemEvents.rightClicked('deep_aether:afterburner', event => {
 // 惊雷飞刀
 ItemEvents.rightClicked('aether:lightning_knife', event => {
   const { player } = event;
-  const damage = player.getAttributeTotalValue('minecraft:generic.attack_damage');
-  const adddamage = player.getAttributeTotalValue('minecraft:generic.armor');
   
   shootProjectile(event, 'aether:lightning_knife', 'aether:lightning_knife', {
     offset: 1.5,
     spawnY: 1.0,
     velocity: 0.5,
-    nbt: { pickup: 4, damage: 0.4 * damage + 0.2 * adddamage, PierceLevel: 8 }
+    nbt: { pickup: 4, damage: 1, PierceLevel: 8 }
   });
 });
 
 // 创世者飞锤
 ItemEvents.rightClicked('aether:hammer_of_kingbdogz', event => {
   const { player } = event;
-  const damage = player.getAttributeTotalValue('minecraft:generic.attack_damage');
-  const adddamage = player.getAttributeTotalValue('minecraft:generic.armor');
-  
   shootProjectile(event, 'aether:hammer_of_kingbdogz', 'aether:hammer_projectile', {
     offset: 1.5,
     spawnY: 1.0,
     velocity: 2.5,
-    nbt: { pickup: 4, damage: 0.4 * damage + 0.2 * adddamage, PierceLevel: 8 }
+    nbt: { pickup: 4, damage: 1, PierceLevel: 8 }
   });
 });
 
@@ -416,7 +411,7 @@ ItemEvents.firstLeftClicked('aether:flaming_sword', event => {
     spawnY: 1.0,
     velocity: 3.0,
     nbt: { pickup: 1, damage: 1, PierceLevel: 1 },
-    cooldown: () => 1 + 200 / (4 + setCOOLDOWNS)
+    cooldown:  1 + 120 / (4 + setCOOLDOWNS)
   });
 });
 
@@ -434,9 +429,9 @@ ItemEvents.firstLeftClicked('deep_aether:storm_sword', event => {
     spawnY: 1.0,
     velocity: 3.0,
     nbt: { pickup: 1, damage: 1, PierceLevel: 1 },
-    cooldown: () => 1 + 200 / (4 + setCOOLDOWNS)
+    cooldown:  1 + 120 / (4 + setCOOLDOWNS)
   });
-  player.addItemCooldown('aether:ice_pendant', 200 / (4 + setCOOLDOWNS));
+  player.addItemCooldown('aether:ice_pendant', 120 / (4 + setCOOLDOWNS));
 });
 
 // 境云权杖
@@ -453,9 +448,9 @@ ItemEvents.firstLeftClicked('aether:cloud_staff', event => {
     spawnY: 1.0,
     velocity: 3.0,
     nbt: { pickup: 1, damage: 1, PierceLevel: 1 },
-    cooldown: () => 1 + 200 / (4 + setCOOLDOWNS)
+    cooldown:  1 + 120 / (4 + setCOOLDOWNS)
   });
-  player.addItemCooldown('aether:ice_pendant', 200 / (4 + setCOOLDOWNS));
+  player.addItemCooldown('aether:ice_pendant', 120 / (4 + setCOOLDOWNS));
 });
 
 // ==================== 武神系列武器（5个）====================
@@ -478,9 +473,9 @@ registerWeapons(valkyrieWeapons, 'firstLeftClicked', (event, itemId) => {
     spawnY: 1.0,
     velocity: 3.0,
     nbt: { pickup: 1, damage: 1, PierceLevel: 1 },
-    cooldown: () => 1 + 200 / (4 + setCOOLDOWNS)
+    cooldown:  1 + 120 / (4 + setCOOLDOWNS)
   });
-  player.addItemCooldown('aether:ice_pendant', 200 / (4 + setCOOLDOWNS));
+  player.addItemCooldown('aether:ice_pendant', 120 / (4 + setCOOLDOWNS));
 });
 
 // ==================== 凤凰系列武器（5个）====================
@@ -504,7 +499,7 @@ registerWeapons(phoenixWeapons, 'firstLeftClicked', (event, itemId) => {
     spawnY: 1.0,
     velocity: 4.0,
     nbt: { pickup: 1, damage: 1, PierceLevel: 1 },
-    cooldown: () => 1 + 200 / (4 + setCOOLDOWNS)
+    cooldown:  1 + 120 / (4 + setCOOLDOWNS)
   });
 });
 

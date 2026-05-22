@@ -68,6 +68,11 @@ ServerEvents.tags("item", event => {
 
     //event.add("minecraft:arrows", "minecraft:anvil")//铁砧
 
+    event.add('curios:talisman', 'artifacts:cloud_in_a_bottle')//云朵瓶
+    event.add('curios:talisman', 'artifacts:charm_of_sinking')//下沉护符
+    event.add('curios:talisman', 'artifacts:helium_flamingo')//氦气火烈鸟
+    event.add('curios:talisman', 'artifacts:chorus_totem')//紫颂图腾
+
 
     event.add("curios:charm", 'goetyawaken:taboo_fragment')//禁咒碎片
     event.add("curios:charm", 'goetyawaken:soul_sapphire')//灵魂蓝宝石

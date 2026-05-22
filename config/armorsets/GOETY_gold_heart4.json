@@ -1,0 +1,35 @@
+{
+  "armorSetName": "gold_heart",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "kubejs:gold_heart",
+      "mixAndMatch": [
+      ],
+      "mustBeEmpty": false
+    }
+  ],
+  "mainHand": {
+    "itemKey": "lost_aether_content:phoenix_sword",
+    "mixAndMatch": [
+      "lost_aether_content:phoenix_axe",
+      "lost_aether_content:phoenix_pickaxe",
+      "lost_aether_content:phoenix_hoe",
+      "lost_aether_content:phoenix_shovel"
+      ],
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_damage",
+      "value": -0.2,
+      "modifierUUID": "9679c9da-e645-4550-b26e-68310cb2101e",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

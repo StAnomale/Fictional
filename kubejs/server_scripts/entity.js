@@ -271,17 +271,21 @@ EntityEvents.spawned(event => {
   }
 });
 
-// EntityEvents.drops('zombie', event => {
+// //特殊掉落
+// EntityEvents.drops('cataclysm:urchinkin', event => {
 //   let entity = event.entity;
 //   let dimensionId = entity.level.dimension.toString()
-//   if (dimensionId === 'minecraft:overworld') {
-//     const damageSource = event.getSource();
-//     const player = damageSource.player
-//     // event.cancel();
-//     // entity.spawnAtLocation('oak_button', 1);
+//   //console.log(`测试1`)
+//   if (dimensionId === 'pbf1:sanctum_of_the_battle1') {
+//     let damageSource = event.getSource();
+//     let player = damageSource.player
+//     if (player.isCuriosEquipped('goety:unholy_blood')) {
+//     event.addDrop('kubejs:cucumber1', 1)
 //     event.drops.removeIf(item => item.item.id === 'minecraft:rotten_flesh');
-//     event.addDrop('oak_button', 1)
-//   }
+//     //event.cancel();
+//     //entity.spawnAtLocation('kubejs:cucumber1', 1);
+//     //console.log(`测试2`)
+//     }}
 // })
 
 

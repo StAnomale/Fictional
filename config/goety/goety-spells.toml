@@ -1082,7 +1082,7 @@
 		telekinesisMaxHealth = 100
 		#Telekinesis Spell Cost, Default: 4
 		#Range: > 0
-		telekinesisCost = 4
+		telekinesisCost = 20
 		#How many ticks the Telekinesis Spell much charge before casting, Default: 0
 		#Range: > 0
 		telekinesisChargeUp = 0

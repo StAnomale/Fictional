@@ -101,7 +101,7 @@ ItemEvents.rightClicked('kubejs:restrictiontimer_pocketwatch', event => {
   player.runCommandSilent('/gamemode spectator');
   player.potionEffects.add('kubejs:hostility_chaos', 200, 9, false , false);
   player.potionEffects.add('minecraft:night_vision', 200, 9, false , false);
-  player.runCommandSilent('/summon goety:brew_effect_gas');
+  //player.runCommandSilent('/summon goety:brew_effect_gas');
 
   player.playNotifySound("minecraft:ambient.cave", "ambient", 1, 1);
   global.sound(player, 'block.amethyst_cluster.break', 1, 1, 0.14);
@@ -1561,6 +1561,7 @@ ItemEvents.firstLeftClicked('goety:frozen_blade', event => {
   });
 });
 
+
 ItemEvents.rightClicked('gwrexpansions:duskfall_eclipse_blaster', event => { //暮影蚀光
   const { player, level } = event; //从事件中解构出对象待用
   if(!player.isCuriosEquipped('meetyourfight:wilted_ideals')) return; //佩戴饰品
@@ -1716,4 +1717,35 @@ ItemEvents.firstLeftClicked('mutantmore:mutant_jungle_zombie_arm', event => { //
   
   let setCOOLDOWNS=player.getAttributeTotalValue("minecraft:generic.attack_speed")
   player.addItemCooldown('mutantmore:mutant_jungle_zombie_arm', 80/setCOOLDOWNS);
+});
+
+// ==================== 黄金系列武器 ====================
+const goldWeapons = [
+  { itemId: 'royalvariations:royal_staff', addAttr: 'minecraft:generic.luck', dmgMult: 2.0 },
+  { itemId: 'aether:valkyrie_lance', addAttr: 'minecraft:generic.luck', dmgMult: 2.0 },
+  { itemId: 'aether:valkyrie_axe', addAttr: 'minecraft:generic.luck', dmgMult: 2.0 },
+  { itemId: 'advancednetherite:netherite_gold_sword', addAttr: 'minecraft:generic.luck', dmgMult: 2.0 },
+  { itemId: 'advancednetherite:netherite_gold_axe', addAttr: 'minecraft:generic.luck', dmgMult: 2.0 },
+  { itemId: 'minecraft:golden_sword', addAttr: 'minecraft:generic.luck', dmgMult: 2.0 },
+  { itemId: 'minecraft:golden_axe', addAttr: 'minecraft:generic.luck', dmgMult: 2.0 },
+];
+
+goldWeapons.forEach(weapon => {
+  // 左键发射
+  ItemEvents.firstLeftClicked(weapon.itemId, event => {
+    const { player, level } = event;
+    if (!player.potionEffects.isActive('kubejs:gold')) return;
+    const damage = player.getAttributeTotalValue('minecraft:generic.attack_damage');
+    const adddamage = player.getAttributeTotalValue(weapon.addAttr);
+    const setCOOLDOWNS = player.getAttributeTotalValue('minecraft:generic.attack_speed');
+    /**
+     * @type {Internal.Projectile}
+     */
+    const projectile = shootProjectile(event, weapon.itemId, 'cataclysm:blazing_bone', {
+      cooldown: 20 / setCOOLDOWNS
+    });
+    if(!projectile) return;
+    projectile.setDamage(4 + 0.4 * damage + weapon.dmgMult * adddamage);
+  });
+
 });

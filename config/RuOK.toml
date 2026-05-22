@@ -1,4 +1,3 @@
-onCull = true
 MaxEntityEntities = 320
 qualityModes = "NORMAL"
 RenderWeather = "NORMAL"
@@ -9,39 +8,81 @@ whiteListedEntities = ["modid:goety"]
 BlackTagListEntity = []
 WhiteTagListEntity = []
 isAlwaysShowItemCount = false
-startTime = 58.655
-onGui = false
-GuiRXTX = false
-GuiFPS = true
-GuiCPU = false
-GuiGPU = false
-GuiRAM = true
-GuiEntityCount = false
-GuiPlayerPos = false
-GuiServer = true
-GuiCameraTarget = false
+startTime = 94.145
+Hud = false
+HudRXTX = false
+HudFPS = true
+HudCPU = false
+HudGPU = false
+HudRAM = true
+HudPlayerPos = false
+HudServer = true
+HudCameraTarget = false
 Mood = false
 MaxParticleDistance = 256
 WhiteListedParticle = []
 BlackListedParticle = []
 GuiEasyRamMode = false
 GuiDisplayRamUsage = false
-GuiX = 4
-GuiY = 16
 UseAui = false
-DeBug = false
 TextBackground = false
 TextureAnimatedSprites = true
 SoundDevicesMonitor = false
 SetParticleMaxAge = true
 ParticleMaxAge = 1
-GuiViewMode = "EMPTY"
 MinDistance = 5
 EntityDistance = 128
-TickPerformance = true
 ParticlePerformance = true
-EntityPerformance = false
-EntityViewDebug = false
 ParticleCountLimit = 17408
 BlockBreakParticle = true
 AsyncCompute = true
+SoftCull = true
+DynamicEntityBudget = true
+BlackBlockEntities = []
+WhiteBlockEntities = []
+MaxBlockEntityCount = 64
+BlockEntityDistance = 256
+onCull = true
+VisibleCulling = true
+EntityRenderPerformance = false
+CullMode = "COMPATIBILITY"
+ParticleFastCollision = false
+CullBlockEntity = true
+CullEntity = true
+CullParticle = true
+
+[[HudTextConfig]]
+key = "ruok.options.hud.fps.info"
+x = 2
+y = 15
+enabled = true
+
+[[HudTextConfig]]
+key = "ruok.options.hud.system.info"
+x = 2
+y = 41
+enabled = true
+
+[[HudTextConfig]]
+key = "ruok.options.hud.playerpos.info"
+x = 4
+y = 30
+enabled = false
+
+[[HudTextConfig]]
+key = "ruok.options.hud.server.info"
+x = 2
+y = 28
+enabled = true
+
+[[HudTextConfig]]
+key = "ruok.options.hud.cameratarget.info"
+x = 4
+y = 56
+enabled = false
+
+[[HudTextConfig]]
+key = "ruok.options.hud.rtxt.info"
+x = 4
+y = 69
+enabled = false

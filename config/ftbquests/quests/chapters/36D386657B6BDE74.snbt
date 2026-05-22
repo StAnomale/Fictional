@@ -551,7 +551,7 @@
 			id: "7AACEA15C43B6FD3"
 			linked_quest: "746FBED86F96E156"
 			shape: "square"
-			x: 49.5d
+			x: 47.0d
 			y: 3.0d
 		}
 		{
@@ -1255,14 +1255,16 @@
 			y: 35.5d
 		}
 		{
+			disable_toast: true
 			id: "086A87B2A1581DE0"
 			linked_quest: "3EFEF926E0773776"
 			shape: "square"
 			size: 2.0d
-			x: 61.5d
+			x: 57.0d
 			y: 21.0d
 		}
 		{
+			disable_toast: true
 			id: "328FC0713F35122B"
 			linked_quest: "1FF549793509450A"
 			shape: "square"
@@ -1271,14 +1273,16 @@
 			y: 21.0d
 		}
 		{
+			disable_toast: true
 			id: "3E71ED546DD4EAC9"
 			linked_quest: "7E0BBC3D643B3095"
 			shape: "square"
 			size: 2.0d
-			x: 61.5d
+			x: 57.0d
 			y: 27.0d
 		}
 		{
+			disable_toast: true
 			id: "482A807739CC5275"
 			linked_quest: "2F59B35C8D250A9B"
 			shape: "square"
@@ -2717,7 +2721,7 @@
 				"6C422B04702F4A22"
 			]
 			description: [
-				"获得&d余烬之灯&r后可解除荆棘之地的酸雨封印，焚烧那些荆棘，最终抵达&n终焉城堡&r，于此得到终焉的&d立方护符&r。"
+				"获得&d余烬之灯&r后可解除荆棘之地的酸雨封印，焚烧那些荆棘，最终抵达&n终焉城堡&r，于此制作终焉的&d立方护符&r。"
 				""
 				"&8无论如何，这就是最后了，在旅途的尽头，黄昏的终末，我窥见纯粹黑暗的一角。"
 			]
@@ -4381,7 +4385,7 @@
 				type: "advancement"
 			}]
 			title: "狂瞳龙卷"
-			x: 48.0d
+			x: 45.5d
 			y: 3.0d
 		}
 		{
@@ -4739,8 +4743,8 @@
 		}
 		{
 			dependencies: [
-				"08345AE545056CE1"
 				"186E6345810B8304"
+				"08345AE545056CE1"
 			]
 			description: ["我们终将抵达约定的天国之顶。"]
 			icon: "aethermobs:finalkey"
@@ -6709,6 +6713,41 @@
 			title: "制作者：绘名青棺"
 			x: 233.0d
 			y: 22.0d
+		}
+		{
+			dependencies: ["2AF7951F496E6CC6"]
+			description: [
+				"在天境维度使用 &n大气之眼&r 寻找浮云神殿，&d云筑魔像&r位于浮云神殿的顶端，是至少4星的BOSS单位。击败可获得&b大气符文&r和&b大气之靴&r。"
+				""
+				"云筑魔像免疫药水效果，免疫窒息、火焰、溺水等伤害，受到伤害时拥有 &n10&r 刻&e独立无敌帧&r。其部分攻击会打断玩家的进食，且能够削减玩家的&6抗性提升&r等级。"
+				""
+				"可以通过 &b许愿泉&r 获取对应结构的位置。这需要向许愿泉献出 &e&n大气之眼&r 、皇家末影珍珠、传送卷轴、星界粉尘 。"
+			]
+			icon: "legendary_monsters:eye_of_air"
+			id: "27B4BCD9F88E8C40"
+			rewards: [{
+				id: "0E61AEA34A7C3CC7"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [
+				{
+					id: "6EB5289945EFAC9D"
+					item: "legendary_monsters:eye_of_air"
+					type: "item"
+				}
+				{
+					advancement: "legendary_monsters:defeat_cloud_golem"
+					criterion: ""
+					id: "4125B9F7184FE89D"
+					type: "advancement"
+				}
+			]
+			title: "云筑魔像"
+			x: 76.0d
+			y: 3.0d
 		}
 	]
 	title: "反之编年史"

@@ -1,0 +1,40 @@
+{
+  "armorSetName": "gold_heart",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "kubejs:gold_heart",
+      "mixAndMatch": [
+      ],
+      "mustBeEmpty": false
+    }
+  ],
+  "mainHand": {
+    "itemKey": "aether:valkyrie_lance",
+    "mixAndMatch": [
+      "advancednetherite:netherite_gold_sword",
+	    "advancednetherite:netherite_gold_axe",
+
+      "minecraft:golden_sword",
+	    "minecraft:golden_axe",
+
+      "royalvariations:royal_staff",
+
+      "aether:valkyrie_axe"
+      ],
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_damage",
+      "value": 0.2,
+      "modifierUUID": "0e4f4972-5bc1-40f6-8643-56a67c309f6c",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

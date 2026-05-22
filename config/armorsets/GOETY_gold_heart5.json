@@ -1,0 +1,31 @@
+{
+  "armorSetName": "gold_heart",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "kubejs:gold_heart",
+      "mixAndMatch": [
+      ],
+      "mustBeEmpty": false
+    },
+    {
+      "itemKey": "immersive_aircraft:steel_boiler",
+      "mixAndMatch": [
+      ],
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_damage",
+      "value": -0.2,
+      "modifierUUID": "cb0dd1b9-ad23-4338-a66f-7f6d093422fd",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}
