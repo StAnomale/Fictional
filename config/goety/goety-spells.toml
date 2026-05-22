@@ -973,7 +973,7 @@
 		stellarCost = 4000
 		#How much base damage the Void Shocks from Stellar spell deals, Default: 7.0
 		#Range: 1.0 ~ 1.7976931348623157E308
-		stellarDamage = 2.0
+		stellarDamage = 7.0
 
 	[Spells."Hail Spell"]
 		#Time to cast Hail Spell, Default: 40

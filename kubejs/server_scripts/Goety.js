@@ -1601,7 +1601,7 @@ ItemEvents.firstLeftClicked('goetyawaken:starless_night', event => {
   const adddamage = player.getAttributeTotalValue("goety:void_potency");
 
   shootProjectile(event, 'goetyawaken:starless_night', 'radiation_zone_reborn:sand_ball', { //发射物
-    nbt: { pickup: 2, damage: 1 + 0.15 * damage + 0.5 * adddamage, PierceLevel: 2 },
+    nbt: { pickup: 2, damage: 1 + 0.1 * damage + 0.5 * adddamage, PierceLevel: 2 },
     cooldown: (p) => 20 / p.getAttributeTotalValue("minecraft:generic.attack_speed"),
     velocity: 4.0
   });

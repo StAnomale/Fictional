@@ -320,7 +320,7 @@ ItemEvents.rightClicked('deep_aether:storm_bow', event => {
   
   const damage = player.getAttributeTotalValue('obscure_api:magic_damage');
   const adddamage = player.getAttributeTotalValue('minecraft:generic.luck');
-  projectile.mergeNbt({ pickup: 1, damage: 1 + 0.4 * damage + 1.0 * adddamage, PierceLevel: 1 });
+  projectile.mergeNbt({ pickup: 1, damage: 1 + 0.4 * damage + 0.75 * adddamage, PierceLevel: 1 });
   
   player.addItemCooldown('deep_aether:storm_bow', 10);
   projectile.spawn();

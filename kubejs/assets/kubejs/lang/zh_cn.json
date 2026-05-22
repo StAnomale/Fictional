@@ -761,7 +761,7 @@
 	"Fictional.GOETY.starless_night2":"§7■ 提升 2格 触及距离 ",
 	"Fictional.GOETY.starless_night3":"§7■ 提升 20% 护甲穿透 ",
 	"Fictional.GOETY.starless_night4":"§7■ 近战攻击时额外发射 1道 虚空斩击 ",
-	"Fictional.GOETY.starless_night5":"§8造成(近战伤害*60%+法术强效*200%)伤害 ",
+	"Fictional.GOETY.starless_night5":"§8造成(近战伤害*40%+法术强效*200%)伤害 ",
 	"Fictional.GOETY.starless_night6":"§8攻击命中附带虚空之蚀、伤害共享和侵蚀效果 ",
 	"Fictional.GOETY.starless_night7":"§a“在无星之夜这柄阔剑的深黑处， ",
 	"Fictional.GOETY.starless_night8":"§a 无数生灵的痛苦哀嚎，萦绕不绝。” ",
@@ -1635,7 +1635,7 @@
 	"Fictional.AETHER.storm_bow1_2":"§7■ 提升 25% 附加伤害 ",
 	"Fictional.AETHER.storm_bow0":"§c■ 射击命中会产生机遇旋风 ",
 	"Fictional.AETHER.storm_bow2":"§7■ 射击时将额外发射 1支 箭矢 ",
-	"Fictional.AETHER.storm_bow3":"§7■ 造成(附加伤害*80%+幸运值*200%)伤害 ",
+	"Fictional.AETHER.storm_bow3":"§7■ 造成(附加伤害*80%+幸运值*150%)伤害 ",
 	"Fictional.AETHER.storm_bow4":"§8持有寒冰增幅时攻击额外发射1枚寒风球 ",
 	"Fictional.AETHER.storm_bow5":"§8造成固定10点伤害，冷却时间受幸运影响 ",
 

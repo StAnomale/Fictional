@@ -127,7 +127,7 @@
 		["Guns Without Roses Expansions Config".Shotgun.Supershotgun]
 			#Bonus Damage
 			#Range: 0 ~ 100
-			bonusDamage = 0
+			bonusDamage = 1
 			#Damage Multiplier
 			#Range: 0.0 ~ 10.0
 			damageMultiplier = 1.0
@@ -281,7 +281,7 @@
 			headshotMultiplier = 1.0
 			#fire Delay
 			#Range: 4 ~ 100
-			fireDelay = 30
+			fireDelay = 24
 			#inaccuracy
 			#Range: 0.0 ~ 10.0
 			inaccuracy = 2.0

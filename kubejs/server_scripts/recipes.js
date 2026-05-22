@@ -46,6 +46,17 @@ ServerEvents.recipes(event => {
     //   0: 'minecraft:echo_shard',
     //})
 
+    //缚时者的怀表
+    event.shaped(Item.of('kubejs:restrictiontimer_pocketwatch'), [
+       ' 1 ',
+       '101',
+       ' 1 '
+    ], 
+    {
+       0: 'kubejs:covenant_purewhite',
+       1: 'minecraft:clock',
+    })
+
 
     //灵质
     event.shaped(Item.of('goety:ectoplasm',2), [

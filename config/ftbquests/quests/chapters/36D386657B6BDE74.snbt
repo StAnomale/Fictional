@@ -1556,8 +1556,8 @@
 			id: "62676398BF4CD143"
 			linked_quest: "4CFD55B15EC543B2"
 			shape: "square"
-			x: 66.0d
-			y: 21.5d
+			x: 65.5d
+			y: 44.5d
 		}
 		{
 			disable_toast: true
@@ -1644,8 +1644,8 @@
 			id: "02BE1EA794218788"
 			linked_quest: "45AE0AEA7097AEEE"
 			shape: "square"
-			x: 65.5d
-			y: 44.5d
+			x: 66.0d
+			y: 21.5d
 		}
 		{
 			disable_toast: true
