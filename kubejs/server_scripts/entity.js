@@ -284,6 +284,7 @@ EntityEvents.spawned(event => {
 //   }
 // })
 
+
 // 骷髅幻翼
 //EntityEvents.spawned('minecraft:skeleton', event => {
 //	let skeleton = event.entity;
