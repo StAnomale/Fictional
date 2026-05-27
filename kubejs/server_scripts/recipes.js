@@ -390,6 +390,22 @@ ServerEvents.recipes(event => {
        2: 'minecraft:iron_ingot'
     })
 
+    //黄金的国王心脏
+    event.shaped('kubejs:gold_heart', [
+       '213',
+       '101',
+       '456'
+    ], 
+    {
+       0: 'royalvariations:spiritual_crown_shard',
+       1: 'kubejs:enchanted_golden_feather',
+       2: 'mynethersdelight:enchanted_golden_egg',
+       3: 'minecraft:enchanted_golden_apple',
+       4: 'aether:golden_gloves',
+       5: 'twilightforest:gold_minotaur_axe',
+       6: 'crockpot:netherosia',
+    })
+
     //腐化之心
     event.shaped('kubejs:corrupting_heart', [
        '113',

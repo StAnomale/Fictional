@@ -1172,7 +1172,6 @@ e.add([
 	'cataclysm:bloom_stone_pauldrons'], [
 	Text.translate('OEA.air'),
 	Text.translate('Fictional.GOETY.bloom_stone_pauldrons1'),
-	Text.translate('Fictional.GOETY.bloom_stone_pauldrons2'),
 	Text.translate('Fictional.GOETY.bloom_stone_pauldrons3'),
 	Text.translate('OEA.air'),
 	])

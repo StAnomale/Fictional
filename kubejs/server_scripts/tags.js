@@ -349,6 +349,27 @@ ServerEvents.tags("item", event => {
     event.add('minecraft:trimmable_armor', 'aethermobs:shaday_helmet')
     event.add('minecraft:trimmable_armor', 'aethermobs:shaday_chestplate')
     event.add('minecraft:trimmable_armor', 'aethermobs:shaday_leggings')
+    event.add('minecraft:trimmable_armor', 'cataclysm:monstrous_helm')
+    event.add('minecraft:trimmable_armor', 'twilightforest:yeti_helmet')
+    event.add('minecraft:trimmable_armor', 'better_minoshroomtaur:maze_diamond_armor_helmet')
+    event.add('minecraft:trimmable_armor', 'better_minoshroomtaur:maze_diamond_armor_boots')
+    event.add('minecraft:trimmable_armor', 'mutantmore:hog_helm')
+
+    event.add('minecraft:trimmable_armor', 'cataclysm:bone_reptile_helmet')
+    event.add('minecraft:trimmable_armor', 'cataclysm:bone_reptile_chestplate')
+    event.add('minecraft:trimmable_armor', 'cataclysm:ignitium_helmet')
+    event.add('minecraft:trimmable_armor', 'cataclysm:ignitium_chestplate')
+    event.add('minecraft:trimmable_armor', 'cataclysm:ignitium_leggings')
+    event.add('minecraft:trimmable_armor', 'cataclysm:ignitium_boots')
+    event.add('minecraft:trimmable_armor', 'cataclysm:ignitium_elytra_chestplate')
+    event.add('minecraft:trimmable_armor', 'cataclysm:cursium_helmet')
+    event.add('minecraft:trimmable_armor', 'cataclysm:cursium_chestplate')
+    event.add('minecraft:trimmable_armor', 'cataclysm:cursium_leggings')
+    event.add('minecraft:trimmable_armor', 'cataclysm:cursium_boots')
+    event.add('minecraft:trimmable_armor', 'eeeabsmobs:ghost_warrior_helmet')
+    event.add('minecraft:trimmable_armor', 'eeeabsmobs:ghost_warrior_chestplate')
+    event.add('minecraft:trimmable_armor', 'eeeabsmobs:ghost_warrior_leggings')
+    event.add('minecraft:trimmable_armor', 'eeeabsmobs:ghost_warrior_boots')
     
 
     event.add("fictional:cataclysmenchant", "cataclysm:the_incinerator")//灾变武器附魔

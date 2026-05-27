@@ -6,7 +6,7 @@
 	"Knockback Resistance (default: 1)" = 1.0
 	"Armour Value (default: 2)" = 12.0
 	"Armour Toughness Value (default: 0)" = 4.0
-	"Target Players Range (in blocks, default: 64)" = 64.0
+	"Target Players Range (in blocks, default: 64)" = 48.0
 	"Target Mobs Range (in blocks, default: 20)" = 20.0
 	"Punch Attack Damage (default: 10)" = 24.0
 	"Punch Attack Disable Shields Duration (in ticks, default: 100)" = 100

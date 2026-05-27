@@ -20,7 +20,7 @@
     {
       "type": "attribute",
       "name": "minecraft:generic.armor_toughness",
-      "value": 0.2,
+      "value": 0.1,
       "modifierUUID": "aaee12ee-734a-4bdc-af25-45059132dd60",
       "attributeOperation": 1,
       "interactionType": "self",

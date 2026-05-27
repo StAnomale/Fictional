@@ -20,16 +20,6 @@
     },
     {
       "type": "attribute",
-      "name": "minecraft:generic.max_health",
-      "value": 0.1,
-      "modifierUUID": "1c0bdffc-422b-414d-bfcc-71e9cdab9171",
-      "attributeOperation": 1,
-      "interactionType": "self",
-      "hideBonusDescription": false,
-      "onlyImmuneToNewEffects": false
-    },
-    {
-      "type": "attribute",
       "name": "functionalarmortrim:experience_boost",
       "value": 0.4,
       "modifierUUID": "7d2fc60b-2148-4a42-84f6-a5e7830a7c82",

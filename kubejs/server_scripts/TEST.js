@@ -29,6 +29,23 @@
 
   //本整合包由 绘名青棺(Silentmo) 制作，联系QQ群：693928637
 
+PlayerEvents.tick(event => {
+    let player = event.getPlayer();
+    let pData = player.getPersistentData();
+    if(!pData.contains('testItem')) return;
+    let tick = pData.getInt('testItem');
+    if(tick > 0) pData.putInt('testItem', --tick);
+    let level = event.getLevel();
+    let pos = player.position();
+    let pos1 = pos.add(new Vec3d(-1,-1,-1));
+    let pos2 = pos.add(new Vec3d(1,1,1));
+    level.getEntitiesWithin(AABB.of(pos1.x(), pos1.y(), pos1.z(), pos2.x(), pos2.y(), pos2.z()))
+        .filter(entity => entity.isLiving() && entity != player).forEach(entity => {
+            entity.attack(player.damageSources().playerAttack(player), 10);
+        });
+    if(tick == 0) pData.remove('testItem');
+})
+
 // 玩家复活事件（在登录时也会触发）
 EntityEvents.spawned(event => {
     let player = event.entity;

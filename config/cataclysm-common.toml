@@ -32,7 +32,7 @@
 		[tools_and_abilities.bone_reptile_armor.armor_config]
 			#Armor_Multiplier
 			#Range: 0.0 ~ 1000000.0
-			armor_multiplier = 1.0
+			armor_multiplier = 0.8
 			#Toughness
 			#Range: 0.0 ~ 1000000.0
 			toughness = 5.0

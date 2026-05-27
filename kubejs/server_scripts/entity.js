@@ -161,12 +161,6 @@ EntityEvents.hurt(event => {
 
 // 怪物效果配置
 const monsterEffectConfigs = [
-  {
-    monsters: ['lost_aether_content:aerwhale_king'],
-    effects: [
-      { id: 'hostility_wounding', amplifier: 1 }
-    ]
-  },
   { //二星
     monsters: ['goety:brood_mother', 'goety:crone', 'goety:wither_necromancer', 'goety:wight', 'goety:minister', 'goety:bone_lord', 'goety:endersent', 'goety:hostile_redstone_golem'],
     effects: [
@@ -202,22 +196,92 @@ const monsterEffectConfigs = [
   }
 ];
 
-// //特殊掉落
-// EntityEvents.drops('cataclysm:urchinkin', event => {
-//   let entity = event.entity;
-//   let dimensionId = entity.level.dimension.toString()
-//   //console.log(`测试1`)
-//   if (dimensionId === 'pbf1:sanctum_of_the_battle1') {
-//     let damageSource = event.getSource();
-//     let player = damageSource.player
-//     if (player.isCuriosEquipped('goety:unholy_blood')) {
-//     event.addDrop('kubejs:cucumber1', 1)
-//     event.drops.removeIf(item => item.item.id === 'minecraft:rotten_flesh');
-//     //event.cancel();
-//     //entity.spawnAtLocation('kubejs:cucumber1', 1);
-//     //console.log(`测试2`)
-//     }}
-// })
+// 统一的怪物生成事件处理
+EntityEvents.spawned(event => {
+  const entity = event.entity;
+  if (!entity || !entity.level) return;
+  
+  let entityType = '未知';
+  try {
+    if (entity.identifier) {
+      entityType = entity.identifier;
+    } else if (entity.type && entity.type.id) {
+      entityType = entity.type.id;
+    } else if (entity.getType) {
+      entityType = entity.getType().toString();
+    }
+  } catch (e) {return;}
+  
+  let isLiving = false;
+  try { isLiving = entity.isLiving(); } catch (e) { isLiving = false; }
+  if (!isLiving) return;
+  
+  // 检查维度
+  let dimensionId = '未知';
+  try {
+    if (entity.level.dimension) {
+      dimensionId = entity.level.dimension.id || entity.level.dimension.toString();
+    }
+  } catch (e) {}
+  
+  // 应用效果配置
+  for (let config of monsterEffectConfigs) {
+    for (let monster of config.monsters) {
+      if (entityType.indexOf(monster) !== -1) {
+        // 竞技场特殊处理
+        if (dimensionId === 'pbf1:sanctum_of_the_battle1' && monster === 'aethermobs:eldershulker') {
+          try {
+            let randomHealth = Math.floor(Math.random() * 2000) + 10000;
+            if (entity.setMaxHealth) {
+              entity.setMaxHealth(randomHealth);
+            } else if (entity.attributes && entity.attributes.has("minecraft:generic.max_health")) {
+              entity.attributes.setBaseValue("minecraft:generic.max_health", randomHealth);
+            }            
+            if (entity.setHealth) {
+              entity.setHealth(randomHealth);
+            }
+            if (entity.potionEffects) {
+              entity.potionEffects.add('minecraft:instant_health', -1, 0, false, false);
+              entity.potionEffects.add('kubejs:fictional', -1, 2, false, false);
+              entity.potionEffects.add('minecraft:regeneration', -1, 2, false, false);
+              entity.potionEffects.add('minecraft:resistance', -1, 1, false, false);
+              entity.potionEffects.add('minecraft:glowing', -1, 0, false, false);
+            }
+          } catch (e) {}
+        }
+        
+        // 应用药水效果
+        try {
+          if (entity.potionEffects) {
+            for (let effect of config.effects) {
+              entity.potionEffects.add(effect.id, -1, effect.amplifier, false, false);
+            }
+          }
+        } catch (e) {}
+        
+        break;
+      }
+    }
+  }
+});
+
+//特殊掉落
+EntityEvents.drops('cataclysm:maledictus', event => {
+  let entity = event.entity;
+  let dimensionId = entity.level.dimension.toString()
+  //console.log(`测试1`)
+  if (dimensionId === 'pbf1:sanctum_of_the_battle1') {
+    let damageSource = event.getSource();
+    let player = damageSource.player
+    //if (player.isCuriosEquipped('goety:unholy_blood')) {
+    event.addDrop('kubejs:contrary_chronicle', 1)
+    event.drops.removeIf(item => item.item.id === 'minecraft:rotten_flesh');
+    //event.cancel();
+    //entity.spawnAtLocation('kubejs:cucumber1', 1);
+    //console.log(`测试2`)
+    //}
+  }
+})
 
 
 // 骷髅幻翼

@@ -744,9 +744,9 @@
 	"Fictional.GOETY.philosophers_mace1":"§7■ 提升 2点 法术强效 ",
 	"Fictional.GOETY.philosophers_mace2":"§7■ 提升 20% 护甲穿透 ",
 
-	"Fictional.GOETY.ghost_warrior1":"§7■ 两件套时，提升 40% 最大生命 ",
-	"Fictional.GOETY.ghost_warrior2":"§7■ 四件套时，提升 40% 近战伤害 ",
-	"Fictional.GOETY.ghost_warrior3":"§7■ 提升幽冥炼狱太刀 20% 近战伤害 ",
+	"Fictional.GOETY.ghost_warrior1":"§7■ 两件套时，提升 10% 最大生命 ",
+	"Fictional.GOETY.ghost_warrior2":"§7■ 四件套时，提升 10% 近战伤害 ",
+	"Fictional.GOETY.ghost_warrior3":"§7■ 提升幽冥炼狱太刀 20% 攻击速度 ",
 	"Fictional.GOETY.ghost_warrior4":"§7■ 提升幽冥炼狱太刀 20% 暴击伤害 ",
 
 	"Fictional.GOETY.mace1":"§7■ 提升 20% 暴击率 ",
@@ -2194,6 +2194,7 @@
 	"Fictional.TF.diamond3":"§7而一切的开始，是一颗被投入水池的钻石",
 	"Fictional.TF.diamond4":"§7 他朝着鲜花环绕的水池中投入钻石",
 	"Fictional.TF.diamond5":"§7 开启了通往 [ 暮色森林 ] 的传送门",
+	"Fictional.TF.diamond6":"§a”我让你去暮色森林你尔多隆吗？“",
 
 	"Fictional.TF.carminite1":"§7黑暗高塔的血液与灵魂，驱动着高塔内一切机关",
 	"Fictional.TF.carminite2":"§7因为检测中显示含有大量砷铅铁元素，故而得名",
@@ -2518,7 +2519,7 @@
 	"Fictional.DC.maze_diamond2":"§7能够为防具施加 [耐久V] 附魔 ",
 
 	"Fictional.DC.bone_reptile1":"§7■ 二件套时，免疫沙漠诅咒 ",
-	"Fictional.DC.bone_reptile2":"§7■ 提升装备者 20% 盔甲韧性 ",
+	"Fictional.DC.bone_reptile2":"§7■ 提升装备者 10% 盔甲韧性 ",
 
 	"Fictional.DC.sniper1":"§7■ 提升 40% 附加伤害",
 	"Fictional.DC.sniper2":"§7■ 提升 20% 护甲穿透 ",
@@ -2527,12 +2528,12 @@
 	"Fictional.DC.pistol2":"§7■ 提升 40% 暴击伤害 ",
 
 	"Fictional.DC.ignitium1":"§7■ 二件套时，免疫眩晕效果 ",
-	"Fictional.DC.ignitium2":"§7■ 提升装备者 40% 护甲值 ",
-	"Fictional.DC.ignitium3":"§7■ 四件套时，提升 40% 近战伤害 ",
+	"Fictional.DC.ignitium2":"§7■ 提升装备者 10% 护甲值 ",
+	"Fictional.DC.ignitium3":"§7■ 四件套时，提升 10% 近战伤害 ",
 
 	"Fictional.DC.cursium1":"§7■ 二件套时，免疫骨裂效果 ",
-	"Fictional.DC.cursium2":"§7■ 提升装备者 30% 盔甲韧性 ",
-	"Fictional.DC.cursium3":"§7■ 四件套时，提升 30% 护甲穿透 ",
+	"Fictional.DC.cursium2":"§7■ 提升装备者 10% 盔甲韧性 ",
+	"Fictional.DC.cursium3":"§7■ 四件套时，提升 10% 护甲穿透 ",
 
 	"Fictional.DC.honey_crystal_shards1":"§7能够为防具施加 [ 耐久II ] 附魔 ",
 	"Fictional.DC.honey_crystal_shards2":"§7在蜜蜂领域挖掘蜂蜜结晶获得 ",
@@ -2574,7 +2575,7 @@
 	"Fictional.DC.curios.monstrous_horn2":"§c■ 减少 20% 盔甲韧性 ",
 	"Fictional.DC.curios.monstrous_horn3":"§7■ 获得 抗火 药水效果 ",
 	"Fictional.DC.curios.monstrous_horn4":"§8减少持有者护甲值、盔甲韧性 ",
-	"Fictional.DC.curios.monstrous_horn5":"§7■ 提升恶兽头盔 30% 护甲值 ",
+	"Fictional.DC.curios.monstrous_horn5":"§7■ 提升恶兽头盔 20% 护甲值 ",
 
 	"Fictional.DC.curios.necklace_of_the_desert1":"§7■ 提升 1点 附加伤害 ",
 	"Fictional.DC.curios.necklace_of_the_desert2":"§7■ 提升 10% 命中率 ",

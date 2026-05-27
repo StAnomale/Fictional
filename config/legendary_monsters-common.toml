@@ -151,7 +151,7 @@
 		"Cloud Golem Damage Multiplier" = 3.0
 		#Multiplies health of Cloud Golem
 		#Range: 0.0 ~ 1000.0
-		"Cloud Golem Health Multiplier" = 5.0
+		"Cloud Golem Health Multiplier" = 4.0
 		#Enables Projectile Damage for Cloud Golem
 		"Allow Cloud Golem Projectile Damage" = false
 		#Cloud Golem loses Consciousness after Laser Attack

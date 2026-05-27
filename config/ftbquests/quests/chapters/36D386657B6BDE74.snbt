@@ -3976,11 +3976,6 @@
 			icon: "minecraft:end_crystal"
 			icon_scale: 2.0d
 			id: "4CCF1E77336ED939"
-			rewards: [{
-				id: "6419067DFCEFEF0F"
-				item: "kubejs:contrary_chronicle"
-				type: "item"
-			}]
 			shape: "none"
 			size: 3.0d
 			tasks: [{
@@ -5018,6 +5013,7 @@
 			}]
 			shape: "square"
 			size: 2.0d
+			subtitle: "大地高塔有许多骷髅头"
 			tasks: [{
 				count: 3L
 				id: "632C1A7345B54512"
@@ -5791,7 +5787,7 @@
 		{
 			dependencies: ["64BC7B49ECC03A29"]
 			description: [
-				"大型沙尘人是沙尘人的变种，自然生成率相对较低；是至少2星的精英单位，不会受到摔落伤害。击败可获得&d沙尘棒&r和&d风眼&r，较低概率获得&d沙尘人头颅&r。"
+				"大型沙尘人是沙尘人的变种，在 &e&n废土砂漠&r 群系中刷新概率较高；是至少2星的精英单位，不会受到摔落伤害。击败可获得&d沙尘棒&r和&d风眼&r，较低概率获得&d沙尘人头颅&r。"
 				""
 				"大型沙尘人会对&n接触&r到的目标持续造成多段伤害，其还会发射散射沙尘弹造成&n群体穿透&r的&c弹射物伤害&r。"
 			]
@@ -5811,6 +5807,7 @@
 			]
 			shape: "square"
 			size: 2.0d
+			subtitle: "在废土砂漠的刷新率较高"
 			tasks: [{
 				id: "061F9260CF98D5C1"
 				item: "radiation_zone_reborn:dustorm_eye"
@@ -5879,7 +5876,7 @@
 			y: 45.0d
 		}
 		{
-			description: ["击败&n沙尘人&r或&n大型沙尘人&r后可获得。沙尘人是&n废土砂漠&r群系中的常见怪物，可进行远程与近战攻击，免疫摔落伤害。击败有较低概率获得&d沙尘人头颅&r。"]
+			description: ["击败&n沙尘人&r或&n大型沙尘人&r后获得。沙尘人是 &e&n废土砂漠&r 群系中的常见怪物，可进行远程与近战攻击，免疫摔落伤害。击败有较低概率获得&d沙尘人头颅&r。"]
 			icon: "radiation_zone_reborn:dust_rod"
 			id: "64BC7B49ECC03A29"
 			rewards: [{
@@ -5889,6 +5886,7 @@
 			}]
 			shape: "square"
 			size: 2.0d
+			subtitle: "在废土沙漠的刷新率较高"
 			tasks: [{
 				id: "6515CD586D9FCD82"
 				item: "radiation_zone_reborn:dust_rod"
@@ -6574,9 +6572,9 @@
 		{
 			dependencies: ["51E6B1485A4A31E5"]
 			description: [
-				"使用破损的怀表抵达沉睡海港，在此维度使用 &e虚饰的空白&r 即可召唤无名者。无名者为当前版本的最终BOSS，是等同5星的BOSS单位，击败将获得终刻白金。"
+				"使用破损的怀表抵达沉睡海港，在此维度使用 &e虚饰的空白&r 即可召唤无名者。无名者为当前版本的最终BOSS，是等同4星的BOSS单位，击败将获得终刻白金。"
 				""
-				"无名者具有 &n7%&r 最大生命的伤害限制和特殊&6动态减伤&r，受到伤害时免疫 &7&n伤害提升/暴击伤害/护甲穿透/附加伤害 &r等类型的增幅，仅有提升基础伤害的加成能正常生效。"
+				"无名者具有 &n7%&r 最大生命的伤害限制和&6特殊伤害限制&r，受到伤害时免疫 &7&n伤害提升/暴击伤害/护甲穿透/附加伤害 &r等类型的增幅，仅有提升基础伤害的加成能正常生效。"
 				""
 				"无名者是亡灵生物，免疫负面效果，具有&a生命回复&r能力，在生命 &n50%&r 时进入二阶段&7(无法回复至50%生命以上)&r，能够释放更多魔法，并且获得高额的伤害减免。"
 				""
@@ -6739,7 +6737,7 @@
 			}]
 			shape: "square"
 			size: 3.0d
-			subtitle: "这是属于你的终极挑战"
+			subtitle: "你希望再来一场酣战吗？"
 			tasks: [
 				{
 					id: "1F5DD487257C0A20"
@@ -6749,6 +6747,11 @@
 				{
 					id: "391EF539D3316E14"
 					item: "cataclysm:cursium_ingot"
+					type: "item"
+				}
+				{
+					id: "6AE043C39E9F7570"
+					item: "kubejs:contrary_chronicle"
 					type: "item"
 				}
 			]
@@ -6825,8 +6828,8 @@
 				item: "mutantmore:compound_z"
 				type: "item"
 			}]
-			x: 40.5d
-			y: 47.5d
+			x: 55.5d
+			y: 42.5d
 		}
 	]
 	title: "反之编年史"

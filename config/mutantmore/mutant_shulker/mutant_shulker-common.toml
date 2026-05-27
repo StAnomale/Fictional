@@ -8,7 +8,7 @@
 	#
 	# The Mutant Shulker's max health
 	# usually set to 300
-	"Max Health" = 400.0
+	"Max Health" = 350.0
 	#
 	# The Mutant Shulker's movement speed
 	# usually set to 0.275D
@@ -32,7 +32,7 @@
 	#
 	# The distance that the Mutant Shulker can target players from
 	# usually set to 64.0
-	"Follow Player Distance" = 64.0
+	"Follow Player Distance" = 48.0
 	#
 	# The distance that the Mutant Shulker can target non-player entities from
 	# usually set to 25.0

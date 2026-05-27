@@ -39,11 +39,12 @@ BlockEvents.modification(event => {
 }); 
 
 ItemEvents.modification(event => {
-    //防护口罩（Tick逻辑移至server_scripts）
-    event.modify('radiation_zone_reborn:golden_filter_mask_helmet', item => {
-      item.rarity = 'UNCOMMON'
-      item.fireResistant = true
-    })
+    // //防护口罩（Tick逻辑移至server_scripts）
+    // event.modify('radiation_zone_reborn:golden_filter_mask_helmet', item => {
+    //   item.rarity = 'UNCOMMON'
+    //   item.fireResistant = true
+    // })
+
     //龙鳞
     event.modify('quark:dragon_scale', item => {
       item.rarity = 'EPIC'

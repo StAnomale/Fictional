@@ -1601,9 +1601,8 @@
 					type: "item"
 				}
 				{
-					count: 4L
 					id: "0F9BDCE9430F0087"
-					item: { Count: 4, id: "goety:void_shard" }
+					item: "goety:void_shard"
 					type: "item"
 				}
 			]
@@ -1614,7 +1613,7 @@
 		{
 			dependencies: ["6BFE354A276B6237"]
 			description: [
-				"在&n末地外岛&r前往 &d终末永狱&r 结构顶层，对着虚空神龛使用4枚 &e虚空碎片&r 充能，随后生成末影守望者。"
+				"在&n末地外岛&r前往 &d终末永狱&r 结构的中央，对着虚空神龛使用4枚 &e虚空碎片&r 充能，随后生成末影守望者。"
 				""
 				"末影守望者具有 &n200&r 点伤害限制，是等同4星的BOSS单位，击败将获得&d虚空回响&r和&e被隐匿的蓝图&r。"
 				""

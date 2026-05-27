@@ -256,15 +256,17 @@ LootJS.modifiers((event) => {
     event
         .addLootTableModifier('minecraft:chests/nether_bridge')//下界
         .addWeightedLoot(3, [
-            Item.of('minecraft:netherite_scrap').withChance(30),//下界合金碎片
+            Item.of('minecraft:netherite_scrap').withChance(40),//下界合金碎片
             Item.of('kubejs:compressed_amethyst').withChance(25),//紫水晶币
             Item.of('goety:ectoplasm').withChance(25),//灵质
-            Item.of('goety:grave_dust').withChance(16),//坟尘
+            Item.of('goety:grave_dust').withChance(25),//坟尘
             Item.of('minecraft:goat_horn').withChance(4),//山羊角
-            Item.of('bosses_of_mass_destruction:soul_star').withChance(8),//灵魂之星
+            Item.of('mynethersdelight:golden_egg').withChance(10),//金蛋
+            Item.of('bosses_of_mass_destruction:soul_star').withChance(10),//灵魂之星
             Item.of('minecraft:netherite_ingot').withChance(4),//下界合金锭
-            Item.of('minecraft:netherite_upgrade_smithing_template').withChance(2),//下界合金锻造模板
-            Item.of('crockpot:pot_upgrade_smithing_template').withChance(1),//烹饪锅锻造模板
+            Item.of('minecraft:netherite_upgrade_smithing_template').withChance(4),//下界合金锻造模板
+            Item.of('crockpot:pot_upgrade_smithing_template').withChance(2),//烹饪锅锻造模板
+            Item.of('mynethersdelight:enchanted_golden_egg').withChance(1),//附魔金蛋
         ]);
 });
 LootJS.modifiers((event) => {
@@ -839,8 +841,8 @@ LootJS.modifiers((event) => {
     event
         .addEntityLootModifier("radiation_zone_reborn:greater_dustorm")//大型沙尘人
         .addWeightedLoot(1, [
-            Item.of("radiation_zone_reborn:dust_rod").withChance(85),
-            Item.of("radiation_zone_reborn:dustorm_head").withChance(15)
+            Item.of("radiation_zone_reborn:dust_rod").withChance(50),
+            Item.of("radiation_zone_reborn:dustorm_head").withChance(50)
         ]);
 });
 
