@@ -11,6 +11,12 @@ ServerEvents.recipes(event => {
     event.shapeless('minecraft:totem_of_undying', ['friendsandfoes:totem_of_freezing'])
     event.shapeless('minecraft:totem_of_undying', ['friendsandfoes:totem_of_illusion'])
 
+    //末影之手
+    event.shapeless('minecraft:ender_eye', ['mutantmonsters:endersoul_hand'])
+
+    //浮云棒
+    event.shapeless('4x trials:breeze_rod', ['legendary_monsters:cloud_rod'])
+
     //羽毛 Feathers
     event.shapeless('kubejs:golden_feather', ['minecraft:feather','3x minecraft:gold_nugget'])
     event.shapeless('kubejs:enchanted_golden_feather', ['kubejs:golden_feather','3x minecraft:gold_nugget'])
@@ -55,6 +61,30 @@ ServerEvents.recipes(event => {
     {
        0: 'kubejs:covenant_purewhite',
        1: 'minecraft:clock',
+    })
+
+    //哨兵护身符
+    event.shaped(Item.of('lost_aether_content:sentry_shield'), [
+       '323',
+       '101',
+       ' 1 '
+    ], 
+    {
+       0: 'aether_redux:snailshell_shield',
+       1: 'aether_redux:gravitite_ingot',
+       2: 'legendary_monsters:air_rune',
+       3: 'legendary_monsters:cloud_rod'
+    })
+
+    //惊雷飞刀
+    event.shaped(Item.of('4x aether:lightning_knife'), [
+       ' 0 ',
+       '1  ',
+       '   '
+    ], 
+    {
+       0: 'farmersdelight:iron_knife',
+       1: 'legendary_monsters:cloud_rod',
     })
 
 
@@ -196,7 +226,7 @@ ServerEvents.recipes(event => {
     //暮影蚀光
     event.remove({output: 'gwrexpansions:duskfall_eclipse_blaster'})
     event.shaped('gwrexpansions:duskfall_eclipse_blaster', [
-       '571',
+       '771',
        '204',
        '638'
     ], 
@@ -206,7 +236,6 @@ ServerEvents.recipes(event => {
        2: 'mutantmore:mutant_jungle_zombie_vine_seed',
        3: 'meetyourfight:phantasmal_rifle',
        4: 'meetyourfight:violet_bloom',
-       5: 'quark:dragon_scale',
        6: 'enderitemod:enderite_ingot',
        7: 'goetyawaken:mucilage',
        8: 'better_minoshroomtaur:maze_remnant_page_minoshroomtaur'
@@ -361,6 +390,60 @@ ServerEvents.recipes(event => {
        2: 'minecraft:iron_ingot'
     })
 
+    //腐化之心
+    event.shaped('kubejs:corrupting_heart', [
+       '113',
+       '102',
+       '221'
+    ], 
+    {
+       0: 'kubejs:caerula_heart',
+       1: 'minecraft:gold_block',
+       2: 'minecraft:emerald_block',
+       3: 'beyonddimensions:shattered_space_time_crystallization'
+    })
+    event.shaped('kubejs:caerula_heart', [
+       '121',
+       '202',
+       '131'
+    ], 
+    {
+       0: 'minecraft:heart_of_the_sea',
+       1: 'goety_cataclysm:abyss_essence',
+       2: 'cataclysm:lacrima',
+       3: 'goetyawaken:profound_echoing_shard'
+    })
+
+    event.shaped('kubejs:caerula_heart', [
+       '113',
+       '201',
+       '122'
+    ], 
+    {
+       0: 'kubejs:corrupting_heart',
+       1: 'minecraft:lapis_block',
+       2: 'minecraft:sculk',
+       3: 'cataclysm:lacrima'
+    })
+
+    //梦之笛
+    event.shaped('kubejs:taodix', [
+       '123',
+       '405',
+       '678'
+    ], 
+    {
+       0: 'deep_aether:aerwhale_saddle',
+       1: 'xercamusic:tubular_bell',
+       2: 'xercamusic:violin',
+       3: 'xercamusic:piano',
+       4: 'xercamusic:god',
+       5: 'xercamusic:drum',
+       6: 'touhou_little_maid:servant_bell',
+       7: 'xercamusic:lyre',
+       8: 'quark:iron_rod',
+    })
+
     //破坏核心
     event.remove({output: 'constructionwand:core_destruction'})
     event.shaped('constructionwand:core_destruction', [
@@ -489,7 +572,7 @@ ServerEvents.recipes(event => {
        3: 'aether:nature_staff'
     })
 
-    //监狱之眼
+    //混沌（监狱）之眼
     event.remove({output:'goetyawaken:prison_eye'});
     event.shaped('goetyawaken:prison_eye', [
        '123',
@@ -505,7 +588,7 @@ ServerEvents.recipes(event => {
        6: 'cataclysm:cursed_eye',
        7: 'cataclysm:flame_eye',
        8: 'cataclysm:storm_eye',
-       9: 'goety:void_eye',
+       9: 'radiation_zone_reborn:tyrant_eye',
     })
 
     //死亡射线
@@ -534,16 +617,56 @@ ServerEvents.recipes(event => {
        4: 'farmersdelight:fish_stew',
     })
 
+    //动力手套
+    event.shaped('lost_aether_content:power_gloves', [
+       '   ',
+       '120',
+       '343'
+    ], 
+    {
+       0: 'aether:valkyrie_gloves',
+       1: 'aether:netherite_gloves',
+       2: 'legendary_monsters:air_rune',
+       3: 'legendary_monsters:cloud_rod',
+       4: 'aether_redux:gravitite_ingot'
+    })
+
+    //隐形宝石
+    event.shaped('lost_aether_content:invincibility_gem', [
+       '212',
+       '101',
+       '212'
+    ], 
+    {
+       0: 'legendary_monsters:air_rune',
+       1: 'goety:soul_emerald',
+       2: 'legendary_monsters:cloud_rod',
+    })
+
+    //创世者坚盾
+    event.shaped('lost_aether_content:shield_of_emile', [
+       '212',
+       '303',
+       ' 3 '
+    ], 
+    {
+       0: 'twilightforest:knightmetal_shield',
+       1: 'legendary_monsters:air_rune',
+       2: 'aether_treasure_reforging:valkyrum_ingot',
+       3: 'legendary_monsters:cloud_rod'
+    })
+
     //雷霆之锤
     event.shaped('goety:stormlander', [
-       ' 1 ',
-       '101',
+       '313',
+       '303',
        ' 2 '
     ], 
     {
        0: 'goety:bonehead_hammer',
        1: 'goety:thunderbolt_focus',
        2: 'artifacts:shock_pendant',
+       3: 'legendary_monsters:cloud_rod'
     })
 
     //虚空瓶
@@ -649,7 +772,7 @@ ServerEvents.recipes(event => {
     })
 
     //偏执解药瓶
-    event.shaped('kubejs:paranoia_antidote_vessel1', [
+    event.shaped('4x kubejs:paranoia_antidote_vessel1', [
        '123',
        '405',
        '678'
@@ -665,7 +788,7 @@ ServerEvents.recipes(event => {
        7: 'artifacts:flippers',
        8: 'artifacts:running_shoes',
     })
-    event.shaped('kubejs:paranoia_antidote_vessel2', [
+    event.shaped('4x kubejs:paranoia_antidote_vessel2', [
        '123',
        '405',
        '678'

@@ -1,6 +1,6 @@
 {
   "config_version": "2.0.11",
-  "config_datetime": "2026-05-22_21-53-45",
+  "config_datetime": "2026-05-23_14-31-03",
   "general": {
     "disable_all_structures": false,
     "prevent_structure_overlap": true,
@@ -578,6 +578,31 @@
       ],
       "step": "surface_structures",
       "terrain_adaptation": "beard_box"
+    },
+    {
+      "name": "legendary_monsters:frostbitten_temple",
+      "is_disabled": false,
+      "whitelisted_biomes": [
+        "radiation_zone_reborn:frostbite_snowfield",
+        "aether_redux:glacial_tundra",
+        "aether_redux:frosted_forests",
+        "aether:skyroot_meadow",
+        "aether:skyroot_grove",
+        "aether:skyroot_forest"
+      ],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_thin"
+    },
+    {
+      "name": "legendary_monsters:ruined_pyramid",
+      "is_disabled": false,
+      "whitelisted_biomes": [
+        "radiation_zone_reborn:waste_desert"
+      ],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_thin"
     },
     {
       "name": "radiation_zone_reborn:radiation_zone_portal_ruin",

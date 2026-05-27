@@ -365,16 +365,24 @@ ServerEvents.recipes(event => {
 
   //聚晶强效
   event.recipes.kubejs.shapeless(Item.of('minecraft:enchanted_book', 
-"{RepairCost:0,display:{Name:'{\"text\":\"给聚晶附魔\"}'}}").enchant('goety:potency', 1),
+"{RepairCost:0,display:{Name:'{\"text\":\"给聚晶附魔\"}'}}").enchant('goety:potency', 1).enchant('goety:soul_eater', 1).enchant('goety:radius', 2).enchant('goety:duration', 2).enchant('goety:burning', 3).enchant('goety:velocity', 5).enchant('goety:range', 5),
     ['#goety:focuses','goety:forbidden_fragment']
     //输入合成物品
     ).modifyResult((inputItem,outputItem)=>{
         let items = inputItem.findAll('#goety:focuses');
         for (let i = 0; i < items.length; i++) 
         {//判断是否拥有对应附魔
-            if (!items[i].hasEnchantment('goety:potency',1))
+            if (
+            !items[i].hasEnchantment('goety:potency',1) 
+            || !items[i].hasEnchantment('goety:soul_eater',1) 
+            || !items[i].hasEnchantment('goety:radius',2) 
+            || !items[i].hasEnchantment('goety:duration',2)
+            || !items[i].hasEnchantment('goety:burning',3)
+            || !items[i].hasEnchantment('goety:velocity',5)
+            || !items[i].hasEnchantment('goety:range',3)
+        )
             { //不符合条件则输出物品                   
-           let ci =  items[0].copy().enchant('goety:potency', 1);
+           let ci =  items[0].copy().enchant('goety:potency', 1).enchant('goety:soul_eater', 1).enchant('goety:radius', 2).enchant('goety:duration', 2).enchant('goety:burning', 3).enchant('goety:velocity', 5).enchant('goety:range', 5);
            ci.count = 1;
            return ci
             }

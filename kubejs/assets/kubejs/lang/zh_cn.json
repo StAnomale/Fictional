@@ -75,7 +75,7 @@
 	"Fictional.item.contrary_chronicle3":"§7■ 提升 25% 最大生命 ",
 	"Fictional.item.contrary_chronicle4":"§7■ 提升 25% 治疗效果 ",
 	"Fictional.item.contrary_chronicle5":"§7■ 提升 25% 盔甲效力 ",
-	"Fictional.item.contrary_chronicle6":"§7■ 提升 50% 造成伤害 ",
+	"Fictional.item.contrary_chronicle6":"§7■ 提升 25% 造成伤害 ",
 	"Fictional.item.contrary_chronicle7":"§7■ 提升 25% 附加伤害 ",
 	"Fictional.item.contrary_chronicle8":"§7■ 提升 25% 暴击伤害 ",
 	"Fictional.item.contrary_chronicle9":"§e■ 使你不再承受恶意 ",
@@ -114,6 +114,7 @@
 	"Fictional.WHITE.curios.covenant_purewhite3":"§7■ 提升 5% 命中率 ",
 	"Fictional.WHITE.curios.covenant_purewhite4":"§c■ 未激活任何盟约加成 ",
 
+	"Fictional.WHITE.curios.covenant_sharpblade0_0":"§8额外提升 2点 护甲值     / 2点 盔甲韧性 ",
 	"Fictional.WHITE.curios.covenant_sharpblade0":"§8额外提升 4点 最大生命 / 40% 魔法抗性 ",
 	"Fictional.WHITE.curios.covenant_sharpblade0_1":"§e名为 [ 战争技艺 ] 的能力： ",
 	"Fictional.WHITE.curios.covenant_sharpblade0_2":"§7■ 近战伤害达到20点后，造成 重创1级 效果 ",
@@ -148,7 +149,7 @@
 	"Fictional.WHITE.curios.covenant_gunpowder0_7":"§8使用部分远程武器时能够自动射击 ",
 	"Fictional.WHITE.curios.covenant_gunpowder0":"§8额外提升 5% 命中率 / 5% 闪避率 ",
 	"Fictional.WHITE.curios.covenant_gunpowder0_1":"§e名为 [ 猎杀技艺 ] 的能力： ",
-	"Fictional.WHITE.curios.covenant_gunpowder0_2":"§7■ 命中时额外提升(6+附加伤害*100%)伤害 ",
+	"Fictional.WHITE.curios.covenant_gunpowder0_2":"§7■ 命中时额外提升(4+附加伤害*100%)伤害 ",
 	"Fictional.WHITE.curios.covenant_gunpowder0_3":"§8此效果可被命中率/暴击率/暴击伤害/弹丸伤害增幅 ",
 	"Fictional.WHITE.curios.covenant_gunpowder0_4":"§7■ 暴击伤害达到 240% 后，提升 10% 造成伤害 ",
 	"Fictional.WHITE.curios.covenant_gunpowder0_5":"§7■ 弹丸伤害达到 160% 后，提升 10% 造成伤害 ",
@@ -324,7 +325,9 @@
     "Fictional.FLINT.goldheart10":"§4§o而我现已不再仁慈，且在此诅咒",
     "Fictional.FLINT.goldheart11":"§4§o——用你的手指洞穿你的心脏，你的女儿便能归来。”",
     "Fictional.FLINT.goldheart12":"§5故事戛然而止，结局并不存在。",
-    "Fictional.FLINT.goldheart13":"§f保持噤声，但切莫忘记",
+	"Fictional.FLINT.goldheart13":"§f保持噤声，但切莫忘记。",
+    "Fictional.FLINT.goldheart14":"§a“故事已被掩埋，然而我之残骸散于穹顶、俯瞰大地 ",
+	"Fictional.FLINT.goldheart15":"§a 故我皆知晓。”                                           —— 燧石 ",
 
 	"Fictional.GOETY.destiny_seven1":"§7■ 提升 40% 附加伤害 ",
 	"Fictional.GOETY.destiny_seven2":"§7■ 提升 20% 护甲穿透 ",
@@ -408,22 +411,52 @@
 	"Fictional.GOETY.neutronium_densebone8":"§a“被遗忘者自终界归来。” ",
 	"Fictional.GOETY.neutronium_densebone9":"§a                        —— 定制者: 署暮之光 ",
 
-	"Fictional.GOETY.mushroom_hat1":"§7■ 提升 20% 冷却缩减 ",
+	"Fictional.GOETY.mushroom_hat1":"§7■ 提升 10% 冷却缩减 ",
 	"Fictional.GOETY.mushroom_hat2":"§7■ 减少 20% 灵魂消耗 ",
 	"Fictional.GOETY.mushroom_hat3":"§e■ 提升荒野法术 1点 强效等级 ",
 	"Fictional.GOETY.mushroom_hat4":"§8佩戴荒野王冠/法袍后此效果翻倍 ",
 
+	"Fictional.GOETY.atmospheric_boots1":"§7■ 提升 10% 护甲穿透 ",
+	"Fictional.GOETY.atmospheric_boots2":"§7■ 提升 10% 移动速度 ",
+
+	"Fictional.GOETY.mossy_chestplate1":"§7■ 提升 10% 治疗效果 ",
+	"Fictional.GOETY.mossy_chestplate2":"§7■ 提升 40% 经验获取 ",
+
+	"Fictional.GOETY.bloom_stone_pauldrons1":"§7■ 提升 10% 最大生命 ",
+	"Fictional.GOETY.bloom_stone_pauldrons2":"§7■ 提升 10% 治疗效果 ",
+	"Fictional.GOETY.bloom_stone_pauldrons3":"§7■ 提升 40% 经验获取 ",
+
+	"Fictional.GOETY.nature_crystal1":"§7■ 提升 10% 最大生命 ",
+	"Fictional.GOETY.nature_crystal2":"§7■ 使用毒刺藤种时召唤 [ 藤跃之叶 ] 作战 ",
+	"Fictional.GOETY.nature_crystal3":"§7■ 佩戴花岩肩甲时召唤 [ 僵尸紫水晶巨蟹 ] 作战 ",
+	"Fictional.GOETY.nature_crystal4":"§8召唤物有(法术强效*400%+最大生命*200%)生命值 ",
+	"Fictional.GOETY.nature_crystal5":"§8这个效果拥有30秒冷却时间，受到法术冷却缩减的影响 ",
+
+	"Fictional.GOETY.wand_of_clouds1":"§7■ 提升 20% 护甲穿透 ",
+	"Fictional.GOETY.wand_of_clouds2":"§7■ 提升 40% 附加伤害 ",
+
+	"Fictional.GOETY.air_rune1":"§7■ 提升 20% 附加伤害 ",
+	"Fictional.GOETY.air_rune2":"§c■ 减少 20% 暴击伤害 ",
+	"Fictional.GOETY.air_rune3":"§7■ 攻击将造成 [ 层云重击 ] 效果 ",
+	"Fictional.GOETY.air_rune4":"§8额外提升(附加伤害*240%)伤害 ",
+	"Fictional.GOETY.air_rune5":"§8此效果的冷却时间受移动速度影响 ",
+	"Fictional.GOETY.air_rune6":"§e■ 提升烈风法术 1点 强效等级 ",
+	"Fictional.GOETY.air_rune7":"§8佩戴烈风王冠/法袍后此效果翻倍 ",
+
 	"Fictional.GOETY.treasure_pouch1":"§7■ 使用能获得大量魔法道具 ",
 
-	"Fictional.GOETY.dark1":"§7■ 二件套时，提升 20% 法术强效 ",
-	"Fictional.GOETY.dark2":"§7■ 四件套时，提升 20% 冷却缩减 ",
+	"Fictional.GOETY.dark0":"§7■ 大幅提升爆炸/火焰/魔法抗性 ",
+	"Fictional.GOETY.dark1":"§7■ 二件套时，提升 10% 法术强效 ",
+	"Fictional.GOETY.dark2":"§7■ 四件套时，提升 10% 冷却缩减 ",
+	"Fictional.GOETY.dark3":"§7■ 能够自动回复盔甲耐久和生命值 ",
 
-	"Fictional.GOETY.champion1":"§7■ 二件套时，提升 30% 法术强效 ",
-	"Fictional.GOETY.champion2":"§7■ 四件套时，提升 30% 护甲穿透 ",
+	"Fictional.GOETY.champion1":"§7■ 二件套时，提升 10% 法术强效 ",
+	"Fictional.GOETY.champion2":"§7■ 四件套时，提升 10% 暴击伤害 ",
+	"Fictional.GOETY.champion3":"§7■ 四件套时，提升胧切 20% 暴击率 ",
 
-	"Fictional.GOETY.cursed_knight1":"§7■ 二件套时，提升 20% 法术强效 ",
-	"Fictional.GOETY.cursed_knight2":"§7■ 四件套时，提升 20% 近战伤害 ",
-	"Fictional.GOETY.cursed_knight3":"§7■ 四件套时，额外提升 8点 护甲值 ",
+	"Fictional.GOETY.cursed_knight1":"§7■ 二件套时，提升 10% 法术强效 ",
+	"Fictional.GOETY.cursed_knight2":"§7■ 四件套时，提升 10% 攻击速度 ",
+	"Fictional.GOETY.cursed_knight3":"§7■ 四件套时，额外提升 4点 护甲值 ",
 
 	"Fictional.GOETY.cursed_ingot1":"§7作为锻造材料使用时： ",
 	"Fictional.GOETY.cursed_ingot2":"§7■ 提升 5% 护甲值 ",
@@ -594,7 +627,7 @@
 	"Fictional.GOETY.curios.ring_of_grudged4":"§8灾变防具包括：四件咒魂/腾炎防具 ",
 	"Fictional.GOETY.curios.ring_of_grudged5":"§8两件骸龙防具、恶兽犄角、花岩肩甲 ",
 
-	"Fictional.GOETY.curios.forbidden_fragment1":"§7■ 能够为聚晶施加 [ 强效 ] 附魔 ",
+	"Fictional.GOETY.curios.forbidden_fragment1":"§7■ 能够为聚晶施加 [ 所有类型 ] 附魔 ",
 
 	"Fictional.GOETY.curios.glove1":"§8佩戴同类手饰无法叠加生效 ",
 	"Fictional.GOETY.curios.grave_glove1":"§7■ 提升 5% 命中率 ",
@@ -741,6 +774,38 @@
 	"Fictional.GOETY.sun_grace4":"§7■ 持续获得 治愈光环 效果 ",
 	"Fictional.GOETY.sun_grace5":"§8攻击有概率治疗周围所有友方单位 ",
 
+	"Fictional.tooltip1":"按住",
+	"Fictional.tooltip2":" [Shift] ",
+	"Fictional.tooltip3":"查看更多信息.",
+
+	"Fictional.GOETY.corrupting_heart1":"§7认清自我，迈入大群 ",
+	"Fictional.GOETY.corrupting_heart2":"§7潜入深洋，为同胞们发声 ",
+	"Fictional.GOETY.corrupting_heart3":"§7那只名为“伊莎玛拉”的海嗣 ",
+	"Fictional.GOETY.corrupting_heart4":"§7正停留此处，渴盼你的呼唤 ",
+	"Fictional.GOETY.corrupting_heart5":"§b “我在等你，■■。我等你太久，太久了， ",
+	"Fictional.GOETY.corrupting_heart6":"§b  我甚至已经忘了为什么要在这里等你…… ",
+	"Fictional.GOETY.corrupting_heart7":"§b  不过这些都不重要了。不再那么重要了。” ",
+	"Fictional.GOETY.corrupting_heart8":"§b                                      —— 定制者: Ishar-mla ",
+
+	"Fictional.GOETY.caerula_heart1":"§a                                                 —— 定制者: JohnnyJohnnyq ",
+	"Fictional.GOETY.caerula_heart2":"§7吞噬诞生之处随后死去的“初生”，其残存下来的核心器官。 ",
+	"Fictional.GOETY.caerula_heart3":"§7只有海嗣能够与之同化却又只有人类能够理解其中的悲痛情感。 ",
+	"Fictional.GOETY.caerula_heart4":"§7啊啊，即使演化不息，它们，祂们的苦痛仍在。 ",
+
+	"Fictional.GOETY.taodix1":"§a“然后......有一天你也会想起这座岛， ",
+	"Fictional.GOETY.taodix2":"§a 也许这份回忆，才是真正的梦世界吧。” ",
+	"Fictional.GOETY.taodix3":"§a                                     —— 定制者: 风鱼 ",
+	"Fictional.GOETY.taodix4":"§7■ 提升幸运、时运等级和经验获取 ",
+	"Fictional.GOETY.taodix5":"§7■ 大幅降低敌对生物对你的侦测范围 ",
+	"Fictional.GOETY.taodix6":"§c■ 大幅降低各项属性，减少造成伤害 ",
+	"Fictional.GOETY.taodix7":"§7海的尽头仍是海，但我相信那里是有东西的。 ",
+	"Fictional.GOETY.taodix8":"§7当我在海边看到你时，我的心都跳错了拍子。 ",
+	"Fictional.GOETY.taodix9":"§7如果我能变成海鸥，我就可以飞到远方去了！ ",
+	"Fictional.GOETY.taodix10":"§7我可以飞到遥远的城镇，对那里的人们唱歌。 ",
+	"Fictional.GOETY.taodix11":"§7如果我对风之鱼许愿，那些大概就会成真吧。 ",
+	"Fictional.GOETY.taodix12":"§7某天你可能会离开这座岛，我心里是知道的…… ",
+	"Fictional.GOETY.taodix13":"§b      ———— 但请你不要忘了我 ———— ",
+
 	"Fictional.GOETY.mooshroom_mace1":"§7■ 提升 20% 暴击率 ",
 	"Fictional.GOETY.mooshroom_mace2":"§7■ 提升 2点 法术强效 ",
 	"Fictional.GOETY.mooshroom_mace3":"§8双手共持时提升攻击速度 ",
@@ -878,8 +943,8 @@
 	"Fictional.GOETY.fiery_sword1":"§7■ 攻击时额外发射 1道 远程剑刃 ",
 	"Fictional.GOETY.fiery_sword2":"§8造成(近战伤害*40%+最大生命*20%)伤害 ",
 
-	"Fictional.WHITE.decayed1":"§7■ 二件套时，提升 20% 最大生命 ",
-	"Fictional.WHITE.decayed2":"§7■ 四件套时，提升 20% 附加伤害 ",
+	"Fictional.WHITE.decayed1":"§7■ 二件套时，提升 10% 最大生命 ",
+	"Fictional.WHITE.decayed2":"§7■ 四件套时，提升 10% 附加伤害 ",
 	"Fictional.WHITE.decayed3":"§7■ 额外提升衰败武器 20% 近战伤害 ",
 	"Fictional.WHITE.decayed4":"§8衰败武器包括：七件衰败石/沉积银/巨岩工具 ",
 	"Fictional.WHITE.decayed5":"§8鼠牙匕首/放射人颌骨/砂岩锤/潜地矛/三件沙尘武器 ",
@@ -1069,11 +1134,11 @@
 	"Fictional.WHITE.hogfist_gauntlet2":"§7■ 双持时提升 30% 暴击伤害 ",
 	"Fictional.WHITE.hogfist_gauntlet3":"§8副手持有另一把相同武器时生效",
 
-	"Fictional.WHITE.mutant_wither_skeleton1":"§7■ 二件套时，提升 4点 盔甲韧性 / 10% 闪避率",
+	"Fictional.WHITE.mutant_wither_skeleton1":"§7■ 二件套时，提升 4点 盔甲韧性 ",
 	"Fictional.WHITE.mutant_wither_skeleton2":"§7■ 额外提升装备者 10% 闪避率 ",
-	"Fictional.WHITE.mutant_wither_skeleton3":"§7■ 四件套时，提升 4点 盔甲韧性 / 20% 暴击率",
+	"Fictional.WHITE.mutant_wither_skeleton3":"§7■ 四件套时，提升 4点 盔甲韧性 ",
 	"Fictional.WHITE.mutant_wither_skeleton4":"§7■ 额外提升装备者 20% 暴击率 ",
-	"Fictional.WHITE.mutant_wither_skeleton5":"§7■ 若主手持有凋零弯刀，额外提升 40% 近战伤害 ",
+	"Fictional.WHITE.mutant_wither_skeleton5":"§7■ 额外提升凋零弯刀 20% 近战伤害 ",
 
 	"Fictional.WHITE.curios.monolith_block1": "§7■ 提升 30% 弹丸伤害 ",
 	"Fictional.WHITE.curios.monolith_block2": "§c■ 减少 30% 盔甲韧性",
@@ -1355,10 +1420,10 @@
 	"Fictional.AETHER.curios.slider_eye8":"§8此项效果将消耗饰品耐久度 ",
 
 	"Fictional.AETHER.shaday0":"§7■ 可激活阴影套装的对应效果 ",
-	"Fictional.AETHER.shaday1":"§7■ 一件套时，提升 20% 移动速度 ",
+	"Fictional.AETHER.shaday1":"§7■ 一件套时，提升 10% 移动速度 ",
 	"Fictional.AETHER.shaday2":"§c■ 在白天时，减少 20% 盔甲韧性 ",
-	"Fictional.AETHER.shaday3":"§7■ 二件套时，提升 20% 附加伤害 ",
-	"Fictional.AETHER.shaday4":"§7■ 三件套时，提升 20% 弹丸伤害 ",
+	"Fictional.AETHER.shaday3":"§7■ 二件套时，提升 10% 附加伤害 ",
+	"Fictional.AETHER.shaday4":"§7■ 三件套时，提升 10% 弹丸伤害 ",
 
 	"Fictional.AETHER.golden_dart_shooter1":"§7■ 右键额外发射 1支 箭矢 ",
 	"Fictional.AETHER.golden_dart_shooter2":"§7■ 造成(护甲值*40%)伤害 ",
@@ -1835,7 +1900,7 @@
 	"Fictional.TIME.curios.tarot_deck2":"§7■ 能够储存持有的塔罗牌 ",
 
 	"Fictional.TIME.curios.heart_of_pagan1":"§7■ 提升 4点 最大生命 ",
-	"Fictional.TIME.curios.heart_of_pagan7":"§c■ 减少 15% 盔甲韧性 ",
+	"Fictional.TIME.curios.heart_of_pagan7":"§c■ 减少 15% 附加伤害 ",
 	"Fictional.TIME.curios.heart_of_pagan2":"§7■ 获得 生命恢复 药水效果 ",
 	"Fictional.TIME.curios.heart_of_pagan3":"§7■ 每隔一段时间获得 狂乱2级 效果 ",
 	"Fictional.TIME.curios.heart_of_pagan4":"§7■ 在夜晚时，改为获得 狂乱3级 效果",
@@ -2542,7 +2607,7 @@
 	"Fictional.DC.curios.sandstorm_in_a_bottle4":"§8远古武器包括： 远古之矛/沙暴之怒/漩涡护手 ",
 
 	"Fictional.DC.curios.abyssal_sacrifice1":"§7■ 提升 20% 护甲穿透 ",
-	"Fictional.DC.curios.abyssal_sacrifice2":"§7■ 攻击使目标获得 深渊恐惧 效果  ",
+	"Fictional.DC.curios.abyssal_sacrifice2":"§7■ 近战攻击赋予目标 深渊恐惧 效果  ",
 	"Fictional.DC.curios.abyssal_sacrifice3":"§8阻止效果获得者任何形式的生命恢复 ",
 	"Fictional.DC.curios.abyssal_sacrifice3_2":"§7■ 提升花岩肩甲 15% 最大生命 ",
 	"Fictional.DC.curios.abyssal_sacrifice4":"§7■ 使花岩肩甲获得 紫水晶祝福 效果  ",

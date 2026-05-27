@@ -14,18 +14,8 @@
   "fullSetBonuses": [
     {
       "type": "attribute",
-      "name": "minecraft:generic.attack_damage",
-      "value": 0.6,
-      "modifierUUID": "3f59603e-c7ca-4688-abd4-d902ccfd602f",
-      "attributeOperation": 2,
-      "interactionType": "self",
-      "hideBonusDescription": false,
-      "onlyImmuneToNewEffects": false
-    },
-    {
-      "type": "attribute",
       "name": "minecraft:generic.max_health",
-      "value": 0.6,
+      "value": 0.5,
       "modifierUUID": "500e0543-503d-417b-9dc1-0c5a4cf71a1c",
       "attributeOperation": 2,
       "interactionType": "self",
@@ -44,8 +34,18 @@
     },
     {
       "type": "attribute",
-      "name": "minecraft:generic.armor",
+      "name": "obscure_api:penetration",
       "value": 0.6,
+      "modifierUUID": "c983e4d2-e50e-4c09-ab65-13df88885f62",
+      "attributeOperation": 2,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor",
+      "value": 0.5,
       "modifierUUID": "a547ce8d-bec2-472a-af7b-0a12c2112711",
       "attributeOperation": 2,
       "interactionType": "self",
@@ -55,7 +55,7 @@
     {
       "type": "attribute",
       "name": "minecraft:generic.armor_toughness",
-      "value": 0.6,
+      "value": 0.5,
       "modifierUUID": "7921358e-6186-417b-a57a-4ad8ff7ca5b4",
       "attributeOperation": 2,
       "interactionType": "self",
@@ -65,7 +65,7 @@
     {
       "type": "attribute",
       "name": "obscure_api:magic_damage",
-      "value": 0.6,
+      "value": 1.0,
       "modifierUUID": "1d64f1fc-e992-48e4-9770-13306211d375",
       "attributeOperation": 2,
       "interactionType": "self",
@@ -74,17 +74,143 @@
     },
     {
       "type": "attribute",
-      "name": "obscure_api:critical_hit",
-      "value": 1.0,
+      "name": "obscure_api:critical_damage",
+      "value": 0.5,
       "modifierUUID": "3414f4a6-86ff-4021-a7b9-ce95f094bb1d",
-      "attributeOperation": 2,
+      "attributeOperation": 0,
       "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+        {
+      "type": "effect",
+      "name": "goety:spasms",
+      "interactionType": "immunity",
       "hideBonusDescription": false,
       "onlyImmuneToNewEffects": false
     },
     {
       "type": "effect",
-      "name": "cataclysm:abyssal_fear",
+      "name": "goety:plunge",
+      "interactionType": "immunity",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "effect",
+      "name": "goety:storms_wrath",
+      "interactionType": "immunity",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "effect",
+      "name": "eeeabsmobs:armor_lower_effect",
+      "interactionType": "immunity",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "effect",
+      "name": "goety:impaired",
+      "interactionType": "immunity",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "effect",
+      "name": "goety:void_touched",
+      "interactionType": "immunity",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "effect",
+      "name": "goety:ender_flux",
+      "interactionType": "immunity",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "effect",
+      "name": "goety:sapped",
+      "interactionType": "immunity",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:bad_omen",
+      "interactionType": "immunity",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "effect",
+      "name": "goety:illague",
+      "interactionType": "immunity",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "effect",
+      "name": "goety:flammable",
+      "interactionType": "immunity",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "effect",
+      "name": "goety:sun_allergy",
+      "interactionType": "immunity",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "effect",
+      "name": "goety:nyctophobia",
+      "interactionType": "immunity",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "effect",
+      "name": "goety:snow_skin",
+      "interactionType": "immunity",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "effect",
+      "name": "aether:inebriation",
+      "interactionType": "immunity",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "effect",
+      "name": "goety:evil_eye",
+      "interactionType": "immunity",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "effect",
+      "name": "goety:sapped",
+      "interactionType": "immunity",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "effect",
+      "name": "eeeabsmobs:erode_effect",
+      "interactionType": "immunity",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "effect",
+      "name": "aether_redux:adrenal_fatigue",
       "interactionType": "immunity",
       "hideBonusDescription": false,
       "onlyImmuneToNewEffects": false
@@ -92,6 +218,97 @@
     {
       "type": "effect",
       "name": "legendarycreatures:convulsion",
+      "interactionType": "immunity",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "effect",
+      "name": "goety:burn_hex",
+      "interactionType": "immunity",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "effect",
+      "name": "mutantmore:jumping_fatigue",
+      "interactionType": "immunity",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "effect",
+      "name": "ba_bt:depth_dropper_effect",
+      "interactionType": "immunity",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:levitation",
+      "interactionType": "immunity",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:darkness",
+      "interactionType": "immunity",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:blindness",
+      "interactionType": "immunity",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:hunger",
+      "interactionType": "immunity",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:mining_fatigue",
+      "interactionType": "immunity",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:weakness",
+      "interactionType": "immunity",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:wither",
+      "interactionType": "immunity",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:slowness",
+      "interactionType": "immunity",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:poison",
+      "interactionType": "immunity",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "effect",
+      "name": "cataclysm:abyssal_fear",
       "interactionType": "immunity",
       "hideBonusDescription": false,
       "onlyImmuneToNewEffects": false
@@ -112,49 +329,7 @@
     },
     {
       "type": "effect",
-      "name": "minecraft:weakness",
-      "interactionType": "immunity",
-      "hideBonusDescription": false,
-      "onlyImmuneToNewEffects": false
-    },
-    {
-      "type": "effect",
       "name": "minecraft:unluck",
-      "interactionType": "immunity",
-      "hideBonusDescription": false,
-      "onlyImmuneToNewEffects": false
-    },
-    {
-      "type": "effect",
-      "name": "minecraft:mining_fatigue",
-      "interactionType": "immunity",
-      "hideBonusDescription": false,
-      "onlyImmuneToNewEffects": false
-    },
-    {
-      "type": "effect",
-      "name": "minecraft:hunger",
-      "interactionType": "immunity",
-      "hideBonusDescription": false,
-      "onlyImmuneToNewEffects": false
-    },
-    {
-      "type": "effect",
-      "name": "minecraft:darkness",
-      "interactionType": "immunity",
-      "hideBonusDescription": false,
-      "onlyImmuneToNewEffects": false
-    },
-    {
-      "type": "effect",
-      "name": "eeeabsmobs:armor_lower_effect",
-      "interactionType": "immunity",
-      "hideBonusDescription": false,
-      "onlyImmuneToNewEffects": false
-    },
-    {
-      "type": "effect",
-      "name": "eeeabsmobs:erode_effect",
       "interactionType": "immunity",
       "hideBonusDescription": false,
       "onlyImmuneToNewEffects": false
@@ -176,13 +351,6 @@
     {
       "type": "effect",
       "name": "the_bumblezone:wrath_of_the_hive",
-      "interactionType": "immunity",
-      "hideBonusDescription": false,
-      "onlyImmuneToNewEffects": false
-    },
-    {
-      "type": "effect",
-      "name": "minecraft:bad_omen",
       "interactionType": "immunity",
       "hideBonusDescription": false,
       "onlyImmuneToNewEffects": false

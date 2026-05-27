@@ -73,7 +73,7 @@ const projectileConfigs = [
     damage: 16
   },
   {
-    entities: ['aethermobs:aetherdragonphase_2', 'aethermobs:aetherdragon', 'aethermobs:eldershulker', 'cataclysm:scylla', 'goetyawaken:wraith_necromancer'],
+    entities: ['legendary_monsters:cloud_golem', 'aethermobs:aetherdragonphase_2', 'aethermobs:aetherdragon', 'aethermobs:eldershulker', 'cataclysm:scylla', 'goetyawaken:wraith_necromancer'],
     timer: 8,
     projectile: 'goety:razor_wind', //风刃
     damage: 16
@@ -201,75 +201,6 @@ const monsterEffectConfigs = [
     ]
   }
 ];
-
-// 统一的怪物生成事件处理
-EntityEvents.spawned(event => {
-  const entity = event.entity;
-  if (!entity || !entity.level) return;
-  
-  let entityType = '未知';
-  try {
-    if (entity.identifier) {
-      entityType = entity.identifier;
-    } else if (entity.type && entity.type.id) {
-      entityType = entity.type.id;
-    } else if (entity.getType) {
-      entityType = entity.getType().toString();
-    }
-  } catch (e) {return;}
-  
-  let isLiving = false;
-  try { isLiving = entity.isLiving(); } catch (e) { isLiving = false; }
-  if (!isLiving) return;
-  
-  // 检查维度
-  let dimensionId = '未知';
-  try {
-    if (entity.level.dimension) {
-      dimensionId = entity.level.dimension.id || entity.level.dimension.toString();
-    }
-  } catch (e) {}
-  
-  // 应用效果配置
-  for (let config of monsterEffectConfigs) {
-    for (let monster of config.monsters) {
-      if (entityType.indexOf(monster) !== -1) {
-        // 竞技场特殊处理
-        if (dimensionId === 'pbf1:sanctum_of_the_battle1' && monster === 'aethermobs:eldershulker') {
-          try {
-            let randomHealth = Math.floor(Math.random() * 2000) + 10000;
-            if (entity.setMaxHealth) {
-              entity.setMaxHealth(randomHealth);
-            } else if (entity.attributes && entity.attributes.has("minecraft:generic.max_health")) {
-              entity.attributes.setBaseValue("minecraft:generic.max_health", randomHealth);
-            }            
-            if (entity.setHealth) {
-              entity.setHealth(randomHealth);
-            }
-            if (entity.potionEffects) {
-              entity.potionEffects.add('minecraft:instant_health', -1, 0, false, false);
-              entity.potionEffects.add('kubejs:fictional', -1, 2, false, false);
-              entity.potionEffects.add('minecraft:regeneration', -1, 2, false, false);
-              entity.potionEffects.add('minecraft:resistance', -1, 1, false, false);
-              entity.potionEffects.add('minecraft:glowing', -1, 0, false, false);
-            }
-          } catch (e) {}
-        }
-        
-        // 应用药水效果
-        try {
-          if (entity.potionEffects) {
-            for (let effect of config.effects) {
-              entity.potionEffects.add(effect.id, -1, effect.amplifier, false, false);
-            }
-          }
-        } catch (e) {}
-        
-        break;
-      }
-    }
-  }
-});
 
 // //特殊掉落
 // EntityEvents.drops('cataclysm:urchinkin', event => {

@@ -1,0 +1,33 @@
+{
+  "armorSetName": "dark",
+  "performanceMode": true,
+  "chest": {
+    "itemKey": "legendary_monsters:mossy_chestplate",
+    "mixAndMatch": [
+    ],
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:healing_power",
+      "value": 0.1,
+      "modifierUUID": "a339ab19-c97d-4d9f-8b4a-ab17d03e6cd8",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "functionalarmortrim:experience_boost",
+      "value": 0.4,
+      "modifierUUID": "c19706ef-0bf1-4291-9b31-7f436892faea",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

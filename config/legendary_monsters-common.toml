@@ -71,10 +71,10 @@
 	["Mob Settings"."Hovering Hurricane Settings"]
 		#Multiplies damage dealt by Hovering Hurricane
 		#Range: 0.0 ~ 1000.0
-		"Hovering Hurricane Damage Multiplier" = 1.0
+		"Hovering Hurricane Damage Multiplier" = 5.0
 		#Multiplies health of Hovering Hurricane
 		#Range: 0.0 ~ 1000.0
-		"Hovering Hurricane Health Multiplier" = 1.0
+		"Hovering Hurricane Health Multiplier" = 5.0
 
 	["Mob Settings"."Ancient Guardian Settings"]
 		#Multiplies damage dealt by Ancient Guardian
@@ -148,10 +148,10 @@
 	["Mob Settings"."Cloud Golem Settings"]
 		#Multiplies damage dealt by Cloud Golem
 		#Range: 0.0 ~ 1000.0
-		"Cloud Golem Damage Multiplier" = 1.0
+		"Cloud Golem Damage Multiplier" = 3.0
 		#Multiplies health of Cloud Golem
 		#Range: 0.0 ~ 1000.0
-		"Cloud Golem Health Multiplier" = 1.0
+		"Cloud Golem Health Multiplier" = 5.0
 		#Enables Projectile Damage for Cloud Golem
 		"Allow Cloud Golem Projectile Damage" = false
 		#Cloud Golem loses Consciousness after Laser Attack
@@ -159,15 +159,15 @@
 		#Cloud Golem can Charge once more after missing when he is low on HP
 		"Allow Cloud Golem Charge once More" = true
 		#Enables/Disables Cloud Golem Invulnerability Time (this boss is not getting schredded in 0.5seconds by frame - ignore weapons)
-		"Allow Cloud Golem Invulnerability Time" = true
+		"Allow Cloud Golem Invulnerability Time" = false
 		#Maximum damage that can be dealt to Cloud Golem
 		#Range: 0.0 ~ 1000.0
-		"Cloud Golem Damage Cap" = 18.0
+		"Cloud Golem Damage Cap" = 200.0
 
 	["Mob Settings"."Cloud Golem's Falling Cloud Settings"]
 		#Multiplies damage dealt by Falling Cloud
 		#Range: 0.0 ~ 1000.0
-		"Falling Cloud Damage Multiplier" = 1.0
+		"Falling Cloud Damage Multiplier" = 3.0
 
 	["Mob Settings"."Frostbitten Golem Settings"]
 		#Multiplies damage dealt by Frostbitten Golem
@@ -474,10 +474,10 @@
 	["Item Settings"."Wand Of Clouds"]
 		#Wand Of Clouds Damage Multiplier
 		#Range: 0.0 ~ 1000.0
-		"Wand Of Clouds Damage multiplier" = 1.0
+		"Wand Of Clouds Damage multiplier" = 1.5
 		#Wand Of Clouds Ability Damage Multiplier
 		#Range: 0.0 ~ 1000.0
-		"Wand Of Clouds Ability Damage multiplier" = 1.0
+		"Wand Of Clouds Ability Damage multiplier" = 10.0
 		#Wand Of Clouds Speed Multiplier
 		#Range: 0.0 ~ 1000.0
 		"Wand Of Clouds Speed multiplier" = 1.0
@@ -485,10 +485,10 @@
 	["Item Settings"."Mossy Hammer"]
 		#Mossy Hammer Multiplier
 		#Range: 0.0 ~ 1000.0
-		"Mossy Hammer multiplier" = 1.0
+		"Mossy Hammer multiplier" = 2.0
 		#Mossy Hammer Ability Damage Multiplier
 		#Range: 0.0 ~ 1000.0
-		"Mossy Hammer Ability Damage multiplier" = 1.0
+		"Mossy Hammer Ability Damage multiplier" = 4.0
 		#Mossy Hammer Speed Multiplier
 		#Range: 0.0 ~ 1000.0
 		"Mossy Hammer Speed multiplier" = 1.0
@@ -529,10 +529,10 @@
 	["Item Settings"."Axe Of Lightning"]
 		#Axe Of Lightning Damage Multiplier
 		#Range: 0.0 ~ 1000.0
-		"Axe Of Lightning Damage multiplier" = 1.0
+		"Axe Of Lightning Damage multiplier" = 2.0
 		#Axe Of Lightning Bolt Damage Multiplier
 		#Range: 0.0 ~ 1000.0
-		"Axe Of Lightning Bolt Damage multiplier" = 1.0
+		"Axe Of Lightning Bolt Damage multiplier" = 2.0
 		#Axe Of Lightning Speed Multiplier
 		#Range: 0.0 ~ 1000.0
 		"Axe Of Lightning Speed multiplier" = 1.0

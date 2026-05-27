@@ -148,7 +148,7 @@ ItemEvents.firstLeftClicked('eeeabsmobs:netherworld_katana', event => { //幽冥
 
   const damage=player.getAttributeTotalValue("minecraft:generic.attack_damage")
   const adddamage=player.getAttributeTotalValue("minecraft:generic.max_health")
-  projectile.setDamage(16+0.4*damage+0.4*adddamage)
+  projectile.setDamage(20+0.4*damage+0.4*adddamage)
   const setCOOLDOWNS=player.getAttributeTotalValue("minecraft:generic.attack_speed")
   player.addItemCooldown('eeeabsmobs:netherworld_katana', 20/setCOOLDOWNS);
   projectile.setMotion(normalizedVector.x * velocity, normalizedVector.y * velocity, normalizedVector.z * velocity); // 设定弹射物方向

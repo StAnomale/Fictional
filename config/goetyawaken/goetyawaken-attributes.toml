@@ -205,7 +205,7 @@
 		namelessOneArmorToughness = 8.0
 		#Nameless One heal amount per interval (default: 1.0)
 		#Range: 0.0 ~ 1.7976931348623157E308
-		namelessOneHealAmount = 2.0
+		namelessOneHealAmount = 1.0
 		#Hit cooldown in ticks for Nameless One damage cap, Default: 10
 		#Range: 1 ~ 100
 		namelessOneHitCooldown = 1
@@ -223,10 +223,10 @@
 		namelessOneHealth = 4444.0
 		#How much natural armor points Nameless One have, Default: 12.0
 		#Range: 0.0 ~ 1.7976931348623157E308
-		namelessOneArmor = 20.0
+		namelessOneArmor = 12.0
 		#How much damage Parched Necromancers deals, Default: 14.0
 		#Range: 0.0 ~ 1.7976931348623157E308
-		namelessOneDamage = 30.0
+		namelessOneDamage = 28.0
 
 	[Attributes."Angry Mooshroom"]
 		#How much movement speed Angry Mooshrooms have, Default: 0.3

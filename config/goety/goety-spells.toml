@@ -315,16 +315,16 @@
 	[Spells."Prisma Beam Spell"]
 		#Time to cast Prisma Beam Spell, Default: 80
 		#Range: 0 ~ 72000
-		prismaBeamTime = 20
+		prismaBeamTime = 15
 		#Prisma Beam Spell Cooldown, Default: 20
 		#Range: > 0
-		prismaBeamCoolDown = 20
+		prismaBeamCoolDown = 15
 		#Prisma Beam Spell Cost, Default: 8
 		#Range: > 0
 		prismaBeamCost = 40
 		#How much base damage the spell deals, Default: 6.0
 		#Range: 1.0 ~ 1.7976931348623157E308
-		prismaBeamDamage = 80.0
+		prismaBeamDamage = 100.0
 
 	[Spells."Ministrous Spell"]
 		#Ministrous Spell Cost, Default: 8

@@ -83,6 +83,9 @@ StartupEvents.registry("item",event =>{
     event.create('saintwing_cucumberangel').rarity('uncommon').displayName("圣翼黄瓜使").tag("curios:hands")
     event.create('neutronium_densebone').rarity('uncommon').displayName("中子素致密骨头").tag("curios:charm")
     event.create('gold_heart').rarity('uncommon').displayName("黄金的国王心脏").tag("curios:body")
+    event.create('corrupting_heart').rarity('epic').displayName("腐化之心").tag("curios:body")
+    event.create('caerula_heart').rarity('rare').displayName("深蓝之心").tag("curios:body")
+    event.create('taodix').rarity('rare').displayName("梦之笛").tag("curios:charm")
     
     event.create('covenant_purewhite').rarity('uncommon').displayName('纯白盟约').maxStackSize(1).tag("curios:covenant")
     event.create('covenant_sharpblade1').rarity('uncommon').displayName('利刃盟约·I').maxStackSize(1).tag("curios:covenant")

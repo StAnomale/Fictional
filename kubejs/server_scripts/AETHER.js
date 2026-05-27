@@ -524,7 +524,7 @@ EntityEvents.hurt(event => {
           let randomZ = player.getRandom().nextDouble();
           let shard = event.level.createEntity('cataclysm:blazing_bone');
           shard.setOwner(player);
-          shard.setDamage(1 + 0.2 * damage + 0.2 * adddamage);
+          shard.setDamage(2 + 0.2 * damage + 0.2 * adddamage);
           shard.setPos(player.position().add(0, player.getBbHeight() / 1.5, 0));
           shard.setDeltaMovement(new Vec3d(
             (randomX - 0.5) * 0.35,
@@ -557,7 +557,7 @@ EntityEvents.hurt(event => {
           let randomZ = player.getRandom().nextDouble();
           let shard = event.level.createEntity('cataclysm:blazing_bone');
           shard.setOwner(player);
-          shard.setDamage(0.2 * damage + 0.2 * adddamage);
+          shard.setDamage(2 + 0.2 * damage + 0.2 * adddamage);
           shard.setPos(player.position().add(0, player.getBbHeight() / 1.0, 0));
           shard.setDeltaMovement(new Vec3d(
             (randomX - 0.5) * 0.35,

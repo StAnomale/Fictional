@@ -27,8 +27,8 @@
 [[entities]]
 	#飓旋
 	entity = "legendary_monsters:hovering_hurricane"
-	minTier = 2
-	maxTier = 3
+	minTier = 1
+	maxTier = 2
 	presetAffixes = ["lively"]
 	affixPermission = "BLACKLIST"
 
@@ -76,7 +76,7 @@
 	#无名者
 	entity = "goetyawaken:nameless_one"
 	minTier = 0
-	maxTier = 1
+	maxTier = 0
 	presetAffixes = ["lively"]
 	affixPermission = "BLACKLIST"
 	
@@ -84,7 +84,7 @@
 	#哞菇巨兽
 	entity = "goetyawaken:hostile_mushroom_monstrosity"
 	minTier = 0
-	maxTier = 1
+	maxTier = 0
 	presetAffixes = ["lively"]
 	affixPermission = "BLACKLIST"
 	
@@ -92,7 +92,7 @@
 	#灾厄宰相
 	entity = "goety:vizier"
 	minTier = 0
-	maxTier = 1
+	maxTier = 0
 	presetAffixes = ["lively"]
 	affixPermission = "BLACKLIST"
 	
@@ -116,7 +116,7 @@
 	#末影守望者
 	entity = "goety:ender_keeper"
 	minTier = 0
-	maxTier = 1
+	maxTier = 0
 	presetAffixes = ["lively"]
 	affixPermission = "BLACKLIST"
 	
@@ -124,7 +124,7 @@
 	#使徒
 	entity = "goety:apostle"
 	minTier = 0
-	maxTier = 1
+	maxTier = 0
 	presetAffixes = ["lively"]
 	affixPermission = "BLACKLIST"
 	
@@ -423,7 +423,7 @@
 [[entities]]
 	#帝王云鲸
 	entity = "lost_aether_content:aerwhale_king"
-	minTier = 4
+	minTier = 3
 	maxTier = 4
 	presetAffixes = ["wounding"]
 	affixList = ["hasty", "lively"]

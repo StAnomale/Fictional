@@ -152,7 +152,7 @@ EntityJSEvents.attributes(event => { //修改实体已有的属性
 
   event.modify('minecraft:ender_dragon', attributes =>{ //末影龙
     attributes.add("minecraft:generic.armor", 8)
-    attributes.add("minecraft:generic.armor_toughness", 10)
+    attributes.add("minecraft:generic.armor_toughness", 30)
     attributes.add("minecraft:generic.max_health", 100)
     attributes.add("minecraft:generic.knockback_resistance", 10)
   });
@@ -263,8 +263,8 @@ EntityJSEvents.attributes(event => { //修改实体已有的属性
   });
 
   event.modify('lost_aether_content:aerwhale_king', attributes =>{ //帝王云鲸
-    attributes.add("minecraft:generic.max_health", 300)
-    attributes.add("minecraft:generic.attack_damage", 24)
+    attributes.add("minecraft:generic.max_health", 400)
+    attributes.add("minecraft:generic.attack_damage", 20)
     attributes.add("minecraft:generic.knockback_resistance", 10)
     attributes.add("forge:swim_speed", 3)
     attributes.add("minecraft:generic.movement_speed", 0.001)
@@ -513,6 +513,15 @@ EntityJSEvents.attributes(event => { //修改实体已有的属性
     attributes.add("minecraft:generic.knockback_resistance", 0.5)
     attributes.add("minecraft:generic.armor", 4)
     attributes.add("minecraft:generic.armor_toughness", 4)
+  });
+
+  event.modify('legendary_monsters:hovering_hurricane', attributes =>{ //飓旋
+    attributes.add("minecraft:generic.max_health", 50)
+    attributes.add("minecraft:generic.attack_damage", 16)
+    attributes.add("forge:swim_speed", 3)
+    attributes.add("forge:step_height_addition", 2)
+    attributes.add("minecraft:generic.armor", 10)
+    attributes.add("minecraft:generic.armor_toughness", 10)
   });
 
   event.modify('crockpot:volt_goat', attributes =>{ //伏特羊

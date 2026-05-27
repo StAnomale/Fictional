@@ -659,10 +659,10 @@ e.add([
 	Text.translate('Fictional.AETHER.curios.mykapod_shell_chunk1'),
 	Text.translate('Fictional.AETHER.curios.mykapod_shell_chunk2'),
 	Text.translate('OEA.air'),
-	Text.translate('Fictional.AETHER.curios.snailshell_shield1'),
-	Text.translate('Fictional.AETHER.curios.snailshell_shield2'),
 	Text.translate('Fictional.AETHER.curios.snailshell_shield3'),
 	Text.translate('Fictional.AETHER.curios.snailshell_shield4'),
+	Text.translate('Fictional.AETHER.curios.snailshell_shield1'),
+	Text.translate('Fictional.AETHER.curios.snailshell_shield2'),
 	])
 
 e.add([

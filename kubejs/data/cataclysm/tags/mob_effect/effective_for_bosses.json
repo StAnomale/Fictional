@@ -7,6 +7,11 @@
     "goety:busted",
     "goety:void_touched",
     "goety:acid_venom",
+    "goety:leeching",
+    "goety:swirling",
+    "goetyawaken:enchantment_thundering",
+    "goetyawaken:shockwave",
+    "goetyawaken:frenzied",
 
     "kubejs:hostility_wounding",
     "kubejs:hostility_magic_resistance",

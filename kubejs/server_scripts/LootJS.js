@@ -336,7 +336,8 @@ LootJS.modifiers(event => {
         ['goety:grave_dust', 0.2], //坟尘
         ['kubejs:compressed_amethyst', 0.2],//紫水晶币
         ['aether_redux:raw_gravitite', 0.15],//重力晶
-        ['aether:zanite_gemstone', 0.2],//紫晶石
+        ['aether:zanite_gemstone', 0.3],//紫晶石
+        ['aether_treasure_reforging:neptune_mesh', 0.2], //海皇纱
         ['aether_redux:raw_veridium', 0.3],]//粗灰蓝晶
     lootItem.forEach(([item, chance]) => {event
             .addLootTableModifier('aether:chests/dungeon/silver/silver_dungeon')//天境武神神庙
@@ -492,7 +493,8 @@ LootJS.modifiers(event => {
     let lootItem = [
         ['goety:ectoplasm', 0.5], //灵质
         ['goety:grave_dust', 0.2], //坟尘
-        ['xercamusic:god', 0.05], //上帝之音
+        ['aether:shield_of_repulsion', 0.05], //反击之盾
+        ['xercamusic:god', 0.1], //上帝之音
         ['deep_aether:spooky_ring', 0.05],] //诡异之戒
     lootItem.forEach(([item, chance]) => {event
             .addLootTableModifier('deep_aether:chests/dungeon/brass/brass_dungeon_reward')//黄铜地牢
@@ -501,7 +503,9 @@ LootJS.modifiers(event => {
     let lootItem = [
         ['goety:ectoplasm', 0.5], //灵质
         ['goety:grave_dust', 0.2], //坟尘
-        ['xercamusic:god', 0.05], //上帝之音
+        ['xercamusic:god', 0.1], //上帝之音
+        ['aether:shield_of_repulsion', 0.05], //反击之盾
+        ['aether:hammer_of_kingbdogz', 0.05], //创世者之锤
         ['deep_aether:spooky_ring', 0.05],]
     lootItem.forEach(([item, chance]) => {event
             .addLootTableModifier('aether:chests/dungeon/silver/silver_dungeon_reward')//白银地牢
@@ -512,6 +516,7 @@ LootJS.modifiers(event => {
         ['aether:phoenix_bow', 0.05],//凤舞长弓
         ['aether:flaming_sword', 0.05],//烈焰长剑
         ['aether:phoenix_gloves', 0.05],//凤凰护手
+        ['aether:shield_of_repulsion', 0.05], //反击之盾
         ['goety:ectoplasm', 0.5], //灵质
         ['goety:grave_dust', 0.2], //坟尘
         ['xercamusic:god', 0.1], //上帝之音
@@ -523,6 +528,7 @@ LootJS.modifiers(event => {
     let lootItem = [
         ['goety:ectoplasm', 0.5], //灵质
         ['goety:grave_dust', 0.2], //坟尘
+        ['aether:shield_of_repulsion', 0.05], //反击之盾
         ['xercamusic:god', 0.1], //上帝之音
         ['deep_aether:spooky_ring', 0.1],]
     lootItem.forEach(([item, chance]) => {event
@@ -566,7 +572,7 @@ LootJS.modifiers((event) => {
 
     event
         .addLootTableModifier('goety:gameplay/treasure_pouch')//宝藏袋
-        .addWeightedLoot(8, [
+        .addWeightedLoot(9, [
             Item.of('goety:thunderbolt_focus').withChance(5),//聚晶
             Item.of('goety:shocking_focus').withChance(5),//聚晶
             Item.of('goety:razor_wind_focus').withChance(5),//聚晶
@@ -592,6 +598,32 @@ LootJS.modifiers((event) => {
             Item.of('goety:soul_heal_focus').withChance(5),//聚晶
             Item.of('goety:weakening_focus').withChance(5),//聚晶
             Item.of('goety:chilling_focus').withChance(5),//聚晶
+
+            Item.of('goety:electrocute_focus').withChance(5),
+            Item.of('goety:surging_focus').withChance(5),
+            Item.of('goety:leeching_focus').withChance(5),
+            Item.of('goety:reaping_focus').withChance(5),
+            Item.of('goety:water_jet_focus').withChance(5),
+            Item.of('goety:water_whip_focus').withChance(5),
+
+            Item.of('goety:blazing_focus').withChance(5),
+            Item.of('goety:ghastly_focus').withChance(5),
+            Item.of('goetyawaken:shulker_missile_focus').withChance(5),
+            Item.of('goetyawaken:stare_focus').withChance(5),
+            Item.of('goety:end_walk_focus').withChance(5),
+
+            Item.of('goety:prisma_beam_focus').withChance(5),
+            Item.of('goety:steaming_focus').withChance(5),
+            Item.of('goety:swarm_focus').withChance(5),
+            Item.of('goety:poison_dart_focus').withChance(5),
+            Item.of('goety:mauling_focus').withChance(5),
+
+            Item.of('goety:ice_spike_focus').withChance(5),
+            Item.of('goety:frost_breath_focus').withChance(5),
+            Item.of('goety:frostborn_focus').withChance(5),
+            Item.of('goetyawaken:infestation_focus').withChance(5),
+            Item.of('goety_cataclysm:earth_shake_focus').withChance(5),
+            Item.of('goety_cataclysm:amethyst_cluster_focus').withChance(5),
 
             Item.of('goety:overgrowth_focus').withChance(5),
             Item.of('goety:blossoming_focus').withChance(5),
@@ -650,6 +682,7 @@ LootJS.modifiers((event) => {
             Item.of('lost_aether_content:agility_boots').withChance(4),//敏捷之靴
             Item.of('aether_redux:vampire_amulet').withChance(4),//吸血鬼护身符
             Item.of('aether:iron_bubble').withChance(4),//坚铁气泡
+            Item.of('aether:shield_of_repulsion').withChance(4),//反击之盾
         ]);
 
     event
@@ -751,9 +784,9 @@ LootJS.modifiers((event) => {
 LootJS.modifiers((event) => {
     event
         .addEntityLootModifier("goety:wither_necromancer")//凋零死灵法师
-        .addWeightedLoot(2, [
-            Item.of("goetyawaken:mucilage").withChance(40),//粘质
-            Item.of('goety:grave_dust').withChance(60),//坟尘
+        .addWeightedLoot(3, [
+            Item.of("goetyawaken:mucilage").withChance(50),//粘质
+            Item.of('goety:grave_dust').withChance(50),//坟尘
         ]);
 });
 
@@ -1163,8 +1196,8 @@ LootJS.modifiers((event) => {
         .addEntityLootModifier("deep_aether:eots_controller")//狂瞳龙卷
         .addWeightedLoot(1, [
             Item.of("deep_aether:floaty_scarf").withChance(15),
-            //Item.of("aether:cold_aercloud").withChance(60),
-            Item.of("aether_redux:raw_gravitite").withChance(85)
+            Item.of("aether:life_shard").withChance(15),
+            Item.of("aether_redux:raw_gravitite").withChance(70)
         ]);
 }); 
 
@@ -1173,7 +1206,11 @@ LootJS.modifiers((event) => {
         .addEntityLootModifier("aether:valkyrie_queen")//武神女王
         .addWeightedLoot(1, [
             Item.of("deep_aether:medal_of_honor").withChance(15),
-            Item.of("aether_redux:raw_gravitite").withChance(85)
+            Item.of("lost_aether_content:agility_boots").withChance(15),
+            Item.of("lost_aether_content:swetty_mask").withChance(15),
+            Item.of("aether:valkyrie_lance").withChance(15),
+            Item.of("aether:life_shard").withChance(15),
+            Item.of("aether_redux:raw_gravitite").withChance(25)
         ]);
 }); 
 
@@ -1182,6 +1219,27 @@ LootJS.modifiers((event) => {
         .addEntityLootModifier("aether:sun_spirit")//烈阳巨灵
         .addWeightedLoot(1, [
             Item.of("deep_aether:sun_core").withChance(15),
+            Item.of("lost_aether_content:flaming_gemstone").withChance(15),
+            Item.of("aether:life_shard").withChance(15),
+            Item.of("aether_redux:raw_gravitite").withChance(55)
+        ]);
+}); 
+
+LootJS.modifiers((event) => {
+    event
+        .addEntityLootModifier("legendary_monsters:cloud_golem")//云筑魔像
+        .addWeightedLoot(4, [
+            Item.of("deep_aether:sterling_aercloud").withChance(60),
+            Item.of("aether:life_shard").withChance(10),
+            Item.of("aether_redux:raw_gravitite").withChance(30)
+        ]);
+}); 
+
+LootJS.modifiers((event) => {
+    event
+        .addEntityLootModifier("legendary_monsters:hovering_hurricane")//飓旋
+        .addWeightedLoot(1, [
+            Item.of("aether_treasure_reforging:neptune_mesh").withChance(15),
             Item.of("aether_redux:raw_gravitite").withChance(85)
         ]);
 }); 

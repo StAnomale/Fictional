@@ -16,6 +16,26 @@
   "fullSetBonuses": [
     {
       "type": "attribute",
+      "name": "minecraft:generic.armor",
+      "value": 2.0,
+      "modifierUUID": "4a75de4e-1f99-4a3b-b336-5db55390825b",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor_toughness",
+      "value": 2.0,
+      "modifierUUID": "14b34523-038b-44b2-b5ef-e4ff81c4d4b1",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
       "name": "obscure_api:magic_resistance",
       "value": 0.4,
       "modifierUUID": "525a0c58-515e-46d3-89d6-b9486cc7c161",

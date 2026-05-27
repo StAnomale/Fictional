@@ -12,6 +12,9 @@ event.blasting('goety:empty_focus', '#goety:focuses').cookingTime(300).xp(10.0)
 event.blasting('goety:empty_focus', '#goety:wands').cookingTime(300).xp(10.0)
 event.blasting('4x goety:empty_focus', 'goety:resonance_crystal').cookingTime(300).xp(10.0)
 
+//大气之靴（高炉）
+event.blasting('legendary_monsters:air_rune', 'legendary_monsters:atmospheric_boots').cookingTime(300).xp(10.0)
+
 //宝藏袋（高炉）
 event.blasting('goety:treasure_pouch', 'goety:fanged_dagger').cookingTime(300).xp(100.0)
 event.blasting('goety:treasure_pouch', 'goety:crone_hat').cookingTime(300).xp(100.0)

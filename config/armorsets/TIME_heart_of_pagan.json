@@ -25,10 +25,10 @@
     },
     {
       "type": "attribute",
-      "name": "minecraft:generic.armor_toughness",
+      "name": "obscure_api:magic_damage",
       "value": -0.15,
       "modifierUUID": "4964885d-2a1a-423e-8951-6205961f73a2",
-      "attributeOperation": 1,
+      "attributeOperation": 2,
       "interactionType": "self"
     },
     {

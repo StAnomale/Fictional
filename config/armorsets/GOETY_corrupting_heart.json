@@ -1,0 +1,76 @@
+{
+  "armorSetName": "corrupting_heart",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "kubejs:corrupting_heart",
+      "mixAndMatch": [
+      ],
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "goety:void_potency",
+      "value": 0.1,
+      "modifierUUID": "45319ee2-03a7-4f28-9515-513b09676fb3",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "obscure_api:healing_power",
+      "value": 0.1,
+      "modifierUUID": "6143454d-fa32-49ab-a0ff-c5fe58500e9d",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "forge:swim_speed",
+      "value": 0.2,
+      "modifierUUID": "1901425d-01fd-4c56-b438-19f6b1a981e6",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:regeneration",
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false,
+      "conditions": [
+        {
+          "type": "inWater"
+        }
+      ]
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:conduit_power",
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false,
+      "conditions": [
+        {
+          "type": "inWater"
+        }
+      ]
+    },
+    {
+      "type": "effect",
+      "name": "goety:arrowmantic",
+      "interactionType": "immunity",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

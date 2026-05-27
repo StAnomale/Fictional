@@ -258,13 +258,16 @@ e.add([
     Text.translate('Fictional.FLINT.goldheart12'),
     Text.translate('OEA.air'),
     Text.translate('Fictional.FLINT.goldheart13'),
+	Text.translate('OEA.air'),
+	Text.translate('Fictional.FLINT.goldheart14'),
+	Text.translate('Fictional.FLINT.goldheart15'),
     Text.translate('OEA.air'),
     ])
 
 e.addAdvanced('kubejs:gold_heart', (item, advanced, text) => {
 		if (!e.shift) {
 			text.add(1, Text.gray(''))
-			text.add(2, [Text.of('按住 ').gray(), Text.of('[Shift] ').yellow(), Text.of('查看更多信息.').gray()])
+			text.add(2, [Text.translate('Fictional.tooltip1').gray(),Text.translate('Fictional.tooltip2').yellow(),Text.translate('Fictional.tooltip3').gray()])
 		} else {
 			text.add(1, Text.gray(''))
 			text.add(2, [Text.gray('佩戴者获得'),Text.gold(' “黄金增幅” '), Text.gray('&'),  Text.aqua(' “寒冰增幅” '), Text.gray('效果，免疫'),  Text.red(' “烈阳增幅” '), Text.gray('效果 ')])
@@ -278,6 +281,79 @@ e.addAdvanced('kubejs:gold_heart', (item, advanced, text) => {
 			text.add(10, [Text.gray('使用凤凰武器、佩戴钢制锅炉/炉心守卫之眼时 ')])
 			text.add(11, [Text.gray('额外减少'), Text.red(' 20% '), Text.gray('攻击伤害，此项效果可叠加生效')])
 
+		}
+	})
+
+e.add([
+	'kubejs:corrupting_heart'], [
+	Text.translate('OEA.air'),
+	Text.translate('Fictional.GOETY.corrupting_heart1'),
+	Text.translate('Fictional.GOETY.corrupting_heart2'),
+	Text.translate('Fictional.GOETY.corrupting_heart3'),
+	Text.translate('Fictional.GOETY.corrupting_heart4'),
+	Text.translate('OEA.air'),
+	Text.translate('Fictional.GOETY.corrupting_heart5'),
+	Text.translate('Fictional.GOETY.corrupting_heart6'),
+	Text.translate('Fictional.GOETY.corrupting_heart7'),
+	Text.translate('Fictional.GOETY.corrupting_heart8'),
+	Text.translate('OEA.air'),
+	])
+
+e.addAdvanced('kubejs:corrupting_heart', (item, advanced, text) => {
+		if (!e.shift) {
+			text.add(1, Text.gray(''))
+			text.add(2, [Text.translate('Fictional.tooltip1').gray(),Text.translate('Fictional.tooltip2').yellow(),Text.translate('Fictional.tooltip3').gray()])
+		} else {
+			text.add(1, Text.gray(''))
+			text.add(2, [Text.gray('佩戴者提升'),Text.green(' 10% '),Text.gray('法术强效和'),Text.green(' 10% '),Text.gray('治疗效果，佩戴'),Text.blue(' 深渊之卵 '),Text.gray('时效果翻倍 ')])
+			text.add(3, [Text.gray('造成伤害时回复('),Text.green('法术强效*25%+最大生命*5%'), Text.gray(')生命值，并获得深渊恐惧')])
+			text.add(4, [Text.gray('持有深渊恐惧时，改为对命中目标额外造成('), Text.gold('回复值*400%'),Text.gray(')效果的魔法伤害')])
+			text.add(5, Text.gray(''))
+			text.add(6, [Text.gray('若自身未持有'), Text.darkAqua(' 深渊恐惧 '), Text.gray('效果，减少'), Text.red(' 20% '), Text.gray('造成伤害，佩戴'),Text.blue(' 深渊之卵 '),Text.gray('时效果翻倍 ')])
+			text.add(7, [Text.gray('受伤获得'), Text.green(' 重振 '), Text.gray('效果'), Text.darkGray('(提升所有友方单位10%攻击伤害)'), Text.gray('佩戴'),Text.blue(' 深渊之卵 '),Text.gray('时效果翻倍 ')])
+            text.add(8, [Text.gray('提升游泳速度，免疫 箭矢磁吸 效果，在水中额外获得 潮涌能量 / 生命回复 效果')])
+		}
+	})
+
+e.add([
+	'kubejs:caerula_heart'], [
+	Text.translate('OEA.air'),
+	Text.translate('Fictional.GOETY.caerula_heart2'),
+	Text.translate('Fictional.GOETY.caerula_heart3'),
+	Text.translate('Fictional.GOETY.caerula_heart4'),
+	Text.translate('Fictional.GOETY.caerula_heart1'),
+	Text.translate('OEA.air'),
+	])
+
+e.add([
+	'kubejs:taodix'], [
+	Text.translate('OEA.air'),
+	Text.translate('Fictional.GOETY.taodix4'),
+	Text.translate('Fictional.GOETY.taodix5'),
+	Text.translate('Fictional.GOETY.taodix6'),
+	Text.translate('OEA.air'),
+	Text.translate('Fictional.GOETY.taodix7'),
+	Text.translate('Fictional.GOETY.taodix8'),
+	Text.translate('Fictional.GOETY.taodix9'),
+	Text.translate('Fictional.GOETY.taodix10'),
+	Text.translate('Fictional.GOETY.taodix11'),
+	Text.translate('Fictional.GOETY.taodix12'),
+	Text.translate('Fictional.GOETY.taodix13'),
+	 Text.translate('OEA.air'),
+	// Text.translate('Fictional.GOETY.taodix1'),
+	// Text.translate('Fictional.GOETY.taodix2'),
+	// Text.translate('Fictional.GOETY.taodix3'),
+	])
+
+e.addAdvanced('kubejs:taodix', (item, advanced, text) => {
+		if (!e.shift) {
+			text.add(14, Text.green(''))
+		} else {
+			text.add(14, [Text.green(' “然而，梦终需醒，这是自然的定律 ')])
+			text.add(15, [Text.green('  但在这座岛的回忆，会留在你心中 ')])
+			text.add(16, [Text.green('  然后......有一天你也会想起这座岛 ')])
+			text.add(17, [Text.green('  也许这份回忆，才是真正的梦世界吧。” ')])
+			text.add(18, [Text.green('                                               —— 定制者: 风鱼 ')])
 		}
 	})
 
@@ -777,6 +853,16 @@ e.add([
 	'goety:black_iron_leggings',
 	'goety:black_iron_boots',
 
+    ], [
+	Text.translate('OEA.air'),
+	Text.translate('Fictional.GOETY.dark0'),
+	Text.translate('Fictional.GOETY.dark1'),
+	Text.translate('Fictional.GOETY.dark2'),
+	Text.translate('OEA.air'),
+	])
+
+e.add([
+
 	'goety:dark_helmet',
 	'goety:dark_chestplate',
 	'goety:dark_leggings',
@@ -784,8 +870,10 @@ e.add([
 
     ], [
 	Text.translate('OEA.air'),
+	Text.translate('Fictional.GOETY.dark0'),
 	Text.translate('Fictional.GOETY.dark1'),
 	Text.translate('Fictional.GOETY.dark2'),
+	Text.translate('Fictional.GOETY.dark3'),
 	Text.translate('OEA.air'),
 	])
 
@@ -1065,6 +1153,63 @@ e.add([
 	])
 
 e.add([
+	'legendary_monsters:wand_of_clouds'], [
+	Text.translate('OEA.air'),
+	Text.translate('Fictional.GOETY.wand_of_clouds1'),
+	Text.translate('Fictional.GOETY.wand_of_clouds2'),
+	Text.translate('OEA.air'),
+	])
+
+e.add([
+	'legendary_monsters:mossy_chestplate'], [
+	Text.translate('OEA.air'),
+	Text.translate('Fictional.GOETY.mossy_chestplate1'),
+	Text.translate('Fictional.GOETY.mossy_chestplate2'),
+	Text.translate('OEA.air'),
+	])
+
+e.add([
+	'cataclysm:bloom_stone_pauldrons'], [
+	Text.translate('OEA.air'),
+	Text.translate('Fictional.GOETY.bloom_stone_pauldrons1'),
+	Text.translate('Fictional.GOETY.bloom_stone_pauldrons2'),
+	Text.translate('Fictional.GOETY.bloom_stone_pauldrons3'),
+	Text.translate('OEA.air'),
+	])
+
+e.add([
+	'legendary_monsters:nature_crystal'], [
+	Text.translate('OEA.air'),
+	Text.translate('Fictional.GOETY.nature_crystal1'),
+	Text.translate('Fictional.GOETY.nature_crystal2'),
+	Text.translate('Fictional.GOETY.nature_crystal3'),
+	Text.translate('Fictional.GOETY.nature_crystal4'),
+	Text.translate('Fictional.GOETY.nature_crystal5'),
+	Text.translate('OEA.air'),
+	])
+
+e.add([
+	'legendary_monsters:air_rune'], [
+	Text.translate('OEA.air'),
+	Text.translate('Fictional.GOETY.air_rune1'),
+	Text.translate('Fictional.GOETY.air_rune2'),
+	Text.translate('Fictional.GOETY.air_rune3'),
+	Text.translate('Fictional.GOETY.air_rune4'),
+	Text.translate('Fictional.GOETY.air_rune5'),
+	Text.translate('Fictional.GOETY.air_rune6'),
+	Text.translate('Fictional.GOETY.air_rune7'),
+	Text.translate('OEA.air'),
+	])
+
+e.add([
+	'legendary_monsters:atmospheric_boots'], [
+	Text.translate('OEA.air'),
+	Text.translate('Fictional.GOETY.atmospheric_boots1'),
+	Text.translate('Fictional.GOETY.atmospheric_boots2'),
+	Text.translate('OEA.air'),
+	])
+
+e.add([
 	'goetyawaken:obsidian_claymore'], [
 	Text.translate('OEA.air'),
 	Text.translate('Fictional.GOETY.obsidian_claymore1'),
@@ -1242,6 +1387,7 @@ e.add([
 	Text.translate('OEA.air'),
 	Text.translate('Fictional.GOETY.champion1'),
 	Text.translate('Fictional.GOETY.champion2'),
+	Text.translate('Fictional.GOETY.champion3'),
 	Text.translate('OEA.air'),
 	])
 

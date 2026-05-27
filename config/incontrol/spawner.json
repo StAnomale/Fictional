@@ -107,8 +107,8 @@
 		}
 	},
     {
-		"mob": ["royalvariations:royal_enderman", "royalvariations:royal_creeper","aether:fire_minion", "aether:valkyrie", "aethermobs:guardianangel", "aethermobs:mutatedcritter", "aether:cockatrice", "aether:blue_swet"],
-        "weights": [1, 1, 1, 2, 1, 2, 4, 2, 40, 20],
+		"mob": ["legendary_monsters:hovering_hurricane", "royalvariations:royal_enderman", "royalvariations:royal_creeper","aether:fire_minion", "aether:valkyrie", "aethermobs:guardianangel", "aethermobs:mutatedcritter", "aether:cockatrice", "aether:blue_swet"],
+        "weights": [1, 1, 1, 1, 2, 1, 2, 4, 2, 40, 20],
 		"amount": {
 			"minimum": 1,
 			"maximum": 1
@@ -125,8 +125,8 @@
 		}
 	},
     {
-		"mob": ["aethermobs:guardianangel", "aether:cockatrice", "aether:blue_swet"],
-        "weights": [1, 6, 2],
+		"mob": ["legendary_monsters:hovering_hurricane", "aethermobs:guardianangel", "aether:cockatrice", "aether:blue_swet"],
+        "weights": [1, 1, 6, 2],
 		"amount": {
 			"minimum": 1,
 			"maximum": 1

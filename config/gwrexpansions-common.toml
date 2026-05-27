@@ -63,7 +63,7 @@
 			damageMultiplier = 2.0
 			#Headshot Multiplier
 			#Range: 1.0 ~ 10.0
-			headshotMultiplier = 1.5
+			headshotMultiplier = 2.0
 			#fire Delay
 			#Range: 4 ~ 100
 			fireDelay = 24
@@ -378,7 +378,7 @@
 		["Guns Without Roses Expansions Config".Burstgun.DuskfallEclipse]
 			#Bonus Damage
 			#Range: 0 ~ 100
-			bonusDamage = 1
+			bonusDamage = 4
 			#Damage Multiplier
 			#Range: 0.0 ~ 10.0
 			damageMultiplier = 1.0
@@ -496,9 +496,9 @@
 		pityMaxJackpotWeight = 25
 		#Base damage used when Destiny Seven rolls a rare Obsidian Core entity. Gun bonus damage and damage multiplier still apply.
 		#Range: 0.0 ~ 1000.0
-		obsidianCoreBaseDamage = 20.0
+		obsidianCoreBaseDamage = 40.0
 		#Weighted bullet pool for Bust. Format: modid:item=weight. Missing optional mod bullets are skipped.
 		bustBulletPool = ["gunswithoutroses:iron_bullet=70", "gwrexpansions:slime_bullet=30"]
 		#Weighted bullet/entity pool for Double/Triple/Jackpot. Format: modid:item=weight. Missing optional mod bullets/entities are skipped. gwrexpansions:obsidian_core is a rare Obsidian Core entity when BOMD is loaded.
-		rewardBulletPool = ["gunswithoutroses:iron_bullet=200", "gwrexpansions:slime_bullet=180", "gwrexpansions:golden_bullet=150", "gwrexpansions:diamond_bullet=120", "gwrexpansions:silver_bullet=120", "gwrexpansions:dragonsteel_fire_bullet=80", "gwrexpansions:dragonsteel_ice_bullet=80", "gwrexpansions:dragonsteel_lightning_bullet=80", "gwrexpansions:netherite_bullet=80", "gwrexpansions:lavapower_bullet=80", "gwrexpansions:cursium_bullet=80", "gwrexpansions:ignitium_bullet=80", "gwrexpansions:tidal_bullet=80", "gwrexpansions:obsidian_core=40"]
+		rewardBulletPool = ["gunswithoutroses:iron_bullet=200", "gwrexpansions:slime_bullet=180", "gwrexpansions:golden_bullet=150", "gwrexpansions:silver_bullet=120", "gwrexpansions:dragonsteel_fire_bullet=80", "gwrexpansions:dragonsteel_ice_bullet=80", "gwrexpansions:dragonsteel_lightning_bullet=80", "gwrexpansions:netherite_bullet=80", "gwrexpansions:lavapower_bullet=80", "gwrexpansions:cursium_bullet=80", "gwrexpansions:ignitium_bullet=80", "gwrexpansions:tidal_bullet=80", "gwrexpansions:obsidian_core=40"]
 

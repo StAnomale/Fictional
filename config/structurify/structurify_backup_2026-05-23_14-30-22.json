@@ -1,6 +1,6 @@
 {
   "config_version": "2.0.11",
-  "config_datetime": "2026-04-12_20-10-19",
+  "config_datetime": "2026-05-23_14-17-11",
   "general": {
     "disable_all_structures": false,
     "prevent_structure_overlap": true,
@@ -318,6 +318,8 @@
       "name": "cataclysm:frosted_prison",
       "is_disabled": false,
       "whitelisted_biomes": [
+        "minecraft:snowy_beach",
+        "biomesoplenty:snowy_coniferous_forest",
         "biomesoplenty:cold_desert",
         "minecraft:snowy_slopes",
         "minecraft:grove",
@@ -494,6 +496,8 @@
         "minecraft:lush_caves",
         "minecraft:dripstone_caves",
         "minecraft:deep_dark",
+        "biomesoplenty:glowing_grotto",
+        "biomesoplenty:spider_nest",
         "terralith:cave/andesite_caves",
         "terralith:cave/crystal_caves",
         "terralith:cave/deep_caves",
@@ -534,6 +538,60 @@
       "blacklisted_biomes": [],
       "step": "surface_structures",
       "terrain_adaptation": "beard_box"
+    },
+    {
+      "name": "goetyawaken:mirage",
+      "is_disabled": false,
+      "whitelisted_biomes": [
+        "terralith:snowy_badlands",
+        "terralith:savanna_badlands"
+      ],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "none"
+    },
+    {
+      "name": "legendary_monsters:cloudy_temple",
+      "is_disabled": false,
+      "whitelisted_biomes": [
+        "aether_redux:skyroot_shrublands",
+        "aether_redux:skyfields",
+        "aether_redux:glacial_tundra",
+        "aether_redux:gilded_groves",
+        "aether_redux:gilded_grasslands",
+        "aether_redux:frosted_forests",
+        "aether:skyroot_woodland",
+        "aether:skyroot_grove",
+        "aether:skyroot_forest"
+      ],
+      "blacklisted_biomes": [
+        "minecraft:grove",
+        "minecraft:jagged_peaks",
+        "minecraft:meadow",
+        "minecraft:frozen_peaks",
+        "minecraft:stony_peaks",
+        "minecraft:snowy_slopes",
+        "minecraft:cherry_grove",
+        "biomesoplenty:highland",
+        "biomesoplenty:ominous_woods",
+        "biomesoplenty:jade_cliffs"
+      ],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_box"
+    },
+    {
+      "name": "legendary_monsters:frostbitten_temple",
+      "is_disabled": false,
+      "whitelisted_biomes": [
+        "aether_redux:glacial_tundra",
+        "aether_redux:frosted_forests",
+        "aether:skyroot_meadow",
+        "aether:skyroot_grove",
+        "aether:skyroot_forest"
+      ],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_thin"
     },
     {
       "name": "radiation_zone_reborn:radiation_zone_portal_ruin",

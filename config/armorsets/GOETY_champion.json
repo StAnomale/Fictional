@@ -30,7 +30,7 @@
     {
       "type": "attribute",
       "name": "goety:void_potency",
-      "value": 0.3,
+      "value": 0.1,
       "modifierUUID": "48ad81c5-6a2b-44d7-899d-cc31f65c1cc5",
       "attributeOperation": 1,
       "interactionType": "self",
@@ -41,8 +41,8 @@
   "fullSetBonuses": [
     {
       "type": "attribute",
-      "name": "obscure_api:penetration",
-      "value": 0.3,
+      "name": "obscure_api:critical_damage",
+      "value": 0.1,
       "modifierUUID": "b66bdaad-49d6-438f-ab97-0fed7484a186",
       "attributeOperation": 0,
       "interactionType": "self",
