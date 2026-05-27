@@ -115,7 +115,7 @@
 		livelyHealAmount = 2.0
 		#Multiplier to health regeneration when not aggressive
 		#Range: 1.0 ~ 1.7976931348623157E308
-		livelyPassiveMultiplier = 20.0
+		livelyPassiveMultiplier = 40.0
 		#Set cooldown (in seconds) for regeneration after getting attacked
 		#Range: > 1
 		livelyCooldown = 2

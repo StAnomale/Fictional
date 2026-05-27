@@ -34,7 +34,7 @@
     {
       "type": "attribute",
       "name": "goety:void_potency",
-      "value": 0.2,
+      "value": 0.1,
       "modifierUUID": "255967b6-3e47-42fa-a8df-7bdbe62d3c33",
       "attributeOperation": 1,
       "interactionType": "self",
@@ -45,20 +45,10 @@
   "fullSetBonuses": [
     {
       "type": "attribute",
-      "name": "minecraft:generic.attack_damage",
-      "value": 0.2,
+      "name": "minecraft:generic.attack_speed",
+      "value": 0.1,
       "modifierUUID": "f34305bc-7d1e-4d89-8294-5e6bca64a9e8",
       "attributeOperation": 1,
-      "interactionType": "self",
-      "hideBonusDescription": false,
-      "onlyImmuneToNewEffects": false
-    },
-    {
-      "type": "attribute",
-      "name": "minecraft:generic.armor",
-      "value": 4.0,
-      "modifierUUID": "74aeeb7e-4ed6-45dc-a90f-5ba333396339",
-      "attributeOperation": 0,
       "interactionType": "self",
       "hideBonusDescription": false,
       "onlyImmuneToNewEffects": false

@@ -21,7 +21,7 @@
     {
       "type": "attribute",
       "name": "minecraft:generic.armor",
-      "value": 0.4,
+      "value": 0.1,
       "modifierUUID": "23c0bc1b-7796-4a2a-bee4-0416706d1260",
       "attributeOperation": 1,
       "interactionType": "self",
@@ -54,7 +54,7 @@
     {
       "type": "attribute",
       "name": "minecraft:generic.attack_damage",
-      "value": 0.4,
+      "value": 0.1,
       "modifierUUID": "3db7e4fb-f68d-4412-b90e-52f66cd5ad4f",
       "attributeOperation": 1,
       "interactionType": "self",

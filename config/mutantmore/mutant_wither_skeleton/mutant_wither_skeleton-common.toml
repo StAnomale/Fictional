@@ -7,7 +7,7 @@
 	"Knockback Resistance (default: 1)" = 1.0
 	"Armour Value (default: 6)" = 10.0
 	"Armour Toughness Value (default: 0)" = 4.0
-	"Target Players Distance (default: 64)" = 64.0
+	"Target Players Distance (default: 64)" = 48.0
 	"Target Mobs Distance (default: 15)" = 15.0
 	"Melee Attack Damage (default: 8)" = 16.0
 	"Melee Attack Knockback (default: 0.2)" = 0.2

@@ -30,7 +30,7 @@
     {
       "type": "attribute",
       "name": "minecraft:generic.max_health",
-      "value": 0.4,
+      "value": 0.1,
       "modifierUUID": "aae014a6-0185-4980-baff-d700bace0675",
       "attributeOperation": 1,
       "interactionType": "self",
@@ -41,8 +41,8 @@
   "fullSetBonuses": [
     {
       "type": "attribute",
-      "name": "minecraft:generic.attack_damage",
-      "value": 0.4,
+      "name": "minecraft:generic.attack_speed",
+      "value": 0.1,
       "modifierUUID": "72f4694f-87a7-45d3-baa7-8c8f3f7fb144",
       "attributeOperation": 1,
       "interactionType": "self",

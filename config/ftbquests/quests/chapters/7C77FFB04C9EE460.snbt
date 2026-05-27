@@ -666,7 +666,7 @@
 			id: "0B81D609EB03AEDA"
 			linked_quest: "386E72F2489A5529"
 			shape: "square"
-			x: 23.5d
+			x: 20.5d
 			y: 15.5d
 		}
 		{
@@ -675,7 +675,7 @@
 			linked_quest: "18D2A02237367421"
 			shape: "square"
 			x: 23.5d
-			y: 16.5d
+			y: 15.5d
 		}
 		{
 			disable_toast: true
@@ -714,7 +714,7 @@
 			id: "31E1ED68CD289F61"
 			linked_quest: "4E9B8EC9A444D426"
 			shape: "square"
-			x: 28.0d
+			x: 25.0d
 			y: 15.5d
 		}
 		{
@@ -723,14 +723,14 @@
 			linked_quest: "19D0E5863DE0C296"
 			shape: "square"
 			x: 28.0d
-			y: 16.5d
+			y: 15.5d
 		}
 		{
 			disable_toast: true
 			id: "0620A723CC2D5AFE"
 			linked_quest: "1429557E7EC1E83D"
 			shape: "square"
-			x: 32.5d
+			x: 29.5d
 			y: 15.5d
 		}
 		{
@@ -739,7 +739,7 @@
 			linked_quest: "2B437F27BF2D133B"
 			shape: "square"
 			x: 32.5d
-			y: 16.5d
+			y: 15.5d
 		}
 		{
 			disable_toast: true
@@ -747,7 +747,7 @@
 			linked_quest: "2C7547D006F65756"
 			shape: "square"
 			x: 37.0d
-			y: 16.5d
+			y: 15.5d
 		}
 		{
 			disable_toast: true
@@ -755,14 +755,14 @@
 			linked_quest: "2D299C2845A6F061"
 			shape: "square"
 			x: 41.5d
-			y: 16.5d
+			y: 15.5d
 		}
 		{
 			disable_toast: true
 			id: "76A5E8E23387F2E7"
 			linked_quest: "25062FEC894C08B7"
 			shape: "square"
-			x: 46.0d
+			x: 43.0d
 			y: 15.5d
 		}
 		{
@@ -771,14 +771,14 @@
 			linked_quest: "2C92181E6D5AD505"
 			shape: "square"
 			x: 46.0d
-			y: 16.5d
+			y: 15.5d
 		}
 		{
 			disable_toast: true
 			id: "2562D29343828B75"
 			linked_quest: "69E25B3B0DCC4588"
 			shape: "square"
-			x: 51.0d
+			x: 48.0d
 			y: 15.5d
 		}
 		{
@@ -787,14 +787,14 @@
 			linked_quest: "14478DA97FD1D729"
 			shape: "square"
 			x: 51.0d
-			y: 16.5d
+			y: 15.5d
 		}
 		{
 			disable_toast: true
 			id: "21A6E7FD67F854BC"
 			linked_quest: "747CB4C2A39CDBE8"
 			shape: "square"
-			x: 37.0d
+			x: 34.0d
 			y: 15.5d
 		}
 		{
@@ -802,7 +802,7 @@
 			id: "6706206F54D4D798"
 			linked_quest: "1794FAF9E0CD045A"
 			shape: "square"
-			x: 41.5d
+			x: 38.5d
 			y: 15.5d
 		}
 		{
@@ -1601,9 +1601,8 @@
 					type: "item"
 				}
 				{
-					count: 4L
 					id: "0F9BDCE9430F0087"
-					item: { Count: 4, id: "goety:void_shard" }
+					item: "goety:void_shard"
 					type: "item"
 				}
 			]
@@ -1614,7 +1613,7 @@
 		{
 			dependencies: ["6BFE354A276B6237"]
 			description: [
-				"在&n末地外岛&r前往 &d终末永狱&r 结构顶层，对着虚空神龛使用4枚 &e虚空碎片&r 充能，随后生成末影守望者。"
+				"在&n末地外岛&r前往 &d终末永狱&r 结构的中央，对着虚空神龛使用4枚 &e虚空碎片&r 充能，随后生成末影守望者。"
 				""
 				"末影守望者具有 &n200&r 点伤害限制，是等同4星的BOSS单位，击败将获得&d虚空回响&r和&e被隐匿的蓝图&r。"
 				""
@@ -6017,7 +6016,7 @@
 			y: 0.0d
 		}
 		{
-			description: ["在工作台中使用 &a&n禁书片段&r 可直接赋予聚晶&n强效&r附魔。需注意，聚晶会根据附魔种类&c提升灵魂能量消耗&r，在拥有更高效的灵魂能量回复手段之前，不推荐为聚晶附魔。"]
+			description: ["在工作台使用 &a&n禁书片段&r 可赋予聚晶所有类型的附魔。注意，聚晶会根据附魔种类&c提升灵魂能量消耗&r，在拥有更高效的灵魂能量回复手段前，不推荐为聚晶附魔。"]
 			icon: "goety:forbidden_fragment"
 			id: "6F0645AD683A18DE"
 			rewards: [{
@@ -6027,7 +6026,7 @@
 			}]
 			shape: "square"
 			size: 1.0d
-			subtitle: "能为聚晶施加强效附魔"
+			subtitle: "能为聚晶施加所有类型的附魔"
 			tasks: [{
 				id: "777B4FE0A3D028A6"
 				item: "goety:forbidden_fragment"
@@ -6035,6 +6034,38 @@
 			}]
 			x: 16.5d
 			y: 0.5d
+		}
+		{
+			dependencies: ["1EF9DF574337A22C"]
+			description: ["通过&n锻造仪式&r获取，奥术方匣能够捕获仆从，或者其他已驯服的生物。再次使用能&d跨越维度&r将它们释放出来。"]
+			icon: {
+				Count: 1
+				id: "goety:esoteric_tesseract"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2CFB7551945B2070"
+			rewards: [{
+				id: "58BE786E3B451487"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "789959FEAB3A698E"
+				item: {
+					Count: 1
+					id: "goety:esoteric_tesseract"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 9.0d
 		}
 	]
 	title: "魔法的注脚"

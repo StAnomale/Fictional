@@ -1,0 +1,33 @@
+{
+  "armorSetName": "dark",
+  "performanceMode": true,
+  "chest": {
+    "itemKey": "cataclysm:bloom_stone_pauldrons",
+    "mixAndMatch": [
+    ],
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:healing_power",
+      "value": 0.1,
+      "modifierUUID": "dfac7669-58ad-4e72-9203-26001f753f39",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "functionalarmortrim:experience_boost",
+      "value": 0.4,
+      "modifierUUID": "7d2fc60b-2148-4a42-84f6-a5e7830a7c82",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

@@ -17,7 +17,10 @@
       "minecraft:firework": false,
       "minecraft:damage_indicator": false,
       "minecraft:entity_effect": true,
-      "minecraft:effect": true
+      "minecraft:effect": true,
+      "minecraft:falling_dust": true,
+      "minecraft:falling_lava": true,
+      "minecraft:white_ash": false
     }
   },
   "detail_settings": {

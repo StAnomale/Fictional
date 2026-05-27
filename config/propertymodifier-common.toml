@@ -258,6 +258,8 @@
 		"radiation_zone_reborn:wastelands_tyrant" = "obscure_api:magic_damage;6.0"
 		"mutantmore:mutant_frozen_zombie" = "obscure_api:magic_damage;2.0"
 		"mutantmore:mutant_husk" = "obscure_api:magic_damage;2.0"
+		"legendary_monsters:hovering_hurricane" = "obscure_api:magic_damage;2.0"
+		"legendary_monsters:cloud_golem" = "obscure_api:magic_damage;6.0"
 
 #Set the respective values here by adding lines in the respective groups. Keys can be either a block (e.g. "minecraft:stripped_birch_wood") or a block regex (e.g. "minecraft:.*_block").
 [blocks]

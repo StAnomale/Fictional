@@ -6,6 +6,13 @@
 console.info('Hello, World! (Loaded client scripts)')
 //你补药看我的石山代码口牙！！！！
 
+//extra.js多重弹射物发射
+function defaultExtraJsShoot(event, itemId, projectileType, positions, options) {
+    options = options || {};
+    options.nbt = options.nbt || { pickup: 2, damage: 8, PierceLevel: 5 };
+    shootMultiProjectile(event, itemId, projectileType, positions, options);
+}
+
 // 玩家左键点击刷怪笼时立即破坏并给予钥匙
 BlockEvents.leftClicked('ba_bt:spawner_marker', event => {
     const { player, block, level } = event;
@@ -320,40 +327,6 @@ ItemEvents.firstRightClicked('twilightforest:triple_bow', event => {
   player.addItemCooldown('twilightforest:triple_bow', 6);
   });
 
-// ==================== 通用弹射物发射函数 ====================
-function shootMultiProjectile(event, itemId, projectileType, positions, options) {
-  options = options || {};
-  const player = event.player;
-  const level = event.level;
-  if (!player || !level) return;
-  
-  if (player.cooldowns.isOnCooldown(itemId)) return;
-  
-  const viewVector = player.getViewVector(1.0);
-  const length = Math.sqrt(viewVector.x() * viewVector.x() + viewVector.y() * viewVector.y() + viewVector.z() * viewVector.z());
-  const normalizedVector = {
-    x: viewVector.x() / length,
-    y: viewVector.y() / length,
-    z: viewVector.z() / length
-  };
-  
-  const velocity = options.velocity || 2.0;
-  const nbt = options.nbt || { pickup: 2, damage: 8, PierceLevel: 5 };
-  
-  positions.forEach(pos => {
-    const projectile = level.createEntity(projectileType);
-    projectile.setPosition(player.x + pos.x, player.y + pos.y, player.z + pos.z);
-    projectile.setMotion(normalizedVector.x * velocity, normalizedVector.y * velocity, normalizedVector.z * velocity);
-    projectile.setOwner(player);
-    projectile.mergeNbt(nbt);
-    projectile.spawn();
-  });
-  
-  if (options.cooldown) {
-    player.addItemCooldown(itemId, options.cooldown);
-  }
-}
-
 //孔雀羽扇 - 4方向发射
 ItemEvents.rightClicked('twilightforest:peacock_feather_fan', event => {
   shootMultiProjectile(event, 'twilightforest:peacock_feather_fan', 'minecraft:llama_spit', [
@@ -392,16 +365,24 @@ ServerEvents.recipes(event => {
 
   //聚晶强效
   event.recipes.kubejs.shapeless(Item.of('minecraft:enchanted_book', 
-"{RepairCost:0,display:{Name:'{\"text\":\"给聚晶附魔\"}'}}").enchant('goety:potency', 1),
+"{RepairCost:0,display:{Name:'{\"text\":\"给聚晶附魔\"}'}}").enchant('goety:potency', 1).enchant('goety:soul_eater', 1).enchant('goety:radius', 2).enchant('goety:duration', 2).enchant('goety:burning', 3).enchant('goety:velocity', 5).enchant('goety:range', 5),
     ['#goety:focuses','goety:forbidden_fragment']
     //输入合成物品
     ).modifyResult((inputItem,outputItem)=>{
         let items = inputItem.findAll('#goety:focuses');
         for (let i = 0; i < items.length; i++) 
         {//判断是否拥有对应附魔
-            if (!items[i].hasEnchantment('goety:potency',1))
+            if (
+            !items[i].hasEnchantment('goety:potency',1) 
+            || !items[i].hasEnchantment('goety:soul_eater',1) 
+            || !items[i].hasEnchantment('goety:radius',2) 
+            || !items[i].hasEnchantment('goety:duration',2)
+            || !items[i].hasEnchantment('goety:burning',3)
+            || !items[i].hasEnchantment('goety:velocity',5)
+            || !items[i].hasEnchantment('goety:range',3)
+        )
             { //不符合条件则输出物品                   
-           let ci =  items[0].copy().enchant('goety:potency', 1);
+           let ci =  items[0].copy().enchant('goety:potency', 1).enchant('goety:soul_eater', 1).enchant('goety:radius', 2).enchant('goety:duration', 2).enchant('goety:burning', 3).enchant('goety:velocity', 5).enchant('goety:range', 5);
            ci.count = 1;
            return ci
             }
@@ -744,20 +725,3 @@ ItemEvents.rightClicked('twilightforest:fortification_scepter', event => {
   });
 });
 
-//防护口罩辐射衰减Tick逻辑
-PlayerEvents.tick(event => {
-  const { player } = event;
-  if (!player || player.level.isClientSide()) return;
-  if (player.age % 20 !== 0) return;
-  
-  const mask = player.getCurios().getEquippedItem('head');
-  if (!mask || !mask.test(Item.of('radiation_zone_reborn:golden_filter_mask_helmet'))) return;
-  
-  const decayAttribute = player.getAttribute('radiation_zone_reborn:decay');
-  if (!decayAttribute) return;
-  
-  const decay = decayAttribute.baseValue;
-  if (decay > 0.1) {
-    decayAttribute.baseValue = Math.max(decay - 0.4, 0.1);
-  }
-});

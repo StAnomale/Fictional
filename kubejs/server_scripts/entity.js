@@ -7,7 +7,7 @@
 // 实体发射弹射物配置
 const projectileConfigs = [
   {
-    entities: ['minecraft:wither', 'goety:wither_necromancer', 'goety:apostle', 'cataclysm:the_harbinger'],
+    entities: ['goety:wither_necromancer', 'goety:apostle', 'cataclysm:the_harbinger'],
     timer: 20,
     projectile: 'goety:fire_tornado_trap', //燃烧龙卷风
     damage: 16
@@ -73,7 +73,7 @@ const projectileConfigs = [
     damage: 16
   },
   {
-    entities: ['aethermobs:aetherdragonphase_2', 'aethermobs:aetherdragon', 'aethermobs:eldershulker', 'cataclysm:scylla', 'goetyawaken:wraith_necromancer'],
+    entities: ['legendary_monsters:cloud_golem', 'aethermobs:aetherdragonphase_2', 'aethermobs:aetherdragon', 'aethermobs:eldershulker', 'cataclysm:scylla', 'goetyawaken:wraith_necromancer'],
     timer: 8,
     projectile: 'goety:razor_wind', //风刃
     damage: 16
@@ -161,12 +161,6 @@ EntityEvents.hurt(event => {
 
 // 怪物效果配置
 const monsterEffectConfigs = [
-  {
-    monsters: ['lost_aether_content:aerwhale_king'],
-    effects: [
-      { id: 'hostility_wounding', amplifier: 1 }
-    ]
-  },
   { //二星
     monsters: ['goety:brood_mother', 'goety:crone', 'goety:wither_necromancer', 'goety:wight', 'goety:minister', 'goety:bone_lord', 'goety:endersent', 'goety:hostile_redstone_golem'],
     effects: [
@@ -270,6 +264,25 @@ EntityEvents.spawned(event => {
     }
   }
 });
+
+//特殊掉落
+EntityEvents.drops('cataclysm:maledictus', event => {
+  let entity = event.entity;
+  let dimensionId = entity.level.dimension.toString()
+  //console.log(`测试1`)
+  if (dimensionId === 'pbf1:sanctum_of_the_battle1') {
+    let damageSource = event.getSource();
+    let player = damageSource.player
+    //if (player.isCuriosEquipped('goety:unholy_blood')) {
+    event.addDrop('kubejs:contrary_chronicle', 1)
+    event.drops.removeIf(item => item.item.id === 'minecraft:rotten_flesh');
+    //event.cancel();
+    //entity.spawnAtLocation('kubejs:cucumber1', 1);
+    //console.log(`测试2`)
+    //}
+  }
+})
+
 
 // 骷髅幻翼
 //EntityEvents.spawned('minecraft:skeleton', event => {

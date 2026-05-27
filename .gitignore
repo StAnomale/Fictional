@@ -13,6 +13,7 @@
 !/defaultconfigs/
 !/defaultconfigs/**
 !/CustomSkinLoader/
-!/CustomSkinLoader/**
+!/CustomSkinLoader/CustomSkinLoader.json
 !/TrashSlotSaveState.json
 !/options.txt
+!/*.bat

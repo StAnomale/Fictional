@@ -11,7 +11,7 @@
   "blocksPerLevelTrackingCulled": 10,
   "blocksPerLevelViewportCulled": 20,
   "maxLevel": 20,
-  "blocksPerLevelBlockEntities": 32,
+  "blocksPerLevelBlockEntities": 64,
   "stressedThreshold": 45,
   "minDecreaseFactor": 0.25,
   "dimensions": {

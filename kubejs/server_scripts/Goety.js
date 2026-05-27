@@ -2,6 +2,16 @@ let $LMLivingHurtEvent = Java.loadClass("net.minecraftforge.event.entity.living.
 
 // 本整合包由 绘名青棺(Silentmo) 制作，联系QQ群：693928637
 
+// 示例
+// /**
+//  * @returns {Internal.Projectile}
+//  */
+// function shootExample(event, itemId, projectileType, options) {
+//     options = options || {};
+//     options.nbt = options.nbt || { pickup: 2, damage: 2 + 0.75 * damage + 0.75 * adddamage, PierceLevel: 2 };
+//     return shootProjectile(event, itemId, projectileType, options);
+// }
+
 // 玩家登录事件
 PlayerEvents.loggedIn(event => {
 	let player = event.player
@@ -77,8 +87,8 @@ ItemEvents.rightClicked('beyonddimensions:shattered_space_time_crystallization',
 
 // 缚时者的怀表（旁观者模式）
 ItemEvents.rightClicked('kubejs:restrictiontimer_pocketwatch', event => {
-  const { level } = event;
-  let player = event.player
+  const { level , player} = event;
+  let playerName = player.username
   let mainHandItem = player.getMainHandItem();
   let Dimension = level.dimension
   if (!Dimension == "pbf1:sanctum_of_the_battle1") {return} //无法在沉睡海港使用
@@ -88,10 +98,10 @@ ItemEvents.rightClicked('kubejs:restrictiontimer_pocketwatch', event => {
   if (player.cooldowns.isOnCooldown('kubejs:restrictiontimer_pocketwatch')) return;
   player.addItemCooldown('kubejs:restrictiontimer_pocketwatch', 300)
 
-  player.runCommandSilent('/gamemode spectator');
+  Utils.server.runCommandSilent(`/gamemode spectator ${playerName}`);
   player.potionEffects.add('kubejs:hostility_chaos', 200, 9, false , false);
   player.potionEffects.add('minecraft:night_vision', 200, 9, false , false);
-  player.runCommandSilent('/summon goety:brew_effect_gas');
+  //player.runCommandSilent('/summon goety:brew_effect_gas');
 
   player.playNotifySound("minecraft:ambient.cave", "ambient", 1, 1);
   global.sound(player, 'block.amethyst_cluster.break', 1, 1, 0.14);
@@ -122,7 +132,7 @@ ItemEvents.rightClicked('kubejs:restrictiontimer_pocketwatch', event => {
    player.server.scheduleInTicks(delayTicks4, () => { 
    if (!player.player) return;  // 检查玩家是否在线
    player.statusMessage = ` 缚时之刻已结束！ `;
-   player.runCommandSilent('/gamemode survival');
+   Utils.server.runCommandSilent(`/gamemode survival ${playerName}`);
    player.potionEffects.add('jump_boost', 40, 4, false , false);
    player.playNotifySound("minecraft:item.bottle.fill_dragonbreath", "ambient", 1, 1)
 
@@ -151,7 +161,7 @@ ItemEvents.rightClicked('kubejs:broken_pocketwatch', event => {
   let delayTicks = 40; //延迟
   player.server.scheduleInTicks(delayTicks, () => { 
   if (!player.player) return;  // 检查玩家是否在线
-  server.runCommandSilent(`/execute in pbf1:sanctum_of_the_battle1 run tp ${playerName} 3 10 0`);
+  Utils.server.runCommandSilent(`/execute in pbf1:sanctum_of_the_battle1 run tp ${playerName} 3 10 0`);
   player.playNotifySound("minecraft:item.totem.use", "ambient", 1, 1)
   player.statusMessage = ` 你攥紧手中的怀表，顺着时间长河而下 `;
 })}
@@ -250,6 +260,17 @@ function hasMattCovenantEquipped(entity) {
 PlayerEvents.tick(event => {
     const player = event.player;
     if (!player || player.level.isClientSide() || player.age % 20 !== 0) return;
+
+    if(player.isCuriosEquipped('kubejs:taodix')) { //梦之笛                      
+            player.potionEffects.add('the_bumblezone:hidden', 100, 4);
+            player.potionEffects.add('minecraft:invisibility', 100, 4);
+            player.potionEffects.add('minecraft:luck', 100, 4);
+            player.potionEffects.add('goety:fortunate', 100, 4);
+            player.potionEffects.add('goety:bottling', 100, 4);
+            player.potionEffects.add('kubejs:hostility_chaos', 100, 9);
+            player.potionEffects.add('cataclysm:ghost_form', 100, 0);
+    
+    }
 
     if(player.isCuriosEquipped('goetyawaken:taboo_fragment')) { //禁咒碎片
     let att = event.player.getAttributeTotalValue('minecraft:generic.max_health');
@@ -374,7 +395,7 @@ PlayerEvents.tick(event => {
         if (deltaX < 0.1 && deltaY < 0.1 && deltaZ < 0.1) {
             let server = player.getServer();
             if (server) {
-                server.runCommandSilent(`/goety soul add ${player.username} 4`);
+                Utils.server.runCommandSilent(`/goety soul add ${player.username} 4`);
                 if (hasAnyCurio(player, ['kubejs:covenant_matt2', 'kubejs:covenant_matt3', 'kubejs:covenant_matt4', 'kubejs:covenant_matt5'])) {
                 Utils.server.runCommandSilent(`/goety soul add ${player.username} 4`);}
             }
@@ -405,7 +426,7 @@ PlayerEvents.tick(event => {
         if (deltaX < 0.1 && deltaY < 0.1 && deltaZ < 0.1) {
             let server = player.getServer();
             if (server) {
-                server.runCommandSilent(`/goety soul add ${player.username} 4`);
+                Utils.server.runCommandSilent(`/goety soul add ${player.username} 4`);
                 if (hasAnyCurio(player, ['kubejs:covenant_matt3', 'kubejs:covenant_matt4', 'kubejs:covenant_matt5'])) {
                 Utils.server.runCommandSilent(`/goety soul add ${player.username} 4`);}
             }
@@ -437,7 +458,7 @@ PlayerEvents.tick(event => {
         if (deltaX < 0.1 && deltaY < 0.1 && deltaZ < 0.1) {
             let server = player.getServer();
             if (server) {
-                server.runCommandSilent(`/goety soul add ${player.username} 4`);
+                Utils.server.runCommandSilent(`/goety soul add ${player.username} 4`);
                 if (hasAnyCurio(player, ['kubejs:covenant_matt3', 'kubejs:covenant_matt4', 'kubejs:covenant_matt5'])) {
                 Utils.server.runCommandSilent(`/goety soul add ${player.username} 4`);}
             }
@@ -469,7 +490,7 @@ PlayerEvents.tick(event => {
         if (deltaX < 0.1 && deltaY < 0.1 && deltaZ < 0.1) {
             let server = player.getServer();
             if (server) {
-                server.runCommandSilent(`/goety soul add ${player.username} 8`);
+                Utils.server.runCommandSilent(`/goety soul add ${player.username} 8`);
                 if (hasAnyCurio(player, ['kubejs:covenant_matt4', 'kubejs:covenant_matt5'])) {
                 Utils.server.runCommandSilent(`/goety soul add ${player.username} 8`);}
             }
@@ -504,7 +525,7 @@ PlayerEvents.tick(event => {
         if (deltaX < 0.1 && deltaY < 0.1 && deltaZ < 0.1) {
             let server = player.getServer();
             if (server) {
-                server.runCommandSilent(`/goety soul add ${player.username} 8`);
+                Utils.server.runCommandSilent(`/goety soul add ${player.username} 8`);
                 if (hasAnyCurio(player, ['kubejs:covenant_matt5'])) {
                 Utils.server.runCommandSilent(`/goety soul add ${player.username} 8`);}
             }
@@ -898,6 +919,15 @@ NativeEvents.onEvent(Java.loadClass("net.minecraftforge.event.entity.living.Livi
             }
         }
 
+        // 腐化之心
+        if (hasAnyCurio(player, ['kubejs:corrupting_heart'])) {
+            if (!player.isCuriosEquipped('cataclysm:abyssal_egg')) { 
+            player.potionEffects.add('goety:rallying', 300, 0)
+        } else if (player.isCuriosEquipped('cataclysm:abyssal_egg')) { 
+            player.potionEffects.add('goety:rallying', 300, 1)
+        }
+        }
+
 }
 
     // 玩家攻击怪物时的增伤效果
@@ -920,9 +950,40 @@ NativeEvents.onEvent(Java.loadClass("net.minecraftforge.event.entity.living.Livi
             }
         }
 
+        // 空白编年史
+        if (hasAnyCurio(player, ['kubejs:contrary_chronicle'])) {
+            event.setAmount(event.amount * 1.25);
+        }
+
+        // 猎人盟约
+        if (hasAnyCurio(player, [
+            'kubejs:covenant_gunpowder1', 'kubejs:covenant_gunpowder2', 'kubejs:covenant_gunpowder3',
+            'kubejs:covenant_gunpowder4', 'kubejs:covenant_gunpowder5'
+        ])) {
+
+            const att1 = player.getAttributeTotalValue('obscure_api:magic_damage');
+            const att2 = player.getAttributeTotalValue('obscure_api:accuracy');
+            const att3 = player.getAttributeTotalValue('obscure_api:critical_hit');
+            const att4 = player.getAttributeTotalValue('obscure_api:critical_damage');
+            const att = (4 + att1 ) * (att2 + att3 + att4/2) ;
+
+            //entity.attack(entity.damageSources().wither(), 1)
+            if (!player.cooldowns.isOnCooldown('kubejs:covenant_gunpowder1')) {
+            //event.entity.invulnerableTime = 0
+            event.setAmount( amount + att );
+            player.addItemCooldown('kubejs:covenant_gunpowder1', 20);
+
+            }
+        }
+
         // 不洁之血
         if (hasAnyCurio(player, ['goety:unholy_blood'])) {
             event.setAmount(event.amount * 1.2);
+        }
+
+        // 梦之笛
+        if (hasAnyCurio(player, ['kubejs:taodix'])) {
+            event.setAmount(event.amount * 0.5);
         }
 
         // 混沌之眼 - 盟约加成
@@ -983,6 +1044,50 @@ NativeEvents.onEvent(Java.loadClass("net.minecraftforge.event.entity.living.Livi
                 break;
             }
         }
+        }
+
+        // 腐化之心
+        if (hasAnyCurio(player, ['kubejs:corrupting_heart'])) {
+            if (!player.isCuriosEquipped('cataclysm:abyssal_egg')) { 
+            event.setAmount(event.amount * 0.8);
+        } else if (player.isCuriosEquipped('cataclysm:abyssal_egg')) { 
+            event.setAmount(event.amount * 0.6);
+        }
+        }
+
+        // 腐化之心
+        if (hasAnyCurio(player, [
+            'kubejs:corrupting_heart'
+        ])) {
+            if (!player.cooldowns.isOnCooldown('kubejs:corrupting_heart')) {
+            const damage1 = player.getAttributeTotalValue('obscure_api:magic_damage');
+            const damage2 = player.getAttributeTotalValue('minecraft:generic.max_health');
+            const heal = player.getAttributeTotalValue('obscure_api:healing_power');
+            const damage = 0.25 * damage1 + 0.05 * damage2
+
+            if (!player.hasEffect('cataclysm:abyssal_fear')) {
+            player.heal(damage);
+            player.potionEffects.add('cataclysm:abyssal_fear', 120, 0)
+            player.addItemCooldown('kubejs:corrupting_heart', 60 )
+            } else if (player.hasEffect('cataclysm:abyssal_fear')) {
+            event.entity.invulnerableTime = 0
+            entity.attack(entity.damageSources().magic(), 4 * damage * heal)
+            player.addItemCooldown('kubejs:corrupting_heart', 60 )
+            }
+        }}
+
+        // 大气符文
+        if (hasAnyCurio(player, [
+            'legendary_monsters:air_rune'
+        ])) {
+            if (!player.cooldowns.isOnCooldown('legendary_monsters:air_rune')) {
+            const cooldown = player.getAttributeTotalValue('minecraft:generic.movement_speed');
+            player.addItemCooldown('legendary_monsters:air_rune', 5/cooldown )
+
+            const damage = player.getAttributeTotalValue('obscure_api:magic_damage');
+            const damage2 = 4 + 2.4 * damage
+            event.setAmount(event.amount + damage2);
+            }
         }
 
         // 虚空回响
@@ -1232,25 +1337,7 @@ NativeEvents.onEvent(Java.loadClass("net.minecraftforge.event.entity.living.Livi
 
         }
 
-        // 猎人盟约
-        if (hasAnyCurio(player, [
-            'kubejs:covenant_gunpowder1', 'kubejs:covenant_gunpowder2', 'kubejs:covenant_gunpowder3',
-            'kubejs:covenant_gunpowder4', 'kubejs:covenant_gunpowder5'
-        ])) {
-
-            const att1 = player.getAttributeTotalValue('obscure_api:magic_damage');
-            const att2 = player.getAttributeTotalValue('obscure_api:accuracy');
-            const att3 = player.getAttributeTotalValue('obscure_api:critical_hit');
-            const att4 = player.getAttributeTotalValue('obscure_api:critical_damage');
-
-            //entity.attack(entity.damageSources().wither(), 1)
-            if (!player.cooldowns.isOnCooldown('kubejs:covenant_gunpowder1')) {
-            //event.entity.invulnerableTime = 0
-            event.setAmount( amount + (6 + att1 ) * (1 + att2 + att3 ) * att4/2 );
-            player.addItemCooldown('kubejs:covenant_gunpowder1', 20);
-
-            }
-        }
+        
         }
 
     }
@@ -1460,74 +1547,51 @@ ItemEvents.rightClicked('minecraft:bone', event => {
       player.addItemCooldown('jrftl:prepared_flesh', cooldown2);
     }
 
-
 }
 
 });
 
-// ==================== 通用弹射物发射函数 ====================
-/**
- * 发射弹射物的通用函数
- * @param {Object} event - 事件对象
- * @param {string} itemId - 物品ID（用于冷却检测）
- * @param {string} projectileType - 弹射物实体类型
- * @param {Object} options - 配置选项
- */
-function shootProjectile(event, itemId, projectileType, options) {
-  options = options || {};
-  const player = event.player;
-  const level = event.level;
-  //if (!player || !level) return;
-  
-  // 检查冷却
-  if (player.cooldowns.isOnCooldown(itemId)) return;
-  
-  // 获取视角向量并标准化
-  const viewVector = player.getViewVector(1.0);
-  const length = Math.sqrt(viewVector.x() * viewVector.x() + viewVector.y() * viewVector.y() + viewVector.z() * viewVector.z());
-  const normalizedVector = {
-    x: viewVector.x() / length,
-    y: viewVector.y() / length,
-    z: viewVector.z() / length
-  };
-  
-  // 创建弹射物
-  const projectile = level.createEntity(projectileType);
-  
-  // 设置发射位置
-  const offset = options.offset || 1.5;
-  const spawnY = options.spawnY || 1.5;
-  const spawnX = player.x + normalizedVector.x * offset;
-  const spawnZ = player.z + normalizedVector.z * offset;
-  projectile.setPosition(spawnX, player.y + spawnY + normalizedVector.y * offset, spawnZ);
-  
-  // 设置速度
-  const velocity = options.velocity || 2.0;
-  projectile.setMotion(normalizedVector.x * velocity, normalizedVector.y * velocity, normalizedVector.z * velocity);
-  
-  // 设置方向
-  //if (options.setYRot !== false) {
-  //  projectile.yRot = player.yRot;
-  //}
-  
-  // 设置NBT数据
-  if (options.nbt) {
-    projectile.mergeNbt(options.nbt);
-  }
-  
-  // 设置拥有者
-  projectile.setOwner(player);
-  
-  // 设置冷却
-  if (options.cooldown) {
-    const cooldownTicks = typeof options.cooldown === 'function' ? options.cooldown(player) : options.cooldown;
-    player.addItemCooldown(itemId, cooldownTicks);
-  }
-  
-  // 生成弹射物
-  projectile.spawn();
-  return projectile;
+// 毒刺藤种（自然水晶）
+ItemEvents.rightClicked('goety:poison_quill_seed', event => {
+    let player = event.player;
+    let mainHandItem = player.getMainHandItem();
+
+    const ent = event.entity;
+
+    const damage = ent.getAttributeTotalValue('goety:void_potency');
+    const damage1 = ent.getAttributeTotalValue('minecraft:generic.max_health');
+    const damage2 = 40 + 4 * damage + 2 * damage1
+
+    const cooldown = ent.getAttributeTotalValue('goety:cooldown_discount');
+    const cooldown2 = 10 + 600 * (1-cooldown)
+
+    if(player.isCuriosEquipped('legendary_monsters:nature_crystal')) {
+
+    if (!player || mainHandItem.getId() !== 'goety:poison_quill_seed') return;
+    if (player.cooldowns.isOnCooldown('legendary_monsters:nature_crystal')) return;
+
+    var zagLevel = 1;
+    for (var i = 0; i < zagLevel; i++) {
+      var zagSpawn = ent.level.createEntity('goety:leapleaf');
+      if (!zagSpawn) continue;
+
+      zagSpawn.copyPosition(player); // 设置位置并生成
+      zagSpawn.spawn();
+      
+      try {$MobUtil.summonTame(zagSpawn, player);} catch (error) {console.error('召唤驯服失败:', error);} // 尝试驯服
+
+      zagSpawn.setMaxHealth(damage2); // 设置生命值
+      zagSpawn.setHealth(damage2);
+      
+      zagSpawn.server.scheduleInTicks(1200, () => {if (zagSpawn && !zagSpawn.removed) {zagSpawn.kill();}}); // 定时杀死
+
+      player.addItemCooldown('legendary_monsters:nature_crystal', cooldown2);
+      if (!player.isCreative()) {mainHandItem.shrink(1);player.setMainHandItem(mainHandItem);};
+    }
+
 }
+
+});
 
 // 竖琴弩
 ItemEvents.rightClicked('goetyawaken:harp_crossbow', event => {
@@ -1543,8 +1607,7 @@ ItemEvents.rightClicked('goetyawaken:harp_crossbow', event => {
 
   shootProjectile(event, 'goety:unholy_blood', 'goety:death_arrow', {
     nbt: { pickup: 2, damage: 2 + 0.75 * damage + 0.75 * adddamage, PierceLevel: 2 },
-    cooldown: (p) => 20 ,
-    velocity: 4.0
+    cooldown: 20, velocity: 4.0
   });
 })
 });
@@ -1562,8 +1625,7 @@ ItemEvents.rightClicked('goetyawaken:dark_netherite_bow', event => {
 
   shootProjectile(event, 'goety:unholy_blood', 'goety:death_arrow', {
     nbt: { pickup: 2, damage: 2 + 0.4 * adddamage, PierceLevel: 2 },
-    cooldown: (p) => 20 ,
-    velocity: 2.0
+    cooldown: 20
   });
 })
 });
@@ -1574,9 +1636,8 @@ ItemEvents.firstLeftClicked('goety:blade_of_ender', event => {
   const damage = player.getAttributeTotalValue("minecraft:generic.attack_damage");
   const adddamage = player.getAttributeTotalValue("goety:void_potency");
 
-  shootProjectile(event, 'goety:blade_of_ender', 'radiation_zone_reborn:sand_ball', {
-    nbt: { pickup: 2, damage: 1 + 0.05 * damage + 0.25 * adddamage, PierceLevel: 2 },
-    cooldown: (p) => 20 / p.getAttributeTotalValue("minecraft:generic.attack_speed"),
+  atkSpeedShootProjectile(event, 'goety:blade_of_ender', 'radiation_zone_reborn:sand_ball', {
+    nbt: { pickup: 2, damage: 0.5 + 0.05 * damage + 0.25 * adddamage, PierceLevel: 2 },
     velocity: 4.0
   });
 });
@@ -1586,11 +1647,11 @@ ItemEvents.firstLeftClicked('goetyawaken:frost_scythe', event => {
   const { player } = event;
   const damage = player.getAttributeTotalValue("minecraft:generic.armor");
   const adddamage = player.getAttributeTotalValue("goety:void_potency");
+  const cooldown = player.getAttributeTotalValue("minecraft:generic.attack_speed");
 
   shootProjectile(event, 'goetyawaken:frost_scythe', 'radiation_zone_reborn:sand_ball', { //发射物
     nbt: { pickup: 2, damage: 1 + 0.1 * damage + 0.25 * adddamage, PierceLevel: 2 },
-    cooldown: (p) => 20 / p.getAttributeTotalValue("minecraft:generic.attack_speed"),
-    velocity: 4.0
+    cooldown: cooldown, velocity: 4.0
   });
 });
 
@@ -1600,9 +1661,8 @@ ItemEvents.firstLeftClicked('goetyawaken:starless_night', event => {
   const damage = player.getAttributeTotalValue("minecraft:generic.attack_damage");
   const adddamage = player.getAttributeTotalValue("goety:void_potency");
 
-  shootProjectile(event, 'goetyawaken:starless_night', 'radiation_zone_reborn:sand_ball', { //发射物
-    nbt: { pickup: 2, damage: 1 + 0.15 * damage + 0.5 * adddamage, PierceLevel: 2 },
-    cooldown: (p) => 20 / p.getAttributeTotalValue("minecraft:generic.attack_speed"),
+  atkSpeedShootProjectile(event, 'goetyawaken:starless_night', 'radiation_zone_reborn:sand_ball', { //发射物
+    nbt: { pickup: 2, damage: 1 + 0.1 * damage + 0.5 * adddamage, PierceLevel: 2 },
     velocity: 4.0
   });
 });
@@ -1613,12 +1673,12 @@ ItemEvents.firstLeftClicked('goety:frozen_blade', event => {
   const damage = player.getAttributeTotalValue("minecraft:generic.attack_damage");
   const adddamage = player.getAttributeTotalValue("goety:void_potency");
 
-  shootProjectile(event, 'goety:frozen_blade', 'radiation_zone_reborn:sand_ball', { //发射物
+  atkSpeedShootProjectile(event, 'goety:frozen_blade', 'radiation_zone_reborn:sand_ball', { //发射物
     nbt: { pickup: 2, damage: 0.5 + 0.05 * damage + 0.25 * adddamage, PierceLevel: 2 },
-    cooldown: (p) => 20 / p.getAttributeTotalValue("minecraft:generic.attack_speed"),
     velocity: 4.0
   });
 });
+
 
 ItemEvents.rightClicked('gwrexpansions:duskfall_eclipse_blaster', event => { //暮影蚀光
   const { player, level } = event; //从事件中解构出对象待用
@@ -1755,49 +1815,91 @@ ItemEvents.firstLeftClicked('goetyawaken:starless_night', event => { //无星之
 
 ItemEvents.firstLeftClicked('mutantmore:mutant_jungle_zombie_arm', event => { //突变丛林僵尸手臂
   const { player, level } = event; //从事件中解构出对象待用
+  if (event.player.cooldowns.isOnCooldown('mutantmore:mutant_jungle_zombie_arm')) return;
+
+  const hitResult = event.player.pick(6.0, 0.0, false);
+  const pos = hitResult.getLocation().add(0, -2.0, 0);
+  const postions = [pos,
+    pos.add(1.0, 0, 0),
+    pos.add(-1.0, 0, 0),
+    pos.add(0, 0, -1.0),
+    pos.add(0, 0, 1.0),
+  ]
+  postions.forEach(p => {
+    let projectile = level.createEntity("goety:blossom_thorn");
+    projectile.setPos(p); //设定发射坐标
+    projectile.mergeNbt({ pickup: 2, damage: 1, PierceLevel: 2 })// 设定弹射物NBT数据
+    projectile.setOwner(player) // 设定弹射物发射者
+    projectile.spawn();
+  })
+  
+  let setCOOLDOWNS=player.getAttributeTotalValue("minecraft:generic.attack_speed")
+  player.addItemCooldown('mutantmore:mutant_jungle_zombie_arm', 80/setCOOLDOWNS);
+});
+
+//   ItemEvents.rightClicked('legendary_monsters:wand_of_clouds', event => { //层云叠杖
+//     const { player, level } = event;
+//     const damage = player.getAttributeTotalValue('minecraft:generic.max_health');
+//     const adddamage = player.getAttributeTotalValue('obscure_api:magic_damage');
+//     /**
+//      * @type {Internal.Projectile}
+//      */
+//     const projectile = shootProjectile(event, 'legendary_monsters:wand_of_clouds', 'legendary_monsters:bomb', {
+//       cooldown: 30
+//     });
+//     if(!projectile) return;
+//     projectile.mergeNbt({ pickup: 2, damage: 4 + 0.4 * damage + 0.5 * adddamage, PierceLevel: 2 })// 设定弹射物NBT数据
+//   });
+
+ItemEvents.rightClicked('legendary_monsters:wand_of_clouds', event => { //层云叠杖
+  const { player, level } = event; //从事件中解构出对象待用
   if (event.player.cooldowns.isOnCooldown('kubejs:cucumber1')) return;
   const viewVector = player.getViewVector(1.0); // 获取玩家的视角向量并标准化
   const length = Math.sqrt(viewVector.x() * viewVector.x() + viewVector.y() * viewVector.y() + viewVector.z() * viewVector.z());
   const normalizedVector = {x: viewVector.x() / length,y: viewVector.y() / length,z: viewVector.z() / length};
-  const projectile = level.createEntity("goety:blossom_thorn"); // 发射物
-  const offset = 6.0;  // 偏移距离
+  const projectile = level.createEntity('legendary_monsters:underground_soul_blade'); // 发射物
+  const offset = 1.0;  // 偏移距离
   const spawnX = player.x + normalizedVector.x * offset; // 基于玩家位置+视线方向偏移
-  const spawnY = player.y - 0.5 + normalizedVector.y * offset;
+  const spawnY = player.y + 1.2 + normalizedVector.y * offset;
   const spawnZ = player.z + normalizedVector.z * offset;
   projectile.setPosition(spawnX, spawnY, spawnZ); //设定发射坐标
-  const velocity = 0.5; // 设定速度基数
-  projectile.mergeNbt({ pickup: 2, damage: 1, PierceLevel: 2 })// 设定弹射物NBT数据
-  const setCOOLDOWNS=player.getAttributeTotalValue("minecraft:generic.attack_speed")
+  const velocity = 2.0; // 设定速度基数
+  const damage = player.getAttributeTotalValue('minecraft:generic.max_health');
+  const adddamage = player.getAttributeTotalValue('obscure_api:magic_damage');
+  projectile.mergeNbt({ pickup: 2, damage: 400 + 0.4 * damage + 0.5 * adddamage, PierceLevel: 2 })// 设定弹射物NBT数据
   projectile.setMotion(normalizedVector.x * velocity, normalizedVector.y * velocity, normalizedVector.z * velocity); // 设定弹射物方向
   projectile.setOwner(player) // 设定弹射物发射者
-  projectile.spawn();
-
-  const projectile4 = level.createEntity("goety:blossom_thorn"); // 发射物
-  projectile4.setPosition(spawnX +1, spawnY , spawnZ ); //设定发射坐标
-  projectile4.mergeNbt({ pickup: 2, damage: 1, PierceLevel: 2 })// 设定弹射物NBT数据
-  projectile4.setMotion(normalizedVector.x * velocity, normalizedVector.y * velocity, normalizedVector.z * velocity); // 设定弹射物方向
-  projectile4.setOwner(player) // 设定弹射物发射者
-  projectile4.spawn();
-
-  const projectile5 = level.createEntity("goety:blossom_thorn"); // 发射物
-  projectile5.setPosition(spawnX -1, spawnY , spawnZ ); //设定发射坐标
-  projectile5.mergeNbt({ pickup: 2, damage: 1, PierceLevel: 2 })// 设定弹射物NBT数据
-  projectile5.setMotion(normalizedVector.x * velocity, normalizedVector.y * velocity, normalizedVector.z * velocity); // 设定弹射物方向
-  projectile5.setOwner(player) // 设定弹射物发射者
-  projectile5.spawn();
-
-  const projectile2 = level.createEntity("goety:blossom_thorn"); // 发射物
-  projectile2.setPosition(spawnX , spawnY , spawnZ -1); //设定发射坐标
-  projectile2.mergeNbt({ pickup: 2, damage: 1, PierceLevel: 2 })// 设定弹射物NBT数据
-  projectile2.setMotion(normalizedVector.x * velocity, normalizedVector.y * velocity, normalizedVector.z * velocity); // 设定弹射物方向
-  projectile2.setOwner(player) // 设定弹射物发射者
-  projectile2.spawn();
-
-  const projectile3 = level.createEntity("goety:blossom_thorn"); // 发射物
-  projectile3.setPosition(spawnX , spawnY , spawnZ +1); //设定发射坐标
-  projectile3.mergeNbt({ pickup: 2, damage: 1, PierceLevel: 2 })// 设定弹射物NBT数据
-  projectile3.setMotion(normalizedVector.x * velocity, normalizedVector.y * velocity, normalizedVector.z * velocity); // 设定弹射物方向
-  projectile3.setOwner(player) // 设定弹射物发射者
-  projectile3.spawn();
-  player.addItemCooldown('kubejs:cucumber1', 80/setCOOLDOWNS);
+  {projectile.spawn();}
+  player.addItemCooldown('kubejs:cucumber1', 30);
   });
+
+// ==================== 黄金系列武器 ====================
+const goldWeapons = [
+  { itemId: 'royalvariations:royal_staff', addAttr: 'minecraft:generic.luck', dmgMult: 2.0 },
+  { itemId: 'aether:valkyrie_lance', addAttr: 'minecraft:generic.luck', dmgMult: 2.0 },
+  { itemId: 'aether:valkyrie_axe', addAttr: 'minecraft:generic.luck', dmgMult: 2.0 },
+  { itemId: 'advancednetherite:netherite_gold_sword', addAttr: 'minecraft:generic.luck', dmgMult: 2.0 },
+  { itemId: 'advancednetherite:netherite_gold_axe', addAttr: 'minecraft:generic.luck', dmgMult: 2.0 },
+  { itemId: 'minecraft:golden_sword', addAttr: 'minecraft:generic.luck', dmgMult: 2.0 },
+  { itemId: 'minecraft:golden_axe', addAttr: 'minecraft:generic.luck', dmgMult: 2.0 },
+];
+
+goldWeapons.forEach(weapon => {
+  // 左键发射
+  ItemEvents.firstLeftClicked(weapon.itemId, event => {
+    const { player, level } = event;
+    if (!player.potionEffects.isActive('kubejs:gold')) return;
+    const damage = player.getAttributeTotalValue('minecraft:generic.attack_damage');
+    const adddamage = player.getAttributeTotalValue(weapon.addAttr);
+    const setCOOLDOWNS = player.getAttributeTotalValue('minecraft:generic.attack_speed');
+    /**
+     * @type {Internal.Projectile}
+     */
+    const projectile = shootProjectile(event, weapon.itemId, 'cataclysm:blazing_bone', {
+      cooldown: 20 / setCOOLDOWNS
+    });
+    if(!projectile) return;
+    projectile.setDamage(4 + 0.4 * damage + weapon.dmgMult * adddamage);
+  });
+
+});

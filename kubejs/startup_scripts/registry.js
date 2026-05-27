@@ -78,11 +78,38 @@ StartupEvents.registry("item",event =>{
     event.create('compressed_amethyst').rarity('uncommon').displayName("紫水晶币")
     event.create('restrictiontimer_pocketwatch').rarity('uncommon').displayName("缚时者的怀表")
 
+    event.create('test').rarity('uncommon').displayName("测试").maxDamage(100).useDuration(s => 20).use((l,p,i) => true).finishUsing((stack, level, entity) => {
+        if(!entity.isPlayer()) return stack;
+        if(level.isClientSide()) return stack;
+        /**
+         * @type {Internal.Player}
+         */
+        let player = entity;
+        let useItem = player.getUseItem();
+        if(!useItem || useItem.id != 'kubejs:test') return stack;
+        let pData = player.getPersistentData();
+        if(pData.contains('testItem')) return stack;
+        pData.putInt('testItem', 10);
+        player.invulnerableTime = 10;
+        let viewVector = player.getViewVector(1.0);
+        let scale = 5.0;
+        let resultPos = new Vec3d(viewVector.x() * scale, viewVector.y() * scale, viewVector.z() * scale);
+        player.hurtMarked = true;
+        player.setDeltaMovement(resultPos);
+        stack.hurtAndBreak(1, entity, e => {});
+        return stack;
+    }).unstackable().displayName('test')
+
+
+
     event.create('citlali_ingot').rarity('uncommon').displayName("黑曜石奶奶锭").tag("curios:charm")
     event.create('luckitten_pendant').rarity('uncommon').displayName("幸运猫吊坠").tag("curios:charm")
     event.create('saintwing_cucumberangel').rarity('uncommon').displayName("圣翼黄瓜使").tag("curios:hands")
     event.create('neutronium_densebone').rarity('uncommon').displayName("中子素致密骨头").tag("curios:charm")
     event.create('gold_heart').rarity('uncommon').displayName("黄金的国王心脏").tag("curios:body")
+    event.create('corrupting_heart').rarity('epic').displayName("腐化之心").tag("curios:body")
+    event.create('caerula_heart').rarity('rare').displayName("深蓝之心").tag("curios:body")
+    event.create('taodix').rarity('rare').displayName("梦之笛").tag("curios:charm")
     
     event.create('covenant_purewhite').rarity('uncommon').displayName('纯白盟约').maxStackSize(1).tag("curios:covenant")
     event.create('covenant_sharpblade1').rarity('uncommon').displayName('利刃盟约·I').maxStackSize(1).tag("curios:covenant")

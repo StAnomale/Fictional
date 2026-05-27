@@ -54,7 +54,7 @@
   mobPermission = "BLACKLIST"
 [[affixes]]
   identifier = "magnetic"
-  enabled = true
+  enabled = false
   minTier = 1
   mobList = []
   mobPermission = "BLACKLIST"

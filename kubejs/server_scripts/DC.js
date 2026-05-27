@@ -20,19 +20,17 @@ netheriteWeapons.forEach(weapon => {
   ItemEvents.firstLeftClicked(weapon.itemId, event => {
     const { player, level } = event;
     if (!player.potionEffects.isActive('kubejs:netherite')) return;
-    if (player.cooldowns.isOnCooldown(weapon.itemId)) return;
-
-    /**
-     * @type {Internal.Projectile}
-     */
-    const projectile = global.shootProjectile('cataclysm:blazing_bone', player);
     const damage = player.getAttributeTotalValue('minecraft:generic.attack_damage');
     const adddamage = player.getAttributeTotalValue(weapon.addAttr);
     const setCOOLDOWNS = player.getAttributeTotalValue('minecraft:generic.attack_speed');
-    projectile.setDamage(4 + 0.4 * damage + weapon.dmgMult * adddamage);
-
-    player.addItemCooldown(weapon.itemId, 20 / setCOOLDOWNS);
-    projectile.spawn();
+    /**
+     * @type {Internal.Projectile}
+     */
+    const projectile = shootProjectile(event, weapon.itemId, 'cataclysm:blazing_bone', {
+      cooldown: 20 / setCOOLDOWNS
+    });
+    if(!projectile) return;
+    projectile.setDamage(8 + 0.4 * damage + weapon.dmgMult * adddamage);
   });
 
   // 右键激活效果
@@ -73,7 +71,7 @@ diamondWeapons.forEach(weapon => {
     const damage = player.getAttributeTotalValue('minecraft:generic.attack_damage');
     const adddamage = player.getAttributeTotalValue(weapon.addAttr);
     const setCOOLDOWNS = player.getAttributeTotalValue('minecraft:generic.attack_speed');
-    projectile.setDamage(2 + 0.4 * damage + weapon.dmgMult * adddamage);
+    projectile.setDamage(6 + 0.4 * damage + weapon.dmgMult * adddamage);
 
     player.addItemCooldown(weapon.itemId, 20 / setCOOLDOWNS);
     projectile.spawn();
@@ -117,7 +115,7 @@ enderiteWeapons.forEach(weapon => {
     const damage = player.getAttributeTotalValue('minecraft:generic.attack_damage');
     const adddamage = player.getAttributeTotalValue(weapon.addAttr);
     const setCOOLDOWNS = player.getAttributeTotalValue('minecraft:generic.attack_speed');
-    projectile.setDamage(4 + 0.4 * damage + weapon.dmgMult * adddamage);
+    projectile.setDamage(8 + 0.4 * damage + weapon.dmgMult * adddamage);
 
     player.addItemCooldown(weapon.itemId, 20 / setCOOLDOWNS);
     projectile.spawn();
@@ -134,9 +132,9 @@ enderiteWeapons.forEach(weapon => {
 
 // ==================== 深渊宝珠系列（3个护手）====================
 const gauntletWeapons = [
-  { itemId: 'cataclysm:gauntlet_of_guard', dmgAttr: 'minecraft:generic.max_health', addAttr: 'minecraft:generic.armor_toughness', dmgBase: 4, dmgMult1: 0.4, dmgMult2: 0.2 },
-  { itemId: 'cataclysm:gauntlet_of_maelstrom', dmgAttr: 'minecraft:generic.attack_damage', addAttr: 'minecraft:generic.armor_toughness', dmgBase: 4, dmgMult1: 0.4, dmgMult2: 0.4 },
-  { itemId: 'cataclysm:gauntlet_of_bulwark', dmgAttr: 'minecraft:generic.attack_damage', addAttr: 'minecraft:generic.armor', dmgBase: 4, dmgMult1: 0.4, dmgMult2: 0.4 }
+  { itemId: 'cataclysm:gauntlet_of_guard', dmgAttr: 'minecraft:generic.max_health', addAttr: 'minecraft:generic.armor_toughness', dmgBase: 8, dmgMult1: 0.4, dmgMult2: 0.2 },
+  { itemId: 'cataclysm:gauntlet_of_maelstrom', dmgAttr: 'minecraft:generic.attack_damage', addAttr: 'minecraft:generic.armor_toughness', dmgBase: 8, dmgMult1: 0.4, dmgMult2: 0.4 },
+  { itemId: 'cataclysm:gauntlet_of_bulwark', dmgAttr: 'minecraft:generic.attack_damage', addAttr: 'minecraft:generic.armor', dmgBase: 8, dmgMult1: 0.4, dmgMult2: 0.4 }
 ];
 
 gauntletWeapons.forEach(weapon => {
@@ -216,7 +214,7 @@ ItemEvents.firstLeftClicked('cataclysm:astrape', event => {
   const damage = player.getAttributeTotalValue('minecraft:generic.attack_damage');
   const adddamage = player.getAttributeTotalValue('minecraft:generic.armor');
   const setCOOLDOWNS = player.getAttributeTotalValue('minecraft:generic.attack_speed');
-  projectile.setDamage(10.5+0.4 * damage + 0.4 * adddamage);
+  projectile.setDamage(20 + 0.4 * damage + 0.4 * adddamage);
 
   player.addItemCooldown('cataclysm:astrape', 20 / setCOOLDOWNS);
   projectile.spawn();
@@ -246,7 +244,7 @@ ItemEvents.firstLeftClicked('cataclysm:soul_render', event => {
   const damage = player.getAttributeTotalValue('minecraft:generic.attack_damage');
   const adddamage = player.getAttributeTotalValue('minecraft:generic.armor_toughness');
   const setCOOLDOWNS = player.getAttributeTotalValue('minecraft:generic.attack_speed');
-  projectile.setDamage(15+0.4 * damage + 0.4 * adddamage);
+  projectile.setDamage(20 + 0.4 * damage + 0.4 * adddamage);
 
   player.addItemCooldown('cataclysm:soul_render', 20 / setCOOLDOWNS);
   projectile.spawn();
@@ -273,7 +271,7 @@ ItemEvents.firstRightClicked('cataclysm:the_incinerator', event => {
   const damage = player.getAttributeTotalValue('minecraft:generic.attack_damage');
   const adddamage = player.getAttributeTotalValue('minecraft:generic.armor');
   const setCOOLDOWNS = player.getAttributeTotalValue('minecraft:generic.attack_speed');
-  projectile.setDamage(0.1 * damage + 0.1 * adddamage);
+  projectile.setDamage(8+0.1 * damage + 0.1 * adddamage);
 
   player.potionEffects.add('kubejs:cooldown', 1200 / setCOOLDOWNS);
   projectile.spawn();
@@ -300,7 +298,7 @@ ItemEvents.rightClicked('cataclysm:ancient_spear', event => {
   const damage = player.getAttributeTotalValue('minecraft:generic.attack_damage');
   const adddamage = player.getAttributeTotalValue('minecraft:generic.armor_toughness');
   const setCOOLDOWNS = player.getAttributeTotalValue('minecraft:generic.attack_speed');
-  projectile.setDamage(8+0.4 * damage + 0.8 * adddamage);
+  projectile.setDamage(12 + 0.4 * damage + 0.8 * adddamage);
 
   player.addItemCooldown('cataclysm:ancient_spear', 10+ 10 / setCOOLDOWNS);
   projectile.spawn();
@@ -327,7 +325,7 @@ ItemEvents.firstLeftClicked('meetyourfight:twilights_thorn', event => {
   const damage = player.getAttributeTotalValue('minecraft:generic.attack_damage');
   const adddamage = player.getAttributeTotalValue('minecraft:generic.luck');
   const setCOOLDOWNS = player.getAttributeTotalValue('minecraft:generic.attack_speed');
-  projectile.setDamage(4+0.4 * damage + 2 * adddamage);
+  projectile.setDamage(8+0.4 * damage + 2 * adddamage);
 
   player.addItemCooldown('meetyourfight:twilights_thorn', 20 / setCOOLDOWNS);
   projectile.spawn();

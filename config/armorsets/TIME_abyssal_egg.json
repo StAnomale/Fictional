@@ -24,7 +24,7 @@
     },
     {
       "type": "attribute",
-      "name": "goety:storm_potency",
+      "name": "goety:abyss_potency",
       "value": 1.0,
       "modifierUUID": "4dbb20b5-d56e-48b1-b931-a9ce2a4535b8",
       "attributeOperation": 0,

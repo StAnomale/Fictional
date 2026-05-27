@@ -242,7 +242,7 @@
 			enderKeeperHurtRange = 12.0
 			#How much Max Health Ender Keeper have, Default: 320.0
 			#Range: 100.0 ~ 1.7976931348623157E308
-			enderKeeperHealth = 5400.0
+			enderKeeperHealth = 6000.0
 
 		[Attributes.Bosses.Apostle]
 			#Set Apostle's spell damage (ie, Fire Tornadoes, Fire Blasts, Roars), Default: 6.0

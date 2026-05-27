@@ -1,9 +1,0 @@
-{
-  "id" : "57822d93efb5479ea300aa5393f5af58",
-  "name" : "Zershyan",
-  "properties" : [ {
-    "name" : "textures",
-    "value" : "ewogICJ0aW1lc3RhbXAiIDogMTc3OTM1ODI3MzA2OCwKICAicHJvZmlsZUlkIiA6ICI1NzgyMmQ5M2VmYjU0NzllYTMwMGFhNTM5M2Y1YWY1OCIsCiAgInByb2ZpbGVOYW1lIiA6ICJaZXJzaHlhbiIsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82ZmQ4MDM1OTc3ZTllMGI5MmJlMzc4OWEyNGFlYTZhM2Y4ZTY0Nzg3ZWFhNWQzZGMyYzgwODAxMTYzNzMwNjEwIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0="
-  } ],
-  "profileActions" : [ ]
-}

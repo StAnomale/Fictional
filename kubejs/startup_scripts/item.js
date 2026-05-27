@@ -39,11 +39,12 @@ BlockEvents.modification(event => {
 }); 
 
 ItemEvents.modification(event => {
-    //防护口罩（Tick逻辑移至server_scripts）
-    event.modify('radiation_zone_reborn:golden_filter_mask_helmet', item => {
-      item.rarity = 'UNCOMMON'
-      item.fireResistant = true
-    })
+    // //防护口罩（Tick逻辑移至server_scripts）
+    // event.modify('radiation_zone_reborn:golden_filter_mask_helmet', item => {
+    //   item.rarity = 'UNCOMMON'
+    //   item.fireResistant = true
+    // })
+
     //龙鳞
     event.modify('quark:dragon_scale', item => {
       item.rarity = 'EPIC'
@@ -332,6 +333,18 @@ ItemEvents.modification(event => {
       item.rarity = 'EPIC'
     })
 
+    //大气符文
+    event.modify('legendary_monsters:air_rune', item => {
+      item.rarity = 'EPIC'
+    })
+
+    event.modify('legendary_monsters:mossy_chestplate', item => {
+      item.rarity = 'UNCOMMON'
+      item.maxDamage = 1200
+      item.armorProtection = 8.0
+      item.armorToughness = 3.0
+    })
+
 
     //骨粉燃烧
     event.modify('minecraft:bone_meal', item => {
@@ -545,36 +558,36 @@ ItemEvents.modification(event => {
       item.rarity = 'EPIC'
       item.fireResistant = true
       item.armorProtection = 5.0
-      item.armorToughness = 5.0
+      item.armorToughness = 4.5
     })
     event.modify('radiation_zone_reborn:tyrant_skin_armor_chestplate', item => {
       item.maxDamage = 3000
       item.rarity = 'EPIC'
       item.fireResistant = true
       item.armorProtection = 10.0
-      item.armorToughness = 5.0
+      item.armorToughness = 4.5
     })
     event.modify('radiation_zone_reborn:tyrant_skin_armor_leggings', item => {
       item.maxDamage = 3000
       item.rarity = 'EPIC'
       item.fireResistant = true
       item.armorProtection = 9.0
-      item.armorToughness = 5.0
+      item.armorToughness = 4.5
     })
     event.modify('radiation_zone_reborn:tyrant_skin_armor_boots', item => {
       item.maxDamage = 3000
       item.rarity = 'EPIC'
       item.fireResistant = true
       item.armorProtection = 4.0
-      item.armorToughness = 5.0
+      item.armorToughness = 4.5
     })
     //沙尘胸甲
     event.modify('radiation_zone_reborn:dustorm_chestplate_chestplate', item => {
       item.maxDamage = 3000
       item.rarity = 'EPIC'
       item.fireResistant = true
-      item.armorProtection = 13.0
-      item.armorToughness = 4.5
+      item.armorProtection = 11.0
+      item.armorToughness = 4
     })
 
     //沙尘锤
@@ -1064,10 +1077,10 @@ ItemEvents.modification(event => {
 
     //花岩肩甲
     event.modify('cataclysm:bloom_stone_pauldrons', item => {
-      item.armorProtection = 9.0
-      item.armorToughness = 3.0
+      item.armorProtection = 10.0
+      item.armorToughness = 4.0
       item.rarity = 'UNCOMMON'
-      item.maxDamage = 960
+      item.maxDamage = 2000
       item.fireResistant = true
     })
 
@@ -1176,15 +1189,19 @@ ItemEvents.modification(event => {
     //皇家装备
     event.modify('royalvariations:royal_knight_helmet', item => {
       item.maxDamage = 814
+      item.armorToughness = 2.0
     })
     event.modify('royalvariations:royal_knight_cuirass', item => {
       item.maxDamage = 1184
+      item.armorToughness = 2.0
     })
     event.modify('royalvariations:royal_knight_leggings', item => {
       item.maxDamage = 1110
+      item.armorToughness = 2.0
     })
     event.modify('royalvariations:royal_knight_boots', item => {
       item.maxDamage = 962
+      item.armorToughness = 2.0
     })
 
     //海皇装备

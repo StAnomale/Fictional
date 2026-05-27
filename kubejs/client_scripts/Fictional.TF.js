@@ -153,6 +153,8 @@ e.add([
 	Text.translate('Fictional.TF.diamond4'),
 	Text.translate('Fictional.TF.diamond5'),
 	Text.translate('OEA.air'),
+	Text.translate('Fictional.TF.diamond6'),
+	Text.translate('OEA.air'),
 	])
 
 //海洋之心

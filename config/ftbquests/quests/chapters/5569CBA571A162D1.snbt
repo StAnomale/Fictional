@@ -13269,6 +13269,7 @@
 			disable_toast: true
 			id: "26ACD03FAFDDCDBB"
 			shape: "square"
+			subtitle: "能够提供护身符栏位"
 			tasks: [{
 				disable_toast: true
 				id: "4DEE8D45BFA701AC"
@@ -14004,20 +14005,6 @@
 		{
 			description: [""]
 			disable_toast: true
-			id: "45AE0AEA7097AEEE"
-			shape: "square"
-			tasks: [{
-				disable_toast: true
-				id: "6D553800F7E91FF9"
-				item: "kubejs:luckitten_pendant"
-				type: "item"
-			}]
-			x: -8.5d
-			y: 17.5d
-		}
-		{
-			description: [""]
-			disable_toast: true
 			id: "7E21B7E643AA3C5F"
 			shape: "square"
 			tasks: [
@@ -14118,6 +14105,148 @@
 			}]
 			x: -7.5d
 			y: 27.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "3803833906F34A7D"
+			shape: "square"
+			tasks: [{
+				disable_toast: true
+				id: "1A6CA1806CD33385"
+				item: "goety:alarming_charm"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 17.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "03E9534645D6D9FB"
+			shape: "square"
+			tasks: [{
+				disable_toast: true
+				id: "06A5D4DE01020438"
+				item: "kubejs:gold_heart"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 9.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "2A3F0F00B76F5DF5"
+			shape: "square"
+			tasks: [{
+				disable_toast: true
+				id: "6007B4F2242FFC6C"
+				item: "kubejs:corrupting_heart"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 9.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "7D3226280EF724D9"
+			shape: "square"
+			tasks: [{
+				disable_toast: true
+				id: "2DA0CE5B9BD3EB3D"
+				item: "kubejs:taodix"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 27.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "3846FA44983B3242"
+			shape: "square"
+			tasks: [{
+				disable_toast: true
+				id: "1551229B60F7E330"
+				item: {
+					Count: 1
+					id: "cataclysm:bloom_stone_pauldrons"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -32.5d
+			y: 14.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "40549CC8D7E891F8"
+			shape: "square"
+			tasks: [
+				{
+					disable_toast: true
+					id: "1A55B154E14B5F4A"
+					item: {
+						Count: 1
+						id: "eeeabsmobs:ghost_warrior_helmet"
+						tag: {
+							CodeAddFlag: 1b
+							Damage: 0
+							Unbreakable: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "2FE156D66C218512"
+					item: {
+						Count: 1
+						id: "eeeabsmobs:ghost_warrior_chestplate"
+						tag: {
+							CodeAddFlag: 1b
+							Damage: 0
+							Unbreakable: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "4DBD188A2C46425C"
+					item: {
+						Count: 1
+						id: "eeeabsmobs:ghost_warrior_leggings"
+						tag: {
+							CodeAddFlag: 1b
+							Damage: 0
+							Unbreakable: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "1E1EBA33E85E856C"
+					item: {
+						Count: 1
+						id: "eeeabsmobs:ghost_warrior_boots"
+						tag: {
+							CodeAddFlag: 1b
+							Damage: 0
+							Unbreakable: 1b
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -31.5d
+			y: 14.5d
 		}
 	]
 	title: "沐沐的知识书"

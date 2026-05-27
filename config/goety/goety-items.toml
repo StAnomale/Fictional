@@ -7,7 +7,7 @@
 		cursedPaladinEnchantability = 20
 		#Define the toughness for each armor piece, Default: 1.0
 		#Range: 0.0 ~ 1.7976931348623157E308
-		cursedPaladinToughness = 3.0
+		cursedPaladinToughness = 2.0
 		#Whether armor pieces don't break but no longer provide armor, Default: true
 		cursedPaladinPersist = true
 		#Define the Durability Multiplier for the armor, higher number the better, Default: 30
@@ -39,7 +39,7 @@
 		darkHelmetBlindness = true
 		#Define the toughness for each armor piece, Default: 2.0
 		#Range: 0.0 ~ 1.7976931348623157E308
-		darkArmorToughness = 4.0
+		darkArmorToughness = 3.5
 		#Define how much knockback resistance each armor piece provides, Default: 0.3
 		#Range: 0.0 ~ 1.7976931348623157E308
 		darkArmorKnockResist = 0.3
@@ -114,16 +114,16 @@
 		[Armor."Black Iron Armor"."Armor Points"]
 			#Define how much armor points wearing the Leggings provides, Default: 5
 			#Range: > 1
-			blackIronLegs = 6
+			blackIronLegs = 5.5
 			#Define how much armor points wearing the Boots provides, Default: 2
 			#Range: > 1
-			blackIronFeet = 3
+			blackIronFeet = 2.5
 			#Define how much armor points wearing the Chestplate provides, Default: 6
 			#Range: > 1
-			blackIronChest = 8
+			blackIronChest = 7.5
 			#Define how much armor points wearing the Helmet provides, Default: 2
 			#Range: > 1
-			blackIronHead = 3
+			blackIronHead = 2.5
 
 [Curios]
 	#The total amount of Rotten Flesh a Pendant of Hunger can hold, Default: 1024

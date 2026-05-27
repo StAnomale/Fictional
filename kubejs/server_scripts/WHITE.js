@@ -3,71 +3,6 @@
 // Visit the wiki for more info - https://kubejs.com/
 // priority: 500
 
-// ==================== 通用弹射物发射函数 ====================
-/**
- * 发射弹射物的通用函数
- * @param {Object} event - 事件对象
- * @param {string} itemId - 物品ID（用于冷却检测）
- * @param {string} projectileType - 弹射物实体类型
- * @param {Object} options - 配置选项
- */
-function shootProjectile(event, itemId, projectileType, options) {
-  options = options || {};
-  const player = event.player;
-  const level = event.level;
-  if (!player || !level) return;
-  
-  // 检查冷却
-  if (player.cooldowns.isOnCooldown(itemId)) return;
-  
-  // 获取视角向量并标准化
-  const viewVector = player.getViewVector(1.0);
-  const length = Math.sqrt(viewVector.x() * viewVector.x() + viewVector.y() * viewVector.y() + viewVector.z() * viewVector.z());
-  const normalizedVector = {
-    x: viewVector.x() / length,
-    y: viewVector.y() / length,
-    z: viewVector.z() / length
-  };
-  
-  // 创建弹射物
-  const projectile = level.createEntity(projectileType);
-  
-  // 设置发射位置
-  const offset = options.offset || 1.5;
-  const spawnY = options.spawnY || 1.5;
-  const spawnX = player.x + normalizedVector.x * offset;
-  const spawnZ = player.z + normalizedVector.z * offset;
-  projectile.setPosition(spawnX, player.y + spawnY + normalizedVector.y * offset, spawnZ);
-  
-  // 设置速度
-  const velocity = options.velocity || 2.0;
-  projectile.setMotion(normalizedVector.x * velocity, normalizedVector.y * velocity, normalizedVector.z * velocity);
-  
-  // 设置方向
-  //if (options.setYRot !== false) {
-  //  projectile.yRot = player.yRot;
-  //}
-  
-  // 设置NBT数据
-  if (options.nbt) {
-    projectile.mergeNbt(options.nbt);
-  }
-  
-  // 设置拥有者
-  projectile.setOwner(player);
-  
-  // 设置冷却
-  if (options.cooldown) {
-    const cooldownTicks = typeof options.cooldown === 'function' ? options.cooldown(player) : options.cooldown;
-    player.addItemCooldown(itemId, cooldownTicks);
-  }
-  
-  // 生成弹射物
-  projectile.spawn();
-  
-  return projectile;
-}
-
 // ==================== 物品事件 ====================
 
 ItemEvents.firstLeftClicked('minecraft:bundle', event => { //收纳袋（垃圾桶升级！）
@@ -245,7 +180,7 @@ ItemEvents.rightClicked('radiation_zone_reborn:radiated_bone', event => { //污�
   const projectile2 = level.createEntity("radiation_zone_reborn:vesicabug_leader_bullet"); // 发射物
   projectile2.setPosition(spawnX, spawnY, spawnZ); //设定发射坐标
   const adddamage=player.getAttributeTotalValue("minecraft:generic.armor_toughness")
-  projectile2.mergeNbt({ pickup: 4, damage: 2+0.1*adddamage, PierceLevel: 8 })// 设定弹射物NBT数据
+  projectile2.mergeNbt({ pickup: 4, damage: 4+0.1*adddamage, PierceLevel: 8 })// 设定弹射物NBT数据
   projectile2.setMotion(normalizedVector.x * velocity, normalizedVector.y * velocity, normalizedVector.z * velocity); // 设定弹射物方向
   projectile2.setOwner(player) // 设定弹射物发射者
   projectile2.spawn();}
@@ -280,7 +215,7 @@ ItemEvents.rightClicked('radiation_zone_reborn:radiated_bone', event => { //污�
   const projectile2 = level.createEntity("radiation_zone_reborn:vesicabug_leader_bullet"); // 发射物
   projectile2.setPosition(spawnX, spawnY, spawnZ); //设定发射坐标
   const adddamage=player.getAttributeTotalValue("minecraft:generic.armor_toughness")
-  projectile2.mergeNbt({ pickup: 4, damage: 2+0.1*adddamage, PierceLevel: 8 })// 设定弹射物NBT数据
+  projectile2.mergeNbt({ pickup: 4, damage: 4+0.1*adddamage, PierceLevel: 8 })// 设定弹射物NBT数据
   projectile2.setMotion(normalizedVector.x * velocity, normalizedVector.y * velocity, normalizedVector.z * velocity); // 设定弹射物方向
   projectile2.setOwner(player) // 设定弹射物发射者
   projectile2.spawn();}
@@ -319,7 +254,7 @@ ItemEvents.rightClicked('cataclysm:koboleton_bone', event => { //骸龙之骨
   const projectile2 = level.createEntity("radiation_zone_reborn:sand_ball"); // 发射物
   projectile2.setPosition(spawnX, spawnY, spawnZ); //设定发射坐标
   const adddamage=player.getAttributeTotalValue("minecraft:generic.armor_toughness")
-  projectile2.mergeNbt({ pickup: 4, damage: 2+0.2*adddamage, PierceLevel: 8 })// 设定弹射物NBT数据
+  projectile2.mergeNbt({ pickup: 4, damage: 4+0.2*adddamage, PierceLevel: 8 })// 设定弹射物NBT数据
   projectile2.setMotion(normalizedVector.x * velocity, normalizedVector.y * velocity, normalizedVector.z * velocity); // 设定弹射物方向
   projectile2.setOwner(player) // 设定弹射物发射者
   projectile2.spawn();}
@@ -354,7 +289,7 @@ ItemEvents.rightClicked('cataclysm:koboleton_bone', event => { //骸龙之骨
   const projectile2 = level.createEntity("radiation_zone_reborn:sand_ball"); // 发射物
   projectile2.setPosition(spawnX, spawnY, spawnZ); //设定发射坐标
   const adddamage=player.getAttributeTotalValue("minecraft:generic.armor_toughness")
-  projectile2.mergeNbt({ pickup: 4, damage: 2+0.2*adddamage, PierceLevel: 8 })// 设定弹射物NBT数据
+  projectile2.mergeNbt({ pickup: 4, damage: 4+0.2*adddamage, PierceLevel: 8 })// 设定弹射物NBT数据
   projectile2.setMotion(normalizedVector.x * velocity, normalizedVector.y * velocity, normalizedVector.z * velocity); // 设定弹射物方向
   projectile2.setOwner(player) // 设定弹射物发射者
   projectile2.spawn();}
@@ -446,7 +381,7 @@ ItemEvents.rightClicked('mutantmore:adaptive_crossbow', event => { //适应性�
   const velocity = 4.0; // 设定速度基数
   const damage=player.getAttributeTotalValue("minecraft:generic.armor_toughness")
   const adddamage=player.getAttributeTotalValue("obscure_api:magic_damage")
-  projectile.mergeNbt({ pickup: 4, damage: 4+0.2*damage+0.75*adddamage, PierceLevel: 8 })// 设定弹射物NBT数据
+  projectile.mergeNbt({ pickup: 4, damage: 8+0.2*damage+0.75*adddamage, PierceLevel: 8 })// 设定弹射物NBT数据
   projectile.setMotion(normalizedVector.x * velocity, normalizedVector.y * velocity, normalizedVector.z * velocity); // 设定弹射物方向
   projectile.setOwner(player) // 设定弹射物发射者
   const setCOOLDOWNS=player.getAttributeTotalValue("minecraft:generic.movement_speed")
@@ -470,7 +405,7 @@ ItemEvents.firstLeftClicked('bosses_of_mass_destruction:earthdive_spear', event 
   const velocity = 4.0; // 设定速度基数
   const damage=player.getAttributeTotalValue("minecraft:generic.attack_damage")
   const adddamage=player.getAttributeTotalValue("obscure_api:magic_damage")
-  projectile.mergeNbt({ pickup: 4, damage: 4+0.2*damage+0.75*adddamage, PierceLevel: 8 })// 设定弹射物NBT数据
+  projectile.mergeNbt({ pickup: 4, damage: 8+0.2*damage+0.75*adddamage, PierceLevel: 8 })// 设定弹射物NBT数据
   projectile.setMotion(normalizedVector.x * velocity, normalizedVector.y * velocity, normalizedVector.z * velocity); // 设定弹射物方向
   projectile.setOwner(player) // 设定弹射物发射者
   const setCOOLDOWNS=player.getAttributeTotalValue("minecraft:generic.movement_speed")
@@ -486,7 +421,7 @@ ItemEvents.firstLeftClicked('mutantmonsters:hulk_hammer', event => {
   
   shootProjectile(event, 'mutantmonsters:hulk_hammer', 'radiation_zone_reborn:sand_ball', {
     velocity: 4.0,
-    nbt: { pickup: 1, damage: 2 + 0.1 * damage + 0.05 * adddamage, PierceLevel: 2 },
+    nbt: { pickup: 1, damage: 4 + 0.1 * damage + 0.05 * adddamage, PierceLevel: 2 },
     cooldown: (p) => 20 / p.getAttributeTotalValue("minecraft:generic.attack_speed")
   });
 });
@@ -500,7 +435,7 @@ ItemEvents.firstLeftClicked('mutantmore:husk_hammer', event => {
   shootProjectile(event, 'mutantmore:husk_hammer', 'radiation_zone_reborn:player_sand_bomb', {
     spawnY: 1.1,
     velocity: 2.0,
-    nbt: { pickup: 1, damage: 4 + 0.2 * damage + 0.1 * adddamage, PierceLevel: 2 },
+    nbt: { pickup: 1, damage: 6 + 0.2 * damage + 0.1 * adddamage, PierceLevel: 2 },
     cooldown: (p) => 20 / p.getAttributeTotalValue("minecraft:generic.attack_speed")
   });
 });
@@ -512,7 +447,7 @@ ItemEvents.firstLeftClicked('radiation_zone_reborn:dustorm_greatsword', event =>
   const adddamage = player.getAttributeTotalValue("obscure_api:magic_damage");
   
   shootProjectile(event, 'radiation_zone_reborn:dustorm_greatsword', 'radiation_zone_reborn:sand_ball', {
-    nbt: { pickup: 2, damage: 1 + 0.2 * damage + 0.4 * adddamage, PierceLevel: 2 },
+    nbt: { pickup: 2, damage: 3 + 0.2 * damage + 0.4 * adddamage, PierceLevel: 2 },
     cooldown: (p) => 20 / p.getAttributeTotalValue("minecraft:generic.attack_speed")
   });
 });
@@ -524,7 +459,7 @@ ItemEvents.firstLeftClicked('radiation_zone_reborn:dustorm_sword', event => {
   const adddamage = player.getAttributeTotalValue("obscure_api:magic_damage");
   
   shootProjectile(event, 'radiation_zone_reborn:dustorm_sword', 'radiation_zone_reborn:sand_ball', {
-    nbt: { pickup: 2, damage: 1 + 0.2 * damage + 0.4 * adddamage, PierceLevel: 2 },
+    nbt: { pickup: 2, damage: 2 + 0.2 * damage + 0.4 * adddamage, PierceLevel: 2 },
     cooldown: (p) => 20 / p.getAttributeTotalValue("minecraft:generic.attack_speed")
   });
 });
@@ -536,7 +471,7 @@ ItemEvents.firstLeftClicked('radiation_zone_reborn:dustorm_hammer', event => {
   const adddamage = player.getAttributeTotalValue("obscure_api:magic_damage");
   
   shootProjectile(event, 'radiation_zone_reborn:dustorm_hammer', 'radiation_zone_reborn:sand_ball', {
-    nbt: { pickup: 2, damage: 1 + 0.2 * damage + 0.4 * adddamage, PierceLevel: 2 },
+    nbt: { pickup: 2, damage: 3 + 0.2 * damage + 0.4 * adddamage, PierceLevel: 2 },
     cooldown: (p) => 20 / p.getAttributeTotalValue("minecraft:generic.attack_speed")
   });
 });
@@ -549,7 +484,7 @@ ItemEvents.rightClicked('mutantmore:desert_horn', event => {
   const adddamage = player.getAttributeTotalValue("obscure_api:magic_damage");
   
   shootProjectile(event, 'mutantmore:desert_horn', 'radiation_zone_reborn:sand_ball', {
-    nbt: { pickup: 4, damage: 1 + 0.1 * damage + 0.5 * adddamage, PierceLevel: 2 },
+    nbt: { pickup: 4, damage: 2 + 0.1 * damage + 0.5 * adddamage, PierceLevel: 2 },
     cooldown: (p) => 30 
   });
 });
@@ -571,7 +506,7 @@ giantrockWeapons.forEach(weaponId => {
     const adddamage = player.getAttributeTotalValue("obscure_api:magic_damage");
     
     shootProjectile(event, weaponId, 'radiation_zone_reborn:sand_ball', {
-      nbt: { pickup: 2, damage: 1 + 0.2 * damage + 0.4 * adddamage, PierceLevel: 2 },
+      nbt: { pickup: 2, damage: 2 + 0.2 * damage + 0.4 * adddamage, PierceLevel: 2 },
       cooldown: (p) => 20 / p.getAttributeTotalValue("minecraft:generic.attack_speed")
     });
   });
@@ -584,7 +519,7 @@ ItemEvents.firstLeftClicked('radiation_zone_reborn:giantrock_hoe', event => {
   const adddamage = player.getAttributeTotalValue("obscure_api:magic_damage");
   
   shootProjectile(event, 'radiation_zone_reborn:giantrock_hoe', 'radiation_zone_reborn:sand_ball', {
-    nbt: { pickup: 2, damage: 1 + 0.2 * damage + 0.4 * adddamage, PierceLevel: 2 },
+    nbt: { pickup: 2, damage: 2 + 0.2 * damage + 0.4 * adddamage, PierceLevel: 2 },
     cooldown: (p) => 40 / p.getAttributeTotalValue("minecraft:generic.attack_speed")
   });
 });
@@ -607,7 +542,7 @@ sedisilverWeapons.forEach(weaponId => {
     const adddamage = player.getAttributeTotalValue("obscure_api:magic_damage");
     
     shootProjectile(event, weaponId, 'radiation_zone_reborn:sand_ball', {
-      nbt: { pickup: 2, damage: 1 + 0.2 * damage + 0.4 * adddamage, PierceLevel: 2 },
+      nbt: { pickup: 2, damage: 2 + 0.2 * damage + 0.4 * adddamage, PierceLevel: 2 },
       cooldown: (p) => 20 / p.getAttributeTotalValue("minecraft:generic.attack_speed")
     });
   });
@@ -620,7 +555,7 @@ ItemEvents.firstLeftClicked('radiation_zone_reborn:sedisilver_hoe', event => {
   const adddamage = player.getAttributeTotalValue("obscure_api:magic_damage");
   
   shootProjectile(event, 'radiation_zone_reborn:sedisilver_hoe', 'radiation_zone_reborn:sand_ball', {
-    nbt: { pickup: 2, damage: 1 + 0.2 * damage + 0.4 * adddamage, PierceLevel: 2 },
+    nbt: { pickup: 2, damage: 2 + 0.2 * damage + 0.4 * adddamage, PierceLevel: 2 },
     cooldown: (p) => 40 / p.getAttributeTotalValue("minecraft:generic.attack_speed")
   });
 });

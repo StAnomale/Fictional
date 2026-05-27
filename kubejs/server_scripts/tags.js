@@ -68,6 +68,13 @@ ServerEvents.tags("item", event => {
 
     //event.add("minecraft:arrows", "minecraft:anvil")//铁砧
 
+    event.add('curios:talisman', 'artifacts:cloud_in_a_bottle')//云朵瓶
+    event.add('curios:talisman', 'artifacts:charm_of_sinking')//下沉护符
+    event.add('curios:talisman', 'artifacts:helium_flamingo')//氦气火烈鸟
+    event.add('curios:talisman', 'artifacts:chorus_totem')//紫颂图腾
+
+    event.add("curios:charm", 'legendary_monsters:air_rune')//大气符文
+    event.add("curios:charm", 'legendary_monsters:nature_crystal')//自然水晶
 
     event.add("curios:charm", 'goetyawaken:taboo_fragment')//禁咒碎片
     event.add("curios:charm", 'goetyawaken:soul_sapphire')//灵魂蓝宝石
@@ -268,6 +275,102 @@ ServerEvents.tags("item", event => {
 
     event.add("forge:armors", 'better_minoshroomtaur:maze_diamond_armor_helmet')//迷宫钻石防具
     event.add("forge:armors", 'better_minoshroomtaur:maze_diamond_armor_boots')
+
+    event.add('minecraft:trimmable_armor', 'cataclysm:ignitium_helmet')//锻造饰纹
+    event.add('minecraft:trimmable_armor', 'cataclysm:ignitium_chestplate')
+    event.add('minecraft:trimmable_armor', 'cataclysm:ignitium_elytra_chestplate')
+    event.add('minecraft:trimmable_armor', 'cataclysm:ignitium_leggings')
+    event.add('minecraft:trimmable_armor', 'cataclysm:ignitium_boots')
+
+    event.add('minecraft:trimmable_armor', 'the_bumblezone:stingless_bee_helmet_1')
+    event.add('minecraft:trimmable_armor', 'the_bumblezone:stingless_bee_helmet_2')
+    event.add('minecraft:trimmable_armor', 'the_bumblezone:bumble_bee_chestplate_1')
+    event.add('minecraft:trimmable_armor', 'the_bumblezone:bumble_bee_chestplate_2')
+    event.add('minecraft:trimmable_armor', 'the_bumblezone:honey_bee_leggings_1')
+    event.add('minecraft:trimmable_armor', 'the_bumblezone:honey_bee_leggings_2')
+    event.add('minecraft:trimmable_armor', 'the_bumblezone:carpenter_bee_boots_1')
+    event.add('minecraft:trimmable_armor', 'the_bumblezone:carpenter_bee_boots_2')
+
+    event.add('minecraft:trimmable_armor', 'mutantmonsters:mutant_skeleton_chestplate')
+    event.add('minecraft:trimmable_armor', 'mutantmonsters:mutant_skeleton_leggings')
+    event.add('minecraft:trimmable_armor', 'mutantmonsters:mutant_skeleton_boots')
+
+    event.add('minecraft:trimmable_armor', 'mutantmore:mutant_wither_skeleton_skull')
+    event.add('minecraft:trimmable_armor', 'mutantmore:mutant_wither_skeleton_chestplate')
+    event.add('minecraft:trimmable_armor', 'mutantmore:mutant_wither_skeleton_leggings')
+    event.add('minecraft:trimmable_armor', 'mutantmore:mutant_wither_skeleton_boots')
+
+    event.add('minecraft:trimmable_armor', 'royalvariations:royal_knight_helmet')
+    event.add('minecraft:trimmable_armor', 'royalvariations:royal_knight_chestplate')
+    event.add('minecraft:trimmable_armor', 'royalvariations:royal_knight_leggings')
+    event.add('minecraft:trimmable_armor', 'royalvariations:royal_knight_boots')
+
+    event.add('minecraft:trimmable_armor', 'aether:valkyrie_helmet')
+    event.add('minecraft:trimmable_armor', 'aether:valkyrie_chestplate')
+    event.add('minecraft:trimmable_armor', 'aether:valkyrie_leggings')
+    event.add('minecraft:trimmable_armor', 'aether:valkyrie_boots')
+
+    event.add('minecraft:trimmable_armor', 'goety:cursed_knight_helmet')
+    event.add('minecraft:trimmable_armor', 'goety:cursed_knight_chestplate')
+    event.add('minecraft:trimmable_armor', 'goety:cursed_knight_leggings')
+    event.add('minecraft:trimmable_armor', 'goety:cursed_knight_boots')
+
+    event.add('minecraft:trimmable_armor', 'goety:cursed_paladin_helmet')
+    event.add('minecraft:trimmable_armor', 'goety:cursed_paladin_chestplate')
+    event.add('minecraft:trimmable_armor', 'goety:cursed_paladin_leggings')
+    event.add('minecraft:trimmable_armor', 'goety:cursed_paladin_boots')
+
+    event.add('minecraft:trimmable_armor', 'goety:black_iron_helmet')
+    event.add('minecraft:trimmable_armor', 'goety:black_iron_chestplate')
+    event.add('minecraft:trimmable_armor', 'goety:black_iron_leggings')
+    event.add('minecraft:trimmable_armor', 'goety:black_iron_boots')
+
+    event.add('minecraft:trimmable_armor', 'goety:dark_helmet')
+    event.add('minecraft:trimmable_armor', 'goety:dark_chestplate')
+    event.add('minecraft:trimmable_armor', 'goety:dark_leggings')
+    event.add('minecraft:trimmable_armor', 'goety:dark_boots')
+
+    event.add('minecraft:trimmable_armor', 'goetyawaken:champion_helmet')
+    event.add('minecraft:trimmable_armor', 'goetyawaken:champion_chestplate')
+    event.add('minecraft:trimmable_armor', 'goetyawaken:champion_leggings')
+    event.add('minecraft:trimmable_armor', 'goetyawaken:champion_boots')
+    event.add('minecraft:trimmable_armor', 'goetyawaken:mushroom_hat')
+
+    event.add('minecraft:trimmable_armor', 'radiation_zone_reborn:dustorm_chestplate_chestplate')
+    event.add('minecraft:trimmable_armor', 'radiation_zone_reborn:giantrock_protective_helmet')
+    event.add('minecraft:trimmable_armor', 'radiation_zone_reborn:giantrock_armor_helmet')
+    event.add('minecraft:trimmable_armor', 'radiation_zone_reborn:giantrock_armor_chestplate')
+    event.add('minecraft:trimmable_armor', 'radiation_zone_reborn:giantrock_armor_leggings')
+    event.add('minecraft:trimmable_armor', 'radiation_zone_reborn:giantrock_armor_boots')
+    event.add('minecraft:trimmable_armor', 'radiation_zone_reborn:tyrant_skin_armor_helmet')
+    event.add('minecraft:trimmable_armor', 'radiation_zone_reborn:tyrant_skin_armor_chestplate')
+    event.add('minecraft:trimmable_armor', 'radiation_zone_reborn:tyrant_skin_armor_leggings')
+    event.add('minecraft:trimmable_armor', 'radiation_zone_reborn:tyrant_skin_armor_boots')
+    event.add('minecraft:trimmable_armor', 'aethermobs:shaday_helmet')
+    event.add('minecraft:trimmable_armor', 'aethermobs:shaday_chestplate')
+    event.add('minecraft:trimmable_armor', 'aethermobs:shaday_leggings')
+    event.add('minecraft:trimmable_armor', 'cataclysm:monstrous_helm')
+    event.add('minecraft:trimmable_armor', 'twilightforest:yeti_helmet')
+    event.add('minecraft:trimmable_armor', 'better_minoshroomtaur:maze_diamond_armor_helmet')
+    event.add('minecraft:trimmable_armor', 'better_minoshroomtaur:maze_diamond_armor_boots')
+    event.add('minecraft:trimmable_armor', 'mutantmore:hog_helm')
+
+    event.add('minecraft:trimmable_armor', 'cataclysm:bone_reptile_helmet')
+    event.add('minecraft:trimmable_armor', 'cataclysm:bone_reptile_chestplate')
+    event.add('minecraft:trimmable_armor', 'cataclysm:ignitium_helmet')
+    event.add('minecraft:trimmable_armor', 'cataclysm:ignitium_chestplate')
+    event.add('minecraft:trimmable_armor', 'cataclysm:ignitium_leggings')
+    event.add('minecraft:trimmable_armor', 'cataclysm:ignitium_boots')
+    event.add('minecraft:trimmable_armor', 'cataclysm:ignitium_elytra_chestplate')
+    event.add('minecraft:trimmable_armor', 'cataclysm:cursium_helmet')
+    event.add('minecraft:trimmable_armor', 'cataclysm:cursium_chestplate')
+    event.add('minecraft:trimmable_armor', 'cataclysm:cursium_leggings')
+    event.add('minecraft:trimmable_armor', 'cataclysm:cursium_boots')
+    event.add('minecraft:trimmable_armor', 'eeeabsmobs:ghost_warrior_helmet')
+    event.add('minecraft:trimmable_armor', 'eeeabsmobs:ghost_warrior_chestplate')
+    event.add('minecraft:trimmable_armor', 'eeeabsmobs:ghost_warrior_leggings')
+    event.add('minecraft:trimmable_armor', 'eeeabsmobs:ghost_warrior_boots')
+    
 
     event.add("fictional:cataclysmenchant", "cataclysm:the_incinerator")//灾变武器附魔
     event.add("fictional:cataclysmenchant", "cataclysm:the_immolator")

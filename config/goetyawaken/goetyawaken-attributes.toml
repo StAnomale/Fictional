@@ -58,12 +58,20 @@
 		royalguardServantDamage = 19.0
 
 	[Attributes."Mushroom Monstrosity"]
+		#Default time limit for Mushroom Monstrosity dynamic shield in ticks (default: 10)
+		#Range: > 0
+		mushroomDynamicShieldDefaultLimitTime = 10
+		#Mushroom Monstrosity damage cap as a percentage of max health (default: 0.20 = 20%)
+		#Range: 0.0 ~ 1.0
+		mushroomMonstrosityDamageCap = 0.2
 		#How much damage Mushroom Monstrosities deals, Default: 24.0
 		#Range: 1.0 ~ 1.7976931348623157E308
-		mushroomMonstrosityDamage = 54.0
+		mushroomMonstrosityDamage = 60.0
 		#How much Max Health Mushroom Monstrosities have, Default: 1000.0
 		#Range: 1.0 ~ 1.7976931348623157E308
 		mushroomMonstrosityHealth = 6000.0
+		#Should Poisonous Mooshroom Block heal owner(Mushroom Monstrosity)? Default: true
+		allowPoisonousMushroomHealSpecialOwners = true
 		#How much natural armor points Mushroom Monstrosities have, Default: 12.0
 		#Range: 0.0 ~ 1.7976931348623157E308
 		mushroomMonstrosityArmor = 32.0
@@ -73,6 +81,8 @@
 		#How much following/detection range Mushroom Monstrosities have, Default: 32.0
 		#Range: 1.0 ~ 2048.0
 		mushroomMonstrosityFollowRange = 32.0
+		#Should Mooshroom Monstrosity be allowed to plant poisonous mushrooms? Default: true
+		allowMushroomMonstrosityPlantPoisonousMushroom = true
 
 	[Attributes."Caerbannog Rabbit Servant"]
 		#How much damage Caerbannog Rabbit Servants deals, Default: 8.0
@@ -175,7 +185,9 @@
 		#How much Max Health Giant Ghast has, Default: 140.0
 		#Range: 1.0 ~ 1.7976931348623157E308
 		giantGhastHealth = 140.0
-		#How much natural armor points Giant Ghast has, Default: 8.0
+		#Allow Giant Ghast to fire Giant Hell Blast, Default: false
+		giantGhastAllowGiantHellBlast = false
+		#How much natural armor points Giant Ghast has, Default: 4.0
 		#Range: 0.0 ~ 1.7976931348623157E308
 		giantGhastArmor = 8.0
 		#How much damage Giant Ghast deals, Default: 10.0
@@ -200,33 +212,33 @@
 		#Nameless One heal interval in ticks (default: 20 - 1 second)
 		#Range: > 1
 		namelessOneHealInterval = 20
-		#How much armor toughness Nameless One have, Default: 8.0
+		#How much armor toughness Nameless One have, Default: 4.0
 		#Range: 0.0 ~ 1.7976931348623157E308
 		namelessOneArmorToughness = 8.0
 		#Nameless One heal amount per interval (default: 1.0)
 		#Range: 0.0 ~ 1.7976931348623157E308
-		namelessOneHealAmount = 2.0
-		#Hit cooldown in ticks for Nameless One damage cap, Default: 10
+		namelessOneHealAmount = 1.0
+		#Hit cooldown in ticks for Nameless One damage cap, Default: 5
 		#Range: 1 ~ 100
 		namelessOneHitCooldown = 1
 		#How much follow range Nameless One have, Default: 48.0
 		#Range: 1.0 ~ 2048.0
 		namelessOneFollowRange = 48.0
-		#Damage cap percentage for Nameless One (fraction of max health), Default: 0.07 (7%)
+		#Damage cap percentage for Nameless One (fraction of max health), Default: 0.2 (20%)
 		#Range: 0.01 ~ 1.0
 		namelessOneDamageCapPercent = 0.07
-		#Dynamic damage reduction time in ticks for Nameless One, Default: 20
+		#Dynamic damage reduction time in ticks for Nameless One, Default: 10
 		#Range: 1 ~ 100
-		namelessOneDynamicReductionTime = 20
+		namelessOneDynamicReductionTime = 10
 		#How much Max Health Nameless One have, Default: 444.0
 		#Range: 1.0 ~ 1.7976931348623157E308
 		namelessOneHealth = 4444.0
-		#How much natural armor points Nameless One have, Default: 12.0
+		#How much natural armor points Nameless One have, Default: 8.0
 		#Range: 0.0 ~ 1.7976931348623157E308
-		namelessOneArmor = 20.0
-		#How much damage Parched Necromancers deals, Default: 14.0
+		namelessOneArmor = 8.0
+		#How much damage Nameless One deals, Default: 4.0
 		#Range: 0.0 ~ 1.7976931348623157E308
-		namelessOneDamage = 30.0
+		namelessOneDamage = 16.0
 
 	[Attributes."Angry Mooshroom"]
 		#How much movement speed Angry Mooshrooms have, Default: 0.3
@@ -241,6 +253,23 @@
 		#How much Max Health Angry Mooshrooms have, Default: 30.0
 		#Range: 1.0 ~ 1.7976931348623157E308
 		angryMooshroomHealth = 60.0
+
+	[Attributes."Rampart Captain"]
+		#How much damage Rampart Captains deals, Default: 7.5
+		#Range: 1.0 ~ 1.7976931348623157E308
+		rampartCaptainDamage = 7.5
+		#How much armor Rampart Captains have, Default: 20.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		rampartCaptainArmor = 20.0
+		#How much Max Health Rampart Captains have, Default: 120.0
+		#Range: 1.0 ~ 1.7976931348623157E308
+		rampartCaptainHealth = 120.0
+		#How much armor toughness Rampart Captains have, Default: 12.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		rampartCaptainArmorToughness = 12.0
+		#Chance for Rampart Captain's Run Attack to loop (0.0-1.0), Default: 0.7 (70%)
+		#Range: 0.0 ~ 1.0
+		rampartCaptainRunAttackLoopChance = 0.7
 
 	[Attributes."Illusioner Servant"]
 		#How much natural armor points Illusioner Servants have, Default: 0.0
@@ -308,7 +337,7 @@
 		#How much attack knockback Vanguard Champions have, Default: 1.0
 		#Range: 0.0 ~ 1.7976931348623157E308
 		vanguardChampionAttackKnockback = 1.0
-		#How much natural armor points Vanguard Champions have, Default: 24.0
+		#How much natural armor points Vanguard Champions have, Default: 20.0
 		#Range: 0.0 ~ 1.7976931348623157E308
 		vanguardChampionArmor = 34.0
 
