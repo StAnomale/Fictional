@@ -156,6 +156,16 @@
 			"goetyawaken:moonlight_cut" = 20.0
 			"twilightforest:fiery_sword" = 9.0
 			"twilightdelight:teardrop_sword" = 12.0
+			"legendary_monsters:enderitium_sword" = 9.0
+			"legendary_monsters:enderitium_pickaxe" = 10.0
+			"legendary_monsters:enderitium_axe" = 12.0
+			"legendary_monsters:chorus_blade" = 10.0
+			"legendary_monsters:monstrous_anchor" = 16.0
+			"legendary_monsters:shattered_greatsword" = 20.0
+			"legendary_monsters:resurrected_javelin" = 15.0
+			"legendary_monsters:knights_sword" = 10.0
+			"legendary_monsters:golden_halbert" = 13.0
+			"legendary_monsters:soul_great_sword" = 20.0
 
 		#Set the efficiency value of a tool. May not work on modded tools, please file an issue if that's the case. Also doesn't work on shears, due to internal problems with that. Example (without the leading #):
 		#"minecraft:iron_pickaxe" = 16
@@ -165,12 +175,14 @@
 		#Set the attack speed of a tool or weapon. May not work on modded tools, please file an issue if that's the case. Example (without the leading #):
 		#"minecraft:netherite_pickaxe" = 2.5
 		[items.tools.attack_speed]
-			"meetyourfight:twilights_thorn" = 1.8
+			"legendary_monsters:chorus_blade" = 1.8
+			"legendary_monsters:monstrous_anchor" = 0.9
+			"meetyourfight:twilights_thorn" = 2.0
 			"twilightforest:glass_sword" = 1.0
 			"twilightforest:knightmetal_sword" = 2.0
 			"twilightforest:knightmetal_axe" = 1.4
 			"twilightforest:knightmetal_pickaxe" = 1.4
-			"cataclysm:astrape" = 1.8
+			"cataclysm:astrape" = 2.0
 			"cataclysm:soul_render" = 1.4
 			"aether:valkyrie_axe" = 0.85
 			"aether:holy_sword" = 1.4
@@ -226,7 +238,6 @@
 		"royalvariations:royal_skeleton" = "minecraft:generic.armor_toughness;20"
 		"royalvariations:royal_enderman" = "minecraft:generic.armor_toughness;24"
 		"royalvariations:royal_creeper" = "minecraft:generic.armor_toughness;24"
-		"meetyourfight:dame_fortuna" = "obscure_api:healing_power;2"
 		"meetyourfight:rosalyne" = "obscure_api:healing_power;2"
 		"minecraft:wither" = "obscure_api:healing_power;2"
 		"minecraft:ender_dragon" = "obscure_api:healing_power;20"
@@ -243,10 +254,10 @@
 		"cataclysm:maledictus" = "obscure_api:dodge;0.1"
 		"aether:slider" = "obscure_api:critical_hit;0.4"
 		"deep_aether:eots_segment" = "obscure_api:penetration;0.4"
-		"bosses_of_mass_destruction:void_blossom" = "obscure_api:magic_damage;8.0"
+		"bosses_of_mass_destruction:void_blossom" = "obscure_api:magic_damage;10.0"
 		"bosses_of_mass_destruction:obsidilith" = "obscure_api:magic_damage;8.0"
-		"bosses_of_mass_destruction:lich" = "obscure_api:magic_damage;3.0"
-		"bosses_of_mass_destruction:gauntlet" = "obscure_api:magic_damage;1.0"
+		"bosses_of_mass_destruction:lich" = "obscure_api:magic_damage;4.0"
+		"bosses_of_mass_destruction:gauntlet" = "obscure_api:magic_damage;2.0"
 		"aethermobs:saltcrabking" = "obscure_api:healing_power;2"
 		"aether:valkyrie_queen" = "obscure_api:healing_power;3"
 		"aethermobs:aether_naga" = "obscure_api:dodge;0.3"
@@ -260,6 +271,10 @@
 		"mutantmore:mutant_husk" = "obscure_api:magic_damage;2.0"
 		"legendary_monsters:hovering_hurricane" = "obscure_api:magic_damage;2.0"
 		"legendary_monsters:cloud_golem" = "obscure_api:magic_damage;6.0"
+		"legendary_monsters:posessed_paladin" = "obscure_api:magic_damage;4.0"
+		"goetyawaken:nameless_one" = "obscure_api:magic_damage;8.0"
+		"goety:apostle" = "obscure_api:regeneration;60.0"
+		"goety:ender_keeper" = "obscure_api:magic_damage;10.0"
 
 #Set the respective values here by adding lines in the respective groups. Keys can be either a block (e.g. "minecraft:stripped_birch_wood") or a block regex (e.g. "minecraft:.*_block").
 [blocks]

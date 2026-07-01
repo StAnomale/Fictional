@@ -8,8 +8,8 @@ ServerEvents.recipes(event => {
     event.shapeless('kubejs:broken_pocketwatch', ['eeeabsmobs:ghost_steel_ingot','goetyawaken:superaggregated_mycelial_circuit','kubejs:restrictiontimer_pocketwatch'])
 
     //图腾转换
-    event.shapeless('minecraft:totem_of_undying', ['friendsandfoes:totem_of_freezing'])
-    event.shapeless('minecraft:totem_of_undying', ['friendsandfoes:totem_of_illusion'])
+    event.shapeless('2x minecraft:totem_of_undying', ['friendsandfoes:totem_of_freezing'])
+    event.shapeless('2x minecraft:totem_of_undying', ['friendsandfoes:totem_of_illusion'])
 
     //末影之手
     event.shapeless('minecraft:ender_eye', ['mutantmonsters:endersoul_hand'])
@@ -35,8 +35,10 @@ ServerEvents.recipes(event => {
     //末影之眼
     event.shapeless('minecraft:ender_eye', ['minecraft:ender_pearl','minecraft:blaze_powder','minecraft:phantom_membrane','obscure_api:astral_dust'])
 
-    //瓶中船（铸造厂）
-    //event.shapeless(Item.of('wishing_fountain:wf_structure_map', '{target:"totw_modded:regular"}'), ['wishing_fountain:wf_structure_map','obscure_api:astral_dust'])
+    //瓶中船（战斗高塔）
+    event.shapeless(Item.of('wishing_fountain:wf_structure_map', '{target:"ba_bt:land_tower"}'), ['minecraft:diamond','minecraft:ender_eye','obscure_api:astral_dust'])
+    event.shapeless(Item.of('wishing_fountain:wf_structure_map', '{target:"ba_bt:ocean_tower"}'), ['mermod:sea_crystal','minecraft:ender_eye','obscure_api:astral_dust'])
+    event.shapeless(Item.of('wishing_fountain:wf_structure_map', '{target:"ba_bt:core_tower"}'), ['minecraft:magma_cream','minecraft:ender_eye','obscure_api:astral_dust'])
 
     //紫晶币
     event.shapeless('9x minecraft:amethyst_shard', ['kubejs:compressed_amethyst'])
@@ -52,6 +54,76 @@ ServerEvents.recipes(event => {
     //   0: 'minecraft:echo_shard',
     //})
 
+    //原子分裂器
+    event.remove({output:'legendary_monsters:atom_splitter'});
+    event.shaped('legendary_monsters:atom_splitter', [
+       '41 ',
+       '102',
+       ' 23'
+    ], 
+    {
+       0: 'legendary_monsters:buckler_of_annihilation',
+       1: 'legendary_monsters:portal_shard',
+       2: 'legendary_monsters:enderitium_ingot',
+       3: 'cataclysm:cursium_ingot',
+       4: 'legendary_monsters:bottle_of_annihilation'
+    })
+
+    //超立方体
+    event.remove({output:'legendary_monsters:the_tesseract'});
+    event.shaped('legendary_monsters:the_tesseract', [
+       '304',
+       '121',
+       ' 2 '
+    ], 
+    {
+       0: 'legendary_monsters:eye_crystal',
+       1: 'legendary_monsters:portal_shard',
+       2: 'legendary_monsters:enderitium_ingot',
+       3: 'enderitemod:enderite_sword',
+       4: 'advancednetherite:netherite_diamond_sword'
+    })
+
+    //阴沉钥匙
+    event.remove({output:'legendary_monsters:somber_key'});
+    event.shaped('legendary_monsters:somber_key', [
+       ' 31',
+       ' 02',
+       '   '
+    ], 
+    {
+       0: 'legendary_monsters:somber_key_ring',
+       1: 'legendary_monsters:somber_key_blade',
+       2: 'eeeabsmobs:ancient_drive_crystal',
+       3: 'radiation_zone_reborn:sedisilver_ingot'
+    })
+
+    event.remove({output:'legendary_monsters:shattered_greatsword'});
+    event.shaped('legendary_monsters:shattered_greatsword', [
+       '121',
+       '323',
+       ' 0 '
+    ], 
+    {
+       0: 'legendary_monsters:knights_sword',
+       1: 'legendary_monsters:metal_debris',
+       2: 'radiation_zone_reborn:sedisilver_block',
+       3: 'radiation_zone_reborn:sedisilver_ingot'
+    })
+
+    event.remove({output:'legendary_monsters:resurrected_javelin'});
+    event.shaped('legendary_monsters:resurrected_javelin', [
+       '121',
+       '323',
+       ' 0 '
+    ], 
+    {
+       0: 'legendary_monsters:golden_halbert',
+       1: 'legendary_monsters:metal_debris',
+       2: 'radiation_zone_reborn:sedisilver_block',
+       3: 'radiation_zone_reborn:sedisilver_ingot'
+    })
+
     //缚时者的怀表
     event.shaped(Item.of('kubejs:restrictiontimer_pocketwatch'), [
        ' 1 ',
@@ -61,6 +133,44 @@ ServerEvents.recipes(event => {
     {
        0: 'kubejs:covenant_purewhite',
        1: 'minecraft:clock',
+    })
+
+    //威胁旗帜
+    event.shaped(Item.of('goetyawaken:threat_banner'), [
+       '323',
+       '101',
+       '313'
+    ], 
+    {
+       0: 'minecraft:black_banner',
+       1: 'ba_bt:land_monolith_key',
+       2: 'trials:ominous_bottle',
+       3: 'goety:pale_steel_ingot'
+    })
+
+    //爆破戒指
+    event.shaped(Item.of('goetyawaken:detonation_ring'), [
+       '31 ',
+       '101',
+       ' 12'
+    ], 
+    {
+       0: 'goety:ring_of_want',
+       1: 'goety:pale_steel_ingot',
+       2: 'goetyawaken:rampart_manuscript',
+       3: 'goetyawaken:gloomy_tears'
+    })
+
+    //沙尘人头颅
+    event.shaped(Item.of('radiation_zone_reborn:dustorm_head'), [
+       '101',
+       '121',
+       ' 1 '
+    ], 
+    {
+       0: 'minecraft:wither_skeleton_skull',
+       1: 'radiation_zone_reborn:dust_rod',
+       2: 'radiation_zone_reborn:dustorm_eye'
     })
 
     //哨兵护身符
@@ -178,6 +288,82 @@ ServerEvents.recipes(event => {
        4: 'twilightforest:liveroot'
     })
 
+    //炽烈号角
+    event.shaped('goetyawaken:lamenting_horn', [
+       '213',
+       '101',
+       '313'
+    ], 
+    {
+       0: 'minecraft:goat_horn',
+       1: 'twilightforest:carminite',
+       2: 'twilightforest:fiery_ingot',
+       3: 'minecraft:ghast_tear'
+    })
+
+    //聚晶
+    event.shaped('goetyawaken:chasing_flame_focus', [
+       '212',
+       '303',
+       '232'
+    ], 
+    {
+       0: 'goety:fireball_focus',
+       1: 'goetyawaken:gloomy_tears',
+       2: 'friendsandfoes:wildfire_crown_fragment',
+       3: 'minecraft:netherite_scrap'
+    })
+    event.shaped('goetyawaken:fireball_feast_focus', [
+       ' 1 ',
+       '202',
+       ' 3 '
+    ], 
+    {
+       0: 'goety:bombardment_focus',
+       1: 'goetyawaken:gloomy_tears',
+       2: 'goety:fireball_focus',
+       3: 'goety:blazing_focus'
+    })
+    event.shaped('goetyawaken:great_meteor_focus', [
+       '212',
+       '303',
+       '343'
+    ], 
+    {
+       0: 'goety:lavaball_focus',
+       1: 'goetyawaken:detonation_ring',
+       2: 'friendsandfoes:wildfire_crown_fragment',
+       3: 'minecraft:netherite_scrap',
+       4: 'minecraft:respawn_anchor'
+    })
+
+    //化石之饵
+    event.remove({output: 'meetyourfight:fossil_bait'})
+    event.shaped('meetyourfight:fossil_bait', [
+       '010',
+       '313',
+       '212'
+    ], 
+    {
+       0: 'jrftl:prepared_flesh',
+       1: 'ba_bt:land_monolith_key',
+       2: 'minecraft:spider_eye',
+       3: 'minecraft:bone'
+    })
+
+   //  //大地守卫之眼
+   //  event.remove({output: 'ba_bt:land_golem_eye'})
+   //  event.shaped('ba_bt:land_golem_eye', [
+   //     '212',
+   //     '202',
+   //     '222'
+   //  ], 
+   //  {
+   //     0: 'goetyawaken:rampart_manuscript',
+   //     1: 'ba_bt:land_monolith_key',
+   //     2: 'goety:pale_steel_ingot'
+   //  })
+
     //禁品草方块
     event.remove({output: 'goety:forbidden_grass'})
     event.shaped('8x goety:forbidden_grass', [
@@ -255,6 +441,70 @@ ServerEvents.recipes(event => {
        3: 'cataclysm:witherite_ingot'
     })
 
+    //凋零胸腔
+    event.remove({output:'legendary_monsters:withered_ribcage'});
+    event.shaped('legendary_monsters:withered_ribcage', [
+       '131',
+       '202',
+       '   '
+    ], 
+    {
+       0: 'mutantmore:mutant_wither_skeleton_chestplate',
+       1: 'legendary_monsters:withered_horn',
+       2: 'legendary_monsters:withered_bone',
+       3: 'goetyawaken:gloomy_tears'
+    })
+
+    //炽火之靴
+    event.remove({output:'legendary_monsters:fiery_boots'});
+    event.shaped('legendary_monsters:fiery_boots', [
+       '131',
+       '202',
+       '   '
+    ], 
+    {
+       0: 'mutantmore:mutant_wither_skeleton_boots',
+       1: 'legendary_monsters:withered_horn',
+       2: 'minecraft:blaze_powder',
+       3: 'mutantmore:mutant_blaze_core'
+    })
+
+    //凋零之镰
+    event.remove({output:'legendary_monsters:withered_scythe'});
+    event.shaped('legendary_monsters:withered_scythe', [
+       '221',
+       '20 ',
+       ' 0 '
+    ], 
+    {
+       0: 'legendary_monsters:withered_bone',
+       1: 'legendary_monsters:withered_horn',
+       2: 'advancednetherite:netherite_gold_ingot',
+    })
+
+    //炽火之颚
+    event.remove({output:'legendary_monsters:fiery_jaw'});
+    event.shaped('legendary_monsters:fiery_jaw', [
+       '23 ',
+       '104',
+       '23 '
+    ], 
+    {
+       0: 'minecraft:nether_star',
+       1: 'legendary_monsters:molten_metal_ingot',
+       2: 'legendary_monsters:withered_horn',
+       3: 'legendary_monsters:withered_bone',
+       4: 'minecraft:netherite_ingot',
+    })
+    event.shaped('mutantmore:mutant_wither_skeleton_boots', [
+       '   ',
+       '0 0',
+       '   '
+    ], 
+    {
+       0: 'legendary_monsters:withered_bone',
+    })
+
     //暗影精粹
     event.shaped('2x goety:shadow_essence', [
        '212',
@@ -267,18 +517,30 @@ ServerEvents.recipes(event => {
        2: 'obscure_api:astral_dust',
     })
 
-    //余烬合金锭
-    event.remove({output: 'goetyawaken:gilded_ingot'})
-    event.shaped('2x goetyawaken:gilded_ingot', [
+    //阜骨之眼
+    event.shaped('legendary_monsters:eye_of_many_ribs', [
        '212',
        '101',
        '212'
     ], 
     {
-       0: 'goetyawaken:gilded_ingot',
-       1: 'goetyawaken:glowing_ember',
-       2: 'obscure_api:astral_dust'
+       0: 'minecraft:ender_pearl',
+       1: 'minecraft:bone_block',
+       2: 'minecraft:nether_wart',
     })
+
+     //余烬合金锭
+   event.remove({output: 'goetyawaken:gilded_ingot'})
+   //  event.shaped('2x goetyawaken:gilded_ingot', [
+   //     '212',
+   //     '101',
+   //     '212'
+   //  ], 
+   //  {
+   //     0: 'goetyawaken:gilded_ingot',
+   //     1: 'goetyawaken:glowing_ember',
+   //     2: 'obscure_api:astral_dust'
+   //  })
 
     //撕裂聚晶
     event.remove({output: 'goety:rupture_focus'})
@@ -393,7 +655,7 @@ ServerEvents.recipes(event => {
     //黄金的国王心脏
     event.shaped('kubejs:gold_heart', [
        '213',
-       '101',
+       '707',
        '456'
     ], 
     {
@@ -404,6 +666,22 @@ ServerEvents.recipes(event => {
        4: 'aether:golden_gloves',
        5: 'twilightforest:gold_minotaur_axe',
        6: 'crockpot:netherosia',
+       7: 'twilightforest:fiery_ingot'
+    })
+    event.shaped('kubejs:gold_heart', [
+       '213',
+       '707',
+       '456'
+    ], 
+    {
+       0: 'royalvariations:spiritual_crown_shard',
+       1: 'kubejs:enchanted_golden_feather',
+       2: 'twilightforest:charm_of_life_2',
+       3: 'minecraft:enchanted_golden_apple',
+       4: 'aether:golden_gloves',
+       5: 'twilightforest:gold_minotaur_axe',
+       6: 'crockpot:netherosia',
+       7: 'twilightforest:fiery_ingot'
     })
 
     //腐化之心
@@ -474,6 +752,32 @@ ServerEvents.recipes(event => {
        3: '#forge:glass_panes'
     })
 
+    event.remove({output: 'legendary_monsters:shulker_shield'})
+    event.shaped('legendary_monsters:shulker_shield', [
+       '101',
+       '121',
+       ' 1 '
+    ], 
+    {
+       0: 'legendary_monsters:large_shulker_shell',
+       1: 'minecraft:end_stone_bricks',
+       2: 'legendary_monsters:enderitium_ingot',
+    })
+
+    event.remove({output: 'mutantmore:mutant_shulker_shield'})
+    event.shaped('mutantmore:mutant_shulker_shield', [
+       '101',
+       '424',
+       '131'
+    ], 
+    {
+       0: 'mutantmore:mutant_shulker_shell',
+       1: 'radiation_zone_reborn:sedisilver_ingot',
+       2: 'legendary_monsters:shulker_shield',
+       3: 'enderitemod:enderite_ingot',
+       4: 'radiation_zone_reborn:giantrock_ingot'
+    })
+
     //液态虚空桶
     event.shaped('goety:void_bucket', [
        ' 1 ',
@@ -497,6 +801,19 @@ ServerEvents.recipes(event => {
        2: 'aether_treasure_reforging:pyral_ingot'
     })
 
+    //强力手套
+    event.shaped('artifacts:power_glove', [
+       '333',
+       '303',
+       '212'
+    ], 
+    {
+       0: 'meetyourfight:bone_raker',
+       1: 'goetyawaken:rampart_manuscript',
+       2: 'better_minoshroomtaur:maze_diamond',
+       3: 'minecraft:leather'
+    })
+
     //附魔图书馆
     event.remove({output: 'enchlibathome:library'})
     event.shaped('enchlibathome:library', [
@@ -506,7 +823,7 @@ ServerEvents.recipes(event => {
     ], 
     {
        0: 'minecraft:enchanting_table',
-       1: 'ba_bt:land_golem_eye',
+       1: 'goetyawaken:rampart_manuscript',
        3: '#forge:bookshelves'
     })
 
@@ -621,7 +938,7 @@ ServerEvents.recipes(event => {
 
     //幸运猫吊坠
     event.shaped('kubejs:luckitten_pendant', [
-       '111',
+       '515',
        '101',
        '324'
     ], 
@@ -631,6 +948,7 @@ ServerEvents.recipes(event => {
        2: 'farmersdelight:grilled_salmon',
        3: 'farmersdelight:baked_cod_stew',
        4: 'farmersdelight:fish_stew',
+       5: 'bosses_of_mass_destruction:void_thorn'
     })
 
     //动力手套
@@ -647,6 +965,20 @@ ServerEvents.recipes(event => {
        4: 'aether_redux:gravitite_ingot'
     })
 
+    //灵魂巨剑
+    event.shaped('legendary_monsters:soul_great_sword', [
+       ' 0 ',
+       '414',
+       '323'
+    ], 
+    {
+       0: 'legendary_monsters:corrupted_soul',
+       1: 'legendary_monsters:shattered_greatsword',
+       2: 'legendary_monsters:resurrected_javelin',
+       3: 'radiation_zone_reborn:tyrant_skin',
+       4: 'radiation_zone_reborn:giantrock_ingot'
+    })
+
     //隐形宝石
     event.shaped('lost_aether_content:invincibility_gem', [
        '212',
@@ -654,7 +986,7 @@ ServerEvents.recipes(event => {
        '212'
     ], 
     {
-       0: 'legendary_monsters:air_rune',
+       0: 'legendary_monsters:corrupted_soul',
        1: 'goety:soul_emerald',
        2: 'legendary_monsters:cloud_rod',
     })
@@ -787,8 +1119,32 @@ ServerEvents.recipes(event => {
        2: 'goety:void_shard',
     })
 
+    //僵尸头
+    event.shaped('minecraft:zombie_head', [
+       ' 1 ',
+       '101',
+       ' 1 '
+    ], 
+    {
+       0: 'minecraft:skeleton_skull',
+       1: 'jrftl:prepared_flesh',
+    })
+
+    //构造之戒指
+    event.shaped('aether_redux:ring_of_construction', [
+       '131',
+       '202',
+       '121'
+    ], 
+    {
+       0: 'aether_redux:enchanted_ring',
+       1: 'radiation_zone_reborn:giantrock_ingot',
+       2: 'minecraft:gold_ingot',
+       3: 'goetyawaken:rampart_manuscript'
+    })
+
     //偏执解药瓶
-    event.shaped('4x kubejs:paranoia_antidote_vessel1', [
+    event.shaped('kubejs:paranoia_antidote_vessel1', [
        '123',
        '405',
        '678'
@@ -804,7 +1160,7 @@ ServerEvents.recipes(event => {
        7: 'artifacts:flippers',
        8: 'artifacts:running_shoes',
     })
-    event.shaped('4x kubejs:paranoia_antidote_vessel2', [
+    event.shaped('kubejs:paranoia_antidote_vessel2', [
        '123',
        '405',
        '678'
@@ -819,6 +1175,24 @@ ServerEvents.recipes(event => {
        6: 'bosses_of_mass_destruction:obsidian_heart',
        7: 'bosses_of_mass_destruction:ancient_anima',
        8: 'mutantmore:mutant_frozen_zombie_spikes',
+    })
+    event.shaped('2x kubejs:paranoia_antidote_vessel1', [
+       '111',
+       '101',
+       '111'
+    ], 
+    {
+       0: 'kubejs:paranoia_antidote_vessel1',
+       1: 'obscure_api:astral_dust',
+    })
+    event.shaped('2x kubejs:paranoia_antidote_vessel2', [
+       '111',
+       '101',
+       '111'
+    ], 
+    {
+       0: 'kubejs:paranoia_antidote_vessel2',
+       1: 'obscure_api:astral_dust',
     })
 
     //寻位眼镜
@@ -861,7 +1235,7 @@ ServerEvents.recipes(event => {
     ], 
     {
        0: 'minecraft:compass',
-       1: 'ba_bt:land_golem_eye',
+       1: 'goetyawaken:rampart_manuscript',
        2: 'meetyourfight:mossy_tooth',
        3: 'minecraft:echo_shard',
     })
@@ -1014,6 +1388,60 @@ ServerEvents.recipes(event => {
        2: 'radiation_zone_reborn:dust_star',
        3: 'mutantmore:mutant_husk_vocal_cords',
        4: 'radiation_zone_reborn:giantrock_ingot'
+    })
+
+    //怪怖之锚
+    event.remove({output:'legendary_monsters:monstrous_anchor'});
+    event.shaped('legendary_monsters:monstrous_anchor', [
+       '343',
+       '313',
+       ' 2 '
+    ], 
+    {
+       1: 'meetyourfight:depth_star',
+       2: 'legendary_monsters:anchor_handle',
+       3: 'minecraft:iron_block',
+       4: 'goety:pale_steel_block'
+    })
+
+    //幻影步枪
+    event.remove({output:'meetyourfight:phantasmal_rifle'});
+    event.shaped('meetyourfight:phantasmal_rifle', [
+       '2  ',
+       '413',
+       ' 44'
+    ], 
+    {
+       1: 'gunswithoutroses:diamond_sniper',
+       2: 'meetyourfight:phantoplasm',
+       3: 'goetyawaken:rampart_manuscript',
+       4: 'minecraft:gold_ingot'
+    })
+
+    //不祥之眼
+    event.remove({output:'goetyawaken:ominous_eye'});
+    event.shaped('goetyawaken:ominous_eye', [
+       ' 3 ',
+       '212',
+       ' 2 '
+    ], 
+    {
+       1: 'minecraft:ender_eye',
+       2: 'goety:pale_steel_ingot',
+       3: 'goetyawaken:mucilage',
+    })
+
+    //迷乱之眼
+    event.remove({output:'goetyawaken:mirage_eye'});
+    event.shaped('goetyawaken:mirage_eye', [
+       ' 3 ',
+       '212',
+       ' 2 '
+    ], 
+    {
+       1: 'minecraft:ender_eye',
+       2: 'goety:cursed_ingot',
+       3: 'goetyawaken:mucilage',
     })
 
 
@@ -1226,33 +1654,33 @@ ServerEvents.recipes(event => {
     event.shaped('kubejs:covenant_sharpblade2', [
        '748',
        '506',
-       '213'
+       '123'
     ], 
     {
        0: 'kubejs:covenant_sharpblade1',
        1: 'meetyourfight:bone_raker',
        2: 'waystones:warp_stone',
-       3: 'minecraft:heart_of_the_sea',
+       3: 'goetyawaken:rampart_manuscript',
        4: 'minecraft:netherite_sword',
        5: 'twilightforest:naga_scale',
        6: 'friendsandfoes:wildfire_crown_fragment',
        7: 'twilightforest:knightmetal_sword',
-       8: 'radiation_zone_reborn:sedisilver_sword',
+       8: 'aether:gravitite_sword',
     })
     event.shaped('kubejs:covenant_sharpblade3', [
-       '678',
-       '405',
-       '123'
+       '321',
+       '504',
+       '678'
     ], 
     {
        0: 'kubejs:covenant_sharpblade2',
-       1: 'mutantmore:mutant_hoglin_tusk',
-       2: 'advancednetherite:netherite_diamond_ingot',
-       3: 'mutantmore:mutant_blaze_core',
+       1: 'goety:withered_manuscript',
+       2: 'minecraft:nether_star',
+       3: 'legendary_monsters:withered_bone',
        4: 'meetyourfight:fortunes_favor',
        5: 'meetyourfight:phantoplasm',
        6: 'better_minoshroomtaur:maze_diamond',
-       7: 'minecraft:nether_star',
+       7: 'legendary_monsters:molten_metal_ingot',
        8: 'bosses_of_mass_destruction:ancient_anima',
     })
    event.shaped('kubejs:covenant_sharpblade4', [
@@ -1266,10 +1694,10 @@ ServerEvents.recipes(event => {
        2: 'mutantmore:mutant_husk_vocal_cords',
        3: 'mutantmore:mutant_frozen_zombie_spikes',
        4: 'ba_bt:end_monolith_key',
-       5: 'goety:withered_manuscript',
+       5: 'goetyawaken:gloomy_tears',
        6: 'mutantmore:mutant_jungle_zombie_vine_seed',
        7: 'mutantmore:mutant_wither_skeleton_skull',
-       8: 'bosses_of_mass_destruction:blazing_eye',
+       8: 'eeeabsmobs:heart_of_pagan',
     })
     event.shaped('kubejs:covenant_sharpblade5', [
        '678',
@@ -1322,19 +1750,19 @@ ServerEvents.recipes(event => {
        8: 'goety:targeting_monocle',
     })
     event.shaped('kubejs:covenant_matt3', [
-       '678',
-       '405',
-       '123'
+       '321',
+       '504',
+       '678'
     ], 
     {
        0: 'kubejs:covenant_matt2',
-       1: 'mutantmore:mutant_hoglin_tusk',
-       2: 'advancednetherite:netherite_diamond_ingot',
-       3: 'mutantmore:mutant_blaze_core',
+       1: 'goety:withered_manuscript',
+       2: 'minecraft:nether_star',
+       3: 'legendary_monsters:withered_bone',
        4: 'meetyourfight:fortunes_favor',
        5: 'meetyourfight:phantoplasm',
        6: 'better_minoshroomtaur:maze_diamond',
-       7: 'minecraft:nether_star',
+       7: 'legendary_monsters:molten_metal_ingot',
        8: 'bosses_of_mass_destruction:ancient_anima',
     })
     event.shaped('kubejs:covenant_matt4', [
@@ -1348,7 +1776,7 @@ ServerEvents.recipes(event => {
        2: 'mutantmore:mutant_husk_vocal_cords',
        3: 'mutantmore:mutant_frozen_zombie_spikes',
        4: 'ba_bt:end_monolith_key',
-       5: 'goety:withered_manuscript',
+       5: 'goetyawaken:gloomy_tears',
        6: 'mutantmore:mutant_jungle_zombie_vine_seed',
        7: 'mutantmore:mutant_wither_skeleton_skull',
        8: 'eeeabsmobs:heart_of_pagan',
@@ -1388,7 +1816,7 @@ ServerEvents.recipes(event => {
        8: 'gunswithoutroses:diamond_gatling',
     })
     event.shaped('kubejs:covenant_gunpowder2', [
-       '748',
+       '478',
        '506',
        '213'
     ], 
@@ -1400,23 +1828,23 @@ ServerEvents.recipes(event => {
        4: 'gunswithoutrosesadditions:knightmetal_shotgun',
        5: 'twilightforest:naga_scale',
        6: 'friendsandfoes:wildfire_crown_fragment',
-       7: 'gunswithoutrosesadditions:veridium_revolver_infused',
+       7: 'goetyawaken:rampart_manuscript',
        8: 'gunswithoutrosesadditions:gravitite_shotgun',
     })
    event.shaped('kubejs:covenant_gunpowder3', [
-       '678',
-       '405',
-       '123'
+       '321',
+       '504',
+       '678'
     ], 
     {
        0: 'kubejs:covenant_gunpowder2',
-       1: 'mutantmore:mutant_hoglin_tusk',
-       2: 'advancednetherite:netherite_diamond_ingot',
-       3: 'mutantmore:mutant_blaze_core',
+       1: 'goety:withered_manuscript',
+       2: 'minecraft:nether_star',
+       3: 'legendary_monsters:withered_bone',
        4: 'meetyourfight:fortunes_favor',
        5: 'meetyourfight:phantoplasm',
        6: 'better_minoshroomtaur:maze_diamond',
-       7: 'minecraft:nether_star',
+       7: 'legendary_monsters:molten_metal_ingot',
        8: 'bosses_of_mass_destruction:ancient_anima',
     })
     event.shaped('kubejs:covenant_gunpowder4', [
@@ -1430,7 +1858,7 @@ ServerEvents.recipes(event => {
        2: 'mutantmore:mutant_husk_vocal_cords',
        3: 'mutantmore:mutant_frozen_zombie_spikes',
        4: 'ba_bt:end_monolith_key',
-       5: 'goety:withered_manuscript',
+       5: 'goetyawaken:gloomy_tears',
        6: 'mutantmore:mutant_jungle_zombie_vine_seed',
        7: 'mutantmore:mutant_wither_skeleton_skull',
        8: 'bosses_of_mass_destruction:blazing_eye',
@@ -1679,15 +2107,26 @@ ServerEvents.recipes(event => {
     //末影守卫之眼
     event.shaped('ba_bt:end_golem_eye', [
        '242',
-       '313',
-       '252'
+       '515',
+       '232'
     ], 
     {
        1: 'ba_bt:core_golem_eye',
        2: 'ba_bt:end_monolith_key',
        3: 'enderitemod:enderite_ingot',
        4: 'mutantmore:mutant_shulker_shell',
-       5: 'quark:dragon_scale'
+       5: 'legendary_monsters:enderitium_ingot',
+    })
+    event.shaped('ba_bt:end_golem_eye', [
+       '262',
+       '353',
+       '262'
+    ], 
+    {
+       2: 'ba_bt:end_monolith_key',
+       3: 'enderitemod:enderite_ingot',
+       5: 'quark:dragon_scale',
+       6: 'legendary_monsters:enderitium_ingot'
     })
 
     //神血机械核心
@@ -2419,14 +2858,15 @@ ServerEvents.recipes(event => {
     //超级霰弹枪
     event.shaped(Item.of('gwrexpansions:super_shotgun'), [
         'DC ',
-        'CAB',
+        'CA1',
         ' BD'
     ],
     {
         A: 'gunswithoutrosesadditions:gravitite_shotgun',
         B: 'cataclysm:lacrima',
         C: 'cataclysm:essence_of_the_storm',
-        D: 'deep_aether:stratus_ingot'
+        D: 'deep_aether:stratus_ingot',
+        1: 'legendary_monsters:air_rune'
     })
 
     //远古长矛
@@ -2515,7 +2955,7 @@ ServerEvents.recipes(event => {
     {
         A: 'minecraft:ender_pearl',
         B: 'enderitemod:enderite_ingot',
-        C: 'minecraft:respawn_anchor'
+        C: 'legendary_monsters:ender_anchor'
     })
 
     //锻造模板（饰纹）
@@ -2728,12 +3168,13 @@ ServerEvents.recipes(event => {
     event.shaped(Item.of('mutantmonsters:creeper_minion_tracker',1), [
         'ACA',
         'ABA',
-        'ACA'
+        'A4A'
     ],
     {
         A: 'minecraft:iron_ingot',
         C: 'obscure_api:astral_dust',
-        B: 'mutantmonsters:creeper_shard'
+        B: 'mutantmonsters:creeper_shard',
+        4: 'goetyawaken:rampart_manuscript'
     })
 
     //灵性王冠

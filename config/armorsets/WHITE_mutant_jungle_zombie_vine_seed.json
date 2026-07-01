@@ -20,6 +20,16 @@
     },
     {
       "type": "attribute",
+      "name": "obscure_api:penetration",
+      "value": 0.1,
+      "modifierUUID": "b5c63b86-ee74-4f7b-bb48-db40787a10c6",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
       "name": "obscure_api:accuracy",
       "value": -0.2,
       "modifierUUID": "52b085bf-7627-495c-869b-bf7ea04a7c05",

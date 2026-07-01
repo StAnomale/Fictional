@@ -37,7 +37,7 @@
     {
       "type": "attribute",
       "name": "minecraft:generic.attack_speed",
-      "value": 0.05,
+      "value": 0.1,
       "modifierUUID": "5cf43399-0858-4cf3-bdd6-5ec9f96fe1f4",
       "attributeOperation": 1,
       "interactionType": "self",

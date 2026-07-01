@@ -65,6 +65,27 @@ ItemEvents.modification(event => {
       item.rarity = 'EPIC'
       item.fireResistant = true
     })
+    event.modify('legendary_monsters:chiseled_ancient_dripstone_shard', item => {
+      item.rarity = 'UNCOMMON'
+      item.fireResistant = true
+    })
+    event.modify('legendary_monsters:molten_metal_ingot', item => {
+      item.rarity = 'UNCOMMON'
+      item.fireResistant = true
+    })
+    event.modify('legendary_monsters:anchor_handle', item => {
+      item.rarity = 'UNCOMMON'
+      item.fireResistant = true
+    })
+    event.modify('legendary_monsters:chorus_crystal', item => {
+      item.rarity = 'UNCOMMON'
+      item.fireResistant = true
+    })
+    //爆破戒指
+    event.modify('goetyawaken:detonation_ring', item => {
+      item.rarity = 'UNCOMMON'
+      item.fireResistant = true
+    })
     //灌注辉蓝晶左轮
     event.modify('gunswithoutrosesadditions:veridium_revolver_infused', item => {
       item.rarity = 'UNCOMMON'
@@ -331,11 +352,13 @@ ItemEvents.modification(event => {
     //立方护符
     event.modify('twilightforest:cube_talisman', item => {
       item.rarity = 'EPIC'
+      item.fireResistant = true
     })
 
     //大气符文
     event.modify('legendary_monsters:air_rune', item => {
       item.rarity = 'EPIC'
+      item.fireResistant = true
     })
 
     event.modify('legendary_monsters:mossy_chestplate', item => {
@@ -343,6 +366,36 @@ ItemEvents.modification(event => {
       item.maxDamage = 1200
       item.armorProtection = 8.0
       item.armorToughness = 3.0
+    })
+
+    event.modify('legendary_monsters:large_shulker_shell', item => {
+      item.rarity = 'UNCOMMON'
+      item.fireResistant = true
+    })
+
+    event.modify('cataclysm:ignitium_ingot', item => {
+      item.rarity = 'EPIC'
+      item.fireResistant = true
+    })
+    event.modify('cataclysm:cursium_ingot', item => {
+      item.rarity = 'EPIC'
+      item.fireResistant = true
+    })
+
+    //紫颂面具
+    event.modify('legendary_monsters:chorus_mask', item => {
+      item.maxDamage = 3000
+      item.rarity = 'UNCOMMON'
+      item.armorProtection = 4.0
+      item.armorToughness = 4.0
+    })
+
+    //潜影贝胄
+    event.modify('legendary_monsters:shulker_helmet', item => {
+      item.maxDamage = 3000
+      item.rarity = 'UNCOMMON'
+      item.armorProtection = 3.0
+      item.armorToughness = 5.0
     })
 
 
@@ -435,6 +488,102 @@ ItemEvents.modification(event => {
       item.rarity = 'EPIC'
       item.maxDamage = 6000
       item.armorToughness = 4.0
+    })
+
+    //湮灭套装
+    event.modify('legendary_monsters:annihilator_helmet', item => {
+      item.fireResistant = true
+      item.rarity = 'EPIC'
+      item.maxDamage = 4000
+      item.armorToughness = 5.0
+    })
+    event.modify('legendary_monsters:annihilator_chestplate', item => {
+      item.fireResistant = true
+      item.rarity = 'EPIC'
+      item.maxDamage = 4000
+      item.armorProtection = 11.0
+      item.armorToughness = 5.0
+    })
+    event.modify('legendary_monsters:annihilator_leggings', item => {
+      item.fireResistant = true
+      item.rarity = 'EPIC'
+      item.maxDamage = 4000
+      item.armorToughness = 5.0
+    })
+    event.modify('legendary_monsters:annihilator_boots', item => {
+      item.fireResistant = true
+      item.rarity = 'EPIC'
+      item.maxDamage = 4000
+      item.armorToughness = 5.0
+    })
+
+    event.modify('minecraft:bow', item => {
+      item.fireResistant = true
+      item.maxDamage = 500
+    })
+
+    event.modify('legendary_monsters:fiery_boots', item => {
+      item.rarity = 'UNCOMMON'
+      item.fireResistant = true
+      item.maxDamage = 2000
+      item.armorProtection = 4.5
+      item.armorToughness = 3.0
+    })
+
+    event.modify('kubejs:silver_protection', item => {
+      item.fireResistant = true
+    })
+
+    event.modify('legendary_monsters:lava_eaters_skin', item => {
+      item.rarity = 'UNCOMMON'
+      item.fireResistant = true
+    })
+
+    event.modify('legendary_monsters:withered_horn', item => {
+      item.rarity = 'UNCOMMON'
+      item.fireResistant = true
+    })
+
+    event.modify('legendary_monsters:withered_bone', item => {
+      item.rarity = 'UNCOMMON'
+      item.fireResistant = true
+    })
+
+    event.modify('legendary_monsters:withered_ribcage', item => {
+      item.rarity = 'UNCOMMON'
+      item.fireResistant = true
+      item.maxDamage = 2000
+      item.armorProtection = 10.0
+      item.armorToughness = 2.0
+    })
+
+    event.modify('legendary_monsters:corrupted_soul', item => {
+      item.rarity = 'EPIC'
+      item.fireResistant = true
+    })
+    event.modify('legendary_monsters:knight_summoner', item => {
+      item.rarity = 'UNCOMMON'
+      item.fireResistant = true
+    })
+    event.modify('legendary_monsters:guard_summoner', item => {
+      item.rarity = 'UNCOMMON'
+      item.fireResistant = true
+    })
+    event.modify('legendary_monsters:somber_key_ring', item => {
+      item.rarity = 'UNCOMMON'
+      item.fireResistant = true
+    })
+    event.modify('legendary_monsters:somber_key_blade', item => {
+      item.rarity = 'UNCOMMON'
+      item.fireResistant = true
+    })
+    event.modify('legendary_monsters:deactivated_knight_summoner', item => {
+      item.rarity = 'UNCOMMON'
+      item.fireResistant = true
+    })
+    event.modify('legendary_monsters:deactivated_guard_summoner', item => {
+      item.rarity = 'UNCOMMON'
+      item.fireResistant = true
     })
 
     //过滤口罩
@@ -632,6 +781,28 @@ ItemEvents.modification(event => {
     event.modify('deep_aether:afterburner', item => {
       item.maxDamage = 1000
       item.rarity = 'EPIC'
+      item.fireResistant = true
+    })
+
+    //尖刺盾牌
+    event.modify('legendary_monsters:spiky_shield', item => {
+      item.maxDamage = 3000
+      item.rarity = 'UNCOMMON'
+      item.fireResistant = true
+    })
+    event.modify('legendary_monsters:shulker_shield', item => {
+      item.maxDamage = 3000
+      item.rarity = 'UNCOMMON'
+      item.fireResistant = true
+    })
+    event.modify('legendary_monsters:dinosaur_bone_shield', item => {
+      item.maxDamage = 10000
+      item.rarity = 'UNCOMMON'
+      item.fireResistant = true
+    })
+    event.modify('legendary_monsters:frostbitten_shield', item => {
+      item.maxDamage = 3000
+      item.rarity = 'UNCOMMON'
       item.fireResistant = true
     })
 
@@ -1685,6 +1856,27 @@ ItemEvents.modification(event => {
       item.rarity = 'UNCOMMON'
       item.fireResistant = true
       item.maxDamage = 4000
+    })
+
+    event.modify('legendary_monsters:enderitium_sword', item => {
+      item.fireResistant = true
+      item.maxDamage = 3000
+    })
+    event.modify('legendary_monsters:enderitium_pickaxe', item => {
+      item.fireResistant = true
+      item.maxDamage = 3000
+    })
+    event.modify('legendary_monsters:enderitium_axe', item => {
+      item.fireResistant = true
+      item.maxDamage = 3000
+    })
+    event.modify('legendary_monsters:enderitium_shovel', item => {
+      item.fireResistant = true
+      item.maxDamage = 3000
+    })
+    event.modify('legendary_monsters:enderitium_hoe', item => {
+      item.fireResistant = true
+      item.maxDamage = 3000
     })
 
     //金装备

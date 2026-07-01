@@ -55,7 +55,7 @@ const projectileConfigs = [
     damage: 10
   },
   {
-    entities: ['bosses_of_mass_destruction:obsidilith', 'goety:ender_keeper', 'eeeabsmobs:immortal'],
+    entities: ['meetyourfight:rosalyne', 'bosses_of_mass_destruction:obsidilith', 'goety:ender_keeper', 'eeeabsmobs:immortal'],
     timer: 8,
     projectile: 'goety:void_slash', //虚空斩击
     damage: 16
@@ -150,17 +150,28 @@ projectileConfigs.forEach(config => {
 EntityEvents.hurt(event => {
   let entity = event.entity; 
   if(event.source.player) {
-    if(event.entity.isPlayer()) return;
+
+    //if(event.entity.isPlayer()) return;
     if (entity.potionEffects.isActive('kubejs:hostility_dynamic_resistance')) return;
-    let delayTicks = 1;
-    entity.server.scheduleInTicks(delayTicks, () => { 
+
+    entity.server.scheduleInTicks(1, () => { 
       entity.potionEffects.add('kubejs:hostility_dynamic_resistance', 10, 0, false, false);
     })
+
   }
 });
 
 // 怪物效果配置
 const monsterEffectConfigs = [
+  { //一星
+    monsters: ['goetyawaken:hostile_rampart_captain'],
+    effects: [
+      { id: 'kubejs:fictional', amplifier: 0 },
+      { id: 'minecraft:regeneration', amplifier: 0 },
+      { id: 'minecraft:resistance', amplifier: 0 },
+      { id: 'minecraft:glowing', amplifier: 0 }
+    ]
+  },
   { //二星
     monsters: ['goety:brood_mother', 'goety:crone', 'goety:wither_necromancer', 'goety:wight', 'goety:minister', 'goety:bone_lord', 'goety:endersent', 'goety:hostile_redstone_golem'],
     effects: [
@@ -171,7 +182,7 @@ const monsterEffectConfigs = [
     ]
   },
   { //三星
-    monsters: ['goetyawaken:wraith_necromancer', 'goetyawaken:parched_necromancer', 'goety:skull_lord', 'goety:hostile_redstone_monstrosity', 'goety:vizier'],
+    monsters: ['goetyawaken:hostile_giant_ghast', 'goetyawaken:wraith_necromancer', 'goetyawaken:parched_necromancer', 'goety:skull_lord', 'goety:hostile_redstone_monstrosity', 'goety:vizier'],
     effects: [
       { id: 'kubejs:fictional', amplifier: 2 },
       { id: 'minecraft:regeneration', amplifier: 2 },
@@ -184,12 +195,18 @@ const monsterEffectConfigs = [
     effects: [
       { id: 'kubejs:fictional', amplifier: 3 },
       { id: 'minecraft:regeneration', amplifier: 3 },
-      { id: 'minecraft:resistance', amplifier: 1 },
+      { id: 'minecraft:resistance', amplifier: 2 },
       { id: 'minecraft:glowing', amplifier: 0 }
     ]
   },
+  { //治疗加成
+    monsters: ['aethermobs:aetherdragonphase_2', 'aethermobs:aetherdragon', 'radiation_zone_reborn:wastelands_tyrant', 'legendary_monsters:cloud_golem', 'cataclysm:ender_guardian', 'cataclysm:ignis', 'cataclysm:netherite_monstrosity', 'cataclysm:the_harbinger', 'cataclysm:scylla', 'cataclysm:maledictus', 'cataclysm:the_leviathan', 'cataclysm:ancient_remnant'],
+    effects: [
+      { id: 'kubejs:healing_power', amplifier: 0 },
+    ]
+  },
   { //魔法抗性
-    monsters: ['goetyawaken:wraith_necromancer', 'goetyawaken:parched_necromancer', 'goety:crone', 'goety:ender_keeper', 'goety:skull_lord', 'goety:hostile_redstone_monstrosity', 'goety:vizier'],
+    monsters: ['aethermobs:aetherdragonphase_2', 'aethermobs:aetherdragon', 'goetyawaken:wraith_necromancer', 'goetyawaken:parched_necromancer', 'goety:crone', 'goety:ender_keeper', 'goety:skull_lord', 'goety:hostile_redstone_monstrosity', 'goety:vizier'],
     effects: [
       { id: 'kubejs:hostility_magic_resistance', amplifier: 1 }
     ]
@@ -265,23 +282,6 @@ EntityEvents.spawned(event => {
   }
 });
 
-//特殊掉落
-EntityEvents.drops('cataclysm:maledictus', event => {
-  let entity = event.entity;
-  let dimensionId = entity.level.dimension.toString()
-  //console.log(`测试1`)
-  if (dimensionId === 'pbf1:sanctum_of_the_battle1') {
-    let damageSource = event.getSource();
-    let player = damageSource.player
-    //if (player.isCuriosEquipped('goety:unholy_blood')) {
-    event.addDrop('kubejs:contrary_chronicle', 1)
-    event.drops.removeIf(item => item.item.id === 'minecraft:rotten_flesh');
-    //event.cancel();
-    //entity.spawnAtLocation('kubejs:cucumber1', 1);
-    //console.log(`测试2`)
-    //}
-  }
-})
 
 
 // 骷髅幻翼

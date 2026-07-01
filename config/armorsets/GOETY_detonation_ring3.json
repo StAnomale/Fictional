@@ -1,0 +1,31 @@
+{
+  "armorSetName": "detonation_ring",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "goetyawaken:detonation_ring",
+      "mixAndMatch": [
+      ],
+      "mustBeEmpty": false
+    },
+    {
+      "itemKey": "goety:unholy_blood",
+      "mixAndMatch": [
+      ],
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "goety:void_potency",
+      "value": 1.0,
+      "modifierUUID": "adcc3e7e-108a-493a-b6a5-31255ace04e5",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

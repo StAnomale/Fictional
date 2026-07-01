@@ -1,0 +1,33 @@
+{
+  "armorSetName": "anchor_handle",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "legendary_monsters:anchor_handle",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:critical_damage",
+      "value": -0.2,
+      "modifierUUID": "88409426-ebb3-41da-8fc2-40153cdaf266",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_damage",
+      "value": 0.2,
+      "modifierUUID": "44c7fcd2-220f-4138-9690-fe3a8401434b",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

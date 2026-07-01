@@ -256,16 +256,20 @@ ItemEvents.rightClicked('deep_aether:storm_bow', event => {
   };
   
   const projectile = level.createEntity('minecraft:arrow');
-  projectile.setPosition(player.x, player.y + 1.5, player.z);
+  projectile.setPosition(player.x, player.y + 1.75, player.z);
   projectile.setMotion(normalizedVector.x * 2.0, normalizedVector.y * 2.0, normalizedVector.z * 2.0);
   projectile.setOwner(player);
   
   const damage = player.getAttributeTotalValue('obscure_api:magic_damage');
   const adddamage = player.getAttributeTotalValue('minecraft:generic.luck');
   projectile.mergeNbt({ pickup: 1, damage: 1 + 0.4 * damage + 0.75 * adddamage, PierceLevel: 1 });
-  
+
+  player.server.scheduleInTicks(4, () => {
+
   player.addItemCooldown('deep_aether:storm_bow', 10);
   projectile.spawn();
+
+  })
 });
 
 // ==================== 凤舞长弓 ====================
@@ -286,31 +290,93 @@ ItemEvents.rightClicked('aether:phoenix_bow', event => {
   });
 });
 
-// 凤舞长弓 - 普通射击
-ItemEvents.rightClicked('aether:phoenix_bow', event => {
-  const { player, level } = event;
-  if (player.cooldowns.isOnCooldown('aether:phoenix_bow')) return;
+// // 凤舞长弓 - 普通射击
+// ItemEvents.rightClicked('aether:phoenix_bow', event => {
+//   const { player, level } = event;
+//   if (player.cooldowns.isOnCooldown('aether:phoenix_bow')) return;
   
-  const viewVector = player.getViewVector(1.0);
+//   const viewVector = player.getViewVector(1.0);
+//   const length = Math.sqrt(viewVector.x() * viewVector.x() + viewVector.y() * viewVector.y() + viewVector.z() * viewVector.z());
+//   const normalizedVector = {
+//     x: viewVector.x() / length,
+//     y: viewVector.y() / length,
+//     z: viewVector.z() / length
+//   };
+  
+//   const projectile = level.createEntity('minecraft:arrow');
+//   projectile.setPosition(player.x, player.y + 1.75, player.z);
+//   projectile.setMotion(normalizedVector.x * 2.0, normalizedVector.y * 2.0, normalizedVector.z * 2.0);
+//   projectile.setOwner(player);
+  
+//   const damage = player.getAttributeTotalValue('minecraft:generic.attack_damage');
+//   const adddamage = player.getAttributeTotalValue('minecraft:generic.max_health');
+//   projectile.mergeNbt({ pickup: 1, damage: 4 + 0.2 * damage + 0.1 * adddamage, PierceLevel: 1 });
+
+//   player.server.scheduleInTicks(4, () => {
+  
+//   player.addItemCooldown('aether:phoenix_bow', 10);
+//   projectile.spawn();
+
+//   })
+// });
+
+ItemEvents.rightClicked('aether:phoenix_bow', event => { // 凤舞长弓 - 普通射击
+  const { player, level } = event; //从事件中解构出对象待用
+  //if(!player.isCuriosEquipped('meetyourfight:wilted_ideals')) return; //佩戴饰品
+  if (event.player.cooldowns.isOnCooldown('aether:phoenix_bow')) return;
+  const viewVector = player.getViewVector(1.0); // 获取玩家的视角向量并标准化
   const length = Math.sqrt(viewVector.x() * viewVector.x() + viewVector.y() * viewVector.y() + viewVector.z() * viewVector.z());
-  const normalizedVector = {
-    x: viewVector.x() / length,
-    y: viewVector.y() / length,
-    z: viewVector.z() / length
-  };
-  
-  const projectile = level.createEntity('minecraft:arrow');
-  projectile.setPosition(player.x, player.y + 1.2, player.z);
-  projectile.setMotion(normalizedVector.x * 2.0, normalizedVector.y * 2.0, normalizedVector.z * 2.0);
-  projectile.setOwner(player);
-  
+  const normalizedVector = {x: viewVector.x() / length,y: viewVector.y() / length,z: viewVector.z() / length};
+  const projectile = level.createEntity('minecraft:arrow'); // 发射物
+
+  const offset = -0.5;  // 偏移距离
+
+  const spawnX = player.x + normalizedVector.x * offset; // 基于玩家位置+视线方向偏移
+  const spawnY = player.y + 1.75 + normalizedVector.y * offset;
+  const spawnZ = player.z + normalizedVector.z * offset;
+  projectile.setPosition(spawnX, spawnY, spawnZ); //设定发射坐标
+
+  const velocity = 3.0; // 设定速度基数
+
   const damage = player.getAttributeTotalValue('minecraft:generic.attack_damage');
   const adddamage = player.getAttributeTotalValue('minecraft:generic.max_health');
-  projectile.mergeNbt({ pickup: 1, damage: 4 + 0.2 * damage + 0.1 * adddamage, PierceLevel: 1 });
-  
-  player.addItemCooldown('aether:phoenix_bow', 10);
+
+  projectile.mergeNbt({ pickup: 4, damage: 2 + 0.1 * damage + 0.1 * adddamage, PierceLevel: 8 })// 设定弹射物NBT数据
+
+  projectile.setMotion(normalizedVector.x * velocity, normalizedVector.y * velocity, normalizedVector.z * velocity); // 设定弹射物方向
+  projectile.setOwner(player) // 设定弹射物发射者
+
+  player.server.scheduleInTicks(8, () => {
+  if (!player.player) return;
+
+  //const setCOOLDOWNS=player.getAttributeTotalValue("minecraft:generic.movement_speed")
+  player.addItemCooldown('aether:phoenix_bow', 10)
   projectile.spawn();
+
+  })
+
 });
+
+// // 凤舞长弓 - 普通射击
+// ItemEvents.rightClicked('aether:phoenix_bow', event => {
+//   const { player } = event;
+//   const damage = player.getAttributeTotalValue('minecraft:generic.attack_damage');
+//   const adddamage = player.getAttributeTotalValue('minecraft:generic.max_health');
+
+//   player.server.scheduleInTicks(6, () => { 
+//   if (!player.player) return;  // 检查玩家是否在线
+
+//     /**
+//      * @type {Internal.Projectile}
+//      */
+//     const projectile = shootProjectile(event, 'aether:phoenix_bow', 'minecraft:arrow', {
+//       cooldown: 10, velocity: 4.0
+//     });
+//     if(!projectile) return;
+//     projectile.setDamage(4 + 0.2 * damage + 0.1 * adddamage);
+//   })
+
+// });
 
 // ==================== 神烬 ====================
 // 神烬 - 太阳效果

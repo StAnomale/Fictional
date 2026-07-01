@@ -20,6 +20,14 @@
     },
     {
       "type": "attribute",
+      "name": "gunswithoutroses:gwr.damage_total",
+      "value": 0.1,
+      "modifierUUID": "48b4f480-e61b-4de4-9f47-d14cb16047f2",
+      "attributeOperation": 1,
+      "interactionType": "self"
+    },
+    {
+      "type": "attribute",
       "name": "minecraft:generic.attack_speed",
       "value": 0.5,
       "modifierUUID": "894fcf97-eb12-4dd0-889e-a0a12703f7f4",

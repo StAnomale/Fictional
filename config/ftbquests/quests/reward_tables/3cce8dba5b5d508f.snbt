@@ -2,7 +2,7 @@
 	icon: "twilightforest:naga_banner_pattern"
 	id: "3CCE8DBA5B5D508F"
 	loot_size: 1
-	order_index: 10
+	order_index: 9
 	rewards: [
 		{
 			item: {

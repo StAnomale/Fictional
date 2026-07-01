@@ -1,0 +1,25 @@
+{
+  "armorSetName": "molten_metal_ingot",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "legendary_monsters:molten_metal_ingot",
+      "mixAndMatch": [
+      ],
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:penetration",
+      "value": 0.1,
+      "modifierUUID": "9fcc28f0-ce50-4a4e-ae3d-dc3dd996ed6f",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

@@ -330,14 +330,14 @@ ItemEvents.rightClicked('gunswithoutroses:blaze_gun', event => { //烈焰枪
   const spawnY = player.y + 1.5 + normalizedVector.y * offset;
   const spawnZ = player.z + normalizedVector.z * offset;
   projectile.setPosition(spawnX, spawnY, spawnZ); //设定发射坐标
-  const velocity = 2.0; // 设定速度基数
+  const velocity = 4.0; // 设定速度基数
   const damage=player.getAttributeTotalValue("minecraft:generic.armor")
   const totaldamage=player.getAttributeTotalValue("gunswithoutroses:gwr.damage_total")
   projectile.mergeNbt({ pickup: 4, damage: (6+0.4*damage)*totaldamage, PierceLevel: 8 })// 设定弹射物NBT数据
   projectile.setMotion(normalizedVector.x * velocity, normalizedVector.y * velocity, normalizedVector.z * velocity); // 设定弹射物方向
   projectile.setOwner(player) // 设定弹射物发射者
   const setCOOLDOWNS=player.getAttributeTotalValue("minecraft:generic.movement_speed")
-  player.addItemCooldown('mutantmore:mutant_blaze_core', 1 * 4/(setCOOLDOWNS))
+  player.addItemCooldown('mutantmore:mutant_blaze_core', 1 * 3/(setCOOLDOWNS))
   projectile.spawn();
   });
 
@@ -354,14 +354,14 @@ ItemEvents.rightClicked('gwrexpansions:hellforge_revolver', event => { //狱锻�
   const spawnY = player.y + 1.5 + normalizedVector.y * offset;
   const spawnZ = player.z + normalizedVector.z * offset;
   projectile.setPosition(spawnX, spawnY, spawnZ); //设定发射坐标
-  const velocity = 2.0; // 设定速度基数
+  const velocity = 4.0; // 设定速度基数
   const damage=player.getAttributeTotalValue("minecraft:generic.armor")
   const totaldamage=player.getAttributeTotalValue("gunswithoutroses:gwr.damage_total")
   projectile.mergeNbt({ pickup: 4, damage: (6+0.4*damage)*totaldamage, PierceLevel: 8 })// 设定弹射物NBT数据
   projectile.setMotion(normalizedVector.x * velocity, normalizedVector.y * velocity, normalizedVector.z * velocity); // 设定弹射物方向
   projectile.setOwner(player) // 设定弹射物发射者
   const setCOOLDOWNS=player.getAttributeTotalValue("minecraft:generic.movement_speed")
-  player.addItemCooldown('mutantmore:mutant_blaze_core', 1 * 4/(setCOOLDOWNS))
+  player.addItemCooldown('mutantmore:mutant_blaze_core', 1 * 3/(setCOOLDOWNS))
   projectile.spawn();
   });
 
@@ -416,65 +416,30 @@ ItemEvents.firstLeftClicked('bosses_of_mass_destruction:earthdive_spear', event 
 // 巨人之锤 - 使用通用函数
 ItemEvents.firstLeftClicked('mutantmonsters:hulk_hammer', event => {
   const { player } = event;
-  const damage = player.getAttributeTotalValue("minecraft:generic.attack_damage");
   const adddamage = player.getAttributeTotalValue("minecraft:generic.armor_toughness");
+  const setCOOLDOWNS = player.getAttributeTotalValue('minecraft:generic.attack_speed');
   
   shootProjectile(event, 'mutantmonsters:hulk_hammer', 'radiation_zone_reborn:sand_ball', {
     velocity: 4.0,
-    nbt: { pickup: 1, damage: 4 + 0.1 * damage + 0.05 * adddamage, PierceLevel: 2 },
-    cooldown: (p) => 20 / p.getAttributeTotalValue("minecraft:generic.attack_speed")
+    nbt: { pickup: 1, damage: 1 + 0.1 * adddamage, PierceLevel: 2 },
+    cooldown: 20 / setCOOLDOWNS
   });
 });
 
 // 尸壳战锤 - 使用通用函数
 ItemEvents.firstLeftClicked('mutantmore:husk_hammer', event => {
   const { player } = event;
-  const damage = player.getAttributeTotalValue("minecraft:generic.attack_damage");
   const adddamage = player.getAttributeTotalValue("minecraft:generic.armor_toughness");
+  const setCOOLDOWNS = player.getAttributeTotalValue('minecraft:generic.attack_speed');
   
   shootProjectile(event, 'mutantmore:husk_hammer', 'radiation_zone_reborn:player_sand_bomb', {
     spawnY: 1.1,
     velocity: 2.0,
-    nbt: { pickup: 1, damage: 6 + 0.2 * damage + 0.1 * adddamage, PierceLevel: 2 },
-    cooldown: (p) => 20 / p.getAttributeTotalValue("minecraft:generic.attack_speed")
+    nbt: { pickup: 1, damage: 4 + 0.2 * adddamage, PierceLevel: 2 },
+    cooldown: 20 / setCOOLDOWNS
   });
 });
 
-// 沙尘大剑 - 使用通用函数
-ItemEvents.firstLeftClicked('radiation_zone_reborn:dustorm_greatsword', event => {
-  const { player } = event;
-  const damage = player.getAttributeTotalValue("minecraft:generic.attack_damage");
-  const adddamage = player.getAttributeTotalValue("obscure_api:magic_damage");
-  
-  shootProjectile(event, 'radiation_zone_reborn:dustorm_greatsword', 'radiation_zone_reborn:sand_ball', {
-    nbt: { pickup: 2, damage: 3 + 0.2 * damage + 0.4 * adddamage, PierceLevel: 2 },
-    cooldown: (p) => 20 / p.getAttributeTotalValue("minecraft:generic.attack_speed")
-  });
-});
-
-// 沙尘剑 - 使用通用函数
-ItemEvents.firstLeftClicked('radiation_zone_reborn:dustorm_sword', event => {
-  const { player } = event;
-  const damage = player.getAttributeTotalValue("minecraft:generic.attack_damage");
-  const adddamage = player.getAttributeTotalValue("obscure_api:magic_damage");
-  
-  shootProjectile(event, 'radiation_zone_reborn:dustorm_sword', 'radiation_zone_reborn:sand_ball', {
-    nbt: { pickup: 2, damage: 2 + 0.2 * damage + 0.4 * adddamage, PierceLevel: 2 },
-    cooldown: (p) => 20 / p.getAttributeTotalValue("minecraft:generic.attack_speed")
-  });
-});
-
-// 沙尘锤 - 使用通用函数
-ItemEvents.firstLeftClicked('radiation_zone_reborn:dustorm_hammer', event => {
-  const { player } = event;
-  const damage = player.getAttributeTotalValue("minecraft:generic.attack_damage");
-  const adddamage = player.getAttributeTotalValue("obscure_api:magic_damage");
-  
-  shootProjectile(event, 'radiation_zone_reborn:dustorm_hammer', 'radiation_zone_reborn:sand_ball', {
-    nbt: { pickup: 2, damage: 3 + 0.2 * damage + 0.4 * adddamage, PierceLevel: 2 },
-    cooldown: (p) => 20 / p.getAttributeTotalValue("minecraft:generic.attack_speed")
-  });
-});
 
 
 // 荒漠号角
@@ -484,13 +449,23 @@ ItemEvents.rightClicked('mutantmore:desert_horn', event => {
   const adddamage = player.getAttributeTotalValue("obscure_api:magic_damage");
   
   shootProjectile(event, 'mutantmore:desert_horn', 'radiation_zone_reborn:sand_ball', {
-    nbt: { pickup: 4, damage: 2 + 0.1 * damage + 0.5 * adddamage, PierceLevel: 2 },
-    cooldown: (p) => 30 
+    velocity: 4.0,
+    nbt: { pickup: 4, damage: 4 + 0.2 * damage + 0.75 * adddamage, PierceLevel: 2 },
+    cooldown: 30 
   });
 });
 
-// 巨岩系列武器 - 使用通用函数批量注册
+// 沙尘武器
 const giantrockWeapons = [
+  'radiation_zone_reborn:dustorm_greatsword',
+  'radiation_zone_reborn:dustorm_sword',
+  'radiation_zone_reborn:dustorm_hammer',
+  'radiation_zone_reborn:sedisilver_hammer',   // 沉积银锤
+  'radiation_zone_reborn:sedisilver_axe',      // 沉积银斧
+  'radiation_zone_reborn:sedisilver_dagger',   // 沉积银匕首
+  'radiation_zone_reborn:sedisilver_sword',    // 沉积银剑
+  'radiation_zone_reborn:sedisilver_pickaxe',  // 沉积银镐
+  'radiation_zone_reborn:sedisilver_shovel',    // 沉积银锹
   'radiation_zone_reborn:giantrock_hammer',   // 巨岩锤
   'radiation_zone_reborn:giantrock_axe',      // 巨岩斧
   'radiation_zone_reborn:giantrock_dagger',   // 巨岩匕首
@@ -502,12 +477,13 @@ const giantrockWeapons = [
 giantrockWeapons.forEach(weaponId => {
   ItemEvents.firstLeftClicked(weaponId, event => {
     const { player } = event;
-    const damage = player.getAttributeTotalValue("minecraft:generic.attack_damage");
     const adddamage = player.getAttributeTotalValue("obscure_api:magic_damage");
+    const setCOOLDOWNS = player.getAttributeTotalValue('minecraft:generic.attack_speed');
     
     shootProjectile(event, weaponId, 'radiation_zone_reborn:sand_ball', {
-      nbt: { pickup: 2, damage: 2 + 0.2 * damage + 0.4 * adddamage, PierceLevel: 2 },
-      cooldown: (p) => 20 / p.getAttributeTotalValue("minecraft:generic.attack_speed")
+      velocity: 4.0,
+      nbt: { pickup: 2, damage: 1 + 0.25 * adddamage, PierceLevel: 2 },
+      cooldown: 20 / setCOOLDOWNS
     });
   });
 });
@@ -515,47 +491,25 @@ giantrockWeapons.forEach(weaponId => {
 // 巨岩锄 - 特殊冷却时间
 ItemEvents.firstLeftClicked('radiation_zone_reborn:giantrock_hoe', event => {
   const { player } = event;
-  const damage = player.getAttributeTotalValue("minecraft:generic.attack_damage");
   const adddamage = player.getAttributeTotalValue("obscure_api:magic_damage");
+  const setCOOLDOWNS = player.getAttributeTotalValue('minecraft:generic.attack_speed');
   
   shootProjectile(event, 'radiation_zone_reborn:giantrock_hoe', 'radiation_zone_reborn:sand_ball', {
-    nbt: { pickup: 2, damage: 2 + 0.2 * damage + 0.4 * adddamage, PierceLevel: 2 },
-    cooldown: (p) => 40 / p.getAttributeTotalValue("minecraft:generic.attack_speed")
-  });
-});
-
-
-// 沉积银系列武器 - 使用通用函数批量注册
-const sedisilverWeapons = [
-  'radiation_zone_reborn:sedisilver_hammer',   // 沉积银锤
-  'radiation_zone_reborn:sedisilver_axe',      // 沉积银斧
-  'radiation_zone_reborn:sedisilver_dagger',   // 沉积银匕首
-  'radiation_zone_reborn:sedisilver_sword',    // 沉积银剑
-  'radiation_zone_reborn:sedisilver_pickaxe',  // 沉积银镐
-  'radiation_zone_reborn:sedisilver_shovel'    // 沉积银锹
-];
-
-sedisilverWeapons.forEach(weaponId => {
-  ItemEvents.firstLeftClicked(weaponId, event => {
-    const { player } = event;
-    const damage = player.getAttributeTotalValue("minecraft:generic.attack_damage");
-    const adddamage = player.getAttributeTotalValue("obscure_api:magic_damage");
-    
-    shootProjectile(event, weaponId, 'radiation_zone_reborn:sand_ball', {
-      nbt: { pickup: 2, damage: 2 + 0.2 * damage + 0.4 * adddamage, PierceLevel: 2 },
-      cooldown: (p) => 20 / p.getAttributeTotalValue("minecraft:generic.attack_speed")
-    });
+    nbt: { pickup: 2, damage: 2 + 0.5 * adddamage, PierceLevel: 2 },
+    cooldown: 40 / setCOOLDOWNS
   });
 });
 
 // 沉积银锄 - 特殊冷却时间
 ItemEvents.firstLeftClicked('radiation_zone_reborn:sedisilver_hoe', event => {
   const { player } = event;
-  const damage = player.getAttributeTotalValue("minecraft:generic.attack_damage");
   const adddamage = player.getAttributeTotalValue("obscure_api:magic_damage");
+  const setCOOLDOWNS = player.getAttributeTotalValue('minecraft:generic.attack_speed');
   
   shootProjectile(event, 'radiation_zone_reborn:sedisilver_hoe', 'radiation_zone_reborn:sand_ball', {
-    nbt: { pickup: 2, damage: 2 + 0.2 * damage + 0.4 * adddamage, PierceLevel: 2 },
-    cooldown: (p) => 40 / p.getAttributeTotalValue("minecraft:generic.attack_speed")
+    nbt: { pickup: 2, damage: 2 + 0.5 * adddamage, PierceLevel: 2 },
+    cooldown: 40 / setCOOLDOWNS
   });
 });
+
+

@@ -1,0 +1,43 @@
+{
+  "armorSetName": "withered_bone",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "legendary_monsters:withered_bone",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "gunswithoutroses:gwr.damage_total",
+      "value": 0.15,
+      "modifierUUID": "ffca1c6c-779a-4480-acb8-1488982dc0b7",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_damage",
+      "value": 0.15,
+      "modifierUUID": "935dcd21-f412-40cf-baec-c299b8de1f79",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.movement_speed",
+      "value": 0.1,
+      "modifierUUID": "b4956e8f-3eb3-4dd7-bda9-8d09dae9b841",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

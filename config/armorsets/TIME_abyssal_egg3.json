@@ -16,7 +16,7 @@
   "fullSetBonuses": [
     {
       "type": "attribute",
-      "name": "goety:storm_potency",
+      "name": "goety:abyss_potency",
       "value": 1.0,
       "modifierUUID": "2b3d4a9e-3d4d-4fb9-ad1a-4f8ad4961777",
       "attributeOperation": 0,

@@ -42,7 +42,7 @@
 		}
 	},
 	"obsidilithConfig": {
-		"health": 3600.0,
+		"health": 4200.0,
 		"armor": 40.0,
 		"attack": 40.0,
 		"idleHealingPerTick": 1.0,
@@ -51,11 +51,11 @@
 		"anvilAttackExplosionStrength": 10.0
 	},
 	"gauntletConfig": {
-		"health": 800.0,
-		"armor": 24.0,
+		"health": 1600.0,
+		"armor": 20.0,
 		"attack": 32.0,
 		"idleHealingPerTick": 1.0,
-		"experienceDrop": 6000,
+		"experienceDrop": 4000,
 		"spawnAncientDebrisOnDeath": true,
 		"energizedPunchExplosionSize": 7.5,
 		"normalPunchExplosionMultiplier": 4.0
@@ -65,7 +65,7 @@
 		"armor": 20.0,
 		"attack": 40.0,
 		"idleHealingPerTick": 1.0,
-		"experienceDrop": 10000
+		"experienceDrop": 8000
 	},
 	"generalConfig": {
 		"tableOfElevationRadius": 3

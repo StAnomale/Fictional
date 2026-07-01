@@ -275,17 +275,6 @@
         "value": 2048
       }
     },
-    "goety_revelation:spell_range": {
-      "enabled": false,
-      "min": {
-        "default": -1000000,
-        "value": -1000000
-      },
-      "max": {
-        "default": 1000000,
-        "value": 1000000
-      }
-    },
     "too_many_bows:bow_draw_speed": {
       "enabled": false,
       "min": {
@@ -295,6 +284,17 @@
       "max": {
         "default": 10,
         "value": 10
+      }
+    },
+    "goety_revelation:spell_range": {
+      "enabled": false,
+      "min": {
+        "default": -1000000,
+        "value": -1000000
+      },
+      "max": {
+        "default": 1000000,
+        "value": 1000000
       }
     },
     "goety_revelation:nether_power": {
@@ -570,6 +570,17 @@
       "max": {
         "default": 1,
         "value": 1
+      }
+    },
+    "vzling:generic.mag_size": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 2147483647,
+        "value": 2147483647
       }
     },
     "obscure_api:critical_damage": {
@@ -1958,6 +1969,17 @@
         "value": 1
       }
     },
+    "vzling:generic.fire_rate": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2147483647,
+        "value": 2147483647
+      }
+    },
     "goety_revelation:abyss_power": {
       "enabled": false,
       "min": {
@@ -2288,6 +2310,17 @@
         "value": 1024
       }
     },
+    "hojojutsu:max_tying_value": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 2147483647,
+        "value": 2147483647
+      }
+    },
     "huanle:looting_level": {
       "enabled": false,
       "min": {
@@ -2552,6 +2585,17 @@
         "value": 2048
       }
     },
+    "vzling:generic.bullet_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 340282346638528860000000000000000000000,
+        "value": 340282346638528860000000000000000000000
+      }
+    },
     "malum:soul_ward_capacity": {
       "enabled": false,
       "min": {
@@ -2616,6 +2660,17 @@
       "max": {
         "default": 10000,
         "value": 10000
+      }
+    },
+    "vzling:generic.aim_speed": {
+      "enabled": false,
+      "min": {
+        "default": 0.009999999776482582,
+        "value": 0.009999999776482582
+      },
+      "max": {
+        "default": 10,
+        "value": 10
       }
     },
     "terra_curio:magic_damage": {
@@ -3155,6 +3210,17 @@
       "max": {
         "default": 10,
         "value": 10
+      }
+    },
+    "hojojutsu:max_untying_value": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 2147483647,
+        "value": 2147483647
       }
     },
     "sweet_charm_o_mine:bullet_armor_penetration": {

@@ -1,0 +1,29 @@
+{
+  "armorSetName": "tidal_claws",
+  "performanceMode": true,
+  "offHand": {
+    "itemKey": "cataclysm:tidal_claws",
+    "mixAndMatch": [
+      ],
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "forge:entity_reach",
+      "value": 0.4,
+      "modifierUUID": "77232038-9400-42cd-b067-23559497e358",
+      "attributeOperation": 1,
+      "interactionType": "self"
+    },
+    {
+      "type": "attribute",
+      "name": "obscure_api:magic_damage",
+      "value": 0.4,
+      "modifierUUID": "423d245f-89f8-4c8e-b63c-7fb1b65b214c",
+      "attributeOperation": 2,
+      "interactionType": "self"
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

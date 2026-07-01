@@ -16,6 +16,18 @@ ServerEvents.tags("entity_type", event => {
     event.add("radiation_zone_reborn:radiation_zone_mob", "mutantmore:mutant_jungle_zombie")
     event.add("radiation_zone_reborn:radiation_zone_mob", "mutantmore:mutant_frozen_zombie")
 
+    event.add("radiation_zone_reborn:radiation_zone_mob", "legendary_monsters:resurrected_knight")
+    event.add("radiation_zone_reborn:radiation_zone_mob", "legendary_monsters:beheaded_knight")
+    event.add("radiation_zone_reborn:radiation_zone_mob", "legendary_monsters:posessed_paladin")
+    event.add("radiation_zone_reborn:radiation_zone_mob", "legendary_monsters:haunted_guard")
+    event.add("radiation_zone_reborn:radiation_zone_mob", "legendary_monsters:haunted_knight")
+    event.add("radiation_zone_reborn:radiation_zone_mob", "legendary_monsters:fractured")
+    event.add("radiation_zone_reborn:radiation_zone_mob", "legendary_monsters:fractured_apostle")
+    event.add("radiation_zone_reborn:radiation_zone_mob", "legendary_monsters:dune_sentinel")
+    event.add("radiation_zone_reborn:radiation_zone_mob", "legendary_monsters:frostbitten_golem")
+    event.add("radiation_zone_reborn:radiation_zone_mob", "legendary_monsters:overgrown_colossus")
+    event.add("radiation_zone_reborn:radiation_zone_mob", "legendary_monsters:bomber")
+
     //event.remove("dungeons_arise:heavenly_challenger", "#minecraft:is_jungle")
     //event.remove("dungeons_arise:heavenly_challenger", "#minecraft:is_forest")
     //event.remove("dungeons_arise:heavenly_challenger", "minecraft:desert")
@@ -37,7 +49,7 @@ ServerEvents.tags("block", event => {
     event.add("crockpot:unknown_crops", 'supplementaries:flax')
     event.add("crockpot:unknown_crops", 'farmersdelight:cabbage_seeds')
     event.add("crockpot:unknown_crops", 'farmersdelight:tomato_seeds')
-    event.add("crockpot:unknown_crops", 'farmersdelight:rice')
+    //event.add("crockpot:unknown_crops", 'farmersdelight:rice')
 
     event.remove("meetyourfight:blocks_passages_toll", "minecraft:bedrock") //旅人之钟黑名单
     event.remove("meetyourfight:blocks_passages_toll", "minecraft:barrier")
@@ -61,12 +73,17 @@ ServerEvents.tags("item", event => {
     event.remove("curios:rings", "cataclysm:ring_of_grudged")
     event.remove("curios:waist", "cataclysm:belt_of_beginner")
 
+    event.remove('minecraft:trim_materials', 'legendary_monsters:enderitium_ingot')
+    event.remove('minecraft:trim_materials', 'legendary_monsters:portal_shard')
+
+
 });
 
 // 物品标签（添加）
 ServerEvents.tags("item", event => {
 
     //event.add("minecraft:arrows", "minecraft:anvil")//铁砧
+    //event.add('minecraft:swords', 'kubejs:swallowtail_butterfly')
 
     event.add('curios:talisman', 'artifacts:cloud_in_a_bottle')//云朵瓶
     event.add('curios:talisman', 'artifacts:charm_of_sinking')//下沉护符
@@ -74,7 +91,15 @@ ServerEvents.tags("item", event => {
     event.add('curios:talisman', 'artifacts:chorus_totem')//紫颂图腾
 
     event.add("curios:charm", 'legendary_monsters:air_rune')//大气符文
+    event.add("curios:charm", 'legendary_monsters:anchor_handle')//锚把手
     event.add("curios:charm", 'legendary_monsters:nature_crystal')//自然水晶
+    event.add("curios:charm", 'legendary_monsters:chorus_crystal')//紫颂水晶
+    event.add("curios:charm", 'legendary_monsters:large_shulker_shell')
+    event.add("curios:charm", 'legendary_monsters:portal_shard')
+    event.add("curios:charm", 'legendary_monsters:eye_crystal')
+    event.add("curios:charm", 'legendary_monsters:somber_key')
+    event.add("curios:charm", 'legendary_monsters:corrupted_soul')
+    event.add("curios:charm", 'legendary_monsters:withered_horn')
 
     event.add("curios:charm", 'goetyawaken:taboo_fragment')//禁咒碎片
     event.add("curios:charm", 'goetyawaken:soul_sapphire')//灵魂蓝宝石
@@ -85,7 +110,10 @@ ServerEvents.tags("item", event => {
     event.add("curios:charm", 'goetyawaken:glacial_wraith_essence')//冰封幽魂质
     //event.add("curios:head", 'goetyawaken:mushroom_hat')//蘑菇帽
 
+    event.add("curios:charm", 'legendary_monsters:molten_metal_ingot')//熔融金属锭
+    event.add("curios:charm", 'goetyawaken:gloomy_tears')//黑沉沉泪
     event.add("curios:charm", 'meetyourfight:mossy_tooth')//藓牙
+    event.add("curios:charm", 'goetyawaken:rampart_manuscript')//堡垒手稿
 
     event.add("curios:belt", "cataclysm:belt_of_beginner")//初学者腰带
     event.add("curios:charm", "cataclysm:vitality_ankh")//活力安卡
@@ -184,6 +212,8 @@ ServerEvents.tags("item", event => {
     event.add("curios:charm", "goety:ominous_orb")
     event.add("curios:charm", "goety_spillage:mutation_potion")
 
+    event.add("curios:hands", 'legendary_monsters:withered_bone')
+
     event.add("curios:ring", "artifacts:onion_ring")//洋葱指环
 
     event.add("curios:charm", "mutantmore:mutant_blaze_core")//突变烈焰人核心
@@ -229,6 +259,7 @@ ServerEvents.tags("item", event => {
     event.add("curios:charm", "deep_aether:floaty_scarf")
     event.add("curios:charm", "deep_aether:sun_core")
     event.add("curios:charm", "deep_aether:aerwhale_saddle")
+    event.add("curios:charm", 'legendary_monsters:chiseled_ancient_dripstone_shard')
 
     event.add("curios:head", "friendsandfoes:wildfire_crown")//野火王冠
     event.add("curios:hands", "friendsandfoes:crab_claw")
@@ -301,7 +332,7 @@ ServerEvents.tags("item", event => {
     event.add('minecraft:trimmable_armor', 'mutantmore:mutant_wither_skeleton_boots')
 
     event.add('minecraft:trimmable_armor', 'royalvariations:royal_knight_helmet')
-    event.add('minecraft:trimmable_armor', 'royalvariations:royal_knight_chestplate')
+    event.add('minecraft:trimmable_armor', 'royalvariations:royal_knight_cuirass')
     event.add('minecraft:trimmable_armor', 'royalvariations:royal_knight_leggings')
     event.add('minecraft:trimmable_armor', 'royalvariations:royal_knight_boots')
 
@@ -335,6 +366,8 @@ ServerEvents.tags("item", event => {
     event.add('minecraft:trimmable_armor', 'goetyawaken:champion_leggings')
     event.add('minecraft:trimmable_armor', 'goetyawaken:champion_boots')
     event.add('minecraft:trimmable_armor', 'goetyawaken:mushroom_hat')
+
+    event.add('minecraft:trimmable_armor', 'cataclysm:bloom_stone_pauldrons')
 
     event.add('minecraft:trimmable_armor', 'radiation_zone_reborn:dustorm_chestplate_chestplate')
     event.add('minecraft:trimmable_armor', 'radiation_zone_reborn:giantrock_protective_helmet')
@@ -461,7 +494,7 @@ ServerEvents.tags("item", event => {
     event.add("curios:charm", "jrftl:prepared_flesh")
     event.add("curios:charm", "minecraft:clock")
     event.add("curios:charm", "quark:soul_bead")
-    event.add("curios:body", "quark:diamond_heart")
+    event.add("curios:charm", "quark:diamond_heart")
     event.add("curios:charm", "minecraft:recovery_compass")
 })
 

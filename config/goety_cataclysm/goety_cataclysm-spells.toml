@@ -10,15 +10,15 @@
 		desertCrushCost = 400
 		#Desert Crush Spell Damage, Default: 18.0
 		#Range: 0.0 ~ 1.7976931348623157E308
-		desertCrushDamage = 360.0
+		desertCrushDamage = 400.0
 		#Time to cast Desert Crush Spell, Default: 70
 		#Range: 0 ~ 72000
-		desertCrushTime = 30
+		desertCrushTime = 20
 
 	[Spells."Water Spear Spell"]
 		#Water Spear Spell Damage, Default: 8.0
 		#Range: 0.0 ~ 1.7976931348623157E308
-		waterSpearDamage = 100.0
+		waterSpearDamage = 80.0
 		#Time to cast Water Spear Spell, Default: 0
 		#Range: 0 ~ 72000
 		waterSpearTime = 0
@@ -158,7 +158,7 @@
 		lightningSpearAreaDamage = 12.0
 		#Lightning Spear Spell Cost, Default: 64
 		#Range: > 0
-		lightningSpearCost = 320
+		lightningSpearCost = 400
 		#How much Hp percentage damage Storm Staff fired Lightning Spear's storm cloud deals, Default: 0.04
 		#Range: 0.0 ~ 1.0
 		lightningSpearHPDamage = 0.01
@@ -223,10 +223,10 @@
 	[Spells."Storm Serpent Spell"]
 		#Storm Serpent Spell Cooldown, Default: 350
 		#Range: > 0
-		stormSerpentCoolDown = 200
+		stormSerpentCoolDown = 100
 		#Storm Serpent Spell Damage, Default: 16.0
 		#Range: 0.0 ~ 1.7976931348623157E308
-		stormSerpentDamage = 240.0
+		stormSerpentDamage = 320.0
 		#Storm Serpent Spell Cost, Default: 128
 		#Range: > 0
 		stormSerpentCost = 2000
@@ -262,10 +262,10 @@
 		abyssalBeamTime = 40
 		#Abyssal Beam Spell Cooldown, Default: 400
 		#Range: > 0
-		abyssalBeamCoolDown = 600
+		abyssalBeamCoolDown = 400
 		#Abyssal Beam Spell Damage, Default: 10.0
 		#Range: 0.0 ~ 1.7976931348623157E308
-		abyssalBeamDamage = 25.0
+		abyssalBeamDamage = 40.0
 
 	[Spells."Flare Bomb Spell"]
 		#Flare Bomb Spell Cost, Default: 32
@@ -287,16 +287,16 @@
 		abyssalOrbsRadius = 2.0
 		#Abyssal Orbs Spell Cost, Default: 16
 		#Range: > 0
-		abyssalOrbsCost = 1000
+		abyssalOrbsCost = 800
 		#Time to cast Abyssal Orbs Spell, Default: 90
 		#Range: 0 ~ 72000
-		abyssalOrbsTime = 40
+		abyssalOrbsTime = 30
 		#Abyssal Orbs Spell Cooldown, Default: 400
 		#Range: > 0
 		abyssalOrbsCoolDown = 200
 		#Abyssal Orbs Spell Damage, Default: 4.0
 		#Range: 0.0 ~ 1.7976931348623157E308
-		abyssalOrbsDamage = 120.0
+		abyssalOrbsDamage = 160.0
 
 	[Spells."Void Vortex Spell"]
 		#Void Vortex Spell Cooldown, Default: 280
@@ -338,7 +338,7 @@
 		earthShakeTime = 20
 		#Earth Shake Spell Damage, Default: 8.0
 		#Range: 0.0 ~ 1.7976931348623157E308
-		earthShakeDamage = 140.0
+		earthShakeDamage = 160.0
 		#Earth Shake Spell Cost, Default: 48
 		#Range: > 0
 		earthShakeCost = 200
@@ -346,13 +346,13 @@
 	[Spells."Battlefield Spell"]
 		#Battlefield Spell Cost, Default: 48
 		#Range: > 0
-		battlefieldCost = 400
+		battlefieldCost = 600
 		#Battlefield Spell Damage, Default: 10.0
 		#Range: 0.0 ~ 1.7976931348623157E308
-		battlefieldDamage = 100.0
+		battlefieldDamage = 300.0
 		#Battlefield Spell Cooldown, Default: 250
 		#Range: > 0
-		battlefieldCoolDown = 40
+		battlefieldCoolDown = 30
 
 	[Spells."Thunder Rage Spell"]
 		#Thunder Rage Spell Cost, Default: 64
@@ -360,7 +360,7 @@
 		thunderRageCost = 1600
 		#Thunder Rage Spell Cooldown, Default: 350
 		#Range: > 0
-		thunderRageCoolDown = 100
+		thunderRageCoolDown = 60
 
 	[Spells."Cursed Cairn Spell"]
 		#Cursed Cairn Spell Cost, Default: 32
@@ -419,7 +419,7 @@
 		extinctFlameCoolDown = 60
 		#How much base damage regular Extinct Flame Fireballs deals, Default: 6.0
 		#Range: 1.0 ~ 1.7976931348623157E308
-		extinctFlameDamage = 120.0
+		extinctFlameDamage = 180.0
 		#Whether Extinct Flame Spell can set fires, Default: false
 		extinctFlameGriefing = false
 		#Extinct Flame's Fireballs default explosion radius, Default: 1.0
@@ -430,10 +430,10 @@
 		extinctFlameCost = 600
 		#How much base damage Extinct Flame Soul Fireballs deals, Default: 8.0
 		#Range: 1.0 ~ 1.7976931348623157E308
-		extinctFlameSoulDamage = 160.0
+		extinctFlameSoulDamage = 240.0
 		#How much base damage Extinct Flame Abyss Fireballs deals, Default: 10.0
 		#Range: 1.0 ~ 1.7976931348623157E308
-		extinctFlameAbyssDamage = 200.0
+		extinctFlameAbyssDamage = 300.0
 
 	[Spells."Abyssal Mines Spell"]
 		#Time to cast Abyssal Mines Spell, Default: 70
@@ -441,7 +441,7 @@
 		abyssalMinesTime = 20
 		#Abyssal Mines Spell Cooldown, Default: 800
 		#Range: > 0
-		abyssalMinesCoolDown = 200
+		abyssalMinesCoolDown = 80
 		#Abyssal Mines Spell Cost, Default: 16
 		#Range: > 0
 		abyssalMinesCost = 400
@@ -455,16 +455,16 @@
 		ashenBreathChargeUp = 0
 		#How long the Ashen Breath Spell can be casted, setting it to 0 will allow the spell to be cast indefinitely, Default: 25
 		#Range: 0 ~ 72000
-		ashenBreathTime = 100
+		ashenBreathTime = 200
 		#Ashen Breath Spell Damage, Default: 4.0
 		#Range: 0.0 ~ 1.7976931348623157E308
-		ashenBreathDamage = 8.0
+		ashenBreathDamage = 16.0
 		#Ashen Breath Spell Cooldown, Default: 200
 		#Range: > 0
-		ashenBreathCoolDown = 200
+		ashenBreathCoolDown = 100
 		#Ashen Breath Spell Cost, Default: 16
 		#Range: > 0
-		ashenBreathCost = 60
+		ashenBreathCost = 80
 
 	[Spells."Kakoúrgos Spell"]
 		#Time to cast Kakoúrgos Spell, Default: 60

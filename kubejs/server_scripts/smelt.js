@@ -12,6 +12,11 @@ event.blasting('goety:empty_focus', '#goety:focuses').cookingTime(300).xp(10.0)
 event.blasting('goety:empty_focus', '#goety:wands').cookingTime(300).xp(10.0)
 event.blasting('4x goety:empty_focus', 'goety:resonance_crystal').cookingTime(300).xp(10.0)
 
+event.blasting('minecraft:iron_ingot', 'goety:pale_steel_ingot').cookingTime(200)
+
+//米诺陶斧（高炉）
+event.blasting('twilightforest:gold_minotaur_axe', 'twilightforest:diamond_minotaur_axe').cookingTime(300).xp(10.0)
+
 //大气之靴（高炉）
 event.blasting('legendary_monsters:air_rune', 'legendary_monsters:atmospheric_boots').cookingTime(300).xp(10.0)
 
@@ -205,7 +210,7 @@ event.blasting('5x aether_redux:gravitite_ingot', 'aether:gravitite_helmet').coo
 event.blasting('8x aether_redux:gravitite_ingot', 'aether:gravitite_chestplate').cookingTime(300)
 event.blasting('7x aether_redux:gravitite_ingot', 'aether:gravitite_leggings').cookingTime(300)
 event.blasting('4x aether_redux:gravitite_ingot', 'aether:gravitite_boots').cookingTime(300)
-event.blasting('4x aether_redux:gravitite_ingot', 'aether:gravitite_gloves').cookingTime(300)
+event.blasting('2x aether_redux:gravitite_ingot', 'aether:gravitite_gloves').cookingTime(300)
 
 event.blasting('2x aether_redux:gravitite_ingot', 'aether:gravitite_sword').cookingTime(300)
 event.blasting('3x aether_redux:gravitite_ingot', 'aether:gravitite_pickaxe').cookingTime(300)

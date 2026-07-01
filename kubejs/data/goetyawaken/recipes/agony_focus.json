@@ -2,7 +2,7 @@
   "type": "goety:ritual",
   "ritual_type": "goety:craft",
   "activation_item": {
-    "item": "goety:wither_skull_focus"
+    "item": "goety:bombardment_focus"
   },
   "craftType": "expert_nether",
   "soulCost": 50,
@@ -11,6 +11,18 @@
   "ingredients": [
     {
       "item": "goety:ominous_shackles"
+    },
+    {
+      "item": "minecraft:netherite_ingot"
+    },
+    {
+      "item": "minecraft:netherite_ingot"
+    },
+    {
+      "item": "minecraft:netherite_ingot"
+    },
+    {
+      "item": "quark:soul_bead"
     },
     {
       "item": "goety:ominous_shackles"

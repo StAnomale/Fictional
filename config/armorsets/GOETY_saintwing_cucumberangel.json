@@ -44,10 +44,10 @@
     },
     {
       "type": "attribute",
-      "name": "minecraft:generic.attack_damage",
-      "value": -0.1,
+      "name": "obscure_api:critical_damage",
+      "value": -0.2,
       "modifierUUID": "26a3549b-4673-490b-9f20-2bf029778df9",
-      "attributeOperation": 1,
+      "attributeOperation": 0,
       "interactionType": "self",
       "hideBonusDescription": false,
       "onlyImmuneToNewEffects": false

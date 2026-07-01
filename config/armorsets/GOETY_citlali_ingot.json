@@ -20,7 +20,7 @@
     {
       "type": "attribute",
       "name": "minecraft:generic.attack_damage",
-      "value": 2.0,
+      "value": 1.5,
       "modifierUUID": "f0a45579-67ca-44f2-9f36-365f83f641e7",
       "attributeOperation": 0,
       "interactionType": "self",
@@ -30,7 +30,7 @@
     {
       "type": "attribute",
       "name": "minecraft:generic.luck",
-      "value": 2.0,
+      "value": 1.5,
       "modifierUUID": "5ad2b4b9-4f9e-4571-93e6-ff722a9b2c4e",
       "attributeOperation": 0,
       "interactionType": "self",

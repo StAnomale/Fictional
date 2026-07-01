@@ -1,0 +1,8 @@
+
+[General]
+	#Command history limit.
+	#Range: 0 ~ 500
+	historyLimit = 50
+	#Only the commands are recorded.
+	onlyCommand = false
+

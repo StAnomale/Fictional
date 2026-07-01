@@ -3,5 +3,20 @@
         "when": "onjoin",
         "mob": "aether:whirlwind",
         "result": "deny"
+    },
+    {
+        "when": "onjoin",
+        "mob": "friendsandfoes:mauler",
+        "result": "deny"
+    },
+    {
+        "when": "onjoin",
+        "mob": "goetyawaken:frozen_zombie",
+        "result": "deny"
+    },
+    {
+        "when": "onjoin",
+        "mob": "goetyawaken:hostile_wildfire",
+        "result": "deny"
     }
 ]

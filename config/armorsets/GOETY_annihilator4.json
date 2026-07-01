@@ -1,0 +1,49 @@
+{
+  "armorSetName": "annihilator",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "legendary_monsters:annihilator_helmet",
+    "mixAndMatch": [
+    ],
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "legendary_monsters:annihilator_chestplate",
+    "mixAndMatch": [
+    ],
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "legendary_monsters:annihilator_leggings",
+    "mixAndMatch": [
+    ],
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "legendary_monsters:annihilator_boots",
+    "mixAndMatch": [
+    ],
+    "mustBeEmpty": false
+  },
+  "mainHand": {
+    "itemKey": "legendary_monsters:the_tesseract",
+    "mixAndMatch": [
+      "legendary_monsters:atom_splitter",
+      "legendary_monsters:soul_great_sword"
+      ],
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:penetration",
+      "value": 0.2,
+      "modifierUUID": "ba20b078-8733-46bb-8a18-e143f6f1697d",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

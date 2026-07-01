@@ -1,0 +1,12 @@
+{
+    "type": "cataclysm:weapon_fusion",
+    "base": {
+        "item": "enderitemod:enderite_chestplate"
+    },
+    "addition": {
+        "item": "minecraft:elytra"
+    },
+    "result": {
+        "item": "enderitemod:enderite_elytra"
+    }
+}

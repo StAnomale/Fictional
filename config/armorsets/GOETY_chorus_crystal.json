@@ -1,0 +1,24 @@
+{
+  "armorSetName": "obsidian_heart",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "legendary_monsters:chorus_crystal",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor_toughness",
+      "value": 4.0,
+      "modifierUUID": "2c92edca-93b3-4cbf-90ff-1abc16967259",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

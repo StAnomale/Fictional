@@ -1,0 +1,29 @@
+{
+  "armorSetName": "claymore",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "legendary_monsters:chorus_mask",
+    "mixAndMatch": [
+    ],
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.luck",
+      "value": 0.1,
+      "modifierUUID": "3a0b4258-6bad-48e0-bfce-22129cdbba1f",
+      "attributeOperation": 1,
+      "interactionType": "self"
+    },
+    {
+      "type": "attribute",
+      "name": "functionalarmortrim:experience_boost",
+      "value": 0.1,
+      "modifierUUID": "84d8e026-8ccf-4280-b25d-d4bc51ded0bf",
+      "attributeOperation": 1,
+      "interactionType": "self"
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

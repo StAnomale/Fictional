@@ -1,0 +1,29 @@
+{
+  "armorSetName": "fiery_jaw",
+  "performanceMode": true,
+  "offHand": {
+    "itemKey": "legendary_monsters:fiery_jaw",
+    "mixAndMatch": [
+      ],
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:critical_damage",
+      "value": 0.4,
+      "modifierUUID": "a1e5e6ab-3df2-4932-8e21-a91981a27204",
+      "attributeOperation": 0,
+      "interactionType": "self"
+    },
+    {
+      "type": "attribute",
+      "name": "obscure_api:magic_damage",
+      "value": 0.4,
+      "modifierUUID": "22523185-4c99-41bc-83ba-93fbffb9555d",
+      "attributeOperation": 2,
+      "interactionType": "self"
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

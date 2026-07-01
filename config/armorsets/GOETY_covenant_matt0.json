@@ -66,7 +66,7 @@
     },
     {
       "type": "attribute",
-      "name": "obscure_api:magic_resistance",
+      "name": "obscure_api:penetration",
       "value": 0.2,
       "modifierUUID": "0173e769-4dd3-49ea-801b-88cc1c18f44b",
       "attributeOperation": 0,

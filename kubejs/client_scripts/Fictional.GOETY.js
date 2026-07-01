@@ -148,6 +148,16 @@ e.add([
 	Text.translate('OEA.air'),
 	])
 
+e.add([
+	'goetyawaken:gloomy_tears'], [
+	Text.translate('OEA.air'),
+	Text.translate('Fictional.END.curios'),
+	Text.translate('Fictional.GOETY.gloomy_tears1'),
+	Text.translate('Fictional.GOETY.gloomy_tears2'),
+	Text.translate('Fictional.GOETY.gloomy_tears3'),
+	Text.translate('OEA.air'),
+	])
+
 e.add([       
 	'meetyourfight:ace_of_iron',
 	'meetyourfight:slicers_dice'], [
@@ -271,15 +281,15 @@ e.addAdvanced('kubejs:gold_heart', (item, advanced, text) => {
 		} else {
 			text.add(1, Text.gray(''))
 			text.add(2, [Text.gray('佩戴者获得'),Text.gold(' “黄金增幅” '), Text.gray('&'),  Text.aqua(' “寒冰增幅” '), Text.gray('效果，免疫'),  Text.red(' “烈阳增幅” '), Text.gray('效果 ')])
-			text.add(3, Text.gray('使黄金武器额外发射剑刃，造成(攻击伤害*40%+幸运值*200%)伤害 '))
+			text.add(3, Text.gray('使黄金武器额外发射剑气，对目标造成(4+幸运值*200%)物理伤害 '))
 			text.add(4, Text.gray('可生效的武器包括：皇家权杖、金制及金·下界合金武器、武神系列武器 '))
 			text.add(5, Text.gray(''))
 			text.add(6, [Text.gray('佩戴'), Text.yellow(' 灵性王冠 '), Text.gray('时额外提升'), Text.green(' 2点 '), Text.gray('幸运值')])
-			text.add(7, [Text.gray('并在使用骑士召令时召唤'), Text.yellow(' 羸弱后卫 '), Text.gray('仆从')])
+			//text.add(7, [Text.gray('并在使用骑士召令时召唤'), Text.yellow(' 羸弱后卫 '), Text.gray('仆从')])
+			text.add(7, [Text.gray('使用黄金武器时额外提升'), Text.green(' 20% '), Text.gray('攻击伤害')])
             text.add(8, Text.gray(''))
-			text.add(9, [Text.gray('在使用黄金武器时额外提升'), Text.green(' 20% '), Text.gray('攻击伤害')])
-			text.add(10, [Text.gray('使用凤凰武器、佩戴钢制锅炉/炉心守卫之眼时 ')])
-			text.add(11, [Text.gray('额外减少'), Text.red(' 20% '), Text.gray('攻击伤害，此项效果可叠加生效')])
+			text.add(9, [Text.gray('使用凤凰武器、佩戴钢制锅炉/炉心守卫之眼时 ')])
+			text.add(10, [Text.gray('额外减少'), Text.red(' 20% '), Text.gray('攻击伤害，此项效果可叠加生效')])
 
 		}
 	})
@@ -307,7 +317,7 @@ e.addAdvanced('kubejs:corrupting_heart', (item, advanced, text) => {
 			text.add(1, Text.gray(''))
 			text.add(2, [Text.gray('佩戴者提升'),Text.green(' 10% '),Text.gray('法术强效和'),Text.green(' 10% '),Text.gray('治疗效果，佩戴'),Text.blue(' 深渊之卵 '),Text.gray('时效果翻倍 ')])
 			text.add(3, [Text.gray('造成伤害时回复('),Text.green('法术强效*25%+最大生命*5%'), Text.gray(')生命值，并获得深渊恐惧')])
-			text.add(4, [Text.gray('持有深渊恐惧时，改为对命中目标额外造成('), Text.gold('回复值*400%'),Text.gray(')效果的魔法伤害')])
+			text.add(4, [Text.gray('持有深渊恐惧时，改为对命中目标额外造成('), Text.gold('回复值*600%'),Text.gray(')效果的魔法伤害')])
 			text.add(5, Text.gray(''))
 			text.add(6, [Text.gray('若自身未持有'), Text.darkAqua(' 深渊恐惧 '), Text.gray('效果，减少'), Text.red(' 20% '), Text.gray('造成伤害，佩戴'),Text.blue(' 深渊之卵 '),Text.gray('时效果翻倍 ')])
 			text.add(7, [Text.gray('受伤获得'), Text.green(' 重振 '), Text.gray('效果'), Text.darkGray('(提升所有友方单位10%攻击伤害)'), Text.gray('佩戴'),Text.blue(' 深渊之卵 '),Text.gray('时效果翻倍 ')])
@@ -403,7 +413,7 @@ e.add([
 	Text.translate('Fictional.GOETY.duskfall_eclipse_blaster2'),
 	Text.translate('Fictional.GOETY.duskfall_eclipse_blaster3'),
 	Text.translate('Fictional.GOETY.duskfall_eclipse_blaster4'),
-	Text.translate('Fictional.GOETY.duskfall_eclipse_blaster5'),
+	//Text.translate('Fictional.GOETY.duskfall_eclipse_blaster5'),
 	Text.translate('Fictional.GOETY.duskfall_eclipse_blaster6'),
 	Text.translate('OEA.air'),
 	])
@@ -559,6 +569,47 @@ e.add([
 	])
 
 e.add([
+	'legendary_monsters:shattered_greatsword'], [
+	Text.translate('OEA.air'),
+	Text.translate('Fictional.GOETY.shattered_greatsword1'),
+	Text.translate('Fictional.GOETY.shattered_greatsword2'),
+	Text.translate('OEA.air'),
+	])
+
+e.add([
+	'legendary_monsters:resurrected_javelin'], [
+	Text.translate('OEA.air'),
+	Text.translate('Fictional.GOETY.resurrected_javelin1'),
+	Text.translate('Fictional.GOETY.resurrected_javelin2'),
+	Text.translate('OEA.air'),
+	])
+
+e.add([
+	'legendary_monsters:soul_great_sword'], [
+	Text.translate('OEA.air'),
+	Text.translate('Fictional.GOETY.soul_great_sword1'),
+	Text.translate('Fictional.GOETY.soul_great_sword2'),
+	Text.translate('Fictional.GOETY.soul_great_sword3'),
+	Text.translate('Fictional.GOETY.soul_great_sword4'),
+	Text.translate('OEA.air'),
+	])
+
+e.add([
+	'legendary_monsters:corrupted_soul'], [
+	Text.translate('OEA.air'),
+	Text.translate('Fictional.END.curios'),
+	Text.translate('Fictional.GOETY.corrupted_soul1'),
+	Text.translate('Fictional.GOETY.corrupted_soul2'),
+	Text.translate('Fictional.GOETY.corrupted_soul3'),
+	Text.translate('Fictional.GOETY.corrupted_soul11'),
+	Text.translate('Fictional.GOETY.corrupted_soul12'),
+	Text.translate('Fictional.GOETY.corrupted_soul4'),
+	Text.translate('Fictional.GOETY.corrupted_soul5'),
+	Text.translate('Fictional.GOETY.corrupted_soul6'),
+	Text.translate('OEA.air'),
+	])
+
+e.add([
 	'goety:heart_of_the_night'], [
 	Text.translate('OEA.air'),
 	Text.translate('Fictional.END.curios'),
@@ -593,6 +644,21 @@ e.add([
 	Text.translate('Fictional.GOETY.curios.mutation_potion4'),
 	Text.translate('Fictional.GOETY.curios.mutation_potion5'),
 	Text.translate('Fictional.GOETY.curios.mutation_potion6'),
+	Text.translate('OEA.air'),
+	])
+
+e.add([
+	'legendary_monsters:somber_key'], [
+	Text.translate('OEA.air'),
+	Text.translate('Fictional.END.curios'),
+	Text.translate('Fictional.GOETY.somber_key1'),
+	Text.translate('Fictional.GOETY.somber_key2'),
+	Text.translate('Fictional.GOETY.somber_key3'),
+	Text.translate('Fictional.GOETY.somber_key4'),
+	Text.translate('Fictional.GOETY.somber_key5'),
+	Text.translate('Fictional.GOETY.somber_key6'),
+	Text.translate('Fictional.GOETY.somber_key7'),
+	Text.translate('Fictional.GOETY.somber_key8'),
 	Text.translate('OEA.air'),
 	])
 
@@ -638,6 +704,81 @@ e.add([
 	Text.translate('Fictional.GOETY.curios.caged_heart3'),
 	Text.translate('Fictional.GOETY.curios.caged_heart1'),
 	Text.translate('Fictional.GOETY.curios.caged_heart2'),
+	Text.translate('OEA.air'),
+	])
+
+e.add([
+	'legendary_monsters:withered_bone'], [
+	Text.translate('OEA.air'),
+	Text.translate('Fictional.END.curios'),
+	Text.translate('Fictional.GOETY.withered_bone1'),
+	Text.translate('Fictional.GOETY.withered_bone2'),
+	Text.translate('Fictional.GOETY.withered_bone3'),
+	Text.translate('OEA.air'),
+	])
+
+e.add([
+	'legendary_monsters:withered_horn'], [
+	Text.translate('OEA.air'),
+	Text.translate('Fictional.END.curios'),
+	Text.translate('Fictional.GOETY.withered_horn1'),
+	Text.translate('Fictional.GOETY.withered_horn2'),
+	Text.translate('Fictional.GOETY.withered_horn3'),
+	Text.translate('Fictional.GOETY.withered_horn4'),
+	Text.translate('OEA.air'),
+	])
+
+e.add([
+	'legendary_monsters:fiery_boots'], [
+	Text.translate('OEA.air'),
+	Text.translate('Fictional.GOETY.fiery_boots1'),
+	Text.translate('Fictional.GOETY.fiery_boots2'),
+	Text.translate('Fictional.GOETY.fiery_boots3'),
+	Text.translate('OEA.air'),
+	])
+
+e.add([
+	'legendary_monsters:withered_scythe'], [
+	Text.translate('OEA.air'),
+	Text.translate('Fictional.GOETY.withered_scythe1'),
+	Text.translate('Fictional.GOETY.withered_scythe2'),
+	Text.translate('OEA.air'),
+	])
+
+e.add([
+	'cataclysm:tidal_claws'], [
+	Text.translate('OEA.air'),
+	Text.translate('Fictional.GOETY.tidal_claws1'),
+	Text.translate('Fictional.GOETY.tidal_claws2'),
+	Text.translate('OEA.air'),
+	])
+
+e.add([
+	'legendary_monsters:fiery_jaw'], [
+	Text.translate('OEA.air'),
+	Text.translate('Fictional.GOETY.fiery_jaw1'),
+	Text.translate('Fictional.GOETY.fiery_jaw2'),
+	Text.translate('Fictional.GOETY.fiery_jaw3'),
+	Text.translate('Fictional.GOETY.fiery_jaw4'),
+	Text.translate('Fictional.GOETY.fiery_jaw5'),
+	Text.translate('Fictional.GOETY.fiery_jaw6'),
+	Text.translate('OEA.air'),
+	])
+
+e.add([
+	'legendary_monsters:withered_ribcage'], [
+	Text.translate('OEA.air'),
+	Text.translate('Fictional.GOETY.withered_ribcage1'),
+	Text.translate('Fictional.GOETY.withered_ribcage2'),
+	Text.translate('OEA.air'),
+	])
+
+e.add([
+	'cataclysm:void_assault_shoulder_weapon',
+	'cataclysm:wither_assault_shoulder_weapon'], [
+	Text.translate('OEA.air'),
+	Text.translate('Fictional.GOETY.wither_assault_shoulder_weapon1'),
+	Text.translate('Fictional.GOETY.wither_assault_shoulder_weapon2'),
 	Text.translate('OEA.air'),
 	])
 
@@ -717,6 +858,45 @@ e.add([
 	Text.translate('Fictional.GOETY.stormlander2'),
 	Text.translate('Fictional.GOETY.stormlander3'),
 	Text.translate('Fictional.GOETY.stormlander4'),
+	Text.translate('OEA.air'),
+	])
+
+e.add([
+	'legendary_monsters:atom_splitter',
+    ], [
+	Text.translate('OEA.air'),
+	Text.translate('Fictional.GOETY.atom_splitter1'),
+	Text.translate('Fictional.GOETY.atom_splitter2'),
+	Text.translate('Fictional.GOETY.atom_splitter3'),
+	Text.translate('Fictional.GOETY.atom_splitter4'),
+	Text.translate('OEA.air'),
+	])
+
+e.add([
+	'legendary_monsters:the_tesseract',
+    ], [
+	Text.translate('OEA.air'),
+	Text.translate('Fictional.GOETY.the_tesseract1'),
+	Text.translate('Fictional.GOETY.the_tesseract2'),
+	Text.translate('Fictional.GOETY.the_tesseract3'),
+	Text.translate('Fictional.GOETY.the_tesseract4'),
+	Text.translate('OEA.air'),
+	])
+
+e.add([
+	'legendary_monsters:annihilator_helmet',
+	'legendary_monsters:annihilator_chestplate',
+	'legendary_monsters:annihilator_leggings',
+	'legendary_monsters:annihilator_boots',
+    ], [
+	Text.translate('OEA.air'),
+	Text.translate('Fictional.GOETY.annihilator1'),
+	Text.translate('Fictional.GOETY.annihilator2'),
+	Text.translate('Fictional.GOETY.annihilator3'),
+	Text.translate('Fictional.GOETY.annihilator4'),
+	Text.translate('Fictional.GOETY.annihilator5'),
+	Text.translate('Fictional.GOETY.annihilator6'),
+	Text.translate('Fictional.GOETY.annihilator7'),
 	Text.translate('OEA.air'),
 	])
 
@@ -1071,6 +1251,7 @@ e.add([
 	Text.translate('Fictional.GOETY.curios.venomous_fang1'),
 	Text.translate('Fictional.GOETY.curios.venomous_fang2'),
 	Text.translate('Fictional.GOETY.curios.venomous_fang3'),
+	Text.translate('Fictional.GOETY.curios.venomous_fang4'),
 	Text.translate('OEA.air'),
 	])
 
@@ -1082,6 +1263,160 @@ e.add([
 	Text.translate('Fictional.GOETY.curios.glacial_wraith_essence2'),
 	Text.translate('Fictional.GOETY.curios.glacial_wraith_essence3'),
 	Text.translate('Fictional.GOETY.curios.glacial_wraith_essence4'),
+	Text.translate('OEA.air'),
+	])
+
+e.add([
+	'goetyawaken:rampart_manuscript'], [
+	Text.translate('OEA.air'),
+	Text.translate('Fictional.END.curios'),
+	Text.translate('Fictional.GOETY.rampart_manuscript1'),
+	Text.translate('Fictional.GOETY.rampart_manuscript2'),
+	Text.translate('Fictional.GOETY.rampart_manuscript3'),
+	Text.translate('Fictional.GOETY.rampart_manuscript4'),
+	Text.translate('Fictional.GOETY.rampart_manuscript5'),
+	Text.translate('Fictional.GOETY.rampart_manuscript6'),
+	Text.translate('OEA.air'),
+	])
+
+e.add([
+	'goetyawaken:detonation_ring'], [
+	Text.translate('OEA.air'),
+	Text.translate('Fictional.END.curios'),
+	Text.translate('Fictional.GOETY.detonation_ring1'),
+	Text.translate('Fictional.GOETY.detonation_ring2'),
+	Text.translate('Fictional.GOETY.detonation_ring3'),
+	Text.translate('Fictional.GOETY.detonation_ring4'),
+	Text.translate('OEA.air'),
+	])
+
+e.add([
+	'legendary_monsters:anchor_handle'], [
+	Text.translate('OEA.air'),
+	Text.translate('Fictional.END.curios'),
+	Text.translate('Fictional.GOETY.anchor_handle1'),
+	Text.translate('Fictional.GOETY.anchor_handle2'),
+	Text.translate('Fictional.GOETY.anchor_handle3'),
+	Text.translate('Fictional.GOETY.anchor_handle4'),
+	Text.translate('Fictional.GOETY.anchor_handle5'),
+	Text.translate('OEA.air'),
+	])
+
+e.add([
+	'legendary_monsters:chiseled_ancient_dripstone_shard'], [
+	Text.translate('OEA.air'),
+	Text.translate('Fictional.END.curios'),
+	Text.translate('Fictional.GOETY.chiseled_ancient_dripstone_shard1'),
+	Text.translate('Fictional.GOETY.chiseled_ancient_dripstone_shard2'),
+	Text.translate('Fictional.GOETY.chiseled_ancient_dripstone_shard3'),
+	Text.translate('OEA.air'),
+	])
+
+e.add([
+	'legendary_monsters:chorus_crystal'], [
+	Text.translate('OEA.air'),
+	Text.translate('Fictional.END.curios'),
+	Text.translate('Fictional.GOETY.chorus_crystal1'),
+	Text.translate('Fictional.GOETY.chorus_crystal2'),
+	Text.translate('Fictional.GOETY.chorus_crystal3'),
+	Text.translate('Fictional.GOETY.chorus_crystal4'),
+	Text.translate('OEA.air'),
+	])
+
+e.add([
+	'legendary_monsters:eye_crystal'], [
+	Text.translate('OEA.air'),
+	Text.translate('Fictional.END.curios'),
+	Text.translate('Fictional.GOETY.eye_crystal1'),
+	Text.translate('Fictional.GOETY.eye_crystal2'),
+	Text.translate('Fictional.GOETY.eye_crystal3'),
+	Text.translate('Fictional.GOETY.eye_crystal4'),
+	Text.translate('Fictional.GOETY.eye_crystal5'),
+	Text.translate('Fictional.GOETY.eye_crystal6'),
+	Text.translate('OEA.air'),
+	])
+
+e.add([
+	'legendary_monsters:portal_shard'], [
+	Text.translate('OEA.air'),
+	Text.translate('Fictional.END.curios'),
+	Text.translate('Fictional.GOETY.portal_shard1'),
+	Text.translate('Fictional.GOETY.portal_shard0'),
+	Text.translate('Fictional.GOETY.portal_shard2'),
+	Text.translate('Fictional.GOETY.portal_shard3'),
+	Text.translate('Fictional.GOETY.portal_shard4'),
+	Text.translate('Fictional.GOETY.portal_shard5'),
+	Text.translate('Fictional.GOETY.portal_shard6'),
+	Text.translate('Fictional.GOETY.portal_shard7'),
+	Text.translate('OEA.air'),
+	])
+
+e.add([
+	'legendary_monsters:chorus_blade'], [
+	Text.translate('OEA.air'),
+	Text.translate('Fictional.GOETY.chorus_blade1'),
+	Text.translate('Fictional.GOETY.chorus_blade2'),
+	Text.translate('OEA.air'),
+	])
+
+e.add([
+	'legendary_monsters:chorus_mask'], [
+	Text.translate('OEA.air'),
+	Text.translate('Fictional.GOETY.chorus_mask1'),
+	Text.translate('Fictional.GOETY.chorus_mask2'),
+	Text.translate('OEA.air'),
+	])
+
+e.add([
+	'legendary_monsters:shulker_helmet'], [
+	Text.translate('OEA.air'),
+	Text.translate('Fictional.GOETY.shulker_helmet1'),
+	Text.translate('Fictional.GOETY.shulker_helmet2'),
+	Text.translate('OEA.air'),
+	])
+
+e.add([
+	'legendary_monsters:large_shulker_shell'], [
+	Text.translate('OEA.air'),
+	Text.translate('Fictional.GOETY.large_shulker_shell1'),
+	Text.translate('Fictional.GOETY.large_shulker_shell2'),
+	Text.translate('Fictional.GOETY.large_shulker_shell3'),
+	Text.translate('Fictional.GOETY.large_shulker_shell4'),
+	Text.translate('OEA.air'),
+	])
+
+e.add([
+	'legendary_monsters:enderitium_sword',
+	'legendary_monsters:enderitium_axe'], [
+	Text.translate('OEA.air'),
+	Text.translate('Fictional.GOETY.enderitium1'),
+	Text.translate('Fictional.GOETY.enderitium2'),
+	Text.translate('Fictional.GOETY.enderitium3'),
+	Text.translate('OEA.air'),
+	])
+
+e.add([
+	'legendary_monsters:buckler_of_annihilation',
+	'legendary_monsters:shulker_shield',
+	'legendary_monsters:dinosaur_bone_shield',
+	'legendary_monsters:frostbitten_shield',
+	'legendary_monsters:spiky_shield'], [
+	Text.translate('OEA.air'),
+	Text.translate('Fictional.GOETY.spiky_shield1'),
+	Text.translate('Fictional.GOETY.spiky_shield2'),
+	Text.translate('OEA.air'),
+	])
+
+e.add([
+	'legendary_monsters:molten_metal_ingot'], [
+	Text.translate('OEA.air'),
+	Text.translate('Fictional.END.curios'),
+	Text.translate('Fictional.GOETY.molten_metal_ingot1'),
+	Text.translate('Fictional.GOETY.molten_metal_ingot2'),
+	Text.translate('Fictional.GOETY.molten_metal_ingot3'),
+	Text.translate('Fictional.GOETY.molten_metal_ingot4'),
+	Text.translate('Fictional.GOETY.molten_metal_ingot5'),
+	Text.translate('Fictional.GOETY.molten_metal_ingot6'),
 	Text.translate('OEA.air'),
 	])
 
@@ -1484,6 +1819,11 @@ e.add([
 	Text.translate('Fictional.GOETY.desert_horn5'),
 	Text.translate('Fictional.GOETY.desert_horn6'),
 	Text.translate('OEA.air'),
+	])
+
+e.add([
+	'goetyawaken:threat_banner'], [
+	Text.translate('Fictional.GOETY.threat_banner1'),
 	])
 
 e.add([

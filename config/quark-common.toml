@@ -284,7 +284,7 @@
 [management]
 	"Automatic Tool Restock" = true
 	"Easy Transfering" = true
-	"Expanded Item Interactions" = true
+	"Expanded Item Interactions" = false
 	"Hotbar Changer" = true
 	"Inventory Sorting" = true
 	"Item Sharing" = true

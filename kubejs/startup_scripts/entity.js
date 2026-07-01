@@ -152,17 +152,17 @@ EntityJSEvents.attributes(event => { //修改实体已有的属性
 
   event.modify('minecraft:ender_dragon', attributes =>{ //末影龙
     attributes.add("minecraft:generic.armor", 8)
-    attributes.add("minecraft:generic.armor_toughness", 30)
+    attributes.add("minecraft:generic.armor_toughness", 4)
     attributes.add("minecraft:generic.max_health", 100)
     attributes.add("minecraft:generic.knockback_resistance", 10)
   });
 
   event.modify('masquerader_mod:masquerader', attributes =>{ //假面愚者
     attributes.add("minecraft:generic.armor", 24)
-    attributes.add("minecraft:generic.armor_toughness", 10)
+    attributes.add("minecraft:generic.armor_toughness", 4)
     attributes.add("minecraft:generic.attack_damage", 20)
-    attributes.add("minecraft:generic.max_health", 800)
-    attributes.add("minecraft:generic.movement_speed", 0.45)
+    attributes.add("minecraft:generic.max_health", 700)
+    attributes.add("minecraft:generic.movement_speed", 0.4)
     attributes.add("minecraft:generic.knockback_resistance", 10)
     attributes.add("forge:swim_speed", 10)
   });
@@ -231,7 +231,7 @@ EntityJSEvents.attributes(event => { //修改实体已有的属性
   });
 
   event.modify('aethermobs:aether_naga', attributes =>{ //天境娜迦
-    attributes.add("minecraft:generic.max_health", 600)
+    attributes.add("minecraft:generic.max_health", 800)
     attributes.add("forge:swim_speed", 3)
     attributes.add("minecraft:generic.movement_speed", 0.45)
     attributes.add("minecraft:generic.armor", 10)
@@ -239,17 +239,17 @@ EntityJSEvents.attributes(event => { //修改实体已有的属性
   });
 
   event.modify('aethermobs:eldershulker', attributes =>{ //远古潜影贝
-    attributes.add("minecraft:generic.max_health", 800)
+    attributes.add("minecraft:generic.max_health", 1200)
     attributes.add("minecraft:generic.knockback_resistance", 10)
     attributes.add("forge:swim_speed", 3)
     attributes.add("forge:step_height_addition", 10)
     attributes.add("minecraft:generic.movement_speed", 0.5)
     attributes.add("minecraft:generic.armor", 30)
-    attributes.add("minecraft:generic.armor_toughness", 4)
+    attributes.add("minecraft:generic.armor_toughness", 14)
   });
 
   event.modify('deep_aether:eots_controller', attributes =>{ //狂瞳龙卷（战斗前）
-    attributes.add("minecraft:generic.max_health", 500)
+    attributes.add("minecraft:generic.max_health", 600)
     attributes.add("minecraft:generic.attack_damage", 12)
     attributes.add("minecraft:generic.armor", 10)
     attributes.add("minecraft:generic.armor_toughness", 10)
@@ -313,6 +313,15 @@ EntityJSEvents.attributes(event => { //修改实体已有的属性
   });
 
   event.modify('mutantmonsters:mutant_skeleton', attributes =>{ //骷髅突变体
+    attributes.add("minecraft:generic.max_health", 300)
+    attributes.add("minecraft:generic.attack_damage", 12)
+    attributes.add("forge:swim_speed", 3)
+    attributes.add("forge:step_height_addition", 2)
+    attributes.add("minecraft:generic.armor", 8)
+    attributes.add("minecraft:generic.armor_toughness", 8)
+  });
+
+  event.modify('mutantmonsters:mutant_enderman', attributes =>{ //末影人突变体
     attributes.add("minecraft:generic.max_health", 300)
     attributes.add("minecraft:generic.attack_damage", 12)
     attributes.add("forge:swim_speed", 3)
@@ -391,6 +400,12 @@ EntityJSEvents.attributes(event => { //修改实体已有的属性
     attributes.add("minecraft:generic.armor", 8)
   });
 
+  event.modify('legendary_monsters:wandering_eye', attributes =>{ //飘荡魔眼
+    attributes.add("minecraft:generic.max_health", 20)
+    attributes.add("forge:step_height_addition", 2)
+    attributes.add("minecraft:generic.armor", 8)
+  });
+
   event.modify('minecraft:enderman', attributes =>{ //末影人
     attributes.add("minecraft:generic.max_health", 80)
     attributes.add("minecraft:generic.attack_damage", 14)
@@ -419,6 +434,7 @@ EntityJSEvents.attributes(event => { //修改实体已有的属性
     attributes.add("forge:swim_speed", 3)
     attributes.add("forge:step_height_addition", 2)
     attributes.add("minecraft:generic.armor", 24)
+    attributes.add("minecraft:generic.armor_toughness", 20)
   });
 
   event.modify('radiation_zone_reborn:fluorescence', attributes =>{ //荧光人
@@ -445,6 +461,7 @@ EntityJSEvents.attributes(event => { //修改实体已有的属性
     attributes.add("forge:step_height_addition", 3)
     attributes.add("minecraft:generic.movement_speed", 1.0)
     attributes.add("minecraft:generic.armor", 8)
+    attributes.add("minecraft:generic.armor_toughness", 8)
   });
 
   event.modify('radiation_zone_reborn:decayed_totem', attributes =>{ //腐衰图腾
@@ -454,16 +471,36 @@ EntityJSEvents.attributes(event => { //修改实体已有的属性
     attributes.add("forge:swim_speed", 3)
     attributes.add("forge:step_height_addition", 2)
     attributes.add("minecraft:generic.armor", 24)
+    attributes.add("minecraft:generic.armor_toughness", 8)
   });
 
   event.modify('radiation_zone_reborn:wastelands_tyrant', attributes =>{ //荒原龙
-    attributes.add("minecraft:generic.max_health", 600)
+    attributes.add("minecraft:generic.max_health", 800)
     attributes.add("minecraft:generic.attack_damage", 6)
     attributes.add("minecraft:generic.movement_speed", 0.35)
     attributes.add("forge:swim_speed", 3)
     attributes.add("forge:step_height_addition", 2)
     attributes.add("minecraft:generic.armor", 24)
     attributes.add("minecraft:generic.armor_toughness", 20)
+  });
+
+  event.modify('legendary_monsters:knights_armor', attributes =>{ //骑士
+    attributes.add("minecraft:generic.max_health", 1200)
+    attributes.add("minecraft:generic.attack_damage", 40)
+    attributes.add("minecraft:generic.movement_speed", 0.18)
+    attributes.add("forge:swim_speed", 3)
+    attributes.add("forge:step_height_addition", 2)
+    attributes.add("minecraft:generic.armor", 20)
+    attributes.add("minecraft:generic.armor_toughness", 40)
+  });
+  event.modify('legendary_monsters:guard', attributes =>{ //守卫
+    attributes.add("minecraft:generic.max_health", 1400)
+    attributes.add("minecraft:generic.attack_damage", 50)
+    attributes.add("minecraft:generic.movement_speed", 0.18)
+    attributes.add("forge:swim_speed", 3)
+    attributes.add("forge:step_height_addition", 2)
+    attributes.add("minecraft:generic.armor", 20)
+    attributes.add("minecraft:generic.armor_toughness", 40)
   });
 
   event.modify('radiation_zone_reborn:radien', attributes =>{ //放射人
@@ -500,11 +537,12 @@ EntityJSEvents.attributes(event => { //修改实体已有的属性
   });
 
   event.modify('cataclysm:endermaptera', attributes =>{ //末影甲虫
-    attributes.add("minecraft:generic.max_health", 40)
+    attributes.add("minecraft:generic.max_health", 60)
     attributes.add("minecraft:generic.attack_damage", 16)
     attributes.add("forge:swim_speed", 3)
     attributes.add("forge:step_height_addition", 2)
     attributes.add("minecraft:generic.armor", 10)
+    attributes.add("minecraft:generic.armor_toughness", 10)
   });
 
   event.modify('twilightforest:naga', attributes =>{ //娜迦
@@ -535,6 +573,12 @@ EntityJSEvents.attributes(event => { //修改实体已有的属性
     attributes.add("minecraft:generic.armor_toughness", 12)
   });
 
+  event.modify('minecraft:wither_skeleton', attributes =>{ //凋灵骷髅
+    attributes.add("minecraft:generic.max_health", 40)
+    attributes.add("minecraft:generic.armor", 8)
+    attributes.add("minecraft:generic.armor_toughness", 8)
+  });
+
   event.modify('aether:cockatrice', attributes =>{ //鸡蛇
     attributes.add("minecraft:generic.max_health", 60)
     attributes.add("minecraft:generic.attack_damage", 12)
@@ -543,6 +587,7 @@ EntityJSEvents.attributes(event => { //修改实体已有的属性
     attributes.add("forge:step_height_addition", 2)
     attributes.add("minecraft:generic.movement_speed", 0.35)
     attributes.add("minecraft:generic.armor", 12)
+    attributes.add("minecraft:generic.armor_toughness", 10)
   });
 
   event.modify('aether:sentry', attributes =>{ //爆破哨石
@@ -552,6 +597,7 @@ EntityJSEvents.attributes(event => { //修改实体已有的属性
     attributes.add("forge:swim_speed", 3)
     attributes.add("minecraft:generic.movement_speed", 0.3)
     attributes.add("minecraft:generic.armor", 10)
+    attributes.add("minecraft:generic.armor_toughness", 10)
   });
 
   event.modify('aether:mimic', attributes =>{ //拟箱怪
@@ -561,6 +607,7 @@ EntityJSEvents.attributes(event => { //修改实体已有的属性
     attributes.add("forge:swim_speed", 3)
     attributes.add("minecraft:generic.movement_speed", 0.3)
     attributes.add("minecraft:generic.armor", 10)
+    attributes.add("minecraft:generic.armor_toughness", 10)
   });
 
   event.modify('twilightforest:troll', attributes =>{ //洞穴巨魔
@@ -583,7 +630,7 @@ EntityJSEvents.attributes(event => { //修改实体已有的属性
     attributes.add("minecraft:generic.armor_toughness", 10)
   });
   event.modify('aethermobs:aetherdragon', attributes =>{ //天境巨龙
-    attributes.add("minecraft:generic.max_health", 600)
+    attributes.add("minecraft:generic.max_health", 800)
     attributes.add("minecraft:generic.attack_damage", 20)
     attributes.add("minecraft:generic.knockback_resistance", 10)
     attributes.add("forge:swim_speed", 3)
@@ -592,7 +639,7 @@ EntityJSEvents.attributes(event => { //修改实体已有的属性
     attributes.add("minecraft:generic.armor_toughness", 10)
   });
   event.modify('aethermobs:aetherdragonphase_2', attributes =>{ //天境巨龙二阶段
-    attributes.add("minecraft:generic.max_health", 600)
+    attributes.add("minecraft:generic.max_health", 800)
     attributes.add("minecraft:generic.attack_damage", 20)
     attributes.add("minecraft:generic.knockback_resistance", 10)
     attributes.add("forge:swim_speed", 3)
@@ -605,8 +652,8 @@ EntityJSEvents.attributes(event => { //修改实体已有的属性
   event.modify('aether:valkyrie_queen', attributes =>{ //武神女王
     attributes.add("minecraft:generic.max_health", 600)
     attributes.add("minecraft:generic.knockback_resistance", 10)
-    attributes.add("minecraft:generic.armor", 20)
-    attributes.add("minecraft:generic.armor_toughness", 20)
+    attributes.add("minecraft:generic.armor", 10)
+    attributes.add("minecraft:generic.armor_toughness", 10)
     attributes.add("forge:step_height_addition", 10)
     attributes.add("minecraft:generic.movement_speed", 0.4)
     attributes.add("forge:swim_speed", 10)
@@ -617,14 +664,15 @@ EntityJSEvents.attributes(event => { //修改实体已有的属性
     attributes.add("minecraft:generic.attack_damage", 20)
     attributes.add("minecraft:generic.movement_speed", 0.3)
     attributes.add("minecraft:generic.armor", 4)
-    attributes.add("minecraft:generic.armor_toughness", 4)
+    attributes.add("minecraft:generic.armor_toughness", 8)
     attributes.add("forge:step_height_addition", 4)
     attributes.add("forge:swim_speed", 10)
   });
 
   event.modify('aether:sun_spirit', attributes =>{ //烈阳巨灵
+    attributes.add("minecraft:generic.max_health", 600)
     attributes.add("minecraft:generic.armor", 4)
-    attributes.add("minecraft:generic.armor_toughness", 4)
+    attributes.add("minecraft:generic.armor_toughness", 20)
   });
 
   event.modify('ba_bt:land_golem', attributes =>{ //大地守卫
@@ -632,7 +680,7 @@ EntityJSEvents.attributes(event => { //修改实体已有的属性
   });
 
   event.modify('minecraft:wither', attributes =>{ //凋灵
-    attributes.add("minecraft:generic.max_health", 200)
+    attributes.add("minecraft:generic.max_health", 250)
     attributes.add("minecraft:generic.armor", 4)
     attributes.add("minecraft:generic.knockback_resistance", 10)
   });
@@ -654,11 +702,20 @@ EntityJSEvents.attributes(event => { //修改实体已有的属性
   });
 
   event.modify('better_minoshroomtaur:better_minoshroomtaur', attributes =>{ //超级米诺菇
-    attributes.add("minecraft:generic.max_health", 250)
-    attributes.add("minecraft:generic.armor", 10)
+    attributes.add("minecraft:generic.max_health", 200)
+    attributes.add("minecraft:generic.armor", 4)
     attributes.add("minecraft:generic.armor_toughness", 4)
     attributes.add("minecraft:generic.attack_damage", 6)
-    attributes.add("minecraft:generic.movement_speed", 0.3)
+    attributes.add("minecraft:generic.movement_speed", 0.26)
+    attributes.add("forge:step_height_addition", 5)
+    attributes.add("forge:swim_speed", 10)
+  });
+
+  event.modify('legendary_monsters:annihilation_pursuer', attributes =>{ //湮灭猎影
+    attributes.add("minecraft:generic.max_health", 400)
+    attributes.add("minecraft:generic.armor", 4)
+    attributes.add("minecraft:generic.armor_toughness", 14)
+    attributes.add("minecraft:generic.attack_damage", 12)
     attributes.add("forge:step_height_addition", 5)
     attributes.add("forge:swim_speed", 10)
   });
@@ -706,9 +763,9 @@ EntityJSEvents.attributes(event => { //修改实体已有的属性
   });
 
   event.modify('twilightforest:snow_queen', attributes =>{ //冰雪女王
-    attributes.add("minecraft:generic.armor", 4)
+    attributes.add("minecraft:generic.armor", 8)
     attributes.add("minecraft:generic.armor_toughness", 8)
-    attributes.add("minecraft:generic.max_health", 250)
+    attributes.add("minecraft:generic.max_health", 300)
   });
 
   event.modify('twilightforest:hydra', attributes =>{ //九头蛇
@@ -761,7 +818,7 @@ EntityJSEvents.attributes(event => { //修改实体已有的属性
   });
   event.modify('eeeabsmobs:nameless_guardian', attributes =>{ //无名守卫者
     attributes.add("minecraft:generic.armor", 10)
-    attributes.add("minecraft:generic.armor_toughness", 4)
+    attributes.add("minecraft:generic.armor_toughness", 20)
     attributes.add("minecraft:generic.movement_speed", 0.35)
     attributes.add("forge:swim_speed", 3)
     attributes.add("forge:step_height_addition", 5)

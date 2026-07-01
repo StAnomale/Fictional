@@ -13,7 +13,7 @@
       "name": "minecraft:generic.attack_damage",
       "value": 0.6,
       "modifierUUID": "a141ee18-6704-4d6b-a286-ea6f92136b85",
-      "attributeOperation": 2,
+      "attributeOperation": 1,
       "interactionType": "self",
       "hideBonusDescription": false,
       "onlyImmuneToNewEffects": false

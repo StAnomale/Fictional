@@ -1,0 +1,9 @@
+#A list of entity IDs that should be able to fly (e.g., minecraft:warden)
+flyingMobs = ["minecraft:warden", "aethermobs:spirit", "aethermobs:saltcrabking"]
+#Flying speed for Warden (default: 0.6)
+#Range: 0.1 ~ 2.0
+wardenFlySpeed = 0.3
+#Flying speed for other mobs (default: 0.5)
+#Range: 0.1 ~ 2.0
+genericFlySpeed = 0.2
+

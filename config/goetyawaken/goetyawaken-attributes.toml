@@ -66,7 +66,7 @@
 		mushroomMonstrosityDamageCap = 0.2
 		#How much damage Mushroom Monstrosities deals, Default: 24.0
 		#Range: 1.0 ~ 1.7976931348623157E308
-		mushroomMonstrosityDamage = 60.0
+		mushroomMonstrosityDamage = 80.0
 		#How much Max Health Mushroom Monstrosities have, Default: 1000.0
 		#Range: 1.0 ~ 1.7976931348623157E308
 		mushroomMonstrosityHealth = 6000.0
@@ -145,7 +145,7 @@
 	[Attributes."Parched Necromancer"]
 		#How much Max Health Parched Necromancers have, Default: 220.0
 		#Range: 1.0 ~ 1.7976931348623157E308
-		parchedNecromancerHealth = 2400.0
+		parchedNecromancerHealth = 3600.0
 		#How much natural armor points Parched Necromancers have, Default: 4.0
 		#Range: 0.0 ~ 1.7976931348623157E308
 		parchedNecromancerArmor = 14.0
@@ -184,7 +184,7 @@
 	[Attributes."Giant Ghast"]
 		#How much Max Health Giant Ghast has, Default: 140.0
 		#Range: 1.0 ~ 1.7976931348623157E308
-		giantGhastHealth = 140.0
+		giantGhastHealth = 2800.0
 		#Allow Giant Ghast to fire Giant Hell Blast, Default: false
 		giantGhastAllowGiantHellBlast = false
 		#How much natural armor points Giant Ghast has, Default: 4.0
@@ -192,10 +192,10 @@
 		giantGhastArmor = 8.0
 		#How much damage Giant Ghast deals, Default: 10.0
 		#Range: 0.0 ~ 1.7976931348623157E308
-		giantGhastDamage = 10.0
+		giantGhastDamage = 30.0
 		#How much armor toughness Giant Ghast has, Default: 0.0
 		#Range: 0.0 ~ 1.7976931348623157E308
-		giantGhastArmorToughness = 0.0
+		giantGhastArmorToughness = 10.0
 
 	[Attributes."Spider Creeder"]
 		#How much armor toughness Spider Creeder have, Default: 0.0
@@ -214,7 +214,7 @@
 		namelessOneHealInterval = 20
 		#How much armor toughness Nameless One have, Default: 4.0
 		#Range: 0.0 ~ 1.7976931348623157E308
-		namelessOneArmorToughness = 8.0
+		namelessOneArmorToughness = 4.0
 		#Nameless One heal amount per interval (default: 1.0)
 		#Range: 0.0 ~ 1.7976931348623157E308
 		namelessOneHealAmount = 1.0
@@ -238,7 +238,7 @@
 		namelessOneArmor = 8.0
 		#How much damage Nameless One deals, Default: 4.0
 		#Range: 0.0 ~ 1.7976931348623157E308
-		namelessOneDamage = 16.0
+		namelessOneDamage = 30.0
 
 	[Attributes."Angry Mooshroom"]
 		#How much movement speed Angry Mooshrooms have, Default: 0.3
@@ -257,16 +257,16 @@
 	[Attributes."Rampart Captain"]
 		#How much damage Rampart Captains deals, Default: 7.5
 		#Range: 1.0 ~ 1.7976931348623157E308
-		rampartCaptainDamage = 7.5
+		rampartCaptainDamage = 10.0
 		#How much armor Rampart Captains have, Default: 20.0
 		#Range: 0.0 ~ 1.7976931348623157E308
-		rampartCaptainArmor = 20.0
+		rampartCaptainArmor = 4.0
 		#How much Max Health Rampart Captains have, Default: 120.0
 		#Range: 1.0 ~ 1.7976931348623157E308
-		rampartCaptainHealth = 120.0
+		rampartCaptainHealth = 480.0
 		#How much armor toughness Rampart Captains have, Default: 12.0
 		#Range: 0.0 ~ 1.7976931348623157E308
-		rampartCaptainArmorToughness = 12.0
+		rampartCaptainArmorToughness = 4.0
 		#Chance for Rampart Captain's Run Attack to loop (0.0-1.0), Default: 0.7 (70%)
 		#Range: 0.0 ~ 1.0
 		rampartCaptainRunAttackLoopChance = 0.7
@@ -324,7 +324,7 @@
 	[Attributes."Vanguard Champion"]
 		#How much Max Health Vanguard Champions have, Default: 30.0
 		#Range: 1.0 ~ 1.7976931348623157E308
-		vanguardChampionHealth = 80.0
+		vanguardChampionHealth = 400.0
 		#How much armor toughness Vanguard Champions have, Default: 8.0
 		#Range: 0.0 ~ 1.7976931348623157E308
 		vanguardChampionArmorToughness = 18.0
@@ -361,7 +361,7 @@
 		wraithNecromancerDamage = 34.0
 		#How much Max Health Wraith Necromancers have, Default: 220.0
 		#Range: 1.0 ~ 1.7976931348623157E308
-		wraithNecromancerHealth = 2400.0
+		wraithNecromancerHealth = 4000.0
 		#How much following/detection range Wraith Necromancers have, Default: 32.0
 		#Range: 1.0 ~ 2048.0
 		wraithNecromancerFollowRange = 32.0

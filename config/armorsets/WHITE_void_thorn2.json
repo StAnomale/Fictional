@@ -5,11 +5,22 @@
     {
       "itemKey": "bosses_of_mass_destruction:void_thorn",
       "mustBeEmpty": false
+    },
+    {
+      "itemKey": "kubejs:covenant_matt1",
+      "mixAndMatch": [
+      "kubejs:covenant_matt2",
+      "kubejs:covenant_matt3",
+      "kubejs:covenant_matt4",
+      "kubejs:covenant_matt5"
+      ],
+      "mustBeEmpty": false
     }
   ],
   "mainHand": {
     "itemKey": "gwrexpansions:voidspike",
     "mixAndMatch": [
+      "gwrexpansions:duskfall_eclipse_blaster"
       ],
     "mustBeEmpty": false
   },

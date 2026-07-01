@@ -1,0 +1,24 @@
+{
+  "armorSetName": "chiseled_ancient_dripstone_shard",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "legendary_monsters:chiseled_ancient_dripstone_shard",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+
+    {
+      "type": "attribute",
+      "name": "obscure_api:magic_damage",
+      "value": 1.0,
+      "modifierUUID": "bba7a0ae-0ff0-4383-9851-fee7824c203a",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

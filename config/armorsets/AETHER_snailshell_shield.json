@@ -21,7 +21,7 @@
     {
       "type": "attribute",
       "name": "minecraft:generic.armor",
-      "value": 2.0,
+      "value": 4.0,
       "modifierUUID": "63593628-b6ab-4840-b026-a6c33c63449f",
       "attributeOperation": 0,
       "interactionType": "self",
@@ -31,7 +31,7 @@
     {
       "type": "attribute",
       "name": "minecraft:generic.armor_toughness",
-      "value": 2.0,
+      "value": 4.0,
       "modifierUUID": "1d0f44a8-99b2-4c6e-85bd-99fa028da0a4",
       "attributeOperation": 0,
       "interactionType": "self",

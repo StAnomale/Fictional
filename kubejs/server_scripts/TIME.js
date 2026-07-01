@@ -64,6 +64,9 @@ ItemEvents.rightClicked('cataclysm:cursed_bow', event => { //咒魂弓
   const { player, level } = event;
   if (player.cooldowns.isOnCooldown('cataclysm:cursed_bow')) {return;} // 冷却返回
   // 获取玩家的视角向量并标准化
+
+  player.server.scheduleInTicks(10, () => { 
+  
   const viewVector = player.getViewVector(1.0);
   const length = Math.sqrt(viewVector.x() * viewVector.x() + viewVector.y() * viewVector.y() + viewVector.z() * viewVector.z());
   const normalizedVector = {
@@ -72,14 +75,15 @@ ItemEvents.rightClicked('cataclysm:cursed_bow', event => { //咒魂弓
     z: viewVector.z() / length
   };
   const projectile = level.createEntity("minecraft:arrow");//发射物
-  projectile.setPosition(player.x, player.y + 1.2, player.z);//设定发射坐标
+  projectile.setPosition(player.x, player.y + 1.6, player.z);//设定发射坐标
   const velocity = 2.0;// 设定速度基数
   projectile.setMotion(normalizedVector.x * velocity, normalizedVector.y * velocity, normalizedVector.z * velocity);// 设定弹射物方向
   projectile.setOwner(player)// 设定弹射物发射者
   const adddamage=player.getAttributeTotalValue("minecraft:generic.armor_toughness")
-  projectile.mergeNbt({ pickup: 2, damage: 2+0.4*adddamage, PierceLevel: 2 })// 设定弹射物nbt
-  player.addItemCooldown('cataclysm:cursed_bow', 16);
+  projectile.mergeNbt({ pickup: 2, damage: 8+0.4*adddamage, PierceLevel: 2 })// 设定弹射物nbt
   projectile.spawn();// 生成弹射物
+  })
+  player.addItemCooldown('cataclysm:cursed_bow', 16);
   });
 
 ItemEvents.firstLeftClicked('cataclysm:the_incinerator', event => { //炎葬
@@ -89,7 +93,7 @@ ItemEvents.firstLeftClicked('cataclysm:the_incinerator', event => { //炎葬
   const length = Math.sqrt(viewVector.x() * viewVector.x() + viewVector.y() * viewVector.y() + viewVector.z() * viewVector.z());
   const normalizedVector = {x: viewVector.x() / length,y: viewVector.y() / length,z: viewVector.z() / length};
   const projectile = level.createEntity("cataclysm:flare_bomb"); // 发射物
-  const offset = 1.2;  // 偏移距离
+  const offset = 3.2;  // 偏移距离
   const spawnX = player.x + normalizedVector.x * offset; // 基于玩家位置+视线方向偏移
   const spawnY = player.y + 1.2 + normalizedVector.y * offset;
   const spawnZ = player.z + normalizedVector.z * offset;
@@ -98,7 +102,7 @@ ItemEvents.firstLeftClicked('cataclysm:the_incinerator', event => { //炎葬
   //projectile.yRot = player.yRot; // 修正方向
   const damage=player.getAttributeTotalValue("minecraft:generic.attack_damage")
   const adddamage=player.getAttributeTotalValue("minecraft:generic.armor_toughness")
-  projectile.mergeNbt({ pickup: 2, damage: 0.4*damage + 0.4*adddamage, PierceLevel: 2 })// 设定弹射物NBT数据
+  projectile.mergeNbt({ pickup: 2, damage: 2, PierceLevel: 2 })// 设定弹射物NBT数据
   const setCOOLDOWNS=player.getAttributeTotalValue("minecraft:generic.attack_speed")
   player.addItemCooldown('cataclysm:the_incinerator', 20/setCOOLDOWNS);
   projectile.setMotion(normalizedVector.x * velocity, normalizedVector.y * velocity, normalizedVector.z * velocity); // 设定弹射物方向
@@ -117,10 +121,9 @@ ItemEvents.firstLeftClicked('cataclysm:the_incinerator', event => { //炎葬
   const spawnY = player.y + 1.2 + normalizedVector.y * offset;
   const spawnZ = player.z + normalizedVector.z * offset;
   projectile.setPosition(spawnX, spawnY, spawnZ); //设定发射坐标
-  const velocity = 3.0; // 设定速度基数
-  const damage=player.getAttributeTotalValue("minecraft:generic.attack_damage")
+  const velocity = 6.0; // 设定速度基数
   const adddamage=player.getAttributeTotalValue("minecraft:generic.armor")
-  projectile.mergeNbt({ pickup: 2, damage: 1+0.2*damage + 0.2*adddamage, PierceLevel: 2 })// 设定弹射物NBT数据
+  projectile.mergeNbt({ pickup: 2, damage: 10 + 0.4 * adddamage, PierceLevel: 2 })// 设定弹射物NBT数据
   const setCOOLDOWNS=player.getAttributeTotalValue("minecraft:generic.attack_speed")
   player.addItemCooldown('kubejs:cucumber1', 20/setCOOLDOWNS);
   projectile.setMotion(normalizedVector.x * velocity, normalizedVector.y * velocity, normalizedVector.z * velocity); // 设定弹射物方向
@@ -129,29 +132,32 @@ ItemEvents.firstLeftClicked('cataclysm:the_incinerator', event => { //炎葬
   
   });
 
-ItemEvents.firstLeftClicked('eeeabsmobs:netherworld_katana', event => { //幽冥炼狱太刀
-  const { player, level } = event; //从事件中解构出对象待用
-  if (player.cooldowns.isOnCooldown('eeeabsmobs:netherworld_katana')) {return;} // 冷却返回
-  const viewVector = player.getViewVector(1.0); // 获取玩家的视角向量并标准化
-  const length = Math.sqrt(viewVector.x() * viewVector.x() + viewVector.y() * viewVector.y() + viewVector.z() * viewVector.z());
-  const normalizedVector = {x: viewVector.x() / length,y: viewVector.y() / length,z: viewVector.z() / length};
-  const projectile = level.createEntity("cataclysm:axe_blade"); // 发射物
-  const offset = 0.5;  // 偏移距离
-  const spawnX = player.x + normalizedVector.x * offset; // 基于玩家位置+视线方向偏移
-  const spawnY = player.y + 1.0 + normalizedVector.y * offset;
-  const spawnZ = player.z + normalizedVector.z * offset;
-  projectile.setPosition(spawnX, spawnY, spawnZ); //设定发射坐标
-  const velocity = 4.5; // 设定速度基数
 
-  const rot = player.yRot
-  projectile.yRot = rot //修正方向
 
-  const damage=player.getAttributeTotalValue("minecraft:generic.attack_damage")
-  const adddamage=player.getAttributeTotalValue("minecraft:generic.max_health")
-  projectile.setDamage(20+0.4*damage+0.4*adddamage)
-  const setCOOLDOWNS=player.getAttributeTotalValue("minecraft:generic.attack_speed")
-  player.addItemCooldown('eeeabsmobs:netherworld_katana', 20/setCOOLDOWNS);
-  projectile.setMotion(normalizedVector.x * velocity, normalizedVector.y * velocity, normalizedVector.z * velocity); // 设定弹射物方向
-  projectile.setOwner(player) // 设定弹射物发射者
-  projectile.spawn();
-  });//本整合包由 绘名青棺(Silentmo) 制作，联系QQ群：693928637
+// ItemEvents.firstLeftClicked('eeeabsmobs:netherworld_katana', event => { //幽冥炼狱太刀
+//   const { player, level } = event; //从事件中解构出对象待用
+//   if (player.cooldowns.isOnCooldown('eeeabsmobs:netherworld_katana')) {return;} // 冷却返回
+//   const viewVector = player.getViewVector(1.0); // 获取玩家的视角向量并标准化
+//   const length = Math.sqrt(viewVector.x() * viewVector.x() + viewVector.y() * viewVector.y() + viewVector.z() * viewVector.z());
+//   const normalizedVector = {x: viewVector.x() / length,y: viewVector.y() / length,z: viewVector.z() / length};
+//   const projectile = level.createEntity("cataclysm:axe_blade"); // 发射物
+//   const offset = 0.5;  // 偏移距离
+//   const spawnX = player.x + normalizedVector.x * offset; // 基于玩家位置+视线方向偏移
+//   const spawnY = player.y + 1.0 + normalizedVector.y * offset;
+//   const spawnZ = player.z + normalizedVector.z * offset;
+//   projectile.setPosition(spawnX, spawnY, spawnZ); //设定发射坐标
+//   const velocity = 4.5; // 设定速度基数
+
+//   const rot = player.yRot
+//   projectile.yRot = rot //修正方向
+
+//   const damage=player.getAttributeTotalValue("minecraft:generic.attack_damage")
+//   const adddamage=player.getAttributeTotalValue("minecraft:generic.max_health")
+//   projectile.setDamage(20+0.4*damage+0.4*adddamage)
+//   const setCOOLDOWNS=player.getAttributeTotalValue("minecraft:generic.attack_speed")
+//   player.addItemCooldown('eeeabsmobs:netherworld_katana', 20/setCOOLDOWNS);
+//   projectile.setMotion(normalizedVector.x * velocity, normalizedVector.y * velocity, normalizedVector.z * velocity); // 设定弹射物方向
+//   projectile.setOwner(player) // 设定弹射物发射者
+//   projectile.spawn();
+//   });
+  //本整合包由 绘名青棺(Silentmo) 制作，联系QQ群：693928637

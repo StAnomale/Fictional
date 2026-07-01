@@ -1,4 +1,6 @@
 const curiosHelper = Java.loadClass("top.theillusivec4.curios.api.CuriosApi").getCuriosHelper()
+const $Prop = Java.loadClass('net.minecraft.world.item.Item$Properties');
+//const $MagicScytheItem = Java.loadClass('com.sammy.malum.common.item.curiosities.weapons.scythe.MagicScytheItem');
 function isEquippedCurio(entity, curioId) {
   return curiosHelper.findFirstCurio(entity, curioId).isPresent()
 }
@@ -13,6 +15,10 @@ function hasCurio(entity, stack) {
   return CuriosApi.getCuriosHelper().findEquippedCurio(stack, entity).isPresent()
 }
 
+// StartupEvents.registry("attribute",event =>{
+//     event.create('wrought').;
+// })
+
 StartupEvents.registry("mob_effect",event =>{
     event.create('cooldown').beneficial().displayName("冷却");
 	event.create('diamond').beneficial().displayName("钻石增幅");
@@ -22,9 +28,16 @@ StartupEvents.registry("mob_effect",event =>{
     event.create('sun').beneficial().displayName("烈阳增幅");
     event.create('gold').beneficial().displayName("黄金增幅");
 
+
+    event.create('wrought').beneficial().displayName("磨砺")
+    .modifyAttribute("minecraft:generic.armor","test",4,"addition")
+    .modifyAttribute("minecraft:generic.armor_toughness","test",4,"addition");
+
 	event.create('fictional').beneficial().displayName("虚饰的空白")
+    .modifyAttribute("obscure_api:regeneration","test",5.0,'addition')
     .modifyAttribute("obscure_api:magic_damage","test",1.0,"addition")
-    .modifyAttribute("obscure_api:critical_hit","test",0.05,"addition")
+    .modifyAttribute("obscure_api:critical_hit","test",0.1,"addition")
+    .modifyAttribute("obscure_api:critical_damage","test",0.1,"addition")
     .modifyAttribute("obscure_api:magic_resistance","test",0.1,"addition")
     .modifyAttribute("obscure_api:resilience","test",0.05,"addition")
     .modifyAttribute("forge:swim_speed","test",1.0,"addition")
@@ -57,14 +70,14 @@ StartupEvents.registry("mob_effect",event =>{
     .modifyAttribute("obscure_api:magic_resistance","test",0.2,'multiply_total');
 
     event.create('hostility_dynamic_resistance').beneficial().displayName("动态抗性")
-    .modifyAttribute("obscure_api:magic_resistance","test",0.4,'multiply_total')
+    .modifyAttribute("obscure_api:magic_resistance","test",0.5,'multiply_total')
 
     event.create('hostility_critical_resilience').beneficial().displayName("暴击抗性")
     .modifyAttribute("obscure_api:resilience","test",0.2,'multiply_total');
 
     event.create('healing_power').beneficial().displayName("治疗加成")
     .modifyAttribute("obscure_api:healing_power","test",0.5,'addition')
-    .modifyAttribute("obscure_api:regeneration","test",20.0,'addition');
+    .modifyAttribute("obscure_api:regeneration","test",40.0,'addition');
 })
 
 
@@ -78,7 +91,7 @@ StartupEvents.registry("item",event =>{
     event.create('compressed_amethyst').rarity('uncommon').displayName("紫水晶币")
     event.create('restrictiontimer_pocketwatch').rarity('uncommon').displayName("缚时者的怀表")
 
-    event.create('test').rarity('uncommon').displayName("测试").maxDamage(100).useDuration(s => 20).use((l,p,i) => true).finishUsing((stack, level, entity) => {
+    event.create('swallowtail_butterfly','sword').rarity('uncommon').displayName("一纸绘鸢").maxDamage(1000).useDuration(s => 10).use((l,p,i) => true).finishUsing((stack, level, entity) => {
         if(!entity.isPlayer()) return stack;
         if(level.isClientSide()) return stack;
         /**
@@ -86,19 +99,27 @@ StartupEvents.registry("item",event =>{
          */
         let player = entity;
         let useItem = player.getUseItem();
-        if(!useItem || useItem.id != 'kubejs:test') return stack;
+        if(!useItem || useItem.id != 'kubejs:swallowtail_butterfly') return stack;
         let pData = player.getPersistentData();
-        if(pData.contains('testItem')) return stack;
-        pData.putInt('testItem', 10);
+        if(pData.contains('swallowtail_butterfly')) return stack;
+        pData.putInt('swallowtail_butterfly', 10);
         player.invulnerableTime = 10;
         let viewVector = player.getViewVector(1.0);
-        let scale = 5.0;
+        let scale = 3.0;
         let resultPos = new Vec3d(viewVector.x() * scale, viewVector.y() * scale, viewVector.z() * scale);
         player.hurtMarked = true;
         player.setDeltaMovement(resultPos);
-        stack.hurtAndBreak(1, entity, e => {});
+        //stack.hurtAndBreak(1, entity, e => {});
         return stack;
-    }).unstackable().displayName('test')
+    })
+    .unstackable()
+    .attackDamageBaseline(7)
+    .speedBaseline(-2.0)
+    // .modifyAttribute("obscure_api:magic_damage","a",2.0,"addition")
+    // .modifyAttribute("minecraft:generic.armor_toughness","a",2.0,"addition")
+    .tag("minecraft:swords")
+    .tag("minecraft:tools")
+    .tag("forge:tools")
 
 
 
@@ -127,6 +148,34 @@ StartupEvents.registry("item",event =>{
     event.create('covenant_gunpowder3').rarity('uncommon').displayName('猎人盟约·III').maxStackSize(1).tag("curios:covenant")
     event.create('covenant_gunpowder4').rarity('uncommon').displayName('猎人盟约·IV').maxStackSize(1).tag("curios:covenant")
     event.create('covenant_gunpowder5').rarity('epic').displayName('猎人盟约·V').maxStackSize(1).tag("curios:covenant")
+
+    event.create('renegade').rarity('epic').displayName('卖主的叛徒').maxStackSize(1).tag("curios:head")
+    .attachCuriosCapability(
+            CuriosJSCapabilityBuilder.create()
+                .onEquip((slotContext,oldStack,newStack)=>{})
+                .onUnequip((slotContext,oldStack,newStack)=>{})
+                .canEquip((slotContext, stack) => {
+                    const entity = slotContext.entity();
+                    if (!entity) return true;
+                    const curiosHelper = CuriosApi.getCuriosHelper();
+                    const isAlreadyEquipped = curiosHelper.findEquippedCurio(stack, entity).isPresent();
+                    return !isAlreadyEquipped;
+                })
+                .canUnequip((item, context) =>true)
+                .modifySlotsTooltip((tooltips, stack) => tooltips)
+                .canDrop((slotContext, source, lootingLevel, recentlyHit, stack) => false)
+                .modifyAttributesTooltip((tooltips, stack) => tooltips)
+                .modifyFortuneLevel((slotContext, lootContext, stack) => 0)
+                .modifyLootingLevel((slotContext, source, target, baseLooting, stack) => 0)
+                .makesPiglinsNeutral((slotContext, stack) => false)
+                .canWalkOnPowderedSnow((slotContext, stack) => false)
+                .isEnderMask((slotContext, enderMan, stack) => false)
+                .modifyAttribute(context => {
+                    let { slotContext, uuid } = context
+                    let identifier = slotContext.identifier() + slotContext.index()
+                    context.modify($SlotAttribute.getOrCreate('body'),uuid,identifier,1,'addition')
+            })
+        )
 
     event.create('paranoia_antidote_vessel1').rarity('epic').displayName('偏执解药瓶').maxStackSize(1).tag("curios:charm")
     .attachCuriosCapability(

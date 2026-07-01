@@ -1,0 +1,29 @@
+{
+  "armorSetName": "the_tesseract",
+  "performanceMode": true,
+  "mainHand": {
+    "itemKey": "legendary_monsters:the_tesseract",
+    "mixAndMatch": [
+      ],
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:critical_damage",
+      "value": 0.2,
+      "modifierUUID": "9b8f1938-d0c5-4e6e-b95d-ab62fb19fb90",
+      "attributeOperation": 0,
+      "interactionType": "self"
+    },
+    {
+      "type": "attribute",
+      "name": "forge:entity_reach",
+      "value": 2.0,
+      "modifierUUID": "ab5e3681-ad54-4dd3-954a-9346b9b66b3d",
+      "attributeOperation": 0,
+      "interactionType": "self"
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

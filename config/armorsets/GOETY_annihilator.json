@@ -1,0 +1,60 @@
+{
+  "armorSetName": "annihilator",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "legendary_monsters:annihilator_helmet",
+    "mixAndMatch": [
+    ],
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "legendary_monsters:annihilator_chestplate",
+    "mixAndMatch": [
+    ],
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "legendary_monsters:annihilator_leggings",
+    "mixAndMatch": [
+    ],
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "legendary_monsters:annihilator_boots",
+    "mixAndMatch": [
+    ],
+    "mustBeEmpty": false
+  },
+  "partialBonusRequiredAmount": 1,
+  "partialSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "gunswithoutroses:gwr.damage_total",
+      "value": -0.2,
+      "modifierUUID": "5c6bdc1b-b192-476b-8a50-de541d8108c2",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "conditions": [
+        {
+          "type": "timeRange",
+          "extra": "0,12500"
+        }
+      ],
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:critical_damage",
+      "value": 0.15,
+      "modifierUUID": "3a7f2e6d-9ca2-4752-99a4-e9d74c0621fb",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

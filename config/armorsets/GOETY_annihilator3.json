@@ -1,0 +1,51 @@
+{
+  "armorSetName": "annihilator",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "legendary_monsters:annihilator_helmet",
+    "mixAndMatch": [
+    ],
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "legendary_monsters:annihilator_chestplate",
+    "mixAndMatch": [
+    ],
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "legendary_monsters:annihilator_leggings",
+    "mixAndMatch": [
+    ],
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "legendary_monsters:annihilator_boots",
+    "mixAndMatch": [
+    ],
+    "mustBeEmpty": false
+  },
+  "partialBonusRequiredAmount": 3,
+  "partialSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor_toughness",
+      "value": 0.15,
+      "modifierUUID": "5a06a88d-a6ac-4db6-9f07-e61f6ba5e4d5",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "minecraft:slowness",
+      "interactionType": "immunity",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

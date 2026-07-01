@@ -88,7 +88,7 @@
     {
       "type": "attribute",
       "name": "obscure_api:penetration",
-      "value": 0.15,
+      "value": 0.2,
       "modifierUUID": "841589aa-c2bb-4c70-9948-6d78fb9b5779",
       "attributeOperation": 0,
       "interactionType": "self",

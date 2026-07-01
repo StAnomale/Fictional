@@ -17,12 +17,12 @@
 	"Resist Ice Cube Max Health (default: 50)" = 50.0
 
 ["ICICLE AMMO CHARGE"]
-	"Icicle Damage (default: 10)" = 200.0
+	"Icicle Damage (default: 10)" = 160.0
 	"Icicle Disable Shields Duration (in ticks, default: 20)" = 60
 	"Icicle Freezing Effect Duration (in ticks, default: 40)" = 120
 	"Icicle Freezing Effect Level (default: 0)" = 1
 	"Max Ammo (default: 20)" = 20
-	"Create Ammo Interval (in ticks, default: 10)" = 8
+	"Create Ammo Interval (in ticks, default: 10)" = 10
 	"Load Crossbow Duration (in ticks, default: 40)" = 20
 	"Crossbow Durability Consumption (default: 1)" = 1
 

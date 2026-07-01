@@ -2,7 +2,7 @@
 	icon: "artifacts:villager_hat"
 	id: "7D8951E3D5A8722D"
 	loot_size: 1
-	order_index: 11
+	order_index: 10
 	rewards: [
 		{
 			item: {

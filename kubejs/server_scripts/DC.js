@@ -1,140 +1,63 @@
 // Visit the wiki for more info - https://kubejs.com/
 // priority: 500
 
-// ==================== 下界合金系列武器（10个）====================
-const netheriteWeapons = [
-  { itemId: 'minecraft:netherite_sword', addAttr: 'minecraft:generic.armor', dmgMult: 0.2 },
-  { itemId: 'minecraft:netherite_axe', addAttr: 'minecraft:generic.armor', dmgMult: 0.2 },
-  { itemId: 'advancednetherite:netherite_iron_sword', addAttr: 'minecraft:generic.armor', dmgMult: 0.2 },
-  { itemId: 'advancednetherite:netherite_iron_axe', addAttr: 'minecraft:generic.armor', dmgMult: 0.2 },
-  { itemId: 'advancednetherite:netherite_gold_sword', addAttr: 'minecraft:generic.armor', dmgMult: 0.2 },
-  { itemId: 'advancednetherite:netherite_gold_axe', addAttr: 'minecraft:generic.armor', dmgMult: 0.2 },
-  { itemId: 'advancednetherite:netherite_emerald_sword', addAttr: 'minecraft:generic.armor', dmgMult: 0.2 },
-  { itemId: 'advancednetherite:netherite_emerald_axe', addAttr: 'minecraft:generic.armor', dmgMult: 0.2 },
-  { itemId: 'advancednetherite:netherite_diamond_sword', addAttr: 'minecraft:generic.armor', dmgMult: 0.2 },
-  { itemId: 'advancednetherite:netherite_diamond_axe', addAttr: 'minecraft:generic.armor', dmgMult: 0.2 },
-];
 
-netheriteWeapons.forEach(weapon => {
-  // 左键发射
-  ItemEvents.firstLeftClicked(weapon.itemId, event => {
-    const { player, level } = event;
-    if (!player.potionEffects.isActive('kubejs:netherite')) return;
-    const damage = player.getAttributeTotalValue('minecraft:generic.attack_damage');
-    const adddamage = player.getAttributeTotalValue(weapon.addAttr);
-    const setCOOLDOWNS = player.getAttributeTotalValue('minecraft:generic.attack_speed');
-    /**
-     * @type {Internal.Projectile}
-     */
-    const projectile = shootProjectile(event, weapon.itemId, 'cataclysm:blazing_bone', {
-      cooldown: 20 / setCOOLDOWNS
-    });
-    if(!projectile) return;
-    projectile.setDamage(8 + 0.4 * damage + weapon.dmgMult * adddamage);
-  });
+// 胧暮荆棘
+ItemEvents.firstLeftClicked('meetyourfight:twilights_thorn', event => {
+  const { player, level } = event;
+  if (player.cooldowns.isOnCooldown('meetyourfight:twilights_thorn')) return;
 
-  // 右键激活效果
-  ItemEvents.firstRightClicked(weapon.itemId, event => {
-    const { player } = event;
-    if (player.potionEffects.isActive('kubejs:cooldown')) return;
-    player.potionEffects.add('kubejs:netherite', 300);
-    player.potionEffects.add('kubejs:cooldown', 600);
-  });
+  const viewVector = player.getViewVector(1.0);
+  const length = Math.sqrt(viewVector.x() * viewVector.x() + viewVector.y() * viewVector.y() + viewVector.z() * viewVector.z());
+  const normalizedVector = {
+    x: viewVector.x() / length,
+    y: viewVector.y() / length,
+    z: viewVector.z() / length
+  };
+
+  const projectile = level.createEntity('cataclysm:amethyst_cluster_projectile');
+  projectile.setPosition(player.x + normalizedVector.x * 0.8, player.y + 1.5 + normalizedVector.y * 0.8, player.z + normalizedVector.z * 0.8);
+  projectile.setMotion(normalizedVector.x * 3.0, normalizedVector.y * 3.0, normalizedVector.z * 3.0);
+  projectile.setOwner(player);
+
+  const adddamage = player.getAttributeTotalValue('minecraft:generic.luck');
+  const setCOOLDOWNS = player.getAttributeTotalValue('minecraft:generic.attack_speed');
+  projectile.setDamage(8 + 2.4 * adddamage);
+
+  player.addItemCooldown('meetyourfight:twilights_thorn', 20 / setCOOLDOWNS);
+  projectile.spawn();
 });
 
-// ==================== 钻石系列武器（2个）====================
-const diamondWeapons = [
-  { itemId: 'minecraft:diamond_sword', addAttr: 'minecraft:generic.armor', dmgMult: 0.2 },
-  { itemId: 'minecraft:diamond_axe', addAttr: 'minecraft:generic.armor', dmgMult: 0.2 }
-];
+ItemEvents.firstLeftClicked('legendary_monsters:chorus_blade', event => {
+  const { player, level } = event;
+  if (player.cooldowns.isOnCooldown('legendary_monsters:chorus_blade')) return;
 
-diamondWeapons.forEach(weapon => {
-  // 左键发射
-  ItemEvents.firstLeftClicked(weapon.itemId, event => {
-    const { player, level } = event;
-    if (!player.potionEffects.isActive('kubejs:diamond')) return;
-    if (player.cooldowns.isOnCooldown(weapon.itemId)) return;
+  const viewVector = player.getViewVector(1.0);
+  const length = Math.sqrt(viewVector.x() * viewVector.x() + viewVector.y() * viewVector.y() + viewVector.z() * viewVector.z());
+  const normalizedVector = {
+    x: viewVector.x() / length,
+    y: viewVector.y() / length,
+    z: viewVector.z() / length
+  };
 
-    const viewVector = player.getViewVector(1.0);
-    const length = Math.sqrt(viewVector.x() * viewVector.x() + viewVector.y() * viewVector.y() + viewVector.z() * viewVector.z());
-    const normalizedVector = {
-      x: viewVector.x() / length,
-      y: viewVector.y() / length,
-      z: viewVector.z() / length
-    };
+  const projectile = level.createEntity('cataclysm:amethyst_cluster_projectile');
+  projectile.setPosition(player.x + normalizedVector.x * 0.8, player.y + 1.5 + normalizedVector.y * 0.8, player.z + normalizedVector.z * 0.8);
+  projectile.setMotion(normalizedVector.x * 3.0, normalizedVector.y * 3.0, normalizedVector.z * 3.0);
+  projectile.setOwner(player);
 
-    const projectile = level.createEntity('cataclysm:blazing_bone');
-    projectile.setPosition(player.x + normalizedVector.x * 0.8, player.y + 1.1 + normalizedVector.y * 0.8, player.z + normalizedVector.z * 0.8);
-    projectile.setMotion(normalizedVector.x * 3.0, normalizedVector.y * 3.0, normalizedVector.z * 3.0);
-    projectile.setOwner(player);
+  const adddamage = player.getAttributeTotalValue('minecraft:generic.luck');
+  const setCOOLDOWNS = player.getAttributeTotalValue('minecraft:generic.attack_speed');
+  projectile.setDamage(8 + 2 * adddamage);
 
-    const damage = player.getAttributeTotalValue('minecraft:generic.attack_damage');
-    const adddamage = player.getAttributeTotalValue(weapon.addAttr);
-    const setCOOLDOWNS = player.getAttributeTotalValue('minecraft:generic.attack_speed');
-    projectile.setDamage(6 + 0.4 * damage + weapon.dmgMult * adddamage);
-
-    player.addItemCooldown(weapon.itemId, 20 / setCOOLDOWNS);
-    projectile.spawn();
-  });
-
-  // 右键激活效果
-  ItemEvents.firstRightClicked(weapon.itemId, event => {
-    const { player } = event;
-    if (player.potionEffects.isActive('kubejs:cooldown')) return;
-    player.potionEffects.add('kubejs:diamond', 300);
-    player.potionEffects.add('kubejs:cooldown', 600);
-  });
-});
-
-// ==================== 末影合金系列武器（2个）====================
-const enderiteWeapons = [
-  { itemId: 'enderitemod:enderite_sword', addAttr: 'minecraft:generic.armor_toughness', dmgMult: 0.2 },
-  { itemId: 'enderitemod:enderite_axe', addAttr: 'minecraft:generic.armor_toughness', dmgMult: 0.2 }
-];
-
-enderiteWeapons.forEach(weapon => {
-  // 左键发射
-  ItemEvents.firstLeftClicked(weapon.itemId, event => {
-    const { player, level } = event;
-    if (!player.potionEffects.isActive('kubejs:enderite')) return;
-    if (player.cooldowns.isOnCooldown(weapon.itemId)) return;
-
-    const viewVector = player.getViewVector(1.0);
-    const length = Math.sqrt(viewVector.x() * viewVector.x() + viewVector.y() * viewVector.y() + viewVector.z() * viewVector.z());
-    const normalizedVector = {
-      x: viewVector.x() / length,
-      y: viewVector.y() / length,
-      z: viewVector.z() / length
-    };
-
-    const projectile = level.createEntity('cataclysm:blazing_bone');
-    projectile.setPosition(player.x + normalizedVector.x * 0.8, player.y + 1.1 + normalizedVector.y * 0.8, player.z + normalizedVector.z * 0.8);
-    projectile.setMotion(normalizedVector.x * 3.5, normalizedVector.y * 3.5, normalizedVector.z * 3.5);
-    projectile.setOwner(player);
-
-    const damage = player.getAttributeTotalValue('minecraft:generic.attack_damage');
-    const adddamage = player.getAttributeTotalValue(weapon.addAttr);
-    const setCOOLDOWNS = player.getAttributeTotalValue('minecraft:generic.attack_speed');
-    projectile.setDamage(8 + 0.4 * damage + weapon.dmgMult * adddamage);
-
-    player.addItemCooldown(weapon.itemId, 20 / setCOOLDOWNS);
-    projectile.spawn();
-  });
-
-  // 右键激活效果
-  ItemEvents.firstRightClicked(weapon.itemId, event => {
-    const { player } = event;
-    if (player.potionEffects.isActive('kubejs:cooldown')) return;
-    player.potionEffects.add('kubejs:enderite', 300);
-    player.potionEffects.add('kubejs:cooldown', 600);
-  });
+  player.addItemCooldown('legendary_monsters:chorus_blade', 20 / setCOOLDOWNS);
+  projectile.spawn();
 });
 
 // ==================== 深渊宝珠系列（3个护手）====================
 const gauntletWeapons = [
-  { itemId: 'cataclysm:gauntlet_of_guard', dmgAttr: 'minecraft:generic.max_health', addAttr: 'minecraft:generic.armor_toughness', dmgBase: 8, dmgMult1: 0.4, dmgMult2: 0.2 },
-  { itemId: 'cataclysm:gauntlet_of_maelstrom', dmgAttr: 'minecraft:generic.attack_damage', addAttr: 'minecraft:generic.armor_toughness', dmgBase: 8, dmgMult1: 0.4, dmgMult2: 0.4 },
-  { itemId: 'cataclysm:gauntlet_of_bulwark', dmgAttr: 'minecraft:generic.attack_damage', addAttr: 'minecraft:generic.armor', dmgBase: 8, dmgMult1: 0.4, dmgMult2: 0.4 }
+  { itemId: 'cataclysm:gauntlet_of_guard', dmgAttr: 'minecraft:generic.attack_damage', addAttr: 'minecraft:generic.max_health', dmgBase: 8, dmgMult1: 0, dmgMult2: 0.4 },
+  { itemId: 'cataclysm:gauntlet_of_maelstrom', dmgAttr: 'minecraft:generic.attack_damage', addAttr: 'minecraft:generic.armor_toughness', dmgBase: 8, dmgMult1: 0.2, dmgMult2: 0.4 },
+  { itemId: 'cataclysm:gauntlet_of_bulwark', dmgAttr: 'minecraft:generic.attack_damage', addAttr: 'minecraft:generic.armor', dmgBase: 8, dmgMult1: 0.2, dmgMult2: 0.4 }
 ];
 
 gauntletWeapons.forEach(weapon => {
@@ -187,11 +110,38 @@ ItemEvents.rightClicked('cataclysm:wrath_of_the_desert', event => {
 
   const damage = player.getAttributeTotalValue('obscure_api:magic_damage');
   const adddamage = player.getAttributeTotalValue('minecraft:generic.armor_toughness');
-  projectile.setDamage(4 + 1.0 * damage + 0.8 * adddamage);
+  projectile.setDamage(8 + 2.0 * damage + 0.8 * adddamage);
 
   player.addItemCooldown('cataclysm:wrath_of_the_desert', 16);
   projectile.spawn();
 });
+
+// // 神怒长朔
+// ItemEvents.firstLeftClicked('cataclysm:astrape', event => {
+//   const { player, level } = event;
+//   if (player.cooldowns.isOnCooldown('cataclysm:astrape')) return;
+
+//   const viewVector = player.getViewVector(1.0);
+//   const length = Math.sqrt(viewVector.x() * viewVector.x() + viewVector.y() * viewVector.y() + viewVector.z() * viewVector.z());
+//   const normalizedVector = {
+//     x: viewVector.x() / length,
+//     y: viewVector.y() / length,
+//     z: viewVector.z() / length
+//   };
+
+//   const projectile = level.createEntity('cataclysm:water_spear');
+//   projectile.setPosition(player.x + normalizedVector.x * 0.8, player.y + 1.0 + normalizedVector.y * 0.8, player.z + normalizedVector.z * 0.8);
+//   projectile.setMotion(normalizedVector.x * 3.0, normalizedVector.y * 3.0, normalizedVector.z * 3.0);
+//   projectile.setOwner(player);
+
+//   const damage = player.getAttributeTotalValue('minecraft:generic.attack_damage');
+//   const adddamage = player.getAttributeTotalValue('minecraft:generic.armor');
+//   const setCOOLDOWNS = player.getAttributeTotalValue('minecraft:generic.attack_speed');
+//   projectile.setDamage(20 + 0.4 * damage + 0.4 * adddamage);
+
+//   player.addItemCooldown('cataclysm:astrape', 20 / setCOOLDOWNS);
+//   projectile.spawn();
+// });
 
 // 神怒长朔
 ItemEvents.firstLeftClicked('cataclysm:astrape', event => {
@@ -211,14 +161,26 @@ ItemEvents.firstLeftClicked('cataclysm:astrape', event => {
   projectile.setMotion(normalizedVector.x * 3.0, normalizedVector.y * 3.0, normalizedVector.z * 3.0);
   projectile.setOwner(player);
 
-  const damage = player.getAttributeTotalValue('minecraft:generic.attack_damage');
-  const adddamage = player.getAttributeTotalValue('minecraft:generic.armor');
+  const damage = player.getAttributeTotalValue('minecraft:generic.armor');
   const setCOOLDOWNS = player.getAttributeTotalValue('minecraft:generic.attack_speed');
-  projectile.setDamage(20 + 0.4 * damage + 0.4 * adddamage);
+  projectile.setDamage(20 + 0.6 * damage);
 
   player.addItemCooldown('cataclysm:astrape', 20 / setCOOLDOWNS);
   projectile.spawn();
 });
+
+// // 神怒长朔
+// ItemEvents.firstLeftClicked('cataclysm:astrape', event => {
+//     const { player } = event;
+//     const BladeBeam = Java.loadClass('io.zershyan.fictional.common.registry.entities.BladeBeam');
+
+//     const damage = player.getAttributeTotalValue('minecraft:generic.armor');
+//     const setCOOLDOWNS = player.getAttributeTotalValue('minecraft:generic.attack_speed');
+
+//     BladeBeam.spawn(player, 20 + 0.4 * damage).distance(24).color(0x00FFFF).alpha(0.4).build(4.0);
+//     player.addItemCooldown('cataclysm:astrape', 20 / setCOOLDOWNS)
+// });
+
 
 // 断魂战戟
 ItemEvents.firstLeftClicked('cataclysm:soul_render', event => {
@@ -240,11 +202,10 @@ ItemEvents.firstLeftClicked('cataclysm:soul_render', event => {
   
   const rot = player.yRot
   projectile.yRot = rot //修正方向
-
-  const damage = player.getAttributeTotalValue('minecraft:generic.attack_damage');
+  
   const adddamage = player.getAttributeTotalValue('minecraft:generic.armor_toughness');
   const setCOOLDOWNS = player.getAttributeTotalValue('minecraft:generic.attack_speed');
-  projectile.setDamage(20 + 0.4 * damage + 0.4 * adddamage);
+  projectile.setDamage(15 + 0.6 * adddamage);
 
   player.addItemCooldown('cataclysm:soul_render', 20 / setCOOLDOWNS);
   projectile.spawn();
@@ -271,7 +232,7 @@ ItemEvents.firstRightClicked('cataclysm:the_incinerator', event => {
   const damage = player.getAttributeTotalValue('minecraft:generic.attack_damage');
   const adddamage = player.getAttributeTotalValue('minecraft:generic.armor');
   const setCOOLDOWNS = player.getAttributeTotalValue('minecraft:generic.attack_speed');
-  projectile.setDamage(8+0.1 * damage + 0.1 * adddamage);
+  projectile.setDamage(1 + 0.15 * damage + 0.15 * adddamage);
 
   player.potionEffects.add('kubejs:cooldown', 1200 / setCOOLDOWNS);
   projectile.spawn();
@@ -300,36 +261,10 @@ ItemEvents.rightClicked('cataclysm:ancient_spear', event => {
   const setCOOLDOWNS = player.getAttributeTotalValue('minecraft:generic.attack_speed');
   projectile.setDamage(12 + 0.4 * damage + 0.8 * adddamage);
 
-  player.addItemCooldown('cataclysm:ancient_spear', 10+ 10 / setCOOLDOWNS);
+  player.addItemCooldown('cataclysm:ancient_spear', 10 + 20 / setCOOLDOWNS);
   projectile.spawn();
 });
 
-// 胧暮荆棘
-ItemEvents.firstLeftClicked('meetyourfight:twilights_thorn', event => {
-  const { player, level } = event;
-  if (player.cooldowns.isOnCooldown('meetyourfight:twilights_thorn')) return;
-
-  const viewVector = player.getViewVector(1.0);
-  const length = Math.sqrt(viewVector.x() * viewVector.x() + viewVector.y() * viewVector.y() + viewVector.z() * viewVector.z());
-  const normalizedVector = {
-    x: viewVector.x() / length,
-    y: viewVector.y() / length,
-    z: viewVector.z() / length
-  };
-
-  const projectile = level.createEntity('cataclysm:amethyst_cluster_projectile');
-  projectile.setPosition(player.x + normalizedVector.x * 0.8, player.y + 1.5 + normalizedVector.y * 0.8, player.z + normalizedVector.z * 0.8);
-  projectile.setMotion(normalizedVector.x * 3.0, normalizedVector.y * 3.0, normalizedVector.z * 3.0);
-  projectile.setOwner(player);
-
-  const damage = player.getAttributeTotalValue('minecraft:generic.attack_damage');
-  const adddamage = player.getAttributeTotalValue('minecraft:generic.luck');
-  const setCOOLDOWNS = player.getAttributeTotalValue('minecraft:generic.attack_speed');
-  projectile.setDamage(8+0.4 * damage + 2 * adddamage);
-
-  player.addItemCooldown('meetyourfight:twilights_thorn', 20 / setCOOLDOWNS);
-  projectile.spawn();
-});
 
 // 末影合金弓
 ItemEvents.rightClicked('enderitemod:enderite_bow', event => {
@@ -347,25 +282,162 @@ ItemEvents.rightClicked('enderitemod:enderite_bow', event => {
   const adddamage = player.getAttributeTotalValue('minecraft:generic.armor_toughness');
   const velocity = 2;
 
+  player.server.scheduleInTicks(10, () => { 
+
   // 第一个弹射物
   const projectile1 = level.createEntity('minecraft:arrow');
-  projectile1.setPosition(player.x, player.y + 1.2, player.z);
+  projectile1.setPosition(player.x, player.y + 1.6, player.z);
   projectile1.setMotion(normalizedVector.x * velocity, normalizedVector.y * velocity, normalizedVector.z * velocity);
   projectile1.setOwner(player);
-  projectile1.mergeNbt({ pickup: 1, damage: 2 + 0.2 * adddamage, PierceLevel: 2 });
+  projectile1.mergeNbt({ pickup: 1, damage: 4 + 0.2 * adddamage, PierceLevel: 2 });
   projectile1.spawn();
 
   // 第二个弹射物（需要药水效果）
   if (player.potionEffects.isActive('kubejs:enderite')) {
     const projectile2 = level.createEntity('minecraft:arrow');
-    projectile2.setPosition(player.x, player.y + 0.6, player.z);
+    projectile2.setPosition(player.x, player.y + 1.4, player.z + 0.1);
     projectile2.setMotion(normalizedVector.x * velocity, normalizedVector.y * velocity, normalizedVector.z * velocity);
     projectile2.setOwner(player);
-    projectile2.mergeNbt({ pickup: 1, damage: 2 + 0.1 * adddamage, PierceLevel: 2 });
+    projectile2.mergeNbt({ pickup: 1, damage: 4 + 0.1 * adddamage, PierceLevel: 2 });
     projectile2.spawn();
   }
-
+  })
   player.addItemCooldown('enderitemod:enderite_bow', 16);
+
 });
 
 //本整合包由 绘名青棺(Silentmo) 制作，联系QQ群：693928637
+
+
+// ==================== 下界合金系列武器（10个）====================
+const netheriteWeapons = [
+  { itemId: 'minecraft:netherite_sword'},
+  { itemId: 'minecraft:netherite_axe'},
+  { itemId: 'advancednetherite:netherite_iron_sword'},
+  { itemId: 'advancednetherite:netherite_iron_axe'},
+  { itemId: 'advancednetherite:netherite_gold_sword'},
+  { itemId: 'advancednetherite:netherite_gold_axe'},
+  { itemId: 'advancednetherite:netherite_emerald_sword'},
+  { itemId: 'advancednetherite:netherite_emerald_axe'},
+  { itemId: 'advancednetherite:netherite_diamond_sword'},
+  { itemId: 'advancednetherite:netherite_diamond_axe'},
+];
+
+netheriteWeapons.forEach(weapon => {
+  // 左键发射
+  ItemEvents.firstLeftClicked(weapon.itemId, event => {
+    const { player } = event;
+    const BladeBeam = Java.loadClass('io.zershyan.fictional.common.registry.entities.BladeBeam');
+    if (player.cooldowns.isOnCooldown(weapon.itemId)) return;
+    if (!player.potionEffects.isActive('kubejs:netherite')) return;
+    const adddamage = player.getAttributeTotalValue('minecraft:generic.armor');
+    const setCOOLDOWNS = player.getAttributeTotalValue('minecraft:generic.attack_speed');
+
+    BladeBeam.spawn(player, 8 + 0.4 * adddamage ).distance(24).color(0x000000).alpha(0.2).build(4.0);
+    player.addItemCooldown(weapon.itemId, 20 / setCOOLDOWNS)
+  });
+
+  // 右键激活效果
+  ItemEvents.firstRightClicked(weapon.itemId, event => {
+    const { player } = event;
+    if (player.potionEffects.isActive('kubejs:cooldown')) return;
+    player.potionEffects.add('kubejs:netherite', 300);
+    player.potionEffects.add('kubejs:cooldown', 600);
+  });
+});
+
+// ==================== 钻石系列武器（2个）====================
+const diamondWeapons = [
+  { itemId: 'minecraft:diamond_sword', addAttr: 'minecraft:generic.armor', dmgMult: 0.2 },
+  { itemId: 'minecraft:diamond_axe', addAttr: 'minecraft:generic.armor', dmgMult: 0.2 }
+];
+
+diamondWeapons.forEach(weapon => {
+  // 左键发射
+  ItemEvents.firstLeftClicked(weapon.itemId, event => {
+    const { player } = event;
+    const BladeBeam = Java.loadClass('io.zershyan.fictional.common.registry.entities.BladeBeam');
+    if (!player.potionEffects.isActive('kubejs:diamond')) return;
+    if (player.cooldowns.isOnCooldown(weapon.itemId)) return;
+
+    const adddamage = player.getAttributeTotalValue('minecraft:generic.armor');
+    const setCOOLDOWNS = player.getAttributeTotalValue('minecraft:generic.attack_speed');
+
+    BladeBeam.spawn(player, 4 + 0.4 * adddamage ).distance(24).alpha(0.2).build(4.0);
+    player.addItemCooldown(weapon.itemId, 20 / setCOOLDOWNS)
+
+  });
+
+  // 右键激活效果
+  ItemEvents.firstRightClicked(weapon.itemId, event => {
+    const { player } = event;
+    if (player.potionEffects.isActive('kubejs:cooldown')) return;
+    player.potionEffects.add('kubejs:diamond', 300);
+    player.potionEffects.add('kubejs:cooldown', 600);
+  });
+});
+
+// ==================== 末影合金系列武器（2个）====================
+const enderiteWeapons = [
+  { itemId: 'enderitemod:enderite_sword'},
+  { itemId: 'enderitemod:enderite_axe'}
+];
+
+enderiteWeapons.forEach(weapon => {
+  // 左键发射
+  ItemEvents.firstLeftClicked(weapon.itemId, event => {
+
+    const { player } = event;
+    const BladeBeam = Java.loadClass('io.zershyan.fictional.common.registry.entities.BladeBeam');
+    if (!player.potionEffects.isActive('kubejs:enderite')) return;
+    if (player.cooldowns.isOnCooldown(weapon.itemId)) return;
+
+    const adddamage = player.getAttributeTotalValue('minecraft:generic.armor_toughness');
+    const setCOOLDOWNS = player.getAttributeTotalValue('minecraft:generic.attack_speed');
+
+    BladeBeam.spawn(player, 8 + 0.4 * adddamage ).distance(24).color(0x191970).alpha(0.2).build(4.0);
+    player.addItemCooldown(weapon.itemId, 20 / setCOOLDOWNS)
+
+  });
+
+  // 右键激活效果
+  ItemEvents.firstRightClicked(weapon.itemId, event => {
+    const { player } = event;
+    if (player.potionEffects.isActive('kubejs:cooldown')) return;
+    player.potionEffects.add('kubejs:enderite', 300);
+    player.potionEffects.add('kubejs:cooldown', 600);
+  });
+});
+
+// ==================== 终末金属系列武器（2个）====================
+const enderiteWeapons2 = [
+  { itemId: 'legendary_monsters:enderitium_sword'},
+  { itemId: 'legendary_monsters:enderitium_axe'}
+];
+
+enderiteWeapons2.forEach(weapon => {
+  // 左键发射
+  ItemEvents.firstLeftClicked(weapon.itemId, event => {
+
+    const { player } = event;
+    const BladeBeam = Java.loadClass('io.zershyan.fictional.common.registry.entities.BladeBeam');
+    if (!player.potionEffects.isActive('kubejs:enderite')) return;
+    if (player.cooldowns.isOnCooldown(weapon.itemId)) return;
+
+    const adddamage = player.getAttributeTotalValue('minecraft:generic.armor_toughness');
+    const setCOOLDOWNS = player.getAttributeTotalValue('minecraft:generic.attack_speed');
+
+    BladeBeam.spawn(player, 4 + 0.4 * adddamage ).distance(24).color(0x191970).alpha(0.2).build(4.0);
+    player.addItemCooldown(weapon.itemId, 20 / setCOOLDOWNS)
+
+  });
+
+  // 右键激活效果
+  ItemEvents.firstRightClicked(weapon.itemId, event => {
+    const { player } = event;
+    if (player.potionEffects.isActive('kubejs:cooldown')) return;
+    player.potionEffects.add('kubejs:enderite', 300);
+    player.potionEffects.add('kubejs:cooldown', 600);
+  });
+});
+

@@ -56,11 +56,13 @@ event.recipes.summoningrituals
             .offset(0, 3, 0)                      // 垂直向上
             .spread(5, 0, 5)                      // 水平扩散
             .data({ Health: 6000, Attributes: [
-                { Name: 'generic.max_health', Base: 2400 }, 
-                { Name: 'obscure_api:magic_damage', Base: 4 },
-                { Name: 'obscure_api:critical_hit', Base: 0.2 },
-                { Name: 'obscure_api:regeneration', Base: 100 },
-                { Name: 'obscure_api:healing_power', Base: 5 },
+                { Name: 'generic.max_health', Base: 2800 }, 
+                { Name: 'obscure_api:magic_damage', Base: 6 },
+                { Name: 'obscure_api:critical_hit', Base: 0.4 },
+                { Name: 'obscure_api:critical_damage', Base: 1.0 },
+                { Name: 'obscure_api:penetration', Base: 0.2 },
+                { Name: 'obscure_api:regeneration', Base: 400 },
+                { Name: 'obscure_api:healing_power', Base: 2.0 },
             ] }) // 自定义属性
     )
     .input('goetyawaken:nameless_platinum')            // 输入物品
@@ -104,7 +106,7 @@ function setupProjectileEntity2(entityId, config) {
         e.repeating = true;
         let target = event.level.getNearestPlayer(event.entity, 48);
         if (target) {
-          event.entity.lookAt("eyes", new Vec3d(target.x, target.y + 1, target.z));
+          event.entity.lookAt("eyes", new Vec3d(target.x, target.y + 0.5, target.z));
           
           const projectile = event.level.createEntity(config.projectile);
           if (!projectile) return;
@@ -120,14 +122,14 @@ function setupProjectileEntity2(entityId, config) {
               z: dz / distance
             };
             
-            const offset = 3.0;
+            const offset = 2.0;
             const spawnX = event.entity.x + normalizedVector.x * offset;
             const spawnY = event.entity.y + 1.0 + normalizedVector.y * offset;
             const spawnZ = event.entity.z + normalizedVector.z * offset;
             
             projectile.setPosition(spawnX, spawnY, spawnZ);
 
-            const velocity = 2.0;
+            const velocity = 1.5;
             projectile.setMotion(normalizedVector.x * velocity, normalizedVector.y * velocity, normalizedVector.z * velocity);
             projectile.mergeNbt({ pickup: 4, damage: config.damage, PierceLevel: 2 });
             projectile.setOwner(event.entity);
@@ -141,6 +143,24 @@ function setupProjectileEntity2(entityId, config) {
   }}
 );
 }
+
+//特殊掉落
+EntityEvents.drops('cataclysm:maledictus', event => {
+  let entity = event.entity;
+  let dimensionId = entity.level.dimension.toString()
+  //console.log(`测试1`)
+  if (dimensionId === 'pbf1:sanctum_of_the_battle1') {
+    let damageSource = event.getSource();
+    let player = damageSource.player
+    //if (player.isCuriosEquipped('goety:unholy_blood')) {
+    event.addDrop('kubejs:contrary_chronicle', 1)
+    event.drops.removeIf(item => item.item.id === 'minecraft:rotten_flesh');
+    //event.cancel();
+    //entity.spawnAtLocation('kubejs:cucumber1', 1);
+    //console.log(`测试2`)
+    //}
+  }
+})
 
 // 应用所有弹射物配置
 projectileConfigs2.forEach(config => {
@@ -198,7 +218,7 @@ EntityEvents.spawned(function(event) {
     if (isDimension && isLiving && isTargetMonster) {
         try {
             if (entity.potionEffects) {
-                entity.potionEffects.add('goety:leeching', -1, 9,false,false); //吸血
+                entity.potionEffects.add('goety:leeching', -1, 4,false,false); //吸血
                 //entity.potionEffects.add('goetyawaken:frenzied', -1, 9,false,false); //狂暴
                 entity.potionEffects.add('goety:swirling', -1, 0,false,false); //风旋
                 //entity.potionEffects.add('goetyawaken:enchantment_thundering', -1, 9,false,false); //引雷

@@ -5,7 +5,8 @@
     "item": "minecraft:sculk_shrieker"
   },
   "craftType": "geoturgy",
-  "soulCost": 8,
+  "research": "forbidden",
+  "soulCost": 800,
   "duration": 10,
   "ingredients": [
     {
@@ -35,6 +36,6 @@
   ],
   "result": {
     "item": "minecraft:echo_shard",
-    "count": 32
+    "count": 16
   }
 }

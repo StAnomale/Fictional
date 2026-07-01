@@ -29,7 +29,7 @@
     {
       "type": "attribute",
       "name": "obscure_api:magic_damage",
-      "value": 1.0,
+      "value": 2.0,
       "modifierUUID": "6684ce2d-3e3d-4e83-8c71-7e2bad6a8dcc",
       "attributeOperation": 0,
       "interactionType": "self"

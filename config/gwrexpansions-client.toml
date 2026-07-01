@@ -29,3 +29,73 @@
 	#是否显示连击进度 / Show combo progress
 	show_progress = true
 
+#先兆裁光过载HUD设置 / Harbinger Raycaster Overload HUD Settings
+[harbinger_overload_hud]
+	#是否启用先兆裁光过载电池HUD / Enable Harbinger Raycaster overload battery HUD
+	enabled = true
+	#先兆裁光过载HUD X轴偏移 / X offset for Harbinger overload HUD
+	#Range: -2000 ~ 2000
+	offset_x = 0
+	#先兆裁光过载HUD Y轴偏移 / Y offset for Harbinger overload HUD
+	#Range: -2000 ~ 2000
+	offset_y = 32
+
+#武器HUD设置 / Weapon HUD Settings
+[weapon_huds]
+	#是否启用潮汐手枪 / Tidal Pistol HUD / Enable 潮汐手枪 / Tidal Pistol HUD
+	tidal_pistol_enabled = true
+	#tidal_pistol HUD X轴偏移 / HUD X offset
+	#Range: -2000 ~ 2000
+	tidal_pistol_offset_x = 0
+	#tidal_pistol HUD Y轴偏移 / HUD Y offset
+	#Range: -2000 ~ 2000
+	tidal_pistol_offset_y = 42
+	#是否启用雷霆刻律 / Ceraunus Burst HUD / Enable 雷霆刻律 / Ceraunus Burst HUD
+	ceraunus_burst_enabled = true
+	#ceraunus_burst HUD X轴偏移 / HUD X offset
+	#Range: -2000 ~ 2000
+	ceraunus_burst_offset_x = 0
+	#ceraunus_burst HUD Y轴偏移 / HUD Y offset
+	#Range: -2000 ~ 2000
+	ceraunus_burst_offset_y = 18
+	#是否启用遗迹牙铳 / Remnant Fangshot HUD / Enable 遗迹牙铳 / Remnant Fangshot HUD
+	remnant_fangshot_enabled = true
+	#remnant_fangshot HUD X轴偏移 / HUD X offset
+	#Range: -2000 ~ 2000
+	remnant_fangshot_offset_x = 0
+	#remnant_fangshot HUD Y轴偏移 / HUD Y offset
+	#Range: -2000 ~ 2000
+	remnant_fangshot_offset_y = 13
+	#是否启用咒魂狙击枪 / Cursium Sniper HUD / Enable 咒魂狙击枪 / Cursium Sniper HUD
+	cursium_sniper_enabled = true
+	#cursium_sniper HUD X轴偏移 / HUD X offset
+	#Range: -2000 ~ 2000
+	cursium_sniper_offset_x = 0
+	#cursium_sniper HUD Y轴偏移 / HUD Y offset
+	#Range: -2000 ~ 2000
+	cursium_sniper_offset_y = 23
+	#是否启用超级霰弹枪 / Super Shotgun HUD / Enable 超级霰弹枪 / Super Shotgun HUD
+	super_shotgun_enabled = true
+	#super_shotgun HUD X轴偏移 / HUD X offset
+	#Range: -2000 ~ 2000
+	super_shotgun_offset_x = 0
+	#super_shotgun HUD Y轴偏移 / HUD Y offset
+	#Range: -2000 ~ 2000
+	super_shotgun_offset_y = 10
+	#是否启用骷髅粉碎者 / Skullcrusher HUD / Enable 骷髅粉碎者 / Skullcrusher HUD
+	skullcrusher_enabled = true
+	#skullcrusher HUD X轴偏移 / HUD X offset
+	#Range: -2000 ~ 2000
+	skullcrusher_offset_x = 0
+	#skullcrusher HUD Y轴偏移 / HUD Y offset
+	#Range: -2000 ~ 2000
+	skullcrusher_offset_y = 10
+	#是否启用黑曜石发射器 / Obsidian Launcher HUD / Enable 黑曜石发射器 / Obsidian Launcher HUD
+	obsidian_launcher_enabled = true
+	#obsidian_launcher HUD X轴偏移 / HUD X offset
+	#Range: -2000 ~ 2000
+	obsidian_launcher_offset_x = 0
+	#obsidian_launcher HUD Y轴偏移 / HUD Y offset
+	#Range: -2000 ~ 2000
+	obsidian_launcher_offset_y = 10
+

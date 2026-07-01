@@ -4,7 +4,7 @@
 	#Range: 0 ~ 360000
 	ITEM_SWEEP_INTERVAL = 600
 	#Other entities of types will be killed when cleaning, e.g. arrows. You can also kill mobs or even players by setting this.
-	EXTRA_ENTITY_TYPES = ["twilightforest:ice_arrow", "twilightforest:ice_arrow", "twilightforest:seeker_arrow", "cataclysm:laser_beam", "cataclysm:the_watcher", "minecraft:arrow", "gunswithoutroses:bullet", "gunswithoutroses:bullet_piercing", "quark:torch_arrow", "royalvariations:royal_arrow", "minecraft:spectral_arrow", "minecraft:spectral_arrow", "oceanworld:drip_ice", "cataclysm:cursed_sandstorm", "cataclysm:sandstorm_projectile", "cataclysm:phantom_arrow"]
+	EXTRA_ENTITY_TYPES = ["legendary_monsters:tracking_bomb", "twilightforest:ice_arrow", "twilightforest:ice_arrow", "twilightforest:seeker_arrow", "cataclysm:laser_beam", "cataclysm:the_watcher", "minecraft:arrow", "gunswithoutroses:bullet", "gunswithoutroses:bullet_piercing", "quark:torch_arrow", "royalvariations:royal_arrow", "minecraft:spectral_arrow", "minecraft:spectral_arrow", "oceanworld:drip_ice", "cataclysm:cursed_sandstorm", "cataclysm:sandstorm_projectile", "cataclysm:phantom_arrow"]
 	#What message will be sent to players when there's 15s, 30s and 60s left to sweep. "$1" stands for the remaining time (in seconds).
 	MESSAGE_BEFORE_SWEEP_15_30_60 = "[ 伊甸银行 ] : 将在 $1 秒后开始清理世界！"
 	#What message will be sent to players when there's 1s~10s left to sweep. "$1" stands for the remaining time (in seconds).

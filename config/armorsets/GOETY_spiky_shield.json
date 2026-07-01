@@ -1,0 +1,33 @@
+{
+  "armorSetName": "shield",
+  "performanceMode": true,
+  "offHand": {
+    "itemKey": "legendary_monsters:spiky_shield",
+    "mixAndMatch": [
+      "legendary_monsters:buckler_of_annihilation",
+      "legendary_monsters:shulker_shield",
+      "legendary_monsters:dinosaur_bone_shield",
+      "legendary_monsters:frostbitten_shield"
+      ],
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor",
+      "value": 2.0,
+      "modifierUUID": "c253136a-6072-481e-addf-77eb2c15cb03",
+      "attributeOperation": 0,
+      "interactionType": "self"
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor_toughness",
+      "value": 2.0,
+      "modifierUUID": "cf7cb199-5180-45c9-b7b0-ceefcecc46d6",
+      "attributeOperation": 0,
+      "interactionType": "self"
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

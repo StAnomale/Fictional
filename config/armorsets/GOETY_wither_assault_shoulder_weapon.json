@@ -1,0 +1,30 @@
+{
+  "armorSetName": "wither_assault_shoulder_weapon",
+  "performanceMode": true,
+  "offHand": {
+    "itemKey": "cataclysm:wither_assault_shoulder_weapon",
+    "mixAndMatch": [
+      "cataclysm:void_assault_shoulder_weapon"
+      ],
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:critical_damage",
+      "value": 0.4,
+      "modifierUUID": "84da86b1-f994-4886-b965-725d18859fee",
+      "attributeOperation": 0,
+      "interactionType": "self"
+    },
+    {
+      "type": "attribute",
+      "name": "obscure_api:magic_damage",
+      "value": 0.4,
+      "modifierUUID": "7150b6d7-56c6-4aec-a0b6-98521935ed5d",
+      "attributeOperation": 2,
+      "interactionType": "self"
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

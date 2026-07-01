@@ -19,7 +19,7 @@
     },
     "enlightenment": {
       "is_enabled": true,
-      "experience_multiplier_per_level": 0.125
+      "experience_multiplier_per_level": 0.2
     },
     "fishing_fanatic": {
       "is_enabled": true,

@@ -135,7 +135,7 @@
 		flameHandsCost = 25
 		#Leeching Soul Cost, Default: 50
 		#Range: > 1
-		leechingCost = 1000000
+		leechingCost = 100000000
 		#Gravity Pulse Soul Cost, Default: 50
 		#Range: > 1
 		gravityPulseCost = 50
@@ -280,10 +280,10 @@
 	saturationCost = 2500
 	#Resistance Soul Cost, Default: 100
 	#Range: > 1
-	resistanceCost = 1000
+	resistanceCost = 2000
 	#Regeneration Soul Cost, Default: 25
 	#Range: > 1
-	regenerationCost = 25
+	regenerationCost = 250
 	#Jump Boost Soul Cost, Default: 25
 	#Range: > 1
 	jumpBoostCost = 25
@@ -295,7 +295,7 @@
 	hasteCost = 25
 	#Health Boost Soul Cost, Default: 100
 	#Range: > 1
-	healthBoostCost = 100
+	healthBoostCost = 1000
 	#Poison Soul Cost, Default: 10
 	#Range: > 1
 	poisonCost = 10
@@ -304,7 +304,7 @@
 	darknessCost = 10
 	#Healing Soul Cost, Default: 25
 	#Range: > 1
-	healingCost = 25
+	healingCost = 250
 	#Mining Fatigue Soul Cost, Default: 10
 	#Range: > 1
 	miningFatigueCost = 10
@@ -319,7 +319,7 @@
 	harmingCost = 25
 	#Absorption Soul Cost, Default: 50
 	#Range: > 1
-	absorptionCost = 50
+	absorptionCost = 500
 	#Invisibility Soul Cost, Default: 25
 	#Range: > 1
 	invisibilityCost = 25
@@ -352,7 +352,7 @@
 	nauseaCost = 10
 	#Weakness Soul Cost, Default: 25
 	#Range: > 1
-	weaknessCost = 25
+	weaknessCost = 250
 	#Fire Resistance Soul Cost, Default: 25
 	#Range: > 1
 	fireResistanceCost = 25
@@ -361,7 +361,7 @@
 	slownessCost = 10
 	#Strength Soul Cost, Default: 25
 	#Range: > 1
-	strengthCost = 25
+	strengthCost = 2500
 
 ["Brew Bottling"]
 	#How many times the player must bottle a brew to increase Bottling level, Default: 20

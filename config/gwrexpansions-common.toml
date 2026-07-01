@@ -37,6 +37,17 @@
 			#Range: 0.0 ~ 10.0
 			inaccuracy = 0.0
 
+			["Guns Without Roses Expansions Config".Sniper.Cursium.Mechanics]
+				#Maximum rage stored by Cursium Sniper headshots.
+				#Range: 1 ~ 100
+				maxRage = 5
+				#Additional damage multiplier gained for each Cursium Sniper rage stack.
+				#Range: 0.0 ~ 10.0
+				damageMultiplierPerRage = 0.02
+				#Additional headshot multiplier while Cursium Sniper is at full rage.
+				#Range: 0.0 ~ 10.0
+				fullRageHeadshotMultiplierBonus = 0.25
+
 		["Guns Without Roses Expansions Config".Sniper.DragonSteel]
 			#Bonus Damage
 			#Range: 0 ~ 100
@@ -63,13 +74,79 @@
 			damageMultiplier = 2.0
 			#Headshot Multiplier
 			#Range: 1.0 ~ 10.0
-			headshotMultiplier = 2.0
+			headshotMultiplier = 1.5
 			#fire Delay
 			#Range: 4 ~ 100
 			fireDelay = 24
 			#inaccuracy
 			#Range: 0.0 ~ 10.0
 			inaccuracy = 0.0
+
+		["Guns Without Roses Expansions Config".Sniper.HarbingerRaycaster]
+			#Bonus Damage
+			#Range: 0 ~ 100
+			bonusDamage = 0
+			#Damage Multiplier
+			#Range: 0.0 ~ 10.0
+			damageMultiplier = 1.5
+			#Headshot Multiplier
+			#Range: 1.0 ~ 10.0
+			headshotMultiplier = 1.5
+			#fire Delay
+			#Range: 4 ~ 100
+			fireDelay = 24
+			#inaccuracy
+			#Range: 0.0 ~ 10.0
+			inaccuracy = 0.0
+
+		["Guns Without Roses Expansions Config".Sniper.HarbingerRaycaster_Mechanics]
+			#Redstone shots required to fully overload Harbinger Raycaster.
+			#Range: 1 ~ 100
+			maxOverload = 6
+			#Overload mode duration in ticks. 120 ticks = 6 seconds.
+			#Range: 1 ~ 6000
+			overloadModeDurationTicks = 120
+			#Whether overload mode temporarily allows the player to fly.
+			overloadFlightEnabled = true
+			#Flat damage added to redstone bullets fired by Harbinger Raycaster.
+			#Range: 0.0 ~ 1000.0
+			redstoneDamageBonus = 1.0
+			#Additional entities a redstone bullet can pierce when fired by Harbinger Raycaster.
+			#Range: 0 ~ 64
+			redstonePierce = 2
+			#Damage multiplier applied after each redstone bullet pierce.
+			#Range: 0.0 ~ 10.0
+			redstonePierceDamageMultiplier = 1.0
+			#Damage multiplier applied to the empowered redstone shot damage for the death laser.
+			#Range: 0.0 ~ 100.0
+			deathLaserDamageMultiplier = 0.5
+			#Death laser bonus damage as percent of target max health.
+			#Range: 0.0 ~ 100.0
+			deathLaserHpDamage = 1.0
+			#Number of 30-block Cataclysm death laser segments to chain. Total range is segments * segment length.
+			#Range: 1 ~ 16
+			deathLaserSegments = 2
+			#Length of each chained death laser segment.
+			#Range: 1.0 ~ 128.0
+			deathLaserSegmentLength = 30.0
+			#Homing missiles fired per overload wave.
+			#Range: 0 ~ 32
+			missilesPerWave = 3
+			#Extra homing missiles fired near the player when a non-overload Harbinger redstone bullet headshots.
+			#Range: 0 ~ 32
+			normalHeadshotMissiles = 1
+			#Delay in ticks before the first overload missile wave.
+			#Range: 0 ~ 6000
+			missileStartDelay = 8
+			#Ticks between homing missile waves while overload mode is active.
+			#Range: 1 ~ 6000
+			missileIntervalTicks = 16
+			#Damage dealt by each overload homing missile.
+			#Range: 0.0 ~ 1000.0
+			missileDamage = 30.0
+			#Range used by overload homing missiles to find nearby enemies.
+			#Range: 1.0 ~ 128.0
+			missileTargetRange = 18.0
 
 	["Guns Without Roses Expansions Config".Shotgun]
 
@@ -127,7 +204,7 @@
 		["Guns Without Roses Expansions Config".Shotgun.Supershotgun]
 			#Bonus Damage
 			#Range: 0 ~ 100
-			bonusDamage = 1
+			bonusDamage = 0
 			#Damage Multiplier
 			#Range: 0.0 ~ 10.0
 			damageMultiplier = 1.0
@@ -147,21 +224,94 @@
 			bonusDamage = 0
 			#Damage Multiplier
 			#Range: 0.0 ~ 10.0
-			damageMultiplier = 0.8
+			damageMultiplier = 1.0
 			#Headshot Multiplier
 			#Range: 1.0 ~ 10.0
 			headshotMultiplier = 1.0
 			#fire Delay
 			#Range: 4 ~ 100
-			fireDelay = 24
+			fireDelay = 20
 			#inaccuracy
 			#Range: 0.0 ~ 10.0
 			inaccuracy = 4.5
 
 		["Guns Without Roses Expansions Config".Shotgun.Mirecaller_Mechanics]
-			#Explosion power for mines thrown by the Mirecaller Shotgun. Vanilla MYF Swampjaw mines default to 2.5.
+			#Controls how strongly Mirecaller bomb bullet damage scales explosion radius. 2.5 matches the base GWR explosive bullet scaling.
 			#Range: 0.0 ~ 16.0
 			mineExplosionPower = 3.0
+
+		["Guns Without Roses Expansions Config".Shotgun.RemnantFangshot]
+			#Bonus Damage
+			#Range: 0 ~ 100
+			bonusDamage = 0
+			#Damage Multiplier
+			#Range: 0.0 ~ 10.0
+			damageMultiplier = 0.65
+			#Headshot Multiplier
+			#Range: 1.0 ~ 10.0
+			headshotMultiplier = 1.0
+			#fire Delay
+			#Range: 4 ~ 100
+			fireDelay = 20
+			#inaccuracy
+			#Range: 0.0 ~ 10.0
+			inaccuracy = 4.0
+
+		["Guns Without Roses Expansions Config".Shotgun.RemnantFangshot_Mechanics]
+			#Gunblade cycles required to awaken Remnant Fangshot.
+			#Range: 1 ~ 20
+			rageRequired = 4
+			#Awakened duration in ticks. 200 ticks = 10 seconds.
+			#Range: 1 ~ 6000
+			awakenedTicks = 200
+			#Ticks the blade remains empowered after a projectile hit.
+			#Range: 1 ~ 6000
+			bladeAmpTicks = 80
+			#Ticks allowed between the shot hit and the charged melee hit.
+			#Range: 1 ~ 6000
+			comboWindowTicks = 100
+			#Base melee damage shown by the gunblade.
+			#Range: 0.0 ~ 1000.0
+			baseMeleeDamage = 9.0
+			#Melee damage added while the blade is empowered.
+			#Range: 0.0 ~ 1000.0
+			bladeDamageBonus = 3.0
+			#Attack speed attribute modifier when the blade is not empowered.
+			#Range: -10.0 ~ 10.0
+			baseAttackSpeedModifier = -2.6
+			#Attack speed attribute modifier while the blade is empowered.
+			#Range: -10.0 ~ 10.0
+			ampedAttackSpeedModifier = -2.4
+			#Minimum attack strength scale required for gunblade combo hits.
+			#Range: 0.0 ~ 1.0
+			minFullAttackScale = 0.9
+			#Remaining firing cooldown multiplier after a correct charged melee hit. 0.5 cuts remaining cooldown in half.
+			#Range: 0.0 ~ 1.0
+			cooldownRemainingMultiplier = 0.5
+			#Projectile damage multiplier while awakened. 1.2 is +20%.
+			#Range: 0.0 ~ 10.0
+			powerProjectileDamageMultiplier = 1.2
+			#Awakened stomp damage as a multiplier of current melee damage.
+			#Range: 0.0 ~ 10.0
+			powerStompDamageMultiplier = 0.6
+			#Awakened stomp radius.
+			#Range: 0.0 ~ 64.0
+			powerStompRange = 3.25
+			#Remnant Charge duration in ticks.
+			#Range: 1 ~ 200
+			dashTicks = 10
+			#Remnant Charge damage as a multiplier of current melee damage.
+			#Range: 0.0 ~ 20.0
+			dashDamageMultiplier = 2.5
+			#Forward speed applied during Remnant Charge.
+			#Range: 0.0 ~ 10.0
+			dashSpeed = 1.25
+			#Hit radius around the charging sandstorm.
+			#Range: 0.0 ~ 16.0
+			dashHitRange = 1.25
+			#Incoming damage reduction during Remnant Charge. 0.2 is 20%.
+			#Range: 0.0 ~ 0.95
+			dashDamageReduction = 0.4
 
 	["Guns Without Roses Expansions Config".Gatling]
 
@@ -198,6 +348,20 @@
 			#inaccuracy
 			#Range: 0.0 ~ 10.0
 			inaccuracy = 3.0
+
+			["Guns Without Roses Expansions Config".Gatling.Ignitium.Blue_Fire]
+				#Bonus damage used while Ignitium Gatling Soul Fire is active.
+				#Range: 0 ~ 100
+				blueFireBonusDamage = 4
+				#Fire delay used while Ignitium Gatling Soul Fire is active.
+				#Range: 1 ~ 100
+				blueFireDelay = 3
+				#Soul Fire duration in ticks after crossing to half health or below.
+				#Range: 1 ~ 72000
+				blueFireDurationTicks = 200
+				#Flat healing added to each Ignitium Bullet hit while Soul Fire is active.
+				#Range: 0.0 ~ 100.0
+				blueFireHealingBonus = 0.0
 
 		["Guns Without Roses Expansions Config".Gatling.DragonSteel]
 			#Bonus Damage
@@ -255,7 +419,7 @@
 		["Guns Without Roses Expansions Config".Pistol.Tidal]
 			#Bonus Damage
 			#Range: 0 ~ 100
-			bonusDamage = 8
+			bonusDamage = 4
 			#Damage Multiplier
 			#Range: 0.0 ~ 10.0
 			damageMultiplier = 1.0
@@ -264,7 +428,7 @@
 			headshotMultiplier = 1.0
 			#fire Delay
 			#Range: 4 ~ 100
-			fireDelay = 16
+			fireDelay = 12
 			#inaccuracy
 			#Range: 0.0 ~ 10.0
 			inaccuracy = 2.0
@@ -281,10 +445,123 @@
 			headshotMultiplier = 1.0
 			#fire Delay
 			#Range: 4 ~ 100
-			fireDelay = 24
+			fireDelay = 20
 			#inaccuracy
 			#Range: 0.0 ~ 10.0
 			inaccuracy = 2.0
+
+		["Guns Without Roses Expansions Config".Pistol.Tidal_Mechanics]
+			#Maximum tidal energy stored on the Tidal Pistol.
+			#Range: 1 ~ 1000
+			maxEnergy = 100
+			#Tidal energy regenerated per second while the Tidal Pistol is in a player's inventory.
+			#Range: 0 ~ 100
+			inventoryRegenPerSecond = 2
+			#Tidal energy regenerated per second while the Tidal Pistol is held outside water.
+			#Range: 0 ~ 100
+			heldLandRegenPerSecond = 5
+			#Tidal energy regenerated per second while the Tidal Pistol is held in water.
+			#Range: 0 ~ 100
+			heldWaterRegenPerSecond = 8
+			#Tidal energy gained when a Tidal Bullet damages an entity.
+			#Range: 0 ~ 1000
+			hitEnergy = 5
+			#Tidal energy cost for the entity-hit Abyss Orb follow-up.
+			#Range: 0 ~ 1000
+			orbCost = 20
+			#Tidal energy cost for the block-hit Abyss Mine follow-up.
+			#Range: 0 ~ 1000
+			mineCost = 12
+			#Tidal energy cost for the land Abyss Orb follow-up.
+			#Range: 0 ~ 1000
+			landOrbCost = 20
+			#Tidal energy cost for the land Abyss Mine follow-up.
+			#Range: 0 ~ 1000
+			landMineCost = 6
+			#Tidal energy cost for the charged Abyss Blast Portal.
+			#Range: 0 ~ 1000
+			portalCost = 50
+			#Tidal energy cost for the full-charge safe tidal rift.
+			#Range: 0 ~ 1000
+			riftCost = 100
+			#Minimum held ticks for the charged portal release.
+			#Range: 1 ~ 72000
+			portalChargeTicks = 12
+			#Minimum held ticks for the full rift release.
+			#Range: 1 ~ 72000
+			riftChargeTicks = 35
+			#Cooldown in ticks for land Abyss Orb follow-ups.
+			#Range: 0 ~ 72000
+			landOrbCooldownTicks = 100
+			#Cooldown in ticks for land Abyss Mine follow-ups.
+			#Range: 0 ~ 72000
+			landMineCooldownTicks = 140
+			#Cooldown in ticks for water/rain Abyss Orb follow-ups.
+			#Range: 0 ~ 72000
+			fullFormOrbCooldownTicks = 8
+			#Cooldown in ticks for water/rain Abyss Mine follow-ups.
+			#Range: 0 ~ 72000
+			fullFormMineCooldownTicks = 12
+			#Chance for an entity hit to trigger a water/rain tracking Abyss Orb follow-up.
+			#Range: 0.0 ~ 1.0
+			fullFormOrbChance = 0.45
+			#Chance for a block hit to trigger a water/rain Abyss Mine follow-up.
+			#Range: 0.0 ~ 1.0
+			fullFormMineChance = 0.3
+			#Chance for an entity hit to trigger a land tracking Abyss Orb follow-up.
+			#Range: 0.0 ~ 1.0
+			landOrbChance = 0.2
+			#Chance for a block hit to trigger a land Abyss Mine follow-up.
+			#Range: 0.0 ~ 1.0
+			landMineChance = 0.12
+			#Chance for the Tidal Pistol to launch Tidal Tentacles when its holder is hurt.
+			#Range: 0.0 ~ 1.0
+			tentacleChance = 1.0
+			#Cooldown in ticks for the Tidal Tentacle assist.
+			#Range: 0 ~ 72000
+			tentacleCooldownTicks = 120
+			#Multiplier applied to the sustained Abyss Orb tracking speed.
+			#Range: 0.1 ~ 10.0
+			orbSpeedMultiplier = 4.8
+			#Multiplier applied to the sustained land Abyss Orb tracking speed.
+			#Range: 0.1 ~ 10.0
+			landOrbSpeedMultiplier = 4.0
+			#Damage for the controlled Abyss Blast Portal.
+			#Range: 0.0 ~ 1000.0
+			portalDamage = 8.0
+			#Percent max-health damage for the controlled Abyss Blast Portal.
+			#Range: 0.0 ~ 100.0
+			portalHpDamage = 0.0
+			#Warmup delay in ticks for the controlled Abyss Blast Portal.
+			#Range: 0 ~ 200
+			portalWarmupTicks = 4
+			#Lifetime in ticks for the safe tidal rift.
+			#Range: 1 ~ 72000
+			riftDurationTicks = 240
+			#Radius for the safe tidal rift pull and damage.
+			#Range: 0.0 ~ 64.0
+			riftRadius = 10.0
+			#Damage dealt by each safe tidal rift pulse.
+			#Range: 0.0 ~ 1000.0
+			riftDamage = 5.0
+			#Pull strength applied by the safe tidal rift each tick.
+			#Range: 0.0 ~ 2.0
+			riftPullStrength = 0.14
+			#Ticks between safe tidal rift damage pulses.
+			#Range: 1 ~ 200
+			riftDamageIntervalTicks = 5
+			#Fixed damage for land Abyss Orb follow-ups.
+			#Range: 0.0 ~ 1000.0
+			landOrbDamage = 7.0
+			#Fixed damage for water/rain Abyss Orb follow-ups.
+			#Range: 0.0 ~ 1000.0
+			waterOrbDamage = 10.0
+			#Fixed damage for land Abyss Mine follow-ups.
+			#Range: 0.0 ~ 1000.0
+			landMineDamage = 7.0
+			#Fixed damage for water/rain Abyss Mine follow-ups.
+			#Range: 0.0 ~ 1000.0
+			waterMineDamage = 10.0
 
 	["Guns Without Roses Expansions Config".Bullets]
 
@@ -334,7 +611,7 @@
 		["Guns Without Roses Expansions Config".Launcher.Obsidian]
 			#Bonus Damage
 			#Range: 0 ~ 100
-			bonusDamage = 10
+			bonusDamage = 20
 			#Damage Multiplier
 			#Range: 0.0 ~ 10.0
 			damageMultiplier = 10.0
@@ -343,7 +620,7 @@
 			headshotMultiplier = 1.0
 			#fire Delay
 			#Range: 4 ~ 100
-			fireDelay = 30
+			fireDelay = 24
 			#inaccuracy
 			#Range: 0.0 ~ 10.0
 			inaccuracy = 0.0
@@ -378,7 +655,7 @@
 		["Guns Without Roses Expansions Config".Burstgun.DuskfallEclipse]
 			#Bonus Damage
 			#Range: 0 ~ 100
-			bonusDamage = 4
+			bonusDamage = 6
 			#Damage Multiplier
 			#Range: 0.0 ~ 10.0
 			damageMultiplier = 1.0
@@ -444,14 +721,87 @@
 			#Range: 0 ~ 6000
 			lastTargetMemoryTicks = 200
 
+		["Guns Without Roses Expansions Config".Burstgun.CeraunusBurst]
+			#Bonus Damage
+			#Range: 0 ~ 100
+			bonusDamage = 0
+			#Damage Multiplier
+			#Range: 0.0 ~ 10.0
+			damageMultiplier = 0.6
+			#Headshot Multiplier
+			#Range: 1.0 ~ 10.0
+			headshotMultiplier = 1.0
+			#fire Delay
+			#Range: 4 ~ 100
+			fireDelay = 30
+			#inaccuracy
+			#Range: 0.0 ~ 10.0
+			inaccuracy = 1.35
+
+		["Guns Without Roses Expansions Config".Burstgun.CeraunusBurst_Burst]
+			#Burst Size
+			#Range: 1 ~ 10
+			burstSize = 3
+			#Burst Delay
+			#Range: 1 ~ 100
+			burstDelay = 6
+
+		["Guns Without Roses Expansions Config".Burstgun.CeraunusBurst_Mechanics]
+			#Damage multiplier for iron/water, golden/storm, and diamond/lightning element shots.
+			#Range: 0.0 ~ 10.0
+			baseElementDamageMultiplier = 0.75
+			#Damage multiplier used by the three-shot Ceraunus combo.
+			#Range: 0.0 ~ 20.0
+			comboDamageMultiplier = 1.45
+			#Radius used by Ceraunus combos.
+			#Range: 1.0 ~ 32.0
+			comboRadius = 6.5
+			#Ticks allowed between Ceraunus element shots before the current combo resets.
+			#Range: 1 ~ 6000
+			comboWindowTicks = 80
+			#Ticks the completed combo remains visible on the Ceraunus HUD.
+			#Range: 1 ~ 6000
+			comboDisplayTicks = 24
+			#Ticks before a completed Ceraunus combo triggers.
+			#Range: 0 ~ 100
+			comboDelayTicks = 8
+			#Maximum Storm Serpents a single Ceraunus combo may summon.
+			#Range: 0 ~ 16
+			stormSerpentMax = 3
+			#Bite damage for full storm Ceraunus serpents.
+			#Range: 0.0 ~ 1000.0
+			stormSerpentBiteDamage = 12.0
+			#Bite damage for mixed-element Ceraunus serpents.
+			#Range: 0.0 ~ 1000.0
+			mixedSerpentBiteDamage = 8.0
+			#Secondary water/lightning damage multiplier based on serpent bite damage.
+			#Range: 0.0 ~ 10.0
+			stormSerpentSecondaryDamageMultiplier = 0.5
+			#Maximum lightning spears for the full lightning Ceraunus combo.
+			#Range: 0 ~ 32
+			lightningSpearMax = 4
+			#Lifetime in ticks for normal Ceraunus wave attacks.
+			#Range: 1 ~ 200
+			normalWaveTicks = 20
+			#Lifetime in ticks for the full water Ceraunus wave attack.
+			#Range: 1 ~ 200
+			pureWaterWaveTicks = 30
+			#Damage multiplier for Ceraunus lightning bullets when the bullet or target is in water.
+			#Range: 0.0 ~ 10.0
+			lightningBulletWaterDamageMultiplier = 1.3
+
 	["Guns Without Roses Expansions Config".General]
 		#Whether completing the RIP AND TEAR all-achievements challenge grants the Super Shotgun reward.
 		enableAllAchievementsSuperShotgunReward = false
+		#Whether shooter-owned special projectiles can damage their shooter. Currently affects Diamond Bullet Shrapnel and Slime Bullets.
+		allowShooterProjectileSelfDamage = false
+		#Whether Cataclysm gun-specific enchantments can appear in librarian villager trades.
+		enableCataclysmEnchantmentLibrarianTrades = false
 
 	["Guns Without Roses Expansions Config".DestinySeven]
 		#Weights for iron bullet lottery tickets.
 		#Range: 0 ~ 1000
-		ironBustWeight = 55
+		ironBustWeight = 80
 		#Range: 0 ~ 1000
 		ironDoubleWeight = 30
 		#Range: 0 ~ 1000
@@ -469,7 +819,7 @@
 		goldJackpotWeight = 7
 		#Weights for diamond bullet lottery tickets.
 		#Range: 0 ~ 1000
-		diamondBustWeight = 20
+		diamondBustWeight = 40
 		#Range: 0 ~ 1000
 		diamondDoubleWeight = 40
 		#Range: 0 ~ 1000
@@ -501,4 +851,10 @@
 		bustBulletPool = ["gunswithoutroses:iron_bullet=70", "gwrexpansions:slime_bullet=30"]
 		#Weighted bullet/entity pool for Double/Triple/Jackpot. Format: modid:item=weight. Missing optional mod bullets/entities are skipped. gwrexpansions:obsidian_core is a rare Obsidian Core entity when BOMD is loaded.
 		rewardBulletPool = ["gunswithoutroses:iron_bullet=200", "gwrexpansions:slime_bullet=180", "gwrexpansions:golden_bullet=150", "gwrexpansions:silver_bullet=120", "gwrexpansions:dragonsteel_fire_bullet=80", "gwrexpansions:dragonsteel_ice_bullet=80", "gwrexpansions:dragonsteel_lightning_bullet=80", "gwrexpansions:netherite_bullet=80", "gwrexpansions:lavapower_bullet=80", "gwrexpansions:cursium_bullet=80", "gwrexpansions:ignitium_bullet=80", "gwrexpansions:tidal_bullet=80", "gwrexpansions:obsidian_core=40"]
+		#Base lottery bonus weight per point of player Luck. Each base weight adds +1x Double, +2x Triple, and +3x Jackpot weight before rolling.
+		#Range: 0 ~ 100
+		luckWeightPerPoint = 1
+		#Maximum base lottery bonus weight from player Luck.
+		#Range: 0 ~ 1000
+		luckMaxBonusWeight = 100
 

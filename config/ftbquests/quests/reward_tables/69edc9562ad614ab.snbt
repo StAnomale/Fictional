@@ -62,6 +62,14 @@
 			title: "打开垃圾桶"
 			type: "command"
 		}
+		{
+			command: "/gamemode survival"
+			elevate_perms: true
+			icon: "minecraft:apple"
+			silent: true
+			title: "切换至生存模式"
+			type: "command"
+		}
 	]
 	title: "您的选择"
 }

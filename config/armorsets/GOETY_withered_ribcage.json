@@ -1,0 +1,29 @@
+{
+  "armorSetName": "withered_ribcage",
+  "performanceMode": true,
+  "chest": {
+    "itemKey": "legendary_monsters:withered_ribcage",
+    "mixAndMatch": [
+    ],
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:healing_power",
+      "value": -0.1,
+      "modifierUUID": "7d8a17e3-18ae-45b1-9ac8-ece4ffadb80b",
+      "attributeOperation": 1,
+      "interactionType": "self"
+    },
+    {
+      "type": "attribute",
+      "name": "gunswithoutroses:gwr.damage_total",
+      "value": 0.15,
+      "modifierUUID": "54cb09fc-54dd-4c85-a330-805934e3deaf",
+      "attributeOperation": 1,
+      "interactionType": "self"
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

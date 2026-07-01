@@ -10,20 +10,30 @@
   "fullSetBonuses": [
     {
       "type": "attribute",
-      "name": "minecraft:generic.attack_damage",
-      "value": 3.0,
-      "modifierUUID": "df0c6b58-db02-4280-bcd5-0b7fc47cdcca",
-      "attributeOperation": 0,
+      "name": "minecraft:generic.attack_speed",
+      "value": 0.3,
+      "modifierUUID": "6f827d1c-d76d-4e1a-9b0c-ffa50cc855cb",
+      "attributeOperation": 1,
       "interactionType": "self",
       "hideBonusDescription": false,
       "onlyImmuneToNewEffects": false
     },
     {
       "type": "attribute",
-      "name": "minecraft:generic.max_health",
-      "value": -0.2,
-      "modifierUUID": "3d50997c-de9f-4cb0-8fe3-19c793cb738e",
-      "attributeOperation": 1,
+      "name": "obscure_api:magic_damage",
+      "value": -0.6,
+      "modifierUUID": "45caf3f8-8cb9-44de-9722-0e3644f958f0",
+      "attributeOperation": 2,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "obscure_api:critical_damage",
+      "value": -0.6,
+      "modifierUUID": "fa8e67fb-f060-414d-91fb-d397c45d728c",
+      "attributeOperation": 0,
       "interactionType": "self",
       "hideBonusDescription": false,
       "onlyImmuneToNewEffects": false

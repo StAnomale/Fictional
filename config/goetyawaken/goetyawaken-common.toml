@@ -35,10 +35,10 @@
 	["Focus Spells"."Shulker Missile Focus"]
 		#Shulker Missile Focus soul cost (default: 16)
 		#Range: > 0
-		shulkerMissileFocusSoulCost = 800
+		shulkerMissileFocusSoulCost = 40
 		#Shulker Missile Spell base damage (default: 4.0)
 		#Range: 0.0 ~ 1.7976931348623157E308
-		shulkerMissileBaseDamage = 10.0
+		shulkerMissileBaseDamage = 20.0
 		#Shulker Missile Spell damage increase per potency level (default: 1.0)
 		#Range: 0.0 ~ 1.7976931348623157E308
 		shulkerMissilePotencyDamage = 1.0
@@ -47,7 +47,7 @@
 		shulkerMissileMaxPotionDuration = 60
 		#Shulker Missile Focus cooldown in ticks (default: 100)
 		#Range: > 0
-		shulkerMissileFocusCooldown = 200
+		shulkerMissileFocusCooldown = 60
 		#Shulker Missile Focus maximum potion effect amplifier from crafting (default: 1, which is level II)
 		#Range: 0 ~ 255
 		shulkerMissileMaxPotionAmplifier = 1
@@ -114,7 +114,7 @@
 		mushroomMissileFocusCastDuration = 20
 		#Mushroom Missile Spell damage increase per potency level (default: 1.0)
 		#Range: 0.0 ~ 1.7976931348623157E308
-		mushroomMissilePotencyDamage = 5.0
+		mushroomMissilePotencyDamage = 10.0
 		#Mushroom Missile Focus maximum potion effect amplifier from crafting (default: 1, which is level II)
 		#Range: 0 ~ 255
 		mushroomMissileMaxPotionAmplifier = 1
@@ -126,7 +126,7 @@
 		mushroomMissileAreaCloudDuration = 20
 		#Mushroom Missile Focus soul cost (default: 32)
 		#Range: > 0
-		mushroomMissileFocusSoulCost = 600
+		mushroomMissileFocusSoulCost = 400
 		#Mushroom Missile Focus cooldown in ticks (default: 100)
 		#Range: > 0
 		mushroomMissileFocusCooldown = 20
@@ -140,12 +140,12 @@
 		fireballFeastFocusCooldown = 100
 		#Fireball Feast Focus cast up duration in ticks (default: 80)
 		#Range: > 0
-		fireballFeastFocusCastDuration = 40
+		fireballFeastFocusCastDuration = 20
 
 	["Focus Spells"."Agony Focus"]
 		#Agony Focus Spell damage increase per potency level (default: 2.0)
 		#Range: 0.0 ~ 1.7976931348623157E308
-		agonyFocusPotencyDamage = 10.0
+		agonyFocusPotencyDamage = 20.0
 		#Agony Focus cast up duration in ticks (default: 0)
 		#Range: > 0
 		agonyFocusCastUp = 0
@@ -154,7 +154,7 @@
 		agonyFocusSoulCost = 80
 		#Agony Focus cooldown in ticks (default: 200)
 		#Range: > 0
-		agonyFocusCooldown = 40
+		agonyFocusCooldown = 30
 
 	["Focus Spells"."Stare Focus"]
 		#Stare Focus soul cost (default: 48)
@@ -170,7 +170,7 @@
 	["Focus Spells"."Death Ray Spell"]
 		#Death Ray Spell cooldown in ticks (default: 20)
 		#Range: > 0
-		deathRaySpellCooldown = 15
+		deathRaySpellCooldown = 10
 		#Death Ray Spell damage increase per potency level (default: 3.0)
 		#Range: 0.0 ~ 1.7976931348623157E308
 		deathRayPotencyDamage = 3.0
@@ -209,7 +209,7 @@
 	["Focus Spells"."Blood Rain Focus"]
 		#Blood Rain Spell base damage (default: 1.0)
 		#Range: 0.0 ~ 1.7976931348623157E308
-		bloodRainBaseDamage = 10.0
+		bloodRainBaseDamage = 15.0
 		#Blood Rain Focus cast duration in ticks (default: 80 - 4 seconds)
 		#Range: > 0
 		bloodRainFocusCastDuration = 40
@@ -246,10 +246,10 @@
 		infestationPotencyDamage = 2.0
 		#Infestation Spell base damage per egg (default: 6.0)
 		#Range: 0.0 ~ 1.7976931348623157E308
-		infestationBaseDamage = 40.0
+		infestationBaseDamage = 60.0
 		#Infestation Focus soul cost (default: 8)
 		#Range: > 0
-		infestationFocusSoulCost = 40
+		infestationFocusSoulCost = 20
 
 	["Focus Spells"."Heaven Rift Focus"]
 		#Heaven Rift Focus soul cost (default: 256)
@@ -282,21 +282,21 @@
 	["Focus Spells"."Great Meteor Focus"]
 		#Great Meteor Focus cast duration in ticks (default: 80)
 		#Range: > 0
-		greatMeteorFocusCastDuration = 40
+		greatMeteorFocusCastDuration = 30
 		#Great Meteor Spell damage increase per potency level (default: 3.0)
 		#Range: 0.0 ~ 1.7976931348623157E308
-		greatMeteorPotencyDamage = 5.0
+		greatMeteorPotencyDamage = 10.0
 		#Great Meteor Focus soul cost (default: 48)
 		#Range: > 0
-		greatMeteorFocusSoulCost = 200
+		greatMeteorFocusSoulCost = 400
 		#Great Meteor Focus cooldown in ticks (default: 160)
 		#Range: > 0
-		greatMeteorFocusCooldown = 40
+		greatMeteorFocusCooldown = 30
 
 	["Focus Spells"."Chasing Flame Focus"]
 		#Chasing Flame Focus cooldown in ticks (default: 60)
 		#Range: > 0
-		chasingFlameFocusCooldown = 40
+		chasingFlameFocusCooldown = 20
 		#Chasing Flame Focus cast duration in ticks (default: 20)
 		#Range: > 0
 		chasingFlameFocusCastDuration = 20
@@ -305,7 +305,7 @@
 		chasingFlameFocusSoulCost = 80
 		#Chasing Flame Spell damage increase per potency level (default: 2.0)
 		#Range: 0.0 ~ 1.7976931348623157E308
-		chasingFlamePotencyDamage = 2.0
+		chasingFlamePotencyDamage = 10.0
 
 ["Servant Limits"]
 	#Pale Golem Servant limit per player
@@ -499,13 +499,13 @@
 	#Enable legacy music for Wraith Necromancer. Default: false
 	wraithNecromancerLegacyMusic = false
 	#Enable Death Fire creation for Nameless Bolt projectile. Default: false
-	enableNamelessBoltDeathFire = false
+	enableNamelessBoltDeathFire = true
 	#Enable new texture for Hostile Nameless One. Default: false
 	enableHostileNamelessOneNewTexture = false
 	#Enable boss music for Rampart Captain. Default: true
 	rampartCaptainBossMusic = true
 	#Enable Desert Plagues Spell for Nameless One. Default: false
-	enableNamelessOneDesertPlagues = false
+	enableNamelessOneDesertPlagues = true
 	#Allow Nameless One to fire multiple NamelessBolts at once (spread shot). Default: false
 	namelessOneMultiShot = true
 	#Enable Easy mode for Nameless One (which is more like Minecraft Dungeons). Default: false

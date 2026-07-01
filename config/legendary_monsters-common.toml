@@ -25,6 +25,11 @@
 		"Allow Bosses to reduce player's resistance effect" = true
 		#Allow duo boss respawn teammate when it's dead and duo boss has no target
 		"Allow duo boss respawn teammate" = true
+		#MiniBoss DamageCap
+		#Range: 0 ~ 1000
+		"MiniBoss DamageCap" = 400
+		#Allow Knight Summons Initiate Attack
+		"Allow Knight Summons Initiate Attack" = true
 
 	["Mob Settings"."Chorusling Settings"]
 		#Multiplies damage dealt by Chorusling
@@ -37,10 +42,10 @@
 	["Mob Settings"."Endersent Settings"]
 		#Multiplies damage dealt by Endersent
 		#Range: 0.0 ~ 1000.0
-		"Endersent Damage Multiplier" = 1.0
+		"Endersent Damage Multiplier" = 2.0
 		#Multiplies health of Endersent
 		#Range: 0.0 ~ 1000.0
-		"Endersent Health Multiplier" = 1.0
+		"Endersent Health Multiplier" = 3.0
 
 	["Mob Settings"."Spiky Worm Settings"]
 		#Multiplies damage dealt by Spiky Worm
@@ -56,9 +61,9 @@
 		"Ambusher Damage Multiplier" = 1.0
 		#Multiplies health of Ambusher
 		#Range: 0.0 ~ 1000.0
-		"Ambusher Health Multiplier" = 1.0
+		"Ambusher Health Multiplier" = 2.0
 		#Enables/Disables Projectile Damage For Ambusher
-		"Allow Ambusher Projectile Immunity" = true
+		"Allow Ambusher Projectile Immunity" = false
 
 	["Mob Settings"."Stratling Settings"]
 		#Multiplies damage dealt by Stratling
@@ -79,51 +84,49 @@
 	["Mob Settings"."Ancient Guardian Settings"]
 		#Multiplies damage dealt by Ancient Guardian
 		#Range: 0.0 ~ 1000.0
-		"Ancient Guardian Damage Multiplier" = 1.0
+		"Ancient Guardian Damage Multiplier" = 0.8
 		#Multiplies health of Ancient Guardian
 		#Range: 0.0 ~ 1000.0
-		"Ancient Guardian Health Multiplier" = 1.0
+		"Ancient Guardian Health Multiplier" = 1.5
 		#Enables/Disables Stun Ability for Ancient Guardian. §cNOTE: Disabling This may make the bossfight less fun.
 		"Allow Ancient Guardian Stun Ability" = true
 		#Enables/Disables Projectile Damage for Ancient Guardian
-		"Allow Ancient Guardian Projectile Immunity" = true
+		"Allow Ancient Guardian Projectile Immunity" = false
 
 	["Mob Settings"."Haunted Knight Settings"]
 		#Multiplies damage dealt by Haunted Knight
 		#Range: 0.0 ~ 1000.0
-		"Haunted Knight Damage Multiplier" = 1.0
+		"Haunted Knight Damage Multiplier" = 2.0
 		#Multiplies health of Haunted Knight
 		#Range: 0.0 ~ 1000.0
-		"Haunted Knight Health Multiplier" = 1.0
+		"Haunted Knight Health Multiplier" = 6.0
 		#Enables/Disables Projectile Immunity For Haunted Knight
-		"Allow Haunted Knight Projectile Immunity" = true
+		"Allow Haunted Knight Projectile Immunity" = false
 
 	["Mob Settings"."Haunted Guard Settings"]
 		#Multiplies damage dealt by Haunted Guard
 		#Range: 0.0 ~ 1000.0
-		"Haunted Guard Damage Multiplier" = 1.0
+		"Haunted Guard Damage Multiplier" = 2.0
 		#Multiplies health of Haunted Guard
 		#Range: 0.0 ~ 1000.0
-		"Haunted Guard Health Multiplier" = 1.0
+		"Haunted Guard Health Multiplier" = 6.0
 		#Enables/Disables Projectile Immunity For Haunted Guard
-		"Allow Haunted Guard Projectile Immunity" = true
+		"Allow Haunted Guard Projectile Immunity" = false
 
 	["Mob Settings"."Posessed Paladin Settings"]
 		#Multiplies damage dealt by Posessed Paladin
 		#Range: 0.0 ~ 1000.0
-		"Posessed Paladin Damage Multiplier" = 1.0
+		"Posessed Paladin Damage Multiplier" = 3.5
 		#Multiplies health of Posessed Paladin.
 		#Range: 0.0 ~ 1000.0
-		"Posessed Paladin Health Multiplier" = 1.0
-		#Enables/Disables Stun Ability for Posessed Paladin
-		"Allow Posessed Paladin Stun Ability" = true
+		"Posessed Paladin Health Multiplier" = 3.0
 		#Enables/Disables Projectile Immunity for Posessed Paladin
-		"Allow Posessed Paladin Projectile Immunity" = true
+		"Allow Posessed Paladin Projectile Immunity" = false
 		#Allow Possesed Paladin Invulnerability Time
-		"Allow Possesed Paladin Invulnerability Time" = true
+		"Allow Possesed Paladin Invulnerability Time" = false
 		#Damage Cap
 		#Range: 0.0 ~ 1000.0
-		"Damage Cap" = 21.0
+		"Damage Cap" = 400.0
 
 	["Mob Settings"."Overgrown Colosuss Settings"]
 		#Multiplies damage dealt by Overgrown Colosuss
@@ -135,7 +138,7 @@
 		#Enables/Disables Stun Ability for Overgrown Colosuss. §cNOTE: Disabling This may make the bossfight less fun.
 		"Allow Overgrown Colosuss Stun Ability" = true
 		#Enables/Disables Projectile Immunity for Overgrown Colosuss
-		"Allow Overgrown Colosuss Projectile Immunity" = true
+		"Allow Overgrown Colosuss Projectile Immunity" = false
 
 	["Mob Settings"."Mossy Golem Settings"]
 		#Multiplies damage dealt by Mossy Golem
@@ -151,7 +154,7 @@
 		"Cloud Golem Damage Multiplier" = 3.0
 		#Multiplies health of Cloud Golem
 		#Range: 0.0 ~ 1000.0
-		"Cloud Golem Health Multiplier" = 4.0
+		"Cloud Golem Health Multiplier" = 3.5
 		#Enables Projectile Damage for Cloud Golem
 		"Allow Cloud Golem Projectile Damage" = false
 		#Cloud Golem loses Consciousness after Laser Attack
@@ -162,7 +165,7 @@
 		"Allow Cloud Golem Invulnerability Time" = false
 		#Maximum damage that can be dealt to Cloud Golem
 		#Range: 0.0 ~ 1000.0
-		"Cloud Golem Damage Cap" = 200.0
+		"Cloud Golem Damage Cap" = 400.0
 
 	["Mob Settings"."Cloud Golem's Falling Cloud Settings"]
 		#Multiplies damage dealt by Falling Cloud
@@ -177,7 +180,7 @@
 		#Range: 0.0 ~ 1000.0
 		"Frostbitten Golem Health Multiplier" = 1.0
 		#Enables/Disables Projectile Immunity for Frostbitten Golem
-		"Allow Frostbitten Golem Projectile Immunity" = true
+		"Allow Frostbitten Golem Projectile Immunity" = false
 
 	["Mob Settings"."Dune Sentinel Settings"]
 		#Multiplies damage dealt by Dune Sentinel
@@ -187,7 +190,7 @@
 		#Range: 0.0 ~ 1000.0
 		"Dune Sentinel Health Multiplier" = 1.0
 		#Enables/Disables Projectile Immunity for Dune Sentinel
-		"Allow Dune Sentinel Projectile Immunity" = true
+		"Allow Dune Sentinel Projectile Immunity" = false
 		#Multiplies damage dealt by Bomber
 		#Range: 0.0 ~ 1000.0
 		"Bomber Damage Multiplier" = 1.0
@@ -211,7 +214,7 @@
 		#Range: 0.0 ~ 1000.0
 		"Lava Eater Health Multiplier" = 1.0
 		#Disables/Enables Projectile Immunity for Lava Eater
-		"Allow Lava Eater Projectile Immunity" = true
+		"Allow Lava Eater Projectile Immunity" = false
 
 	["Mob Settings"."Warped Fungussus Settings"]
 		#Multiplies damage dealt by Warped Fungussus
@@ -224,22 +227,22 @@
 	["Mob Settings"."Withered Abomination Settings"]
 		#Multiplies damage dealt by Withered Abomination
 		#Range: 0.0 ~ 1000.0
-		"Withered Abomination Damage Multiplier" = 1.0
+		"Withered Abomination Damage Multiplier" = 1.2
 		#Multiplies health of Withered Abomination
 		#Range: 0.0 ~ 1000.0
-		"Withered Abomination Health Multiplier" = 1.0
+		"Withered Abomination Health Multiplier" = 1.8
 		#Enables/Disables Stun Ability for Withered Abomination
-		"Allow Withered Abomination Stun Ability" = false
+		"Allow Withered Abomination Stun Ability" = true
 
 	["Mob Settings"."Shulker Mimic Settings"]
 		#Multiplies damage dealt by Shulker Mimic
 		#Range: 0.0 ~ 1000.0
-		"Shulker Mimic Damage Multiplier" = 1.0
+		"Shulker Mimic Damage Multiplier" = 2.0
 		#Multiplies health of Shulker Mimic
 		#Range: 0.0 ~ 1000.0
-		"Shulker Mimic Health Multiplier" = 1.0
+		"Shulker Mimic Health Multiplier" = 3.0
 		#Enables/Disables Projectile immunity for Shulker Mimic
-		"Allow Shulker Mimic Projectile Immunity" = true
+		"Allow Shulker Mimic Projectile Immunity" = false
 
 	["Mob Settings"."Tamable Knight Settings"]
 		#Multiplies damage dealt by Knight
@@ -248,6 +251,12 @@
 		#Multiplies health of Knight
 		#Range: 0.0 ~ 100.0
 		"Knight Health Multiplier" = 1.0
+		#Multiplies damage dealt by Tamable Knight
+		#Range: 0.0 ~ 1000.0
+		"Tamable Knight Damage Multiplier" = 1.0
+		#Multiplies health of Tamable Knight
+		#Range: 0.0 ~ 1000.0
+		"Tamable Knight Health Multiplier" = 1.0
 
 	["Mob Settings"."Tamable Guard Settings"]
 		#Multiplies damage dealt by Guard
@@ -256,6 +265,12 @@
 		#Multiplies health of Guard
 		#Range: 0.0 ~ 1000.0
 		"Guard Health Multiplier" = 1.0
+		#Multiplies damage dealt by Tamable Guard
+		#Range: 0.0 ~ 1000.0
+		"Tamable Guard Damage Multiplier" = 1.0
+		#Multiplies health of Tamable Guard
+		#Range: 0.0 ~ 1000.0
+		"Tamable Guard Health Multiplier" = 1.0
 
 	["Mob Settings"."Skeloraptor Settings"]
 		#Multiplies damage dealt by Skeloraptor
@@ -268,93 +283,101 @@
 	["Mob Settings"."Flameborn Guard Settings"]
 		#Multiplies damage dealt by Flameborn Guard
 		#Range: 0.0 ~ 1000.0
-		"The Flameborn Guard Damage Multiplier" = 1.0
+		"The Flameborn Guard Damage Multiplier" = 6.0
 		#Multiplies damage of Flameborn Guard
 		#Range: 0.0 ~ 1000.0
-		"Flameborn Guard Damage Multiplier" = 1.0
+		"Flameborn Guard Damage Multiplier" = 3.0
 
 	["Mob Settings"."Annihilation Pursuer Settings"]
 		#Multiplies damage of Annihilation Pursuer
 		#Range: 0.0 ~ 1000.0
-		"Annihilation Pursuer Damage Multiplier" = 1.0
+		"Annihilation Pursuer Damage Multiplier" = 2.0
 
 	["Mob Settings"."The Obliterator Settings"]
 		#Multiplies damage dealt by The Obliterator
 		#Range: 0.0 ~ 1000.0
-		"The Obliterator Damage Multiplier" = 1.0
+		"The Obliterator Damage Multiplier" = 3.5
 		#Multiplies Health of The Obliterator
 		#Range: 0.0 ~ 1000.0
-		"The Obliterator Health Multiplier" = 1.0
+		"The Obliterator Health Multiplier" = 3.0
 		#The bigger it is the stronger the Damage Adaptation is
 		#Range: 0 ~ 1000
 		"The Obliterator Damage Adaptation Multiplier" = 1
 		#ON/OFF Obliterator I Frame protection
-		"The Obliterator Invulnerability Time" = true
+		"The Obliterator Invulnerability Time" = false
 		#Increases/Decreases Anti Cheese(Airborne Variation) distance which makes the Boss invulnerable when player has a high ground, default is -4 below the boss and 4 above. chaning the value will change both '-' and '+' values.
 		#Range: 0 ~ 1000
-		"Protection against airborne cheese" = 4
+		"Protection against airborne cheese" = 6
 		#ON/OFF Annihilation effect that The Obliterator Inflicts after hitting you, it's a stacking debuff that reduces your attack speed.
 		"The Obliterator Annihilation Debuff Effect" = false
 		#% Damage for Obliterator's clones(punching)
 		#Range: 0 ~ 1000
-		"% Damage for Obliterator's clones(punching)" = 7
+		"% Damage for Obliterator's clones(punching)" = 12
 		#% Damage for Obliterator's portals
 		#Range: 0 ~ 1000
-		"% Damage for Obliterator's portals" = 5
+		"% Damage for Obliterator's portals" = 9
 		#% Damage for Obliterator's portal Explosion
 		#Range: 0 ~ 1000
-		"% Damage for Obliterator's portal Explosion" = 3
+		"% Damage for Obliterator's portal Explosion" = 7
 		#DamageCap
 		#Range: 0.0 ~ 1000.0
-		DamageCap = 20.0
+		DamageCap = 400.0
 
 	["Mob Settings"."Flame Drifter Settings"]
 		#Multiplies damage dealt by Flame Drifter
 		#Range: 0.0 ~ 1000.0
-		"Flame Drifter Damage Multiplier" = 1.0
+		"Flame Drifter Damage Multiplier" = 2.0
 		#Multiplies Health of Flame Drifter
 		#Range: 0.0 ~ 1000.0
-		"Flame Drifter Health Multiplier" = 1.0
+		"Flame Drifter Health Multiplier" = 4.0
 
 	["Mob Settings"."Wandering Eye Settings"]
 		#Multiplies damage dealt by Wandering Eye
 		#Range: 0.0 ~ 1000.0
-		"Wandering Eye Damage Multiplier" = 1.0
+		"Wandering Eye Damage Multiplier" = 2.0
 		#Multiplies Health of Wandering Eye
 		#Range: 0.0 ~ 1000.0
-		"Wandering Eye Health Multiplier" = 1.0
+		"Wandering Eye Health Multiplier" = 3.0
 
 	["Mob Settings"."Fractured Apostle Settings"]
 		#Multiplies damage dealt by Fractured Apostle
 		#Range: 0.0 ~ 1000.0
-		"Fractured Apostle Damage Multiplier" = 1.0
+		"Fractured Apostle Damage Multiplier" = 2.0
 		#Multiplies health of Fractured Apostle
 		#Range: 0.0 ~ 1000.0
-		"Fractured Apostle Health Multiplier" = 1.0
+		"Fractured Apostle Health Multiplier" = 4.0
 
 	["Mob Settings"."Fractured Settings"]
 		#Multiplies damage dealt by Fractured
 		#Range: 0.0 ~ 1000.0
-		"Fractured Damage Multiplier" = 1.0
+		"Fractured Damage Multiplier" = 2.0
 		#Multiplies health of Fractured
 		#Range: 0.0 ~ 1000.0
-		"Fractured Health Multiplier" = 1.0
+		"Fractured Health Multiplier" = 3.0
 
 	["Mob Settings"."Beheaded Knight Settings"]
 		#Multiplies damage dealt by Beheaded Knight
 		#Range: 0.0 ~ 1000.0
-		"Beheaded Knight Damage Multiplier" = 1.0
+		"Beheaded Knight Damage Multiplier" = 2.0
 		#Multiplies health of Beheaded Knight
 		#Range: 0.0 ~ 1000.0
-		"Beheaded Knight Health Multiplier" = 1.0
+		"Beheaded Knight Health Multiplier" = 3.0
 
 	["Mob Settings"."Resurrected Knight Settings"]
-		#Multiplies damage dealt by Beheaded Knight
-		#Range: 0.0 ~ 1000.0
-		"Beheaded Knight Damage Multiplier" = 1.0
 		#Multiplies health of Resurrected Knight
 		#Range: 0.0 ~ 1000.0
-		"Resurrected Knight Health Multiplier" = 1.0
+		"Resurrected Knight Health Multiplier" = 3.0
+		#Multiplies damage dealt by Resurrected Knight
+		#Range: 0.0 ~ 1000.0
+		"Resurrected Knight Damage Multiplier" = 2.0
+
+	["Mob Settings"."Flameborn Warrior Settings"]
+		#Multiplies damage dealt by Flameborn Warrior
+		#Range: 0.0 ~ 1000.0
+		"The Flameborn Guard Damage Multiplier" = 3.0
+		#Multiplies damage of Flameborn Warrior
+		#Range: 0.0 ~ 1000.0
+		"Flameborn Guard Damage Multiplier" = 8.0
 
 ["Item Settings"]
 
@@ -365,10 +388,10 @@
 	["Item Settings"."The Tesseract"]
 		#The Tesseract Damage Multiplier
 		#Range: 0.0 ~ 1000.0
-		"The Tesseract Damage multiplier" = 1.0
+		"The Tesseract Damage multiplier" = 1.2
 		#The Tesseract Ability Damage Multiplier
 		#Range: 0.0 ~ 1000.0
-		"The Tesseract Ability Damage multiplier" = 1.0
+		"The Tesseract Ability Damage multiplier" = 1.5
 		#The Tesseract Speed Multiplier
 		#Range: 0.0 ~ 1000.0
 		"The Tesseract Speed multiplier" = 1.0
@@ -382,7 +405,7 @@
 		"Fiery Jaw Damage multiplier" = 1.0
 		#Fiery Jaw Ability Damage Multiplier
 		#Range: 0.0 ~ 1000.0
-		"Fiery Jaw Ability Damage multiplier" = 1.0
+		"Fiery Jaw Ability Damage multiplier" = 2.0
 		#Fiery Jaw Speed Multiplier
 		#Range: 0.0 ~ 1000.0
 		"Fiery Jaw Speed multiplier" = 1.0
@@ -390,15 +413,15 @@
 	["Item Settings"."Spiky Shield"]
 		#Spiky Shield Damage Multiplier
 		#Range: 0.0 ~ 1000.0
-		"Spiky Shield Damage multiplier" = 1.0
+		"Spiky Shield Damage multiplier" = 2.0
 
 	["Item Settings"."Buckler Of Annihilation"]
 		#Buckler Of Annihilation Slash Damage Multiplier
 		#Range: 0.0 ~ 1000.0
-		"Buckler Of Annihilation Slash Damage multiplier" = 1.0
+		"Buckler Of Annihilation Slash Damage multiplier" = 2.0
 		#Buckler Of Annihilation Bomb Damage Multiplier
 		#Range: 0.0 ~ 1000.0
-		"Buckler Of Annihilation Bomb Damage multiplier" = 1.0
+		"Buckler Of Annihilation Bomb Damage multiplier" = 2.0
 
 	["Item Settings"."Knights Sword"]
 		#Knights Sword Damage Multiplier
@@ -441,13 +464,13 @@
 		"Monstrous Anchor Damage multiplier" = 1.0
 		#Monstrous Anchor Ability Damage Multiplier
 		#Range: 0.0 ~ 1000.0
-		"Monstrous Anchor Ability Damage multiplier" = 1.0
+		"Monstrous Anchor Ability Damage multiplier" = 1.5
 		#Monstrous Anchor Speed Multiplier
 		#Range: 0.0 ~ 1000.0
 		"Monstrous Anchor Speed multiplier" = 1.0
 		#Monstrous Anchor Range Multiplier
 		#Range: 0.0 ~ 1000.0
-		"Monstrous Anchor Range multiplier" = 1.0
+		"Monstrous Anchor Range multiplier" = 1.5
 
 	["Item Settings"."Resurrected Javelin"]
 		#Resurrected Javelin Damage Multiplier
@@ -507,7 +530,7 @@
 		"Soul Great Sword Damage multiplier" = 1.0
 		#Soul Great Sword Ability Damage Multiplier
 		#Range: 0.0 ~ 1000.0
-		"Soul Great Sword Ability Damage multiplier" = 1.0
+		"Soul Great Sword Ability Damage multiplier" = 2.0
 		#Soul Great Sword Speed Multiplier
 		#Range: 0.0 ~ 1000.0
 		"Soul Great Sword Speed multiplier" = 1.0
@@ -532,7 +555,7 @@
 		"Axe Of Lightning Damage multiplier" = 2.0
 		#Axe Of Lightning Bolt Damage Multiplier
 		#Range: 0.0 ~ 1000.0
-		"Axe Of Lightning Bolt Damage multiplier" = 2.0
+		"Axe Of Lightning Bolt Damage multiplier" = 1.0
 		#Axe Of Lightning Speed Multiplier
 		#Range: 0.0 ~ 1000.0
 		"Axe Of Lightning Speed multiplier" = 1.0
@@ -551,10 +574,10 @@
 	["Item Settings"."Withered Scythe"]
 		#Withered Scythe Damage Multiplier
 		#Range: 0.0 ~ 1000.0
-		"Withered Scythe Damage multiplier" = 1.0
+		"Withered Scythe Damage multiplier" = 1.5
 		#Withered Scythe Ability Damage Multiplier
 		#Range: 0.0 ~ 1000.0
-		"Withered Scythe Ability Damage multiplier" = 1.0
+		"Withered Scythe Ability Damage multiplier" = 2.0
 		#Withered Scythe Speed Multiplier
 		#Range: 0.0 ~ 1000.0
 		"Withered Scythe Speed multiplier" = 1.0
@@ -562,5 +585,5 @@
 	["Item Settings"."Atom Splitter"]
 		#Atom Splitter Damage Multiplier
 		#Range: 0.0 ~ 1000.0
-		"Atom Splitter Damage multiplier" = 1.0
+		"Atom Splitter Damage multiplier" = 3.0
 

@@ -1,0 +1,29 @@
+{
+  "armorSetName": "shulker_helmet",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "legendary_monsters:shulker_helmet",
+    "mixAndMatch": [
+    ],
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor_toughness",
+      "value": 0.1,
+      "modifierUUID": "538e98ba-84f1-4fa4-8c95-b764d7a44029",
+      "attributeOperation": 1,
+      "interactionType": "self"
+    },
+    {
+      "type": "attribute",
+      "name": "functionalarmortrim:experience_boost",
+      "value": 0.1,
+      "modifierUUID": "d43d1fba-64d9-43b6-91c7-1183d04cb25d",
+      "attributeOperation": 1,
+      "interactionType": "self"
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

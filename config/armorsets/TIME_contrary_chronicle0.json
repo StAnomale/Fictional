@@ -32,6 +32,26 @@
       "interactionType": "self",
       "hideBonusDescription": false,
       "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.movement_speed",
+      "value": 0.1,
+      "modifierUUID": "e74e972a-d9e1-4dd4-a36f-8dfa4dfc5ce8",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "combatroll:count",
+      "value": 1.0,
+      "modifierUUID": "06a0d2aa-9511-43dc-9181-e616855fe487",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
     }
   ],
   "hideGeneratedTooltip": true

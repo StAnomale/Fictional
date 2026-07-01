@@ -46,11 +46,25 @@ ServerEvents.fishingLootTables(event => {
     })
 })
 
+LootJS.modifiers((event) => {  //末地城
+    event
+        .addLootTableModifier('minecraft:chests/end_city_treasure')
+        .addWeightedLoot(3, [
+            Item.of('royalvariations:royal_ender_pearl').withChance(15),
+            Item.of('enderitemod:enderite_upgrade_smithing_template').withChance(5),
+            Item.of('legendary_monsters:enderitium_upgrade_smithing_template').withChance(30),
+            Item.of('legendary_monsters:enderitium_gem').withChance(200),
+        ]);
+});
+
 
 LootJS.modifiers(event => {
     let lootItem = [
-        ['enderitemod:enderite_upgrade_smithing_template', 0.15],//末影合金锻造模板
-        ['royalvariations:royal_ender_pearl', 0.4],]//皇家末影珍珠
+        ['enderitemod:enderite_upgrade_smithing_template', 0.1],//末影合金锻造模板
+        ['royalvariations:royal_ender_pearl', 0.6]//皇家末影珍珠
+        //['legendary_monsters:enderitium_ingot', 0.2]//终末金属
+        // ['legendary_monsters:enderitium_gem', 0.5]
+        ,]//终末金属
     lootItem.forEach(([item, chance]) => {event
             .addLootTableModifier('minecraft:chests/end_city_treasure')
             .addLoot([LootEntry.of(item).when(c => c.randomChance(chance))])
@@ -71,6 +85,7 @@ LootJS.modifiers(event => {
      })
 
 })
+
 
 LootJS.modifiers(event => {
     //定义删除物品,[物品id]
@@ -123,6 +138,69 @@ LootJS.modifiers((event) => {
     })
 });
 
+LootJS.modifiers((event) => {
+    //定义删除物品,[物品id]
+    let removeLoot = [
+        ['goety:treasure_pouch'],
+    ]
+
+     removeLoot.forEach(([item]) => {
+         event
+    event
+        .addEntityLootModifier("goetyawaken:hostile_rampart_captain")//堡垒队长
+        .removeLoot(item)
+    })
+});
+
+
+LootJS.modifiers(event => {
+    //定义删除物品,[物品id]
+    let removeLoot = [
+        ['legendary_monsters:soul_great_sword'],//灵魂巨剑
+    ]
+
+     removeLoot.forEach(([item]) => {
+         event
+            .addEntityLootModifier('legendary_monsters:posessed_paladin')
+            .removeLoot(item)
+
+     })
+
+})
+
+LootJS.modifiers((event) => {
+    event
+        .addEntityLootModifier('legendary_monsters:posessed_paladin')//堕落圣骑
+        .addWeightedLoot(1, [
+            Item.of('legendary_monsters:corrupted_soul').withChance(10),
+        ]);
+});
+
+LootJS.modifiers((event) => {
+    event
+        .addEntityLootModifier('legendary_monsters:posessed_paladin')//堕落圣骑
+        .addWeightedLoot(12, [
+            Item.of('radiation_zone_reborn:sedisilver_ingot').withChance(10),
+            Item.of('radiation_zone_reborn:giantrock_ingot').withChance(4),
+        ]);
+});
+
+
+LootJS.modifiers(event => {
+    let lootItem = [
+        ['artifacts:universal_attractor', 0.03],//强力磁铁
+        ['artifacts:power_glove', 0.03],//强力手套
+        ['artifacts:feral_claws', 0.03],//狂野爪
+        ['artifacts:pickaxe_heater', 0.03],//冶矿手套
+        ['artifacts:pocket_piston', 0.03],//袖珍活塞
+        ['artifacts:running_shoes', 0.03],//跑鞋
+        ['ba_bt:land_monolith_key', 0.2],//大地石碑
+        ]
+    lootItem.forEach(([item, chance]) => {event
+            .addLootTableModifier('dungeoncrawl:chests/stage_5')//地牢战利品
+            .addLoot([LootEntry.of(item).when(c => c.randomChance(chance))])
+    })
+})
 
 LootJS.modifiers(event => {
     let lootItem = [
@@ -132,9 +210,42 @@ LootJS.modifiers(event => {
         ['artifacts:pickaxe_heater', 0.02],//冶矿手套
         ['artifacts:pocket_piston', 0.02],//袖珍活塞
         ['artifacts:running_shoes', 0.02],//跑鞋
+        ['ba_bt:land_monolith_key', 0.15],//大地石碑
         ]
     lootItem.forEach(([item, chance]) => {event
-            .addLootTableModifier('dungeoncrawl:chests/stage_5')//地牢战利品
+            .addLootTableModifier('dungeoncrawl:chests/stage_4')//地牢战利品
+            .addLoot([LootEntry.of(item).when(c => c.randomChance(chance))])
+    })
+})
+
+LootJS.modifiers(event => {
+    let lootItem = [
+        ['artifacts:universal_attractor', 0.02],//强力磁铁
+        ['artifacts:power_glove', 0.02],//强力手套
+        ['artifacts:feral_claws', 0.02],//狂野爪
+        ['artifacts:pickaxe_heater', 0.02],//冶矿手套
+        ['artifacts:pocket_piston', 0.02],//袖珍活塞
+        ['artifacts:running_shoes', 0.02],//跑鞋
+        ['ba_bt:land_monolith_key', 0.15],//大地石碑
+        ]
+    lootItem.forEach(([item, chance]) => {event
+            .addLootTableModifier('dungeoncrawl:chests/stage_3')//地牢战利品
+            .addLoot([LootEntry.of(item).when(c => c.randomChance(chance))])
+    })
+})
+
+LootJS.modifiers(event => {
+    let lootItem = [
+        ['artifacts:universal_attractor', 0.02],//强力磁铁
+        ['artifacts:power_glove', 0.02],//强力手套
+        ['artifacts:feral_claws', 0.02],//狂野爪
+        ['artifacts:pickaxe_heater', 0.02],//冶矿手套
+        ['artifacts:pocket_piston', 0.02],//袖珍活塞
+        ['artifacts:running_shoes', 0.02],//跑鞋
+        ['ba_bt:land_monolith_key', 0.15],//大地石碑
+        ]
+    lootItem.forEach(([item, chance]) => {event
+            .addLootTableModifier('dungeoncrawl:chests/stage_2')//地牢战利品
             .addLoot([LootEntry.of(item).when(c => c.randomChance(chance))])
     })
 })
@@ -142,9 +253,10 @@ LootJS.modifiers(event => {
 LootJS.modifiers((event) => {
     event
         .addLootTableModifier('dungeoncrawl:chests/stage_5')//地牢战利品
-        .addWeightedLoot(2, [
+        .addWeightedLoot(3, [
             Item.of('kubejs:compressed_amethyst').withChance(25),//紫水晶币
             Item.of('goety:ectoplasm').withChance(50),//灵质
+            Item.of('goety:pale_steel_ingot').withChance(25),//苍白金属锭
             Item.of('goety:grave_dust').withChance(25),//坟尘
             Item.of('minecraft:bell').withChance(8),//钟
             Item.of('minecraft:goat_horn').withChance(4),
@@ -162,10 +274,11 @@ LootJS.modifiers((event) => {
 LootJS.modifiers((event) => {
     event
         .addLootTableModifier('dungeoncrawl:chests/stage_4')//地牢战利品
-        .addWeightedLoot(2, [
+        .addWeightedLoot(3, [
             Item.of('kubejs:compressed_amethyst').withChance(25),//紫水晶币
             Item.of('goety:ectoplasm').withChance(50),//灵质
             Item.of('goety:grave_dust').withChance(25),//坟尘
+            Item.of('goety:pale_steel_ingot').withChance(25),//苍白金属锭
             Item.of('minecraft:bell').withChance(8),//钟
             Item.of('minecraft:goat_horn').withChance(4),
             Item.of('aether:iron_ring').withChance(4),
@@ -182,10 +295,11 @@ LootJS.modifiers((event) => {
 LootJS.modifiers((event) => {
     event
         .addLootTableModifier('dungeoncrawl:chests/stage_3')//地牢战利品
-        .addWeightedLoot(2, [
+        .addWeightedLoot(3, [
             Item.of('kubejs:compressed_amethyst').withChance(25),//紫水晶币
             Item.of('goety:ectoplasm').withChance(50),//灵质
             Item.of('goety:grave_dust').withChance(25),//坟尘
+            Item.of('goety:pale_steel_ingot').withChance(25),//苍白金属锭
             Item.of('minecraft:bell').withChance(8),//钟
             Item.of('minecraft:goat_horn').withChance(4),
             Item.of('aether:iron_ring').withChance(4),
@@ -202,10 +316,11 @@ LootJS.modifiers((event) => {
 LootJS.modifiers((event) => {
     event
         .addLootTableModifier('dungeoncrawl:chests/stage_2')//地牢战利品
-        .addWeightedLoot(1, [
+        .addWeightedLoot(2, [
             Item.of('kubejs:compressed_amethyst').withChance(25),//紫水晶币
             Item.of('goety:ectoplasm').withChance(50),//灵质
             Item.of('goety:grave_dust').withChance(25),//坟尘
+            Item.of('goety:pale_steel_ingot').withChance(25),//苍白金属锭
             Item.of('minecraft:bell').withChance(8),//钟
             Item.of('minecraft:goat_horn').withChance(4),
             Item.of('aether:iron_ring').withChance(4),
@@ -226,6 +341,7 @@ LootJS.modifiers((event) => {
             Item.of('kubejs:compressed_amethyst').withChance(25),//紫水晶币
             Item.of('goety:ectoplasm').withChance(50),//灵质
             Item.of('goety:grave_dust').withChance(25),//坟尘
+            Item.of('goety:pale_steel_ingot').withChance(25),//苍白金属锭
             Item.of('minecraft:bell').withChance(8),//钟
             Item.of('minecraft:goat_horn').withChance(4),
             Item.of('aether:iron_ring').withChance(4),
@@ -255,12 +371,12 @@ LootJS.modifiers((event) => {
 LootJS.modifiers((event) => {
     event
         .addLootTableModifier('minecraft:chests/nether_bridge')//下界
-        .addWeightedLoot(3, [
+        .addWeightedLoot(4, [
             Item.of('minecraft:netherite_scrap').withChance(40),//下界合金碎片
             Item.of('kubejs:compressed_amethyst').withChance(25),//紫水晶币
             Item.of('goety:ectoplasm').withChance(25),//灵质
             Item.of('goety:grave_dust').withChance(25),//坟尘
-            Item.of('minecraft:goat_horn').withChance(4),//山羊角
+            Item.of('minecraft:goat_horn').withChance(6),//山羊角
             Item.of('mynethersdelight:golden_egg').withChance(10),//金蛋
             Item.of('bosses_of_mass_destruction:soul_star').withChance(10),//灵魂之星
             Item.of('minecraft:netherite_ingot').withChance(4),//下界合金锭
@@ -272,61 +388,69 @@ LootJS.modifiers((event) => {
 LootJS.modifiers((event) => {
     event
         .addLootTableModifier('minecraft:chests/bastion_other')
-        .addWeightedLoot(3, [
-            Item.of('minecraft:netherite_scrap').withChance(30),//下界合金碎片
+        .addWeightedLoot(4, [
+            Item.of('minecraft:netherite_scrap').withChance(40),//下界合金碎片
             Item.of('kubejs:compressed_amethyst').withChance(25),//紫水晶币
             Item.of('goety:ectoplasm').withChance(25),//灵质
-            Item.of('goety:grave_dust').withChance(16),//坟尘
-            Item.of('minecraft:goat_horn').withChance(4),//山羊角
-            Item.of('bosses_of_mass_destruction:soul_star').withChance(8),//灵魂之星
+            Item.of('goety:grave_dust').withChance(25),//坟尘
+            Item.of('minecraft:goat_horn').withChance(6),//山羊角
+            Item.of('mynethersdelight:golden_egg').withChance(10),//金蛋
+            Item.of('bosses_of_mass_destruction:soul_star').withChance(10),//灵魂之星
             Item.of('minecraft:netherite_ingot').withChance(4),//下界合金锭
-            Item.of('minecraft:netherite_upgrade_smithing_template').withChance(2),//下界合金锻造模板
-            Item.of('crockpot:pot_upgrade_smithing_template').withChance(1),//烹饪锅锻造模板
+            Item.of('minecraft:netherite_upgrade_smithing_template').withChance(4),//下界合金锻造模板
+            Item.of('crockpot:pot_upgrade_smithing_template').withChance(2),//烹饪锅锻造模板
+            Item.of('mynethersdelight:enchanted_golden_egg').withChance(1),//附魔金蛋
         ]);
 });
 LootJS.modifiers((event) => {
     event
         .addLootTableModifier('minecraft:chests/bastion_hoglin_stable')
-        .addWeightedLoot(3, [
-            Item.of('minecraft:netherite_scrap').withChance(30),//下界合金碎片
+        .addWeightedLoot(4, [
+            Item.of('minecraft:netherite_scrap').withChance(40),//下界合金碎片
             Item.of('kubejs:compressed_amethyst').withChance(25),//紫水晶币
             Item.of('goety:ectoplasm').withChance(25),//灵质
-            Item.of('goety:grave_dust').withChance(16),//坟尘
-            Item.of('minecraft:goat_horn').withChance(4),//山羊角
-            Item.of('bosses_of_mass_destruction:soul_star').withChance(8),//灵魂之星
+            Item.of('goety:grave_dust').withChance(25),//坟尘
+            Item.of('minecraft:goat_horn').withChance(6),//山羊角
+            Item.of('mynethersdelight:golden_egg').withChance(10),//金蛋
+            Item.of('bosses_of_mass_destruction:soul_star').withChance(10),//灵魂之星
             Item.of('minecraft:netherite_ingot').withChance(4),//下界合金锭
-            Item.of('minecraft:netherite_upgrade_smithing_template').withChance(2),//下界合金锻造模板
-            Item.of('crockpot:pot_upgrade_smithing_template').withChance(1),//烹饪锅锻造模板
+            Item.of('minecraft:netherite_upgrade_smithing_template').withChance(4),//下界合金锻造模板
+            Item.of('crockpot:pot_upgrade_smithing_template').withChance(2),//烹饪锅锻造模板
+            Item.of('mynethersdelight:enchanted_golden_egg').withChance(1),//附魔金蛋
         ]);
 });
 LootJS.modifiers((event) => {
     event
         .addLootTableModifier('minecraft:chests/bastion_bridge')
-        .addWeightedLoot(3, [
-            Item.of('minecraft:netherite_scrap').withChance(30),//下界合金碎片
+        .addWeightedLoot(4, [
+            Item.of('minecraft:netherite_scrap').withChance(40),//下界合金碎片
             Item.of('kubejs:compressed_amethyst').withChance(25),//紫水晶币
             Item.of('goety:ectoplasm').withChance(25),//灵质
-            Item.of('goety:grave_dust').withChance(16),//坟尘
-            Item.of('minecraft:goat_horn').withChance(4),//山羊角
-            Item.of('bosses_of_mass_destruction:soul_star').withChance(8),//灵魂之星
+            Item.of('goety:grave_dust').withChance(25),//坟尘
+            Item.of('minecraft:goat_horn').withChance(6),//山羊角
+            Item.of('mynethersdelight:golden_egg').withChance(10),//金蛋
+            Item.of('bosses_of_mass_destruction:soul_star').withChance(10),//灵魂之星
             Item.of('minecraft:netherite_ingot').withChance(4),//下界合金锭
-            Item.of('minecraft:netherite_upgrade_smithing_template').withChance(2),//下界合金锻造模板
-            Item.of('crockpot:pot_upgrade_smithing_template').withChance(1),//烹饪锅锻造模板
+            Item.of('minecraft:netherite_upgrade_smithing_template').withChance(4),//下界合金锻造模板
+            Item.of('crockpot:pot_upgrade_smithing_template').withChance(2),//烹饪锅锻造模板
+            Item.of('mynethersdelight:enchanted_golden_egg').withChance(1),//附魔金蛋
         ]);
 });
 LootJS.modifiers((event) => {
     event
         .addLootTableModifier('minecraft:chests/bastion_treasure')
-        .addWeightedLoot(3, [
-            Item.of('minecraft:netherite_scrap').withChance(30),//下界合金碎片
+        .addWeightedLoot(4, [
+            Item.of('minecraft:netherite_scrap').withChance(40),//下界合金碎片
             Item.of('kubejs:compressed_amethyst').withChance(25),//紫水晶币
             Item.of('goety:ectoplasm').withChance(25),//灵质
-            Item.of('goety:grave_dust').withChance(16),//坟尘
-            Item.of('minecraft:goat_horn').withChance(4),//山羊角
-            Item.of('bosses_of_mass_destruction:soul_star').withChance(8),//灵魂之星
+            Item.of('goety:grave_dust').withChance(25),//坟尘
+            Item.of('minecraft:goat_horn').withChance(6),//山羊角
+            Item.of('mynethersdelight:golden_egg').withChance(10),//金蛋
+            Item.of('bosses_of_mass_destruction:soul_star').withChance(10),//灵魂之星
             Item.of('minecraft:netherite_ingot').withChance(4),//下界合金锭
-            Item.of('minecraft:netherite_upgrade_smithing_template').withChance(2),//下界合金锻造模板
-            Item.of('crockpot:pot_upgrade_smithing_template').withChance(1),//烹饪锅锻造模板
+            Item.of('minecraft:netherite_upgrade_smithing_template').withChance(4),//下界合金锻造模板
+            Item.of('crockpot:pot_upgrade_smithing_template').withChance(2),//烹饪锅锻造模板
+            Item.of('mynethersdelight:enchanted_golden_egg').withChance(1),//附魔金蛋
         ]);
 });
 
@@ -385,6 +509,7 @@ LootJS.modifiers((event) => {  //暮色森林
             Item.of('goety:grave_dust').withChance(30),//坟尘
             Item.of('bosses_of_mass_destruction:soul_star').withChance(12),//灵魂之星
             Item.of('twilightforest:charm_of_keeping_1').withChance(10),//保管护符
+            Item.of('mynethersdelight:enchanted_golden_egg').withChance(5),//附魔金蛋
             Item.of('twilightforest:raw_ironwood').withChance(20),//铁木
             Item.of('twilightforest:steeleaf_ingot').withChance(20),//钢叶
             Item.of('twilightforest:sorting_sapling').withChance(5),//树苗
@@ -405,6 +530,7 @@ LootJS.modifiers((event) => {  //暮色森林
             Item.of('goety:grave_dust').withChance(30),//坟尘
             Item.of('bosses_of_mass_destruction:soul_star').withChance(12),//灵魂之星
             Item.of('twilightforest:charm_of_keeping_1').withChance(10),//保管护符
+            Item.of('mynethersdelight:enchanted_golden_egg').withChance(5),//附魔金蛋
             Item.of('twilightforest:raw_ironwood').withChance(20),//铁木
             Item.of('twilightforest:steeleaf_ingot').withChance(20),//钢叶
             Item.of('twilightforest:sorting_sapling').withChance(5),//树苗
@@ -425,6 +551,7 @@ LootJS.modifiers((event) => {  //暮色森林
             Item.of('goety:grave_dust').withChance(30),//坟尘
             Item.of('bosses_of_mass_destruction:soul_star').withChance(12),//灵魂之星
             Item.of('twilightforest:charm_of_keeping_1').withChance(10),//保管护符
+            Item.of('mynethersdelight:enchanted_golden_egg').withChance(5),//附魔金蛋
             Item.of('twilightforest:raw_ironwood').withChance(20),//铁木
             Item.of('twilightforest:steeleaf_ingot').withChance(20),//钢叶
             Item.of('twilightforest:sorting_sapling').withChance(5),//树苗
@@ -444,6 +571,7 @@ LootJS.modifiers((event) => {  //暮色森林
             Item.of('goety:grave_dust').withChance(30),//坟尘
             Item.of('bosses_of_mass_destruction:soul_star').withChance(12),//灵魂之星
             Item.of('twilightforest:charm_of_keeping_1').withChance(10),//保管护符
+            Item.of('mynethersdelight:enchanted_golden_egg').withChance(5),//附魔金蛋
             Item.of('twilightforest:raw_ironwood').withChance(20),//铁木
             Item.of('twilightforest:steeleaf_ingot').withChance(20),//钢叶
             Item.of('twilightforest:sorting_sapling').withChance(5),//树苗
@@ -463,6 +591,7 @@ LootJS.modifiers((event) => {  //暮色森林
             Item.of('goety:grave_dust').withChance(30),//坟尘
             Item.of('bosses_of_mass_destruction:soul_star').withChance(12),//灵魂之星
             Item.of('twilightforest:charm_of_keeping_1').withChance(10),//保管护符
+            Item.of('mynethersdelight:enchanted_golden_egg').withChance(5),//附魔金蛋
             Item.of('twilightforest:raw_ironwood').withChance(20),//铁木
             Item.of('twilightforest:steeleaf_ingot').withChance(20),//钢叶
             Item.of('twilightforest:sorting_sapling').withChance(5),//树苗
@@ -574,7 +703,7 @@ LootJS.modifiers((event) => {
 
     event
         .addLootTableModifier('goety:gameplay/treasure_pouch')//宝藏袋
-        .addWeightedLoot(9, [
+        .addWeightedLoot(8, [
             Item.of('goety:thunderbolt_focus').withChance(5),//聚晶
             Item.of('goety:shocking_focus').withChance(5),//聚晶
             Item.of('goety:razor_wind_focus').withChance(5),//聚晶
@@ -674,6 +803,7 @@ LootJS.modifiers((event) => {
             Item.of('goety:grave_dust').withChance(60),//坟尘
             Item.of('goety:jade').withChance(40),//玉
             Item.of('goety:ectoplasm').withChance(40),//灵质
+            Item.of('minecraft:echo_shard').withChance(40),//回响碎片
             Item.of('goety:dark_ingot').withChance(60),//黑暗金属锭
             Item.of('goety:forbidden_piece').withChance(80),//禁书碎片
             Item.of('goety:forbidden_fragment').withChance(20),//禁书片段
@@ -685,6 +815,7 @@ LootJS.modifiers((event) => {
             Item.of('aether_redux:vampire_amulet').withChance(4),//吸血鬼护身符
             Item.of('aether:iron_bubble').withChance(4),//坚铁气泡
             Item.of('aether:shield_of_repulsion').withChance(4),//反击之盾
+            Item.of('aether_redux:airbound_cape').withChance(4),//空境披风
         ]);
 
     event
@@ -796,8 +927,8 @@ LootJS.modifiers((event) => {
     event
         .addEntityLootModifier("goetyawaken:parched_necromancer")//焦骸死灵法师
         .addWeightedLoot(3, [
-            Item.of("goetyawaken:mucilage").withChance(40),//粘质
-            Item.of('goety:grave_dust').withChance(60),//坟尘
+            Item.of("goetyawaken:mucilage").withChance(50),//粘质
+            Item.of('goety:grave_dust').withChance(50),//坟尘
         ]);
 });
 
@@ -805,8 +936,8 @@ LootJS.modifiers((event) => {
     event
         .addEntityLootModifier("goetyawaken:wraith_necromancer")//幽魂死灵法师
         .addWeightedLoot(3, [
-            Item.of("goetyawaken:mucilage").withChance(40),//粘质
-            Item.of('goety:grave_dust').withChance(60),//坟尘
+            Item.of("goetyawaken:mucilage").withChance(50),//粘质
+            Item.of('goety:grave_dust').withChance(50),//坟尘
         ]);
 });
 
@@ -818,6 +949,30 @@ LootJS.modifiers((event) => {
             Item.of("radiation_zone_reborn:wastefiber").withChance(20),
             Item.of('goety:ectoplasm').withChance(15),//灵质
             Item.of("radiation_zone_reborn:protective_clothing_fabric").withChance(20)
+        ]);
+});
+LootJS.modifiers((event) => {
+    event
+        .addEntityLootModifier("mutantmore:mutant_shulker")//突变潜影贝
+        .addWeightedLoot(8, [
+            Item.of("minecraft:ender_pearl").withChance(20),
+            Item.of('legendary_monsters:enderitium_gem').withChance(80),
+        ]);
+});
+LootJS.modifiers((event) => {
+    event
+        .addEntityLootModifier("legendary_monsters:endersent")//紫颂
+        .addWeightedLoot(8, [
+            Item.of("minecraft:ender_pearl").withChance(20),
+            Item.of('legendary_monsters:enderitium_gem').withChance(80),
+        ]);
+});
+LootJS.modifiers((event) => {
+    event
+        .addEntityLootModifier("legendary_monsters:shulker_mimic")//潜影拟态
+        .addWeightedLoot(8, [
+            Item.of("minecraft:ender_pearl").withChance(20),
+            Item.of('legendary_monsters:enderitium_gem').withChance(80),
         ]);
 });
 LootJS.modifiers((event) => {
@@ -907,29 +1062,47 @@ LootJS.modifiers((event) => {
         .addWeightedLoot(2, [
             Item.of('obscure_api:astral_dust').withChance(60),
             Item.of("quark:diamond_heart").withChance(40),
+            Item.of("deep_aether:blade_of_luck").withChance(10),
+            Item.of("aether:flaming_sword").withChance(10)
+        ]);
+});
+
+
+LootJS.modifiers((event) => {
+    event
+        .addEntityLootModifier("ba_bt:ocean_golem")//海洋守卫
+        .addWeightedLoot(3, [
+            Item.of("artifacts:charm_of_sinking").withChance(10),
+            Item.of("artifacts:shock_pendant").withChance(10),
+            Item.of("artifacts:flippers").withChance(10),
+            Item.of("artifacts:anglers_hat").withChance(10),
+            Item.of("minecraft:nautilus_shell").withChance(60),
+            Item.of('obscure_api:astral_dust').withChance(80),
             Item.of("deep_aether:blade_of_luck").withChance(20),
-            Item.of("aether:flaming_sword").withChance(20)
+            Item.of("minecraft:heart_of_the_sea").withChance(20),
         ]);
 });
 
 LootJS.modifiers((event) => {
     event
         .addEntityLootModifier("ba_bt:ocean_golem")//海洋守卫
-        .addWeightedLoot(2, [
-            Item.of('obscure_api:astral_dust').withChance(60),
-            Item.of("aether:flaming_sword").withChance(20),
-            Item.of("deep_aether:blade_of_luck").withChance(20),
-            Item.of("minecraft:heart_of_the_sea").withChance(40)
+        .addWeightedLoot(1, [
+            Item.of("minecraft:heart_of_the_sea").withChance(1)
         ]);
 });
 
 LootJS.modifiers((event) => {
     event
         .addEntityLootModifier("ba_bt:core_golem")//炉心守卫
-        .addWeightedLoot(2, [
-            Item.of('obscure_api:astral_dust').withChance(60),
+        .addWeightedLoot(5, [
+            Item.of('obscure_api:astral_dust').withChance(40),
             Item.of("aether:flaming_sword").withChance(20),
-            Item.of("deep_aether:blade_of_luck").withChance(20)
+            Item.of("deep_aether:blade_of_luck").withChance(20),
+            Item.of("artifacts:obsidian_skull").withChance(10),
+            Item.of("artifacts:flame_pendant").withChance(10),
+            Item.of("artifacts:fire_gauntlet").withChance(10),
+            Item.of("artifacts:helium_flamingo").withChance(10),
+            Item.of("minecraft:netherite_scrap").withChance(80)
         ]);
 });
 
@@ -968,6 +1141,43 @@ LootJS.modifiers((event) => {
 
 LootJS.modifiers((event) => {
     event
+        .addEntityLootModifier("minecraft:wither_skeleton")//凋灵骷髅
+        .addWeightedLoot(1, [
+            Item.of('goety:grave_dust').withChance(15),//坟尘
+            Item.of('goety:ectoplasm').withChance(80),//灵质
+            Item.of("minecraft:wither_skeleton_skull").withChance(5)
+        ]);
+});
+
+LootJS.modifiers((event) => {
+    event
+        .addEntityLootModifier("goetyawaken:hostile_rampart_captain")//堡垒队长
+        .addWeightedLoot(4, [
+            Item.of('obscure_api:astral_dust').withChance(5),//星界粉尘
+            Item.of('trials:ominous_bottle').withChance(15),
+            Item.of('goety:pale_steel_ingot').withChance(30),
+        ]);
+});
+
+LootJS.modifiers((event) => {
+    event
+        .addEntityLootModifier("legendary_monsters:ancient_guardian")//荒古守卫者
+        .addWeightedLoot(6, [
+            Item.of('obscure_api:astral_dust').withChance(5),//星界粉尘
+            Item.of('goety:pale_steel_ingot').withChance(45),
+        ]);
+});
+
+LootJS.modifiers((event) => {
+    event
+        .addEntityLootModifier("goetyawaken:hostile_rampart_captain")//堡垒队长
+        .addWeightedLoot(1, [
+            Item.of('quark:diamond_heart').withChance(1),
+        ]);
+});
+
+LootJS.modifiers((event) => {
+    event
         .addEntityLootModifier("twilightforest:skeleton_druid")//骷髅德鲁伊
         .addWeightedLoot(1, [
             Item.of('goety:grave_dust').withChance(5),//坟尘
@@ -999,6 +1209,16 @@ LootJS.modifiers((event) => {
         .addWeightedLoot(4, [
             Item.of("minecraft:netherite_scrap").withChance(50),
             Item.of("minecraft:blaze_rod").withChance(30),
+            Item.of('bosses_of_mass_destruction:soul_star').withChance(15),
+            Item.of("obscure_api:astral_dust").withChance(20)
+        ]);
+});
+
+LootJS.modifiers((event) => {
+    event
+        .addEntityLootModifier("goetyawaken:hostile_giant_ghast")//巨型恶魂
+        .addWeightedLoot(5, [
+            Item.of("minecraft:netherite_scrap").withChance(80),
             Item.of('bosses_of_mass_destruction:soul_star').withChance(15),
             Item.of("obscure_api:astral_dust").withChance(20)
         ]);
@@ -1043,7 +1263,7 @@ LootJS.modifiers((event) => {
             Item.of("twilightforest:moon_dial").withChance(10),
             Item.of("artifacts:crystal_heart").withChance(10),
             Item.of("artifacts:snowshoes").withChance(10),
-            Item.of("obscure_api:astral_dust").withChance(50)
+            Item.of('royalvariations:spiritual_crown_shard').withChance(50)
         ]);
 });  
 
@@ -1111,6 +1331,14 @@ LootJS.modifiers((event) => {
 
 LootJS.modifiers((event) => {
     event
+        .addEntityLootModifier("cataclysm:ender_guardian")//末影守卫
+        .addWeightedLoot(1, [
+            Item.of('legendary_monsters:eye_crystal').withChance(10),
+        ]);
+});  
+
+LootJS.modifiers((event) => {
+    event
         .addEntityLootModifier("minecraft:ender_dragon")//末影龙
         .addWeightedLoot(1, [
             Item.of("ba_bt:end_monolith_key").withChance(100)
@@ -1141,14 +1369,14 @@ LootJS.modifiers(event => {
 })
 
 
-LootJS.modifiers((event) => {
-    event
-        .addEntityLootModifier("cataclysm:the_leviathan")//利维坦
-        .addWeightedLoot(1, [
-            Item.of("gwrexpansions:tidal_pistol").withChance(50),
-            Item.of("obscure_api:astral_dust").withChance(50),
-        ]);
-});  
+// LootJS.modifiers((event) => {
+//     event
+//         .addEntityLootModifier("cataclysm:the_leviathan")//利维坦
+//         .addWeightedLoot(1, [
+//             Item.of("gwrexpansions:tidal_pistol").withChance(50),
+//             Item.of("obscure_api:astral_dust").withChance(50),
+//         ]);
+// });  
 
 LootJS.modifiers((event) => {
     event
@@ -1199,7 +1427,8 @@ LootJS.modifiers((event) => {
         .addWeightedLoot(1, [
             Item.of("deep_aether:floaty_scarf").withChance(15),
             Item.of("aether:life_shard").withChance(15),
-            Item.of("aether_redux:raw_gravitite").withChance(70)
+            Item.of('aether_redux:airbound_cape').withChance(30),
+            Item.of("aether_redux:raw_gravitite").withChance(40)
         ]);
 }); 
 
@@ -1222,8 +1451,9 @@ LootJS.modifiers((event) => {
         .addWeightedLoot(1, [
             Item.of("deep_aether:sun_core").withChance(15),
             Item.of("lost_aether_content:flaming_gemstone").withChance(15),
+            Item.of('aether_redux:airbound_cape').withChance(15),
             Item.of("aether:life_shard").withChance(15),
-            Item.of("aether_redux:raw_gravitite").withChance(55)
+            Item.of("aether_redux:raw_gravitite").withChance(40)
         ]);
 }); 
 
@@ -1325,17 +1555,7 @@ LootJS.modifiers((event) => {
             Item.of("minecraft:heart_of_the_sea").withChance(30)
         ]);
 });
-LootJS.modifiers((event) => {
-    event
-        .addEntityLootModifier("ba_bt:ocean_golem")//海洋守卫
-        .addWeightedLoot(1, [
-            Item.of("artifacts:charm_of_sinking").withChance(10),
-            Item.of("artifacts:shock_pendant").withChance(10),
-            Item.of("artifacts:flippers").withChance(10),
-            Item.of("artifacts:anglers_hat").withChance(10),
-            Item.of("minecraft:nautilus_shell").withChance(60),
-        ]);
-});
+
 LootJS.modifiers((event) => {
     event
         .addEntityLootModifier("mutantmonsters:mutant_creeper")//苦力怕突变体
@@ -1353,27 +1573,17 @@ LootJS.modifiers((event) => {
             Item.of("cataclysm:void_jaw").withChance(60)
         ]);
 });    
-LootJS.modifiers((event) => {
-    event
-        .addEntityLootModifier("ba_bt:core_golem")//炉心守卫
-        .addWeightedLoot(1, [
-            Item.of("artifacts:obsidian_skull").withChance(10),
-            Item.of("artifacts:flame_pendant").withChance(10),
-            Item.of("artifacts:fire_gauntlet").withChance(10),
-            Item.of("artifacts:helium_flamingo").withChance(10),
-            Item.of("minecraft:netherite_scrap").withChance(60)
-        ]);
-});
+
 LootJS.modifiers((event) => {
     event
         .addEntityLootModifier("minecraft:piglin_brute")//猪灵蛮兵
         .addWeightedLoot(1, [
-            Item.of("artifacts:obsidian_skull").withChance(3),
-            Item.of("artifacts:flame_pendant").withChance(3),
-            Item.of("artifacts:fire_gauntlet").withChance(3),
-            Item.of("artifacts:helium_flamingo").withChance(3),
-            Item.of("obscure_api:astral_dust").withChance(13),
-            Item.of("minecraft:gold_ingot").withChance(30),
+            Item.of("artifacts:obsidian_skull").withChance(5),
+            Item.of("artifacts:flame_pendant").withChance(5),
+            Item.of("artifacts:fire_gauntlet").withChance(5),
+            Item.of("artifacts:helium_flamingo").withChance(5),
+            Item.of("obscure_api:astral_dust").withChance(15),
+            Item.of("minecraft:gold_ingot").withChance(20),
             Item.of("minecraft:netherite_scrap").withChance(45)
         ]);
 });

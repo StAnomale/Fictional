@@ -10,7 +10,7 @@
   "fullSetBonuses": [
     {
       "type": "attribute",
-      "name": "minecraft:generic.armor",
+      "name": "obscure_api:magic_damage",
       "value": -0.2,
       "modifierUUID": "0532c43e-8634-4e84-be76-dde7219b4aca",
       "attributeOperation": 1,

@@ -21,15 +21,15 @@
 		requiemCost = 2000
 		#Requiem Spell Cooldown, Default: 200
 		#Range: > 0
-		requiemCoolDown = 140
+		requiemCoolDown = 120
 		#Time to cast Requiem Spell, Default: 55
 		#Range: 20 ~ 72000
-		requiemTime = 35
+		requiemTime = 20
 
 	[Spells."Impish Spell"]
 		#How much base damage Imps deals, Default: 4.0
 		#Range: 1.0 ~ 1.7976931348623157E308
-		impishDamage = 100.0
+		impishDamage = 140.0
 		#Impish Spell Cost, Default: 32
 		#Range: > 0
 		impishCost = 80
@@ -49,7 +49,7 @@
 		soulBeamCoolDown = 140
 		#How much base damage Soul Beam deals, Default: 4.0
 		#Range: 1.0 ~ 1.7976931348623157E308
-		soulBeamDamage = 40.0
+		soulBeamDamage = 44.0
 		#Time to cast Soul Beam Spell, Default: 100
 		#Range: 0 ~ 72000
 		soulBeamDuration = 100
@@ -60,7 +60,7 @@
 		spiritHandTime = 40
 		#Spirit Hand Spell Cooldown, Default: 900
 		#Range: > 0
-		spiritHandCoolDown = 300
+		spiritHandCoolDown = 200
 		#Spirit Hand Spell Cost, Default: 64
 		#Range: > 0
 		spiritHandCost = 120

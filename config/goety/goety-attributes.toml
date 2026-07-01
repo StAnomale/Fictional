@@ -20,7 +20,7 @@
 		[Attributes.Cultists."Obsidian Monolith"]
 			#How much Max Health Obsidian Monolith have, Default: 50.0
 			#Range: 1.0 ~ 1.7976931348623157E308
-			obsidianMonolithHealth = 300.0
+			obsidianMonolithHealth = 400.0
 			#How much natural armor points Obsidian Monolith have, Default: 12.0
 			#Range: 0.0 ~ 1.7976931348623157E308
 			obsidianMonolithArmor = 20.0
@@ -211,10 +211,10 @@
 		[Attributes.General."Wither Necromancer"]
 			#How much Max Health Wither Necromancers have, Default: 220.0
 			#Range: 1.0 ~ 1.7976931348623157E308
-			witherNecromancerHealth = 1600.0
+			witherNecromancerHealth = 1800.0
 			#How much natural Armor Wither Necromancers have, Default: 0.0
 			#Range: 0.0 ~ 1.7976931348623157E308
-			witherNecromancerArmor = 16.0
+			witherNecromancerArmor = 20.0
 			#How much damage Wither Necromancers deals, Default: 4.0
 			#Range: 1.0 ~ 1.7976931348623157E308
 			witherNecromancerDamage = 24.0
@@ -227,30 +227,30 @@
 		[Attributes.Bosses."Ender Keeper"]
 			#The maximum amount of damage an Ender Keeper can attain per hit, Default: 20.0
 			#Range: 1.0 ~ 1.7976931348623157E308
-			enderKeeperDamageCap = 200.0
+			enderKeeperDamageCap = 400.0
 			#How much damage Ender Keeper deals, Default: 14.0
 			#Range: 1.0 ~ 1.7976931348623157E308
-			enderKeeperDamage = 48.0
+			enderKeeperDamage = 60.0
 			#Ender Keepers attack HP percent damage, Default: 0.05
 			#Range: 0.0 ~ 1.0
-			enderKeeperHPPercentDamage = 0.15
+			enderKeeperHPPercentDamage = 0.2
 			#How much natural Armor Points Ender Keepers have, Default: 10.0
 			#Range: 0.0 ~ 1.7976931348623157E308
 			enderKeeperArmor = 40.0
 			#How many blocks or distance away an attack can be from Ender Keeper to damage them, Default: 12.0
 			#Range: 6.0 ~ 1.7976931348623157E308
-			enderKeeperHurtRange = 12.0
+			enderKeeperHurtRange = 16.0
 			#How much Max Health Ender Keeper have, Default: 320.0
 			#Range: 100.0 ~ 1.7976931348623157E308
-			enderKeeperHealth = 6000.0
+			enderKeeperHealth = 6400.0
 
 		[Attributes.Bosses.Apostle]
 			#Set Apostle's spell damage (ie, Fire Tornadoes, Fire Blasts, Roars), Default: 6.0
 			#Range: 6.0 ~ 1.7976931348623157E308
-			apostleMagicDamage = 40.0
+			apostleMagicDamage = 48.0
 			#Multiplies Apostle's Bow damage, Default: 2
 			#Range: > 1
-			apostleBowDamage = 20
+			apostleBowDamage = 40
 			#How much Max Health Apostles have, Default: 320.0
 			#Range: 100.0 ~ 1.7976931348623157E308
 			apostleHealth = 4800.0
@@ -262,7 +262,7 @@
 			apostleToughness = 20.0
 			#The maximum amount of damage an Apostle can attain per hit, Default: 20.0
 			#Range: 1.0 ~ 1.7976931348623157E308
-			apostleDamageCap = 200.0
+			apostleDamageCap = 400.0
 
 		[Attributes.Bosses.Vizier]
 			#How much Max Health Viziers have, Default: 300.0
@@ -349,7 +349,7 @@
 			snarelingArmor = 20.0
 			#How much Max Health Snarelings have, Default: 20.0
 			#Range: 1.0 ~ 1.7976931348623157E308
-			snarelingHealth = 40.0
+			snarelingHealth = 80.0
 
 		[Attributes."Summoned Mobs"."Web Spider Servant"]
 			#How much Max Health Web Spider Servants have, Default: 16.0
@@ -362,16 +362,16 @@
 		[Attributes."Summoned Mobs"."Redstone Golem"]
 			#How much Max Health Redstone Golems have, Default: 240.0
 			#Range: 1.0 ~ 1.7976931348623157E308
-			redstoneGolemHealth = 600.0
+			redstoneGolemHealth = 1200.0
 			#How much following/detection range Redstone Golems have, Default: 32.0
 			#Range: 1.0 ~ 2048.0
 			redstoneGolemFollowRange = 32.0
 			#How much damage Redstone Golems deals, Default: 20.0
 			#Range: 1.0 ~ 1.7976931348623157E308
-			redstoneGolemDamage = 40.0
+			redstoneGolemDamage = 60.0
 			#How much natural armor points Redstone Golems have, Default: 0.0
 			#Range: 0.0 ~ 1.7976931348623157E308
-			redstoneGolemArmor = 20.0
+			redstoneGolemArmor = 40.0
 
 		[Attributes."Summoned Mobs"."Husk Servant"]
 			#How much damage Husk Servants deals, Default: 3.0
@@ -462,7 +462,7 @@
 			witherSkeletonServantDamage = 8.0
 			#How much Max Health Wither Skeleton Servants have, Default: 20.0
 			#Range: 1.0 ~ 1.7976931348623157E308
-			witherSkeletonServantHealth = 40.0
+			witherSkeletonServantHealth = 60.0
 
 		[Attributes."Summoned Mobs"."Skeleton Pillager"]
 			#How much Max Health Skeleton Pillagers have, Default: 24.0
@@ -919,7 +919,7 @@
 			watchlingDamage = 15.0
 			#How much Max Health Watchlings have, Default: 24.0
 			#Range: 1.0 ~ 1.7976931348623157E308
-			watchlingHealth = 48.0
+			watchlingHealth = 80.0
 
 		[Attributes."Summoned Mobs"."Poison-Quill Vine"]
 			#How much damage Poison-Quill Vines' quills deals, Default: 2.5
@@ -1069,7 +1069,7 @@
 			blastlingArmor = 20.0
 			#How much Max Health Blastlings have, Default: 32.0
 			#Range: 1.0 ~ 1.7976931348623157E308
-			blastlingHealth = 64.0
+			blastlingHealth = 120.0
 			#How much damage Blastlings deals, Default: 3.0
 			#Range: 1.0 ~ 1.7976931348623157E308
 			blastlingDamage = 12.0

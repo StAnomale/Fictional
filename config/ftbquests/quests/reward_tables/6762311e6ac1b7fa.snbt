@@ -39,7 +39,7 @@
 			elevate_perms: true
 			icon: "minecraft:writable_book"
 			silent: true
-			title: "恶意模式"
+			title: "恶意模式（不建议一周目选择）"
 			type: "command"
 		}
 	]

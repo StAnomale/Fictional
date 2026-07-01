@@ -147,13 +147,13 @@
 			"Set projectile damage range" = 25.0
 			#Set this mob health multiplier
 			#Range: 0.0 ~ 1.7976931348623157E308
-			"Health multiplier" = 6.0
+			"Health multiplier" = 7.0
 			#Set this mob attack multiplier
 			#Range: 0.0 ~ 1.7976931348623157E308
-			"Attack multiplier" = 2.5
+			"Attack multiplier" = 3.0
 			#Set this mob damageCap
 			#Range: 0.0 ~ 1024.0
-			DamageCap = 200.0
+			DamageCap = 400.0
 
 			[Mobs."Immortal Mobs".Immortal."Damage Adapt"]
 				#Set max adaptable damage sources for this mob
@@ -189,13 +189,13 @@
 			"Set projectile damage range" = 24.0
 			#Set this mob health multiplier
 			#Range: 0.0 ~ 1.7976931348623157E308
-			"Health multiplier" = 3.0
+			"Health multiplier" = 4.0
 			#Set this mob attack multiplier
 			#Range: 0.0 ~ 1.7976931348623157E308
-			"Attack multiplier" = 2.5
+			"Attack multiplier" = 3.0
 			#Set this mob damageCap
 			#Range: 0.0 ~ 1024.0
-			DamageCap = 80.0
+			DamageCap = 400.0
 
 	[Mobs."Guling Mobs"]
 
@@ -214,10 +214,10 @@
 			"Enable out-of-combat healing" = true
 			#Set this mob health multiplier
 			#Range: 0.0 ~ 1.7976931348623157E308
-			"Health multiplier" = 5.0
+			"Health multiplier" = 10.0
 			#Set this mob attack multiplier
 			#Range: 0.0 ~ 1.7976931348623157E308
-			"Attack multiplier" = 2.5
+			"Attack multiplier" = 3.0
 
 		[Mobs."Guling Mobs"."Nameless Guardian"]
 			#Set suck blood multiplier
@@ -236,13 +236,13 @@
 			"Frame Damage Protection" = false
 			#Set this mob health multiplier
 			#Range: 0.0 ~ 1.7976931348623157E308
-			"Health multiplier" = 6.0
+			"Health multiplier" = 8.0
 			#Set this mob attack multiplier
 			#Range: 0.0 ~ 1.7976931348623157E308
-			"Attack multiplier" = 1.5
+			"Attack multiplier" = 2.0
 			#Set this mob damageCap
 			#Range: 0.0 ~ 1024.0
-			DamageCap = 120.0
+			DamageCap = 400.0
 
 	[Mobs."Minion Mobs"]
 

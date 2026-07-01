@@ -1,0 +1,29 @@
+{
+  "armorSetName": "soul_great_sword",
+  "performanceMode": true,
+  "mainHand": {
+    "itemKey": "legendary_monsters:soul_great_sword",
+    "mixAndMatch": [
+      ],
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "obscure_api:critical_damage",
+      "value": 0.2,
+      "modifierUUID": "e34af00f-0b93-4079-8f5b-09998c2d3972",
+      "attributeOperation": 0,
+      "interactionType": "self"
+    },
+    {
+      "type": "attribute",
+      "name": "forge:entity_reach",
+      "value": 2.0,
+      "modifierUUID": "ebb07e49-7b9a-4282-80eb-418b7796f3cc",
+      "attributeOperation": 0,
+      "interactionType": "self"
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

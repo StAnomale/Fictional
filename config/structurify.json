@@ -1,6 +1,6 @@
 {
   "config_version": "2.0.11",
-  "config_datetime": "2026-05-23_14-31-03",
+  "config_datetime": "2026-06-22_20-27-13",
   "general": {
     "disable_all_structures": false,
     "prevent_structure_overlap": true,
@@ -332,9 +332,51 @@
       "terrain_adaptation": "none"
     },
     {
-      "name": "dungeons_arise:heavenly_challenger",
+      "name": "dungeons_arise:bathhouse",
       "is_disabled": false,
       "whitelisted_biomes": [],
+      "blacklisted_biomes": [
+        "minecraft:plains",
+        "minecraft:meadow"
+      ],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_box"
+    },
+    {
+      "name": "dungeons_arise:foundry",
+      "is_disabled": false,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [
+        "minecraft:bamboo_jungle",
+        "minecraft:jungle",
+        "minecraft:sparse_jungle",
+        "biomesoplenty:floodplain",
+        "biomesoplenty:fungal_jungle",
+        "biomesoplenty:rainforest",
+        "biomesoplenty:rocky_rainforest",
+        "terralith:rocky_jungle",
+        "terralith:jungle_mountains",
+        "terralith:tropical_jungle",
+        "terralith:amethyst_rainforest",
+        "terralith:amethyst_canyon",
+        "minecraft:forest",
+        "minecraft:flower_forest",
+        "minecraft:birch_forest",
+        "minecraft:old_growth_birch_forest"
+      ],
+      "step": "underground_structures",
+      "terrain_adaptation": "none"
+    },
+    {
+      "name": "dungeons_arise:heavenly_challenger",
+      "is_disabled": false,
+      "whitelisted_biomes": [
+        "aether_redux:glacial_tundra",
+        "aether_redux:gilded_groves",
+        "aether_redux:frosted_forests",
+        "aether_redux:cloudcaps",
+        "aether_redux:gilded_grasslands"
+      ],
       "blacklisted_biomes": [
         "minecraft:bamboo_jungle",
         "minecraft:jungle",
@@ -398,12 +440,26 @@
     {
       "name": "dungeons_arise:heavenly_conqueror",
       "is_disabled": false,
-      "whitelisted_biomes": [],
+      "whitelisted_biomes": [
+        "aether_redux:the_blight",
+        "aether_redux:skyroot_shrublands",
+        "aether_redux:skyfields",
+        "aether_redux:glacial_tundra",
+        "aether_redux:gilded_groves",
+        "aether_redux:gilded_grasslands",
+        "aether_redux:frosted_forests",
+        "aether_redux:cloudcaps",
+        "aether:skyroot_woodland",
+        "aether:skyroot_meadow",
+        "aether:skyroot_grove",
+        "aether:skyroot_forest"
+      ],
       "blacklisted_biomes": [
         "minecraft:bamboo_jungle",
         "minecraft:jungle",
         "minecraft:sparse_jungle",
         "biomesoplenty:fungal_jungle",
+        "biomesoplenty:rainforest",
         "biomesoplenty:rocky_rainforest",
         "terralith:rocky_jungle",
         "terralith:tropical_jungle",
@@ -433,7 +489,10 @@
         "terralith:snowy_cherry_grove",
         "terralith:snowy_maple_forest",
         "terralith:snowy_shield",
-        "terralith:white_cliffs"
+        "terralith:white_cliffs",
+        "minecraft:desert",
+        "minecraft:plains",
+        "minecraft:sunflower_plains"
       ],
       "step": "surface_structures",
       "terrain_adaptation": "none"
@@ -441,7 +500,18 @@
     {
       "name": "dungeons_arise:heavenly_rider",
       "is_disabled": false,
-      "whitelisted_biomes": [],
+      "whitelisted_biomes": [
+        "aether_redux:the_blight",
+        "aether_redux:glacial_tundra",
+        "aether_redux:gilded_groves",
+        "aether_redux:gilded_grasslands",
+        "aether_redux:frosted_forests",
+        "aether_redux:cloudcaps",
+        "aether:skyroot_woodland",
+        "aether:skyroot_meadow",
+        "aether:skyroot_grove",
+        "aether:skyroot_forest"
+      ],
       "blacklisted_biomes": [
         "minecraft:bamboo_jungle",
         "minecraft:jungle",
@@ -453,6 +523,11 @@
         "terralith:rocky_jungle",
         "terralith:jungle_mountains",
         "terralith:tropical_jungle",
+        "minecraft:forest",
+        "minecraft:flower_forest",
+        "minecraft:birch_forest",
+        "minecraft:old_growth_birch_forest",
+        "minecraft:dark_forest",
         "biomesoplenty:pumpkin_patch",
         "biomesoplenty:redwood_forest",
         "biomesoplenty:woodland",
@@ -471,9 +546,31 @@
       "terrain_adaptation": "none"
     },
     {
+      "name": "dungeons_arise:mechanical_nest",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "none"
+    },
+    {
+      "name": "dungeons_arise:mushroom_mines",
+      "is_disabled": false,
+      "whitelisted_biomes": [
+        "the_bumblezone:hive_wall",
+        "the_bumblezone:hive_pillar"
+      ],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "none"
+    },
+    {
       "name": "dungeons_arise:shiraz_palace",
       "is_disabled": false,
-      "whitelisted_biomes": [],
+      "whitelisted_biomes": [
+        "the_bumblezone:hive_wall",
+        "the_bumblezone:hive_pillar"
+      ],
       "blacklisted_biomes": [
         "minecraft:desert",
         "terralith:desert_oasis",
@@ -551,6 +648,23 @@
       "terrain_adaptation": "none"
     },
     {
+      "name": "legendary_monsters:ancient_stronghold",
+      "is_disabled": false,
+      "whitelisted_biomes": [
+        "minecraft:desert",
+        "minecraft:badlands",
+        "minecraft:sunflower_plains",
+        "minecraft:plains",
+        "minecraft:birch_forest",
+        "minecraft:old_growth_birch_forest",
+        "minecraft:forest",
+        "biomesoplenty:dead_forest"
+      ],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_thin"
+    },
+    {
       "name": "legendary_monsters:cloudy_temple",
       "is_disabled": false,
       "whitelisted_biomes": [
@@ -580,15 +694,43 @@
       "terrain_adaptation": "beard_box"
     },
     {
+      "name": "legendary_monsters:collapsed_kingdom",
+      "is_disabled": false,
+      "whitelisted_biomes": [
+        "radiation_zone_reborn:waste_desert",
+        "radiation_zone_reborn:frostbite_snowfield",
+        "radiation_zone_reborn:radiation_plain"
+      ],
+      "blacklisted_biomes": [
+        "minecraft:birch_forest",
+        "minecraft:forest",
+        "minecraft:old_growth_birch_forest",
+        "minecraft:plains",
+        "biomesoplenty:highland",
+        "biomesoplenty:volcano"
+      ],
+      "step": "underground_decoration",
+      "terrain_adaptation": "beard_box"
+    },
+    {
       "name": "legendary_monsters:frostbitten_temple",
       "is_disabled": false,
       "whitelisted_biomes": [
-        "radiation_zone_reborn:frostbite_snowfield",
-        "aether_redux:glacial_tundra",
-        "aether_redux:frosted_forests",
-        "aether:skyroot_meadow",
-        "aether:skyroot_grove",
-        "aether:skyroot_forest"
+        "radiation_zone_reborn:frostbite_snowfield"
+      ],
+      "blacklisted_biomes": [
+        "biomesoplenty:muskeg"
+      ],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_thin"
+    },
+    {
+      "name": "legendary_monsters:mossy_temple",
+      "is_disabled": false,
+      "whitelisted_biomes": [
+        "radiation_zone_reborn:radiation_plain",
+        "minecraft:forest",
+        "minecraft:birch_forest"
       ],
       "blacklisted_biomes": [],
       "step": "surface_structures",
@@ -603,6 +745,19 @@
       "blacklisted_biomes": [],
       "step": "surface_structures",
       "terrain_adaptation": "beard_thin"
+    },
+    {
+      "name": "masquerader_mod:masquerade_ballroom",
+      "is_disabled": false,
+      "whitelisted_biomes": [
+        "minecraft:warped_forest",
+        "biomesoplenty:dead_forest",
+        "minecraft:forest",
+        "biomesoplenty:old_growth_dead_forest"
+      ],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "none"
     },
     {
       "name": "radiation_zone_reborn:radiation_zone_portal_ruin",

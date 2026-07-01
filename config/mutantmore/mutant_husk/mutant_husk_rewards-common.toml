@@ -13,7 +13,7 @@
 ["SAND CANNON"]
 	"Durability (default: 75)" = 750
 	"Use Cooldown (in ticks, default: 200)" = 20
-	"Damage (default: 7)" = 80.0
+	"Damage (default: 7)" = 100.0
 	"Sand Boulders Despawn After (in ticks, default: 60)" = 40
 	"Griefing (default: true)" = false
 
@@ -21,7 +21,7 @@
 	"Durability (default: 100)" = 1000
 	"Use Cooldown (in ticks, default: 200)" = 30
 	"Damage Range (in blocks, default: 14)" = 14.0
-	"Damage (default: 4)" = 40.0
+	"Damage (default: 4)" = 60.0
 	"Quicksand Range (in blocks, default: 12)" = 16.0
 	"Griefing (default: true)" = false
 

@@ -2,11 +2,12 @@
   "type": "goety:ritual",
   "ritual_type": "goety:craft",
   "activation_item": {
-    "item": "goety:fire_breath_focus"
+    "item": "goety:fire_blast_focus"
   },
   "craftType": "expert_nether",
-  "soulCost": 1,
-  "duration": 10,
+  "soulCost": 50,
+  "duration": 20,
+  "research": "bygone",
   "ingredients": [
     {
       "item": "minecraft:lava_bucket"

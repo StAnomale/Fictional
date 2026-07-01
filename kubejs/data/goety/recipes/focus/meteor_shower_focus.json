@@ -5,14 +5,18 @@
     "item": "goety:arrow_rain_focus"
   },
   "craftType": "expert_nether",
-  "soulCost": 1,
-  "duration": 10,
+  "soulCost": 50,
+  "duration": 20,
+  "research": "bygone",
   "ingredients": [
     {
       "item": "goety:lavaball_focus"
     },
     {
       "item": "minecraft:ghast_tear"
+    },
+    {
+      "item": "goetyawaken:gloomy_tears"
     },
     {
       "item": "minecraft:lava_bucket"

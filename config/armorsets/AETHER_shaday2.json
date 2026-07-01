@@ -35,7 +35,7 @@
     {
       "type": "attribute",
       "name": "minecraft:generic.movement_speed",
-      "value": 0.1,
+      "value": 0.2,
       "modifierUUID": "24100b5e-b79f-4d92-b99e-95d04501c6d8",
       "attributeOperation": 1,
       "interactionType": "self",

@@ -20,7 +20,10 @@
       "minecraft:effect": true,
       "minecraft:falling_dust": true,
       "minecraft:falling_lava": true,
-      "minecraft:white_ash": false
+      "minecraft:white_ash": false,
+      "minecraft:large_smoke": true,
+      "minecraft:smoke": true,
+      "minecraft:campfire_cosy_smoke": true
     }
   },
   "detail_settings": {

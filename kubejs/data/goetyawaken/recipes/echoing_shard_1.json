@@ -5,7 +5,8 @@
     "item": "minecraft:sculk_catalyst"
   },
   "craftType": "geoturgy",
-  "soulCost": 2,
+  "research": "forbidden",
+  "soulCost": 200,
   "duration": 10,
   "ingredients": [
     {

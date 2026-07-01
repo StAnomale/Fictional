@@ -1,0 +1,36 @@
+{
+  "armorSetName": "fiery_boots",
+  "performanceMode": true,
+  "boots": {
+    "itemKey": "legendary_monsters:fiery_boots",
+    "mixAndMatch": [
+    ],
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "minecraft:fire_resistance",
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor",
+      "value": 0.1,
+      "modifierUUID": "86c8c24d-ad2f-4bb5-bd9a-5af7a362edd2",
+      "attributeOperation": 1,
+      "interactionType": "self"
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.movement_speed",
+      "value": 0.1,
+      "modifierUUID": "ab0517b0-a55f-4105-bbfc-06f541914bcb",
+      "attributeOperation": 1,
+      "interactionType": "self"
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

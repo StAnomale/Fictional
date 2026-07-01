@@ -97,3 +97,41 @@ global.shootMultiProjectile = shootMultiProjectile;
 global.shootProjectile = shootProjectile;
 global.baseShootProjectile = baseShootProjectile;
 global.atkSpeedShootProjectile = atkSpeedShootProjectile;
+
+const LeftClickInUsingEvent = Java.loadClass('io.zershyan.fictional.common.event.LeftClickInUsingEvent');
+NativeEvents.onEvent(LeftClickInUsingEvent, 
+    /**
+     * 
+     * @param {Internal.LeftClickInUsingEvent} event 
+     */
+    event => {
+        const BladeBeam = Java.loadClass('io.zershyan.fictional.common.registry.entities.BladeBeam');
+        console.log(event.getUsingItem());
+    }
+)
+
+// const UsingSlownessEvent = Java.loadClass('io.zershyan.fictional.common.event.UsingSlownessEvent');
+// NativeEvents.onEvent(UsingSlownessEvent, 
+//     /**
+//      * 
+//      * @param {Internal.UsingSlownessEvent} event 
+//      */
+//     event => {
+//         const UsingSlownessEvent = Java.loadClass('io.zershyan.fictional.common.event.UsingSlownessEvent');
+//         //console.log(event.getUsingItem());
+//         event.cancel();
+//     }
+// )
+
+// NativeEvents.onEvent(UsingSlownessEvent,
+//     /**
+//      * 
+//      * @param {Internal.UsingSlownessEvent} event 
+//      */
+//     event => {
+//     const { player } = event;
+//     if (!player.player) return;
+//     event.cancel();
+//     console.log;
+// })
+

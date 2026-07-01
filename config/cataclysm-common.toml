@@ -155,21 +155,21 @@
 	[tools_and_abilities.wither_assault_shoulder_weapon]
 		#Missile Cooldown
 		#Range: 0 ~ 1000
-		missile_cooldown = 20
+		missile_cooldown = 10
 		#Missile Damage
 		#Range: 0.0 ~ 100000.0
-		missile_damage = 60.0
+		missile_damage = 160.0
 		#Howitzer Cooldown
 		#Range: 0 ~ 1000
-		howitzer_cooldown = 60
+		howitzer_cooldown = 10
 
 	[tools_and_abilities.void_assault_shoulder_weapon]
 		#Howitzer Cooldown
 		#Range: 0 ~ 1000
-		howitzer_cooldown = 60
+		howitzer_cooldown = 20
 		#VASW Rune Damage
 		#Range: 0.0 ~ 1000000.0
-		vasw_rune_damage = 35.0
+		vasw_rune_damage = 160.0
 
 	[tools_and_abilities.void_core]
 		#Cooldown
@@ -177,7 +177,7 @@
 		void_core_cooldown = 40
 		#Void Core Rune Damage
 		#Range: 0.0 ~ 1000000.0
-		void_core_rune_damage = 35.0
+		void_core_rune_damage = 40.0
 
 	[tools_and_abilities.sandstorm]
 		#Cooldown
@@ -358,10 +358,10 @@
 		[mobs.ender_guardian.cap_config]
 			#Damage Cap
 			#Range: 0.0 ~ 1000000.0
-			damage_cap = 100.0
+			damage_cap = 400.0
 			#Dps Cap
 			#Range: 1.0 ~ 1000000.0
-			dps_cap = 40.0
+			dps_cap = 100.0
 			#DPS Limit Time
 			#Range: 1 ~ 100
 			dps_limit_time = 20
@@ -372,7 +372,7 @@
 		[mobs.ender_guardian.nature_heal_config]
 			#Nature Heal
 			#Range: 0.0 ~ 1000000.0
-			nature_heal = 100.0
+			nature_heal = 50.0
 
 		[mobs.ender_guardian.respawner_config]
 			#Respawner
@@ -390,7 +390,7 @@
 		[mobs.ender_golem.combat_config]
 			#Scale mob health by this value
 			#Range: 0.1 ~ 1000000.0
-			health_multiplier = 7.0
+			health_multiplier = 8.0
 			#Scale mob attack damage by this value
 			#Range: 0.1 ~ 1000000.0
 			attack_multiplier = 3.0
@@ -398,10 +398,10 @@
 		[mobs.ender_golem.cap_config]
 			#Damage Cap
 			#Range: 0.0 ~ 1000000.0
-			damage_cap = 100.0
+			damage_cap = 400.0
 			#Dps Cap
 			#Range: 1.0 ~ 1000000.0
-			dps_cap = 40.0
+			dps_cap = 100.0
 			#DPS Limit Time
 			#Range: 1 ~ 100
 			dps_limit_time = 20
@@ -412,7 +412,7 @@
 		[mobs.ender_golem.nature_heal_config]
 			#Nature Heal
 			#Range: 0.0 ~ 1000000.0
-			nature_heal = 100.0
+			nature_heal = 50.0
 
 		[mobs.ender_golem.ignore_mobgriefing_config]
 			#Ignore MobGriefing
@@ -446,18 +446,18 @@
 		[mobs.netherite_monstrosity.combat_config]
 			#Scale mob health by this value
 			#Range: 0.1 ~ 1000000.0
-			health_multiplier = 5.0
+			health_multiplier = 6.0
 			#Scale mob attack damage by this value
 			#Range: 0.1 ~ 1000000.0
-			attack_multiplier = 3.0
+			attack_multiplier = 3.5
 
 		[mobs.netherite_monstrosity.cap_config]
 			#Damage Cap
 			#Range: 0.0 ~ 1000000.0
-			damage_cap = 200.0
+			damage_cap = 400.0
 			#Dps Cap
 			#Range: 1.0 ~ 1000000.0
-			dps_cap = 50.0
+			dps_cap = 100.0
 			#DPS Limit Time
 			#Range: 1 ~ 100
 			dps_limit_time = 20
@@ -468,7 +468,7 @@
 		[mobs.netherite_monstrosity.nature_heal_config]
 			#Nature Heal
 			#Range: 0.0 ~ 1000000.0
-			nature_heal = 100.0
+			nature_heal = 50.0
 
 		[mobs.netherite_monstrosity.respawner_config]
 			#Respawner
@@ -486,7 +486,7 @@
 			health_multiplier = 5.0
 			#Scale mob attack damage by this value
 			#Range: 0.1 ~ 1000000.0
-			attack_multiplier = 2.0
+			attack_multiplier = 2.5
 
 	[mobs.ignis]
 		#Ignis's Life steal Multiplier
@@ -506,10 +506,10 @@
 		[mobs.ignis.cap_config]
 			#Damage Cap
 			#Range: 0.0 ~ 1000000.0
-			damage_cap = 200.0
+			damage_cap = 400.0
 			#Dps Cap
 			#Range: 1.0 ~ 1000000.0
-			dps_cap = 50.0
+			dps_cap = 100.0
 			#DPS Limit Time
 			#Range: 1 ~ 100
 			dps_limit_time = 20
@@ -520,7 +520,7 @@
 		[mobs.ignis.nature_heal_config]
 			#Nature Heal
 			#Range: 0.0 ~ 1000000.0
-			nature_heal = 100.0
+			nature_heal = 50.0
 
 		[mobs.ignis.ignore_mobgriefing_config]
 			#Ignore MobGriefing
@@ -568,7 +568,7 @@
 		[mobs.harbinger.combat_config]
 			#Scale mob health by this value
 			#Range: 0.1 ~ 1000000.0
-			health_multiplier = 7.0
+			health_multiplier = 8.0
 			#Scale mob attack damage by this value
 			#Range: 0.1 ~ 1000000.0
 			attack_multiplier = 3.0
@@ -576,10 +576,10 @@
 		[mobs.harbinger.cap_config]
 			#Damage Cap
 			#Range: 0.0 ~ 1000000.0
-			damage_cap = 200.0
+			damage_cap = 400.0
 			#Dps Cap
 			#Range: 1.0 ~ 1000000.0
-			dps_cap = 50.0
+			dps_cap = 100.0
 			#DPS Limit Time
 			#Range: 1 ~ 100
 			dps_limit_time = 20
@@ -590,7 +590,7 @@
 		[mobs.harbinger.nature_heal_config]
 			#Nature Heal
 			#Range: 0.0 ~ 1000000.0
-			nature_heal = 100.0
+			nature_heal = 50.0
 
 		[mobs.harbinger.respawner_config]
 			#Respawner
@@ -606,10 +606,10 @@
 		range_cap = 20.0
 		#Wither Homing Missile
 		#Range: 0.0 ~ 1000000.0
-		homing_missile = 15.0
+		homing_missile = 25.0
 		#Death Laser Damage
 		#Range: 0.0 ~ 1000000.0
-		death_laser_damage = 15.0
+		death_laser_damage = 25.0
 		#Death Laser HP Damage
 		#Range: 0.0 ~ 1.0
 		death_laser_hp_damage = 0.05
@@ -620,7 +620,7 @@
 			health_multiplier = 6.0
 			#Scale mob attack damage by this value
 			#Range: 0.1 ~ 1000000.0
-			attack_multiplier = 2.5
+			attack_multiplier = 3.5
 
 	[mobs.amethyst_crab]
 		#Earth Quake Damage
@@ -683,10 +683,10 @@
 		[mobs.leviathan.cap_config]
 			#Damage Cap
 			#Range: 0.0 ~ 1000000.0
-			damage_cap = 200.0
+			damage_cap = 400.0
 			#Dps Cap
 			#Range: 1.0 ~ 1000000.0
-			dps_cap = 50.0
+			dps_cap = 100.0
 			#DPS Limit Time
 			#Range: 1 ~ 100
 			dps_limit_time = 20
@@ -697,7 +697,7 @@
 		[mobs.leviathan.nature_heal_config]
 			#Nature Heal
 			#Range: 0.0 ~ 1000000.0
-			nature_heal = 100.0
+			nature_heal = 50.0
 
 	[mobs.baby_leviathan]
 
@@ -718,7 +718,7 @@
 		hp_damage = 0.15
 		#Stomp Hp Damage
 		#Range: 0.0 ~ 1.0
-		stomp_hp_damage = 0.06
+		stomp_hp_damage = 0.1
 		#EarthQuake Damage
 		#Range: 0.0 ~ 1000000.0
 		earthquake_damage = 33.0
@@ -729,18 +729,18 @@
 		[mobs.ancient_remnant.combat_config]
 			#Scale mob health by this value
 			#Range: 0.1 ~ 1000000.0
-			health_multiplier = 7.0
+			health_multiplier = 8.0
 			#Scale mob attack damage by this value
 			#Range: 0.1 ~ 1000000.0
-			attack_multiplier = 4.0
+			attack_multiplier = 4.5
 
 		[mobs.ancient_remnant.cap_config]
 			#Damage Cap
 			#Range: 0.0 ~ 1000000.0
-			damage_cap = 200.0
+			damage_cap = 400.0
 			#Dps Cap
 			#Range: 1.0 ~ 1000000.0
-			dps_cap = 50.0
+			dps_cap = 100.0
 			#DPS Limit Time
 			#Range: 1 ~ 100
 			dps_limit_time = 20
@@ -751,7 +751,7 @@
 		[mobs.ancient_remnant.nature_heal_config]
 			#Nature Heal
 			#Range: 0.0 ~ 1000000.0
-			nature_heal = 100.0
+			nature_heal = 50.0
 
 		[mobs.ancient_remnant.respawner_config]
 			#Respawner
@@ -781,10 +781,10 @@
 		[mobs.kobolediator.combat_config]
 			#Scale mob health by this value
 			#Range: 0.1 ~ 1000000.0
-			health_multiplier = 6.0
+			health_multiplier = 7.0
 			#Scale mob attack damage by this value
 			#Range: 0.1 ~ 1000000.0
-			attack_multiplier = 2.5
+			attack_multiplier = 3.5
 
 		[mobs.kobolediator.ignore_mobgriefing_config]
 			#Ignore MobGriefing
@@ -801,10 +801,10 @@
 		[mobs.wadjet.combat_config]
 			#Scale mob health by this value
 			#Range: 0.1 ~ 1000000.0
-			health_multiplier = 6.0
+			health_multiplier = 7.0
 			#Scale mob attack damage by this value
 			#Range: 0.1 ~ 1000000.0
-			attack_multiplier = 2.5
+			attack_multiplier = 3.5
 
 	[mobs.maledictus]
 		#Phantom Halberd Damage
@@ -832,18 +832,18 @@
 		[mobs.maledictus.combat_config]
 			#Scale mob health by this value
 			#Range: 0.1 ~ 1000000.0
-			health_multiplier = 7.0
+			health_multiplier = 8.0
 			#Scale mob attack damage by this value
 			#Range: 0.1 ~ 1000000.0
-			attack_multiplier = 3.0
+			attack_multiplier = 4.0
 
 		[mobs.maledictus.cap_config]
 			#Damage Cap
 			#Range: 0.0 ~ 1000000.0
-			damage_cap = 200.0
+			damage_cap = 400.0
 			#Dps Cap
 			#Range: 1.0 ~ 1000000.0
-			dps_cap = 50.0
+			dps_cap = 100.0
 			#DPS Limit Time
 			#Range: 1 ~ 100
 			dps_limit_time = 20
@@ -854,7 +854,7 @@
 		[mobs.maledictus.nature_heal_config]
 			#Nature Heal
 			#Range: 0.0 ~ 1000000.0
-			nature_heal = 100.0
+			nature_heal = 25.0
 
 		[mobs.maledictus.ignore_mobgriefing_config]
 			#Ignore MobGriefing
@@ -876,7 +876,7 @@
 		[mobs.aptrgangr.nature_heal_config]
 			#Nature Heal
 			#Range: 0.0 ~ 1000000.0
-			nature_heal = 100.0
+			nature_heal = 50.0
 
 	[mobs.scylla]
 		#Spear Damage
@@ -909,7 +909,7 @@
 		[mobs.scylla.combat_config]
 			#Scale mob health by this value
 			#Range: 0.1 ~ 1000000.0
-			health_multiplier = 10.0
+			health_multiplier = 11.0
 			#Scale mob attack damage by this value
 			#Range: 0.1 ~ 1000000.0
 			attack_multiplier = 5.0
@@ -917,10 +917,10 @@
 		[mobs.scylla.cap_config]
 			#Damage Cap
 			#Range: 0.0 ~ 1000000.0
-			damage_cap = 200.0
+			damage_cap = 400.0
 			#Dps Cap
 			#Range: 1.0 ~ 1000000.0
-			dps_cap = 50.0
+			dps_cap = 100.0
 			#DPS Limit Time
 			#Range: 1 ~ 100
 			dps_limit_time = 20
@@ -935,7 +935,7 @@
 		[mobs.scylla.nature_heal_config]
 			#Nature Heal
 			#Range: 0.0 ~ 1000000.0
-			nature_heal = 100.0
+			nature_heal = 50.0
 
 		[mobs.scylla.ignore_mobgriefing_config]
 			#Ignore MobGriefing
@@ -954,10 +954,10 @@
 		[mobs.clawdian.cap_config]
 			#Damage Cap
 			#Range: 0.0 ~ 1000000.0
-			damage_cap = 200.0
+			damage_cap = 400.0
 			#Dps Cap
 			#Range: 1.0 ~ 1000000.0
-			dps_cap = 50.0
+			dps_cap = 100.0
 			#DPS Limit Time
 			#Range: 1 ~ 100
 			dps_limit_time = 20
@@ -972,7 +972,7 @@
 		[mobs.clawdian.nature_heal_config]
 			#Nature Heal
 			#Range: 0.0 ~ 1000000.0
-			nature_heal = 100.0
+			nature_heal = 50.0
 
 [blocks]
 

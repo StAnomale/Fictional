@@ -1,0 +1,29 @@
+{
+  "armorSetName": "withered_scythe",
+  "performanceMode": true,
+  "offHand": {
+    "itemKey": "legendary_monsters:withered_scythe",
+    "mixAndMatch": [
+      ],
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "forge:entity_reach",
+      "value": 0.4,
+      "modifierUUID": "485ee434-278b-4631-8388-7a12e77b066d",
+      "attributeOperation": 1,
+      "interactionType": "self"
+    },
+    {
+      "type": "attribute",
+      "name": "obscure_api:magic_damage",
+      "value": 0.4,
+      "modifierUUID": "42c6af21-6a65-47fb-8969-54dd911647ca",
+      "attributeOperation": 2,
+      "interactionType": "self"
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

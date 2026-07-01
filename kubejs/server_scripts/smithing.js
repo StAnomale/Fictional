@@ -15,8 +15,9 @@ event.smithing(Item.of('minecraft:enchanted_book').enchant('minecraft:unbreaking
 event.smithing(Item.of('twilightforest:mazebreaker_pickaxe', '{Damage:0}').enchant('minecraft:efficiency', 4).enchant('minecraft:unbreaking', 3).enchant('minecraft:fortune', 2),'better_minoshroomtaur:maze_diamond','twilightforest:ironwood_block','better_minoshroomtaur:maze_diamond')
 
 //锻造模板
-event.smithing('2x enderitemod:enderite_upgrade_smithing_template','minecraft:netherite_upgrade_smithing_template','minecraft:netherite_ingot','quark:dragon_scale')
+event.smithing('2x enderitemod:enderite_upgrade_smithing_template','legendary_monsters:enderitium_upgrade_smithing_template','minecraft:netherite_ingot','quark:dragon_scale')
 event.smithing('2x minecraft:netherite_upgrade_smithing_template','#minecraft:trim_templates','minecraft:diamond','minecraft:nether_star')
+event.smithing('legendary_monsters:enderitium_upgrade_smithing_template','#minecraft:trim_templates','legendary_monsters:enderitium_ingot','legendary_monsters:eye_crystal')
 
 //暮色森林弓转换
 event.smithing('twilightforest:seeker_bow','minecraft:echo_shard','twilightforest:triple_bow','minecraft:echo_shard')
@@ -61,6 +62,53 @@ event.smithing('cataclysm:cursium_chestplate','cataclysm:cursium_upgrade_smithin
 event.smithing('cataclysm:cursium_chestplate','cataclysm:cursium_upgrade_smithing_template','enderitemod:enderite_elytra','cataclysm:cursium_ingot')
 event.smithing('cataclysm:cursium_leggings','cataclysm:cursium_upgrade_smithing_template','enderitemod:enderite_leggings','cataclysm:cursium_ingot')
 event.smithing('cataclysm:cursium_boots','cataclysm:cursium_upgrade_smithing_template','enderitemod:enderite_boots','cataclysm:cursium_ingot')
+
+//湮灭升级
+event.remove({output:'legendary_monsters:annihilator_helmet'});
+event.remove({output:'legendary_monsters:annihilator_chestplate'});
+event.remove({output:'legendary_monsters:annihilator_leggings'});
+event.remove({output:'legendary_monsters:annihilator_boots'});
+event.smithing('legendary_monsters:annihilator_helmet','legendary_monsters:annihilator_upgrade_smithing_template','enderitemod:enderite_helmet','legendary_monsters:portal_shard')
+event.smithing('legendary_monsters:annihilator_chestplate','legendary_monsters:annihilator_upgrade_smithing_template','enderitemod:enderite_chestplate','legendary_monsters:portal_shard')
+event.smithing('legendary_monsters:annihilator_leggings','legendary_monsters:annihilator_upgrade_smithing_template','enderitemod:enderite_leggings','legendary_monsters:portal_shard')
+event.smithing('legendary_monsters:annihilator_boots','legendary_monsters:annihilator_upgrade_smithing_template','enderitemod:enderite_boots','legendary_monsters:portal_shard')
+event.smithing('legendary_monsters:annihilator_helmet','legendary_monsters:annihilator_upgrade_smithing_template','advancednetherite:netherite_diamond_helmet','legendary_monsters:portal_shard')
+event.smithing('legendary_monsters:annihilator_chestplate','legendary_monsters:annihilator_upgrade_smithing_template','advancednetherite:netherite_diamond_chestplate','legendary_monsters:portal_shard')
+event.smithing('legendary_monsters:annihilator_leggings','legendary_monsters:annihilator_upgrade_smithing_template','advancednetherite:netherite_diamond_leggings','legendary_monsters:portal_shard')
+event.smithing('legendary_monsters:annihilator_boots','legendary_monsters:annihilator_upgrade_smithing_template','advancednetherite:netherite_diamond_boots','legendary_monsters:portal_shard')
+
+
+//终末金属系列末影合金升级
+event.remove({output:'enderitemod:enderite_sword'});
+event.remove({output:'enderitemod:enderite_axe'});
+event.remove({output:'enderitemod:enderite_pickaxe'});
+event.remove({output:'enderitemod:enderite_shovel'});
+event.remove({output:'enderitemod:enderite_hoe'});
+event.smithing('enderitemod:enderite_sword','enderitemod:enderite_upgrade_smithing_template','legendary_monsters:enderitium_sword','enderitemod:enderite_ingot')
+event.smithing('enderitemod:enderite_axe','enderitemod:enderite_upgrade_smithing_template','legendary_monsters:enderitium_axe','enderitemod:enderite_ingot')
+event.smithing('enderitemod:enderite_pickaxe','enderitemod:enderite_upgrade_smithing_template','legendary_monsters:enderitium_pickaxe','enderitemod:enderite_ingot')
+event.smithing('enderitemod:enderite_shovel','enderitemod:enderite_upgrade_smithing_template','legendary_monsters:enderitium_shovel','enderitemod:enderite_ingot')
+event.smithing('enderitemod:enderite_hoe','enderitemod:enderite_upgrade_smithing_template','legendary_monsters:enderitium_hoe','enderitemod:enderite_ingot')
+
+event.remove({output:'legendary_monsters:enderitium_sword'});
+event.remove({output:'legendary_monsters:enderitium_axe'});
+event.remove({output:'legendary_monsters:enderitium_pickaxe'});
+event.remove({output:'legendary_monsters:enderitium_shovel'});
+event.remove({output:'legendary_monsters:enderitium_hoe'});
+event.smithing('legendary_monsters:enderitium_sword','legendary_monsters:enderitium_upgrade_smithing_template','minecraft:netherite_sword','legendary_monsters:enderitium_ingot')
+event.smithing('legendary_monsters:enderitium_axe','legendary_monsters:enderitium_upgrade_smithing_template','minecraft:netherite_axe','legendary_monsters:enderitium_ingot')
+event.smithing('legendary_monsters:enderitium_pickaxe','legendary_monsters:enderitium_upgrade_smithing_template','minecraft:netherite_pickaxe','legendary_monsters:enderitium_ingot')
+event.smithing('legendary_monsters:enderitium_shovel','legendary_monsters:enderitium_upgrade_smithing_template','minecraft:netherite_shovel','legendary_monsters:enderitium_ingot')
+event.smithing('legendary_monsters:enderitium_hoe','legendary_monsters:enderitium_upgrade_smithing_template','minecraft:netherite_hoe','legendary_monsters:enderitium_ingot')
+
+event.remove({output:'meetyourfight:twilights_thorn'});
+event.remove({output:'legendary_monsters:chorus_blade'});
+event.smithing('legendary_monsters:chorus_blade','legendary_monsters:enderitium_upgrade_smithing_template','legendary_monsters:enderitium_sword','legendary_monsters:chorus_crystal')
+event.smithing('meetyourfight:twilights_thorn','enderitemod:enderite_upgrade_smithing_template','legendary_monsters:chorus_blade','meetyourfight:violet_bloom')
+
+event.smithing('aether:valkyrie_cape','aether_treasure_reforging:valkyrie_upgrade_smithing_template','aether:swet_cape','aether_treasure_reforging:valkyrum_ingot')
+event.smithing('aether:valkyrie_cape','aether_treasure_reforging:valkyrie_upgrade_smithing_template','aether:agility_cape','aether_treasure_reforging:valkyrum_ingot')
+
 
 //沙尘锤
 event.remove({output:'radiation_zone_reborn:dustorm_hammer'});

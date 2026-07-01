@@ -10,6 +10,13 @@
   "fullSetBonuses": [
     {
       "type": "effect",
+      "name": "legendary_monsters:stun",
+      "interactionType": "immunity",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "effect",
       "name": "minecraft:resistance",
       "interactionType": "self",
       "hideBonusDescription": false,

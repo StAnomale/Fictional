@@ -1,0 +1,22 @@
+{
+  "itemGroup.scout.itemgroup": "侦察",
+  "item.scout.tanned_leather": "鞣制皮革",
+  "item.scout.satchel_strap": "挎包背带",
+  "item.scout.satchel": "挎包",
+  "item.scout.upgraded_satchel": "升级挎包",
+  "item.scout.pouch": "腰包",
+  "item.scout.upgraded_pouch": "升级腰包",
+  "trinkets.slot.chest.back": "背部",
+  "trinkets.slot.legs.pouch": "腰包",
+  "tag.item.trinkets.chest.back": "背部",
+  "tag.item.trinkets.legs.pouch": "腰包",
+  "curios.identifier.back": "背部",
+  "curios.identifier.legs": "腿部",
+  "curios.slot.scout_satchel": "侦察挎包",
+  "curios.slot.scout_pouch": "侦察腰包",
+  "slot.curios.scout_satchel": "侦察挎包",
+  "slot.curios.scout_pouch": "侦察腰包",
+  "curios.identifier.scout_satchel": "侦察挎包",
+  "curios.identifier.scout_pouch": "侦察腰包",
+  "tooltip.scout.slots": "可容纳 %d 个物品"
+}

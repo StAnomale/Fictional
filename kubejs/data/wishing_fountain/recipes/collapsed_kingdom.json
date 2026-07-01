@@ -1,0 +1,19 @@
+{
+  "type": "wishing_fountain:wishing_fountain_recipe",
+  "wish_type": "structure",
+  "target": "legendary_monsters:collapsed_kingdom",
+  "ingredients": [
+    {
+      "item": "legendary_monsters:eye_of_ghost"
+    },
+    {
+      "item": "royalvariations:royal_ender_pearl"
+    },
+    {
+      "item": "waystones:warp_scroll"
+    },
+    {
+      "item": "obscure_api:astral_dust"
+    }
+  ]
+}

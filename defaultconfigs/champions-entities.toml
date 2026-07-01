@@ -25,6 +25,54 @@
 	affixPermission = "BLACKLIST"
 
 [[entities]]
+	#潜影拟态者
+	entity = "legendary_monsters:shulker_mimic"
+	minTier = 3
+	maxTier = 4
+	presetAffixes = ["lively"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	#末影遣使
+	entity = "legendary_monsters:endersent"
+	minTier = 3
+	maxTier = 4
+	presetAffixes = ["lively"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	#湮灭猎影
+	entity = "legendary_monsters:annihilation_pursuer"
+	minTier = 3
+	maxTier = 4
+	presetAffixes = ["lively"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	#流焰重炮
+	entity = "legendary_monsters:flame_drifter"
+	minTier = 1
+	maxTier = 4
+	presetAffixes = ["lively"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	#荒古守卫者
+	entity = "legendary_monsters:ancient_guardian"
+	minTier = 2
+	maxTier = 2
+	presetAffixes = ["lively"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	#暗伏者
+	entity = "legendary_monsters:ambusher"
+	minTier = 1
+	maxTier = 1
+	presetAffixes = ["lively"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
 	#飓旋
 	entity = "legendary_monsters:hovering_hurricane"
 	minTier = 1
@@ -33,9 +81,33 @@
 	affixPermission = "BLACKLIST"
 
 [[entities]]
+	#凋零恶煞
+	entity = "legendary_monsters:withered_abomination"
+	minTier = 2
+	maxTier = 2
+	presetAffixes = ["lively"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
 	#云筑魔像
 	entity = "legendary_monsters:cloud_golem"
 	minTier = 4
+	maxTier = 4
+	presetAffixes = ["lively"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	#复生骑士
+	entity = "legendary_monsters:resurrected_knight"
+	minTier = 3
+	maxTier = 4
+	presetAffixes = ["lively"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	#无头骑士
+	entity = "legendary_monsters:beheaded_knight"
+	minTier = 3
 	maxTier = 4
 	presetAffixes = ["lively"]
 	affixPermission = "BLACKLIST"
@@ -50,7 +122,7 @@
 
 [[entities]]
 	#湮灭构造体
-	entity = "legendary_monsters:the_obliterator "
+	entity = "legendary_monsters:the_obliterator"
 	minTier = 4
 	maxTier = 4
 	presetAffixes = ["lively"]
@@ -60,7 +132,7 @@
 	#幽灵死灵法师
 	entity = "goetyawaken:wraith_necromancer"
 	minTier = 0
-	maxTier = 1
+	maxTier = 0
 	presetAffixes = ["lively"]
 	affixPermission = "BLACKLIST"
 	
@@ -68,7 +140,7 @@
 	#焦骸死灵法师
 	entity = "goetyawaken:parched_necromancer"
 	minTier = 0
-	maxTier = 1
+	maxTier = 0
 	presetAffixes = ["lively"]
 	affixPermission = "BLACKLIST"
 	
@@ -100,7 +172,7 @@
 	#红石巨兽
 	entity = "goety:hostile_redstone_monstrosity"
 	minTier = 0
-	maxTier = 1
+	maxTier = 0
 	presetAffixes = ["lively"]
 	affixPermission = "BLACKLIST"
 	
@@ -108,7 +180,7 @@
 	#末影谴使
 	entity = "goety:endersent"
 	minTier = 0
-	maxTier = 1
+	maxTier = 0
 	presetAffixes = ["lively"]
 	affixPermission = "BLACKLIST"
 	
@@ -140,7 +212,7 @@
 	#骨头领主
 	entity = "goety:bone_lord"
 	minTier = 0
-	maxTier = 1
+	maxTier = 0
 	presetAffixes = ["lively"]
 	affixPermission = "BLACKLIST"
 	
@@ -148,7 +220,7 @@
 	#骷髅领主
 	entity = "goety:skull_lord"
 	minTier = 0
-	maxTier = 1
+	maxTier = 0
 	presetAffixes = ["lively"]
 	affixPermission = "BLACKLIST"
 	
@@ -156,7 +228,7 @@
 	#灾厄教父
 	entity = "goety:minister"
 	minTier = 0
-	maxTier = 1
+	maxTier = 0
 	presetAffixes = ["lively"]
 	affixPermission = "BLACKLIST"
 	
@@ -164,7 +236,7 @@
 	#孤魂尸鬼
 	entity = "goety:wight"
 	minTier = 0
-	maxTier = 1
+	maxTier = 0
 	presetAffixes = ["lively"]
 	affixPermission = "BLACKLIST"
 	
@@ -172,7 +244,7 @@
 	#凋零死灵法师
 	entity = "goety:wither_necromancer"
 	minTier = 0
-	maxTier = 1
+	maxTier = 0
 	presetAffixes = ["lively"]
 	affixPermission = "BLACKLIST"
 	
@@ -180,7 +252,23 @@
 	#巫婆
 	entity = "goety:crone"
 	minTier = 0
-	maxTier = 1
+	maxTier = 0
+	presetAffixes = ["lively"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	#堡垒队长
+	entity = "goetyawaken:hostile_rampart_captain"
+	minTier = 0
+	maxTier = 0
+	presetAffixes = ["lively"]
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	#巨型恶魂
+	entity = "goetyawaken:hostile_giant_ghast"
+	minTier = 0
+	maxTier = 0
 	presetAffixes = ["lively"]
 	affixPermission = "BLACKLIST"
 	
@@ -206,6 +294,7 @@
 	minTier = 2
 	maxTier = 3
 	presetAffixes = ["lively"]
+	affixList = ["molten"]
 	affixPermission = "BLACKLIST"
 	
 [[entities]]
@@ -577,8 +666,9 @@
 	#娜迦
 	entity = "twilightforest:naga"
 	minTier = 1
-	maxTier = 2
-	presetAffixes = ["lively", "Knocking"]
+	maxTier = 1
+	presetAffixes = []
+	affixList = ["lively"]
 	affixPermission = "BLACKLIST"
 
 [[entities]]
@@ -648,8 +738,8 @@
 [[entities]]
 	#冰雪女王
 	entity = "twilightforest:snow_queen"
-	minTier = 3
-	maxTier = 4
+	minTier = 2
+	maxTier = 3
 	presetAffixes = ["lively"]
 	affixPermission = "BLACKLIST"
 

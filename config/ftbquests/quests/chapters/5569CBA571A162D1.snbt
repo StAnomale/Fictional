@@ -1352,8 +1352,8 @@
 				}
 			]
 			title: "巫妖法杖"
-			x: -18.5d
-			y: 9.5d
+			x: -20.5d
+			y: 7.5d
 		}
 		{
 			description: [""]
@@ -1450,8 +1450,8 @@
 				}
 				type: "item"
 			}]
-			x: -17.5d
-			y: 9.5d
+			x: -21.5d
+			y: 14.5d
 		}
 		{
 			description: [""]
@@ -1994,7 +1994,7 @@
 				item: "gunswithoutroses:bullet_bag"
 				type: "item"
 			}]
-			x: -26.5d
+			x: -23.5d
 			y: 9.5d
 		}
 		{
@@ -2043,7 +2043,7 @@
 				type: "item"
 			}]
 			x: -25.5d
-			y: 9.5d
+			y: 10.5d
 		}
 		{
 			description: [""]
@@ -2059,7 +2059,7 @@
 				type: "item"
 			}]
 			x: -24.5d
-			y: 9.5d
+			y: 10.5d
 		}
 		{
 			description: [""]
@@ -2075,7 +2075,7 @@
 				type: "item"
 			}]
 			x: -25.5d
-			y: 11.5d
+			y: 12.5d
 		}
 		{
 			description: [""]
@@ -2091,7 +2091,7 @@
 				type: "item"
 			}]
 			x: -23.5d
-			y: 11.5d
+			y: 12.5d
 		}
 		{
 			description: [""]
@@ -2107,7 +2107,7 @@
 				type: "item"
 			}]
 			x: -27.5d
-			y: 12.5d
+			y: 13.5d
 		}
 		{
 			description: [""]
@@ -2123,7 +2123,7 @@
 				type: "item"
 			}]
 			x: -27.5d
-			y: 11.5d
+			y: 12.5d
 		}
 		{
 			description: [""]
@@ -2139,7 +2139,7 @@
 				type: "item"
 			}]
 			x: -24.5d
-			y: 11.5d
+			y: 12.5d
 		}
 		{
 			description: [""]
@@ -2155,7 +2155,7 @@
 				type: "item"
 			}]
 			x: -26.5d
-			y: 11.5d
+			y: 12.5d
 		}
 		{
 			description: [""]
@@ -2171,7 +2171,7 @@
 				type: "item"
 			}]
 			x: -27.5d
-			y: 10.5d
+			y: 11.5d
 		}
 		{
 			description: [""]
@@ -2187,7 +2187,7 @@
 				type: "item"
 			}]
 			x: -23.5d
-			y: 9.5d
+			y: 10.5d
 		}
 		{
 			description: [""]
@@ -2203,7 +2203,7 @@
 				type: "item"
 			}]
 			x: -26.5d
-			y: 10.5d
+			y: 11.5d
 		}
 		{
 			description: [""]
@@ -2219,7 +2219,7 @@
 				type: "item"
 			}]
 			x: -24.5d
-			y: 12.5d
+			y: 13.5d
 		}
 		{
 			description: [""]
@@ -2235,7 +2235,7 @@
 				type: "item"
 			}]
 			x: -23.5d
-			y: 12.5d
+			y: 13.5d
 		}
 		{
 			description: [""]
@@ -2251,7 +2251,7 @@
 				type: "item"
 			}]
 			x: -25.5d
-			y: 12.5d
+			y: 13.5d
 		}
 		{
 			description: [""]
@@ -2267,7 +2267,7 @@
 				type: "item"
 			}]
 			x: -26.5d
-			y: 12.5d
+			y: 13.5d
 		}
 		{
 			description: [""]
@@ -2448,13 +2448,7 @@
 			y: 5.5d
 		}
 		{
-			description: [
-				"可作为饰品佩戴。使用&d回响碎片&r制作而成，会指向你上一次死亡地点。回响碎片能为工具施加 &d经验修补&r 附魔。"
-				""
-				"古城位于主世界地下的&n幽匿&r群系。可通过蜜蜂领域的“群蜂之息”任务搜寻位置。这里不会生成普通生物，多次震动触发 &b幽匿尖啸体&r 召唤监守者，杀死掉落&d回响碎片&r。"
-				""
-				"你可用锄头快速破坏幽匿方块，并获得一定&a经验值&r。破坏的行为同样会产生振动，使用&n羊毛&r可以隔绝振动。"
-			]
+			description: ["可作为饰品佩戴。现在击败监守者也能获取回响碎片。回响碎片能为工具施加 &d经验修补&r 附魔。"]
 			disable_toast: true
 			id: "645F30F7701E6E3E"
 			shape: "square"
@@ -2673,6 +2667,11 @@
 			description: ["可作为饰品佩戴。佩戴时，将会为你&e免除致命伤害&r，并获得生命恢复效果。能够使用不死图腾制作。"]
 			disable_toast: true
 			id: "45FC1A47C5648550"
+			rewards: [{
+				id: "69FE158C34E21DE9"
+				type: "xp"
+				xp: 100
+			}]
 			shape: "square"
 			tasks: [{
 				disable_toast: true
@@ -3267,8 +3266,8 @@
 				item: "quark:diamond_heart"
 				type: "item"
 			}]
-			x: 14.5d
-			y: 3.5d
+			x: -9.5d
+			y: 30.5d
 		}
 		{
 			description: ["可作为饰品佩戴。可以制作迷宫地图和拆解台。作为饰品佩戴时，能够大幅度提升&d护甲穿透&r的能力，能够对护甲值较高的BOSS造成有效伤害。"]
@@ -5000,7 +4999,7 @@
 				type: "item"
 			}]
 			x: 14.5d
-			y: 4.5d
+			y: 3.5d
 		}
 		{
 			description: [""]
@@ -5245,8 +5244,8 @@
 					type: "item"
 				}
 			]
-			x: -30.5d
-			y: 5.5d
+			x: -29.5d
+			y: 3.5d
 		}
 		{
 			description: [""]
@@ -5341,7 +5340,7 @@
 			]
 			title: "骷髅突变体骨铠"
 			x: -31.5d
-			y: 5.5d
+			y: 4.5d
 		}
 		{
 			description: ["可作为饰品佩戴。"]
@@ -5388,8 +5387,8 @@
 					type: "item"
 				}
 			]
-			x: -32.5d
-			y: 10.5d
+			x: -30.5d
+			y: 8.5d
 		}
 		{
 			description: [""]
@@ -5413,238 +5412,6 @@
 			title: "图鉴：防具"
 			x: -31.5d
 			y: 1.5d
-		}
-		{
-			description: [""]
-			disable_toast: true
-			id: "209F48F8F821830A"
-			shape: "square"
-			tasks: [
-				{
-					disable_toast: true
-					id: "418CD23E9E52FEC6"
-					item: {
-						Count: 1
-						id: "minecraft:leather_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					disable_toast: true
-					id: "5E45044E568A61C4"
-					item: {
-						Count: 1
-						id: "minecraft:leather_chestplate"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					disable_toast: true
-					id: "7B7288739ECC9A4D"
-					item: {
-						Count: 1
-						id: "minecraft:leather_leggings"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					disable_toast: true
-					id: "3DA38552B8629E47"
-					item: {
-						Count: 1
-						id: "minecraft:leather_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			x: -33.5d
-			y: 3.5d
-		}
-		{
-			description: [""]
-			disable_toast: true
-			id: "58D449486100B8B8"
-			shape: "square"
-			tasks: [
-				{
-					disable_toast: true
-					id: "44BD7A051D98882D"
-					item: {
-						Count: 1
-						id: "minecraft:iron_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					disable_toast: true
-					id: "03378A10D9F1EB40"
-					item: {
-						Count: 1
-						id: "minecraft:iron_chestplate"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					disable_toast: true
-					id: "663E58155BF15CC1"
-					item: {
-						Count: 1
-						id: "minecraft:iron_leggings"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					disable_toast: true
-					id: "5C7029EBF2EA5F66"
-					item: {
-						Count: 1
-						id: "minecraft:iron_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			x: -32.5d
-			y: 3.5d
-		}
-		{
-			description: [""]
-			disable_toast: true
-			id: "0173D82921F233B8"
-			shape: "square"
-			tasks: [
-				{
-					disable_toast: true
-					id: "78176F958CA64905"
-					item: {
-						Count: 1
-						id: "minecraft:chainmail_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					disable_toast: true
-					id: "3ACF84FCC180DD2E"
-					item: {
-						Count: 1
-						id: "minecraft:chainmail_chestplate"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					disable_toast: true
-					id: "68F69E029A565D12"
-					item: {
-						Count: 1
-						id: "minecraft:chainmail_leggings"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					disable_toast: true
-					id: "1AB0F22F017BC5DF"
-					item: {
-						Count: 1
-						id: "minecraft:chainmail_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			x: -30.5d
-			y: 3.5d
-		}
-		{
-			description: [""]
-			disable_toast: true
-			id: "4555A5D4E48826B6"
-			shape: "square"
-			tasks: [
-				{
-					disable_toast: true
-					id: "57BDE13293EFC484"
-					item: {
-						Count: 1
-						id: "minecraft:golden_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					disable_toast: true
-					id: "6B30BF6DE9240011"
-					item: {
-						Count: 1
-						id: "minecraft:golden_chestplate"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					disable_toast: true
-					id: "743E2BF8C3839B78"
-					item: {
-						Count: 1
-						id: "minecraft:golden_leggings"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					disable_toast: true
-					id: "422F55D482EAF17C"
-					item: {
-						Count: 1
-						id: "minecraft:golden_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			x: -31.5d
-			y: 3.5d
 		}
 		{
 			description: [""]
@@ -5701,7 +5468,7 @@
 					type: "item"
 				}
 			]
-			x: -29.5d
+			x: -33.5d
 			y: 3.5d
 		}
 		{
@@ -5759,182 +5526,8 @@
 					type: "item"
 				}
 			]
-			x: -33.5d
-			y: 4.5d
-		}
-		{
-			description: [""]
-			disable_toast: true
-			id: "5C2A5458CDC199F6"
-			shape: "square"
-			tasks: [
-				{
-					disable_toast: true
-					id: "2EB68B884E361AFC"
-					item: {
-						Count: 1
-						id: "advancednetherite:netherite_iron_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					disable_toast: true
-					id: "2F77E8739D006733"
-					item: {
-						Count: 1
-						id: "advancednetherite:netherite_iron_chestplate"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					disable_toast: true
-					id: "7A25318E5CEB5393"
-					item: {
-						Count: 1
-						id: "advancednetherite:netherite_iron_leggings"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					disable_toast: true
-					id: "42ECB38CC81E9133"
-					item: {
-						Count: 1
-						id: "advancednetherite:netherite_iron_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
 			x: -32.5d
-			y: 4.5d
-		}
-		{
-			description: [""]
-			disable_toast: true
-			id: "4D93A045E9871A15"
-			shape: "square"
-			tasks: [
-				{
-					disable_toast: true
-					id: "0ED8184CB1C3206E"
-					item: {
-						Count: 1
-						id: "advancednetherite:netherite_gold_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					disable_toast: true
-					id: "760F193352C7C0BE"
-					item: {
-						Count: 1
-						id: "advancednetherite:netherite_gold_chestplate"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					disable_toast: true
-					id: "63F9126F7D4510E5"
-					item: {
-						Count: 1
-						id: "advancednetherite:netherite_gold_leggings"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					disable_toast: true
-					id: "376C76DC3039644E"
-					item: {
-						Count: 1
-						id: "advancednetherite:netherite_gold_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			x: -31.5d
-			y: 4.5d
-		}
-		{
-			description: [""]
-			disable_toast: true
-			id: "0D0F0BCF0EC74F57"
-			shape: "square"
-			tasks: [
-				{
-					disable_toast: true
-					id: "033EE12266C7E153"
-					item: {
-						Count: 1
-						id: "advancednetherite:netherite_emerald_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					disable_toast: true
-					id: "52BFA0B7685B6567"
-					item: {
-						Count: 1
-						id: "advancednetherite:netherite_emerald_chestplate"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					disable_toast: true
-					id: "1D28F5DAD671A6B4"
-					item: {
-						Count: 1
-						id: "advancednetherite:netherite_emerald_leggings"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					disable_toast: true
-					id: "1A9BD21ABA922813"
-					item: {
-						Count: 1
-						id: "advancednetherite:netherite_emerald_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			x: -30.5d
-			y: 4.5d
+			y: 3.5d
 		}
 		{
 			description: [""]
@@ -5991,8 +5584,8 @@
 					type: "item"
 				}
 			]
-			x: -29.5d
-			y: 4.5d
+			x: -31.5d
+			y: 3.5d
 		}
 		{
 			description: ["具有虚空漂浮的特性。末影合金鞘翅胸甲需要在&n工作台&r中使用末影合金胸甲和鞘翅合成获取。"]
@@ -6062,156 +5655,8 @@
 				}
 			]
 			title: "末影合金装备"
-			x: -29.5d
-			y: 5.5d
-		}
-		{
-			description: [""]
-			disable_toast: true
-			id: "1403B823F379D392"
-			shape: "square"
-			tasks: [
-				{
-					disable_toast: true
-					id: "429509B2E2BD9C95"
-					item: {
-						Count: 1
-						id: "twilightforest:ironwood_helmet"
-						tag: {
-							Damage: 0
-							Enchantments: [{
-								id: "minecraft:aqua_affinity"
-								lvl: 1s
-							}]
-						}
-					}
-					type: "item"
-				}
-				{
-					disable_toast: true
-					id: "31DBB473F53BC0BB"
-					item: {
-						Count: 1
-						id: "twilightforest:ironwood_chestplate"
-						tag: {
-							Damage: 0
-							Enchantments: [{
-								id: "minecraft:protection"
-								lvl: 1s
-							}]
-						}
-					}
-					type: "item"
-				}
-				{
-					disable_toast: true
-					id: "69F8557F1B39CE32"
-					item: {
-						Count: 1
-						id: "twilightforest:ironwood_leggings"
-						tag: {
-							Damage: 0
-							Enchantments: [{
-								id: "minecraft:protection"
-								lvl: 1s
-							}]
-						}
-					}
-					type: "item"
-				}
-				{
-					disable_toast: true
-					id: "1F7D5D868C96A0E7"
-					item: {
-						Count: 1
-						id: "twilightforest:ironwood_boots"
-						tag: {
-							Damage: 0
-							Enchantments: [{
-								id: "minecraft:feather_falling"
-								lvl: 1s
-							}]
-						}
-					}
-					type: "item"
-				}
-			]
-			x: -33.5d
-			y: 6.5d
-		}
-		{
-			description: [""]
-			disable_toast: true
-			id: "78AF8608C8380B3D"
-			shape: "square"
-			tasks: [
-				{
-					disable_toast: true
-					id: "2812254A56CFFBD6"
-					item: {
-						Count: 1
-						id: "twilightforest:steeleaf_helmet"
-						tag: {
-							Damage: 0
-							Enchantments: [{
-								id: "minecraft:projectile_protection"
-								lvl: 2s
-							}]
-						}
-					}
-					type: "item"
-				}
-				{
-					disable_toast: true
-					id: "0FBFB370D37DBC36"
-					item: {
-						Count: 1
-						id: "twilightforest:steeleaf_chestplate"
-						tag: {
-							Damage: 0
-							Enchantments: [{
-								id: "minecraft:blast_protection"
-								lvl: 2s
-							}]
-						}
-					}
-					type: "item"
-				}
-				{
-					disable_toast: true
-					id: "5708111AA81ABC66"
-					item: {
-						Count: 1
-						id: "twilightforest:steeleaf_leggings"
-						tag: {
-							Damage: 0
-							Enchantments: [{
-								id: "minecraft:fire_protection"
-								lvl: 2s
-							}]
-						}
-					}
-					type: "item"
-				}
-				{
-					disable_toast: true
-					id: "12B637AD37D3C26B"
-					item: {
-						Count: 1
-						id: "twilightforest:steeleaf_boots"
-						tag: {
-							Damage: 0
-							Enchantments: [{
-								id: "minecraft:feather_falling"
-								lvl: 2s
-							}]
-						}
-					}
-					type: "item"
-				}
-			]
-			x: -32.5d
-			y: 6.5d
+			x: -30.5d
+			y: 3.5d
 		}
 		{
 			description: [""]
@@ -6252,8 +5697,8 @@
 					type: "item"
 				}
 			]
-			x: -31.5d
-			y: 6.5d
+			x: -29.5d
+			y: 4.5d
 		}
 		{
 			description: [""]
@@ -6310,8 +5755,8 @@
 					type: "item"
 				}
 			]
-			x: -33.5d
-			y: 7.5d
+			x: -31.5d
+			y: 5.5d
 		}
 		{
 			description: [""]
@@ -6344,8 +5789,8 @@
 					type: "item"
 				}
 			]
-			x: -32.5d
-			y: 7.5d
+			x: -30.5d
+			y: 5.5d
 		}
 		{
 			description: [""]
@@ -6402,8 +5847,8 @@
 					type: "item"
 				}
 			]
-			x: -30.5d
-			y: 6.5d
+			x: -33.5d
+			y: 5.5d
 		}
 		{
 			description: [""]
@@ -6482,8 +5927,8 @@
 					type: "item"
 				}
 			]
-			x: -29.5d
-			y: 6.5d
+			x: -32.5d
+			y: 5.5d
 		}
 		{
 			description: [""]
@@ -6540,8 +5985,8 @@
 					type: "item"
 				}
 			]
-			x: -31.5d
-			y: 7.5d
+			x: -29.5d
+			y: 5.5d
 		}
 		{
 			description: [""]
@@ -6600,7 +6045,7 @@
 				}
 			]
 			x: -32.5d
-			y: 5.5d
+			y: 4.5d
 		}
 		{
 			description: [""]
@@ -6659,7 +6104,7 @@
 				}
 			]
 			x: -33.5d
-			y: 5.5d
+			y: 4.5d
 		}
 		{
 			description: [""]
@@ -6716,8 +6161,8 @@
 					type: "item"
 				}
 			]
-			x: -33.5d
-			y: 8.5d
+			x: -32.5d
+			y: 6.5d
 		}
 		{
 			description: [""]
@@ -6774,8 +6219,8 @@
 					type: "item"
 				}
 			]
-			x: -32.5d
-			y: 8.5d
+			x: -31.5d
+			y: 6.5d
 		}
 		{
 			description: [""]
@@ -6832,8 +6277,8 @@
 					type: "item"
 				}
 			]
-			x: -30.5d
-			y: 9.5d
+			x: -29.5d
+			y: 6.5d
 		}
 		{
 			description: [""]
@@ -6890,8 +6335,8 @@
 					type: "item"
 				}
 			]
-			x: -31.5d
-			y: 8.5d
+			x: -30.5d
+			y: 6.5d
 		}
 		{
 			description: [""]
@@ -6948,8 +6393,8 @@
 					type: "item"
 				}
 			]
-			x: -30.5d
-			y: 8.5d
+			x: -33.5d
+			y: 7.5d
 		}
 		{
 			description: [""]
@@ -7006,8 +6451,8 @@
 					type: "item"
 				}
 			]
-			x: -29.5d
-			y: 8.5d
+			x: -32.5d
+			y: 7.5d
 		}
 		{
 			description: [""]
@@ -7064,8 +6509,8 @@
 					type: "item"
 				}
 			]
-			x: -32.5d
-			y: 9.5d
+			x: -30.5d
+			y: 7.5d
 		}
 		{
 			description: [""]
@@ -7110,8 +6555,8 @@
 					type: "item"
 				}
 			]
-			x: -29.5d
-			y: 9.5d
+			x: -33.5d
+			y: 8.5d
 		}
 		{
 			description: [""]
@@ -7168,8 +6613,8 @@
 					type: "item"
 				}
 			]
-			x: -31.5d
-			y: 9.5d
+			x: -29.5d
+			y: 7.5d
 		}
 		{
 			description: [""]
@@ -7226,8 +6671,8 @@
 					type: "item"
 				}
 			]
-			x: -31.5d
-			y: 10.5d
+			x: -29.5d
+			y: 8.5d
 		}
 		{
 			description: [""]
@@ -7296,8 +6741,8 @@
 					type: "item"
 				}
 			]
-			x: -30.5d
-			y: 10.5d
+			x: -29.5d
+			y: 9.5d
 		}
 		{
 			description: [""]
@@ -7333,8 +6778,8 @@
 				}
 				type: "item"
 			}]
-			x: -33.5d
-			y: 10.5d
+			x: -31.5d
+			y: 8.5d
 		}
 		{
 			description: [""]
@@ -7355,8 +6800,8 @@
 					type: "item"
 				}
 			]
-			x: -30.5d
-			y: 7.5d
+			x: -33.5d
+			y: 6.5d
 		}
 		{
 			description: [""]
@@ -8914,7 +8359,7 @@
 			y: 8.5d
 		}
 		{
-			description: ["主线获取。"]
+			description: ["通关纪念饰品。"]
 			disable_toast: true
 			id: "73728C9236E1D74E"
 			shape: "square"
@@ -9502,7 +8947,7 @@
 			y: 12.5d
 		}
 		{
-			description: ["其实，这是一面盾牌。"]
+			description: ["其实，这是一面只能放在主手的盾牌。"]
 			disable_toast: true
 			id: "6EE9028B37D4617C"
 			shape: "square"
@@ -9618,7 +9063,7 @@
 				}
 				type: "item"
 			}]
-			x: -20.5d
+			x: -17.5d
 			y: 9.5d
 		}
 		{
@@ -9793,8 +9238,8 @@
 				}
 				type: "item"
 			}]
-			x: -29.5d
-			y: 7.5d
+			x: -30.5d
+			y: 4.5d
 		}
 		{
 			description: [""]
@@ -9935,8 +9380,8 @@
 					type: "item"
 				}
 			]
-			x: -32.5d
-			y: 12.5d
+			x: -33.5d
+			y: 9.5d
 		}
 		{
 			description: [""]
@@ -9994,7 +9439,7 @@
 				}
 			]
 			x: -33.5d
-			y: 11.5d
+			y: 10.5d
 		}
 		{
 			description: [""]
@@ -10052,7 +9497,7 @@
 				}
 			]
 			x: -32.5d
-			y: 11.5d
+			y: 10.5d
 		}
 		{
 			description: [""]
@@ -10122,7 +9567,7 @@
 				}
 			]
 			x: -31.5d
-			y: 11.5d
+			y: 10.5d
 		}
 		{
 			description: [""]
@@ -10192,7 +9637,7 @@
 				}
 			]
 			x: -30.5d
-			y: 11.5d
+			y: 10.5d
 		}
 		{
 			description: [""]
@@ -10250,7 +9695,7 @@
 				}
 			]
 			x: -29.5d
-			y: 11.5d
+			y: 10.5d
 		}
 		{
 			description: [""]
@@ -10269,8 +9714,8 @@
 				}
 				type: "item"
 			}]
-			x: -33.5d
-			y: 12.5d
+			x: -32.5d
+			y: 9.5d
 		}
 		{
 			description: [""]
@@ -10289,8 +9734,8 @@
 				}
 				type: "item"
 			}]
-			x: -30.5d
-			y: 12.5d
+			x: -32.5d
+			y: 11.5d
 		}
 		{
 			description: [""]
@@ -10309,8 +9754,8 @@
 				}
 				type: "item"
 			}]
-			x: -31.5d
-			y: 12.5d
+			x: -33.5d
+			y: 11.5d
 		}
 		{
 			description: [""]
@@ -10367,8 +9812,8 @@
 					type: "item"
 				}
 			]
-			x: -33.5d
-			y: 9.5d
+			x: -31.5d
+			y: 7.5d
 		}
 		{
 			description: [""]
@@ -10553,8 +9998,8 @@
 				}
 				type: "item"
 			}]
-			x: -20.5d
-			y: 7.5d
+			x: -21.5d
+			y: 9.5d
 		}
 		{
 			description: [""]
@@ -10580,7 +10025,7 @@
 			description: [
 				"需要使用 &n冰锥弹药充能包&r 发射箭矢。"
 				""
-				"&8不要给适应性弩附魔无限！不会有任何效果，而且在未持有冰锥弹药充能包时，可能导致游戏崩溃。"
+				"&c不要给适应性弩附魔无限！不会有任何效果，而且在未持有冰锥弹药充能包时，可能导致游戏崩溃。"
 			]
 			disable_toast: true
 			id: "25B29EDF6CE54D35"
@@ -10601,7 +10046,7 @@
 			y: 6.5d
 		}
 		{
-			description: [""]
+			description: ["用于为 &n适应性弩&r 充能。"]
 			disable_toast: true
 			id: "0C35A1816B69F26C"
 			shape: "square"
@@ -10713,7 +10158,7 @@
 				}
 				type: "item"
 			}]
-			x: -19.5d
+			x: -18.5d
 			y: 9.5d
 		}
 		{
@@ -10800,8 +10245,8 @@
 				}
 			]
 			title: "突变凋零骷髅骨铠"
-			x: -29.5d
-			y: 12.5d
+			x: -31.5d
+			y: 9.5d
 		}
 		{
 			description: [""]
@@ -10820,8 +10265,8 @@
 				}
 				type: "item"
 			}]
-			x: -29.5d
-			y: 10.5d
+			x: -30.5d
+			y: 9.5d
 		}
 		{
 			description: [""]
@@ -11003,7 +10448,7 @@
 				type: "item"
 			}]
 			x: -27.5d
-			y: 13.5d
+			y: 14.5d
 		}
 		{
 			description: [""]
@@ -11017,7 +10462,7 @@
 				type: "item"
 			}]
 			x: -26.5d
-			y: 13.5d
+			y: 14.5d
 		}
 		{
 			description: [""]
@@ -11060,10 +10505,15 @@
 			y: 3.5d
 		}
 		{
-			description: [""]
+			description: [
+				"击败&e虚空之花&r可获取制作材料&7(位于辐射荒原)&r。可提供副手加成，右键可传送至目标位置，获得 &6抗性提升&r 效果。"
+				""
+				"同时，在佩戴&e无光盟约&r后，能够在10秒内为自己回复总共 &n500点&r 灵魂能量；无光盟约达到4级效果翻倍。"
+			]
 			disable_toast: true
 			id: "79ABE39E508D5E14"
 			shape: "square"
+			subtitle: "副手道具，以及回蓝"
 			tasks: [{
 				disable_toast: true
 				id: "7EF7DB9C6ED0DC33"
@@ -11583,7 +11033,7 @@
 				type: "item"
 			}]
 			x: -23.5d
-			y: 10.5d
+			y: 11.5d
 		}
 		{
 			description: [""]
@@ -11597,7 +11047,7 @@
 				type: "item"
 			}]
 			x: -24.5d
-			y: 10.5d
+			y: 11.5d
 		}
 		{
 			description: [""]
@@ -11611,7 +11061,7 @@
 				type: "item"
 			}]
 			x: -25.5d
-			y: 10.5d
+			y: 11.5d
 		}
 		{
 			description: [""]
@@ -11630,7 +11080,7 @@
 				}
 				type: "item"
 			}]
-			x: -21.5d
+			x: -19.5d
 			y: 9.5d
 		}
 		{
@@ -11834,8 +11284,8 @@
 					type: "item"
 				}
 			]
-			x: -33.5d
-			y: 13.5d
+			x: -30.5d
+			y: 11.5d
 		}
 		{
 			description: [""]
@@ -11892,8 +11342,8 @@
 					type: "item"
 				}
 			]
-			x: -32.5d
-			y: 13.5d
+			x: -29.5d
+			y: 11.5d
 		}
 		{
 			description: ["击败&n墓穴&r中的缠魂甲胄获取。"]
@@ -11950,8 +11400,8 @@
 					type: "item"
 				}
 			]
-			x: -31.5d
-			y: 13.5d
+			x: -33.5d
+			y: 12.5d
 		}
 		{
 			description: [""]
@@ -12008,8 +11458,8 @@
 					type: "item"
 				}
 			]
-			x: -30.5d
-			y: 13.5d
+			x: -32.5d
+			y: 12.5d
 		}
 		{
 			description: [""]
@@ -12692,7 +12142,7 @@
 			y: 8.5d
 		}
 		{
-			description: [""]
+			description: ["需要阅读 &c&n过往卷轴&r 后才能制作。"]
 			disable_toast: true
 			id: "331446ABED02B278"
 			shape: "square"
@@ -12720,7 +12170,7 @@
 			y: 10.5d
 		}
 		{
-			description: [""]
+			description: ["需要阅读 &d&n禁书卷轴&r 后才能制作。"]
 			disable_toast: true
 			id: "4FBFACBCA33BEA94"
 			shape: "square"
@@ -13098,7 +12548,7 @@
 			y: 8.5d
 		}
 		{
-			description: [""]
+			description: ["需要阅读 &d&n禁书卷轴&r 后才能制作。"]
 			disable_toast: true
 			id: "2BE065083726A2FC"
 			shape: "square"
@@ -13112,7 +12562,7 @@
 			y: 8.5d
 		}
 		{
-			description: [""]
+			description: ["需要阅读 &c&n过往卷轴&r 后才能制作。"]
 			disable_toast: true
 			id: "0A7B444DF8FEA2D5"
 			shape: "square"
@@ -13420,7 +12870,7 @@
 			y: 26.5d
 		}
 		{
-			description: [""]
+			description: ["需要阅读 &6&n支配卷轴&r 后才能制作。"]
 			disable_toast: true
 			id: "46602DFA43AF8467"
 			shape: "square"
@@ -13808,8 +13258,8 @@
 				}
 				type: "item"
 			}]
-			x: -33.5d
-			y: 14.5d
+			x: -30.5d
+			y: 12.5d
 		}
 		{
 			description: [""]
@@ -13866,8 +13316,8 @@
 					type: "item"
 				}
 			]
-			x: -29.5d
-			y: 13.5d
+			x: -31.5d
+			y: 12.5d
 		}
 		{
 			description: [""]
@@ -14132,7 +13582,7 @@
 				type: "item"
 			}]
 			x: 14.5d
-			y: 9.5d
+			y: 4.5d
 		}
 		{
 			description: [""]
@@ -14145,7 +13595,7 @@
 				item: "kubejs:corrupting_heart"
 				type: "item"
 			}]
-			x: 15.5d
+			x: 14.5d
 			y: 9.5d
 		}
 		{
@@ -14180,7 +13630,7 @@
 				type: "item"
 			}]
 			x: -32.5d
-			y: 14.5d
+			y: 8.5d
 		}
 		{
 			description: [""]
@@ -14246,7 +13696,925 @@
 				}
 			]
 			x: -31.5d
+			y: 11.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "4C19521AC8E7BF5D"
+			shape: "square"
+			tasks: [{
+				disable_toast: true
+				id: "6BCD2343A9C99694"
+				item: "gwrexpansions:copper_bullet"
+				type: "item"
+			}]
+			x: -27.5d
+			y: 10.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "45FFF9A3DBEEE6F4"
+			shape: "square"
+			tasks: [{
+				disable_toast: true
+				id: "2154CA0447F7FCBE"
+				item: "gwrexpansions:redstone_bullet"
+				type: "item"
+			}]
+			x: -26.5d
+			y: 10.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "49043E71A7B0BC98"
+			shape: "square"
+			tasks: [{
+				disable_toast: true
+				id: "0559D20AE39159FC"
+				item: {
+					Count: 1
+					id: "gwrexpansions:ceraunus_burst"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -25.5d
+			y: 9.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "20CA5BE5B0F9E61D"
+			shape: "square"
+			tasks: [{
+				disable_toast: true
+				id: "51B17E501101E142"
+				item: {
+					Count: 1
+					id: "gwrexpansions:remnant_fangshot"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -24.5d
+			y: 9.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "17B6A9CF6A17941B"
+			shape: "square"
+			tasks: [{
+				disable_toast: true
+				id: "17C17F0584E76B47"
+				item: {
+					Count: 1
+					id: "gwrexpansions:harbinger_raycaster"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -26.5d
+			y: 9.5d
+		}
+		{
+			description: ["可作为饰品佩戴。击杀&d虚空傀儡&r或&d末影守卫&r获取。"]
+			disable_toast: true
+			id: "04326FAA85355BD1"
+			shape: "square"
+			tasks: [{
+				disable_toast: true
+				id: "362B3F88CD05CF7E"
+				item: "cataclysm:void_core"
+				type: "item"
+			}]
+			x: -20.5d
+			y: 9.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "14F99E11BDE32079"
+			shape: "square"
+			tasks: [{
+				disable_toast: true
+				id: "70CB1EF5F42D87D4"
+				item: "legendary_monsters:air_rune"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 28.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "67692C9ACCB8F9EF"
+			shape: "square"
+			tasks: [{
+				disable_toast: true
+				id: "6D713E6EA6412DA6"
+				item: {
+					Count: 1
+					id: "legendary_monsters:atmospheric_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -29.5d
+			y: 12.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "7A15B11C7E686A9C"
+			shape: "square"
+			tasks: [{
+				disable_toast: true
+				id: "4E3B04A1D2B44487"
+				item: {
+					Count: 1
+					id: "legendary_monsters:wand_of_clouds"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -11.5d
+			y: 22.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "15622EFF03F46E7E"
+			shape: "square"
+			tasks: [{
+				disable_toast: true
+				id: "425E8F8874A05A65"
+				item: {
+					Count: 1
+					id: "legendary_monsters:axe_of_lightning"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -11.5d
+			y: 23.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "6B5EA6A5B62F907A"
+			shape: "square"
+			tasks: [{
+				disable_toast: true
+				id: "56C46E8642ABE23F"
+				item: "meetyourfight:mossy_tooth"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 28.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "53D96C58A4F4E146"
+			shape: "square"
+			tasks: [{
+				disable_toast: true
+				id: "5BB9242A9E4A4DEB"
+				item: "goetyawaken:gloomy_tears"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 28.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "05D73C1FA6EDAFE0"
+			shape: "square"
+			tasks: [{
+				disable_toast: true
+				id: "5564C1AEAE2CE39A"
+				item: "goetyawaken:detonation_ring"
+				type: "item"
+			}]
+			x: 26.5d
+			y: 7.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "2028D66A26696071"
+			shape: "square"
+			tasks: [{
+				disable_toast: true
+				id: "0933D90008371669"
+				item: "goetyawaken:rampart_manuscript"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 28.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "40EE07A53C12C23D"
+			shape: "square"
+			tasks: [{
+				disable_toast: true
+				id: "7568842D576255FD"
+				item: "legendary_monsters:chiseled_ancient_dripstone_shard"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 28.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "587883D6680FEB0B"
+			shape: "square"
+			tasks: [{
+				disable_toast: true
+				id: "4E966516A9C6E5DB"
+				item: {
+					Count: 1
+					id: "legendary_monsters:anchor_handle"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.5d
+			y: 29.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "6A1ECAD61892E612"
+			shape: "square"
+			tasks: [{
+				disable_toast: true
+				id: "248C0CB8E3FD3B81"
+				item: "legendary_monsters:molten_metal_ingot"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 29.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "0C1F33B683897857"
+			shape: "square"
+			tasks: [{
+				disable_toast: true
+				id: "1A1148B735400FB1"
+				item: {
+					Count: 1
+					id: "legendary_monsters:spiky_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -15.5d
+			y: 24.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "532677298458D875"
+			shape: "square"
+			tasks: [{
+				disable_toast: true
+				id: "031F12D8A9056468"
+				item: {
+					Count: 1
+					id: "legendary_monsters:monstrous_anchor"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -12.5d
+			y: 23.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "62E903FB1E94B262"
+			shape: "square"
+			tasks: [
+				{
+					disable_toast: true
+					id: "5DAE93F98B0AE963"
+					item: {
+						Count: 1
+						id: "legendary_monsters:enderitium_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "411640D779182E17"
+					item: {
+						Count: 1
+						id: "legendary_monsters:enderitium_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -14.5d
+			y: 23.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "193E99136402C459"
+			shape: "square"
+			tasks: [{
+				disable_toast: true
+				id: "13CA3DBEB1588ABC"
+				item: {
+					Count: 1
+					id: "legendary_monsters:chorus_blade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -13.5d
+			y: 23.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "36B6DAB129941D2C"
+			shape: "square"
+			tasks: [{
+				disable_toast: true
+				id: "68687E701ED7BA2A"
+				item: {
+					Count: 1
+					id: "legendary_monsters:buckler_of_annihilation"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -14.5d
+			y: 24.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "44CA36A7A1111A95"
+			shape: "square"
+			tasks: [{
+				disable_toast: true
+				id: "03A544ED22BE0F28"
+				item: {
+					Count: 1
+					id: "legendary_monsters:dinosaur_bone_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -13.5d
+			y: 24.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "5F255E3C587BF300"
+			shape: "square"
+			tasks: [{
+				disable_toast: true
+				id: "521A2D39274983E1"
+				item: {
+					Count: 1
+					id: "legendary_monsters:frostbitten_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -12.5d
+			y: 24.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "002A12DACB57C7E6"
+			shape: "square"
+			tasks: [{
+				disable_toast: true
+				id: "78E18ADD272410B9"
+				item: {
+					Count: 1
+					id: "legendary_monsters:shulker_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -11.5d
+			y: 24.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "2468A7C6400BFF3C"
+			shape: "square"
+			tasks: [{
+				disable_toast: true
+				id: "64578BAEEE3E2413"
+				item: {
+					Count: 1
+					id: "legendary_monsters:chorus_mask"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -32.5d
+			y: 13.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "52ECB832F993198A"
+			shape: "square"
+			tasks: [{
+				disable_toast: true
+				id: "5D1F351EB9AD6554"
+				item: "legendary_monsters:chorus_crystal"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 29.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "28F8C5C14CFA58D5"
+			shape: "square"
+			tasks: [{
+				disable_toast: true
+				id: "6CB4C00A416F83EF"
+				item: "legendary_monsters:large_shulker_shell"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 29.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "7091679E4EDA1505"
+			shape: "square"
+			tasks: [{
+				disable_toast: true
+				id: "57A6BA8FBA2AAB01"
+				item: {
+					Count: 1
+					id: "legendary_monsters:shulker_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -31.5d
+			y: 13.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "1F0099DC6C0EA447"
+			shape: "square"
+			tasks: [{
+				disable_toast: true
+				id: "7ED42B1B152F106B"
+				item: "legendary_monsters:eye_crystal"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 29.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "45672597868C82EC"
+			shape: "square"
+			tasks: [{
+				disable_toast: true
+				id: "431317981EDDAB0D"
+				item: "legendary_monsters:portal_shard"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 30.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "7F198E68A3B51996"
+			shape: "square"
+			tasks: [
+				{
+					disable_toast: true
+					id: "5BD8A0F758DFEFF3"
+					item: {
+						Count: 1
+						id: "legendary_monsters:annihilator_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "09082CE2D0F9A6EE"
+					item: {
+						Count: 1
+						id: "legendary_monsters:annihilator_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "1A02926D7635E7E0"
+					item: {
+						Count: 1
+						id: "legendary_monsters:annihilator_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "3F299A3177E8FC9E"
+					item: {
+						Count: 1
+						id: "legendary_monsters:annihilator_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -33.5d
+			y: 13.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "1DCB35B73EC8E0E9"
+			shape: "square"
+			tasks: [{
+				disable_toast: true
+				id: "7218B22237F005FB"
+				item: {
+					Count: 1
+					id: "legendary_monsters:the_tesseract"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -15.5d
+			y: 23.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "2E15E57FAA8295B5"
+			shape: "square"
+			tasks: [{
+				disable_toast: true
+				id: "43B99CE1539A2CA0"
+				item: {
+					Count: 1
+					id: "legendary_monsters:atom_splitter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -19.5d
 			y: 14.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "3437DD78E2927B3B"
+			shape: "square"
+			tasks: [{
+				disable_toast: true
+				id: "6176CA2ED1D69A17"
+				item: {
+					Count: 1
+					id: "legendary_monsters:knights_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -15.5d
+			y: 25.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "263156B96D354D73"
+			shape: "square"
+			tasks: [{
+				disable_toast: true
+				id: "646DE5F783824555"
+				item: {
+					Count: 1
+					id: "legendary_monsters:golden_halbert"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -14.5d
+			y: 25.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "02F2464C3EF60CED"
+			shape: "square"
+			tasks: [{
+				disable_toast: true
+				id: "7AD6AD112D6FACC0"
+				item: {
+					Count: 1
+					id: "legendary_monsters:shattered_greatsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -13.5d
+			y: 25.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "2F3C19B807EE57E4"
+			shape: "square"
+			tasks: [{
+				disable_toast: true
+				id: "28C605DFA66E444C"
+				item: {
+					Count: 1
+					id: "legendary_monsters:resurrected_javelin"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -12.5d
+			y: 25.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "1E70B82896035E4F"
+			shape: "square"
+			tasks: [{
+				disable_toast: true
+				id: "61DCEE9625962878"
+				item: {
+					Count: 1
+					id: "legendary_monsters:soul_great_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -11.5d
+			y: 25.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "6A5C1942D1E3D194"
+			shape: "square"
+			tasks: [{
+				disable_toast: true
+				id: "58BABAB155EC46DD"
+				item: "legendary_monsters:corrupted_soul"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 30.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "1279E94D8C585106"
+			shape: "square"
+			tasks: [{
+				disable_toast: true
+				id: "550D234DEF9A33B8"
+				item: {
+					Count: 1
+					id: "legendary_monsters:somber_key"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 30.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "2BCC5006B16C5705"
+			shape: "square"
+			tasks: [{
+				disable_toast: true
+				id: "6872D4C0E350E515"
+				item: "legendary_monsters:knight_summoner"
+				type: "item"
+			}]
+			x: -14.5d
+			y: 26.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "2AE60C48A8A59F1B"
+			shape: "square"
+			tasks: [{
+				disable_toast: true
+				id: "341AD50E12D72E64"
+				item: "legendary_monsters:guard_summoner"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 26.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "5C744D2E1344157A"
+			shape: "square"
+			tasks: [{
+				disable_toast: true
+				id: "3EE2D034D38C8273"
+				item: "legendary_monsters:withered_horn"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 30.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "59141526F737C24F"
+			shape: "square"
+			tasks: [{
+				disable_toast: true
+				id: "363DDC71F7D1EA5F"
+				item: "legendary_monsters:withered_bone"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 12.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "3B2B905D54F49CBC"
+			shape: "square"
+			tasks: [{
+				disable_toast: true
+				id: "53827BE93F7E1C25"
+				item: {
+					Count: 1
+					id: "legendary_monsters:withered_ribcage"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -30.5d
+			y: 13.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "5DE96DA6B8EE0E82"
+			shape: "square"
+			tasks: [{
+				disable_toast: true
+				id: "4B91A6B760AD6123"
+				item: {
+					Count: 1
+					id: "legendary_monsters:fiery_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -29.5d
+			y: 13.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "24AC9E32747FE4C6"
+			shape: "square"
+			tasks: [{
+				disable_toast: true
+				id: "455E326CA46C058C"
+				item: {
+					Count: 1
+					id: "legendary_monsters:fiery_jaw"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -20.5d
+			y: 14.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			id: "7C93D835FBC8369C"
+			shape: "square"
+			tasks: [{
+				disable_toast: true
+				id: "3B25749E81423C95"
+				item: {
+					Count: 1
+					id: "legendary_monsters:withered_scythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -15.5d
+			y: 26.5d
 		}
 	]
 	title: "沐沐的知识书"

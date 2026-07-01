@@ -5,7 +5,8 @@
     "item": "minecraft:sculk_catalyst"
   },
   "craftType": "geoturgy",
-  "soulCost": 4,
+  "research": "forbidden",
+  "soulCost": 400,
   "duration": 10,
   "ingredients": [
     {
@@ -47,6 +48,6 @@
   ],
   "result": {
     "item": "minecraft:echo_shard",
-    "count": 8
+    "count": 4
   }
 }

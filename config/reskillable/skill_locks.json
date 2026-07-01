@@ -16,10 +16,17 @@
     "enderitemod:cracked_enderite_ore": ["mining:20"],
     "minecraft:ancient_debris": ["mining:12"],
 
+    "legendary_monsters:eye_of_many_ribs": ["magic:12"],
+    "legendary_monsters:enderitium_upgrade_smithing_template": ["building:20"],
+    "legendary_monsters:annihilator_upgrade_smithing_template": ["building:32"],
     "goety:cryptic_eye": ["magic:16"],
     "goety:blazing_horn": ["magic:16"],
     "goety:dark_scroll": ["magic:20"],
     "goety:void_eye": ["magic:24"],
+    "goetyawaken:lamenting_horn": ["magic:24"],
+    "legendary_monsters:eye_of_ghost": ["magic:32"],
+    "legendary_monsters:eye_of_annihilation": ["magic:32"],
+    "legendary_monsters:eye_of_soul": ["magic:12"],
 
     "goety:arca": ["magic:20"],
     "goety:necro_brazier": ["magic:20"],

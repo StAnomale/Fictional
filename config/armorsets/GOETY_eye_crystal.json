@@ -1,0 +1,24 @@
+{
+  "armorSetName": "eye_crystal",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "legendary_monsters:eye_crystal",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor_toughness",
+      "value": 4.0,
+      "modifierUUID": "8d70ede5-7853-483b-ad69-3ddb59aaffed",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

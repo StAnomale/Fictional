@@ -11,7 +11,7 @@
     {
       "type": "attribute",
       "name": "minecraft:generic.armor",
-      "value": -0.2,
+      "value": -0.3,
       "modifierUUID": "bd2a6240-287b-4538-ad5c-6d83943739b7",
       "attributeOperation": 1,
       "interactionType": "self",
@@ -23,6 +23,16 @@
       "name": "minecraft:generic.attack_damage",
       "modifierUUID": "76e06efc-417b-4931-9764-c6dbb5abf930",
       "value": 0.3,
+      "interactionType": "self",
+      "attributeOperation": 1,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "gunswithoutroses:gwr.damage_total",
+      "modifierUUID": "240cac79-8966-48e0-a882-7cf5ad1e31fd",
+      "value": 0.15,
       "interactionType": "self",
       "attributeOperation": 1,
       "hideBonusDescription": false,

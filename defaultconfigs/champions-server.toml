@@ -29,7 +29,7 @@
 	knockbackResistanceGrowth = 0.1
 	#The increase in experience multiplied by the growth factor
 	#Range: > 0
-	experienceGrowth = 4
+	experienceGrowth = 2
 	#The increase in explosive range multiplied by the growth factor
 	#Range: 0 ~ 100
 	explosionGrowth = 1.5
@@ -79,7 +79,7 @@
 	[affixes.hasty]
 		#The base movement speed bonus
 		#Range: 0.0 ~ 1.7976931348623157E308
-		hastyMovementBonus = 0.25
+		hastyMovementBonus = 0.15
 
 	[affixes.infested]
 		#The amount of parasites to spawn per interval
@@ -115,7 +115,7 @@
 		livelyHealAmount = 2.0
 		#Multiplier to health regeneration when not aggressive
 		#Range: 1.0 ~ 1.7976931348623157E308
-		livelyPassiveMultiplier = 40.0
+		livelyPassiveMultiplier = 20.0
 		#Set cooldown (in seconds) for regeneration after getting attacked
 		#Range: > 1
 		livelyCooldown = 2

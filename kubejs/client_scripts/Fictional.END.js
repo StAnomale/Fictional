@@ -204,6 +204,7 @@ e.add([
 	Text.translate('Fictional.END.curios'),
 	Text.translate('Fictional.END.curios.soul_bead3'),
 	Text.translate('Fictional.END.curios.soul_bead4'),
+	Text.translate('Fictional.END.curios.soul_bead5'),
 	Text.translate('OEA.air'),
 	])
 //苦力怕仆从调试器
@@ -211,6 +212,7 @@ e.add([
 	'mutantmonsters:creeper_minion_tracker'], [
 	Text.translate('OEA.air'),	
 	Text.translate('Fictional.END.curios'),
+	Text.translate('Fictional.END.curios.creeper_minion_tracker0'),
 	Text.translate('Fictional.END.curios.creeper_minion_tracker1'),
 	Text.translate('Fictional.END.curios.creeper_minion_tracker2'),
 	Text.translate('Fictional.END.curios.creeper_minion_tracker3'),
@@ -338,6 +340,7 @@ e.add([
 	Text.translate('Fictional.END.curios.dragon_scale7'),
 	Text.translate('OEA.air'),	
 	Text.translate('Fictional.END.curios'),
+	Text.translate('Fictional.END.curios.dragon_scale0'),
 	Text.translate('Fictional.END.curios.dragon_scale13'),
 	Text.translate('Fictional.END.curios.dragon_scale2'),
 	Text.translate('Fictional.END.curios.dragon_scale10'),

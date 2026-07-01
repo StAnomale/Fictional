@@ -9,7 +9,7 @@
     "type": "masquerader_mod:ballroom_random_spread",
     "salt": 1238586949,
     "spread_type": "triangular",
-    "spacing": 75,
-    "separation": 50
+    "spacing": 65,
+    "separation": 40
   }
 }

@@ -1,0 +1,33 @@
+{
+  "armorSetName": "somber_key",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "legendary_monsters:somber_key",
+      "mustBeEmpty": false
+    }
+  ],
+  "mainHand": {
+    "itemKey": "legendary_monsters:soul_great_sword",
+    "mixAndMatch": [
+      "legendary_monsters:the_tesseract",
+      "eeeabsmobs:guardian_axe",
+      "legendary_monsters:monstrous_anchor",
+
+      "legendary_monsters:shattered_greatsword",
+      "legendary_monsters:resurrected_javelin"
+      ],
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_damage",
+      "value": 0.25,
+      "modifierUUID": "1ee7f327-d9bc-45db-9683-706f2fe8ea81",
+      "attributeOperation": 1,
+      "interactionType": "self"
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

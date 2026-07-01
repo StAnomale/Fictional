@@ -13,6 +13,14 @@
       "modifierUUID": "e0a15f29-a18a-40ac-a9d4-38f0e25ac10f",
       "attributeOperation": 0,
       "interactionType": "self"
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor_toughness",
+      "value": 4.0,
+      "modifierUUID": "09aa404c-af21-4d8d-bb0a-4fd07babd0fa",
+      "attributeOperation": 0,
+      "interactionType": "self"
     }
   ],
   "hideGeneratedTooltip": true

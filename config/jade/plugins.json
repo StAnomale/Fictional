@@ -82,6 +82,9 @@
   "beyonddimensions": {
     "net_info": true
   },
+  "projecte": {
+    "emc_provider": true
+  },
   "jadeaddons.lootr": {
     "info": true
   },

@@ -1,0 +1,31 @@
+{
+  "armorSetName": "corrupted_soul",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "legendary_monsters:corrupted_soul",
+      "mixAndMatch": [
+      ],
+      "mustBeEmpty": false
+    },
+    {
+      "itemKey": "goety:nameless_crown",
+      "mixAndMatch": [
+      ],
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "goety:necromancy_potency",
+      "value": 1.0,
+      "modifierUUID": "1c9402ef-0eaf-4bee-8905-c873d47a25b8",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

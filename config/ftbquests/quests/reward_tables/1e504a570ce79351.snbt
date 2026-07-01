@@ -4,27 +4,17 @@
 	loot_size: 1
 	order_index: 7
 	rewards: [
-		{ item: "goety:vexing_focus" }
 		{ item: "goety:biting_focus" }
 		{ item: "goety:teeth_focus" }
-		{ item: "goety:illusion_focus" }
-		{ item: "goety:fire_breath_focus" }
-		{ item: "goety:soul_bolt_focus" }
 		{ item: "goety:iron_hide_focus" }
 		{ item: "goety:shockwave_focus" }
 		{ item: "goety:arrow_rain_focus" }
-		{ item: "goety:rotting_focus" }
 		{ item: "goety:earth_punch_focus" }
 		{ item: "goety:quaking_focus" }
 		{ item: "goety:skull_focus" }
-		{ item: "goety:phantasm_focus" }
 		{ item: "goety:spooky_focus" }
 		{ item: "goety:reaping_focus" }
-		{ item: "goety:ghost_fire_focus" }
-		{ item: "goety:osseous_focus" }
 		{ item: "goety:ice_storm_focus" }
-		{ item: "goety:ice_spike_focus" }
-		{ item: "goety:frost_breath_focus" }
 		{ item: "goety:eruption_focus" }
 		{ item: "goety:scatter_focus" }
 		{ item: "goety:hail_focus" }
@@ -35,17 +25,10 @@
 		{ item: "goety:swarm_focus" }
 		{ item: "goety:poison_dart_focus" }
 		{ item: "goety:blossoming_focus" }
-		{ item: "goety:hunting_focus" }
 		{ item: "goety:mauling_focus" }
-		{ item: "goety:slimy_focus" }
 		{ item: "goety:carrion_focus" }
 		{ item: "goety:overgrowth_focus" }
 		{ item: "goety:entangling_focus" }
-		{ item: "goety:launch_focus" }
-		{ item: "goety:flying_focus" }
-		{ item: "goety:cyclone_focus" }
-		{ item: "goety:updraft_focus" }
-		{ item: "goety:wind_blast_focus" }
 		{ item: "goety:razor_wind_focus" }
 		{ item: "goety:charge_focus" }
 		{ item: "goety:shocking_focus" }
@@ -62,7 +45,6 @@
 		{ item: "goety:steaming_focus" }
 		{ item: "goety:trident_storm_focus" }
 		{ item: "goety:prisma_beam_focus" }
-		{ item: "goety:guardian_focus" }
 		{ item: "goety:biomine_focus" }
 		{ item: "goety:water_whip_focus" }
 		{ item: "goety:tidal_focus" }
@@ -74,8 +56,6 @@
 		{ item: "goety:fire_blast_focus" }
 		{ item: "goety:flame_strike_focus" }
 		{ item: "goety:ghastly_focus" }
-		{ item: "goety:blink_focus" }
-		{ item: "goety:banish_focus" }
 		{ item: "goety:watching_focus" }
 		{ item: "goety:blasting_focus" }
 		{ item: "goety:snaring_focus" }
@@ -91,7 +71,6 @@
 		{ item: "goety_cataclysm:cursed_tomb_focus" }
 		{ item: "goety_cataclysm:ashen_breath_focus" }
 		{ item: "goety_cataclysm:void_rune_focus" }
-		{ item: "goetyawaken:death_ray_focus" }
 	]
 	title: "聚晶袋"
 }

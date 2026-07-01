@@ -80,6 +80,26 @@
     },
     {
       "type": "attribute",
+      "name": "obscure_api:critical_hit",
+      "value": -0.2,
+      "modifierUUID": "143dcf59-06cd-4d29-847e-892b7deb4e8b",
+      "attributeOperation": 2,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.luck",
+      "value": -0.2,
+      "modifierUUID": "a871fc8e-703a-4be6-808e-a0c727730daa",
+      "attributeOperation": 2,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
       "name": "obscure_api:critical_damage",
       "value": -0.5,
       "modifierUUID": "079d3cb3-96e1-42a5-91ed-0ba8a7fcc557",

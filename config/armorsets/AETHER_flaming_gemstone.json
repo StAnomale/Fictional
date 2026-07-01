@@ -12,7 +12,7 @@
       "type": "attribute",
       "name": "minecraft:generic.max_health",
       "value": 4.0,
-      "modifierUUID": "3307a481-6a50-4813-90ea-ce0cb3eef44c",
+      "modifierUUID": "3ae1e112-2545-4cd4-bfb2-5df237019ea7",
       "attributeOperation": 0,
       "interactionType": "self",
       "hideBonusDescription": false,
@@ -21,9 +21,9 @@
     {
       "type": "attribute",
       "name": "minecraft:generic.attack_damage",
-      "value": 0.15,
-      "modifierUUID": "7939ec80-14a0-471c-85d9-800879f764de",
-      "attributeOperation": 0,
+      "value": 0.2,
+      "modifierUUID": "68b14687-d48f-4ff4-b5b3-e1f8e1e5253f",
+      "attributeOperation": 1,
       "interactionType": "self",
       "hideBonusDescription": false,
       "onlyImmuneToNewEffects": false

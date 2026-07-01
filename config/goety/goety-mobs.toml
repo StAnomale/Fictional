@@ -304,12 +304,12 @@
 	[Servants."Geo Servants"]
 		#How much Soul Energy it cost per second for a Geo Servant to heal, Default: 1
 		#Range: > 0
-		geoMinionHealCost = 2
+		geoMinionHealCost = 4
 		#Whether Geo Servants can heal if summoned while wearing Frost Robe, Default: true
 		geoMinionHeal = true
 		#How much Health Geo Servants heal, numerically, Default: 1.0
 		#Range: 0.0 ~ 1.7976931348623157E308
-		geoMinionHealAmount = 4.0
+		geoMinionHealAmount = 8.0
 		#How frequent Geo Servants heal, count seconds, Default: 1
 		#Range: > 0
 		geoMinionHealTime = 1
@@ -355,7 +355,7 @@
 	[Servants."Natural Servants"]
 		#How much Health Natural Servants heal, numerically, Default: 1.0
 		#Range: 0.0 ~ 1.7976931348623157E308
-		naturalMinionHealAmount = 4.0
+		naturalMinionHealAmount = 8.0
 		#How frequent Natural Servants heal, count seconds, Default: 1
 		#Range: > 0
 		naturalMinionHealTime = 1
@@ -369,7 +369,7 @@
 		redstoneGolemHostileConvert = true
 		#How much Soul Energy it cost per second for a Natural Servant to heal, Default: 1
 		#Range: > 0
-		naturalMinionHealCost = 2
+		naturalMinionHealCost = 4
 		#Whether Trampler Servants when summoned as hostile will convert into their hostile counterpart, Default: true
 		tramplerHostileConvert = true
 		#Whether Redstone Monstrosities when summoned as hostile will convert into their hostile counterpart, Default: true
@@ -401,22 +401,22 @@
 		undeadServantSunlightHelmet = true
 		#How much Soul Energy it cost per second for an Undead Servant to heal, Default: 1
 		#Range: > 0
-		undeadServantsHealCost = 2
+		undeadServantsHealCost = 4
 		#Whether Undead Servants can heal if summoned while wearing Necro Cape, Default: true
 		undeadServantsHeal = true
 		#How much Health Undead Servants heal, numerically, Default: 1.0
 		#Range: 0.0 ~ 1.7976931348623157E308
-		undeadServantsHealAmount = 4.0
+		undeadServantsHealAmount = 8.0
 
 	[Servants."Storm Servants"]
 		#How much Soul Energy it cost per second for a Storm Servant to heal, Default: 1
 		#Range: > 0
-		stormMinionHealCost = 2
+		stormMinionHealCost = 4
 		#Whether Storm Servants can heal if summoned while wearing Frost Robe, Default: true
 		stormMinionHeal = true
 		#How much Health Storm Servants heal, numerically, Default: 1.0
 		#Range: 0.0 ~ 1.7976931348623157E308
-		stormMinionHealAmount = 4.0
+		stormMinionHealAmount = 8.0
 		#How frequent Storm Servants heal, count seconds, Default: 1
 		#Range: > 0
 		stormMinionHealTime = 1
@@ -429,15 +429,15 @@
 		waterMinionHeal = true
 		#How much Health Water Servants heal, numerically, Default: 1.0
 		#Range: 0.0 ~ 1.7976931348623157E308
-		waterMinionHealAmount = 4.0
+		waterMinionHealAmount = 8.0
 		#How much Soul Energy it cost per second for a Water Servant to heal, Default: 1
 		#Range: > 0
-		waterMinionHealCost = 2
+		waterMinionHealCost = 4
 
 	[Servants."Nether Servants"]
 		#How much Health Nether Servants heal, numerically, Default: 1.0
 		#Range: 0.0 ~ 1.7976931348623157E308
-		netherMinionHealAmount = 4.0
+		netherMinionHealAmount = 8.0
 		#Whether Wildfire's summons have limited lifespans, Default: true
 		wildfireSummonsLife = true
 		#How frequent Nether Servants heal, count seconds, Default: 1
@@ -445,7 +445,7 @@
 		netherMinionHealTime = 1
 		#How much Soul Energy it cost per second for a Nether Servant to heal, Default: 1
 		#Range: > 0
-		netherMinionHealCost = 2
+		netherMinionHealCost = 4
 		#Whether owned Wildfires drop Blazing Helms, Default: true
 		wildfireBlazingHelm = true
 		#Whether Nether Servants can heal if summoned while wearing Nether Robe, Default: true
@@ -456,10 +456,10 @@
 		windMinionHeal = true
 		#How much Soul Energy it cost per second for a Wind Servant to heal, Default: 1
 		#Range: > 0
-		windMinionHealCost = 2
+		windMinionHealCost = 4
 		#How much Health Wind Servants heal, numerically, Default: 1.0
 		#Range: 0.0 ~ 1.7976931348623157E308
-		windMinionHealAmount = 4.0
+		windMinionHealAmount = 8.0
 		#How frequent Wind Servants heal, count seconds, Default: 1
 		#Range: > 0
 		windMinionHealTime = 1
@@ -470,22 +470,22 @@
 		voidMinionHealTime = 1
 		#How much Soul Energy it cost per second for a Void Servant to heal, Default: 1
 		#Range: > 0
-		voidMinionHealCost = 2
+		voidMinionHealCost = 4
 		#Whether Void Servants can heal if summoned while wearing Nether Robe, Default: true
 		voidMinionHeal = true
 		#How much Health Void Servants heal, numerically, Default: 1.0
 		#Range: 0.0 ~ 1.7976931348623157E308
-		voidMinionHealAmount = 4.0
+		voidMinionHealAmount = 8.0
 
 	[Servants."Frost Servants"]
 		#Whether Frost Servants can heal if summoned while wearing Frost Robe, Default: true
 		frostMinionHeal = true
 		#How much Soul Energy it cost per second for a Frost Servant to heal, Default: 1
 		#Range: > 0
-		frostMinionHealCost = 2
+		frostMinionHealCost = 4
 		#How much Health Frost Servants heal, numerically, Default: 1.0
 		#Range: 0.0 ~ 1.7976931348623157E308
-		frostMinionHealAmount = 4.0
+		frostMinionHealAmount = 8.0
 		#How frequent Frost Servants heal, count seconds, Default: 1
 		#Range: > 0
 		frostMinionHealTime = 1

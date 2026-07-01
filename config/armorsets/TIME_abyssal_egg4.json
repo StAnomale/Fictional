@@ -1,0 +1,29 @@
+{
+  "armorSetName": "abyssal_egg",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "cataclysm:abyssal_egg",
+      "mustBeEmpty": false
+    }
+  ],
+  "offHand": {
+    "itemKey": "cataclysm:tidal_claws",
+    "mixAndMatch": [
+      ],
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_speed",
+      "value": 0.4,
+      "modifierUUID": "f259ee99-26be-43b2-bfe3-96dfa314f640",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

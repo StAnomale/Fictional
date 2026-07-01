@@ -270,6 +270,7 @@ e.add([
 	Text.translate('Fictional.DC.curios.tomb_planter2'),
 	Text.translate('Fictional.DC.curios.tomb_planter1'),
 	Text.translate('Fictional.DC.curios.tomb_planter3'),
+	Text.translate('Fictional.DC.curios.tomb_planter4'),
 	Text.translate('OEA.air'),
 	Text.translate('Fictional.GOETY.curios.covenant_fate1'),
 	Text.translate('Fictional.GOETY.curios.covenant_fate2'),
@@ -437,6 +438,7 @@ e.add([
 
 e.add([
 	'gwrexpansions:voidspike',
+	'gwrexpansions:harbinger_raycaster',
 	'gwrexpansions:obsidian_launcher',
 	'gwrexpansions:netherite_sniper',
 	'gwrexpansions:cursium_sniper',
@@ -542,9 +544,9 @@ e.add([
 	'cataclysm:astrape'], [
 	Text.translate('OEA.air'),
 	Text.translate('Fictional.DC.astrape3'),
+	Text.translate('Fictional.DC.astrape4'),
 	Text.translate('Fictional.DC.astrape1'),
 	Text.translate('Fictional.DC.astrape2'),
-	Text.translate('Fictional.DC.curios.chitin_claw3'),
 	Text.translate('OEA.air'),
 	])
 
